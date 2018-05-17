@@ -37,7 +37,7 @@ middle of the word ("ubernete") with the number of letters it contains (8). K8s 
 
 *Additional notes:*
 
-1. Contrary to the pronunciation of Kubernetes, KubeCon is pronounced KYOOB-kon.
+1. Contrary to the pronunciation of Kubernetes, [KubeCon](http://kubecon.io) is pronounced KYOOB-kon.
 2. There is no consensus on how to pronounce kubectl.
 
 ## 3. Other CNCF Projects ##
