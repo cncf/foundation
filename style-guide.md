@@ -31,7 +31,7 @@ theory).
 *Abbreviation:* K8s (sometimes k8s), a [numeronym](https://en.wikipedia.org/wiki/Numeronym) formed by replacing the
 middle of the word ("ubernete") with the number of letters it contains (8). K8s is preferred, as Kubernetes is a proper noun. 
 
-*Unaccepted abbreviations:* K8, which leaves off the "s," and K8S, which gets the capitalization wrong.
+*Unacceptable abbreviations:* K8, which leaves off the "s," and K8S, which gets the capitalization wrong.
 
 *Pronunciation:* koo-bur-NET-ees. Source: its co-creator [Joe Beda](https://twitter.com/jbeda/status/773368060728057856).
 
