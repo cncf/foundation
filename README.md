@@ -1,2 +1,2 @@
 # foundation
-File issues related to the CNCF Foundation
+File issues related to the CNCF Foundation.
