@@ -1,14 +1,14 @@
 ## CNCF Community Code of Conduct v1.0
 
 Other languages available:
-- [Chinese](code-of-conduct-languages/zh.md)
-- [German](code-of-conduct-languages/de.md)
-- [Spanish](code-of-conduct-languages/es.md)
-- [French](code-of-conduct-languages/fr.md)
-- [Italian](code-of-conduct-languages/it.md)
-- [Japanese](code-of-conduct-languages/jp.md)
-- [Korean](code-of-conduct-languages/ko.md)
-- [Ukrainian](code-of-conduct-languages/uk.md)
+- [Chinese/漢語](code-of-conduct-languages/zh.md)
+- [German/Deutsch](code-of-conduct-languages/de.md)
+- [Spanish/Español](code-of-conduct-languages/es.md)
+- [French/Français](code-of-conduct-languages/fr.md)
+- [Italian/Italiano](code-of-conduct-languages/it.md)
+- [Japanese/日本語](code-of-conduct-languages/jp.md)
+- [Korean/한국어](code-of-conduct-languages/ko.md)
+- [Ukrainian/Українська](code-of-conduct-languages/uk.md)
 
 ### Contributor Code of Conduct
 
