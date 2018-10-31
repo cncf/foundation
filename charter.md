@@ -289,7 +289,8 @@ The CNCF shall be composed of Platinum, Gold, Silver, End-User and Academic and 
 
 -	(a) All participants agree to abide by The Linux Foundation Code of Conduct available at https://events.linuxfoundation.org/code-of-conduct. The TSC may vote to adopt its own code of conduct for the CNCF community.
 
--	1.	Related Companies
+#### 14. Related Companies
+
 -	(a) Definitions:
 
 	-	i. “Subsidiaries” shall mean any entity in which a Member owns, directly or indirectly, more than fifty percent of the voting securities or membership interests of the entity in question;
