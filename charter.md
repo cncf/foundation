@@ -197,7 +197,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End-User and Academic and 
 
 -	iii. Elections: After the Evaluation Period, the Governing Board and the seven non-TOC-appointed TOC members, shall vote on each nominee individually. A valid vote shall require as many votes as would be required to meet quorum for a meeting. Each nominee shall require support of over 50% majority of those voting to validate the nominee meets the qualification criteria. Nominees passing with a majority vote shall be Qualified Nominees.
 
--	iv. If the number of Qualified Nominees are equal to or less than the number of TOC seats available to be elected, the Qualified Nominees shall be approved after the nomination period has closed. If there are more Qualified Nominees than open TOC seats available for election by either the the Governing Board, End User TAB or TOC, then that group shall elect the TOC members via a Condorcet vote. A Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service (http://civs.cs.cornell.edu/).
+-	iv. If the number of Qualified Nominees are equal to or less than the number of TOC seats available to be elected, the Qualified Nominees shall be approved after the nomination period has closed. If there are more Qualified Nominees than open TOC seats available for election by either the the Governing Board, End User TAB or TOC, then that group shall elect the TOC members via a Condorcet vote. A Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service (https://civs.cs.cornell.edu/).
 
 -	v. If there are fewer Qualified Nominees than open TOC seats available for election by either the Governing Board, End User TAB or TOC, the group shall initiate another round of nominations with each member or individual eligible to nominate submitting at most one (1) nominee.
 
@@ -274,7 +274,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End-User and Academic and 
 
 -	(a) Any project that is added to the CNCF must have ownership of its trademark and logo assets transferred to the Linux Foundation.
 -	(b) Each project shall determine whether it will require use of an approved CNCF CLA. For projects that select to use a CLA, all code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF as the recipient of the contributions, and which shall be approved by the Governance Board. See CNCF Contributor License Agreements available at https://github.com/cncf/cla. The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
--	(c) All new inbound code contributions to the CNCF shall be (i) accompanied by a Developer Certificate of Origin sign-off (http://developercertificate.org) and (ii) made under the Apache License, Version 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0), such license to be in addition to, and shall not supersede, obligations undertaken under the contribution license agreement(s) provided for in (b) above.
+-	(c) All new inbound code contributions to the CNCF shall be (i) accompanied by a Developer Certificate of Origin sign-off (https://developercertificate.org) and (ii) made under the Apache License, Version 2.0 (available at https://www.apache.org/licenses/LICENSE-2.0), such license to be in addition to, and shall not supersede, obligations undertaken under the contribution license agreement(s) provided for in (b) above.
 -	(d) All outbound code will be made available under the Apache License, Version 2.0.
 -	(e) All projects evaluated for inclusion in the CNCF shall be completely licensed under an OSI-approved open source license. If the license for a project included in CNCF is not Apache License, Version 2.0, approval of the Governing Board shall be required.
 -	(f) All documentation will be received and made available by the CNCF under the Creative Commons Attribution 4.0 International License.
@@ -282,12 +282,12 @@ The CNCF shall be composed of Platinum, Gold, Silver, End-User and Academic and 
 
 #### 12. Antitrust Guidelines
 
--	(a) All members shall abide by the requirements for The Linux Foundation set forth in the Linux Foundation Antitrust Policy available at http://www.linuxfoundation.org/antitrust-policy.
+-	(a) All members shall abide by the requirements for The Linux Foundation set forth in the Linux Foundation Antitrust Policy available at https://www.linuxfoundation.org/antitrust-policy.
 -	(b) All members shall encourage open participation from any organization able to meet the membership requirements, regardless of competitive interests. Put another way, the Governing Board shall not seek to exclude members based on any criteria, requirements or reasons other than those used for all members.
 
 #### 13. Code of Conduct
 
--	(a) All participants agree to abide by The Linux Foundation Code of Conduct available at http://events.linuxfoundation.org/code-of-conduct. The TSC may vote to adopt its own code of conduct for the CNCF community.
+-	(a) All participants agree to abide by The Linux Foundation Code of Conduct available at https://events.linuxfoundation.org/code-of-conduct. The TSC may vote to adopt its own code of conduct for the CNCF community.
 
 -	1.	Related Companies
 -	(a) Definitions:
