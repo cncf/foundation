@@ -188,7 +188,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End-User and Academic and 
 -	(e) Process for TOC Member Nominations and Election
 
 	-	i. The TOC shall be composed of nine (9) TOC members: six (6) elected by the Governing Board, one (1) selected by the End User TAB and two (2) elected by the initial seven TOC members.
-	-	ii. Nominations: Each individual (entity or member) eligible to nominate a TOC member may nominate up to two (2) technical representatives, (from vendors, end users or any other fields), at most one of which may be from their respective company. The nominee(s) must agree to participate prior to being added to the nomination list.
+	-	ii. Nominations: Each CNCF member may nominate up to two (2) technical representatives, (from vendors, end users or any other fields), at most one of which may be from their respective company. The nominee(s) must agree to participate prior to being added to the nomination list.
 
 		-	a. The initial seven (7) TOC members (the six elected by the Governing Board plus one (1) elected by the End User TAB) shall then nominate and elect two (2) additional TOC members using the Nomination Process.
 		-	b. A nomination requires a maximum one (1) page nomination pitch which should include the nominees name, contact information and supporting statement identifying the nominees experience in CNCF domains.
