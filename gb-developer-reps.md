@@ -12,7 +12,7 @@ The GB meets every two to three months to approve resolutions and discuss CNCF a
 
 Members of the Kubernetes Steering Committee are eligible to hold the Kubernetes seat. The Steering Committee will determine its own method for selecting the representative, though CNCF is happy to run an election for it if requested.
 
-For the other seat, the pool of eligible nominees and voters are individuals who have commit privileges (also known as maintainers or as having the Github commit bit) in at least one non-inception-level, non-Kubernetes CNCF project at the time when nominations are called. The CNCF maintains a [list](https://docs.google.com/spreadsheets/d/1Pr8cyp8RLrNGx9WBAgQvBzUUmqyOv69R7QAFKhacJEM/edit#gid=262035321) of project maintainers.
+For the other seat, the pool of eligible nominees and voters are individuals who have commit privileges (also known as maintainers or as having the Github commit bit) in at least one non-sandbox-level, non-Kubernetes CNCF project at the time when nominations are called. The CNCF maintains a [list](https://docs.google.com/spreadsheets/d/1Pr8cyp8RLrNGx9WBAgQvBzUUmqyOv69R7QAFKhacJEM/edit#gid=262035321) of project maintainers.
 
 Individuals with commit privileges who already hold a Governing Board seat through a vendor relationship or by being TOC chair are eligible to vote but not to run. The 2 developer seats and the TOC chair are collectively known as Technical Community Representatives and are required to be from different companies. If more than one Technical Community Representative would be from the same company, either at the time of election or from a later job change, they will jointly decide who should step down, or if there is no agreement, random lots shall be drawn.
 
