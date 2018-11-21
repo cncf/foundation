@@ -1,7 +1,7 @@
 Cloud Native Computing Foundation (“CNCF”) Charter
 
-The Linux Foundation
-Effective Nov 6 2015
+The Linux Foundation \
+Effective Nov 6 2015 / Updated Dec 3 2015
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -71,6 +71,12 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	iv. If the member is also an End User, all of the privileges of End User members in (d).
 
+-	(b) Gold members shall be entitled to:
+
+	-	i. Appoint one (1) representative to the CNCF Governing Board per every five (5) Gold members, up to three (3) maximum Gold representatives.
+
+	-	ii. If the member is also an approved End User, all of the privileges of End User Members in (d).
+
 -	(c) Silver members shall be entitled to:
 
 	-	i. Appoint one (1) representative to the CNCF Governing Board per every ten (10) Silver members, up to three (3) maximum Silver representatives.
@@ -107,7 +113,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	i. one representative appointed from each Platinum member;
 
-	-	ii. the Silver member elected representatives (if any); and
+	-	ii. the Gold and Silver member elected representatives (if any); and
 
 	-	iii. the TOC Chair.
 
@@ -223,25 +229,25 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	v. If there are fewer Qualified Nominees than open TOC seats available for election by either the Governing Board, End User TAB or TOC, the group shall initiate another round of nominations with each member or individual eligible to nominate submitting at most one (1) nominee.
 
-- (f) Constraints
+-	(f) Constraints
 
-    -	i. TOC Members shall serve two-year, staggered terms. The initial six elected TOC members from the Governing Board election shall serve an initial term of three (3) years. The TOC members initially elected by the End User TAB and TOC shall serve an initial term of two (2) years.
+	-	i. TOC Members shall serve two-year, staggered terms. The initial six elected TOC members from the Governing Board election shall serve an initial term of three (3) years. The TOC members initially elected by the End User TAB and TOC shall serve an initial term of two (2) years.
 
-    -	ii. TOC members may be removed by a two-thirds vote of the other TOC members, with the impacted individual ineligible to participate in the vote.
+	-	ii. TOC members may be removed by a two-thirds vote of the other TOC members, with the impacted individual ineligible to participate in the vote.
 
-    -	iii. Any TOC member that misses three (3) consecutive meetings shall be automatically suspended from eligibility to vote until having attended two meetings consecutively. For avoidance of doubt, the suspended TOC member shall be eligible to vote in the second consecutive meeting.
+	-	iii. Any TOC member that misses three (3) consecutive meetings shall be automatically suspended from eligibility to vote until having attended two meetings consecutively. For avoidance of doubt, the suspended TOC member shall be eligible to vote in the second consecutive meeting.
 
-    -	iv. The TOC charter, model, approach, composition, etc may be modified by a two-thirds vote of the entire Governing Board.
+	-	iv. The TOC charter, model, approach, composition, etc may be modified by a two-thirds vote of the entire Governing Board.
 
-    -	v. The TOC agenda will be set by the TOC. However, it is expected that initial TOC discussions and decisions will cover:
+	-	v. The TOC agenda will be set by the TOC. However, it is expected that initial TOC discussions and decisions will cover:
 
-	    -	a. assessing technologies to include in CNCF
+		-	a. assessing technologies to include in CNCF
 
-	    -	b. defining acceptance criteria for new technologies to include in CNCF
+		-	b. defining acceptance criteria for new technologies to include in CNCF
 
-	    -	c. defining process to ratify a contributed technology as a standard API
+		-	c. defining process to ratify a contributed technology as a standard API
 
-	    -	d. identifying immediate gaps that require further investigation
+		-	d. identifying immediate gaps that require further investigation
 
 #### 7. End User Community
 
