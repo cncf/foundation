@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015
+Effective Nov 6 2015 / Updated Dec 3 2015
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -72,6 +72,12 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	iv. If the member is also an End User, all of the privileges of End User members in (d).
 
+-	(b) Gold members shall be entitled to:
+
+	-	i. Appoint one (1) representative to the CNCF Governing Board per every five (5) Gold members, up to three (3) maximum Gold representatives.
+
+	-	ii. If the member is also an approved End User, all of the privileges of End User Members in (d).
+
 -	(c) Silver members shall be entitled to:
 
 	-	i. Appoint one (1) representative to the CNCF Governing Board per every ten (10) Silver members, up to three (3) maximum Silver representatives.
@@ -108,7 +114,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	i. one representative appointed from each Platinum member;
 
-	-	ii. the Silver member elected representatives (if any); and
+	-	ii. the Gold and Silver member elected representatives (if any); and
 
 	-	iii. the TOC Chair.
 
