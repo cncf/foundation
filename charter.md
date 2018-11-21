@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated Mar 28 2017
+Effective Nov 6 2015 / Updated Mar 5 2018
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -155,7 +155,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 	-	b. The staffing of key resources to build, run and manage project productivity infrastructure.
 	-	c. The promotion of container-based computing principles as outlined and implementation thereof via the CNCF’s projects.
 
-#### 6. Technical Oversight Committee (“TOC”)
+#### 7. Technical Oversight Committee (“TOC”)
 
 -	(a) Mandate. The TOC is expected to facilitate driving neutral consensus for:
 
@@ -231,7 +231,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 		-	d. A minimum of 14 calendar days shall be reserved for an Evaluation Period whereby TOC nominees may be contacted and/or evaluate the electors.
 
-	-	iii. Elections: After the Evaluation Period, the Governing Board, End User TAB and later, initial seven TOC members, shall vote on each nominee individually. A valid vote shall require as many votes as would be required to meet quorum for a meeting. Each nominee shall require support of over 50% majority of those voting to validate the nominee meets the qualification criteria. Nominees passing with a majority vote shall be Qualified Nominees.
+	-	iii. Elections: After the Evaluation Period, the Governing Board and the seven non-TOC-appointed TOC members, shall vote on each nominee individually. A valid vote shall require as many votes as would be required to meet quorum for a meeting. Each nominee shall require support of over 50% majority of those voting to validate the nominee meets the qualification criteria. Nominees passing with a majority vote shall be Qualified Nominees.
 
 	-	iv. If the number of Qualified Nominees are equal to or less than the number of TOC seats available to be elected, the Qualified Nominees shall be approved after the nomination period has closed. If there are more Qualified Nominees than open TOC seats available for election by either the the Governing Board, End User TAB or TOC, then that group shall elect the TOC members via a Condorcet vote. A Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service ([*http://civs.cs.cornell.edu/*](http://civs.cs.cornell.edu/)).
 
