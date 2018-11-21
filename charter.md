@@ -1,7 +1,7 @@
 Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation \
-Effective Nov 6 2015 / Updated Dec 3 2015
+Effective Nov 6 2015 / Updated Dec 15 2015
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -213,7 +213,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	i. The TOC shall be composed of nine (9) TOC members: six (6) elected by the Governing Board, one (1) selected by the End User TAB and two (2) elected by the initial seven TOC members.
 
-	-	ii. Nominations: Each individual (entity or member) eligible to nominate a TOC member may nominate up to two (2) technical representatives, (from vendors, end users or any other fields), at most one of which may be from their respective company. The nominee(s) must agree to participate prior to being added to the nomination list.
+	-	ii. Nominations: Each CNCF member may nominate up to two (2) technical representatives, (from vendors, end users or any other fields), at most one of which may be from their respective company. The nominee(s) must agree to participate prior to being added to the nomination list.
 
 		-	a. The initial seven (7) TOC members (the six elected by the Governing Board plus one (1) elected by the End User TAB) shall then nominate and elect two (2) additional TOC members using the Nomination Process.
 
