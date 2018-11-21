@@ -1,7 +1,7 @@
 Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation \
-Effective Nov 6 2015 / Updated Nov 29 2016
+Effective Nov 6 2015 / Updated Mar 28 2017
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -93,7 +93,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 #### 5. Governing Board
 
--	(a) The CNCF Governing Board will be responsible for marketing and other business oversight and budget decisions for the CNCF. The Governing Board does not make technical decisions for the CNCF, other than working with the TOC to set the overall scope for the CNCF, initially established in Schedule A, and updated from time to time on the CNCF website.
+-	(a) The CNCF Governing Board will be responsible for marketing and other business oversight and budget decisions for the CNCF. The Governing Board does not make technical decisions for the CNCF, other than working with the TOC to set the overall scope for the CNCF as described in the cloud native definition from Section 1.
 
 -	(b) The Governing Board will address business matters including:
 
@@ -109,15 +109,22 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	vi. fundraising and financial governance overall;
 
--	(c) Composition – the Governing Board voting members shall consist of:
+-	(c) Composition – the Governing Board voting members shall consist of Member Representatives and Technical Community Representatives:
 
-	-	i. one representative appointed from each Platinum member;
+	-	i. Member Representatives consist of:
 
-	-	ii. the Gold and Silver member elected representatives (if any); and
+        -	a. one representative appointed from each Platinum member; and
+        -	b. the Gold and Silver member elected representatives (if any)
 
-	-	iii. the TOC Chair.
+	-	ii. Technical Community Representatives consist of:
+        
+        - a. the TOC Chair, and
 
-	-	iv. The Governing Board may extend a Platinum membership at the Silver Membership Scale rates on a year-by-year basis for up to 5 years to startup companies with revenues less than \$50 million that are deemed strategic technology contributors by the Governing Board.
+        - b. two Committers elected from the CNCF Projects under a process approved by the then-serving Governing Board.
+
+	-	iii. The Governing Board may extend a Platinum membership at the Silver Membership Scale rates on a year-by-year basis for up to 5 years to startup companies with revenues less than \$50 million that are deemed strategic technology contributors by the Governing Board.
+
+    -	iv. Only one person from a group of Related Companies may serve as a Member Representative. Only one person from a group of Related Companies may serve as a Technical Community Representative.
 
 -	(d) Responsibilities:
 
@@ -349,19 +356,37 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 -	a. All participants agree to abide by The Linux Foundation Code of Conduct available at [*http://events.linuxfoundation.org/code-of-conduct*](http://events.linuxfoundation.org/code-of-conduct). The TSC may vote to adopt its own code of conduct for the CNCF community.
 
-#### 14. Budget
+#### 14. Related Companies
+ 
+- (a). Definitions:
+    - i. “Subsidiaries” shall mean any entity in which a Member owns, directly or indirectly, more than fifty percent of the voting securities or membership interests of the entity in question;
+
+    - ii. “Related Company” shall mean any entity which controls or is controlled by a Member or which, together with a Member, is under the common control of a third party, in each case where such control results from ownership, either directly or indirectly, of more than fifty percent of the voting securities or membership interests of the entity in question; and
+
+    - iii. “Related Companies” are entities that are each a Related Company of a Member.
+
+- (b). Only the legal entity which has executed a Participation Agreement and its Subsidiaries shall be entitled to enjoy the rights and privileges of such Membership; provided, however, that such Member and its Subsidiaries shall be treated together as a single Member.
+ 
+- (c). Only one Member which is part of a group of Related Companies shall be entitled to appoint, or nominate for a membership class election, a representative on the Governing Board at one time.
+
+- (d) If a Member is itself a foundation, consortium, open source project, membership organization, user group or other entity that has members or sponsors, then the rights and privileges granted to such Member shall extend only to the employee-representatives of such Member, and not to its members or sponsors, unless otherwise approved by the Governing Board in a specific case from time to time.
+
+- (e). Memberships shall be non-transferable, non-salable and non-assignable, except that any Member may transfer its current Membership benefits and obligations to a successor to substantially all of its business and/or assets, whether by merger, sale or otherwise; provided that the transferee agrees to be bound by this Charter and the Bylaws and policies required by Linux Foundation membership.
+
+
+#### 15. Budget
 
 -	a. The Governing Board shall approve an annual budget and never commit to spend in excess of funds raised. The budget shall be consistent with the nonprofit mission of The Linux Foundation.
 
 -	b. The Linux Foundation shall provide regular reports of spend levels against the budget.
 
-#### 15. General & Administrative Expenses
+#### 16. General & Administrative Expenses
 
 -	a. The Linux Foundation shall have custody of any fees, funds and other cash receipts.
 
 -	b. A General & Administrative (G&A) fee will be applied to funds raised to cover Finance, Accounting and operations. The G&A fee shall equal 9% of CNCF’s first \$1,000,000 of gross receipts and 6% of CNCF’s gross receipts over \$1,000,000.
 
-#### 16. General Rules and Operations.
+#### 17. General Rules and Operations.
 
 The participants in CNCF shall:
 
@@ -379,7 +404,7 @@ The participants in CNCF shall:
 
 -	g. operate under such rules and procedures as may from time to time be approved by the Governing Board, provided that such rules and procedures shall not be inconsistent with the purpose and policies of the Linux Foundation and shall not be detrimental to the Linux Foundation.
 
-#### 17. Amendments
+#### 18. Amendments
 
 This charter may be amended by a two-thirds vote (excluding abstentions) of all Governing Board members, provided that any such amendments shall not be inconsistent with the purpose or policies of the Linux Foundation and shall not be detrimental to the Linux Foundation.
 
