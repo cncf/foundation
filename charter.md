@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated Dec 15 2015
+Effective Nov 6 2015 / Updated Nov 29 2016
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -70,23 +70,23 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	iii. Enjoy most prominent placement in displays of membership including on the website.
 
-	-	iv. If the member is also an End User, all of the privileges of End User members in (d).
+	-	iv. If the member is also an approved End User, all of the privileges of End User Mmembers in (d).
 
 -	(b) Gold members shall be entitled to:
 
 	-	i. Appoint one (1) representative to the CNCF Governing Board per every five (5) Gold members, up to three (3) maximum Gold representatives.
 
-	-	ii. If the member is also an approved End User, all of the privileges of End User Members in (d).
+	-	ii. If the member is also an approved End User, all of the privileges of End User Mmembers in (d).
 
 -	(c) Silver members shall be entitled to:
 
 	-	i. Appoint one (1) representative to the CNCF Governing Board per every ten (10) Silver members, up to three (3) maximum Silver representatives.
 
-	-	ii. If the member is also an End User, all of the privileges of End User members in (d).
+	-	ii. If the member is also an approved End User, all of the privileges of End User Mmembers in (d).
 
 -	(d) End User members shall be entitled to:
 
-	-	i. Participate in the End User Advisory Community
+	-	i. Participate in the End User Advisory Community as described below;
 
 	-	ii. Nominate one (1) representative to the End User Technical Advisory Board.
 
@@ -252,17 +252,17 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 #### 7. End User Community
 
--	(a) End User members in CNCF shall be entitled to coordinate and drive activities important to users of CNCF as consumers for which CNCF was designed. Any member who is an End User shall be invited to participate. The End User participants are expected to help provide input to the Technical Advisory Board and CNCF community on topics relevant to users.
+-	(a) End User Members in CNCF shall be entitled to coordinate and drive activities important to users of CNCF as consumers for which CNCF was designed. Any member or non-member who is an End User, each an “End User Participant”, shall be invited to participate. The End User Participants are expected to help provide input to the Technical Advisory Board and CNCF community on topics relevant to users.
 
--	(b) The End User Community shall elect an End User Technical Advisory Board.
+-	(b) The End User Community Members shall elect an End User Technical Advisory Board.
 
--	(c) The initial End User Community participants will be approved by The Linux Foundation consulting with members of the community if there are any questionable applicants. Once the End User Technical Advisory Board is selected, the representatives on the End User Technical Advisory Board will approve new End Users.
+-	(c) End User Community Members will be approved by the CNCF Executive Director, or if none exists, The Linux Foundation Executive Director.
 
 #### 8. End User Technical Advisory Board (“End User TAB”).
 
--	(d) Composition: The End User TAB shall be composed of seven (7) representatives from End User participants plus one member of the TOC to facilitate input from the End User TAB to the TOC.
+-	(d) Composition: The End User TAB shall be composed of seven (7) representatives from End User Participants plus one member of the TOC to facilitate input from the End User TAB to the TOC.
 
--	(e) Selection: To encourage participation of End Users in CNCF, the first seven (7) End User participants may appoint one (1) representative to the initial End User TAB. After the initial year, the End User participants may nominate one (1) representative and the End User Community shall vote to select the End User TAB members using a process approved by the then current End User TAB.
+-	(e) Selection: To encourage participation of End Users in CNCF, the first seven (7) End User Members may appoint one (1) representative to the initial End User TAB with any remaining seats allocated by the CNCF Director to any End User Participant. After the initial year, all End User Participants may nominate one (1) representative and the End User Community shall vote to select the End User TAB members using a process approved by the then current End User TAB.
 
 -	(f) The End User TAB may alter the size of the End User by two-thirds vote, provided there are a minimum of seven (7) possible representatives.
 
@@ -328,7 +328,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 -	(a) Any project that is added to the CNCF must have ownership of its trademark and logo assets transferred to the Linux Foundation.
 
--	(b) All code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF as the recipient of the contributions, and which shall be approved by the Governance Board. See Apache Corporate Contributor License Agreement ([*https://www.apache.org/licenses/cla-corporate.txt*](https://www.apache.org/licenses/cla-corporate.txt)\) and Apache Individual Contributor License Agreement ([*https://www.apache.org/licenses/icla.txt*](https://www.apache.org/licenses/icla.txt)). The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
+-	(b) Each project shall determine whether it will require use of an approved CNCF CLA. For projects that select to use a CLA, all code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF as the recipient of the contributions, and which shall be approved by the Governance Board. See CNCF Contributor License Agreements available at https://github.com/cncf/cla. The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
 
 -	(c) All new inbound code contributions to the CNCF shall be (i) accompanied by a Developer Certificate of Origin sign-off ([*http://developercertificate.org*](http://developercertificate.org/)\) and (ii) made under the Apache License, Version 2.0 (available at [*http://www.apache.org/licenses/LICENSE-2.0*](http://www.apache.org/licenses/LICENSE-2.0)), such license to be in addition to, and shall not supersede, obligations undertaken under the contribution license agreement(s) provided for in (b) above.
 
