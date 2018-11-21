@@ -2,21 +2,17 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated May 1 2018
+Effective Nov 6 2015 / Updated Nov 13 2018
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
-The Foundation’s mission is to create and drive the adoption of a new computing paradigm that is optimized for modern distributed systems environments capable of scaling to tens of thousands of self healing multi-tenant nodes.
+The Foundation’s mission is to make cloud native computing ubiquitous. The CNCF Cloud Native Definition v1.0 says:
 
-Cloud native systems will have the following properties:
+Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.
 
--	a. *Container packaged.* Running applications and processes in software containers as an isolated unit of application deployment, and as a mechanism to achieve high levels of resource isolation. Improves overall developer experience, fosters code and component reuse and simplify operations for cloud native applications.
+These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.
 
--	b. *Dynamically managed.* Actively scheduled and actively managed by a central orchestrating process. Radically improve machine efficiency and resource utilization while reducing the cost associated with maintenance and operations.
-
--	c. *Micro-services oriented.* Loosely coupled with dependencies explicitly described (e.g. through service endpoints). Significantly increase the overall agility and maintainability of applications.
-
-The foundation will shape the evolution of the technology to advance the state of the art for application management, and to make the technology ubiquitous and easily available through reliable interfaces.
+The Cloud Native Computing Foundation seeks to drive adoption of this paradigm by fostering and sustaining an ecosystem of open source, vendor-neutral projects. We democratize state-of-the-art patterns to make these innovations accessible for everyone.
 
 #### 2. Role of the CNCF.
 
@@ -94,7 +90,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 #### 5. Governing Board
 
--	(a) The CNCF Governing Board will be responsible for marketing and other business oversight and budget decisions for the CNCF. The Governing Board does not make technical decisions for the CNCF, other than working with the TOC to set the overall scope for the CNCF, initially established in Schedule A, and updated from time to time on the CNCF website.
+-	(a) The CNCF Governing Board will be responsible for marketing and other business oversight and budget decisions for the CNCF. The Governing Board does not make technical decisions for the CNCF, other than working with the TOC to set the overall scope for the CNCF as described in the cloud native definition from Section 1.
 
 -	(b) The Governing Board will address business matters including:
 
@@ -410,163 +406,3 @@ The participants in CNCF shall:
 #### 18. Amendments
 
 This charter may be amended by a two-thirds vote (excluding abstentions) of all Governing Board members, provided that any such amendments shall not be inconsistent with the purpose or policies of the Linux Foundation and shall not be detrimental to the Linux Foundation.
-
-#### Schedule A: Initial CNCF Scope Vision
-
-The overarching intent behind the cloud native computing foundation is to support and accelerate the adoption of ‘cloud native computing’. What follows below is an initial scope intended to articulate core concepts of ‘cloud native computing’ that the CNCF will strive to implement. This initial scope shall become a living document posted to the CNCF website.
-
-CNCF’s community believe there are three core attributes to cloud native computing:
-
--	Container packaged and distributed.
-
--	Dynamically scheduled.
-
--	Micro-services oriented.
-
--	A cloud native computing system enables computing that builds on these core attributes, and embraces the ideals of:
-
--	Openness and extensibility.
-
--	Well-defined APIs at borders of standardized subsystems.
-
--	Minimal barriers to application lifecycle management.
-
-![](media/image1.png)
-
-![](media/image2.png)
-
-When successful, the cloud native computing foundation will establish:
-
-1.	Standardized interfaces between subsystems.
-
-2.	A standard systems architecture describing the relationship between parts
-
-3.	At least one standard reference implementation of each sub-system.
-
-4.	Thinking about adding extensible architecture that end users can extend, replace or change behavior in every layer of the stack for their purposes.
-
-The suggested set of areas/sub-systems:
-
--	Application definition and orchestration
-
-	-	standard service definition
-
-		-	define a standard distributed system service that can be deployed
-
-	-	composite application definition
-
-		-	a standard model for packaging and shipping an app of many parts
-
-	-	orchestrator
-
-		-	a standard framework to deploy and manage an app of many parts
-
-		-	providing workload/job specific orchestration and control
-
--	Resource scheduling
-
-	-	map containers to nodes (in either a cluster, or single node environment)
-
-	-	manage the life-cycle, scaling and health of containers and container groups
-
-	-	handle active scaling of containers
-
-	-	interface with infrastructure provisioning to request more resources as needed (either bare metal, private cloud, or public cloud)
-
-	-	interface with SDN and SDS to map to storage/network
-
--	Distributed systems services
-
-	-	a standard set of services that are not bound to a single node
-
-		-	supporting application use cases
-
-		-	naming/discovery
-
-		-	locking/quorum
-
-		-	state management/sharding
-
-		-	logging/monitoring
-
-	-	a minimum atom of consumption for software (i.e. the model to find and consume something)
-
-		-	within the cluster
-
-		-	between clusters
-
-		-	from outside the cluster
-
--	A local agent that integrates CNCF into a local computing environment
-
-	-	maintains the lifecycle of containers on a node
-
-	-	monitors the health of container on a node
-
--	Compute node definition
-
-	-	a standard definition for what the minimum set of services on a compute node are (the actual node distribution is out of scope)
-
--	Infrastructure provisioning and integration
-
-	-	Infrastructure provisioning
-
-		-	provide a standard interface and plugin model to request additional infrastructure
-
-	-	software defined datacenter integration
-
-		-	provide a standard interface and plugin model for network (SDN) and storage (SDS) integration with clusters
-
--	Core services (common capabilities made optionally available to all CNCF sub-systems)
-
-	-	Distributed state and scheduling management. Provide mechanisms to robustly handle cluster state.
-
-	-	Distributed control plane technology. Support robust command and control of systems across failure domain boundaries.
-
-	-	API server. Create a common mechanism to support REST based access to core services.
-
--	Tools and Visualization
-
-	-	A single ‘pane of glass’ to view and control distributed systems
-
-	-	Monitoring and operations capabilities
-
-External systems. These systems are not considered part of the project, but should interface cleanly with the CNCF subsystems, and CNCF should work with the the appropriate communities to support standardization.
-
--	Compute Node OS. The node (host OS for container applications) is considered out of scope of this effort. We should however work closely with OS providers to ensure that the minimal node specification (i.e. what local services a cloud native application requires) are well defined and standardized across the emerging lightweight container nodes.
-
--	Container runtime and specification. This is critical, but should be driven through the OCI. This community must interface with the OCI group to ensure that requirements for cloud native operation are met, including where applicable, signing, verification and distribution.
-
--	Identity management systems. CNCF should integrate with identity management systems, but subject to TOC guidance, not define a new model.
-
-Terminology
-
-| **Term**     | **Definition**                                               |
-|--------------|--------------------------------------------------------------|
-| bundle       | The packaging of a container – its filesystems and metadata. |
-| Compute Node | A single server on which containers are executed.            |
-| cluster      | One or more compute nodes.                                   |
-
-#### For further discussion
-
-The following are considered out of scope for now, but might need to be included later.
-
--	Application environment. Crafting a well formed, minimal userland environment for cloud native applications.
-
--	OCI topics (container format and runtime). The goal is to integrate with the OCI group.
-
-#### Extensibility Model
-
-Any given sub-system should exist behind an open REST based API. Vendors should be able to provide alternate implementations of any given subsystem to optimize if for a given workload, or to add value through commercial technology. The models, and APIs, defined by the CNCF should be extensible such that vendors can add additional capabilities. However, interoperability across implementations is critical and therefore extensions should be optional.
-
-#### Qualification Model
-
-CNCF imagines a qualification model through API standardization, and rich integration testing. The community will produce a trademarkeable brand and reserve use of the mark for systems that meet integration requirements.
-
-Three qualification levels will likely exist:
-
--	Trademark Implementation. All relevant technologies are built from code housed in CNCF repositories.
-
--	Trademark Compatible. Passing all integration test to and demonstrating deep semantic compatibility with ‘Trademark Implementation systems.
-
--	Trademark version X API compliant. Compliant with the version X API.
