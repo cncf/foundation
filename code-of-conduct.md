@@ -9,6 +9,7 @@ Other languages available:
 - [Japanese/日本語](code-of-conduct-languages/jp.md)
 - [Korean/한국어](code-of-conduct-languages/ko.md)
 - [Ukrainian/Українська](code-of-conduct-languages/uk.md)
+- [Russian/Русский](code-of-conduct-languages/ru.md)
 
 ### Contributor Code of Conduct
 
