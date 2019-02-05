@@ -1,7 +1,7 @@
 CNCF Codice di condotta comunitaria v1.0
 ----------------------------------------
 
-### Codice di condotta dei collaboratori
+### Codice di condotta dei collaborator
 
 Come collaboratori e responsabili di questo progetto, per creare un ambiente accogliente e aperto, ci impegniamo a rispettare tutte le persone che contribuiranno a segnalare dei problemi, condividendo richieste, aggiornando la documentazione, inviando richieste o patch e altre attività.
 
