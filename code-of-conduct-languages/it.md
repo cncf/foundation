@@ -18,7 +18,9 @@ Esempi di comportamenti inaccettabili includono:
 
 I responsabili di progetto hanno il diritto e la responsabilità di rimuovere, modificare o respingere commenti, aggressioni, codice, wiki edit, reclami e altri contributi che non siano allineati con questo codice di condotta. Adottando il codice di condotta, i responsabili del progetto si impegnano ad applicare questi principi in prima persona e a ogni aspetto della gestione del progetto. I responsabili che non seguiranno o non faranno rispettare il codice di condotta saranno rimossi dal team. Questo codice di condotta verrà applicato a chiunque contribuisca o rappresenti un progetto o la sua comunità in pubblico.
 
-I casi di comportamento violento, molesto o inaccettabile, potranno essere denunciati contattando un responsabile di progetto CNCF, Sarah Novotny sarahnovotny@google.com, e/o Dan Kohn dan@linuxfoundation.org. Il codice di condotta è stato adattato dal Contributor Covenant (http://contributor-covenant.org), versione 1.2.0, disponibile su http://contributor-covenant.org/version/1/2/0/
+Casi di comportamento violento, molesto o inaccettabile in Kubernetes potranno essere denunciati contattando [Il comitato del codice di condotta Kuernetes (CNCF)](https://git.k8s.io/community/committee-code-of-conduct) attraverso <conduct@kubernetes.io>. Per altri progetti, contattare il Project manager del CNCF o il nostro mediatore, Mishi Choudhary <mishi@linux.com>. 
+
+Il codice di condotta è stato adattato dal Contributor Covenant (http://contributor-covenant.org), versione 1.2.0, disponibile su http://contributor-covenant.org/version/1/2/0/
 
 ### CNCF Codice di condotta negli eventi
 
