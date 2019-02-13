@@ -20,7 +20,7 @@ CNCF 커뮤니티 행동 강령 v1.0
 
 본 행동 강령은 프로젝트 공간과 개인이 프로젝트 또는 그 커뮤니티를 대표하는 공적 공간에 모두 적용됩니다.
 
-폭력, 괴롭힘 또는 다른 금지 행동이 발생하면 CNCF 프로젝트 유지 관리자 사라 노보니(Sarah Novotny) sarahnovotny@google.com 및/또는 댄 콘(Dan Kohn) dan@linuxfoundation.org 에게 보고해주십시오.
+Kubernetes에서의 폭력, 학대 또는 기타 허용되지 않는 행동 사례는 이메일 주소 <conduct@kubernetes.io>를 통해 [Kubernetes 행동 강령 위원회](https://git.k8s.io/community/committee-code-of-conduct)로 신고하실 수 있습니다. 다른 프로젝트는 CNCF 프로젝트 관리자 또는 저희 중재자인 Mishi Choudhary에게 이메일 <mishi@linux.com>으로 연락하십시오.
 
 본 행동강령은 참여자 Contributor Covenant (http://contributor-covenant.org)의 버전 1.2.0을 적용하였으며, 해당 내용은 여기 http://contributor-covenant.org/version/1/2/0/에서 확인할 수 있습니다.
 
