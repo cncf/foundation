@@ -20,7 +20,7 @@ CNCF コミュニティ行動規範 v1.0
 
 個人がプロジェクトまたはコミュニティを代表するときには、本行動規範は、プロジェクト スペースおよび公共のスペースの両方に適用されます。
 
-虐待的、嫌がらせ、または許されない行動が取られた場合には、CNCF プロジェクト メンテナーの Sarah Novotny sarahnovotny@google.com、および Dan Kohn dan@linuxfoundation.org に連絡して報告することができます。
+Kubernetesで虐待的、嫌がらせ、または許されない行動があった場合には、<conduct@kubernetes.io>から[Kubernetes Code of Conduct Committee](https://git.k8s.io/community/committee-code-of-conduct)（行動規範委員会）にご連絡ください。その他のプロジェクトにつきましては、CNCFプロジェクト管理者または仲介者<mishi@linux.com>にご連絡ください。
 
 本行動規範は、コントリビューターの合意 (http://contributor-covenant.org) バージョン 1.2.0 http://contributor-covenant.org/version/1/2/0/ から適応されています。
 
