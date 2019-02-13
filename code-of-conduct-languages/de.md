@@ -20,7 +20,7 @@ Projektbetreuer haben das Recht und die Verantwortung, Kommentare, Commits, Code
 
 Dieser Verhaltenskodex gilt sowohl innerhalb von Projekträumen als auch in öffentlichen Räumen, wenn eine Person das Projekt oder seine Gemeinschaft vertritt.
 
-Fälle von missbräuchlichem, belästigendem oder anderweitig inakzeptablem Verhalten können gemeldet werden, indem Sie sich an einen CNCF-Projektbetreuer, Sarah Novotny sarahnovotny@google.com und/oder Dan Kohn dan@linuxfoundation.org wenden.
+Fälle von missbräuchlichem, belästigendem oder anderweitig unzumutbarem Verhalten in Kubernetes können gemeldet werden, indem Sie sich an das [Kubernetes Komitee für Verhaltenskodex](https://git.k8s.io/community/committee-code-of-conduct) wenden unter <conduct@kubernetes.io>. Für andere Projekte wenden Sie sich bitte an einen CNCF-Projektbetreuer oder an unseren Mediator, Mishi Choudhary <mishi@linux.com>.
 
 Dieser Verhaltenskodex wurde aus dem Contributor Covenant übernommen (http://contributor-covenant.org), Version 1.2.0, verfügbar unter http://contributor-covenant.org/version/1/2/0/
 
