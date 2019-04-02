@@ -48,10 +48,10 @@ Different CNCF-hosted projects have preferred capitalization (e.g., containerd, 
 ## 4. Logos ##
 
 Logos for all CNCF-hosted [projects](https://www.cncf.io/projects/) and programs are available at
-[https://github.com/cncf/artwork/](https://github.com/cncf/artwork/). We prepare artwork in 3 formats
-(PNG/SVG/AI), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square),
+[https://github.com/cncf/artwork/](https://github.com/cncf/artwork/). We prepare artwork in 2 formats
+(PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square),
 and icon (which does not include the name and is square), and 3 versions (color/black/white). So, that's at
-least 27 versions of most logos.
+least 18 versions of most logos.
 
 You can find stickers for all projects and t-shirts and hoodies for each CNCF graduated and incubating project
 at the CNCF [store](https://store.cncf.io/).
