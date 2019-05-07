@@ -9,7 +9,7 @@ noun + adjective compounds used as an adjective in front of a noun.
 
 However, the [Open Source Initiative](https://opensource.org/), established in 1998, does not use a hyphen in
 "open source." Likewise, the Cloud Native Computing Foundation does not use a hyphen in "cloud native" in its name.
-And the [IEEE Computer Society Style Guide](https://www.computer.org/cms/Computer.org/Publications/docs/2016CSStyleGuide.pdf),
+And the [IEEE Computer Society Style Guide](https://ieeecs-media.computer.org/assets/pdf/2016CSStyleGuide.pdf),
 which is maintained by the 72-year-old Computer Society, lists "open source" as the preferred usage.
 
 We believe that the cloud native aspect of a "cloud native technology" is so integral to its meaning that the entire
