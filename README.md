@@ -1,2 +1,2 @@
-# foundation
-File issues related to the CNCF Foundation
+# Foundation
+☁️🏛File non-technical issues related to [CNCF](https://cncf.io)
