@@ -80,6 +80,3 @@ every copyright holder for contributions to every file:
   notices.
 - The specific individual or legal entity that owns the copyright might not be
   known to the contributor; it could be you, your employer, or some other entity.
-- If someone wanted to understand the precise copyright ownership of any file,
-  they would likely not rely on just copyright notices in any case. They would
-  want to analyze the Git history and full set of contributors.
