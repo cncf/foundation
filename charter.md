@@ -157,11 +157,11 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	i. defining and maintaining the technical vision for the Cloud Native Computing Foundation,
 
-	-	ii. approving new projects within the scope for CNCF set by the Governing Board, and create a conceptual architecture for the projects,
+	-	ii. approving new projects within the scope for CNCF set by the Governing Board, and creating a conceptual architecture for the projects,
 
 	-	iii. aligning projects, removing or archiving projects,
 
-	-	iv. accepting feedback from end user committee and map to projects,
+	-	iv. accepting feedback from the end user committee and mapping to projects,
 
 	-	v. aligning interfaces to components under management (code reference implementations before standardizing), and
 
@@ -169,19 +169,19 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 -	(b) Composition
 
-	-	i. The TOC shall be composed of at most nine (9) members.
+	-	i. The TOC shall be composed of eleven (11) members.
 
 	-	ii. TOC members elected are expected to cover key technical domains: container technologies, operating systems, technical operations, distributed systems, user level application design, etc.
 
-	-	iii. The Governing Board shall elect six (6) TOC members, the End User TAB shall elect one (1) TOC member and the initial seven TOC members shall elect an additional two (2) TOC members.
+	-	iii. The Governing Board shall elect six (6) TOC members, the End User TAB shall elect two (2) TOC members, the non-sandbox project maintainers shall elect one (1) TOC member, and the TOC members shall elect an additional two (2) TOC members. Each group is defined as a Selecting Group.
 
-	-	iv. If more than two TOC members would be from the same group of Related Companies, either at the time of election or from a later job change, they will jointly decide who should step down, or if there is no agreement, random lots shall be drawn.
+	-	iv. If more than two (2) TOC members would be from the same group of Related Companies, either at the time of election or from a later job change, they will jointly decide who should step down, or if there is no agreement, random lots shall be drawn.
 
 -	(c) Operating Model
 
 	-	i. The TOC shall select a Chair of the TOC to set agendas and call meetings of the TOC.
 
-	-	ii. The TOC is expected to meet quarterly face-to-face to discuss key topical issues.
+	-	ii. The TOC is expected to meet regularly face-to-face to discuss key topical issues.
 
 	-	iii. The TOC may meet virtually as needed to discuss emerging issues. Issues may be raised for TOC review by:
 
@@ -193,9 +193,9 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 		-	d. the CNCF Executive Director, or
 
-		-	e. a majority vote of the End User Technical Advisory Board.
+		-	e. a majority vote of the End User TAB.
 
-	-	iv. Transparency. TOC meetings, mailing list, minutes, etc should be open.
+	-	iv. Transparency. The TOC shall hold regular open TOC meetings and all project-related decisions shall be made in those meetings, on a public mailing list, or on public issues.
 
 	-	v. Simple TOC issues may be resolved by short discussion and simple majority vote. TOC discussions may be over email or at a meeting of the TOC.
 
@@ -209,43 +209,41 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 -	(d) Criteria for Nomination. Nominees for the TOC shall:
 
-	-	i. commit that they have the available bandwidth to make the time to invest in the CNCF TOC, including a considerable early investment as the CNCF is formed and then ongoing investment of time to prepare and review in advance of quarterly TOC meetings,
+	-	i. commit that they have the available bandwidth to make the time to invest in the CNCF TOC,
 
-	-	ii. demonstrate advanced level of professional experience as engineers in the scope of CNCF,
+	-	ii. demonstrate an advanced level of professional experience as engineers in the scope of CNCF,
 
-	-	iii. demonstrate seniority sufficient to access additional staff or community members to assist in their TOC preparations, and\\ iv. operate neutrally in discussions and put the goals and success of CNCF in balance with corporate objectives or any particular project in CNCF.
+	-	iii. demonstrate seniority sufficient to access additional staff or community members to assist in their TOC preparations, and
+    
+    -   iv. operate neutrally in discussions and put the goals and success of CNCF in balance with corporate objectives or any particular project in CNCF.
 
 -	(e) Process for TOC Member Nominations and Election
 
-	-	i. The TOC shall be composed of nine (9) TOC members: six (6) elected by the Governing Board, one (1) selected by the End User TAB and two (2) elected by the initial seven TOC members.
+    -   i. Nominations: Each individual in a Selecting Group may nominate up to two (2) people, at most one (1) of whom may be from the same group of Related Companies. Each nominee must agree to participate prior to being added to the nomination list.
 
-	-	ii. Nominations: Each CNCF member may nominate up to two (2) technical representatives, (from vendors, end users or any other fields), at most one of which may be from their respective company. The nominee(s) must agree to participate prior to being added to the nomination list.
+		-	a. A nomination requires a maximum one (1) page nomination pitch which should include the nominee's name, contact information and supporting statement identifying the nominee's experience in CNCF domains.
 
-		-	a. The initial seven (7) TOC members (the six elected by the Governing Board plus one (1) elected by the End User TAB) shall then nominate and elect two (2) additional TOC members using the Nomination Process.
+		-	b. The Governing Board shall determine the process and timeline for the nominations, qualification and election of TOC members.
 
-		-	b. A nomination requires a maximum one (1) page nomination pitch which should include the nominees name, contact information and supporting statement identifying the nominees experience in CNCF domains.
+		-	c. A minimum of 14 calendar days shall be reserved for an Evaluation Period whereby TOC nominees may be contacted by members of the Governing Board and TOC.
 
-		-	c. The Governing Board, End User TAB and TOC shall determine the timeline and dates for nominations, voting, and any other details regarding the nomination and election process for their TOC elections.
+	-	ii. Qualification: After the Evaluation Period, the Governing Board and the TOC members shall vote on each nominee individually to validate that the nominee meets the qualification criteria. A valid vote shall require at least 50% participation. Nominees passing with over 50% shall be Qualified Nominees.
 
-		-	d. A minimum of 14 calendar days shall be reserved for an Evaluation Period whereby TOC nominees may be contacted and/or evaluate the electors.
+	-	iii. Elections: If the number of Qualified Nominees is equal to or less than the number of TOC seats available to be elected, the Qualified Nominees shall be approved after the nomination period has closed. If there are more Qualified Nominees than open TOC seats available for election, then the Selecting Group shall elect the TOC members via a Condorcet vote. A Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service ([*https://civs.cs.cornell.edu/*](https://civs.cs.cornell.edu/)).
 
-	-	iii. Elections: After the Evaluation Period, the Governing Board and the seven non-TOC-appointed TOC members, shall vote on each nominee individually. A valid vote shall require as many votes as would be required to meet quorum for a meeting. Each nominee shall require support of over 50% majority of those voting to validate the nominee meets the qualification criteria. Nominees passing with a majority vote shall be Qualified Nominees.
+    -   iv. TOC-Selected Seats: TOC-Selected TOC members may nominate and qualify but not vote when their seat is up for election.
 
-	-	iv. If the number of Qualified Nominees are equal to or less than the number of TOC seats available to be elected, the Qualified Nominees shall be approved after the nomination period has closed. If there are more Qualified Nominees than open TOC seats available for election by either the the Governing Board, End User TAB or TOC, then that group shall elect the TOC members via a Condorcet vote. A Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service ([*https://civs.cs.cornell.edu/*](https://civs.cs.cornell.edu/)).
-
-	-	v. If there are fewer Qualified Nominees than open TOC seats available for election by either the Governing Board, End User TAB or TOC, the group shall initiate another round of nominations with each member or individual eligible to nominate submitting at most one (1) nominee.
+	-	v. Retries. If there are fewer Qualified Nominees than open TOC seats available for election by the Selecting Group, the group shall initiate another round of nominations.
 
 -	(f) Constraints
 
-	-	i. TOC Members shall serve two-year, staggered terms. The initial six elected TOC members from the Governing Board election shall serve an initial term of three (3) years. The TOC members initially elected by the End User TAB and TOC shall serve an initial term of two (2) years.
+	-	i. TOC Members shall serve two-year, staggered terms.
 
 	-	ii. TOC members may be removed by a two-thirds vote of the other TOC members, with the impacted individual ineligible to participate in the vote.
 
 	-	iii. Any TOC member that misses three (3) consecutive meetings shall be automatically suspended from eligibility to vote until having attended two meetings consecutively. For avoidance of doubt, the suspended TOC member shall be eligible to vote in the second consecutive meeting.
 
-	-	iv. The TOC charter, model, approach, composition, etc may be modified by a two-thirds vote of the entire Governing Board.
-
-	-	v. The TOC agenda will be set by the TOC. However, it is expected that initial TOC discussions and decisions will cover:
+	-	iv. The TOC agenda will be set by the TOC. However, it is expected that TOC discussions and decisions will cover:
 
 		-	a. assessing technologies to include in CNCF
 
@@ -280,8 +278,6 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 -	(g) If the End User TAB desires, it may approve subcommittee Special Interest Groups (“SIGs”) to address industry or specialized topics.
 
 -	(h) The End User TAB input to the TOC shall be taken together with other input and feedback for the TOC to make decisions and plans. The recommendations are advisory only and at no point shall the recommendations of the End User TAB be used to order or direct any TOC or project participant toward any action or outcome.
-
--	(i) To facilitate bilateral interaction with the TOC, the End User Technical Advisory Board shall elect one (1) representative to the TOC. The End User TAB may invite anyone to participate in End User meetings, SIGs or other discussions.
 
 #### 9. CNCF Projects
 
