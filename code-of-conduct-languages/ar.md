@@ -36,7 +36,7 @@
 يمكن الإبلاغ عن حالات السلوك التعسفي أو المضايقة أو غير المقبولة في Kubernetes من خلال الاتصال بـ [لجنة قواعد سلوك Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) عبر <conduct@kubernetes.io>. بالنسبة للمشاريع الأخرى ، يرجى الاتصال بمشرف مشروع CNCF أو وسيطنا ، Mishi Choudhary <mishi@linux.com>.
 
 مدونة قواعد السلوك هذه مقتبسة من العهد المساهم
-(http://contributor-covenant.org) ، الإصدار 1.2.0 ، متاح في
+(http://contributor-covenant.org) ، الإصدار 1.2.0 ، متاح على الرابط
 http://contributor-covenant.org/version/1/2/0/
 
 
