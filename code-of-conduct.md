@@ -11,6 +11,7 @@ Other languages available:
 - [Ukrainian/Українська](code-of-conduct-languages/uk.md)
 - [Russian/Русский](code-of-conduct-languages/ru.md)
 - [Portuguese/Português](code-of-conduct-languages/pt.md)
+- [Bulgarian/Български](code-of-conduct-languages/bg.md)
 
 ### Contributor Code of Conduct
 
