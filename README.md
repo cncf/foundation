@@ -1,4 +1,4 @@
-# ☁️🏛Foundation
+# ☁️♮🏛Cloud Native Computing Foundation Policy Repo
 
 This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io).
 
