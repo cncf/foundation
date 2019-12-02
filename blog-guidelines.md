@@ -37,6 +37,6 @@ Your blog will be shared on CNCF’s Twitter channel. Please feel free to retwee
 
 ## How to submit for consideration ##
 
-Please submit a brief summary and the topic of the post to PR@CNCF.io for consideration. Or you can supply the blog for review. We will respond with a proposed date of publication or if it’s not suitable for the CNCF blog, we will provide feedback and direction.
+Please submit a brief summary and the topic of the post to blog@cncf.io for consideration. Or you can supply the blog for review. We will respond with a proposed date of publication or if it’s not suitable for the CNCF blog, we will provide feedback and direction.
 
 If you are submitting an article or presentation that already exists, please send it in its entirety with a note on the expressed permission from the owner of the content. 
