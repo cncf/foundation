@@ -1,4 +1,4 @@
-# CNCF Blog Guideline #
+# CNCF Blog Guidelines #
 
 ## CNCF Blog Overview ##
 
