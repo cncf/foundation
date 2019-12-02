@@ -17,6 +17,7 @@ This repo contains several documents related to the operation of the [Cloud Nati
 
 ## Community recommendations
 
+* [CNCF Blog Guidelines](blog-guidelines.md) outlining who can submit, suggested topics, and how to submit. 
 * A [style guide](style-guide.md) with recommendations for cloud native terminology
 * A [translation guide](translation.md) for the Chinese equivalent of cloud native phrases
 
