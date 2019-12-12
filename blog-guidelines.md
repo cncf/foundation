@@ -29,7 +29,7 @@ Some things to think about:
 * When showing upstreaming of a patch fixing an issue for others, link back to the Github issue, so readers can follow along. 
 * Critical commentary or broad issues must be approached with sensitivity, professionalism, and tact in a way that is beneficial and positive for the community. 
 
-Your post must be your content, but can be published elsewhere with to republish. All content should have an author and be published Creative Commons with Attribution.
+Your post must be your content, but can be published elsewhere with a right to republish. All content should have an author and be published Creative Commons with Attribution.
 
 ## Promotion ##
 
