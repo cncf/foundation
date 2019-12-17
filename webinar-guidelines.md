@@ -32,7 +32,7 @@ Chinese language webinars are typically scheduled for Wednesday or Thursday, 10a
 
 ## Webinar Calendar ##
 
-The webinar calendar is available for a 6-month period, for example 1H 2020 and 2H 2020. Approximately 6 weeks before the beginning of the time period, the webinar calendar is opened up for scheduling.
+The [webinar calendar] (https://calendly.com/cncf_webinars/cncf-webinar) is available for a 6-month period, for example 1H 2020 and 2H 2020. Approximately 6 weeks before the beginning of the time period, the webinar calendar is opened up for scheduling.
 
 To choose a webinar date, go to the webinar calendar to view the available dates. Choose your preferred date. You will receive a calendar invite automatically via Calendly. The calendar invite will be updated with the company / project name, which confirms your webinar. When it gets closer to the webinar date, an email is sent confirming the webinar date is still good for you and outlines the next steps.
 
