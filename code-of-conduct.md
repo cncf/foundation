@@ -12,6 +12,7 @@ Other languages available:
 - [Russian/Русский](code-of-conduct-languages/ru.md)
 - [Portuguese/Português](code-of-conduct-languages/pt.md)
 - [Arabic/العربية](code-of-conduct-languages/ar.md)
+- [Polish/Polski](code-of-conduct-languages/pl.md)
 
 ### Contributor Code of Conduct
 
