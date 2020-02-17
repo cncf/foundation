@@ -2,7 +2,7 @@
 
 ## Overview ##
 
-CNCF webinars provide a cost-effective way to educate the community about trends and open source cloud native technologies. Webinars are offered to members, CNCF incubating and graduated projects, and CNCF SIGs.
+CNCF webinars provide a cost-effective way to educate the community about trends and open source cloud native technologies. Webinars are offered to members, CNCF incubating and graduated projects, CNCF Ambassadors, and CNCF SIGs.
 
 Please note: We are unable to share leads due to LF privacy policy.
 
@@ -10,18 +10,23 @@ Please note: We are unable to share leads due to LF privacy policy.
 
 English language webinars are scheduled for every Tuesday 10am-11am Pacific Time, Wednesday 10am-11am Pacific Time, and Thursday 9am-10am Pacific Time.
 
+Project, Ambassador, and SIG webinars are scheduled for Friday 10am - 11am Pacitic Time.
+
 Chinese language webinars are typically scheduled for Wednesday or Thursday, 10am Beijing / Shanghai time. 
 
 ## Who can host a webinar ##
 
 * Platinum and Gold Members can host 1 webinar per quarter.
 * Silver members can host 1 webinar every 6 months.
+* End user supporter members cannot hold a webinar.
 * Graduated and incubating projects can hold a webinar twice a year. These webinars can communicate release launch details or provide a project update. The exception is Kubernetes who holds a webinar each quarter approximately 30 days after the release.
 * Sandbox projects cannot hold a webinar. The exception is a CNCF member company can discuss their open source sandbox project during their allotted member webinar.
+* CNCF Ambassadors can hold a webinar as it fits their schedule.
 * CNCF SIGs can host 1 webinar a year.
 
 * CNCF Member webinars will have "Member webinar" preceeding their webinar title.
 * CNCF project webinars will have "Project webinar" preceeding their webinar title.
+* CNCF Ambassador webinars will have "Ambassador webinar" preceeding their webinar title.
 * CNCF SIG webinars will have "SIG webinar" preceeding their webinar title.
 
 ## Webinar content guidelines ##
@@ -60,7 +65,7 @@ To choose a webinar date, go to the webinar calendar to view the available dates
 * Webinar presentation slides
 * If you would like a live walkthrough, it would be scheduled for this week 
 
-All deliverables should be sent to [Kim McMahon](mailto:kmcmahon@cncf.io). 
+All deliverables should be sent to [Webinar](mailto:webinars@cncf.io). 
 
 ## Webinar Promotion & Prep Details ##
 
@@ -70,7 +75,7 @@ All deliverables should be sent to [Kim McMahon](mailto:kmcmahon@cncf.io).
 * Our most successful webinars are when the presenting company helps promote in addition to CNCF promotion. We are often able to double our attendance in these cases. 
 
 ## Webinar: Presentations ##
-* 1 week prior to your webinar, send your webinar presentation to [Kim McMahon](mailto:kmcmahon@cncf.io). All presentations must be reviewed prior to the webinar.
+* 1 week prior to your webinar, send your webinar presentation to [Webinar](mailto:webinars@cncf.io). All presentations must be reviewed prior to the webinar.
 * Logos:
   * Obsolete, low-res (i.e., pixelated), and malformatted logos are an epidemic among conference presentations. High-res logos of over 1000 cloud native projects, products, and companies are available in the cloud native landscape and the serverless and member landscapes. All logos are in the card mode and can be found with Cmd-F or Cntl-F from your browser. Note that all of these logos are stacked, not horizontal, and include the name. The logos are all the most current (or you can open a pull request if they’re not). 
   * Please see the CNCF style guide which covers things like abbreviating Kubernetes as K8s not K8 or K8S as well as the proper capitalization of projects like gRPC and containerd.
@@ -85,7 +90,7 @@ The moderator is responsible for covering the housekeeping items and helping the
 ## Webinar: Day-Of Details ##
 
 * Soundcheck: ½ hour before the webinar starts
-* Live Webinar: Tuesday 10am-11am PT, Wednesday 10am-11am PT, Thursday 9am-10am PT
+* Live Webinar: Tuesday 10am-11am PT, Wednesday 10am-11am PT, Thursday 9am-10am PT, Friday 10am - 11am PT
 * Typical timing of the webinar - approximately 5 minute introduction, 45 minute presentation, 10 minutes of Q&A
 * A CNCF Ambassador or CNCF staff will help moderate (introduction, feeding questions to the presenter) 
 * Webinar Platform: Zoom 
