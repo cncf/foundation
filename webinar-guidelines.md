@@ -29,6 +29,16 @@ Chinese language webinars are typically scheduled for Wednesday or Thursday, 10a
 * CNCF Ambassador webinars will have "Ambassador webinar" preceeding their webinar title.
 * CNCF SIG webinars will have "SIG webinar" preceeding their webinar title.
 
+## Webinar type definitions ##
+ 
+Project webinar: A webinar on a graduated or incubating project. This is presented by or on behalf of the project. If presented by a member about a project, this webinar is classified as a Project webinar. An example is a Harbor webinar presented by the VMware team. The webinar is classified as a Project webinar.
+
+Member webinar: A webinar presented by a member. The webinar must comply with the webinar guidelines. A member can present about any open source project, including a CNCF Sandbox project. If a CNCF member presentes solely about a CNCF graduated or incubating project and on behalf of the project, it is classified as a Project webinar. If the webinar contains information about a CNCF graduated or incubating project and includes information on how to do something with that project, it is classified as a Member webinar.
+
+Special Interest Group (SIG) webinar: A webinar presented by a SIG team member(s) is classified as a SIG webinar. If a CNCF member presents a webinar on behalf of the SIG, it is classified as a SIG webinar. If a member presentes a webinar about a SIG, it is classified as a Member webinar.
+
+Ambassador webinar: This is a webianar presented by one of the CNCF Ambassadors.
+
 ## Webinar content guidelines ##
 
 * The simplest guideline is that webinar topics should be comparable to what would be accepted in a KubeCon + CloudNativeCon talk. 
