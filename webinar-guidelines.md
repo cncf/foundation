@@ -105,7 +105,7 @@ The moderator is responsible for covering the housekeeping items and helping the
 * A CNCF Ambassador or CNCF staff will help moderate (introduction, feeding questions to the presenter) 
 * Webinar Platform: Zoom 
 
-After the webinar, registration numbers and a link to the webinar on YouTube will be shared with the company hosting the webinar.
+After the webinar, registration numbers and a link to the webinar on YouTube will be shared with the company hosting the webinar. CNCF does not provide a copy of the webinar recording for individual company use.
 
 Please note: We are unable to share the list of leads or include any promotions with the intention of driving leads. 
 
