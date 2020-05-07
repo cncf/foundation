@@ -29,6 +29,16 @@ Chinese language webinars are typically scheduled for Wednesday or Thursday, 10a
 * CNCF Ambassador webinars will have "Ambassador webinar" preceeding their webinar title.
 * CNCF SIG webinars will have "SIG webinar" preceeding their webinar title.
 
+## Webinar type definitions ##
+ 
+Project webinar: A webinar on a graduated or incubating project. This is presented by or on behalf of the project. If presented by a member about a project, this webinar is classified as a Project webinar. An example is a Harbor webinar presented by the VMware team. The webinar is classified as a Project webinar.
+
+Member webinar: A webinar presented by a member. The webinar must comply with the webinar guidelines. A member can present about any open source project, including a CNCF Sandbox project. If a CNCF member presentes solely about a CNCF graduated or incubating project and on behalf of the project, it is classified as a Project webinar. If the webinar contains information about a CNCF graduated or incubating project and includes information on how to do something with that project, it is classified as a Member webinar.
+
+Special Interest Group (SIG) webinar: A webinar presented by a SIG team member(s) is classified as a SIG webinar. If a CNCF member presents a webinar on behalf of the SIG, it is classified as a SIG webinar. If a member presentes a webinar about a SIG, it is classified as a Member webinar.
+
+Ambassador webinar: This is a webianar presented by one of the CNCF Ambassadors.
+
 ## Webinar content guidelines ##
 
 * The simplest guideline is that webinar topics should be comparable to what would be accepted in a KubeCon + CloudNativeCon talk. 
@@ -37,7 +47,7 @@ Chinese language webinars are typically scheduled for Wednesday or Thursday, 10a
 
 ## Webinar Calendar ##
 
-The [webinar calendar] (https://calendly.com/cncf_webinars/cncf-webinar) is available for a 6-month period, for example 1H 2020 and 2H 2020. Approximately 6 weeks before the beginning of the time period, the webinar calendar is opened up for scheduling.
+The [webinar calendar](https://calendly.com/cncf_webinars/cncf-webinar) is available for a 6-month period, for example 1H 2020 and 2H 2020. Approximately 6 weeks before the beginning of the time period, the webinar calendar is opened up for scheduling.
 
 To choose a webinar date, go to the webinar calendar to view the available dates. Choose your preferred date. You will receive a calendar invite automatically via Calendly. The calendar invite will be updated with the company / project name, which confirms your webinar. When it gets closer to the webinar date, an email is sent confirming the webinar date is still good for you and outlines the next steps.
 
@@ -95,7 +105,7 @@ The moderator is responsible for covering the housekeeping items and helping the
 * A CNCF Ambassador or CNCF staff will help moderate (introduction, feeding questions to the presenter) 
 * Webinar Platform: Zoom 
 
-After the webinar, registration numbers and a link to the webinar on YouTube will be shared with the company hosting the webinar.
+After the webinar, registration numbers and a link to the webinar on YouTube will be shared with the company hosting the webinar. CNCF does not provide a copy of the webinar recording for individual company use.
 
 Please note: We are unable to share the list of leads or include any promotions with the intention of driving leads. 
 
