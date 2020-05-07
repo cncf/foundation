@@ -15,16 +15,14 @@ The content on our blog consists of:
 Other topics are welcome, but it needs to have a direct link to the CNCF community.
 
 We accept content from CNCF members, project maintainers of graduated and incubating projects, CNCF SIGs, CNCF ambassadors.
- 
-Project blog: Any blog post on a graduated or incubating project. This is written by or on behalf of the project. If written by a member about a project, this blog is classified as a Project blog. An example is a Harbor blog written by the VMware team. The blog is classified as a Project blog.
 
-Member blog: Any blog post written by a member. The blog must comply with the blog guidelines. A member can write about any open source project, including a CNCF Sandbox project. If a CNCF member writes solely about a CNCF graduated or incubating project and on behalf of the project, it is classified as a Project blog. If the blog contains information about a CNCF graduated or incubating project and includes information on how to do something with that project, it is classified as a Member blog.
-
-Special Interest Group (SIG) blog: A blog written by a SIG team member(s) is classified as a SIG blog. If a CNCF member writes a blog on behalf of the SIG, it is classified as a SIG blog. If a member writes a blog about a SIG, it is classified as a Member blog.
-
-Ambassador blog: This is a blog written by one of the CNCF Ambassadors.
-
-CNCF Staff: This is a blog written by a CNCF staff member. If the staff member is writing a blog on behalf of a project or a SIG, it is classified as a Project or SIG blog.
+Blog type definitions:
+* Project blog: Any blog post on a graduated or incubating project. This is written by or on behalf of the project. If written by a member about a project, this blog is classified as a Project blog. An example is a Harbor blog written by the VMware team. The blog is classified as a Project blog.
+* Member blog: Any blog post written by a member. The blog must comply with the blog guidelines. A member can write about any open source project, including a CNCF Sandbox project. If a CNCF member writes solely about a CNCF graduated or incubating project and on behalf of the project, it is classified as a Project blog. If the blog contains information about a CNCF graduated or incubating project and includes information on how to do something with that project, it is classified as a Member blog.
+* Special Interest Group (SIG) blog: A blog written by a SIG team member(s) is classified as a SIG blog. If a CNCF member writes a blog on behalf of the SIG, it is classified as a SIG blog. If a member writes a blog about a SIG, it is classified as a Member blog.
+* Ambassador blog: This is a blog written by one of the CNCF Ambassadors.
+* CNCF Staff: This is a blog written by a CNCF staff member. If the staff member is writing a blog on behalf of a project or a SIG, it is classified as a Project or SIG blog.
+* Project internships and scholarship recipients: This is a blog that is written about a scholarship or internship related to a CNCF event or project.
 
 Project internships and scholarship recipients: This is a blog that is written about a scholarship or internship related to a CNCF event or project.
 
@@ -33,6 +31,7 @@ The CNCF blog audience is developers, IT operators, and cloud native and open so
 
 Some things to think about:
 * Posts from members must be vendor-neutral. The post may mention a vendor’s name as it relates to specific open source projects, project deployments, adoption paths, their hosting of an in-person event or speaking at an event, or other indications of meaningful participation in the community, but it shouldn’t feel like an advertisement for your services or company. We do not accept announcements or press releases to the CNCF blog.
+
 * The most interesting posts are how-to blogs, blogs with technical content, and those that teach or show how to do something in a way others may not have thought of.
 * Blog posts that show hurdles that were encountered and explain how they were overcome often do very well as the community is looking to learn.
 * Content on how to choose between different technologies and how to accommodate different legacy issues and cloud platforms is a good way to highlight your learnings and share with the community.
