@@ -42,8 +42,9 @@ Ambassador webinar: This is a webianar presented by one of the CNCF Ambassadors.
 ## Webinar content guidelines ##
 
 * The simplest guideline is that webinar topics should be comparable to what would be accepted in a KubeCon + CloudNativeCon talk. 
-* No straight product pitches. It is okay to do a comparison of part of the landscape (e.g., cloud native storage), but webinars should not be promotional. 
 * Any platforms, tools, or technologies you are describing must be open source and work with CNCF projects.
+* No straight product pitches or presenting on closed source technologies. 
+* It is okay to do a comparison of part of the landscape (e.g., cloud native storage), but webinars should not be promotional. 
 
 ## Webinar Calendar ##
 
