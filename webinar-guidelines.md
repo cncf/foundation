@@ -46,6 +46,17 @@ Ambassador webinar: This is a webianar presented by one of the CNCF Ambassadors.
 * No straight product pitches or presenting on closed source technologies. 
 * It is okay to do a comparison of part of the landscape (e.g., cloud native storage), but webinars should not be promotional. 
 
+Members can add a slide at the end of their webinar on where to get more information.
+Examples:
+* Share contact info of  speaker - twitter, slack, email
+* Links to company websites
+* Links to projects websites or Github
+* Can advertise if they are hiring and who to contact if interested
+
+Note: This is not a link to a CNCF website or form on the CNCF website.
+
+CNCF will review the statement, as we do for the content for the webinar, to approve the content. If changes are needed, we will provide suggested changes. 
+
 ## Webinar Calendar ##
 
 The [webinar calendar](https://calendly.com/cncf_webinars/cncf-webinar) is available for a 6-month period, for example 1H 2020 and 2H 2020. Approximately 6 weeks before the beginning of the time period, the webinar calendar is opened up for scheduling.
