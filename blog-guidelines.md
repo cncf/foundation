@@ -39,6 +39,16 @@ Some things to think about:
 * Critical commentary or broad issues must be approached with sensitivity, professionalism, and tact in a way that is beneficial and positive for the community.
 * Your post must be your content, but can be published elsewhere with a right to republish. All content should have an author and be published Creative Commons with Attribution.
 
+Members can add 1-2 sentences at the end of their blog with a link to an external site such as their website or a gated asset. Examples for best practices:
+* Share contact info of  speaker - twitter, slack, email
+* Links to company websites
+* Links to projects websites or Github
+* Can advertise if they are hiring and who to contact if interested
+
+Note: This is not a link to a CNCF website or form on the CNCF website.
+
+CNCF will review the statement, as we do for the content for the blog, to approve the content. If changes are needed, we will provide suggested changes. 
+
 ## Promotion ##
 Your blog will be shared on CNCF’s Twitter channel. Please feel free to retweet or share.
 
