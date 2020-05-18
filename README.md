@@ -6,7 +6,7 @@ This repo contains several documents related to the operation of the [Cloud Nati
 
 * The [charter](charter.md) under which CNCF operates
 * [Maintainer election policy](maintainers-election-policy.md) for the maintainer-elected TOC member and the two maintainers on the governing board
-* The [membership](membership.md) agreement
+* The [membership](cncf-membership-agreement.pdf) agreement
 * The [Code of Conduct](code-of-conduct.md) which has been translated into multiple languages
 
 ## Project Guidance
