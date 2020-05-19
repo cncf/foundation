@@ -60,7 +60,7 @@ Ambassador webinar: This is a webinar presented by one of the CNCF Ambassadors.
   * Sales or marketing pitches 
   * Unlicensed or potentially closed-source technologies 
 * Webinars should not be promotional.
-* It is NOT okay to mislead and misrepresent features of CNCF projects.
+* It is NOT okay to mislead or misrepresent features of CNCF projects.
 
 Members can add a slide at the end of their webinar on where to get more information.
 Examples:
