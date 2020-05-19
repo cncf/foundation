@@ -2,32 +2,45 @@
 
 ## Overview ##
 
-CNCF webinars provide a cost-effective way to educate the community about trends and open source cloud native technologies. Webinars are offered to members, CNCF incubating and graduated projects, CNCF Ambassadors, and CNCF SIGs.
+CNCF webinars are offered to the community to educate about open source cloud native technologies. Webinars are offered by members, CNCF incubating and graduated projects, CNCF Ambassadors, and CNCF SIGs.
 
-Please note: We are unable to share leads due to LF privacy policy.
+Please note: We are unable to share leads due to the Linux Foundation privacy policy.
 
 ## Webinar day and time ##
 
-English language webinars are scheduled for every Tuesday 10am-11am Pacific Time, Wednesday 10am-11am Pacific Time, and Thursday 9am-10am Pacific Time.
+English language webinars are scheduled for Tuesdays, Wednesdays, and Thursdays.
 
-Project, Ambassador, and SIG webinars are scheduled for Friday 10am - 11am Pacitic Time.
+Project, Ambassador, and SIG webinars are scheduled for Fridays. 
 
-Chinese language webinars are typically scheduled for Wednesday or Thursday, 10am Beijing / Shanghai time. 
+Chinese language webinars are scheduled for Wednesday or Thursday Beijing time.
+
+## Please read the guidelines carefully ##
+We have outlined content guidelines and timelines. Webinars that do not meet the requirements will be cancelled. 
+
+You must confirm your availability to present your webinar no later than 4 weeks before the webinar date. At least 3 weeks prior to your webinar date, you must provide your webinar details. At least 2 weeks prior to the webinar date, you must provide your complete and final slides.
+
+If the webinar is cancelled due to not meeting these guidelines, the member will not be allowed to schedule a webinar in the subsequent webinar period. That is, platinum and gold members may not schedule a webinar in the upcoming quarter and silver members may not schedule a webinar in the upcoming 6 months
 
 ## Who can host a webinar ##
 
-* Platinum and Gold Members can host 1 webinar per quarter.
-* Silver members can host 1 webinar every 6 months.
+Member webinars
+* Platinum and Gold Members can host 1 webinar per quarter, based on availability.
+* Silver members can host 1 webinar every 6 months, based on availability.
 * End user supporter members cannot hold a webinar.
+* CNCF Member webinars will have "Member webinar" preceding their webinar title.
+ 
+Project webinars
 * Graduated and incubating projects can hold a webinar twice a year. These webinars can communicate release launch details or provide a project update. The exception is Kubernetes who holds a webinar each quarter approximately 30 days after the release.
 * Sandbox projects cannot hold a webinar. The exception is a CNCF member company can discuss their open source sandbox project during their allotted member webinar.
-* CNCF Ambassadors can hold a webinar as it fits their schedule.
-* CNCF SIGs can host 1 webinar a year.
+* CNCF project webinars will have "Project webinar" preceding their webinar title.
 
-* CNCF Member webinars will have "Member webinar" preceeding their webinar title.
-* CNCF project webinars will have "Project webinar" preceeding their webinar title.
-* CNCF Ambassador webinars will have "Ambassador webinar" preceeding their webinar title.
-* CNCF SIG webinars will have "SIG webinar" preceeding their webinar title.
+Ambassador webinars
+* CNCF Ambassadors can hold a webinar as it fits their schedule.
+* CNCF Ambassador webinars will have "Ambassador webinar" preceding their webinar title.
+
+CNCF SIG webinars
+* CNCF SIGs can host 1 webinar a year.
+* CNCF SIG webinars will have "SIG webinar" preceding their webinar title.
 
 ## Webinar type definitions ##
  
@@ -42,9 +55,12 @@ Ambassador webinar: This is a webianar presented by one of the CNCF Ambassadors.
 ## Webinar content guidelines ##
 
 * The simplest guideline is that webinar topics should be comparable to what would be accepted in a KubeCon + CloudNativeCon talk. 
-* Any platforms, tools, or technologies you are describing must be open source and work with CNCF projects.
-* No straight product pitches or presenting on closed source technologies. 
-* It is okay to do a comparison of part of the landscape (e.g., cloud native storage), but webinars should not be promotional. 
+* Any platforms, tools, or technologies you are describing must be open source.
+* Not allowed: 
+  * Sales or marketing pitches 
+  * Unlicensed or potentially closed-source technologies 
+* Webinars should not be promotional.
+* It is NOT okay to mislead and misrepresent features of CNCF projects.
 
 Members can add a slide at the end of their webinar on where to get more information.
 Examples:
@@ -63,17 +79,11 @@ The [webinar calendar](https://calendly.com/cncf_webinars/cncf-webinar) is avail
 
 To choose a webinar date, go to the webinar calendar to view the available dates. Choose your preferred date. You will receive a calendar invite automatically via Calendly. The calendar invite will be updated with the company / project name, which confirms your webinar. When it gets closer to the webinar date, an email is sent confirming the webinar date is still good for you and outlines the next steps.
 
-## How to pick a topic ##
-
-* The purpose of the webinars is to educate the community and align your business with important thought-leadership topics. 
-* The audience is interested in technical demos that help them solve problems and want to be able to ask your expert questions. 
-* Our audience spans from developers, architects, CIOs, and CTOs. Topics should be tailored for which of those audiences you're trying to target. 
-* We are emphasizing SEO optimization this year to drive more registrations and views after the fact, so please take some extra time to make sure your abstract is highlighting important keywords. We'll be making suggestions as well. 
-* Top Performing Topics: Monitoring/Observability, CNCF Project Updates or Intros, CI/CD, Developer Experience, Deployment Strategies, Edge Computing, Security (ex. RBAC), ML/AI. 
-
 ## Webinar Checklist ##
 
-4 weeks beforehand
+4 weeks before the webinar date, confirm your availability to present the webinar by sending an email to [Webinar](mailto:webinars@cncf.io). 
+
+3 weeks before the webinar date, provide the below information. NOTE, abstracts not received 3 weeks before the webinar date will result in the webinar being cancelled.
 * Title
 * Abstract
 * Speaker Information
@@ -83,9 +93,7 @@ To choose a webinar date, go to the webinar calendar to view the available dates
   * Bio
 * Email addresses for all speakers / panelists
 
-1 week beforehand
-* Webinar presentation slides
-* If you would like a live walkthrough, it would be scheduled for this week 
+At least 2 weeks prior to the webinar date, you must provide your complete and final slides. NOTE, presentations not received 2 weeks before the webinar date will result in the webinar being cancelled. 
 
 All deliverables should be sent to [Webinar](mailto:webinars@cncf.io). 
 
@@ -97,7 +105,9 @@ All deliverables should be sent to [Webinar](mailto:webinars@cncf.io).
 * Our most successful webinars are when the presenting company helps promote in addition to CNCF promotion. We are often able to double our attendance in these cases. 
 
 ## Webinar: Presentations ##
-* 1 week prior to your webinar, send your webinar presentation to [Webinar](mailto:webinars@cncf.io). All presentations must be reviewed prior to the webinar.
+* 2 weeks prior to your webinar, send your final webinar presentation to [Webinar](mailto:webinars@cncf.io). All presentations must be reviewed prior to the webinar.
+* NOTE: presentations not received 2 weeks before the webinar date will result in the webinar being cancelled.
+
 * Logos:
   * Obsolete, low-res (i.e., pixelated), and malformatted logos are an epidemic among conference presentations. High-res logos of over 1000 cloud native projects, products, and companies are available in the cloud native landscape and the serverless and member landscapes. All logos are in the card mode and can be found with Cmd-F or Cntl-F from your browser. Note that all of these logos are stacked, not horizontal, and include the name. The logos are all the most current (or you can open a pull request if they’re not). 
   * Please see the CNCF style guide which covers things like abbreviating Kubernetes as K8s not K8 or K8S as well as the proper capitalization of projects like gRPC and containerd.
@@ -111,8 +121,8 @@ The moderator is responsible for covering the housekeeping items and helping the
 
 ## Webinar: Day-Of Details ##
 
-* Soundcheck: ½ hour before the webinar starts
-* Live Webinar: Tuesday 10am-11am PT, Wednesday 10am-11am PT, Thursday 9am-10am PT, Friday 10am - 11am PT
+* Webinar Prep: ½ hour before the webinar starts. Soundcheck, webinar slides, moderation of the Q&A.
+* Live Webinar: Starts at the top of the hour
 * Typical timing of the webinar - approximately 5 minute introduction, 45 minute presentation, 10 minutes of Q&A
 * A CNCF Ambassador or CNCF staff will help moderate (introduction, feeding questions to the presenter) 
 * Webinar Platform: Zoom 
