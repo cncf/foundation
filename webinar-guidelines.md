@@ -50,7 +50,7 @@ Member webinar: A webinar presented by a member. The webinar must comply with th
 
 Special Interest Group (SIG) webinar: A webinar presented by a SIG team member(s) is classified as a SIG webinar. If a CNCF member presents a webinar on behalf of the SIG, it is classified as a SIG webinar. If a member presentes a webinar about a SIG, it is classified as a Member webinar.
 
-Ambassador webinar: This is a webianar presented by one of the CNCF Ambassadors.
+Ambassador webinar: This is a webinar presented by one of the CNCF Ambassadors.
 
 ## Webinar content guidelines ##
 
