@@ -101,7 +101,7 @@ All deliverables should be sent to [Webinar](mailto:webinars@cncf.io).
 
 * Upon receipt of the abstract and the webinar being set up in Zoom, the hosting company will receive a link to the webinar registration page. The hosting company should use that link to promote the webinar.
 * The webinar is added to the CNCF webinar page.
-* CNCF promotes webinars via email, CNCF and KubeWeekly newsletters, and Twitter.
+* CNCF may promote the webinar via email, CNCF and KubeWeekly newsletters, and Twitter.
 * Our most successful webinars are when the presenting company helps promote in addition to CNCF promotion. We are often able to double our attendance in these cases. 
 
 ## Webinar: Presentations ##
