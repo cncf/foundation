@@ -17,9 +17,9 @@ Chinese language webinars are scheduled for Wednesday or Thursday Beijing time.
 ## Please read the guidelines carefully ##
 We have outlined content guidelines and timelines. Webinars that do not meet the requirements will be cancelled. 
 
-You must confirm your availability to present your webinar no later than 4 weeks before the webinar date. At least 3 weeks prior to your webinar date, you must provide your webinar details. At least 2 weeks prior to the webinar date, you must provide your complete and final slides.
+You must provide your webinar details no later than 4 weeks before the webinar date. At least 2 weeks prior to the webinar date you must provide your complete and final slides.
 
-If the webinar is cancelled due to not meeting these guidelines, the member will not be allowed to schedule a webinar in the subsequent webinar period. That is, platinum and gold members may not schedule a webinar in the upcoming quarter and silver members may not schedule a webinar in the upcoming 6 months
+If the webinar is cancelled due to not meeting these guidelines, the member will not be allowed to schedule a webinar in the subsequent webinar period. That is, platinum and gold members may not schedule a webinar in the upcoming quarter and silver members may not schedule a webinar in the upcoming 6 months.
 
 ## Who can host a webinar ##
 
@@ -54,7 +54,7 @@ Ambassador webinar: This is a webinar presented by one of the CNCF Ambassadors.
 
 ## Webinar content guidelines ##
 
-* The simplest guideline is that webinar topics should be comparable to what would be accepted in a KubeCon + CloudNativeCon talk. 
+* Webinar topics should be comparable to what would be accepted in a KubeCon + CloudNativeCon talk. 
 * Any platforms, tools, or technologies you are describing must be open source.
 * Not allowed: 
   * Sales or marketing pitches 
@@ -79,21 +79,22 @@ The [webinar calendar](https://calendly.com/cncf_webinars/cncf-webinar) is avail
 
 To choose a webinar date, go to the webinar calendar to view the available dates. Choose your preferred date. You will receive a calendar invite automatically via Calendly. The calendar invite will be updated with the company / project name, which confirms your webinar. When it gets closer to the webinar date, an email is sent confirming the webinar date is still good for you and outlines the next steps.
 
-## Webinar Checklist ##
+## Webinar Checklist ## 
 
-4 weeks before the webinar date, confirm your availability to present the webinar by sending an email to [Webinar](mailto:webinars@cncf.io). 
+4 weeks before the webinar date: [Provide your webinar information](https://docs.google.com/forms/d/e/1FAIpQLSfLJ2PSgcE4izH6gCGf7z9-NVcAwqpGt4iwW1nSfL6JF-Wpww/viewform?usp=sf_link) including the webinar abstract and speaker information via the Google Form
 
-3 weeks before the webinar date, provide the below information. NOTE, abstracts not received 3 weeks before the webinar date will result in the webinar being cancelled.
-* Title
-* Abstract
+2 weeks before the webinar date: [Share your final webinar slides](https://docs.google.com/forms/d/e/1FAIpQLSfdRKv5ZBGZY_tCNWeIiOZA9tTZH3krH7KSThg9W8RFItxxaw/viewform?usp=sf_link) via the Google Form
+
+Please be aware of these new timelines. We recommend you create a reminder to provide us this information by the due date. If we do not receive the information from you within the timelines outlined, your webinar will be cancelled.
+
+If you cannot provide your content via a Google Form (for example, our colleagues in China), please email your webinar materials to webinars@cncf.io.
+* Webinar title and abstract
 * Speaker Information
   * Headshot 
   * Title
   * Company
   * Bio
 * Email addresses for all speakers / panelists
-
-At least 2 weeks prior to the webinar date, you must provide your complete and final slides. NOTE, presentations not received 2 weeks before the webinar date will result in the webinar being cancelled. 
 
 All deliverables should be sent to [Webinar](mailto:webinars@cncf.io). 
 
