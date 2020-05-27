@@ -14,7 +14,7 @@ The content on our blog consists of:
 
 Other topics are welcome, but it needs to have a direct link to the CNCF community.
 
-We accept content from CNCF members, project maintainers of graduated and incubating projects, CNCF SIGs, CNCF ambassadors.
+We accept content from CNCF members, project maintainers of graduated and incubating projects, CNCF SIGs, CNCF ambassadors. The content needs to be originally published within the last 2 months.
 
 Blog type definitions:
 * Project blog: Any blog post on a graduated or incubating project. This is written by or on behalf of the project. If written by a member about a project, this blog is classified as a Project blog. An example is a Harbor blog written by the VMware team. The blog is classified as a Project blog.
