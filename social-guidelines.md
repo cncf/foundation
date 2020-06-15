@@ -16,17 +16,18 @@ The objectives of project social media:
 
 
 ### Strategy and Guidelines
-Keep messages positive and uplifting, consistent with the values and principles of CNCF
-Communicate big picture ideas vs “announcements” or news. News will be positioned less like an announcement and more around what it means.
-Share content across social media channels that benefit the ecosystem as a whole
-Share vendor-neutral, community-sourced posts that are informational, engaging, and ecosystem-focused
-Engage with the community through retweets and sharing of community content.
-Ecosystem content is vendor-neutral and project-impartial sourced from contributors, maintainers, ambassadors, news outlets, etc., including blog posts, news coverage, thought leadership bylines, technology demos, sketch notes, GitHub work, cloud native-specific Meetups, etc.
-CNCF is not able to share anything on our channels that promotes a vendor product or directs to a company website. 
-Social posts from member company handles and/or vendor channels cannot be shared.
-RTs are limited to news outlet handles, project handles + personal handles.
-Community content that abides by the channel guidelines + includes insight from/work with more than one CNCF project will be prioritized for sharing. 
-Activities that are hosted by and open to the public can be promoted, as they benefit the ecosystem as a whole. 
+* Keep messages positive and uplifting, consistent with the values and principles of CNCF
+* Communicate big picture ideas vs “announcements” or news. News will be positioned less like an announcement and more around what it means.
+* Share content across social media channels that benefit the ecosystem as a whole
+* Share vendor-neutral, community-sourced posts that are informational, engaging, and ecosystem-focused
+* Engage with the community through retweets and sharing of community content.
+* Ecosystem content is vendor-neutral and project-impartial sourced from contributors, maintainers, ambassadors, news outlets, etc., including blog posts, news coverage, thought leadership bylines, technology demos, sketch notes, GitHub work, cloud native-specific Meetups, etc.
+ * CNCF is not able to share anything on our channels that promotes a vendor product or directs to a company website. 
+ * Social posts from member company handles and/or vendor channels cannot be shared.
+ * RTs are limited to news outlet handles, project handles + personal handles.
+ * Community content that abides by the channel guidelines + includes insight from/work with more than one CNCF project will be prioritized for sharing. 
+ * Activities that are hosted by and open to the public can be promoted, as they benefit the ecosystem as a whole. 
+
 
 ### Images & Videos
 Images shared, unless specifically credited back to a community member, will meet the requirements of “free for commercial use” and “no attribution required.”
@@ -64,11 +65,11 @@ For all CNCF social activity, we remain a neutral foundation. Examples of the ty
 * Owned content is CNCF news, blogs, case studies, survey data, etc.
 * Project content is anything sourced from [CNCF’s currently hosted projects](https://www.cncf.io/projects/), including project news, roadmap updates, new releases, performance/security updates, blogs, conferences slides/videos, etc.
 * Ecosystem content is vendor-neutral and project-impartial sourced from contributors, maintainers, ambassadors, news outlets, etc., including blog posts, news coverage, thought leadership bylines, technology demos, sketch notes, GitHub work, cloud native-specific Meetups, etc.
-  * CNCF is not able to share anything on our channels that promotes a vendor product or directs to a company website. 
-  * Social posts from member company handles and/or vendor channels cannot be shared.
-  * RTs are limited to news outlet handles, @linuxfoundation, @kubecon_, project handles + personal handles.
-  * Community content that abides by the channel guidelines + includes insight from/work with more than one CNCF project will be prioritized for sharing. 
-  * Activities that are hosted by and open to the public can be promoted, as they benefit the ecosystem as a whole. 
+ * CNCF is not able to share anything on our channels that promotes a vendor product or directs to a company website. 
+ * Social posts from member company handles and/or vendor channels cannot be shared.
+ * RTs are limited to news outlet handles, @linuxfoundation, @kubecon_, project handles + personal handles.
+ * Community content that abides by the channel guidelines + includes insight from/work with more than one CNCF project will be prioritized for sharing. 
+ * Activities that are hosted by and open to the public can be promoted, as they benefit the ecosystem as a whole. 
 
 ### Images & Videos
 Images shared, unless specifically credited back to a community member, will meet the requirements of “free for commercial use” and “no attribution required.”
