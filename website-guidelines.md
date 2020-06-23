@@ -1,4 +1,6 @@
-August 13, 2017
+# CNCF Website Guidelines v1.1
+
+Updated: June 23, 2020
 
 CNCF encourages each project to manage its own website, but after consulting with the projects,
 we are publishing a set of guidelines around dealing with potential commercial conflicts.
@@ -33,7 +35,7 @@ or to CNCF, not the origin company.
 6. CNCF requests that graduated and incubating projects include the sentence “We are a Cloud Native
 Computing Foundation project.” and the CNCF logo near the bottom of their project homepage.
 Sandbox-level projects should include the sentence “We are a Cloud Native Computing Foundation
-sandbox project.” and the CNCF logo. We also appreciate a link to KubeCon + CloudNativeCon as the
+sandbox project.” and promintently feature the [CNCF Sandbox logo](https://github.com/cncf/artwork/tree/master/other/cncf-sandbox) and not the normal CNCF logo. We also appreciate a link to KubeCon + CloudNativeCon as the
 events approach.
 
 Questions? Please email info@cncf.io.
