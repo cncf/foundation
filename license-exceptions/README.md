@@ -6,13 +6,13 @@ The manifest files in this directory contain a list of license exceptions that h
 
 These manifests will be updated from time to time as new exceptions are approved.
 
-Please see the [CNCF charter] and the [Whitelist Policy] for more background information.
+Please see the [CNCF charter] and the [Allowlist Policy] for more background information.
 
-## Whitelisted components
+## Allowlisted components
 
-For convenience, the manifests also contain a list of certain other dependencies for which individual license exceptions were not required. This is either because (a) they were automatically approved as license exceptions under CNCF's [Whitelist Policy]; or (b) they are under Apache-2.0 and therefore aligned with the IP policy in the [CNCF charter]. 
+For convenience, the manifests also contain a list of certain other dependencies for which individual license exceptions were not required. This is either because (a) they were automatically approved as license exceptions under CNCF's [Allowlist Policy]; or (b) they are under Apache-2.0 and therefore aligned with the IP policy in the [CNCF charter]. 
 
 Dependencies that are not currently listed in the manifests, but which satisfy (a) or (b) in the preceding paragraph, are automatically approved and do not need separate license exceptions.
 
-[Whitelist Policy]: https://github.com/cncf/foundation/blob/master/whitelist-policy.md#cncf-whitelist-policy
+[Allowlist Policy]: https://github.com/cncf/foundation/blob/master/allowed-third-party-license-policy.md#cncf-allowlist-license-policy
 [CNCF charter]: https://github.com/cncf/foundation/blob/master/charter.md
