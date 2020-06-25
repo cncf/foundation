@@ -13,7 +13,7 @@ This repo contains several documents related to the operation of the [Cloud Nati
 
 * [Copyright](copyright-notices.md) notice recommendations
 * [Website guidelines](website-guidelines.md) for mentioning companies while maintaining neutrality
-* [Whitelist policy](whitelist-policy.md) for which licenses are acceptable in upstream dependencies without requiring an explicit vote of the governing board
+* [Allowlist License Policy](allowed-third-party-license-policy.md) for which licenses are acceptable in upstream dependencies without requiring an explicit vote of the governing board
 
 ## Community recommendations
 
