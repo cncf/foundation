@@ -57,3 +57,21 @@ least 18 versions of most logos.
 
 You can find stickers for all projects and t-shirts and hoodies for each CNCF graduated and incubating project
 at the CNCF [store](https://store.cncf.io/).
+
+## 5. Inclusive language ##
+
+The CNCF is an inclusive, harassment-free environment for all contributors. 
+All language in a project, including technical documentation, should use the preferred terms listed in the table below. 
+
+Updated: July 6, 2020
+
+| Term | Preferred term 
+| --- | --- |
+| whitelist, blacklist | allowlist, denylist 
+| master, slave (as in dependent computing nodes) | primary, secondary or control plane, control plane node
+| master (as in main, or archetypal) | main, blueprint
+| Grandfathered in | legacy status
+| Sanity check | confidence check  
+| Dummy value | placeholder value
+
+

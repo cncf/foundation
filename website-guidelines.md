@@ -1,4 +1,4 @@
-August 13, 2017
+July 6, 2020
 
 CNCF encourages each project to manage its own website, but after consulting with the projects,
 we are publishing a set of guidelines around dealing with potential commercial conflicts.
@@ -35,5 +35,9 @@ Computing Foundation project.” and the CNCF logo near the bottom of their proj
 Sandbox-level projects should include the sentence “We are a Cloud Native Computing Foundation
 sandbox project.” and the CNCF logo. We also appreciate a link to KubeCon + CloudNativeCon as the
 events approach.
+7. In accordance with the [Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md), 
+project websites should contribute to an inclusive environment for all contributors. 
+All language on the website, including project documentation, 
+should adhere to the [style guide](https://github.com/cncf/foundation/blob/master/style-guide.md)'s section on inclusive language in computing.
 
 Questions? Please email info@cncf.io.
