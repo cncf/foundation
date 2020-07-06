@@ -16,7 +16,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: GPL-2.0-only
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-05-20
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-05-20
 
 ##### Package: github.com/go-sql-driver/mysql
 
@@ -27,7 +27,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/c4milo/gotoolkit
 
@@ -38,7 +38,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/d2g/dhcp4client
 
@@ -49,7 +49,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/hashicorp/hcl
 
@@ -60,7 +60,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/hashicorp/golang-lru
 
@@ -71,7 +71,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/hashicorp/errwrap
 
@@ -82,7 +82,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/hashicorp/go-cleanhttp
 
@@ -93,7 +93,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/hashicorp/go-multierror
 
@@ -104,7 +104,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/hooklift/iso9660
 
@@ -115,7 +115,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/howeyc/gopass
 
@@ -126,7 +126,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: CDDL-1.0 AND ISC
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/jteeuwen/go-bindata
 
@@ -137,7 +137,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: CC0-1.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: highlight.js
 
@@ -148,7 +148,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT AND CC0-1.0 AND LicenseRef-Public-domain-statement
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: google.golang.org/grpc
 
@@ -159,7 +159,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/grpc-ecosystem/grpc-opentracing
 
@@ -170,7 +170,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: golang.org/x/crypto
 
@@ -181,7 +181,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT AND LicenseRef-Google-Patents-Notice-Golang AND LicenseRef-Public-domain-statement 
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/client9/misspell
 
@@ -192,7 +192,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT AND Unlicense
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/mattn/go-sqlite3
 
@@ -203,7 +203,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT AND LicenseRef-Public-domain-statement 
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/dgryski/go-onlinestats
 
@@ -214,7 +214,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT AND LicenseRef-Public-domain-statement 
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/docker/go-units
 
@@ -225,7 +225,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/opencontainers/go-digest
 
@@ -236,7 +236,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/docker/spdystream
 
@@ -247,7 +247,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/opencontainers/runc
 
@@ -258,7 +258,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND LicenseRef-CC-unspecified
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/google/go-github
 
@@ -269,7 +269,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND CC-BY-3.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: golang.org/x/net
 
@@ -280,7 +280,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND CC-BY-3.0 AND (BSD-3-Clause OR LicenseRef-W3C-Test-Suite-License-1) AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: bootstrap
 
@@ -291,7 +291,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT AND CC-BY-3.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: font-awesome
 
@@ -302,7 +302,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT AND OFL-1.1 AND CC-BY-3.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
 
 ##### Package: github.com/gonum/graph
 
@@ -313,7 +313,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: golang/json
 
@@ -324,7 +324,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: golang/netutil
 
@@ -335,7 +335,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: golang/internal/srcimporter
 
@@ -346,7 +346,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: github.com/bungle/lua-resty-template
 
@@ -357,7 +357,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: go-srcimporter
 
@@ -368,7 +368,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: go9p
 
@@ -379,7 +379,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: godep
 
@@ -390,7 +390,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: golang/reflect
 
@@ -401,7 +401,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: golang/expansion
 
@@ -412,7 +412,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: golang/template
 
@@ -423,7 +423,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: golang/go/types
 
@@ -434,7 +434,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: sigs.k8s.io/yaml
 
@@ -445,7 +445,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: fork of github.com/ghodss/yaml; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: fork of github.com/ghodss/yaml; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: Azure acr-docker-credential-helper
 
@@ -456,7 +456,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: github.com/multiarch/qemu-user-static
 
@@ -467,7 +467,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
 
 ##### Package: Google Protocol Buffers
 
@@ -478,7 +478,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Highlight
 
@@ -489,7 +489,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: sprintf() for JavaScript
 
@@ -500,7 +500,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: dialog-polyfill.css
 
@@ -511,7 +511,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Pure CSS
 
@@ -522,7 +522,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: shred
 
@@ -533,7 +533,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: ISC
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Asciidoctor
 
@@ -544,7 +544,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Backbone
 
@@ -555,7 +555,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Handlebars
 
@@ -566,7 +566,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: jQuery
 
@@ -577,7 +577,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: jQuery Slideto
 
@@ -588,7 +588,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: jQuery Wiggle
 
@@ -599,7 +599,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: marked
 
@@ -610,7 +610,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: parseUri
 
@@ -621,7 +621,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Underscore.js
 
@@ -632,7 +632,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Angular
 
@@ -643,7 +643,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Gingko
 
@@ -654,7 +654,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: moment.js
 
@@ -665,7 +665,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: normalize.css
 
@@ -676,7 +676,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: Octicons
 
@@ -687,7 +687,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: jQuery BBQ
 
@@ -698,7 +698,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT OR GPL-2.0+
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: jQuery hashchange event
 
@@ -709,7 +709,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT OR GPL-2.0+
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
 
 ##### Package: google.golang.org/appengine
 
@@ -720,7 +720,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: google.golang.org/api
 
@@ -731,7 +731,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: speter.net/go/exp
 
@@ -742,7 +742,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: htpasswd
 
@@ -753,7 +753,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: Pause
 
@@ -764,7 +764,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/spotinst/spotinst-sdk-go
 
@@ -775,7 +775,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/xanzy/ssh-agent
 
@@ -786,7 +786,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: gopkg.in/warnings.v0
 
@@ -797,7 +797,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/zchee/go-vmnet
 
@@ -808,7 +808,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/Nvveen/Gotty
 
@@ -819,7 +819,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause-FreeBSD
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: bitbucket.org/ww/goautoneg
 
@@ -830,7 +830,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/tent/http-link-go
 
@@ -841,7 +841,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/d2g/dhcp4
 
@@ -852,7 +852,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/quobyte/api
 
@@ -863,7 +863,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/src-d/gcfg
 
@@ -874,7 +874,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/JeffAshton/win_pdh
 
@@ -885,7 +885,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/sigma/go-inotify
 
@@ -896,7 +896,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: bitbucket.org/bertimus9/systemstat
 
@@ -907,7 +907,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/jbenet/go-context
 
@@ -918,7 +918,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/rubiojr/go-vhd
 
@@ -929,7 +929,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/marstr/guid
 
@@ -940,7 +940,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/jmank88/nuts
 
@@ -951,7 +951,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/Azure/azure-pipeline-go
 
@@ -962,7 +962,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/johanneswuerbach/nfsexports
 
@@ -973,7 +973,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/joshdk/go-junit
 
@@ -984,7 +984,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/konsorten/go-windows-terminal-sequences
 
@@ -995,7 +995,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
 
 ##### Package: github.com/fsouza/go-dockerclient
 
@@ -1006,7 +1006,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/square/go-jose.v2
 
@@ -1017,7 +1017,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/matttproud/golang_protobuf_extensions
 
@@ -1028,7 +1028,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/coreos/etcd
 
@@ -1039,7 +1039,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/vmware/govmomi
 
@@ -1050,7 +1050,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pquerna/cachecontrol
 
@@ -1061,7 +1061,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/grpc-ecosystem/grpc-gateway
 
@@ -1072,7 +1072,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/prometheus/common
 
@@ -1083,7 +1083,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/docker/engine-api
 
@@ -1094,7 +1094,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/vmware/photon-controller-go-sdk
 
@@ -1105,7 +1105,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/google/certificate-transparency-go
 
@@ -1116,7 +1116,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pquerna/ffjson
 
@@ -1127,7 +1127,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND ISC
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/prometheus/client_golang
 
@@ -1138,7 +1138,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/googleapis/gnostic
 
@@ -1149,7 +1149,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/aws/aws-sdk-go
 
@@ -1160,7 +1160,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT AND (MIT OR GPL-3.0)
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/tools
 
@@ -1171,7 +1171,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/go-openapi/spec
 
@@ -1182,7 +1182,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: ejs
 
@@ -1193,7 +1193,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/docker/docker
 
@@ -1204,7 +1204,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/xeipuuv/gojsonschema
 
@@ -1215,7 +1215,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/spf13/cobra
 
@@ -1226,7 +1226,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/go-yaml/yaml
 
@@ -1237,7 +1237,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/cloudfoundry-incubator/candiedyaml
 
@@ -1248,7 +1248,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/skynetservices/skydns
 
@@ -1259,7 +1259,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/go-openapi/swag
 
@@ -1270,7 +1270,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/ncabatoff/process-exporter
 
@@ -1281,7 +1281,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/docker/cli
 
@@ -1292,7 +1292,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/russross/blackfriday
 
@@ -1303,7 +1303,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/syndtr/gocapability
 
@@ -1314,7 +1314,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/streadway/quantile
 
@@ -1325,7 +1325,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/GeertJohan/go.rice
 
@@ -1336,7 +1336,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pkg/sftp
 
@@ -1347,7 +1347,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/dchest/safefile
 
@@ -1358,7 +1358,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/godbus/dbus
 
@@ -1369,7 +1369,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pkg/browser
 
@@ -1380,7 +1380,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/elazarl/go-bindata-assetfs
 
@@ -1391,7 +1391,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pkg/profile
 
@@ -1402,7 +1402,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/seccomp/libseccomp-golang
 
@@ -1413,7 +1413,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pkg/errors
 
@@ -1424,7 +1424,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/bwmarrin/snowflake
 
@@ -1435,7 +1435,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/fsouza/fake-gcs-server
 
@@ -1446,7 +1446,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/karrick/godirwalk
 
@@ -1457,7 +1457,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/check.v1
 
@@ -1468,7 +1468,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/magiconair/properties
 
@@ -1479,7 +1479,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/scalingdata/gcfg
 
@@ -1490,7 +1490,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/gogo/protobuf
 
@@ -1501,7 +1501,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/globalsign/mgo
 
@@ -1512,7 +1512,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/sys
 
@@ -1523,7 +1523,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/cloudflare/cfssl
 
@@ -1534,7 +1534,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND ISC
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Sirupsen/logrus
 
@@ -1545,7 +1545,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/sirupsen/logrus
 
@@ -1556,7 +1556,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/emirpasic/gods
 
@@ -1567,7 +1567,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND ISC
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/gorilla/websocket
 
@@ -1578,7 +1578,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/storageos/go-api
 
@@ -1589,7 +1589,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/rcrowley/go-metrics
 
@@ -1600,7 +1600,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause-FreeBSD
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/cheggaaa/pb.v1
 
@@ -1611,7 +1611,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/gcfg.v1
 
@@ -1622,7 +1622,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/igm/sockjs-go.v2
 
@@ -1633,7 +1633,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/tomb.v1
 
@@ -1644,7 +1644,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/fsnotify
 
@@ -1655,7 +1655,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/inf.v0
 
@@ -1666,7 +1666,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/miekg/dns
 
@@ -1677,7 +1677,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/petar/GoLLRB
 
@@ -1688,7 +1688,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/elazarl/goproxy
 
@@ -1699,7 +1699,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/PuerkitoBio/purell
 
@@ -1710,7 +1710,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/gorilla/mux
 
@@ -1721,7 +1721,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/gorilla/sessions
 
@@ -1732,7 +1732,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/gorilla/securecookie
 
@@ -1743,7 +1743,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/gorilla/context
 
@@ -1754,7 +1754,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/ziutek/syslog
 
@@ -1765,7 +1765,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/imdario/mergo
 
@@ -1776,7 +1776,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/golang/lint
 
@@ -1787,7 +1787,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/lxn/win
 
@@ -1798,7 +1798,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/spf13/pflag
 
@@ -1809,7 +1809,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/google/go-querystring
 
@@ -1820,7 +1820,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/kr/fs
 
@@ -1831,7 +1831,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pmezard/go-difflib
 
@@ -1842,7 +1842,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/evanphx/json-patch
 
@@ -1853,7 +1853,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/shurcooL/go
 
@@ -1864,7 +1864,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/chai2010/gettext-go
 
@@ -1875,7 +1875,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mxk/go-flowrate
 
@@ -1886,7 +1886,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/fsnotify/fsnotify
 
@@ -1897,7 +1897,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/golang/protobuf
 
@@ -1908,7 +1908,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pierrec/xxHash
 
@@ -1919,7 +1919,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mvdan/xurls
 
@@ -1930,7 +1930,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/PuerkitoBio/urlesc
 
@@ -1941,7 +1941,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/kardianos/osext
 
@@ -1952,7 +1952,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pierrec/lz4
 
@@ -1963,7 +1963,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/aclements/go-moremath
 
@@ -1974,7 +1974,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/golang/snappy
 
@@ -1985,7 +1985,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pborman/uuid
 
@@ -1996,7 +1996,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/google/uuid
 
@@ -2007,7 +2007,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/googleapis/gax-go
 
@@ -2018,7 +2018,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/cyphar/filepath-securejoin
 
@@ -2029,7 +2029,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang/archive/tar
 
@@ -2040,7 +2040,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/lint
 
@@ -2051,7 +2051,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/oauth2
 
@@ -2062,7 +2062,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gonum.org/v1/gonum
 
@@ -2073,7 +2073,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND (BSD-3-Clause OR CC0-1.0)
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/golang/dep
 
@@ -2084,7 +2084,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/build
 
@@ -2095,7 +2095,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/exp
 
@@ -2106,7 +2106,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/sync
 
@@ -2117,7 +2117,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/text
 
@@ -2128,7 +2128,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: golang.org/x/time
 
@@ -2139,7 +2139,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/olivere/elastic.v3
 
@@ -2150,7 +2150,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/olivere/elastic.v5
 
@@ -2161,7 +2161,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: marked
 
@@ -2172,7 +2172,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/daviddengcn/go-colortext
 
@@ -2183,7 +2183,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/digitalocean/godo
 
@@ -2194,7 +2194,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/ghodss/yaml
 
@@ -2205,7 +2205,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/fullsailor/pkcs7
 
@@ -2216,7 +2216,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/djherbis/atime
 
@@ -2227,7 +2227,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Microsoft/hcsshim
 
@@ -2238,7 +2238,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mattn/go-zglob
 
@@ -2249,7 +2249,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Microsoft/go-winio
 
@@ -2260,7 +2260,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/davecgh/go-spew
 
@@ -2271,7 +2271,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: ISC
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: go.uber.org/atomic
 
@@ -2282,7 +2282,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: go.uber.org/multierr
 
@@ -2293,7 +2293,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: go.uber.org/zap
 
@@ -2304,7 +2304,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/go-playground/pool.v3
 
@@ -2315,7 +2315,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/natefinch/lumberjack.v2
 
@@ -2326,7 +2326,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: gopkg.in/robfig/cron.v2
 
@@ -2337,7 +2337,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: colors
 
@@ -2348,7 +2348,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: jquery
 
@@ -2359,7 +2359,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: jquery.scrollto
 
@@ -2370,7 +2370,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: mime
 
@@ -2381,7 +2381,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: minimist
 
@@ -2392,7 +2392,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: node-static
 
@@ -2403,7 +2403,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: optimist
 
@@ -2414,7 +2414,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: wordwrap
 
@@ -2425,7 +2425,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: vbom.ml/util
 
@@ -2436,7 +2436,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: Chart.js
 
@@ -2447,7 +2447,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: ui-router for Angular
 
@@ -2458,7 +2458,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/tsenart/vegeta
 
@@ -2469,7 +2469,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/kr/pretty
 
@@ -2480,7 +2480,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/kr/pty
 
@@ -2491,7 +2491,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/patrickmn/go-cache
 
@@ -2502,7 +2502,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/dustin/go-humanize
 
@@ -2513,7 +2513,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/lib/pq
 
@@ -2524,7 +2524,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/peterbourgon/diskv
 
@@ -2535,7 +2535,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/dgrijalva/jwt-go
 
@@ -2546,7 +2546,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/kr/text
 
@@ -2557,7 +2557,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/robfig/cron
 
@@ -2568,7 +2568,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/kisielk/sqlstruct
 
@@ -2579,7 +2579,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/stretchr/testify
 
@@ -2590,7 +2590,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/emicklei/go-restful
 
@@ -2601,7 +2601,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/sergi/go-diff
 
@@ -2612,7 +2612,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/gregjones/httpcache
 
@@ -2623,7 +2623,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/jmoiron/sqlx
 
@@ -2634,7 +2634,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/hpcloud/tail
 
@@ -2645,7 +2645,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pelletier/go-toml
 
@@ -2656,7 +2656,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/daaku/go.zipexe
 
@@ -2667,7 +2667,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/nightlyone/lockfile
 
@@ -2678,7 +2678,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mitchellh/mapstructure
 
@@ -2689,7 +2689,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/ugorji/go
 
@@ -2700,7 +2700,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/satori/go.uuid
 
@@ -2711,7 +2711,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mattn/go-runewidth
 
@@ -2722,7 +2722,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/deckarep/golang-set
 
@@ -2733,7 +2733,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Shopify/sarama
 
@@ -2744,7 +2744,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/urfave/cli
 
@@ -2755,7 +2755,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/joho/godotenv
 
@@ -2766,7 +2766,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/onsi/ginkgo
 
@@ -2777,7 +2777,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/onsi/gomega
 
@@ -2788,7 +2788,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/stretchr/objx
 
@@ -2799,7 +2799,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/jinzhu/gorm
 
@@ -2810,7 +2810,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/smartystreets/go-aws-auth
 
@@ -2821,7 +2821,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/marpaia/graphite-golang
 
@@ -2832,7 +2832,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/eapache/channels
 
@@ -2843,7 +2843,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Masterminds/sprig
 
@@ -2854,7 +2854,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/boltdb/bolt
 
@@ -2865,7 +2865,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/tchap/go-patricia
 
@@ -2876,7 +2876,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/olekukonko/tablewriter
 
@@ -2887,7 +2887,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/parnurzeal/gorequest
 
@@ -2898,7 +2898,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/armon/go-proxyproto
 
@@ -2909,7 +2909,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/spf13/jwalterweatherman
 
@@ -2920,7 +2920,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/spf13/viper
 
@@ -2931,7 +2931,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/spf13/cast
 
@@ -2942,7 +2942,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mitchellh/go-ps
 
@@ -2953,7 +2953,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/armon/circbuf
 
@@ -2964,7 +2964,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/eapache/queue
 
@@ -2975,7 +2975,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/beorn7/perks
 
@@ -2986,7 +2986,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mattn/go-shellwords
 
@@ -2997,7 +2997,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/asaskevich/govalidator
 
@@ -3008,7 +3008,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/blang/semver
 
@@ -3019,7 +3019,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/MakeNowJust/heredoc
 
@@ -3030,7 +3030,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/fatih/structs
 
@@ -3041,7 +3041,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/cpuguy83/go-md2man
 
@@ -3052,7 +3052,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mohae/deepcopy
 
@@ -3063,7 +3063,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/armon/go-radix
 
@@ -3074,7 +3074,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mitchellh/go-homedir
 
@@ -3085,7 +3085,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/jmhodges/clock
 
@@ -3096,7 +3096,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mitchellh/go-wordwrap
 
@@ -3107,7 +3107,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/eapache/go-resiliency
 
@@ -3118,7 +3118,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/huandu/xstrings
 
@@ -3129,7 +3129,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/shurcooL/sanitized_anchor_name
 
@@ -3140,7 +3140,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/zakjan/cert-chain-resolver
 
@@ -3151,7 +3151,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/jpillora/backoff
 
@@ -3162,7 +3162,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/renstrom/dedent
 
@@ -3173,7 +3173,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/fatih/camelcase
 
@@ -3184,7 +3184,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Azure/go-ansiterm
 
@@ -3195,7 +3195,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/markbates/inflect
 
@@ -3206,7 +3206,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/xiang90/probing
 
@@ -3217,7 +3217,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/jinzhu/inflection
 
@@ -3228,7 +3228,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Masterminds/vcs
 
@@ -3239,7 +3239,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/andygrunwald/go-gerrit
 
@@ -3250,7 +3250,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/moul/http2curl
 
@@ -3261,7 +3261,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/exponent-io/jsonpath
 
@@ -3272,7 +3272,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Masterminds/semver
 
@@ -3283,7 +3283,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/opentracing/opentracing-go
 
@@ -3294,7 +3294,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mitchellh/hashstructure
 
@@ -3305,7 +3305,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/pelletier/go-buffruneio
 
@@ -3316,7 +3316,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/mailru/easyjson
 
@@ -3327,7 +3327,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/eapache/go-xerial-snappy
 
@@ -3338,7 +3338,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/go-ozzo/ozzo-validation
 
@@ -3349,7 +3349,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Rican7/retry
 
@@ -3360,7 +3360,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/tmc/grpc-websocket-proxy
 
@@ -3371,7 +3371,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/json-iterator/go
 
@@ -3382,7 +3382,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/libvirt/libvirt-go
 
@@ -3393,7 +3393,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/libvirt/libvirt-go-xml
 
@@ -3404,7 +3404,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/gobuffalo/envy
 
@@ -3415,7 +3415,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/riemann/riemann-go-client
 
@@ -3426,7 +3426,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/emicklei/go-restful-swagger12
 
@@ -3437,7 +3437,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/sdboyer/constext
 
@@ -3448,7 +3448,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/kevinburke/ssh_config
 
@@ -3459,7 +3459,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/shurcooL/githubv4
 
@@ -3470,7 +3470,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/coreos/bbolt
 
@@ -3481,7 +3481,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/shurcooL/graphql
 
@@ -3492,7 +3492,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/Azure/azure-storage-blob-go
 
@@ -3503,7 +3503,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/influxdata/influxdb
 
@@ -3514,7 +3514,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: defusedxml
 
@@ -3525,7 +3525,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: Python-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: whitelisted
+PackageComment: allowlisted
 
 ##### Package: github.com/docker/distribution
 

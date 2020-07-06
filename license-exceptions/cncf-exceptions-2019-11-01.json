@@ -2,1602 +2,1602 @@
   {
     "package": "VirtualBox Linux Guest Drivers Makefile",
     "license": "GPL-2.0-only",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-05-20"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-05-20"
   },
   {
     "package": "github.com/go-sql-driver/mysql",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/c4milo/gotoolkit",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/d2g/dhcp4client",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/hashicorp/hcl",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/hashicorp/golang-lru",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/hashicorp/errwrap",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/hashicorp/go-cleanhttp",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/hashicorp/go-multierror",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/hooklift/iso9660",
     "license": "MPL-2.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/howeyc/gopass",
     "license": "CDDL-1.0 AND ISC",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/jteeuwen/go-bindata",
     "license": "CC0-1.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "highlight.js",
     "license": "BSD-3-Clause AND MIT AND CC0-1.0 AND LicenseRef-Public-domain-statement",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "google.golang.org/grpc",
     "license": "Apache-2.0 AND BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/grpc-ecosystem/grpc-opentracing",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "golang.org/x/crypto",
     "license": "BSD-3-Clause AND MIT AND LicenseRef-Google-Patents-Notice-Golang AND LicenseRef-Public-domain-statement ",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/client9/misspell",
     "license": "BSD-3-Clause AND MIT AND Unlicense",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/mattn/go-sqlite3",
     "license": "MIT AND LicenseRef-Public-domain-statement ",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/dgryski/go-onlinestats",
     "license": "MIT AND LicenseRef-Public-domain-statement ",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/docker/go-units",
     "license": "Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/opencontainers/go-digest",
     "license": "Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/docker/spdystream",
     "license": "Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0 AND BSD-3-Clause",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/opencontainers/runc",
     "license": "Apache-2.0 AND LicenseRef-CC-unspecified",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/google/go-github",
     "license": "BSD-3-Clause AND CC-BY-3.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "golang.org/x/net",
     "license": "BSD-2-Clause AND BSD-3-Clause AND CC-BY-3.0 AND (BSD-3-Clause OR LicenseRef-W3C-Test-Suite-License-1) AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "bootstrap",
     "license": "MIT AND CC-BY-3.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "font-awesome",
     "license": "MIT AND OFL-1.1 AND CC-BY-3.0",
-    "comment": "not whitelisted because: Non-whitelist license(s); approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/gonum/graph",
     "license": "BSD-3-Clause",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "golang/json",
     "license": "BSD-3-Clause",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "golang/netutil",
     "license": "BSD-3-Clause",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "golang/internal/srcimporter",
     "license": "BSD-3-Clause",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/bungle/lua-resty-template",
     "license": "BSD-3-Clause",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "go-srcimporter",
     "license": "BSD-3-Clause",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "go9p",
     "license": "BSD-3-Clause",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "godep",
     "license": "BSD-3-Clause",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "golang/reflect",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "golang/expansion",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "golang/template",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "golang/go/types",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "sigs.k8s.io/yaml",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "fork of github.com/ghodss/yaml; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "fork of github.com/ghodss/yaml; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "Azure acr-docker-credential-helper",
     "license": "MIT",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/multiarch/qemu-user-static",
     "license": "MIT",
-    "comment": "modified from upstream; not whitelisted because: Modified; approved by GB exception 2019-03-11"
+    "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
   },
   {
     "package": "Google Protocol Buffers",
     "license": "BSD-3-Clause",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Highlight",
     "license": "BSD-3-Clause",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "sprintf() for JavaScript",
     "license": "BSD-3-Clause",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "dialog-polyfill.css",
     "license": "BSD-3-Clause",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Pure CSS",
     "license": "BSD-3-Clause",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "shred",
     "license": "ISC",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Asciidoctor",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Backbone",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Handlebars",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "jQuery",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "jQuery Slideto",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "jQuery Wiggle",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "marked",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "parseUri",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Underscore.js",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Angular",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Gingko",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "moment.js",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "normalize.css",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "Octicons",
     "license": "MIT",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "jQuery BBQ",
     "license": "MIT OR GPL-2.0+",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "jQuery hashchange event",
     "license": "MIT OR GPL-2.0+",
-    "comment": "contained directly in repo; not whitelisted because: Not isolated; approved by GB exception 2019-03-11"
+    "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
   },
   {
     "package": "google.golang.org/appengine",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "google.golang.org/api",
     "license": "Apache-2.0 AND BSD-3-Clause AND MIT",
-    "comment": "not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "speter.net/go/exp",
     "license": "BSD-2-Clause AND BSD-3-Clause",
-    "comment": "not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "htpasswd",
     "license": "BSD-3-Clause",
-    "comment": "not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "Pause",
     "license": "MIT",
-    "comment": "not whitelisted because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/spotinst/spotinst-sdk-go",
     "license": "Apache-2.0 AND BSD-3-Clause AND MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/xanzy/ssh-agent",
     "license": "Apache-2.0 AND MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "gopkg.in/warnings.v0",
     "license": "BSD-2-Clause",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/zchee/go-vmnet",
     "license": "BSD-2-Clause AND BSD-3-Clause",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/Nvveen/Gotty",
     "license": "BSD-2-Clause-FreeBSD",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "bitbucket.org/ww/goautoneg",
     "license": "BSD-3-Clause",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/tent/http-link-go",
     "license": "BSD-3-Clause",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/d2g/dhcp4",
     "license": "BSD-3-Clause",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/quobyte/api",
     "license": "BSD-3-Clause",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/src-d/gcfg",
     "license": "BSD-3-Clause",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/JeffAshton/win_pdh",
     "license": "BSD-3-Clause",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/sigma/go-inotify",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "bitbucket.org/bertimus9/systemstat",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/jbenet/go-context",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/rubiojr/go-vhd",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/marstr/guid",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/jmank88/nuts",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/Azure/azure-pipeline-go",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/johanneswuerbach/nfsexports",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/joshdk/go-junit",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/konsorten/go-windows-terminal-sequences",
     "license": "MIT",
-    "comment": "not whitelisted because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
   },
   {
     "package": "github.com/fsouza/go-dockerclient",
     "license": "Apache-2.0 AND BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/square/go-jose.v2",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/matttproud/golang_protobuf_extensions",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/coreos/etcd",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/vmware/govmomi",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pquerna/cachecontrol",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/grpc-ecosystem/grpc-gateway",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/prometheus/common",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/docker/engine-api",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/vmware/photon-controller-go-sdk",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/google/certificate-transparency-go",
     "license": "Apache-2.0 AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pquerna/ffjson",
     "license": "Apache-2.0 AND BSD-3-Clause AND ISC",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/prometheus/client_golang",
     "license": "Apache-2.0 AND BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/googleapis/gnostic",
     "license": "Apache-2.0 AND BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/aws/aws-sdk-go",
     "license": "Apache-2.0 AND BSD-3-Clause AND MIT AND (MIT OR GPL-3.0)",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/tools",
     "license": "Apache-2.0 AND BSD-3-Clause AND MIT AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/go-openapi/spec",
     "license": "Apache-2.0 AND CC-BY-4.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "ejs",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/docker/docker",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/xeipuuv/gojsonschema",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/spf13/cobra",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/go-yaml/yaml",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/cloudfoundry-incubator/candiedyaml",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/skynetservices/skydns",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/go-openapi/swag",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/ncabatoff/process-exporter",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/docker/cli",
     "license": "Apache-2.0 AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/russross/blackfriday",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/syndtr/gocapability",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/streadway/quantile",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/GeertJohan/go.rice",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pkg/sftp",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/dchest/safefile",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/godbus/dbus",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pkg/browser",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/elazarl/go-bindata-assetfs",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pkg/profile",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/seccomp/libseccomp-golang",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pkg/errors",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/bwmarrin/snowflake",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/fsouza/fake-gcs-server",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/karrick/godirwalk",
     "license": "BSD-2-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/check.v1",
     "license": "BSD-2-Clause AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/magiconair/properties",
     "license": "BSD-2-Clause AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/scalingdata/gcfg",
     "license": "BSD-2-Clause AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/gogo/protobuf",
     "license": "BSD-2-Clause AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/globalsign/mgo",
     "license": "BSD-2-Clause AND BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/sys",
     "license": "BSD-2-Clause AND BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/cloudflare/cfssl",
     "license": "BSD-2-Clause AND BSD-3-Clause AND ISC",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Sirupsen/logrus",
     "license": "BSD-2-Clause AND BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/sirupsen/logrus",
     "license": "BSD-2-Clause AND BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/emirpasic/gods",
     "license": "BSD-2-Clause AND ISC",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/gorilla/websocket",
     "license": "BSD-2-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/storageos/go-api",
     "license": "BSD-2-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/rcrowley/go-metrics",
     "license": "BSD-2-Clause-FreeBSD",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/cheggaaa/pb.v1",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/gcfg.v1",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/igm/sockjs-go.v2",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/tomb.v1",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/fsnotify",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/inf.v0",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/miekg/dns",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/petar/GoLLRB",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/elazarl/goproxy",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/PuerkitoBio/purell",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/gorilla/mux",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/gorilla/sessions",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/gorilla/securecookie",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/gorilla/context",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/ziutek/syslog",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/imdario/mergo",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/golang/lint",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/lxn/win",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/spf13/pflag",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/google/go-querystring",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/kr/fs",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pmezard/go-difflib",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/evanphx/json-patch",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/shurcooL/go",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/chai2010/gettext-go",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mxk/go-flowrate",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/fsnotify/fsnotify",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/golang/protobuf",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pierrec/xxHash",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mvdan/xurls",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/PuerkitoBio/urlesc",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/kardianos/osext",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pierrec/lz4",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/aclements/go-moremath",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/golang/snappy",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pborman/uuid",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/google/uuid",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/googleapis/gax-go",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/cyphar/filepath-securejoin",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang/archive/tar",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/lint",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/oauth2",
     "license": "BSD-3-Clause",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gonum.org/v1/gonum",
     "license": "BSD-3-Clause AND (BSD-3-Clause OR CC0-1.0)",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/golang/dep",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/build",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/exp",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/sync",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/text",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "golang.org/x/time",
     "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/olivere/elastic.v3",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/olivere/elastic.v5",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "marked",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/daviddengcn/go-colortext",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/digitalocean/godo",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/ghodss/yaml",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/fullsailor/pkcs7",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/djherbis/atime",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Microsoft/hcsshim",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mattn/go-zglob",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Microsoft/go-winio",
     "license": "BSD-3-Clause AND MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/davecgh/go-spew",
     "license": "ISC",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "go.uber.org/atomic",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "go.uber.org/multierr",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "go.uber.org/zap",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/go-playground/pool.v3",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/natefinch/lumberjack.v2",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "gopkg.in/robfig/cron.v2",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "colors",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "jquery",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "jquery.scrollto",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "mime",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "minimist",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "node-static",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "optimist",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "wordwrap",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "vbom.ml/util",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "Chart.js",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "ui-router for Angular",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/tsenart/vegeta",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/kr/pretty",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/kr/pty",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/patrickmn/go-cache",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/dustin/go-humanize",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/lib/pq",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/peterbourgon/diskv",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/dgrijalva/jwt-go",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/kr/text",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/robfig/cron",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/kisielk/sqlstruct",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/stretchr/testify",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/emicklei/go-restful",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/sergi/go-diff",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/gregjones/httpcache",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/jmoiron/sqlx",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/hpcloud/tail",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pelletier/go-toml",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/daaku/go.zipexe",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/nightlyone/lockfile",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mitchellh/mapstructure",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/ugorji/go",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/satori/go.uuid",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mattn/go-runewidth",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/deckarep/golang-set",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Shopify/sarama",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/urfave/cli",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/joho/godotenv",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/onsi/ginkgo",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/onsi/gomega",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/stretchr/objx",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/jinzhu/gorm",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/smartystreets/go-aws-auth",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/marpaia/graphite-golang",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/eapache/channels",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Masterminds/sprig",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/boltdb/bolt",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/tchap/go-patricia",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/olekukonko/tablewriter",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/parnurzeal/gorequest",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/armon/go-proxyproto",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/spf13/jwalterweatherman",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/spf13/viper",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/spf13/cast",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mitchellh/go-ps",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/armon/circbuf",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/eapache/queue",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/beorn7/perks",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mattn/go-shellwords",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/asaskevich/govalidator",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/blang/semver",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/MakeNowJust/heredoc",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/fatih/structs",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/cpuguy83/go-md2man",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mohae/deepcopy",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/armon/go-radix",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mitchellh/go-homedir",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/jmhodges/clock",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mitchellh/go-wordwrap",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/eapache/go-resiliency",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/huandu/xstrings",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/shurcooL/sanitized_anchor_name",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/zakjan/cert-chain-resolver",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/jpillora/backoff",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/renstrom/dedent",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/fatih/camelcase",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Azure/go-ansiterm",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/markbates/inflect",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/xiang90/probing",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/jinzhu/inflection",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Masterminds/vcs",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/andygrunwald/go-gerrit",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/moul/http2curl",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/exponent-io/jsonpath",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Masterminds/semver",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/opentracing/opentracing-go",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mitchellh/hashstructure",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/pelletier/go-buffruneio",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/mailru/easyjson",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/eapache/go-xerial-snappy",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/go-ozzo/ozzo-validation",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Rican7/retry",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/tmc/grpc-websocket-proxy",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/json-iterator/go",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/libvirt/libvirt-go",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/libvirt/libvirt-go-xml",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/gobuffalo/envy",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/riemann/riemann-go-client",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/emicklei/go-restful-swagger12",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/sdboyer/constext",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/kevinburke/ssh_config",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/shurcooL/githubv4",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/coreos/bbolt",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/shurcooL/graphql",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/Azure/azure-storage-blob-go",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/influxdata/influxdb",
     "license": "MIT",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "defusedxml",
     "license": "Python-2.0",
-    "comment": "whitelisted"
+    "comment": "allowlisted"
   },
   {
     "package": "github.com/docker/distribution",
