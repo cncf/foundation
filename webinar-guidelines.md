@@ -24,21 +24,25 @@ If the webinar is cancelled due to not meeting these guidelines, the member will
 ## Who can host a webinar ##
 
 Member webinars
+
 * Platinum and Gold Members can host 1 webinar per quarter, based on availability.
 * Silver members can host 1 webinar every 6 months, based on availability.
 * End user supporter members cannot hold a webinar.
 * CNCF Member webinars will have "Member webinar" preceding their webinar title.
  
 Project webinars
+
 * Graduated and incubating projects can hold a webinar twice a year. These webinars can communicate release launch details or provide a project update. The exception is Kubernetes who holds a webinar each quarter approximately 30 days after the release.
 * Sandbox projects cannot hold a webinar. The exception is a CNCF member company can discuss their open source sandbox project during their allotted member webinar.
 * CNCF project webinars will have "Project webinar" preceding their webinar title.
 
 Ambassador webinars
+
 * CNCF Ambassadors can hold a webinar as it fits their schedule.
 * CNCF Ambassador webinars will have "Ambassador webinar" preceding their webinar title.
 
 CNCF SIG webinars
+
 * CNCF SIGs can host 1 webinar a year.
 * CNCF SIG webinars will have "SIG webinar" preceding their webinar title.
 
@@ -64,6 +68,7 @@ Ambassador webinar: This is a webinar presented by one of the CNCF Ambassadors.
 
 Members can add a slide at the end of their webinar on where to get more information.
 Examples:
+
 * Share contact info of  speaker - twitter, slack, email
 * Links to company websites
 * Links to projects websites or Github
@@ -79,7 +84,7 @@ The [webinar calendar](https://calendly.com/cncf_webinars/cncf-webinar) is avail
 
 To choose a webinar date, go to the webinar calendar to view the available dates. Choose your preferred date. You will receive a calendar invite automatically via Calendly. The calendar invite will be updated with the company / project name, which confirms your webinar. When it gets closer to the webinar date, an email is sent confirming the webinar date is still good for you and outlines the next steps.
 
-## Webinar Checklist ## 
+## Webinar Checklist ##
 
 4 weeks before the webinar date: [Provide your webinar information](https://docs.google.com/forms/d/e/1FAIpQLSfLJ2PSgcE4izH6gCGf7z9-NVcAwqpGt4iwW1nSfL6JF-Wpww/viewform?usp=sf_link) including the webinar abstract and speaker information via the Google Form
 
@@ -88,6 +93,7 @@ To choose a webinar date, go to the webinar calendar to view the available dates
 Please be aware of these new timelines. We recommend you create a reminder to provide us this information by the due date. If we do not receive the information from you within the timelines outlined, your webinar will be cancelled.
 
 If you cannot provide your content via a Google Form (for example, our colleagues in China), please email your webinar materials to webinars@cncf.io.
+
 * Webinar title and abstract
 * Speaker Information
   * Headshot 
@@ -110,6 +116,7 @@ All deliverables should be sent to [Webinar](mailto:webinars@cncf.io).
 * NOTE: presentations not received 2 weeks before the webinar date will result in the webinar being cancelled.
 
 Helpful Notes on Presentation Design
+
 * Obsolete, low-res (i.e., pixelated), and malformatted logos are an epidemic among conference presentations. High-res logos of over 1000 cloud native projects, products, and companies are available in the cloud native [landscape](https://landscape.cn) and the [serverless](https://landscape.cncf.io/format=serverless) and [member](https://landscape.cncf.io/format=members) landscapes. All logos are in the [card mode](https://landscape.cncf.io/format=card-mode&grouping=no) and can be found with Cmd-F or Cntl-F from your browser. Note that all of these logos are stacked, not horizontal, and include the name. The logos are all the most current (or you can open a pull request if they’re not). In particular, Alibaba Cloud, Amazon Web Services, Google Cloud, and Microsoft Azure have all changed their logos in the last couple years; please use their current one.
 * Please see the [CNCF style guide](https://github.com/cncf/foundation/blob/master/style-guide.md) which covers things like abbreviating Kubernetes as K8s not K8 or K8S as well as the proper capitalization of projects like gRPC and containerd.
 
@@ -136,93 +143,145 @@ Please note: We are unable to share the list of leads or include any promotions 
 
 Any questions on the webinar program, email webinars@cncf.io.
 
-# CNCF网络研讨会指南# 
+# CNCF网络研讨会指南 #
 
 ## 概述 ##
-CNCF网络研讨会能够经济高效地帮助社区成员了解主流趋势和开源云原生技术。网络研讨会面向会员、CNCF孵化和毕业项目、CNCF大使以及CNCF特别兴趣小组。
-请注意：根据LF隐私政策，我们无法分享销售线索。
 
-## 网络研讨会日程安排 ##
-英文网络研讨会日程安排为每周二上午10:00-11:00（太平洋时间）；每周三上午10:00-11:00（太平洋时间）；每周四上午9:00-10:00（太平洋时间）。
+CNCF网络研讨会向社区提供以培训有关开源云原生技术的知识。网络研讨会由会员、CNCF孵化和毕业项目、CNCF大使和CNCF SIG提供。
 
-项目、大使和特别兴趣小组网络研讨会安排在周五上午10:00-11:00（太平洋时间）。
+请注意：由于Linux基金会隐私政策，我们无法共享潜在客户资料。
 
-中文网络研讨会通常安排在周三或周四上午10点（北京/上海时间）。
+## 网络研讨会的日期和时间 ##
 
-## 网络研讨会举办方 ##
-* 白金会员和金牌会员可每季度举办一次网络研讨会。
-* 银牌会员可每6个月举办一次网络研讨会。
-* 最终用户支持者会员无法举办网络研讨会。
-* 毕业和孵化项目可每年举办两次网络研讨会，以便公布版本发布信息或项目最新进展。但Kubernetes只能在版本发布大约30天后每季度举办一次网络研讨会。
-* 沙盒项目不能举办网络研讨会。但CNCF会员公司可以在被指定的会员网络研讨会期间讨论其开源沙盒项目。
-* CNCF大使可根据自己的日程安排举办网络研讨会。
-* CNCF特别兴趣小组可每年举办一次网络研讨会。
-* CNCF会员网络研讨会的标题前面将带有“会员网络研讨会”字样。
-* CNCF项目网络研讨会的标题前面将带有“项目网络研讨会”字样。
-* CNCF大使网络研讨会的标题前面将带有“大使网络研讨会”字样。
-* CNCF特别兴趣小组网络研讨会的标题前面将带有“特别兴趣小组网络研讨会”字样。
+英语网络研讨会计划在星期二、星期三和星期四举行。
+
+项目、大使和SIG网络研讨会计划在星期五举行。
+
+中文研讨会将于北京时间星期三或星期四举行。
+
+## 请仔细阅读指南 ##
+我们概述了内容准则和时间表。不符合要求的网络研讨会将被取消。
+
+您必须在网络研讨会日期之前的4周内提供网络研讨会详细信息。在网络研讨会召开至少2周之前，您必须提供完整的最终幻灯片。
+
+如果由于不符合这些准则而取消网络研讨会，则不允许成员在随后的网络研讨会期间安排网络研讨会。也就是说，白金和黄金会员可能不会在即将到来的季度中安排网络研讨会，白银会员可能不会在即将到来的6个月中安排网络研讨会。
+
+## 谁可以举办网络研讨会 ##
+
+会员网络研讨会
+
+* 白金会员和黄金会员可以根据可用日期在每个季度举办一次网络研讨会。
+* 白银会员可以根据可用日期每6个月举办一次网络研讨会。
+* 最终用户支持者成员不能举办网络研讨会。
+* CNCF会员网络研讨会的网络研讨会标题前面将有“会员网络研讨会”。
+ 
+项目网路研讨会
+
+* 毕业和孵化项目可以每年举行两次网络研讨会。这些网络研讨会可以传达版本启动详细信息或提供项目更新。 Kubernetes例外，在版本发布大约30天后每季度举行一次网络研讨会。
+* 沙箱项目无法举办网络研讨会。例外情况是，CNCF成员公司可以在分配的会员网络研讨会期间讨论其开源沙箱项目。
+* CNCF项目网络研讨会将在其网络研讨会标题前面将有“项目网络研讨会”。
+
+大使网络研讨会
+
+* CNCF大使可以根据自己的计划举行网络研讨会。
+* CNCF大使网络研讨会将在其网络研讨会标题前面将有“大使网络研讨会”。
+
+CNCF SIG网络研讨会
+
+* CNCF SIG一年可以举办1次网络研讨会。
+* CNCF SIG网络研讨会将在其网络研讨会标题前面将有“SIG网络研讨会”。
+
+## 网络研讨会类型定义 ##
+ 
+项目网络研讨会：关于毕业或孵化项目的网络研讨会。这是由项目或代表项目提出的。如果由成员介绍某个项目，则此网络研讨会被归类为“项目”网络研讨会。一个示例是VMware团队举办的Harbor网络研讨会。该网络研讨会被归类为项目网络研讨会。
+
+会员网络研讨会：会员举办的网络研讨会。网络研讨会必须遵守网络研讨会准则。会员可以介绍任何开源项目，包括CNCF沙箱项目。如果CNCF成员仅代表CNCF毕业或孵化项目介绍项目，则将其分类为“项目”网络研讨会。如果该网络研讨会包含有关CNCF毕业或孵化项目的信息，并且包含有关如何对该项目进行操作的信息，则该网络研讨会被归类为会员网络研讨会。
+
+特殊兴趣小组（SIG）网络研讨会：SIG团队成员参加的网络研讨会被归类为SIG网络研讨会。如果CNCF成员代表SIG举行网络研讨会，则将其归类为SIG网络研讨会。如果成员提供有关SIG的网络研讨会，则将其归类为成员网络研讨会。
+
+大使网络研讨会：这是CNCF大使演讲的网络研讨会。
 
 ## 网络研讨会内容指南 ##
-* 挑选网络研讨会主题时，最简单的一个方法便是参考KubeCon + CloudNativeCon演讲主题规定。
-* 不得直接宣传产品。可以对同类产品（例如，云原生存储）进行比较，但切勿宣传。
-* 您所描述的任何平台、工具或技术都必须开源，并且适用于CNCF项目。
+
+* 网络研讨会的主题应与KubeCon + CloudNativeCon演讲所接受的主题相当。
+* 您描述的任何平台、工具或技术都必须是开源的。
+* 不允许：
+  * 销售或市场推广
+  * 未经许可或潜在的闭源技术
+* 网络研讨会不应该推广性。
+* 不能误导或歪曲CNCF项目的功能。
+
+成员可以在网络研讨会的末尾添加一张幻灯片，以获取更多信息。例子：
+
+* 分享演讲者的联系信息-Twitter、Slack、电子邮件
+* 链接到公司网站
+* 链接到项目网站或Github
+* 正在招聘时可以刊登广告，并提供联络方式给有兴趣的人
+
+注意：这不是指向CNCF网站或CNCF网站上表格的链接。
+
+正如我们对网络研讨会的内容所做的那样，CNCF将审核该声明以批准该内容。如果需要更改，我们将提供建议的更改。
 
 ## 网络研讨会日历 ##
-[网络研讨会日历]（https://calendly.com/cncf_webinars/cncf-webinar）开放6个月的时段，比如2020年上半年、2020年下半年。您可以在开放前大约6周进行预约。
-打开网络研讨会日历，查看可用日期，选择您期望的日期便可。系统将会通过Calendly自动发送一封日历邀请函，上面带有您的公司/项目名称，以确认网络研讨会的主办方正确无误。网络研讨会举办日期临近前，我们还会向您发送一封电子邮件，确认网络研讨会能否如约进行，并告知您后续步骤。
 
-如何挑选主题
-* 这些网络研讨会的宗旨是向社区成员普及行业知识，帮助企业紧跟时代脉搏。
-* 受众对有助于他们解决问题的技术演示感兴趣，并希望能够向您的专家提问。
-* 我们的受众包括开发人员、架构师、首席信息官和首席技术官。主题应为您的目标受众量身定制。
-* 我们今年将重点放在SEO优化上，以吸引更多的用户进行注册和浏览，因此，请多花些心思放在摘要上，确保重要的关键词突出显眼。当然，我们也会给出一些建议。
-* 热门主题：监控/可观察性、CNCF项目进度或简介、持续集成/持续交付、开发人员经验、部署策略、边缘计算、安全性（例如RBAC）、机器学习/人工智能。
+[网络研讨会日历](https://calendly.com/cncf_webinars/cncf-webinar)的有效期为6个月，例如1H 2020和2H 2020。在该时间段开始前大约6周，网络研讨会日历将开放以进行计划。
 
-## 网络研讨会检查清单## 
-提前4周
-* 标题
-* 摘要
+要选择一个网络研讨会日期，请转到网络研讨会日历以查看可用日期。选择您的首选日期。您会通过Calendly自动收到日历邀请。日历邀请将使用公司/项目名称进行更新，以确认您的网络研讨会。临近网络研讨会日期时，将发送一封电子邮件，确认网络研讨会日期，并概述了后续步骤。
+
+## 网络研讨会清单 ##
+
+网络研讨会日期前4周：通过Google表单[提供网络研讨会信息](https://docs.google.com/forms/d/e/1FAIpQLSfLJ2PSgcE4izH6gCGf7z9-NVcAwqpGt4iwW1nSfL6JF-Wpww/viewform?usp=sf_link)，包括网络研讨会摘要和演讲者信息。
+
+网络研讨会日期的前2周：通过Google表单[共享最终的网络研讨会幻灯片](https://docs.google.com/forms/d/e/1FAIpQLSfdRKv5ZBGZY_tCNWeIiOZA9tTZH3krH7KSThg9W8RFItxxaw/viewform?usp=sf_link)。
+
+请注意这些新的时间表。我们建议您创建提醒，以便在到期日之前向我们提供此信息。如果我们没有在列出的时间表内收到您的信息，您的网络研讨会将被取消。
+
+如果您无法通过Google表单（例如，我们在中国的同事）提供内容，请通过电子邮件将您的网络研讨会材料发送到[webinars@cncf.io](webinars@cncf.io)。
+
+* 网络研讨会标题和摘要
 * 演讲者信息
   * 头像
-  * 职务
+  * 标题
   * 公司
-  * 个人简历
-* 电子邮件地址（面向所有演讲者/专家小组成员）
- 
-提前1周
-* 网络研讨会演示幻灯片
-* 如果您想进行现场彩排，请在本周进行
- 
-请将所有资料发送至[网络研讨会](mailto:webinars@cncf.io)。
+  * 简介
+* 所有讲者/小组成员的电子邮件地址
 
-** 网络研讨会推广和准备详情 **
- 
-* 我们收到演讲摘要并在Zoom中完成网络研讨会设置后，便会向主办公司发送网络研讨会注册页面的链接。主办公司应使用该链接来推广网络研讨会。
-* 将网络研讨会添加到CNCF网络研讨会页面。
-* CNCF通过电子邮件、CNCF和KubeWeekly新闻通讯以及Twitter来推广网络研讨会。
-* 最成功的网络研讨会需要主办公司和CNCF的共同推广。在这种情况下，网络研讨会出席率通常能提高一倍。
+所有交付件均应发送至[网络研讨会](webinars@cncf.io)。
 
-## 网络研讨会：演示文稿 ##
-* 请在网络研讨会召开前1周，将您的网络研讨会演示文稿发送给网络研讨会。在网络研讨会开始之前，所有演示文稿都必须经过审核。
-* 标识：
-  * 过时、低分辨率（例如像素化）和格式错误的标识是会议演示文稿中的一种常见问题。云原生汇总图以及无服务器和成员汇总图中有上千个云原生项目、产品和公司的高分辨率标识。所有标识均以卡片模式显示，可以在浏览器中使用Cmd-F或Cntl-F快捷查找。请注意，所有这些标识都应垂直显示（而非平铺），并包含名称。标识均为最新版本（如果不是，您可以发起Pull Request）。
-  * 请参阅CNCF风格指南，其中包含将Kubernetes缩写为K8s（而非K8或K8S）以及gRPC和containerd等项目的大小写规定。
+## 网络研讨会推广和准备细节 ##
+
+* 收到摘要并在Zoom中设置了网络研讨会后，主办的公司将收到指向网络研讨会注册页面的链接。主办的公司应使用该链接来推广网络研讨会。
+* 该网络研讨会添加到CNCF网络研讨会页面。
+* CNCF可以通过电子邮件、CNCF和KubeWeekly时事通讯以及Twitter推广网络研讨会。
+* 我们最成功的网络研讨会是主持的公司在CNCF推广的同时进行推广。在这些情况下，我们通常能够使出勤率提高一倍。
+
+## 网络研讨会：演讲材料 ##
+
+* 网络研讨会开始前2周，请将您的最终网络研讨会演示文稿发送给[网络研讨会](webinars@cncf.io)。在网络研讨会之前，必须对所有演示文稿进行审查。
+* 注意：在网络研讨会日期之前2周未收到演示文稿，将导致网络研讨会被取消。
+
+演讲设计的有用说明
+
+* 过时的、低分辨率（即像素化）和格式错误的徽标是会议演示中的一种流行病。[云原生互动景观](https://l.cncf.io)以及[无服务器](https://s.cncf.io)和[成员](https://m.cncf.io)互动景观中提供了超过1000个云原生项目、产品和公司的高分辨率徽标。所有徽标都处于[卡片模式](https://landscape.cncf.io/format=card-mode&grouping=no)，可以从浏览器中使用Cmd-F或Cntl-F找到。请注意，所有这些徽标都是堆叠的，而不是水平的，并且包括名称。这些徽标均为最新徽标（如果不是，则可以打开拉取请求）。特别是，阿里云、亚马逊网络服务、谷歌云和微软Azure在最近几年都改变了徽标。请使用其当前版本。
+* 请参阅[CNCF样式指南](https://github.com/cncf/foundation/blob/master/style-guide.md)，该指南涵盖了诸如将Kubernetes缩写为K8s而不是K8或K8S的内容，以及gRPC和containerd等项目的正确大小写。
 
 ## 网络研讨会主持人 ##
-CNCF将为网络研讨会提供主持人，主持人通常由CNCF大使或CNCF员工来担任。
-主持人负责处理日常事务，并帮助演讲者主持问答环节。
 
-## 网络研讨会：具体日期 ##
-* 声音检查：在网络研讨会开始前半小时进行。
-* 现场直播：周二上午10:00-11:00（太平洋时间），周三10:00-11:00（太平洋时间），周四上午9:00-10:00（太平洋时间）、周五上午10:00-11:00（太平洋时间）
-* 网络研讨会的常规时间安排：约5分钟介绍，45分钟演示，10分钟问答
-* CNCF大使或CNCF工作人员将帮助主持各个流程（介绍、向演讲者提问）
+CNCF将为网络研讨会提供主持人。主持人通常是CNCF大使或CNCF员工。
+
+主持人负责处理流程事务，并帮助演讲者主持问答环节。
+
+## 网络研讨会：演讲日详情 ##
+
+* 网络研讨会准备：网络研讨会开始前½小时。声音检查、网络研讨会幻灯片，问答环节。
+* 网络研讨会广播：准时开始
+* 网络研讨会的典型时间安排：大约5分钟的介绍，45分钟的演示，10分钟的问答
+* CNCF大使或CNCF员工将协助主持（介绍、向演示者提出问题）
 * 网络研讨会平台：Zoom
- 
-网络研讨会结束后，注册编号和YouTube上网络研讨会的链接将会发送给网络研讨会的主办公司。
 
-请注意：我们无法分享销售线索或添加任何旨在促进产品销售的宣传内容。
+网络研讨会结束后，注册人数和YouTube上网络研讨会的链接将与主持网络研讨会的公司共享。CNCF不提供供个别公司使用的网络研讨会录像的副本。
 
-## 概要 ##
-有关网络研计会计划的任何问题，请发送电子邮件至webinars@cncf.io。
+请注意：我们无法分享销售线索列表或包含任何旨在吸引销售线索的促销活动。
 
+## 总结 ##
+有关网络研讨会的任何问题，请发送电子邮件至[webinars@cncf.io](webinars@cncf.io)。
