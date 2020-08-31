@@ -80,7 +80,7 @@ CNCF will review the statement, as we do for the content for the webinar, to app
 
 ## Webinar Calendar ##
 
-The [webinar calendar](https://calendly.com/cncf_webinars/cncf-webinar) is available for a 6-month period, for example 1H 2020 and 2H 2020. Approximately 6 weeks before the beginning of the time period, the webinar calendar is opened up for scheduling.
+The [webinar calendar](https://calendly.com/cncf_webinars/) is available for a 6-month period, for example 1H 2020 and 2H 2020. Approximately 6 weeks before the beginning of the time period, the webinar calendar is opened up for scheduling.
 
 To choose a webinar date, go to the webinar calendar to view the available dates. Choose your preferred date. You will receive a calendar invite automatically via Calendly. The calendar invite will be updated with the company / project name, which confirms your webinar. When it gets closer to the webinar date, an email is sent confirming the webinar date is still good for you and outlines the next steps.
 
@@ -224,7 +224,7 @@ CNCF SIG网络研讨会
 
 ## 网络研讨会日历 ##
 
-[网络研讨会日历](https://calendly.com/cncf_webinars/cncf-webinar)的有效期为6个月，例如1H 2020和2H 2020。在该时间段开始前大约6周，网络研讨会日历将开放以进行计划。
+[网络研讨会日历](https://calendly.com/cncf_webinars/)的有效期为6个月，例如1H 2020和2H 2020。在该时间段开始前大约6周，网络研讨会日历将开放以进行计划。
 
 要选择一个网络研讨会日期，请转到网络研讨会日历以查看可用日期。选择您的首选日期。您会通过Calendly自动收到日历邀请。日历邀请将使用公司/项目名称进行更新，以确认您的网络研讨会。临近网络研讨会日期时，将发送一封电子邮件，确认网络研讨会日期，并概述了后续步骤。
 
