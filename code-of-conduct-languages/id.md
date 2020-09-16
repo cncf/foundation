@@ -20,7 +20,7 @@ Pengelola proyek memiliki hak dan tanggung jawab untuk menghapus, mengedit, atau
 
 Kode etik ini berlaku baik di dalam ruang proyek maupun di ruang publik ketika seorang individu mewakili proyek atau komunitasnya.
 
-Contoh perilaku kasar, melecehkan, atau tidak dapat diterima di Kubernetes dapat dilaporkan dengan menghubungi [Komite Kode Etik Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) melalui <conduct@kubernetes.io>. Untuk proyek lainnya, silakan hubungi pengelola proyek CNCF atau mediaotr kami, Mishi Choudhary <mishi@linux.com>.
+Contoh perilaku kasar, melecehkan, atau tidak dapat diterima di Kubernetes dapat dilaporkan dengan menghubungi [Komite Kode Etik Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) melalui <conduct@kubernetes.io>. Untuk proyek lainnya, silakan hubungi pengelola proyek CNCF atau mediator kami, Mishi Choudhary <mishi@linux.com>.
 
 Kode Etik ini diadaptasi dari Covenant Contributor
 (http://contributor-covenant.org), versi 1.2.0, tersedia di
