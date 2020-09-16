@@ -13,6 +13,7 @@ Other languages available:
 - [Portuguese/Português](code-of-conduct-languages/pt.md)
 - [Arabic/العربية](code-of-conduct-languages/ar.md)
 - [Polish/Polski](code-of-conduct-languages/pl.md)
+- [Indonesian/Bahasa Indonesia](code-of-conduct-languages/id.md)
 
 ### Contributor Code of Conduct
 

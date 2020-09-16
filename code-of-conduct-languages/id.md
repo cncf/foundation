@@ -9,22 +9,22 @@ semua orang, terlepas dari tingkat pengalaman, jenis kelamin, identitas dan eksp
 
 Contoh perilaku yang tidak dapat diterima oleh peserta termasuk:
 
-- Penggunaan bahasa atau citra seksual
-- Menyerangan pribadi
-- Trolling atau menghina/merendahkan komentar
-- Pelecehan secara publik atau pribadi
-- Mempublikasikan informasi pribadi orang lain, seperti alamat fisik atau elektronik, tanpa izin tegas
-- Perilaku tidak etis atau tidak profesional lainnya.
+* Penggunaan bahasa atau citra seksual
+* Menyerangan pribadi
+* Berkomentar dengan bertujuan trolling atau menghina/merendahkan
+* Pelecehan secara publik atau pribadi
+* Mempublikasikan informasi pribadi orang lain, seperti alamat fisik atau elektronik, tanpa izin tegas
+* Perilaku tidak etis atau tidak profesional lainnya.
 
 Pengelola proyek memiliki hak dan tanggung jawab untuk menghapus, mengedit, atau menolak komentar, komit, kode, suntingan wiki, isu, dan kontribusi lain yang tidak selaras dengan Kode Etik ini. Dengan mengadopsi Kode Etik ini, pengelola proyek berkomitmen untuk menerapkan prinsip-prinsip ini secara adil dan konsisten pada setiap aspek mengelola proyek ini. Pengelola proyek yang tidak mengikuti atau menegakkan Kode Perilaku dapat dihapus secara permanen dari tim proyek.
 
 Kode etik ini berlaku baik di dalam ruang proyek maupun di ruang publik ketika seorang individu mewakili proyek atau komunitasnya.
 
-Contoh perilaku kasar, melecehkan, atau tidak dapat diterima di Kubernetes dapat dilaporkan dengan menghubungi [Komite Kode Etik Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) melalui <conduct@kubernetes.io>. Untuk proyek lain, silakan hubungi pengelola proyek CNCF atau Dan Kohn <dan@linuxfoundation.org>.
+Contoh perilaku kasar, melecehkan, atau tidak dapat diterima di Kubernetes dapat dilaporkan dengan menghubungi [Komite Kode Etik Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) melalui <conduct@kubernetes.io>. Untuk proyek lainnya, silakan hubungi pengelola proyek CNCF atau mediaotr kami, Mishi Choudhary <mishi@linux.com>.
 
 Kode Etik ini diadaptasi dari Covenant Contributor
-<http://contributor-covenant.org>, versi 1.2.0, tersedia di
-<http://contributor-covenant.org/version/1/2/0/>
+(http://contributor-covenant.org), versi 1.2.0, tersedia di
+(http://contributor-covenant.org/version/1/2/0/)
 
 ### Pedoman Perilaku Acara CNCF
 
