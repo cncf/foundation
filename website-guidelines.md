@@ -1,4 +1,5 @@
 August 13, 2017
+Updated: September 9, 2020
 
 CNCF encourages each project to manage its own website, but after consulting with the projects,
 we are publishing a set of guidelines around dealing with potential commercial conflicts.
@@ -35,5 +36,6 @@ Computing Foundation project.” and the CNCF logo near the bottom of their proj
 Sandbox-level projects should include the sentence “We are a Cloud Native Computing Foundation
 sandbox project.” and the CNCF logo. We also appreciate a link to KubeCon + CloudNativeCon as the
 events approach.
+7. All projects must contain a website footer message referencing trademark guidelines, "Copyright The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage](https://www.linuxfoundation.org/trademark-usage/) page."
 
 Questions? Please email info@cncf.io.
