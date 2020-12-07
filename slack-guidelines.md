@@ -15,3 +15,9 @@ Abuse of the voice/video calling features to call users without their permission
 The CNCF Slack has an integrated tool for reporting issues. It may be accessed by clicking on "More actions", the "..." to the right of a message, and selecting Report message.
 
 Slack guidelines patterned after the [HubSpot Developer Slack Code of Conduct](https://designers.hubspot.com/slack/code-of-conduct) and the [Kubernetes Slack Guidelines](https://github.com/kubernetes/community/blob/master/communication/slack-guidelines.md)
+
+## Consequences of Unacceptable Behavior
+
+Unacceptable behavior from any community member will not be tolerated.
+
+If a community member engages in unacceptable behavior, CNCF staff may take any action deemed appropriate, up to and including a warning or temporary 30 day ban, along with a permanent ban for repeated violation of these guidelines.
