@@ -1,4 +1,4 @@
-# CNCF Online Programs Guidelines #
+# CNCF Online Programs Guidelines v1.0 #
 
 ## Overview ##
 
