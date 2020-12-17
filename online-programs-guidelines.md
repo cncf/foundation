@@ -6,7 +6,7 @@ Formerly known as the CNCF webinar program, CNCF online programs are offered to 
 
 Please note: We are unable to share leads due to the Linux Foundation privacy policy.
 
-## Publishing schedule##
+## Publishing schedule ##
 
 Live webinars are hosted on Tuesdays at 10am PT.
 
@@ -83,3 +83,6 @@ If you are a CNCF member and eligible to participate in our online programs, ple
 * On-demand webinars: Slides and recording due 2 weeks in advance of presentation
 * No deadlines are required for livestream as it is live
 * YouTube playlist submissions for the corresponding week are due 11:59 PM PT on Wednesdays to make Friday publish date 
+
+
+## Please reach out to onlineprograms@cncf.io with any questions ##
