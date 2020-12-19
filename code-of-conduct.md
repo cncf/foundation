@@ -2,6 +2,7 @@
 
 Other languages available:
 - [Chinese/中文](code-of-conduct-languages/zh.md)
+- [Czech/Česky](code-of-conduct-languages/cs.md)
 - [German/Deutsch](code-of-conduct-languages/de.md)
 - [Spanish/Español](code-of-conduct-languages/es.md)
 - [French/Français](code-of-conduct-languages/fr.md)
