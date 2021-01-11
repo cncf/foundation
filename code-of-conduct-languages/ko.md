@@ -22,7 +22,7 @@ CNCF 커뮤니티 행동 강령(Code of Conduct) v1.0
 
 본 행동 강령은 프로젝트 활동 영역 내에서뿐만 아니라 개인이 프로젝트 또는 커뮤니티를 대변하는 경우 공공의 활동 영역에서도 적용됩니다.
 
-쿠버네티스(Kubernetes)에서의 폭력, 학대 또는 기타 허용되지 않는 행위를 [쿠버네티스 행동 강령 위원회](https://git.k8s.io/community/committee-code-of-conduct)에 이메일 <conduct@kubernetes.io>를 통해 신고할 수 있습니다. 다른 프로젝트의 경우는 CNCF 프로젝트 메인테이너 또는 중재자인 Mishi Choudhary의 이메일 <mishi@linux.com>으로 문의해 주시기 바랍니다.
+쿠버네티스(Kubernetes)에서의 폭력, 학대 또는 기타 허용되지 않는 행위는 [쿠버네티스 행동 강령 위원회](https://git.k8s.io/community/committee-code-of-conduct)에 이메일 <conduct@kubernetes.io>를 통해 신고할 수 있습니다. 다른 프로젝트의 경우는 CNCF 프로젝트 메인테이너 또는 중재자인 Mishi Choudhary의 이메일 <mishi@linux.com>으로 문의해 주시기 바랍니다.
 
 본 행동 강령은 기여자 서약 (http://contributor-covenant.org) 에서 제공하는 버전 1.2.0을 적용하였으며, 해당 내용은 http://contributor-covenant.org/version/1/2/0/ 에서 확인할 수 있습니다.
 
