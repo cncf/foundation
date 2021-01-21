@@ -10,9 +10,9 @@ Please note: We are unable to share leads due to the Linux Foundation privacy po
 
 Live webinars are hosted on Tuesdays at 10am PT.
 
-On-demand webinars premiere on Wednesdays.
+Livestreams are hosted on Wednesdays from 12-1pm PT.
 
-Livestreams are hosted on Thursday.
+On-demand webinars premiere on Thursdays.
 
 Every Friday, CNCF YouTube playlists are updated with curated vendor neutral content from our members.
 
