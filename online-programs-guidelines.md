@@ -42,13 +42,13 @@ Ambassadors
 	* Premiere date - Tuesdays at 10am PST
 * On-demand webinars
 	* Members submit their own pre-recorded content and it will be assigned a publish date based on the editorial calendar. Content cannot be from previous KubeCon + CloudNativeCons.
-	* Premiere date - Wednesdays
+	* Premiere date - Thursdays
 * Livestream option 
-	* YouTube Live + Twitch
+	* YouTube Live + Twitch + Periscope + LinkedIn
 	* Kickoff this option with the Kubernetes 1.20 release on Jan 8
 	* Content must be live coding/demo - no presentations with slides, no product pitches
 	* CNCF Ambassador will join the stream as co-host
-	* Premiere date - Thursdays (1 per week)
+	* Premiere date - Wednesdays (1 per week)
 * YouTube Playlist submission
 	* Submit pre-recorded content (must be relevant to the last six months and can include previous KubeCon presentations) to our curated theme playlists on YouTube via Google Form
 	* CNCF staff  updates playlists 1x/week - Fridays
