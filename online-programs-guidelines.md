@@ -21,7 +21,7 @@ Every Friday, CNCF YouTube playlists are updated with curated vendor neutral con
 Members 
 * Platinum members are eligible for 4 activities for the year including live webinar, on-demand webinar, livestream, and YouTube playlist submission.
 * Gold members are eligible for 4 activities for the year including on-demand webinar, livestream, and YouTube playlist submission. 
-* Silver members are eligible for 2 activities for the year including on-demand webinars and YouTube playlist submission.
+* Silver members are eligible for 2 activities for the year including on-demand webinars, livestream, and YouTube playlist submission.
 * End user supporter members cannot hold a webinar.
 * CNCF Member webinars will have “member webinar” in the YouTube description.
 
@@ -78,7 +78,7 @@ Note: This is not a link to a CNCF website or form on the CNCF website.
 
 ## Submit to participate in online programs + deadlines ##
 
-If you are a CNCF member and eligible to participate in our online programs, please submit your request here. We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following deadlines for submissions (once date is secured):
+If you are a CNCF member and eligible to participate in our online programs, [please submit your request here](https://docs.google.com/forms/d/e/1FAIpQLSfOHC-Hv4mhw_CiNlzbxsxumQ4dBSkcNDLC7cS-I2t95aidXw/viewform). We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following deadlines for submissions (once date is secured):
 * Live webinars: Slides due 1 week in advance of presentation
 * On-demand webinars: Slides and recording due 2 weeks in advance of presentation
 * No deadlines are required for livestream as it is live
