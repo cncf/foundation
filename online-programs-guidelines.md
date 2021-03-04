@@ -60,6 +60,7 @@ Ambassadors
 * Webinars and Youtube playlist submissions are great for overviews, 101s, best practices, or other content that you want to present in a specific structure
 * Livestreams are best for interactive content like experimenting with new features or building something from scratch with mistakes along the way 
 * Any platforms, tools, or technologies you are describing must be open source.
+* Online programs are not limited to English language only. If you would like to submit an online program to be presented in another language, please submit all information in the booking tool in the language it will be presented in (does not need to be translated to English). The title of the program is the only item that needs to be in dual languages. Both translations will appear on our sites.
 * Not allowed:
 	* Sales or marketing pitches
 	* Unlicensed or potentially closed-source technologies
