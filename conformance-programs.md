@@ -30,6 +30,7 @@ for CNCF projects that are considering adopting one.
 Project | Program repo | Program website
 ------- | ------------ | ---------------
 Kubernetes | https://github.com/cncf/k8s-conformance/ | https://www.cncf.io/certification/software-conformance/
+Prometheus | TBD | TBD
 
 ## Purpose
 
@@ -151,6 +152,15 @@ not bound by just these considerations.
     it on an ongoing basis, so that it continues to remain relevant and
     up-to-date as the project itself evolves.
 
+## Starting a conformance program
+
+If your project is interested in initiating a conformance program, we'd recommend starting by reviewing the materials linked from this document, and considering whether your project is at a stage where it would be a good fit.
+
+If your project wants to proceed, you can open up a GitHub issue in this repo or contact CNCF staff at info@cncf.io
+
+We can set up a conversation with LF staff to discuss the conformance program goals, begin drafting T&Cs and more. CNCF staff can also start the process of socializing the program with the CNCF GB, in preparation for a later GB vote on approving the program.
+
+Note that developing the conformance definition and self-testing tools can be the most time-consuming part of rolling out a conformance program. These will need to be ready with community consensus before the program can be considered by the GB for launch. You will likely want to discuss this with multiple participants from your community to see if there is alignment on moving forward.
 
 ## Additional resources
 
