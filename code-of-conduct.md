@@ -2,6 +2,7 @@
 
 Other languages available:
 - [Arabic/العربية](code-of-conduct-languages/ar.md)
+- [Bulgarian/Български](code-of-conduct-languages/bg.md)
 - [Chinese/中文](code-of-conduct-languages/zh.md)
 - [Czech/Česky](code-of-conduct-languages/cs.md)
 - [French/Français](code-of-conduct-languages/fr.md)
