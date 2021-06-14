@@ -1,0 +1,4717 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: cncf-exceptions-2019-11-01
+DocumentNamespace: https://github.com/cncf/foundation/license-exceptions-2019-11-01
+Creator: Organization: CNCF
+Creator: Tool: cncf-exceptions-maker-0.1
+Created: 2019-11-01T13:11:55Z
+
+##### Package: VirtualBox Linux Guest Drivers Makefile
+
+PackageName: VirtualBox Linux Guest Drivers Makefile
+SPDXID: SPDXRef-Package2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: GPL-2.0-only
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-05-20
+
+##### Package: github.com/go-sql-driver/mysql
+
+PackageName: github.com/go-sql-driver/mysql
+SPDXID: SPDXRef-Package3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/c4milo/gotoolkit
+
+PackageName: github.com/c4milo/gotoolkit
+SPDXID: SPDXRef-Package4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/d2g/dhcp4client
+
+PackageName: github.com/d2g/dhcp4client
+SPDXID: SPDXRef-Package5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/hashicorp/hcl
+
+PackageName: github.com/hashicorp/hcl
+SPDXID: SPDXRef-Package6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/hashicorp/golang-lru
+
+PackageName: github.com/hashicorp/golang-lru
+SPDXID: SPDXRef-Package7
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/hashicorp/errwrap
+
+PackageName: github.com/hashicorp/errwrap
+SPDXID: SPDXRef-Package8
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/hashicorp/go-cleanhttp
+
+PackageName: github.com/hashicorp/go-cleanhttp
+SPDXID: SPDXRef-Package9
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/hashicorp/go-multierror
+
+PackageName: github.com/hashicorp/go-multierror
+SPDXID: SPDXRef-Package10
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/hooklift/iso9660
+
+PackageName: github.com/hooklift/iso9660
+SPDXID: SPDXRef-Package11
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/howeyc/gopass
+
+PackageName: github.com/howeyc/gopass
+SPDXID: SPDXRef-Package12
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: CDDL-1.0 AND ISC
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/jteeuwen/go-bindata
+
+PackageName: github.com/jteeuwen/go-bindata
+SPDXID: SPDXRef-Package13
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: CC0-1.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: highlight.js
+
+PackageName: highlight.js
+SPDXID: SPDXRef-Package14
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT AND CC0-1.0 AND LicenseRef-Public-domain-statement
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: google.golang.org/grpc
+
+PackageName: google.golang.org/grpc
+SPDXID: SPDXRef-Package15
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/grpc-ecosystem/grpc-opentracing
+
+PackageName: github.com/grpc-ecosystem/grpc-opentracing
+SPDXID: SPDXRef-Package16
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: golang.org/x/crypto
+
+PackageName: golang.org/x/crypto
+SPDXID: SPDXRef-Package17
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT AND LicenseRef-Google-Patents-Notice-Golang AND LicenseRef-Public-domain-statement 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/client9/misspell
+
+PackageName: github.com/client9/misspell
+SPDXID: SPDXRef-Package18
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT AND Unlicense
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/mattn/go-sqlite3
+
+PackageName: github.com/mattn/go-sqlite3
+SPDXID: SPDXRef-Package19
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT AND LicenseRef-Public-domain-statement 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/dgryski/go-onlinestats
+
+PackageName: github.com/dgryski/go-onlinestats
+SPDXID: SPDXRef-Package20
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT AND LicenseRef-Public-domain-statement 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/docker/go-units
+
+PackageName: github.com/docker/go-units
+SPDXID: SPDXRef-Package21
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/opencontainers/go-digest
+
+PackageName: github.com/opencontainers/go-digest
+SPDXID: SPDXRef-Package22
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/docker/spdystream
+
+PackageName: github.com/docker/spdystream
+SPDXID: SPDXRef-Package23
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0 AND CC-BY-SA-4.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/opencontainers/runc
+
+PackageName: github.com/opencontainers/runc
+SPDXID: SPDXRef-Package24
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND LicenseRef-CC-unspecified
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/google/go-github
+
+PackageName: github.com/google/go-github
+SPDXID: SPDXRef-Package25
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND CC-BY-3.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: golang.org/x/net
+
+PackageName: golang.org/x/net
+SPDXID: SPDXRef-Package26
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND CC-BY-3.0 AND (BSD-3-Clause OR LicenseRef-W3C-Test-Suite-License-1) AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: bootstrap
+
+PackageName: bootstrap
+SPDXID: SPDXRef-Package27
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT AND CC-BY-3.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: font-awesome
+
+PackageName: font-awesome
+SPDXID: SPDXRef-Package28
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT AND OFL-1.1 AND CC-BY-3.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11
+
+##### Package: github.com/gonum/graph
+
+PackageName: github.com/gonum/graph
+SPDXID: SPDXRef-Package29
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: golang/json
+
+PackageName: golang/json
+SPDXID: SPDXRef-Package30
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: golang/netutil
+
+PackageName: golang/netutil
+SPDXID: SPDXRef-Package31
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: golang/internal/srcimporter
+
+PackageName: golang/internal/srcimporter
+SPDXID: SPDXRef-Package32
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: github.com/bungle/lua-resty-template
+
+PackageName: github.com/bungle/lua-resty-template
+SPDXID: SPDXRef-Package33
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: go-srcimporter
+
+PackageName: go-srcimporter
+SPDXID: SPDXRef-Package34
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: go9p
+
+PackageName: go9p
+SPDXID: SPDXRef-Package35
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: godep
+
+PackageName: godep
+SPDXID: SPDXRef-Package36
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: golang/reflect
+
+PackageName: golang/reflect
+SPDXID: SPDXRef-Package37
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: golang/expansion
+
+PackageName: golang/expansion
+SPDXID: SPDXRef-Package38
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: golang/template
+
+PackageName: golang/template
+SPDXID: SPDXRef-Package39
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: golang/go/types
+
+PackageName: golang/go/types
+SPDXID: SPDXRef-Package40
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: sigs.k8s.io/yaml
+
+PackageName: sigs.k8s.io/yaml
+SPDXID: SPDXRef-Package41
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: fork of github.com/ghodss/yaml; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: Azure acr-docker-credential-helper
+
+PackageName: Azure acr-docker-credential-helper
+SPDXID: SPDXRef-Package42
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: github.com/multiarch/qemu-user-static
+
+PackageName: github.com/multiarch/qemu-user-static
+SPDXID: SPDXRef-Package43
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11
+
+##### Package: Google Protocol Buffers
+
+PackageName: Google Protocol Buffers
+SPDXID: SPDXRef-Package44
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Highlight
+
+PackageName: Highlight
+SPDXID: SPDXRef-Package45
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: sprintf() for JavaScript
+
+PackageName: sprintf() for JavaScript
+SPDXID: SPDXRef-Package46
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: dialog-polyfill.css
+
+PackageName: dialog-polyfill.css
+SPDXID: SPDXRef-Package47
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Pure CSS
+
+PackageName: Pure CSS
+SPDXID: SPDXRef-Package48
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: shred
+
+PackageName: shred
+SPDXID: SPDXRef-Package49
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Asciidoctor
+
+PackageName: Asciidoctor
+SPDXID: SPDXRef-Package50
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Backbone
+
+PackageName: Backbone
+SPDXID: SPDXRef-Package51
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Handlebars
+
+PackageName: Handlebars
+SPDXID: SPDXRef-Package52
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: jQuery
+
+PackageName: jQuery
+SPDXID: SPDXRef-Package53
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: jQuery Slideto
+
+PackageName: jQuery Slideto
+SPDXID: SPDXRef-Package54
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: jQuery Wiggle
+
+PackageName: jQuery Wiggle
+SPDXID: SPDXRef-Package55
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: marked
+
+PackageName: marked
+SPDXID: SPDXRef-Package56
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: parseUri
+
+PackageName: parseUri
+SPDXID: SPDXRef-Package57
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Underscore.js
+
+PackageName: Underscore.js
+SPDXID: SPDXRef-Package58
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Angular
+
+PackageName: Angular
+SPDXID: SPDXRef-Package59
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Gingko
+
+PackageName: Gingko
+SPDXID: SPDXRef-Package60
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: moment.js
+
+PackageName: moment.js
+SPDXID: SPDXRef-Package61
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: normalize.css
+
+PackageName: normalize.css
+SPDXID: SPDXRef-Package62
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: Octicons
+
+PackageName: Octicons
+SPDXID: SPDXRef-Package63
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: jQuery BBQ
+
+PackageName: jQuery BBQ
+SPDXID: SPDXRef-Package64
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT OR GPL-2.0+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: jQuery hashchange event
+
+PackageName: jQuery hashchange event
+SPDXID: SPDXRef-Package65
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT OR GPL-2.0+
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11
+
+##### Package: google.golang.org/appengine
+
+PackageName: google.golang.org/appengine
+SPDXID: SPDXRef-Package66
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
+
+##### Package: google.golang.org/api
+
+PackageName: google.golang.org/api
+SPDXID: SPDXRef-Package67
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
+
+##### Package: speter.net/go/exp
+
+PackageName: speter.net/go/exp
+SPDXID: SPDXRef-Package68
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
+
+##### Package: htpasswd
+
+PackageName: htpasswd
+SPDXID: SPDXRef-Package69
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
+
+##### Package: Pause
+
+PackageName: Pause
+SPDXID: SPDXRef-Package70
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/spotinst/spotinst-sdk-go
+
+PackageName: github.com/spotinst/spotinst-sdk-go
+SPDXID: SPDXRef-Package71
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/xanzy/ssh-agent
+
+PackageName: github.com/xanzy/ssh-agent
+SPDXID: SPDXRef-Package72
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: gopkg.in/warnings.v0
+
+PackageName: gopkg.in/warnings.v0
+SPDXID: SPDXRef-Package73
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/zchee/go-vmnet
+
+PackageName: github.com/zchee/go-vmnet
+SPDXID: SPDXRef-Package74
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/Nvveen/Gotty
+
+PackageName: github.com/Nvveen/Gotty
+SPDXID: SPDXRef-Package75
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause-FreeBSD
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: bitbucket.org/ww/goautoneg
+
+PackageName: bitbucket.org/ww/goautoneg
+SPDXID: SPDXRef-Package76
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/tent/http-link-go
+
+PackageName: github.com/tent/http-link-go
+SPDXID: SPDXRef-Package77
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/d2g/dhcp4
+
+PackageName: github.com/d2g/dhcp4
+SPDXID: SPDXRef-Package78
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/quobyte/api
+
+PackageName: github.com/quobyte/api
+SPDXID: SPDXRef-Package79
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/src-d/gcfg
+
+PackageName: github.com/src-d/gcfg
+SPDXID: SPDXRef-Package80
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/JeffAshton/win_pdh
+
+PackageName: github.com/JeffAshton/win_pdh
+SPDXID: SPDXRef-Package81
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/sigma/go-inotify
+
+PackageName: github.com/sigma/go-inotify
+SPDXID: SPDXRef-Package82
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: bitbucket.org/bertimus9/systemstat
+
+PackageName: bitbucket.org/bertimus9/systemstat
+SPDXID: SPDXRef-Package83
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/jbenet/go-context
+
+PackageName: github.com/jbenet/go-context
+SPDXID: SPDXRef-Package84
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/rubiojr/go-vhd
+
+PackageName: github.com/rubiojr/go-vhd
+SPDXID: SPDXRef-Package85
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/marstr/guid
+
+PackageName: github.com/marstr/guid
+SPDXID: SPDXRef-Package86
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/jmank88/nuts
+
+PackageName: github.com/jmank88/nuts
+SPDXID: SPDXRef-Package87
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/Azure/azure-pipeline-go
+
+PackageName: github.com/Azure/azure-pipeline-go
+SPDXID: SPDXRef-Package88
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/johanneswuerbach/nfsexports
+
+PackageName: github.com/johanneswuerbach/nfsexports
+SPDXID: SPDXRef-Package89
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/joshdk/go-junit
+
+PackageName: github.com/joshdk/go-junit
+SPDXID: SPDXRef-Package90
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/konsorten/go-windows-terminal-sequences
+
+PackageName: github.com/konsorten/go-windows-terminal-sequences
+SPDXID: SPDXRef-Package91
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11
+
+##### Package: github.com/fsouza/go-dockerclient
+
+PackageName: github.com/fsouza/go-dockerclient
+SPDXID: SPDXRef-Package92
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/square/go-jose.v2
+
+PackageName: gopkg.in/square/go-jose.v2
+SPDXID: SPDXRef-Package93
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/matttproud/golang_protobuf_extensions
+
+PackageName: github.com/matttproud/golang_protobuf_extensions
+SPDXID: SPDXRef-Package94
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/coreos/etcd
+
+PackageName: github.com/coreos/etcd
+SPDXID: SPDXRef-Package95
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/vmware/govmomi
+
+PackageName: github.com/vmware/govmomi
+SPDXID: SPDXRef-Package96
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pquerna/cachecontrol
+
+PackageName: github.com/pquerna/cachecontrol
+SPDXID: SPDXRef-Package97
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/grpc-ecosystem/grpc-gateway
+
+PackageName: github.com/grpc-ecosystem/grpc-gateway
+SPDXID: SPDXRef-Package98
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/prometheus/common
+
+PackageName: github.com/prometheus/common
+SPDXID: SPDXRef-Package99
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/docker/engine-api
+
+PackageName: github.com/docker/engine-api
+SPDXID: SPDXRef-Package100
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/vmware/photon-controller-go-sdk
+
+PackageName: github.com/vmware/photon-controller-go-sdk
+SPDXID: SPDXRef-Package101
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/google/certificate-transparency-go
+
+PackageName: github.com/google/certificate-transparency-go
+SPDXID: SPDXRef-Package102
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pquerna/ffjson
+
+PackageName: github.com/pquerna/ffjson
+SPDXID: SPDXRef-Package103
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND ISC
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/prometheus/client_golang
+
+PackageName: github.com/prometheus/client_golang
+SPDXID: SPDXRef-Package104
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/googleapis/gnostic
+
+PackageName: github.com/googleapis/gnostic
+SPDXID: SPDXRef-Package105
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/aws/aws-sdk-go
+
+PackageName: github.com/aws/aws-sdk-go
+SPDXID: SPDXRef-Package106
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT AND (MIT OR GPL-3.0)
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/tools
+
+PackageName: golang.org/x/tools
+SPDXID: SPDXRef-Package107
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND BSD-3-Clause AND MIT AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/go-openapi/spec
+
+PackageName: github.com/go-openapi/spec
+SPDXID: SPDXRef-Package108
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: ejs
+
+PackageName: ejs
+SPDXID: SPDXRef-Package109
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/docker/docker
+
+PackageName: github.com/docker/docker
+SPDXID: SPDXRef-Package110
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/xeipuuv/gojsonschema
+
+PackageName: github.com/xeipuuv/gojsonschema
+SPDXID: SPDXRef-Package111
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/spf13/cobra
+
+PackageName: github.com/spf13/cobra
+SPDXID: SPDXRef-Package112
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/go-yaml/yaml
+
+PackageName: github.com/go-yaml/yaml
+SPDXID: SPDXRef-Package113
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/cloudfoundry-incubator/candiedyaml
+
+PackageName: github.com/cloudfoundry-incubator/candiedyaml
+SPDXID: SPDXRef-Package114
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/skynetservices/skydns
+
+PackageName: github.com/skynetservices/skydns
+SPDXID: SPDXRef-Package115
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/go-openapi/swag
+
+PackageName: github.com/go-openapi/swag
+SPDXID: SPDXRef-Package116
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/ncabatoff/process-exporter
+
+PackageName: github.com/ncabatoff/process-exporter
+SPDXID: SPDXRef-Package117
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/docker/cli
+
+PackageName: github.com/docker/cli
+SPDXID: SPDXRef-Package118
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/russross/blackfriday
+
+PackageName: github.com/russross/blackfriday
+SPDXID: SPDXRef-Package119
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/syndtr/gocapability
+
+PackageName: github.com/syndtr/gocapability
+SPDXID: SPDXRef-Package120
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/streadway/quantile
+
+PackageName: github.com/streadway/quantile
+SPDXID: SPDXRef-Package121
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/GeertJohan/go.rice
+
+PackageName: github.com/GeertJohan/go.rice
+SPDXID: SPDXRef-Package122
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pkg/sftp
+
+PackageName: github.com/pkg/sftp
+SPDXID: SPDXRef-Package123
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/dchest/safefile
+
+PackageName: github.com/dchest/safefile
+SPDXID: SPDXRef-Package124
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/godbus/dbus
+
+PackageName: github.com/godbus/dbus
+SPDXID: SPDXRef-Package125
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pkg/browser
+
+PackageName: github.com/pkg/browser
+SPDXID: SPDXRef-Package126
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/elazarl/go-bindata-assetfs
+
+PackageName: github.com/elazarl/go-bindata-assetfs
+SPDXID: SPDXRef-Package127
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pkg/profile
+
+PackageName: github.com/pkg/profile
+SPDXID: SPDXRef-Package128
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/seccomp/libseccomp-golang
+
+PackageName: github.com/seccomp/libseccomp-golang
+SPDXID: SPDXRef-Package129
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pkg/errors
+
+PackageName: github.com/pkg/errors
+SPDXID: SPDXRef-Package130
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/bwmarrin/snowflake
+
+PackageName: github.com/bwmarrin/snowflake
+SPDXID: SPDXRef-Package131
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/fsouza/fake-gcs-server
+
+PackageName: github.com/fsouza/fake-gcs-server
+SPDXID: SPDXRef-Package132
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/karrick/godirwalk
+
+PackageName: github.com/karrick/godirwalk
+SPDXID: SPDXRef-Package133
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/check.v1
+
+PackageName: gopkg.in/check.v1
+SPDXID: SPDXRef-Package134
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/magiconair/properties
+
+PackageName: github.com/magiconair/properties
+SPDXID: SPDXRef-Package135
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/scalingdata/gcfg
+
+PackageName: github.com/scalingdata/gcfg
+SPDXID: SPDXRef-Package136
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/gogo/protobuf
+
+PackageName: github.com/gogo/protobuf
+SPDXID: SPDXRef-Package137
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/globalsign/mgo
+
+PackageName: github.com/globalsign/mgo
+SPDXID: SPDXRef-Package138
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/sys
+
+PackageName: golang.org/x/sys
+SPDXID: SPDXRef-Package139
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/cloudflare/cfssl
+
+PackageName: github.com/cloudflare/cfssl
+SPDXID: SPDXRef-Package140
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND ISC
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Sirupsen/logrus
+
+PackageName: github.com/Sirupsen/logrus
+SPDXID: SPDXRef-Package141
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/sirupsen/logrus
+
+PackageName: github.com/sirupsen/logrus
+SPDXID: SPDXRef-Package142
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/emirpasic/gods
+
+PackageName: github.com/emirpasic/gods
+SPDXID: SPDXRef-Package143
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND ISC
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/gorilla/websocket
+
+PackageName: github.com/gorilla/websocket
+SPDXID: SPDXRef-Package144
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/storageos/go-api
+
+PackageName: github.com/storageos/go-api
+SPDXID: SPDXRef-Package145
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/rcrowley/go-metrics
+
+PackageName: github.com/rcrowley/go-metrics
+SPDXID: SPDXRef-Package146
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-2-Clause-FreeBSD
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/cheggaaa/pb.v1
+
+PackageName: gopkg.in/cheggaaa/pb.v1
+SPDXID: SPDXRef-Package147
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/gcfg.v1
+
+PackageName: gopkg.in/gcfg.v1
+SPDXID: SPDXRef-Package148
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/igm/sockjs-go.v2
+
+PackageName: gopkg.in/igm/sockjs-go.v2
+SPDXID: SPDXRef-Package149
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/tomb.v1
+
+PackageName: gopkg.in/tomb.v1
+SPDXID: SPDXRef-Package150
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/fsnotify
+
+PackageName: gopkg.in/fsnotify
+SPDXID: SPDXRef-Package151
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/inf.v0
+
+PackageName: gopkg.in/inf.v0
+SPDXID: SPDXRef-Package152
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/miekg/dns
+
+PackageName: github.com/miekg/dns
+SPDXID: SPDXRef-Package153
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/petar/GoLLRB
+
+PackageName: github.com/petar/GoLLRB
+SPDXID: SPDXRef-Package154
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/elazarl/goproxy
+
+PackageName: github.com/elazarl/goproxy
+SPDXID: SPDXRef-Package155
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/PuerkitoBio/purell
+
+PackageName: github.com/PuerkitoBio/purell
+SPDXID: SPDXRef-Package156
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/gorilla/mux
+
+PackageName: github.com/gorilla/mux
+SPDXID: SPDXRef-Package157
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/gorilla/sessions
+
+PackageName: github.com/gorilla/sessions
+SPDXID: SPDXRef-Package158
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/gorilla/securecookie
+
+PackageName: github.com/gorilla/securecookie
+SPDXID: SPDXRef-Package159
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/gorilla/context
+
+PackageName: github.com/gorilla/context
+SPDXID: SPDXRef-Package160
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/ziutek/syslog
+
+PackageName: github.com/ziutek/syslog
+SPDXID: SPDXRef-Package161
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/imdario/mergo
+
+PackageName: github.com/imdario/mergo
+SPDXID: SPDXRef-Package162
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/golang/lint
+
+PackageName: github.com/golang/lint
+SPDXID: SPDXRef-Package163
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/lxn/win
+
+PackageName: github.com/lxn/win
+SPDXID: SPDXRef-Package164
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/spf13/pflag
+
+PackageName: github.com/spf13/pflag
+SPDXID: SPDXRef-Package165
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/google/go-querystring
+
+PackageName: github.com/google/go-querystring
+SPDXID: SPDXRef-Package166
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/kr/fs
+
+PackageName: github.com/kr/fs
+SPDXID: SPDXRef-Package167
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pmezard/go-difflib
+
+PackageName: github.com/pmezard/go-difflib
+SPDXID: SPDXRef-Package168
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/evanphx/json-patch
+
+PackageName: github.com/evanphx/json-patch
+SPDXID: SPDXRef-Package169
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/shurcooL/go
+
+PackageName: github.com/shurcooL/go
+SPDXID: SPDXRef-Package170
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/chai2010/gettext-go
+
+PackageName: github.com/chai2010/gettext-go
+SPDXID: SPDXRef-Package171
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mxk/go-flowrate
+
+PackageName: github.com/mxk/go-flowrate
+SPDXID: SPDXRef-Package172
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/fsnotify/fsnotify
+
+PackageName: github.com/fsnotify/fsnotify
+SPDXID: SPDXRef-Package173
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/golang/protobuf
+
+PackageName: github.com/golang/protobuf
+SPDXID: SPDXRef-Package174
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pierrec/xxHash
+
+PackageName: github.com/pierrec/xxHash
+SPDXID: SPDXRef-Package175
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mvdan/xurls
+
+PackageName: github.com/mvdan/xurls
+SPDXID: SPDXRef-Package176
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/PuerkitoBio/urlesc
+
+PackageName: github.com/PuerkitoBio/urlesc
+SPDXID: SPDXRef-Package177
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/kardianos/osext
+
+PackageName: github.com/kardianos/osext
+SPDXID: SPDXRef-Package178
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pierrec/lz4
+
+PackageName: github.com/pierrec/lz4
+SPDXID: SPDXRef-Package179
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/aclements/go-moremath
+
+PackageName: github.com/aclements/go-moremath
+SPDXID: SPDXRef-Package180
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/golang/snappy
+
+PackageName: github.com/golang/snappy
+SPDXID: SPDXRef-Package181
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pborman/uuid
+
+PackageName: github.com/pborman/uuid
+SPDXID: SPDXRef-Package182
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/google/uuid
+
+PackageName: github.com/google/uuid
+SPDXID: SPDXRef-Package183
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/googleapis/gax-go
+
+PackageName: github.com/googleapis/gax-go
+SPDXID: SPDXRef-Package184
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/cyphar/filepath-securejoin
+
+PackageName: github.com/cyphar/filepath-securejoin
+SPDXID: SPDXRef-Package185
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang/archive/tar
+
+PackageName: golang/archive/tar
+SPDXID: SPDXRef-Package186
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/lint
+
+PackageName: golang.org/x/lint
+SPDXID: SPDXRef-Package187
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/oauth2
+
+PackageName: golang.org/x/oauth2
+SPDXID: SPDXRef-Package188
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gonum.org/v1/gonum
+
+PackageName: gonum.org/v1/gonum
+SPDXID: SPDXRef-Package189
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND (BSD-3-Clause OR CC0-1.0)
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/golang/dep
+
+PackageName: github.com/golang/dep
+SPDXID: SPDXRef-Package190
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/build
+
+PackageName: golang.org/x/build
+SPDXID: SPDXRef-Package191
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/exp
+
+PackageName: golang.org/x/exp
+SPDXID: SPDXRef-Package192
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/sync
+
+PackageName: golang.org/x/sync
+SPDXID: SPDXRef-Package193
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/text
+
+PackageName: golang.org/x/text
+SPDXID: SPDXRef-Package194
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: golang.org/x/time
+
+PackageName: golang.org/x/time
+SPDXID: SPDXRef-Package195
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-Golang
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/olivere/elastic.v3
+
+PackageName: gopkg.in/olivere/elastic.v3
+SPDXID: SPDXRef-Package196
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/olivere/elastic.v5
+
+PackageName: gopkg.in/olivere/elastic.v5
+SPDXID: SPDXRef-Package197
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: marked
+
+PackageName: marked
+SPDXID: SPDXRef-Package198
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/daviddengcn/go-colortext
+
+PackageName: github.com/daviddengcn/go-colortext
+SPDXID: SPDXRef-Package199
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/digitalocean/godo
+
+PackageName: github.com/digitalocean/godo
+SPDXID: SPDXRef-Package200
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/ghodss/yaml
+
+PackageName: github.com/ghodss/yaml
+SPDXID: SPDXRef-Package201
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/fullsailor/pkcs7
+
+PackageName: github.com/fullsailor/pkcs7
+SPDXID: SPDXRef-Package202
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/djherbis/atime
+
+PackageName: github.com/djherbis/atime
+SPDXID: SPDXRef-Package203
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Microsoft/hcsshim
+
+PackageName: github.com/Microsoft/hcsshim
+SPDXID: SPDXRef-Package204
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mattn/go-zglob
+
+PackageName: github.com/mattn/go-zglob
+SPDXID: SPDXRef-Package205
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Microsoft/go-winio
+
+PackageName: github.com/Microsoft/go-winio
+SPDXID: SPDXRef-Package206
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause AND MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/davecgh/go-spew
+
+PackageName: github.com/davecgh/go-spew
+SPDXID: SPDXRef-Package207
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: go.uber.org/atomic
+
+PackageName: go.uber.org/atomic
+SPDXID: SPDXRef-Package208
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: go.uber.org/multierr
+
+PackageName: go.uber.org/multierr
+SPDXID: SPDXRef-Package209
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: go.uber.org/zap
+
+PackageName: go.uber.org/zap
+SPDXID: SPDXRef-Package210
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/go-playground/pool.v3
+
+PackageName: gopkg.in/go-playground/pool.v3
+SPDXID: SPDXRef-Package211
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/natefinch/lumberjack.v2
+
+PackageName: gopkg.in/natefinch/lumberjack.v2
+SPDXID: SPDXRef-Package212
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: gopkg.in/robfig/cron.v2
+
+PackageName: gopkg.in/robfig/cron.v2
+SPDXID: SPDXRef-Package213
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: colors
+
+PackageName: colors
+SPDXID: SPDXRef-Package214
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: jquery
+
+PackageName: jquery
+SPDXID: SPDXRef-Package215
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: jquery.scrollto
+
+PackageName: jquery.scrollto
+SPDXID: SPDXRef-Package216
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: mime
+
+PackageName: mime
+SPDXID: SPDXRef-Package217
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: minimist
+
+PackageName: minimist
+SPDXID: SPDXRef-Package218
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: node-static
+
+PackageName: node-static
+SPDXID: SPDXRef-Package219
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: optimist
+
+PackageName: optimist
+SPDXID: SPDXRef-Package220
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: wordwrap
+
+PackageName: wordwrap
+SPDXID: SPDXRef-Package221
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: vbom.ml/util
+
+PackageName: vbom.ml/util
+SPDXID: SPDXRef-Package222
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: Chart.js
+
+PackageName: Chart.js
+SPDXID: SPDXRef-Package223
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: ui-router for Angular
+
+PackageName: ui-router for Angular
+SPDXID: SPDXRef-Package224
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/tsenart/vegeta
+
+PackageName: github.com/tsenart/vegeta
+SPDXID: SPDXRef-Package225
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/kr/pretty
+
+PackageName: github.com/kr/pretty
+SPDXID: SPDXRef-Package226
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/kr/pty
+
+PackageName: github.com/kr/pty
+SPDXID: SPDXRef-Package227
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/patrickmn/go-cache
+
+PackageName: github.com/patrickmn/go-cache
+SPDXID: SPDXRef-Package228
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/dustin/go-humanize
+
+PackageName: github.com/dustin/go-humanize
+SPDXID: SPDXRef-Package229
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/lib/pq
+
+PackageName: github.com/lib/pq
+SPDXID: SPDXRef-Package230
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/peterbourgon/diskv
+
+PackageName: github.com/peterbourgon/diskv
+SPDXID: SPDXRef-Package231
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/dgrijalva/jwt-go
+
+PackageName: github.com/dgrijalva/jwt-go
+SPDXID: SPDXRef-Package232
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/kr/text
+
+PackageName: github.com/kr/text
+SPDXID: SPDXRef-Package233
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/robfig/cron
+
+PackageName: github.com/robfig/cron
+SPDXID: SPDXRef-Package234
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/kisielk/sqlstruct
+
+PackageName: github.com/kisielk/sqlstruct
+SPDXID: SPDXRef-Package235
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/stretchr/testify
+
+PackageName: github.com/stretchr/testify
+SPDXID: SPDXRef-Package236
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/emicklei/go-restful
+
+PackageName: github.com/emicklei/go-restful
+SPDXID: SPDXRef-Package237
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/sergi/go-diff
+
+PackageName: github.com/sergi/go-diff
+SPDXID: SPDXRef-Package238
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/gregjones/httpcache
+
+PackageName: github.com/gregjones/httpcache
+SPDXID: SPDXRef-Package239
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/jmoiron/sqlx
+
+PackageName: github.com/jmoiron/sqlx
+SPDXID: SPDXRef-Package240
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/hpcloud/tail
+
+PackageName: github.com/hpcloud/tail
+SPDXID: SPDXRef-Package241
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pelletier/go-toml
+
+PackageName: github.com/pelletier/go-toml
+SPDXID: SPDXRef-Package242
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/daaku/go.zipexe
+
+PackageName: github.com/daaku/go.zipexe
+SPDXID: SPDXRef-Package243
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/nightlyone/lockfile
+
+PackageName: github.com/nightlyone/lockfile
+SPDXID: SPDXRef-Package244
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mitchellh/mapstructure
+
+PackageName: github.com/mitchellh/mapstructure
+SPDXID: SPDXRef-Package245
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/ugorji/go
+
+PackageName: github.com/ugorji/go
+SPDXID: SPDXRef-Package246
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/satori/go.uuid
+
+PackageName: github.com/satori/go.uuid
+SPDXID: SPDXRef-Package247
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mattn/go-runewidth
+
+PackageName: github.com/mattn/go-runewidth
+SPDXID: SPDXRef-Package248
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/deckarep/golang-set
+
+PackageName: github.com/deckarep/golang-set
+SPDXID: SPDXRef-Package249
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Shopify/sarama
+
+PackageName: github.com/Shopify/sarama
+SPDXID: SPDXRef-Package250
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/urfave/cli
+
+PackageName: github.com/urfave/cli
+SPDXID: SPDXRef-Package251
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/joho/godotenv
+
+PackageName: github.com/joho/godotenv
+SPDXID: SPDXRef-Package252
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/onsi/ginkgo
+
+PackageName: github.com/onsi/ginkgo
+SPDXID: SPDXRef-Package253
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/onsi/gomega
+
+PackageName: github.com/onsi/gomega
+SPDXID: SPDXRef-Package254
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/stretchr/objx
+
+PackageName: github.com/stretchr/objx
+SPDXID: SPDXRef-Package255
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/jinzhu/gorm
+
+PackageName: github.com/jinzhu/gorm
+SPDXID: SPDXRef-Package256
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/smartystreets/go-aws-auth
+
+PackageName: github.com/smartystreets/go-aws-auth
+SPDXID: SPDXRef-Package257
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/marpaia/graphite-golang
+
+PackageName: github.com/marpaia/graphite-golang
+SPDXID: SPDXRef-Package258
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/eapache/channels
+
+PackageName: github.com/eapache/channels
+SPDXID: SPDXRef-Package259
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Masterminds/sprig
+
+PackageName: github.com/Masterminds/sprig
+SPDXID: SPDXRef-Package260
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/boltdb/bolt
+
+PackageName: github.com/boltdb/bolt
+SPDXID: SPDXRef-Package261
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/tchap/go-patricia
+
+PackageName: github.com/tchap/go-patricia
+SPDXID: SPDXRef-Package262
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/olekukonko/tablewriter
+
+PackageName: github.com/olekukonko/tablewriter
+SPDXID: SPDXRef-Package263
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/parnurzeal/gorequest
+
+PackageName: github.com/parnurzeal/gorequest
+SPDXID: SPDXRef-Package264
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/armon/go-proxyproto
+
+PackageName: github.com/armon/go-proxyproto
+SPDXID: SPDXRef-Package265
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/spf13/jwalterweatherman
+
+PackageName: github.com/spf13/jwalterweatherman
+SPDXID: SPDXRef-Package266
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/spf13/viper
+
+PackageName: github.com/spf13/viper
+SPDXID: SPDXRef-Package267
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/spf13/cast
+
+PackageName: github.com/spf13/cast
+SPDXID: SPDXRef-Package268
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mitchellh/go-ps
+
+PackageName: github.com/mitchellh/go-ps
+SPDXID: SPDXRef-Package269
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/armon/circbuf
+
+PackageName: github.com/armon/circbuf
+SPDXID: SPDXRef-Package270
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/eapache/queue
+
+PackageName: github.com/eapache/queue
+SPDXID: SPDXRef-Package271
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/beorn7/perks
+
+PackageName: github.com/beorn7/perks
+SPDXID: SPDXRef-Package272
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mattn/go-shellwords
+
+PackageName: github.com/mattn/go-shellwords
+SPDXID: SPDXRef-Package273
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/asaskevich/govalidator
+
+PackageName: github.com/asaskevich/govalidator
+SPDXID: SPDXRef-Package274
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/blang/semver
+
+PackageName: github.com/blang/semver
+SPDXID: SPDXRef-Package275
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/MakeNowJust/heredoc
+
+PackageName: github.com/MakeNowJust/heredoc
+SPDXID: SPDXRef-Package276
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/fatih/structs
+
+PackageName: github.com/fatih/structs
+SPDXID: SPDXRef-Package277
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/cpuguy83/go-md2man
+
+PackageName: github.com/cpuguy83/go-md2man
+SPDXID: SPDXRef-Package278
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mohae/deepcopy
+
+PackageName: github.com/mohae/deepcopy
+SPDXID: SPDXRef-Package279
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/armon/go-radix
+
+PackageName: github.com/armon/go-radix
+SPDXID: SPDXRef-Package280
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mitchellh/go-homedir
+
+PackageName: github.com/mitchellh/go-homedir
+SPDXID: SPDXRef-Package281
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/jmhodges/clock
+
+PackageName: github.com/jmhodges/clock
+SPDXID: SPDXRef-Package282
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mitchellh/go-wordwrap
+
+PackageName: github.com/mitchellh/go-wordwrap
+SPDXID: SPDXRef-Package283
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/eapache/go-resiliency
+
+PackageName: github.com/eapache/go-resiliency
+SPDXID: SPDXRef-Package284
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/huandu/xstrings
+
+PackageName: github.com/huandu/xstrings
+SPDXID: SPDXRef-Package285
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/shurcooL/sanitized_anchor_name
+
+PackageName: github.com/shurcooL/sanitized_anchor_name
+SPDXID: SPDXRef-Package286
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/zakjan/cert-chain-resolver
+
+PackageName: github.com/zakjan/cert-chain-resolver
+SPDXID: SPDXRef-Package287
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/jpillora/backoff
+
+PackageName: github.com/jpillora/backoff
+SPDXID: SPDXRef-Package288
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/renstrom/dedent
+
+PackageName: github.com/renstrom/dedent
+SPDXID: SPDXRef-Package289
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/fatih/camelcase
+
+PackageName: github.com/fatih/camelcase
+SPDXID: SPDXRef-Package290
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Azure/go-ansiterm
+
+PackageName: github.com/Azure/go-ansiterm
+SPDXID: SPDXRef-Package291
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/markbates/inflect
+
+PackageName: github.com/markbates/inflect
+SPDXID: SPDXRef-Package292
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/xiang90/probing
+
+PackageName: github.com/xiang90/probing
+SPDXID: SPDXRef-Package293
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/jinzhu/inflection
+
+PackageName: github.com/jinzhu/inflection
+SPDXID: SPDXRef-Package294
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Masterminds/vcs
+
+PackageName: github.com/Masterminds/vcs
+SPDXID: SPDXRef-Package295
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/andygrunwald/go-gerrit
+
+PackageName: github.com/andygrunwald/go-gerrit
+SPDXID: SPDXRef-Package296
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/moul/http2curl
+
+PackageName: github.com/moul/http2curl
+SPDXID: SPDXRef-Package297
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/exponent-io/jsonpath
+
+PackageName: github.com/exponent-io/jsonpath
+SPDXID: SPDXRef-Package298
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Masterminds/semver
+
+PackageName: github.com/Masterminds/semver
+SPDXID: SPDXRef-Package299
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/opentracing/opentracing-go
+
+PackageName: github.com/opentracing/opentracing-go
+SPDXID: SPDXRef-Package300
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mitchellh/hashstructure
+
+PackageName: github.com/mitchellh/hashstructure
+SPDXID: SPDXRef-Package301
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/pelletier/go-buffruneio
+
+PackageName: github.com/pelletier/go-buffruneio
+SPDXID: SPDXRef-Package302
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/mailru/easyjson
+
+PackageName: github.com/mailru/easyjson
+SPDXID: SPDXRef-Package303
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/eapache/go-xerial-snappy
+
+PackageName: github.com/eapache/go-xerial-snappy
+SPDXID: SPDXRef-Package304
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/go-ozzo/ozzo-validation
+
+PackageName: github.com/go-ozzo/ozzo-validation
+SPDXID: SPDXRef-Package305
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Rican7/retry
+
+PackageName: github.com/Rican7/retry
+SPDXID: SPDXRef-Package306
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/tmc/grpc-websocket-proxy
+
+PackageName: github.com/tmc/grpc-websocket-proxy
+SPDXID: SPDXRef-Package307
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/json-iterator/go
+
+PackageName: github.com/json-iterator/go
+SPDXID: SPDXRef-Package308
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/libvirt/libvirt-go
+
+PackageName: github.com/libvirt/libvirt-go
+SPDXID: SPDXRef-Package309
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/libvirt/libvirt-go-xml
+
+PackageName: github.com/libvirt/libvirt-go-xml
+SPDXID: SPDXRef-Package310
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/gobuffalo/envy
+
+PackageName: github.com/gobuffalo/envy
+SPDXID: SPDXRef-Package311
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/riemann/riemann-go-client
+
+PackageName: github.com/riemann/riemann-go-client
+SPDXID: SPDXRef-Package312
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/emicklei/go-restful-swagger12
+
+PackageName: github.com/emicklei/go-restful-swagger12
+SPDXID: SPDXRef-Package313
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/sdboyer/constext
+
+PackageName: github.com/sdboyer/constext
+SPDXID: SPDXRef-Package314
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/kevinburke/ssh_config
+
+PackageName: github.com/kevinburke/ssh_config
+SPDXID: SPDXRef-Package315
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/shurcooL/githubv4
+
+PackageName: github.com/shurcooL/githubv4
+SPDXID: SPDXRef-Package316
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/coreos/bbolt
+
+PackageName: github.com/coreos/bbolt
+SPDXID: SPDXRef-Package317
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/shurcooL/graphql
+
+PackageName: github.com/shurcooL/graphql
+SPDXID: SPDXRef-Package318
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/Azure/azure-storage-blob-go
+
+PackageName: github.com/Azure/azure-storage-blob-go
+SPDXID: SPDXRef-Package319
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/influxdata/influxdb
+
+PackageName: github.com/influxdata/influxdb
+SPDXID: SPDXRef-Package320
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: defusedxml
+
+PackageName: defusedxml
+SPDXID: SPDXRef-Package321
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Python-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: allowlisted
+
+##### Package: github.com/docker/distribution
+
+PackageName: github.com/docker/distribution
+SPDXID: SPDXRef-Package322
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: cloud.google.com/go
+
+PackageName: cloud.google.com/go
+SPDXID: SPDXRef-Package323
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: code.cloudfoundry.org/clock
+
+PackageName: code.cloudfoundry.org/clock
+SPDXID: SPDXRef-Package324
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/abbot/go-http-auth
+
+PackageName: github.com/abbot/go-http-auth
+SPDXID: SPDXRef-Package325
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/heketi/heketi REST API
+
+PackageName: github.com/heketi/heketi REST API
+SPDXID: SPDXRef-Package326
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 OR LGPL-3.0-or-later
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/kylelemons/godebug
+
+PackageName: github.com/kylelemons/godebug
+SPDXID: SPDXRef-Package327
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/xeipuuv/gojsonpointer
+
+PackageName: github.com/xeipuuv/gojsonpointer
+SPDXID: SPDXRef-Package328
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/xeipuuv/gojsonreference
+
+PackageName: github.com/xeipuuv/gojsonreference
+SPDXID: SPDXRef-Package329
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/Unknwon/goconfig
+
+PackageName: github.com/Unknwon/goconfig
+SPDXID: SPDXRef-Package330
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/prometheus/client_model
+
+PackageName: github.com/prometheus/client_model
+SPDXID: SPDXRef-Package331
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/rackspace/gophercloud
+
+PackageName: github.com/rackspace/gophercloud
+SPDXID: SPDXRef-Package332
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/coreos/go-etcd
+
+PackageName: github.com/coreos/go-etcd
+SPDXID: SPDXRef-Package333
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/golang/glog
+
+PackageName: github.com/golang/glog
+SPDXID: SPDXRef-Package334
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/golang/groupcache
+
+PackageName: github.com/golang/groupcache
+SPDXID: SPDXRef-Package335
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/coreos/go-semver
+
+PackageName: github.com/coreos/go-semver
+SPDXID: SPDXRef-Package336
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/coreos/go-systemd
+
+PackageName: github.com/coreos/go-systemd
+SPDXID: SPDXRef-Package337
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/flynn/go-shlex
+
+PackageName: github.com/flynn/go-shlex
+SPDXID: SPDXRef-Package338
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/mesos/mesos-go
+
+PackageName: github.com/mesos/mesos-go
+SPDXID: SPDXRef-Package339
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/samalba/dockerclient
+
+PackageName: github.com/samalba/dockerclient
+SPDXID: SPDXRef-Package340
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/aokoli/goutils
+
+PackageName: github.com/aokoli/goutils
+SPDXID: SPDXRef-Package341
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/inconshreveable/mousetrap
+
+PackageName: github.com/inconshreveable/mousetrap
+SPDXID: SPDXRef-Package342
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/docker/libtrust
+
+PackageName: github.com/docker/libtrust
+SPDXID: SPDXRef-Package343
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/lpabon/godbc
+
+PackageName: github.com/lpabon/godbc
+SPDXID: SPDXRef-Package344
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/google/cadvisor
+
+PackageName: github.com/google/cadvisor
+SPDXID: SPDXRef-Package345
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/openshift/origin
+
+PackageName: github.com/openshift/origin
+SPDXID: SPDXRef-Package346
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/google/gofuzz
+
+PackageName: github.com/google/gofuzz
+SPDXID: SPDXRef-Package347
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/google/btree
+
+PackageName: github.com/google/btree
+SPDXID: SPDXRef-Package348
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/Azure/azure-sdk-for-go
+
+PackageName: github.com/Azure/azure-sdk-for-go
+SPDXID: SPDXRef-Package349
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/google/go-tpm
+
+PackageName: github.com/google/go-tpm
+SPDXID: SPDXRef-Package350
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/mistifyio/go-zfs
+
+PackageName: github.com/mistifyio/go-zfs
+SPDXID: SPDXRef-Package351
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/vishvananda/netns
+
+PackageName: github.com/vishvananda/netns
+SPDXID: SPDXRef-Package352
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/vishvananda/netlink
+
+PackageName: github.com/vishvananda/netlink
+SPDXID: SPDXRef-Package353
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/xanzy/go-cloudstack
+
+PackageName: github.com/xanzy/go-cloudstack
+SPDXID: SPDXRef-Package354
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/jonboulle/clockwork
+
+PackageName: github.com/jonboulle/clockwork
+SPDXID: SPDXRef-Package355
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/spf13/afero
+
+PackageName: github.com/spf13/afero
+SPDXID: SPDXRef-Package356
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/coreos/rkt
+
+PackageName: github.com/coreos/rkt
+SPDXID: SPDXRef-Package357
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/rancher/go-rancher
+
+PackageName: github.com/rancher/go-rancher
+SPDXID: SPDXRef-Package358
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/docker/machine
+
+PackageName: github.com/docker/machine
+SPDXID: SPDXRef-Package359
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/appc/spec
+
+PackageName: github.com/appc/spec
+SPDXID: SPDXRef-Package360
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-ini/ini
+
+PackageName: github.com/go-ini/ini
+SPDXID: SPDXRef-Package361
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/prometheus/procfs
+
+PackageName: github.com/prometheus/procfs
+SPDXID: SPDXRef-Package362
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/NYTimes/gziphandler
+
+PackageName: github.com/NYTimes/gziphandler
+SPDXID: SPDXRef-Package363
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/coreos/pkg
+
+PackageName: github.com/coreos/pkg
+SPDXID: SPDXRef-Package364
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/docker/libnetwork
+
+PackageName: github.com/docker/libnetwork
+SPDXID: SPDXRef-Package365
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/codedellemc/goscaleio
+
+PackageName: github.com/codedellemc/goscaleio
+SPDXID: SPDXRef-Package366
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/containernetworking/cni
+
+PackageName: github.com/containernetworking/cni
+SPDXID: SPDXRef-Package367
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/hawkular/hawkular-client-go
+
+PackageName: github.com/hawkular/hawkular-client-go
+SPDXID: SPDXRef-Package368
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/denverdino/aliyungo
+
+PackageName: github.com/denverdino/aliyungo
+SPDXID: SPDXRef-Package369
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/docker/libcompose
+
+PackageName: github.com/docker/libcompose
+SPDXID: SPDXRef-Package370
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/opencontainers/runtime-spec
+
+PackageName: github.com/opencontainers/runtime-spec
+SPDXID: SPDXRef-Package371
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/golang/mock
+
+PackageName: github.com/golang/mock
+SPDXID: SPDXRef-Package372
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/coreos/go-oidc
+
+PackageName: github.com/coreos/go-oidc
+SPDXID: SPDXRef-Package373
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/jmespath/go-jmespath
+
+PackageName: github.com/jmespath/go-jmespath
+SPDXID: SPDXRef-Package374
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/Azure/go-autorest
+
+PackageName: github.com/Azure/go-autorest
+SPDXID: SPDXRef-Package375
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/libopenstorage/openstorage
+
+PackageName: github.com/libopenstorage/openstorage
+SPDXID: SPDXRef-Package376
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/soheilhy/cmux
+
+PackageName: github.com/soheilhy/cmux
+SPDXID: SPDXRef-Package377
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/gophercloud/gophercloud
+
+PackageName: github.com/gophercloud/gophercloud
+SPDXID: SPDXRef-Package378
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/clusterhq/flocker-go
+
+PackageName: github.com/clusterhq/flocker-go
+SPDXID: SPDXRef-Package379
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/bluebreezecf/opentsdb-goclient
+
+PackageName: github.com/bluebreezecf/opentsdb-goclient
+SPDXID: SPDXRef-Package380
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/docker/go-connections
+
+PackageName: github.com/docker/go-connections
+SPDXID: SPDXRef-Package381
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/paultag/sniff
+
+PackageName: github.com/paultag/sniff
+SPDXID: SPDXRef-Package382
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/weaveworks/mesh
+
+PackageName: github.com/weaveworks/mesh
+SPDXID: SPDXRef-Package383
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/novln/docker-parser
+
+PackageName: github.com/novln/docker-parser
+SPDXID: SPDXRef-Package384
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/cockroachdb/cmux
+
+PackageName: github.com/cockroachdb/cmux
+SPDXID: SPDXRef-Package385
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/coredns/coredns
+
+PackageName: github.com/coredns/coredns
+SPDXID: SPDXRef-Package386
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/miekg/coredns
+
+PackageName: github.com/miekg/coredns
+SPDXID: SPDXRef-Package387
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/opencontainers/image-spec
+
+PackageName: github.com/opencontainers/image-spec
+SPDXID: SPDXRef-Package388
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/moby/hyperkit
+
+PackageName: github.com/moby/hyperkit
+SPDXID: SPDXRef-Package389
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-openapi/jsonpointer
+
+PackageName: github.com/go-openapi/jsonpointer
+SPDXID: SPDXRef-Package390
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-openapi/jsonreference
+
+PackageName: github.com/go-openapi/jsonreference
+SPDXID: SPDXRef-Package391
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-openapi/loads
+
+PackageName: github.com/go-openapi/loads
+SPDXID: SPDXRef-Package392
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-openapi/analysis
+
+PackageName: github.com/go-openapi/analysis
+SPDXID: SPDXRef-Package393
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-openapi/errors
+
+PackageName: github.com/go-openapi/errors
+SPDXID: SPDXRef-Package394
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-openapi/strfmt
+
+PackageName: github.com/go-openapi/strfmt
+SPDXID: SPDXRef-Package395
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-openapi/validate
+
+PackageName: github.com/go-openapi/validate
+SPDXID: SPDXRef-Package396
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/go-openapi/runtime
+
+PackageName: github.com/go-openapi/runtime
+SPDXID: SPDXRef-Package397
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/grpc-ecosystem/go-grpc-prometheus
+
+PackageName: github.com/grpc-ecosystem/go-grpc-prometheus
+SPDXID: SPDXRef-Package398
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/grpc-ecosystem/go-grpc-middleware
+
+PackageName: github.com/grpc-ecosystem/go-grpc-middleware
+SPDXID: SPDXRef-Package399
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/mrunalp/fileutils
+
+PackageName: github.com/mrunalp/fileutils
+SPDXID: SPDXRef-Package400
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/bazelbuild/buildtools
+
+PackageName: github.com/bazelbuild/buildtools
+SPDXID: SPDXRef-Package401
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/jimmidyson/go-download
+
+PackageName: github.com/jimmidyson/go-download
+SPDXID: SPDXRef-Package402
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/euank/go-kmsg-parser
+
+PackageName: github.com/euank/go-kmsg-parser
+SPDXID: SPDXRef-Package403
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/kubernetes/repo-infra
+
+PackageName: github.com/kubernetes/repo-infra
+SPDXID: SPDXRef-Package404
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/kubernetes-incubator/reference-docs
+
+PackageName: github.com/kubernetes-incubator/reference-docs
+SPDXID: SPDXRef-Package405
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/containerd/console
+
+PackageName: github.com/containerd/console
+SPDXID: SPDXRef-Package406
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/opencontainers/selinux
+
+PackageName: github.com/opencontainers/selinux
+SPDXID: SPDXRef-Package407
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/r2d4/external-storage
+
+PackageName: github.com/r2d4/external-storage
+SPDXID: SPDXRef-Package408
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/containernetworking/plugins
+
+PackageName: github.com/containernetworking/plugins
+SPDXID: SPDXRef-Package409
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/kubernetes-incubator/apiserver-builder
+
+PackageName: github.com/kubernetes-incubator/apiserver-builder
+SPDXID: SPDXRef-Package410
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/container-storage-interface/spec
+
+PackageName: github.com/container-storage-interface/spec
+SPDXID: SPDXRef-Package411
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/mindprince/gonvml
+
+PackageName: github.com/mindprince/gonvml
+SPDXID: SPDXRef-Package412
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/bazelbuild/bazel-gazelle
+
+PackageName: github.com/bazelbuild/bazel-gazelle
+SPDXID: SPDXRef-Package413
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/knative/build
+
+PackageName: github.com/knative/build
+SPDXID: SPDXRef-Package414
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/modern-go/concurrent
+
+PackageName: github.com/modern-go/concurrent
+SPDXID: SPDXRef-Package415
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/modern-go/reflect2
+
+PackageName: github.com/modern-go/reflect2
+SPDXID: SPDXRef-Package416
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/kubernetes-sigs/application
+
+PackageName: github.com/kubernetes-sigs/application
+SPDXID: SPDXRef-Package417
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/google/go-containerregistry
+
+PackageName: github.com/google/go-containerregistry
+SPDXID: SPDXRef-Package418
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/thockin/logr
+
+PackageName: github.com/thockin/logr
+SPDXID: SPDXRef-Package419
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/thockin/glogr
+
+PackageName: github.com/thockin/glogr
+SPDXID: SPDXRef-Package420
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/GoogleCloudPlatform/gke-managed-certs
+
+PackageName: github.com/GoogleCloudPlatform/gke-managed-certs
+SPDXID: SPDXRef-Package421
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/aws/aws-k8s-tester
+
+PackageName: github.com/aws/aws-k8s-tester
+SPDXID: SPDXRef-Package422
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: go.opencensus.io
+
+PackageName: go.opencensus.io
+SPDXID: SPDXRef-Package423
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: go4.org/errorutil
+
+PackageName: go4.org/errorutil
+SPDXID: SPDXRef-Package424
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: google.golang.org/cloud
+
+PackageName: google.golang.org/cloud
+SPDXID: SPDXRef-Package425
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: google.golang.org/genproto
+
+PackageName: google.golang.org/genproto
+SPDXID: SPDXRef-Package426
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: gopkg.in/src-d
+
+PackageName: gopkg.in/src-d
+SPDXID: SPDXRef-Package427
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/mholt/caddy
+
+PackageName: github.com/mholt/caddy
+SPDXID: SPDXRef-Package428
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+
+##### Package: github.com/containerd/containerd
+
+PackageName: github.com/containerd/containerd
+SPDXID: SPDXRef-Package429
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0 AND CC-BY-4.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Apache-2.0, no approval needed
+

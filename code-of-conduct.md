@@ -1,16 +1,23 @@
 ## CNCF Community Code of Conduct v1.0
 
 Other languages available:
+- [Arabic/العربية](code-of-conduct-languages/ar.md)
+- [Bulgarian/Български](code-of-conduct-languages/bg.md)
 - [Chinese/中文](code-of-conduct-languages/zh.md)
-- [German/Deutsch](code-of-conduct-languages/de.md)
-- [Spanish/Español](code-of-conduct-languages/es.md)
+- [Czech/Česky](code-of-conduct-languages/cs.md)
+- [Farsi/فارسی](code-of-conduct-languages/fa.md)
 - [French/Français](code-of-conduct-languages/fr.md)
+- [German/Deutsch](code-of-conduct-languages/de.md)
+- [Indonesian/Bahasa Indonesia](code-of-conduct-languages/id.md)
 - [Italian/Italiano](code-of-conduct-languages/it.md)
 - [Japanese/日本語](code-of-conduct-languages/jp.md)
 - [Korean/한국어](code-of-conduct-languages/ko.md)
-- [Ukrainian/Українська](code-of-conduct-languages/uk.md)
-- [Russian/Русский](code-of-conduct-languages/ru.md)
+- [Polish/Polski](code-of-conduct-languages/pl.md)
 - [Portuguese/Português](code-of-conduct-languages/pt.md)
+- [Russian/Русский](code-of-conduct-languages/ru.md)
+- [Spanish/Español](code-of-conduct-languages/es.md)
+- [Ukrainian/Українська](code-of-conduct-languages/uk.md)
+- [Vietnamese/Tiếng Việt](code-of-conduct-languages/vi.md)
 
 ### Contributor Code of Conduct
 
@@ -30,7 +37,7 @@ Examples of unacceptable behavior by participants include:
 * Personal attacks
 * Trolling or insulting/derogatory comments
 * Public or private harassment
-* Publishing other's private information, such as physical or electronic addresses,
+* Publishing others' private information, such as physical or electronic addresses,
  without explicit permission
 * Other unethical or unprofessional conduct.
 
@@ -44,7 +51,7 @@ Conduct may be permanently removed from the project team.
 This code of conduct applies both within project spaces and in public spaces
 when an individual is representing the project or its community.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior in Kubernetes may be reported by contacting the [Kubernetes Code of Conduct Committee](https://git.k8s.io/community/committee-code-of-conduct) via <conduct@kubernetes.io>. For other projects, please contact a CNCF project maintainer or our mediator, Mishi Choudhary <mishi@linux.com>.
+Instances of abusive, harassing, or otherwise unacceptable behavior in Kubernetes may be reported by contacting the [Kubernetes Code of Conduct Committee](https://git.k8s.io/community/committee-code-of-conduct) via <conduct@kubernetes.io>. For other projects, please contact the CNCF staff via <conduct@cncf.io>. You can expect a response within three business days. In matters that require an outside mediator, we have retained Mishi Choudhary (mishi@linux.com).
 
 This Code of Conduct is adapted from the Contributor Covenant
 (http://contributor-covenant.org), version 1.2.0, available at
