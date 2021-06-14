@@ -24,8 +24,6 @@ Blog type definitions:
 * CNCF Staff: This is a blog written by a CNCF staff member. If the staff member is writing a blog on behalf of a project or a SIG, it is classified as a Project or SIG blog.
 * Project internships and scholarship recipients: This is a blog that is written about a scholarship or internship related to a CNCF event or project.
 
-Project internships and scholarship recipients: This is a blog that is written about a scholarship or internship related to a CNCF event or project.
-
 ## Content ##
 The CNCF blog audience is developers, IT operators, and cloud native and open source enthusiasts. Keep this in mind as you develop your blog content.
 
