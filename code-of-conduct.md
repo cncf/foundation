@@ -5,6 +5,7 @@ Other languages available:
 - [Bulgarian/Български](code-of-conduct-languages/bg.md)
 - [Chinese/中文](code-of-conduct-languages/zh.md)
 - [Czech/Česky](code-of-conduct-languages/cs.md)
+- [Farsi/فارسی](code-of-conduct-languages/fa.md)
 - [French/Français](code-of-conduct-languages/fr.md)
 - [German/Deutsch](code-of-conduct-languages/de.md)
 - [Indonesian/Bahasa Indonesia](code-of-conduct-languages/id.md)
