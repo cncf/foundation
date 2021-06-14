@@ -1,22 +1,23 @@
-# ☁️🏛Foundation
+# ☁️♮🏛Cloud Native Computing Foundation Policy Repo
 
 This repo contains several documents related to the operation of the [Cloud Native Computing Foundation](https://cncf.io).
 
 ## Governance
 
 * The [charter](charter.md) under which CNCF operates
-* Rules for the selection of the two [developer representatives](gb-developer-reps.md) on the governing board
-* The [membership](membership.md) agreement
+* [Maintainer election policy](maintainers-election-policy.md) for the maintainer-elected TOC member and the two maintainers on the governing board
+* The [membership](cncf-membership-agreement.pdf) agreement
 * The [Code of Conduct](code-of-conduct.md) which has been translated into multiple languages
 
 ## Project Guidance
 
-* [Copyright](copyright.md) notice recommendations
+* [Copyright](copyright-notices.md) notice recommendations
 * [Website guidelines](website-guidelines.md) for mentioning companies while maintaining neutrality
-* [Whitelist policy](whitelist-policy.md) for which licenses are acceptable in upstream dependencies without requiring an explicit vote of the governing board
+* [Allowlist License Policy](allowed-third-party-license-policy.md) for which licenses are acceptable in upstream dependencies without requiring an explicit vote of the governing board
 
 ## Community recommendations
 
+* [CNCF Blog Guidelines](blog-guidelines.md) outlining who can submit, suggested topics, and how to submit. 
 * A [style guide](style-guide.md) with recommendations for cloud native terminology
 * A [translation guide](translation.md) for the Chinese equivalent of cloud native phrases
 
