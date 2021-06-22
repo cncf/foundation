@@ -10,7 +10,7 @@ Please note: We are unable to share leads due to the Linux Foundation privacy po
 
 Live webinars are hosted on Tuesdays at 10am PT.
 
-Livestreams are hosted on Wednesdays from 12-1pm PT.
+Livestreams are hosted on Wednesdays from 1-2pm PT.
 
 On-demand webinars premiere on Thursdays.
 
@@ -19,9 +19,9 @@ Every Friday, CNCF YouTube playlists are updated with curated vendor neutral con
 ## Who can participate in CNCF Online Programs ##
  
 Members 
-* Platinum members are eligible for 4 activities for the year including live webinar, on-demand webinar, livestream, and YouTube playlist submission.
-* Gold members are eligible for 4 activities for the year including on-demand webinar, livestream, and YouTube playlist submission. 
-* Silver members are eligible for 2 activities for the year including on-demand webinars, livestream, and YouTube playlist submission.
+* Platinum members are eligible for 4 activities per quarter including live webinar, on-demand webinar, livestream, and YouTube playlist submission. (Only 1 can be live webinar or 1 live stream, you get to choose.)
+* Gold members are eligible for 4 activities per quarter including on-demand webinar, livestream, and YouTube playlist submission. (Only 1 can be livestream, you get to choose.)
+* Silver members are eligible for 2 activities per quarter including on-demand webinars, livestream, and YouTube playlist submission. (Only 1 can be livestream, you get to choose.)
 * End user supporter members cannot hold a webinar.
 * CNCF Member webinars will have “member webinar” in the YouTube description.
 
@@ -44,7 +44,7 @@ Ambassadors
 	* Members submit their own pre-recorded content and it will be assigned a publish date based on the editorial calendar. Content cannot be from previous KubeCon + CloudNativeCons.
 	* Premiere date - Thursdays
 * Livestream option 
-	* YouTube Live + Twitch + Periscope + LinkedIn
+	* Streaming to Twitch and will upload to CNCF YouTube Channel under Online Programs playlist
 	* Kickoff this option with the Kubernetes 1.20 release on Jan 8
 	* Content must be live coding/demo - no presentations with slides, no product pitches
 	* CNCF Ambassador will join the stream as co-host
