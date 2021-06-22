@@ -44,7 +44,7 @@ Ambassadors
 	* Members submit their own pre-recorded content and it will be assigned a publish date based on the editorial calendar. Content cannot be from previous KubeCon + CloudNativeCons.
 	* Premiere date - Thursdays
 * Livestream option 
-	* Streaming to Twitch and will upload to CNCF YouTube Channel under Online Programs playlist
+	* Streaming to Twitch and will upload to CNCF YouTube channel under Online Programs playlist
 	* Kickoff this option with the Kubernetes 1.20 release on Jan 8
 	* Content must be live coding/demo - no presentations with slides, no product pitches
 	* CNCF Ambassador will join the stream as co-host
