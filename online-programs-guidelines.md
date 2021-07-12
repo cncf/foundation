@@ -10,7 +10,7 @@ Please note: We are unable to share leads due to the Linux Foundation privacy po
 
 Live webinars are hosted on Tuesdays at 10am PT.
 
-Livestreams are hosted on Wednesdays from 1-2pm PT.
+Livestreams are hosted on Wednesdays from 9-10am PT.
 
 On-demand webinars premiere on Thursdays.
 
@@ -39,7 +39,7 @@ Ambassadors
 * Live webinars
 	* Only offered to Platinum members with 1 slot/week
 	* Day of webinar - 15 minute soundcheck
-	* Premiere date - Tuesdays at 10am PST
+	* Premiere date - Tuesdays at 10am PT
 * On-demand webinars
 	* Members submit their own pre-recorded content and it will be assigned a publish date based on the editorial calendar. Content cannot be from previous KubeCon + CloudNativeCons.
 	* Premiere date - Thursdays
