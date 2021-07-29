@@ -129,7 +129,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	ii. elect a Chair of the Governing Board to preside over meetings, authorize expenditures approved by the budget and manage any day-to-day operations;
 
-			(a) The Chair of the Governing Board shall be elected to a two year term. The Executive Director may call a special election as needed. 
+			(a) The Chair of the Governing Board shall be elected to a two-year term. The Executive Director may call a special election as needed. 
 
 			(b) The Chair of the Governing Board shall be elected to the position and a Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service (https://civs.cs.cornell.edu/).
 
