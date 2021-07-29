@@ -729,9 +729,18 @@ Sandbox,Antrea,Antonin Bas,VMware,antoninbas,https://github.com/vmware-tanzu/ant
 Sandbox,Pixie,,Pixie Labs,aimichelle,https://github.com/pixie-labs/pixie/blob/main/OWNERS
 ,,Vihang Mehta,Pixie Labs,vihangm,
 ,,Zain Asgar,Pixie Labs,zasgar,
-Sandbox,Meshery,Lee Calcote,Layer5,leecalcote,https://github.com/layer5io/meshery/blob/master/CODEOWNERS
+Sandbox,Meshery,Lee Calcote,Layer5,leecalcote,https://github.com/meshery/meshery/blob/master/MAINTAINERS.md
 ,,Abishek Kumar,Layer5,kumarabd,
-,,Girish Ranganathan ,Layer5,girishranganathan,
+,,Navendu Pottekkat,Layer5,navendu-pottekkat,
+,,Hussaina Begum,VMware,hexxdump,
+,,Nikhil Ladha,Red Hat,Nikhil-Ladha,
+,,Dhruv Patel,Layer5,dhruv0000,
+,,Aisuko,Layer5,Aisuko,
+,,Michael Gfeller,Computas AS,mgfeller,
+,,Haim Helman,VMware,thehh1974,
+,,Dhiraj Gedam,Citrix,dheerajng,
+,,Rodolfo Martínez Vega,Rackspace,ramrodo,
+,,Adithya Krishna,Red Hat,adithyaakrishna,
 Sandbox,Service Mesh Performance,Lee Calcote,Layer5,leecalcote,https://github.com/service-mesh-performance/service-mesh-performance/blob/master/MAINTAINERS.md
 ,,Otto van der Schaaf,Red Hat,oschaaf,
 ,,Nicholas Jackson,Hashicorp,nicholasjackson,
