@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated Dec 10 2018
+Effective Nov 6 2015 / Updated July 28 2021
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -128,6 +128,10 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 	-	i. approve a budget directing the use of funds raised from all sources of revenue to be used for technical, marketing or community investments that advance the mission of the CNCF;
 
 	-	ii. elect a Chair of the Governing Board to preside over meetings, authorize expenditures approved by the budget and manage any day-to-day operations;
+
+			(a) The Chair of the Governing Board shall be elected to a two-year term. The Executive Director may call a special election as needed. 
+
+			(b) The Chair of the Governing Board shall be elected to the position and a Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service (https://civs.cs.cornell.edu/).
 
 	-	iii. vote on decisions or matters before the Governing Board;
 
