@@ -1,40 +1,71 @@
-# CNCF End User Case Study Guidelines #
+# CNCF End User Stories Guidelines #
 
 ## Overview ##
 
-Cloud Native Computing Foundation (CNCF) end user case studies help elevate the technical conversations to business objectives and challenges. This program features real-world use cases and the impact CNCF project and cloud native technologies are having on end users’ businesses. The case studies build narratives around specific metrics that reflect the positive as a resource for companies considering adopting cloud native technologies.
+The CNCF End User Stories Program features real-world use cases and the impact CNCF projects and cloud native technologies are having on end users’ businesses. End User stories build narratives around specific metrics, acting as a valuable resource for organizations considering adopting cloud native technologies and showcasing participating organizations as leaders in their field.
 
-## Requirements ##
-Each case study requires an interview with one or more team members, to be conducted by phone or in person. This takes approximately an hour.
+**There are a number of ways you can participate in the case study program. Please see further information and eligibility criteria below** 
 
-Topics covered include:
-* The previous solution and its shortcomings
-* Reasons for choosing cloud native technologies
-* Any engineering work by the organization to implement the technologies
-* The quantifiable impact cloud native has had
-* Challenges encountered along the way
-* Best practices and advice
-* What’s next
+* Publish a [written case study](#written-case-study) which appears on the homepage of CNCF.io 
+  * Open to any end user organization working with CNCF graduated or incubating projects 
+  * Case studies from vendor companies selling cloud native services to external organizations are not eligible
+* Participate in an [End User Journey Report](#end-user-journey-report) and demonstrate how your organization has grown as technology leader 
+  * Open to all Platinum and Gold End User Members 
+* Leveraging CNCF’s [Online Programs](https://github.com/cncf/foundation/blob/master/online-programs-guidelines.md) to showcase a case study webinar or submit a pre-recorded video case study for our YouTube channels
+  * Open to all CNCF members
+* Participate in the [End User Lounge livestream](https://www.cncf.io/blog/2021/04/22/introducing-the-cncf-end-user-lounge-exclusive-live-streams-for-end-user-organizations/) - a program that offers exclusive live streams for end users to showcase how they navigate the cloud native ecosystem 
+  * Open to all End User Members 
 
-The case studies are then written from the interview and shared with the end user for review, fact-checking, and any necessary approvals prior to publication. It is also shared with any communications, legal, and marketing teams, as needed.
 
-Case studies are approximately 800 words long.
+## Written Case Study ##
 
-## Sample questions ##
-* Please tell us about your organization and its mission.
-* What is your role at the company?
-* What problem were you looking to solve?
-* What legacy systems and cloud platforms were involved?
-* Tell us about your evaluation process. Were other technologies considered? Was the existence of CNCF an important factor?
-* What engineering work was required to make these technologies work for your organization?
-* What other CNCF projects are you using or considering?
-* What quantifiable impact has cloud native had on your organization and/or development teams? (e.g. increased uptime/availability; increased developer productivity; faster time to value; time savings; capex and opex savings; customer satisfaction)
-* What have been the technology and business results of your cloud native approach?
-* What’s next on the cloud native road map for your organization?
-* What advice do you have for other companies thinking about going cloud native?
-* Why is cloud native such a business imperative these days?
+### Who can be featured in a case study? ###
 
-## Sample Case Study: Spotify ##
+Case studies feature organizations working with CNCF incubating or graduated projects.  If you are a CNCF member (companies that build and sell cloud native solutions to external organizations) and have customers with interesting use cases, you can suggest them for a case study. The resulting case study would be about your customer’s use case, and we would also be able to include some details about how you helped with the implementation.
+
+As a rule, case studies feature:
+* CNCF End Users (Companies that use cloud native technologies internally, but do not sell any cloud native services externally)
+* Organizations working with CNCF incubating or graduated projects
+
+All case studies must demonstrate at least one tangible business impact of CNCF incubating or graduated projects.
+Examples from published case studies include:
+* 60% of maintenance time saved for private image central repository - [JD.com and Harbor](https://www.cncf.io/case-studies/jdcom-harbor)
+* Able to release 10x a day, instead of every quarter - [Vodafone and Kubernetes](https://www.cncf.io/case-studies/vodafone/)
+* With 4,000 pods, 200 nodes, and 80,000 builds per month, adidas is now running 40% of its most critical, impactful systems on its cloud native platform. - [Adidas, Kubernetes and Prometheus](https://www.cncf.io/case-studies/adidas/) 
+ 
+
+### Written Case Study Process ###
+
+To empower our fast-growing end user community to tell their stories, case studies follow a self-service partnership model - leveraging internal knowledge and expediting the sign-off process, with editorial support and guidance provided by the CNCF.
+ 
+The self-service partnership follows a five-step process:
+
+**1. Proposal**
+* End users submit a [case study proposal](https://forms.gle/3rexeb56aDuYNMga8)
+
+**2. Review**
+* casestudies@cncf.io team reviews proposal within 20 working days
+* If the proposal meets the criteria, the end user is sent a [case study pack](https://drive.google.com/file/d/1a19vzDM7EZtAvBbJnkTeSVbvDp4z5Kex/view?usp=sharing) 
+* If the proposal doesn’t meet the criteria, the casestudies@cncf.io team will provide feedback and the end user is invited to resubmit 
+
+**3. Creation**
+* End user writes case study
+* End user submits case study and collateral outlined in case study pack
+
+**4. Editing**
+* CNCF reviews the case study and makes any necessary edits as suggestions
+* Edits are based on the [style guide and case study criteria](https://github.com/cncf/foundation/blob/master/style-guide.md) 
+* End user is welcome to make further edits or additions to the case study
+* End user confirms when the draft is final and manages any approval processes
+
+**5. Publishing**
+* CNCF prepares the case study for publication
+* End user will receive a preview link, to view the case study before it goes live. This is an opportunity for final tweaks, but not to add further information.
+* Case study is published to [cncf.io/casestudies](cncf.io/casestudies)
+* Promotion cycle begins
+
+
+### Sample Case Study: Spotify ###
 An Early Adopter of Containers, [Spotify Is Migrating from Homegrown Orchestration to Kubernetes](https://www.cncf.io/case-study/spotify/)
 
 An early adopter of microservices and Docker, Spotify had containerized microservices running across its fleet of VMs with a homegrown container orchestration system.
@@ -47,24 +78,55 @@ Results:
 * Spotify has thousands of microservices in production, 150+ running on Kubernetes.
 
 
-## Who can be featured in a case study? ##
+### Promotion ###
+Case studies are published on [cncf.io](https://www.cncf.io/newsroom/case-studies/), feature in rotating hero images on the cncf.io homepage, and, in some cases, features on specific project websites. 
 
-Case studies need to be about an end user working with CNCF incubating or graduated projects. We are working to create case studies for each of these projects, as well as covering a diverse range of industries and geographic locations.
+CNCF markets the case studies online, through social media, blog promotion, and the CNCF newsletter. In some cases, the case study will be shared via the project Twitter account. End users are encouraged to leverage CNCF’s numerous marketing channels to amplify their case study. We ask that you share the case study on your platforms as well.
 
-If you are a CNCF member and have customers with interesting use cases, you can suggest them for a case study. The resulting case study would be about your customer’s use case, and we would also be able to include some details about how you helped with the implementation.
 
-## Promotion ##
-The case study is published on [cncf.io](https://www.cncf.io/newsroom/case-studies/) and, in some cases, the project website.
-CNCF markets the case studies online, through social media, blog promotion, and the CNCF newsletter. In some cases, the case study will be shared via the project Twitter account. We ask that you share the case study on your platforms as well.
+### To get started ###
 
-## To get started ##
-To submit a case study for consideration, email the below information to casestudies@cncf.io.
-* End user name
-* End user location
-* CNCF projects used
-* A brief summary of the business issue, solution, and benefits realized by the end user
-* End user contact: name, email address
-* Key stakeholders from your organization, contact information, and approval process
+Propose a case study and send it to the team directly with [this form](https://forms.gle/3rexeb56aDuYNMga8)
 
-## Summary ##
-If you have any questions about the case study program, please email casestudies@cncf.io.
+### Summary ###
+
+If you have any questions or feedback about the Written Case Study program, please email casestudies@cncf.io.
+
+
+
+# End User Journey Report # 
+
+### Who can be featured in an end user journey report? ###
+
+End User Journey Reports are comprehensive deep-dives, demonstrating how organizations have grown as cloud native technology leaders. EUJRs are open to CNCF Platinum and Gold End User Members who have developed mature cloud native systems. Participants are leaders in their field and want to use their position to inspire and educate others. 
+
+### End User Journey Report Process ### 
+
+EUJRs are managed, written and produced by CNCF, in close collaboration with End User Members.
+Participants will need to:
+* Complete initial proposal which covers:
+  * How long have you been using CNCF projects?
+  * Which projects do you use?
+  * Has your organization contributed to a project/donated a project?
+  * Do employees of your organization take an active role in CNCF -- for example, chairing committees, or speaking at KubeCon-CloudNativeCon?
+* Nominate 1-2 employees to take part in an hour-long interview
+* Possibly take part in a follow-up interviews to fact-check and clarify information 
+* Approve written content
+* Approve final designed content 
+
+### Sample End User Journey Report: Spotify ### 
+
+**Coming soon!** 
+
+### Promotion ### 
+
+End User Journey Reports are published on cncf.io and marketed through social media, blog promotion, and the CNCF newsletter. Participating End Users may be asked to join media interviews or speaking opportunities with CNCF leaders. 
+End users are encouraged to leverage CNCF’s numerous marketing channels to amplify their End User Journey Report. We ask that you share the report on your platforms as well.
+
+### To get started ### 
+
+To participate in an End User Journey Report, submit a [proposal](https://forms.gle/y2wqydF1hVGBRXGEA)
+
+### Summary ###
+
+If you have any questions or feedback about the End User Journey Report program, please email casestudies@cncf.io.
