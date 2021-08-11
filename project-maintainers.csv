@@ -741,12 +741,14 @@ Sandbox,Meshery,Lee Calcote,Layer5,leecalcote,https://github.com/meshery/meshery
 ,,Dhiraj Gedam,Citrix,dheerajng,
 ,,Rodolfo Martínez Vega,Rackspace,ramrodo,
 ,,Adithya Krishna,Red Hat,adithyaakrishna,
+,,Utkarsh Srivastava,Layer5,utkarsh-pro
 Sandbox,Service Mesh Performance,Lee Calcote,Layer5,leecalcote,https://github.com/service-mesh-performance/service-mesh-performance/blob/master/MAINTAINERS.md
 ,,Otto van der Schaaf,Red Hat,oschaaf,
 ,,Nicholas Jackson,Hashicorp,nicholasjackson,
-,,sranga4,Intel,sunkuranganath,
+,,Sunku Ranganath,Intel,sunkuranganath,
 ,,Utkarsh Srivastava,Layer5,utkarsh-pro,
-,,abishek,Layer5,kumarabd,
+,,Abishek Kumar,Layer5,kumarabd,
+,,Navendu Pottekkat,Layer5,navendu-pottekkat
 Sandbox,KubeVela,Hongchao Deng,Alibaba,hongchaodeng,https://github.com/oam-dev/kubevela/blob/master/OWNERS_ALIASES
 ,,Jianbo Sun,Alibaba,wonderflow,
 ,,Zheng Xi Zhou,Alibaba,zzxwill,
