@@ -306,10 +306,17 @@ Incubating,Cortex,Bryan Boreham,Weaveworks,bboreham,https://github.com/cortexpro
 ,,Marco Pracucci,Grafana Labs,pracucci,
 ,,Peter Štibraný,Grafana Labs,pstibrany,
 ,,Tom Wilkie,Grafana Labs,tomwilkie,
-Incubating,Buildpacks,Stephen Levine,Pivotal,sclevine,https://github.com/buildpack/spec/blob/master/OWNERS
-,,Ben Hale,Pivotal,nebhale,
-,,Terence Lee,Salesforce,hone,
+Incubating,Buildpacks,Ben Hale,VMware,nebhale,https://github.com/buildpacks/community/blob/main/OWNERS
+,,David Freilich,AppsFlyer,dfreilich,
+,,Emily Casey,VMware,ekcasey,
+,,Javier Romero,VMware,jromero,
+,,Jesse Brown,Salesforce,jabrown85,
 ,,Joe Kutner,Salesforce,jkutner,
+,,Natalie Arellano,VMware,natalieparellano,
+,,Sambhav Kothari,Bloomberg,samj1912,
+,,Stephen Levine,VMware,sclevine,
+,,Terence Lee,Salesforce,hone,
+,,Travis Longoria,Salesforce,elbandito,
 Incubating,Dragonfly,Allen Sun,Alibaba Group,allencloud,https://github.com/dragonflyoss/dragonfly/blob/master/MAINTAINERS.md
 ,,Chaobing Chen,Meitu,chenchaobing,
 ,,Zuozheng Hu,Alibaba Group,garfield009,
