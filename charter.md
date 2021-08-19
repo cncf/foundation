@@ -46,7 +46,7 @@ The CNCF will strive to adhere to the following principles:
 
 -	(c) Fair. The foundation will avoid undue influence, bad behavior or “pay-to-play” decision-making.
 
--	(d) Strong technical identity. The foundation will achieve and maintain a high degree of its own technical identify that is shared across the projects.
+-	(d) Strong technical identity. The foundation will achieve and maintain a high degree of its own technical identity that is shared across the projects.
 
 -	(e) Clear boundaries. The foundation shall establish clear goals, and in some cases, what the non-goals of the foundation are to allow projects to effectively co-exist, and to help the ecosystem understand where to focus for new innovation.
 
