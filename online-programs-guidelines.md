@@ -79,7 +79,7 @@ Note: This is not a link to a CNCF website or form on the CNCF website.
 
 ## Submit to participate in online programs + deadlines ##
 
-If you are a CNCF member and eligible to participate in our online programs, [please submit your request here](https://docs.google.com/forms/d/e/1FAIpQLSfOHC-Hv4mhw_CiNlzbxsxumQ4dBSkcNDLC7cS-I2t95aidXw/viewform). We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following deadlines for submissions (once date is secured):
+If you are a CNCF member and eligible to participate in our online programs, [please submit your request here](https://calendly.com/cncfonlineprograms?month=2021-03&date=2021-03-10). We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following deadlines for submissions (once date is secured):
 * Live webinars: Slides due 1 week in advance of presentation
 * On-demand webinars: Slides and recording due 2 weeks in advance of presentation
 * No deadlines are required for livestream as it is live
