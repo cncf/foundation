@@ -41,4 +41,4 @@ http://contributor-covenant.org/version/1/2/0/
 
 ### Código de Conduta para a Comunidade CNCF
 
-Os eventos CNCF são regidos pelo Linux Foundation [Código de Conduta] (https://events.linuxfoundation.org/code-of-conduct/) disponível na página do evento. Isso foi projetado para ser compatível com a política acima e também inclui mais detalhes sobre como responder a incidentes.
+Os eventos CNCF são regidos pelo Linux Foundation [Código de Conduta](https://events.linuxfoundation.org/code-of-conduct/) disponível na página do evento. Isso foi projetado para ser compatível com a política acima e também inclui mais detalhes sobre como responder a incidentes.
