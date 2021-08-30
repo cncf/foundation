@@ -4,7 +4,7 @@
 
 Formerly known as the CNCF webinar program, CNCF online programs are offered to the community to provide education about open source cloud native technologies. Online programs include on-demand, livestream, and live webinars that are offered by members, CNCF incubating and graduated projects, and CNCF Ambassadors.
 
-Please note: We are unable to share leads due to the Linux Foundation privacy policy.
+Please note: We are unable to share leads due to the Linux Foundation privacy policy. Additionally, when booking dates for your online programs we cannot publish events concurrent weeks in a row. Please allow for at least two weeks in between bookings to ensure the maximum benefit is achieved for each of your events.
 
 ## Publishing schedule ##
 
