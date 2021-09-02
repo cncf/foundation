@@ -385,16 +385,13 @@ Sandbox,Strimzi,Jakub Scholz,Red Hat,scholzj,https://github.com/strimzi/strimzi-
 ,,Jakub Stejskal,Red Hat,Frawless ,
 ,,Sam Hawker,IBM,samuel-hawker,
 ,,Stanislav Knot,Red Hat,sknot-rh,
-Sandbox,Kubevirt,Marc Sluiter,Red Hat,slintes,https://github.com/kubevirt/kubevirt/blob/master/OWNERS_ALIASES
-,,David Vossel,Red Hat,davidvossel,
+Sandbox,KubeVirt,David Vossel,Red Hat,davidvossel,https://github.com/kubevirt/community/blob/master/MAINTAINERS.md
 ,,Vladik Romanovsky,Red Hat,vladikr,
 ,,Roman Mohr,Red Hat,rmohr,
-,,Pep Turro Mauri,Red Hat,codificat,
-,,Artyom Lukianov,Red Hat,cynepco3hahue,
-,,Sebastian Scheinkman,Red Hat,SchSeba,
-,,Marcin Franczyk,Red Hat,mfranczy,
-,,Fabian Deutsch,Red Hat,fabiand,
+,,Vasiliy Ulyanov,SuSE,vasiliy-ul,
 ,,Stu Gott,Red Hat,stu-gott,
+,,Chris Calligari,Red Hat,mazzystr,
+,,Fabian Deutsch,Red Hat,fabiand,
 Sandbox,Longhorn,Sheng Yang,Rancher,yasker,https://github.com/longhorn/longhorn/blob/master/MAINTAINERS
 ,,Shuo Wu,SUSE,shuo-wu,
 ,,Joshua Moody,SUSE,joshimoo,
