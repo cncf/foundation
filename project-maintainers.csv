@@ -790,3 +790,7 @@ Sandbox,ORAS (OCI Registry as Storage),Avi Deitcher,,deitch,https://github.com/o
 Sandbox,wasmCloud,Brooks Townsend,Capital One,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/OWNERS
 ,,Liam Randall,Cosmonic,liamrandall,
 ,,Kevin Hoffman,wasmCloud,autodidaddict,
+Sandbox,Akri,Kate Goldenring,Microsoft,kate-goldenring,https://github.com/deislabs/akri/blob/main/CODEOWNERS
+,,Brian Fjeldstad,Microsoft,bfjelds,
+,,Roaa Sakr,Microsoft,romoh,
+,,Jiri Appl,Microsoft,jiria,
