@@ -69,14 +69,12 @@ Graduated,Fluentd,Naotoshi SEO,ZOZO Technologies,sonots,https://github.com/fluen
 ,,Masahiro Nakagawa,Treasure Data,repeatedly,
 ,,"Satoshi ""Moris"" Tagomori",Treasure Data,tagomoris,
 ,,Eduardo Silva,Treasure Data,edsiper,
-Graduated,Jaeger,Yuri Shkuro,Uber,yurishkuro,https://github.com/uber/jaeger/blob/master/CODEOWNERS
-,,Won Jun Jang,Uber,black-adder,
-,,Prithvi Raj,Uber,vprithvi,
-,,Pavol Loffay,Red Hat,pavolloffay,
+Graduated,Jaeger,Yuri Shkuro,Facebook,yurishkuro,https://github.com/uber/jaeger/blob/master/CODEOWNERS
+,,Albert Teoh,,albertteoh,
+,,Joe Elliot,Grafana Labs,joe-elliott,
 ,,Juraci Paixão Kröhling,Red Hat,jpkrohling,
-,,Joe Farro,Uber,tiffon,
-,,Gary Brown,Red Hat,objectiser,
-,,Albert Teoh ,Logz.io,albertteoh ,
+,,Pavol Loffay,Red Hat,pavolloffay,
+,,Prithvi Raj,Uber,vprithvi,
 Graduated,Vitess,Andres Taylor,PlanetScale,systay,https://github.com/vitessio/vitess/blob/master/MAINTAINERS.md
 ,,Anthony Yeh,PlanetScale,enisoc,
 ,,Dan Kozlowski,PlanetScale,dkhenry,
