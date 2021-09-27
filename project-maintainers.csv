@@ -549,13 +549,10 @@ Sandbox,Serverless Workflow Specification,Ricardo Zanini,,ricardozanini,https://
 ,,Manuel Stein,Nokia Bell Labs,manuelstein,
 ,,Charles d'Avernas,Neuroglia SPRL,cdavernas,
 ,,Antonio Mendoza Pérez,,antmendoza,
-Sandbox,ChaosMesh,Siddon Tang,PingCAP,siddontang,https://github.com/chaos-mesh/chaos-mesh/blob/master/MAINTAINERS.md
-,,Qiang Zhou,PingCAP,zhouqiang-cl,
-,,Cwen Yin,PingCAP,cwen0,
-,,Keao Yang ,PingCAP,YangKeao,
-,,Song Gao,PingCAP,Yisear,
+Sandbox,ChaosMesh,Cwen Yin,PingCAP,cwen0,https://github.com/chaos-mesh/chaos-mesh/blob/master/MAINTAINERS.md
+,,Keao Yang,PingCAP,YangKeao,
 ,,Calvin Weng,PingCAP,dcalvin,
-,,Ben Ye ,Individual,yeya24,
+,,Ben Ye,ByteDance,yeya24,
 ,,Hengliang Tan,Xpeng Motors,Gallardot,
 Sandbox,k3s,Brad Davidson,Rancher,brandond,https://github.com/rancher/k3s/blob/master/MAINTAINERS 
 ,,Brian Downs,Rancher,briandowns,
