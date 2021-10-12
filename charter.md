@@ -14,7 +14,7 @@ These techniques enable loosely coupled systems that are resilient, manageable, 
 
 The Cloud Native Computing Foundation seeks to drive adoption of this paradigm by fostering and sustaining an ecosystem of open source, vendor-neutral projects. We democratize state-of-the-art patterns to make these innovations accessible for everyone.
 
-#### 2. Role of the CNCF.
+#### 2. Role of the CNCF. 
 
 The CNCF will serve a role in the open source community responsible for:
 
@@ -123,7 +123,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	iv. Only one person from a group of Related Companies may serve as a Member Representative. Only one person from a group of Related Companies may serve as a Technical Community Representative.
 
--	(d) Responsibilities:
+-	(d) Responsibilities: 
 
 	-	i. approve a budget directing the use of funds raised from all sources of revenue to be used for technical, marketing or community investments that advance the mission of the CNCF;
 
