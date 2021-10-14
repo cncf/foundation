@@ -329,12 +329,14 @@ Sandbox,Virtual Kubelet,Ria Bhatia ,Niantic,rbitia,https://github.com/virtual-ku
 ,,Paulo Pires,,pires,
 ,,Ben Corrie,VMware,corrieb,
 ,,Sargun Dhillon ,Netflix,sargun,
-Incubating,KubeEdge,Dave Chen,ARM,chendave,https://github.com/kubeedge/kubeedge/blob/master/MAINTAINERS
+Incubating,KubeEdge,Ce Zheng,DaoCloud,zc2638,https://github.com/kubeedge/kubeedge/blob/master/MAINTAINERS.md
+,,Dave Chen,ARM,chendave,
 ,,Fei Xu,Huawei,fisherxu,
 ,,Jie Zhang,China Unicom,kadisi,
 ,,Sanil Kumar,Huawei,skdwriting,
 ,,Siddharth Bhadri,Infoblox,sids-b,
 ,,Qi Zhang,Huawei,qizha,
+,,Yin Ding,Pure Storage,dingyin,
 ,,Zefeng (Kevin) Wang,Huawei,kevin-wangzefeng,
 ,,Zhe Gong,HarmonyCloud,GsssC,
 Sandbox,Brigade,Matt Butcher,Microsoft,technosophos,https://github.com/brigadecore/brigade/blob/master/CODEOWNERS
