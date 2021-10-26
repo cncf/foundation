@@ -635,10 +635,13 @@ Sandbox ,Cloud Development Kit for Kubernetes (cdk8s),Elad Ben-Israel ,,eladb,ht
 ,,Eli Polonsky ,,iliapolo,
 ,,Nathan Taber,,tabern,
 Sandbox,cert-manager,James Munnelly,Apple,munnerz,https://github.com/jetstack/cert-manager/blob/master/OWNERS
-,,Josh Van Leeuwen,JetStack,joshvanl,
+,,Josh Van Leeuwen,Jetstack,joshvanl,
 ,,Maartje Eyskens,,meyskens,
-,,Richard Wall,JetStack,wallrj,
-,,Jake Sanders,JetStack,jakexks,
+,,Richard Wall,Jetstack,wallrj,
+,,Jake Sanders,Jetstack,jakexks,
+,,Ashley Davis,Jetstack,SgtCoDFish,
+,,Irbe Krumina,Jetstack,irbekrm,
+,,Maël Valais,Jetstack,maelvls,
 Sandbox,OpenKruise,Fei Guo,Alibaba,Fei-Guo,https://github.com/openkruise/kruise/blob/master/MAINTAINERS.md
 ,,Siyu Wang,Alibaba,FillZpp,
 ,,Zhen Zhang,Alibaba,furykerry,
