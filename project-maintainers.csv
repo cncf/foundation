@@ -395,6 +395,8 @@ Sandbox,KubeVirt,David Vossel,Red Hat,davidvossel,https://github.com/kubevirt/co
 ,,Stu Gott,Red Hat,stu-gott,
 ,,Chris Calligari,Red Hat,mazzystr,
 ,,Fabian Deutsch,Red Hat,fabiand,
+,,Ryan Hallisey,Nvidia,rthallisey,
+,,Federico Gimenez,Red Hat,fgimenez,
 Sandbox,Longhorn,Sheng Yang,Rancher,yasker,https://github.com/longhorn/longhorn/blob/master/MAINTAINERS
 ,,Shuo Wu,SUSE,shuo-wu,
 ,,Joshua Moody,SUSE,joshimoo,
@@ -521,8 +523,8 @@ Incubating,Crossplane,Bassam Tabbara,Upbound,bassam,https://github.com/crossplan
 ,,Jared Watts,Upbound,jbw976,
 ,,Daniel Mangum,Upbound,hasheddan,
 ,,Muvaffak Onus,Upbound,muvaf,
-Incubating,Contour,Nick Young,VMware,youngnick,"https://github.com/projectcontour/community/blob/master/MAINTAINERS.md        
-        
+Incubating,Contour,Nick Young,VMware,youngnick,"https://github.com/projectcontour/community/blob/master/MAINTAINERS.md
+
         "
 ,,Steve Sloka,VMware,stevesloka,
 ,,Steve Kriss,VMware,skriss,
@@ -557,7 +559,7 @@ Sandbox,ChaosMesh,Cwen Yin,PingCAP,cwen0,https://github.com/chaos-mesh/chaos-mes
 ,,Calvin Weng,PingCAP,dcalvin,
 ,,Ben Ye,ByteDance,yeya24,
 ,,Hengliang Tan,Xpeng Motors,Gallardot,
-Sandbox,k3s,Brad Davidson,Rancher,brandond,https://github.com/rancher/k3s/blob/master/MAINTAINERS 
+Sandbox,k3s,Brad Davidson,Rancher,brandond,https://github.com/rancher/k3s/blob/master/MAINTAINERS
 ,,Brian Downs,Rancher,briandowns,
 ,,Craig Jellick,Rancher,cjellick,
 ,,Chris Wayne,Rancher,cwayne18,
