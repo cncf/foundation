@@ -10,9 +10,15 @@ To nominate themselves for an open position, a graduated or incubating maintaine
 
 The CNCF GB has defined the following system of “Maintainer Voting”:
 
-Each maintainer receives a fractional vote in proportion to the number of maintainers from their project that vote, with graduated projects getting double the vote weight of incubating projects. For example, if an incubating project has 8 maintainers of which 3 vote, each vote has a weight of 1/3rd. If a graduated project has 20 maintainers of which 13 vote, each vote has a weight of 2/13ths. The single vote from an individual who is a maintainer of more than one project will be counted as the sum of the fractional weights from that vote.
+The eligible voters for a maintainer chosen seat are the maintainers of graduated and incubating projects on the date that the election is opened. 
 
-Because [CIVS](https://civs.cs.cornell.edu/) does not support these novel rules for voting, votes will occur by email to a private list <cncf-maintainer-voting@lists.cncf.io> managed by CNCF. Each maintainer who participates will make a single, non-transferable vote for their preferred nominee. Votes will be tallied by CNCF staff and the candidate with the greatest sum of fractional votes wins. In the unlikely case of a tie, a random selection method will be used to determine the winner from among the tied nominees. Only the winning candidate will be made public, but the votes (maintained in the mailing list archive) and tally (calculated in a spreadsheet) will be available for review by a committee of the Governing Board.
+This means that projects in process to move to incubation are not eligible if they have not been announced on the date that the election is opened. 
+
+These project maintainer lists will be determined by the public lists at maintainers.cncf.io. 
+
+Each eligible project maintainer will receive one vote.  In order to participate in the election process, maintainers will need to add themselves to the list of active voters. This will occur at the same time as the nomination process and last at least two weeks. 
+
+Votes will occur using Condorcet-IRV.
 
 ## Developer Representation on the CNCF GB
 
