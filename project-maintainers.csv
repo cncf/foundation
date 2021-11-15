@@ -1,15 +1,20 @@
 ,Project,Maintainer Name ,Company,Github Name,OWNERS/MAINTAINERS
-Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://github.com/kubernetes/steering#members
+Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steering#members
 ,,Paris Pittman,Apple,parispittman,
 ,,Bob Killen,Google,mrbobbytables,
 ,,Jordan Liggitt,Google,liggitt,
 ,,Davanum Srinivas,VMware,dims,
 ,,Stephen Augustus,Cisco,justaugustus,
 ,,Tim Pepper,VMware,tpepper,
-,Kubernetes Community Maintainers,Alison Dowdney,Independent,alisondy,https://github.com/kubernetes/community/blob/master/OWNERS
-,,Ihor Dvoretskyi,CNCF,idvoretskyi,
-,,Jaice Singer DuMars,Apple,jdumars,
+,Kubernetes: SIG Contributor Experience (non-voting),Alison Dowdney,Independent,alisondy,https://git.k8s.io/community/sig-contributor-experience#leadership
 ,,Nikhita Raghunath,VMware,nikhita,
+,Kubernetes: SIG K8s Infra (non-voting),Arnaud Meukam,Alter Way,ameukam,https://git.k8s.io/community/sig-k8s-infra#leadership
+,,Aaron Crickenberger,Google,spiffxp,
+,,Tim Hockin,Google,thockin,
+,Kubernetes: SIG Release (non-voting),Sascha Grunert,Red Hat,saschagrunert,https://git.k8s.io/community/sig-release#leadership
+,,Carlos Tadeu Panato Jr.,Mattermost,cpanato,
+,,Jeremy Rickard,Apple,jeremyrickard,
+,,Adolfo García Veytia,Mattermost,puerco,
 Graduated,Prometheus,Bartłomiej Płotka,Red Hat,bwplotka,https://prometheus.io/governance/#team-members
 ,,Ben Kochie,Reddit,superq,
 ,,Björn Rabenstein,Grafana Labs,beorn7,
