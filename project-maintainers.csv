@@ -255,7 +255,11 @@ Graduated,etcd,Ben Darnell,Cockroach Labs,bdarnell,https://github.com/etcd-io/et
 Graduated,Open Policy Agent,Tim Hinrichs,Styra,timothyhinrichs,https://github.com/open-policy-agent/opa/blob/master/MAINTAINERS.md
 ,,Torin Sandall,Styra,tsandall,
 ,,Ashutosh Narkar,Styra,ashutosh-narkar,
-,,Patrick East,Styra,patrick-east,
+,,Sertaç Özercan,Microsoft,sozercan,
+,,Rita Zhang,Microsoft,ritazh,
+,,Oren Shomron,VMware,shomron,
+,,Max Smythe,Google,maxsmythe,
+,,Craig Tabita,Google,ctab,
 Incubating,CRI-O,Mrunal Patel,Red Hat,mrunalp,https://github.com/cri-o/cri-o/blob/master/OWNERS
 ,,Antonio Murdaca,Red Hat,runcom,
 ,,Samuel Ortiz,Intel,sameo,
