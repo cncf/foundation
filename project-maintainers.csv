@@ -228,10 +228,8 @@ Graduated,Rook,Satoru Takeuchi,Cybozu,satoru-takeuchi,https://github.com/rook/ro
 ,,Blaine Gardner,Red Hat,BlaineEXE,
 ,,Travis Nielsen ,Red Hat,travisn,
 ,,Alexander Trost,Cloudibility,galexrt,
-Graduated,Harbor,De Chen,Tencent,cd1989,https://github.com/goharbor/community/blob/master/MAINTAINERS.md
-,,Daniel Jiang,VMware,reasonerjt,
-,,Frank (Fanjian) Kong,Tencent,kofj,
-,,Michael Michael,VMware,michmike,
+Graduated,Harbor,Daniel Jiang,VMware,reasonerjt,https://github.com/goharbor/community/blob/master/MAINTAINERS.md
+,,Fanjian Kong,Tencent,kofj,
 ,,Daniel Pacak,Aqua Security,danielpacak,
 ,,Mingming Pei,Netease,mmpei,
 ,,Steven Ren,VMware,renmaosheng,
@@ -239,9 +237,11 @@ Graduated,Harbor,De Chen,Tencent,cd1989,https://github.com/goharbor/community/bl
 ,,Wenkai Yin,VMware,ywk253100,
 ,,Henry Zhang,VMware,hainingzhang,
 ,,Steven Zou,VMware,steven-zou,
-,,Jérémie MONSINJON,OVH Cloud,Jérémie MONSINJON,
+,,Jérémie MONSINJON,OVH Cloud,jMonsinjon,
 ,,Pierre PÉRONNET,OVH Cloud,holyhope,
-,,Jonas Rosland (Community Mgr),VMware,jonasrosland ,
+,,Alex Xu,VMware,xaleeks,
+,,Tianon Gravi,InfoSiftr,tianon,
+,,Vadim Bauer,56K.Cloud,Vad1mo,
 Graduated,etcd,Ben Darnell,Cockroach Labs,bdarnell,https://github.com/etcd-io/etcd/blob/master/MAINTAINERS
 ,,Brandon Philips,Red Hat,philips,
 ,,Gyuho Lee,Amazon,gyuho,
