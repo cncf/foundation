@@ -360,17 +360,15 @@ Sandbox,Network Service Mesh,Ed Warnicke,Cisco,edwarnicke,https://github.com/net
 ,,Frederick Kautz,Doc.ai,fkautz,
 ,,Nikolay Nikolaev,VMware,nickolaev,
 ,,Andrey Sobolev,Xored,haiodo,
-Incubating,OpenTelemetry,Ben Sigelman,Lightstep,bhs,https://github.com/open-telemetry/community/blob/master/community-members.md
+Incubating,OpenTelemetry (Governance Committee),Alolita Sharma,Amazon,alolita,https://github.com/open-telemetry/community/blob/master/community-members.md#governance-committee
+,,Ben Sigelman,Lightstep,bhs,
 ,,Bogdan Drutu,Splunk,bogdandrutu,
-,,Constance Caramanolis,Splunk,ccaraman,
-,,Liz Fong-Jones,Honeycomb,lizthegrey,
-,,Morgan James McLean,Google,mtwo,
-,,Sarah Novotny,Microsoft,sarahnovotny,
-,,Sergey Kanzhelev,Google,SergeyKanzhelev,
 ,,Daniel Dyla,Dynatrace,dyladan,
+,,Juraci Paixão Kröhling,Grafana Labs,jpkrohling
+,,Liz Fong-Jones,Honeycomb,lizthegrey,
+,,Morgan James McLean,Splunk,mtwo,
 ,,Ted Young,Lightstep,tedsuo,
-,,Alolita Sharma,Amazon,alolita,
-,,Yuri Shkuro,Uber,yurishkuro,
+,,Yuri Shkuro,Facebook,yurishkuro,
 Sandbox,OpenEBS,Amit Kumar Das,MayaData,AmitKumarDas,https://github.com/openebs/openebs/blob/master/MAINTAINERS
 ,,Jeffry Molanus,MayaData,gila,
 ,,Karthik Satchitanand,MayaData,ksatchit,
