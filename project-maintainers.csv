@@ -571,13 +571,10 @@ Incubating,Contour,Nick Young,VMware,youngnick,"https://github.com/projectcontou
 ,,Alex Xu,VMware,xaleeks,
 ,,Tero Saarni,Ericsson,tsaarni,
 ,,Sunjay Bhatia,VMware,sunjayBhatia,
-Incubating,Operator Framework: SDK,Haseeb Tariq,Red Hat,hasbro17,https://github.com/operator-framework/operator-sdk/blob/master/.cncf-maintainers
-,,Eric Stroczynski,Red Hat,estroz,
-,,Shawn Hurley,Red Hat,shawn-hurley,
+Incubating,Operator Framework: SDK,Eric Stroczynski,Red Hat,estroz,https://github.com/operator-framework/operator-sdk/blob/master/.cncf-maintainers
 ,,Joe Lanford,Red Hat,joelanford,
 ,,Ish Shah,Red Hat,theishshah,
 ,,Camila Macedo,Red Hat,camilamacedo86,
-,,Jeff McCormick,Red Hat,jmccormick2001,
 ,,Jesus Rodriguez,Red Hat,jmrodri,
 ,,Austin Macdonald ,Red Hat,asmacdo,
 ,,Jonathan Berkhahn,IBM,jberkhahn,
