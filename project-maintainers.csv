@@ -451,10 +451,11 @@ Sandbox,ChubaoFS,Haifeng Liu ,JD,bladehliu,https://github.com/chubaofs/chubaofs/
 ,,Junyuan Zeng,JD,jzeng4,
 ,,Xihao Xu,JD,xxscott,
 ,,Wenjia Wu,JD,wenjia322,
-Incubating,Keda,Jeff Hollan,Microsoft,jeffhollan,https://github.com/kedacore/keda/blob/master/MAINTAINERS.md
-,,Ahmed ElSayed,Microsoft,ahmelsayed,
-,,Zbynek Roubalik,Red Hat,zroubalik,
+Incubating,Keda,Ahmed ElSayed,Microsoft,ahmelsayed,https://github.com/kedacore/keda/blob/master/MAINTAINERS.md
+,,Jeff Hollan,Microsoft,jeffhollan,
+,,Jorge Turrado Ferrero,Docplanner Tech,jorturfer,
 ,,Tom Kerkhove,Microsoft,tomkerkhove,
+,,Zbynek Roubalik,Red Hat,zroubalik,
 Sandbox,Service Mesh Interface,Thomas Rampelberg,Buoyant Inc,grampelberg,https://github.com/servicemeshinterface/smi-spec/blob/master/CODEOWNERS
 ,,Lachlan Evenson,Microsoft,lachie83,
 ,,Lee Calcote,Layer5,leecalcote,
