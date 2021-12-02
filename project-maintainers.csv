@@ -15,7 +15,8 @@ Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steer
 ,,Carlos Tadeu Panato Jr.,Mattermost,cpanato,
 ,,Jeremy Rickard,Apple,jeremyrickard,
 ,,Adolfo García Veytia,Mattermost,puerco,
-Graduated,Prometheus,Bartłomiej Płotka,Red Hat,bwplotka,https://prometheus.io/governance/#team-members
+,Prometheus,Augustin Husson,Amadeus,Nexucis,https://prometheus.io/governance/#team-members
+Graduated,,Bartłomiej Płotka,Red Hat,bwplotka,
 ,,Ben Kochie,Reddit,superq,
 ,,Björn Rabenstein,Grafana Labs,beorn7,
 ,,Callum Styan,Grafana Labs,cstyan,
@@ -27,7 +28,9 @@ Graduated,Prometheus,Bartłomiej Płotka,Red Hat,bwplotka,https://prometheus.io/
 ,,Johannes Ziemke,Independent,discordianfish,
 ,,Julien Pivotto,Inuits,roidelapluie,
 ,,Julius Volz,Promlabs,juliusv,
+,,Matthias Loibl,Polar Signals,metalmatze,
 ,,Matthias Rampke,SoundCloud,matthiasr,
+,,Max Inden,Protocol Labs,mxinden,
 ,,Richard Hartmann,Grafana Labs,richih,
 ,,Simon Pasquier,Red Hat,simonpasquier,
 ,,Tobias Schmidt,Independent,grobie,
@@ -396,9 +399,12 @@ Sandbox,OpenEBS,Amit Kumar Das,MayaData,AmitKumarDas,https://github.com/openebs/
 ,,Vishnu Itta,MayaData,vishnuitta,
 Incubating,Thanos,Bartłomiej Płotka,Red Hat,bwplotka,https://github.com/thanos-io/thanos/blob/master/MAINTAINERS.md
 ,,Frederic Branczyk ,Polar Signals,brancz,
-,,Giedrius Statkevičius,,GiedriusS,
-,,Povilas Versockas,,povilasv,
-,,Dominic Green,Improbable,domgreen,
+,,Giedrius Statkevičius,Vinted,GiedriusS,
+,,Kemal Akkoyun,Polar Signals,kakkoyun,
+,,Lucas Servén Marín,,squat,
+,,Prem Saraswat,Red Hat,onprem,
+,,Matthias Loibl,Polar Signals,metalmatze,
+,,Ben Ye,ByteDance,yeya24,
 Incubating,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/community/blob/main/flux-project-maintainers.yaml
 ,,Michael Bridgen,Weaveworks,squaremo,
 ,,Stefan Prodan,Weaveworks,stefanprodan,
