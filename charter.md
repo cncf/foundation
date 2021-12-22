@@ -56,7 +56,7 @@ The CNCF will strive to adhere to the following principles:
 
 #### 4. Membership.
 
-The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Profit member participants. All member applications will be reviewed by the Linux Foundation, who will decide whether that applicant is to be classified as an end-user, academic/non-profit, or vendor for purposes of CNCF membership.
+The CNCF shall be composed of Platinum, Gold, Silver, End-User and Academic and Non-Profit member participants. All member applications will be reviewed by the Linux Foundation, who will decide whether that applicant is to be classified as an end-user, academic/non-profit, or vendor for purposes of CNCF membership.
 
 -	(a) Platinum members shall be entitled to:
 
