@@ -578,8 +578,6 @@ Incubating,Crossplane,Bassam Tabbara,Upbound,bassam,https://github.com/crossplan
 ,,Daniel Mangum,Upbound,hasheddan,
 ,,Muvaffak Onus,Upbound,muvaf,
 Incubating,Contour,Nick Young,VMware,youngnick,"https://github.com/projectcontour/community/blob/master/MAINTAINERS.md
-
-        "
 ,,Steve Sloka,VMware,stevesloka,
 ,,Steve Kriss,VMware,skriss,
 ,,Alex Xu,VMware,xaleeks,
@@ -702,7 +700,7 @@ Sandbox,cert-manager,James Munnelly,Apple,munnerz,https://github.com/jetstack/ce
 ,,Ashley Davis,Jetstack,SgtCoDFish,
 ,,Irbe Krumina,Jetstack,irbekrm,
 ,,Maël Valais,Jetstack,maelvls,
-,,Joakim Ahrlin,Jetstack,jahrlin
+,,Joakim Ahrlin,Jetstack,jahrlin,
 Sandbox,OpenKruise,Fei Guo,Alibaba,Fei-Guo,https://github.com/openkruise/kruise/blob/master/MAINTAINERS.md
 ,,Siyu Wang,Alibaba,FillZpp,
 ,,Zhen Zhang,Alibaba,furykerry,
