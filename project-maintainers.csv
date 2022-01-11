@@ -227,15 +227,14 @@ Graduated,Linkerd,Oliver Gould,Buoyant,olix0r,https://github.com/linkerd/linkerd
 ,,Christian Hüning,,christianhuening,
 ,,Justin Turner,,justin-turner-heb,
 ,,William King,,quentusrex,
-Graduated,Helm,Adnan Abdulhussein,Bitnami,prydonius,https://github.com/helm/community/blob/master/MAINTAINERS.md
-,,Matt Butcher,Microsoft,technosophos,
-,,Matt Farina,Rancher,mattfarina,
+Graduated,Helm,Matt Butcher,Microsoft,technosophos,https://github.com/helm/community/blob/master/MAINTAINERS.md
+,,Matt Farina,SUSE,mattfarina,
 ,,Matt Fisher,Microsoft,bacongobbler,
 ,,Adam Reese,Microsoft,adamreese,
 ,,Reinhard Nägele,codecentric AG,unguiculus,
 ,,Josh Dolitsky,Blood Orange,jdolitsky,
 ,,Scott Rigby,Weaveworks,scottrigby,
-,,Karen Chu (Community Mgr),Microsoft,karenhchu,
+,,Karen Chu,Microsoft,karenhchu,
 ,,Martin Hickey,IBM,hickeyma,
 Graduated,Rook,Satoru Takeuchi,Cybozu,satoru-takeuchi,https://github.com/rook/rook/blob/master/OWNERS.md
 ,,Jared Watts ,Upbound,jbw976,
@@ -546,7 +545,7 @@ Sandbox,LitmusChaos,Chandan Kumar,MayaData,chandankumar4,https://github.com/litm
 ,,Uma Mukkara,MayaData,umamukkara,
 Sandbox,Artifact Hub,Sergio C. Arteaga,,tegioz,https://github.com/artifacthub/hub/blob/master/OWNERS
 ,,Cynthia S. Garcia,,cynthia-sg,
-,,Matt Farina,Samsung,mattfarina,
+,,Matt Farina,SUSE,mattfarina,
 ,,Dan Kohn,Linux Foundation,dankohn,
 Sandbox,Kuma,Jakub Dyszkiewicz,Kong,jakubdyszkiewicz,https://github.com/kumahq/kuma/blob/master/OWNERS.md
 ,,Ilya Lobkov,Kong,lobkovilya,
