@@ -974,3 +974,6 @@ Sandbox,OpenELB,Feynman Zhou,QingCloud,FeynmanZhou,https://github.com/kubesphere
 ,,Zhengyi Lai,QingCloud,zheng1,
 ,,Patrick Luo,QingCloud,Patrick-LuoYu,
 ,,Yuanpeng Liang,yunhorn,liangyuanpeng,
+Sandbox,Visual Studio Code Kubernetes Tools,Ivan Towlson,Fermyon,itowlson,https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools/blob/master/OWNERS.md
+,,Luca Stocchi,Red Hat,lstocchi,
+,,Bhargav Nookala,Microsoft,bnookala,
