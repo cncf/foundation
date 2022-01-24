@@ -48,7 +48,7 @@ Note: This is not a link to a CNCF website or form on the CNCF website.
 CNCF will review the statement, as we do for the content for the blog, to approve the content. If changes are needed, we will provide suggested changes. 
 
 ## Promotion ##
-Your blog will be shared on CNCF’s Twitter channel. Please feel free to retweet or share.
+Please feel free to share the blog on Twitter and reach out to [blog@cncf.io](blog@cncf.io) if you would like to request CNCF's handle RTs.
 
 ## How to submit for consideration ##
 Please submit a brief summary and the topic of the post to blog@cncf.io for consideration. Or you can supply the blog for review. We will respond with a proposed date of publication or if it’s not suitable for the CNCF blog, we will provide feedback and direction.
