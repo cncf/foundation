@@ -115,15 +115,6 @@ Graduated,Vitess,Alkin Tezuysal,PlanetScale,askdba,https://github.com/vitessio/v
 ,,Shlomi Noach ,PlanetScale,shlomi-noach,
 ,,Sugu Sougoumarane,PlanetScale,sougou,
 ,,Vicent Marti,PlanetScale,vmg,
-Incubating,OpenTracing,Bas van Beek,Zipkin,basvanbeek,https://github.com/opentracing/specification/blob/master/project_organization.md#opentracing-specification-council-otsc
-,,Ben Sigelman,LightStep,bhs,
-,,Chris Erway,TraceView,cce,
-,,Pavol Loffay,Red Hat,pavolloffay,
-,,Yuri Shkuro,Uber,yurishkuro,
-,,Fabian Lange,Instana,CodingFabian,
-,,Erika Arnold,New Relic,erabug,
-,,Emanuele Palazzetti,DataDog,palazzem,
-,,Wu Sheng,,wu-sheng,
 Incubating,gRPC,Abhishek Kumar,Google,a11r,https://github.com/grpc/grpc/blob/master/MAINTAINERS.md
 ,,Alexander Polcyn,Google,apolcyn,
 ,,Arjun Roy,Google,arjunroy,
