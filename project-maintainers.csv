@@ -284,9 +284,10 @@ Graduated,TiKV,Siddon Tang,PingCAP,siddontang,https://github.com/tikv/tikv/blob/
 ,,Xiaoguang Sun,PingCAP,sunxiaoguang,
 ,,Daobing Li,JD,lidaobing,
 ,,Fu Chen,Yidianzixun,fredchenbj,
-Incubating,CloudEvents,Doug Davis,IBM,duglin,n/a
+Incubating,CloudEvents,Doug Davis,IBM,duglin,https://github.com/cloudevents/spec/blob/main/OWNERS
 ,,Mark Peek,VMware,markpeek,
 ,,Ken Owens,Mastercard,kenowens12,
+,,Klaus Deissner,SAP,deissnerk,
 Incubating,Falco,Mark Stemm,Sysdig,mstemm,https://github.com/falcosecurity/falco/blob/master/OWNERS
 ,,Leonardo Di Donato,Sysdig,leodido,
 ,,Lorenzo Fontana,Sysdig,fntlnz,
