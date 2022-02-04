@@ -61,7 +61,7 @@ The self-service partnership follows a five-step process:
 **5. Publishing**
 * CNCF prepares the case study for publication
 * End user will receive a preview link, to view the case study before it goes live. This is an opportunity for final tweaks, but not to add further information.
-* Case study is published to [cncf.io/casestudies](cncf.io/casestudies)
+* Case study is published to <https://cncf.io/case-studies>
 * Promotion cycle begins
 
 
