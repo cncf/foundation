@@ -969,7 +969,8 @@ Sandbox,kube-rs,Eirik Albrigtsen,TrueLayer,clux,https://github.com/kube-rs/.gith
 Sandbox,OpenELB,Feynman Zhou,QingCloud,FeynmanZhou,https://github.com/kubesphere/openelb/blob/master/OWNERS
 ,,Zhengyi Lai,QingCloud,zheng1,
 ,,Patrick Luo,QingCloud,Patrick-LuoYu,
-,,Yuanpeng Liang,yunhorn,liangyuanpeng,
+,,Yuanpeng Liang,Yunhorn,liangyuanpeng,
+,,Xingyan Jiang,Uxsino,chaunceyjiang,
 Sandbox,Visual Studio Code Kubernetes Tools,Ivan Towlson,Fermyon,itowlson,https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools/blob/master/OWNERS.md
 ,,Luca Stocchi,Red Hat,lstocchi,
 ,,Bhargav Nookala,Microsoft,bnookala,
