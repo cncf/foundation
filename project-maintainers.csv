@@ -54,7 +54,7 @@ Graduated,Envoy,Matt Klein,Lyft,mattklein123,https://github.com/envoyproxy/envoy
 ,,Sotiris Nanopoulos,davinci26,Microsoft,
 ,,Dmitry Rozhkov,rojkov,Intel,
 ,,Ryan Hamilton,RyanTheOptimist,Google,
-
+,,,,,
 Graduated,CoreDNS,Chris O'Haver,Infoblox,chrisohaver,https://github.com/coredns/coredns/blob/master/CODEOWNERS
 ,,John Belamaric,Google,johnbelamaric,
 ,,Miek Gieben,,miekg,
@@ -716,10 +716,15 @@ Sandbox,Pravega,Flavio Junqueira,Pravega,fpj,https://github.com/pravega/.github/
 ,,Derek Moore,Pravega,derekm,
 ,,Andrei Paduroiu,Dell,,
 ,,Srikanth Satya ,Dell,,
-Sandbox,Kyverno,Jim Bugwadia,Nirmata,JimBugwadia,https://github.com/kyverno/kyverno/blob/main/OWNERS.md
-,,Shu Ting,Nirmata,realshuting,
-,,Pooja Singh,Nirmata,NoSkillGirl,
-,,Yuvraj,Nirmata,evalsocket,
+Sandbox,Kyverno,Jim Bugwadia,Nirmata,JimBugwadia,https://github.com/kyverno/kyverno/blob/main/MAINTAINERS.md
+,,Shuting Zhao,Nirmata,realshuting,
+,,Chip Zoller,Dell Technologies,chipzoller,
+,,Marcel M�ller,Giant Swarm GmbH,MarcelMue,
+,,Trey Dockendorf,treydock,Ohio Supercomputer Center,
+,,Vyankatesh Kudtarkar,Nirmata,vyankyGH,
+,,Prateek Pandey,Nirmata,prateekpandey14,
+,,Sambhav Kothari,Bloomberg,samj1912,
+,,Frank Jogeleit,Lovoo GmbH,fjogeleit ,
 Sandbox,OpenGitOps,Chris Patterson,GitHub,chrispat,https://github.com/open-gitops/project/blob/main/MAINTAINERS
 ,,Chris Sanders,Microsoft,csand-msft,
 ,,Dan Garfield,CodeFresh,todaywasawesome,
