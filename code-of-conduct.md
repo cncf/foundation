@@ -37,7 +37,7 @@ This code of conduct applies both within project spaces and in public spaces whe
 
 ### CNCF Events
 
-CNCF events, or events run by the Linux Foundation with professional events staff, are governed by the Linux Foundation [Events Code of Conduct](https://events.linuxfoundation.org/code-of-conduct/) available on the event page. This is designed to be used iconjunction with the CNCF Code of Conduct. 
+CNCF events, or events run by the Linux Foundation with professional events staff, are governed by the Linux Foundation [Events Code of Conduct](https://events.linuxfoundation.org/code-of-conduct/) available on the event page. This is designed to be used conjunction with the CNCF Code of Conduct. 
 
 ## Our Standards
 
