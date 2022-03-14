@@ -526,7 +526,7 @@ Sandbox,Keptn,Alois Reitbauer,Dynatrace,AloisReitbauer,https://github.com/keptn/
 ,,Moritz Wiesinger,Dynatrace,mowies,
 ,,Anna Reale,Dynatrace,RealAnna,
 ,,Ondrej Dubaj,Dynatrace,odubajDT,
-,,Oleg Nenashev,Dynatrace,oleg-nenashev, 
+,,Oleg Nenashev,Dynatrace,oleg-nenashev,
 ,,Thomas Schuetz,Dynatrace,thschue,
 Sandbox,Kudo,Alena Varkockova,,alenkacz,https://github.com/kudobuilder/kudo/blob/main/OWNERS
 ,,Gerred Dillon,,gerred,
@@ -678,16 +678,11 @@ Sandbox,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/op
 ,,Fei Guo,Alibaba,Fei-Guo,
 ,,frank-huangyuqi,Alibaba,huangyuqi,
 ,,rambohe,Alibaba,rambohe-ch,
-Sandbox,Open Service Mesh,Michelle Noorali,Microsoft,michelleN,https://github.com/openservicemesh/osm/blob/main/OWNERS
-,,Edu Serra,Microsoft,eduser25,
-,,Jon Huhn,Microsoft,nojnhuh,
-,,Shashank Ram,Microsoft,shashankram,
-,,Niranjan Shankar,Microsoft,nshankar13,
-,,Sanya Kochhar,Microsoft,SanyaKochhar,
-,,Kalya Subramanian,Microsoft,ksubrmnn,
-,,Delyan Raychev,Microsoft,draychev ,
+Sandbox,Open Service Mesh,Shashank Ram,Microsoft,shashankram,https://github.com/openservicemesh/osm/blob/main/OWNERS
 ,,Sneha Chhabria,Microsoft,snehachhabria,
-,,Shalier Xia,Microsoft,shalier,
+,,Jon Huhn,Microsoft,nojnhuh,
+,,Delyan Raychev,Microsoft,draychev ,
+,,Jackie Elliott,Microsoft,jaellio
 ,,Philip Gibson,Microsoft,phillipgibson,
 Sandbox,Keylime,Luke Hinds,Red Hat,lukehinds,https://github.com/keylime/keylime/blob/master/MAINTAINERS
 ,,Charlie Munson,MIT,jetwhiz,
