@@ -49,7 +49,7 @@ Graduated,Envoy,Matt Klein,Lyft,mattklein123,https://github.com/envoyproxy/envoy
 ,,Dhi Aurrahman,Tetrate,dio,
 ,,Joshua Marantz,jmarantz,Google,
 ,,Ryan Northey,phlax,CNCF,
-,,William A Rowe Jr,wrowe,VMWare,
+,,William A Rowe Jr,wrowe,VMware,
 ,,Antonio Vicente,antoniovicente,Google,
 ,,Sotiris Nanopoulos,davinci26,Microsoft,
 ,,Dmitry Rozhkov,rojkov,Intel,
@@ -176,7 +176,7 @@ Graduated,TUF (The Update Framework),Sebastien Awwad,NYU,awwad,https://github.co
 ,,Trishank Karthik Kuppusamy,NYU,trishankatdatadog,
 ,,Lukas Puehringer,NYU,lukpueh,
 ,,Santiago Torres-Arias,NYU,SantiagoTorres,
-,,Joshua Lock,VMWare,joshuagl,
+,,Joshua Lock,VMware,joshuagl,
 ,,Jussi Kukkonen,,jku,
 Incubating,Notary,Hu Keping,Huawei,HuKeping,https://github.com/theupdateframework/notary
 ,,David Lawrence,,endophage,
@@ -300,9 +300,9 @@ Incubating,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blo
 ,,Frederick Kautz,Doc.ai,fkautz,
 ,,Justin Burke,Google,justinburke,
 ,,Spike Curtis,Tigera,spikecurtis,
-,,Andrew Harding,VMWare,azdagron,
-Incubating,SPIRE,Andrew Harding,VMWare,azdagron,https://github.com/spiffe/spire/blob/master/CODEOWNERS
-,,Evan Gilman,VMWare,evan2645,
+,,Andrew Harding,VMware,azdagron,
+Incubating,SPIRE,Andrew Harding,VMware,azdagron,https://github.com/spiffe/spire/blob/master/CODEOWNERS
+,,Evan Gilman,VMware,evan2645,
 ,,Marcos Yacob,HPE,MarcosDY,
 ,,Agustin Martinez Fayo,HPE,amartinezfayo,
 ,,Ryan Turner,Uber,rturner3,
@@ -550,7 +550,7 @@ Sandbox,Dex,Joel Speed ,Red Hat,JoelSpeed,https://github.com/dexidp/dex/blob/mas
 ,,Nandor Kracser,Banzai Cloud,bonifaido,
 ,,Rithu John,Lyft,rithujohn191,
 ,,Stephan Renatus ,Chef,srenatus,
-,,Stephen Augustus ,VMWare,justaugustus,
+,,Stephen Augustus ,VMware,justaugustus,
 Sandbox,LitmusChaos,Chandan Kumar,MayaData,chandankumar4,https://github.com/litmuschaos/litmus/blob/master/MAINTAINERS
 ,,Jayesh Kumar,Self,k8s-dev,
 ,,Karthik Satchitanand,MayaData,ksatchit,
@@ -670,8 +670,8 @@ Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/m
 ,,Anwar Hassen,Ericsson Software Technology,xenwar,
 ,,Zane Bitter,Red Hat,zaneb,
 Sandbox,Porter,Carolyn Van Slyck,Microsoft,carolynvs,https://github.com/deislabs/porter/blob/main/OWNERS.md
-,,Jeremy Rickard,VMWare,jeremyrickard,
-,,Vaughn Dice,VMWare,vdice,
+,,Jeremy Rickard,VMware,jeremyrickard,
+,,Vaughn Dice,VMware,vdice,
 ,,Reddy Prasad,,dev-drprasad,
 ,,Jennifer Davis,Microsoft,iennae,
 Sandbox,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/openyurt/blob/master/OWNERS
@@ -762,12 +762,12 @@ Sandbox,k8dash,Eric Herbrandson,Indeed,herbrandson,https://github.com/indeedeng/
 Sandbox,Distribution,Chris Patterson,GitHub,chrispat,https://github.com/distribution/distribution/blob/main/MAINTAINERS
 ,,Bryan Clark,GitHub,clarkbw,
 ,,Hayley Swimelar,Gitlab,deleteriousEffect,
-,,He Weiwei,VMWare,heww,
+,,He Weiwei,VMware,heww,
 ,,João Pereira,Gitlab,joaodrp,
 ,,Justin Cormack,Docker,justincormack,
 ,,Milos Gajdos,Docker,milosgajdos,
 ,,Wayne Warren,Digital Ocean,waynr,
-,,Wang Yan,VMWare,wy65701436,
+,,Wang Yan,VMware,wy65701436,
 ,,Steve Lasker,Microsoft,stevelasker,
 Sandbox,Fonio,Peter Parkanyi,Redsift,rsdy,https://github.com/foniod/project/blob/main/MAINTAINERS
 ,,Junyeong Jeong,,rhdxmr,
@@ -890,7 +890,7 @@ Sandbox,KubeVela,Hongchao Deng,Alibaba,hongchaodeng,https://github.com/oam-dev/k
 ,,Lei Zhang (Harry),Alibaba,resouer,
 ,,Yue Wang,Hanyang University,captainroy-hy,
 Sandbox,kube-vip,Daniel Finneran,Packethost,thebsdbox,https://github.com/kube-vip/kube-vip/blob/main/CODEOWNERS
-,,Yassine TIJANI,VMWare,yastij,
+,,Yassine TIJANI,VMware,yastij,
 Sandbox,KubeDL,Jian He,,jian-he,https://github.com/alibaba/kubedl/blob/master/OWNERS
 ,,Luping Wang,,lwangbm,
 ,,Lingyun Yang,,mental2008,
