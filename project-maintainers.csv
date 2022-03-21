@@ -303,8 +303,8 @@ Incubating,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blo
 ,,Andrew Harding,VMWare,azdagron,
 Incubating,SPIRE,Andrew Harding,VMWare,azdagron,https://github.com/spiffe/spire/blob/master/CODEOWNERS
 ,,Evan Gilman,VMWare,evan2645,
-,,Tyler Julian,Fast.co,APTy,
-,,Agustin Fayo,Scytale,amartinezfayo,
+,,Marcos Yacob,HPE,MarcosDY,
+,,Agustin Martinez Fayo,HPE,amartinezfayo,
 ,,Ryan Turner,Uber,rturner3,
 Sandbox,Telepresence,Abhay Saxena,Datawire,ark3,https://github.com/telepresenceio/telepresence/blob/master/MAINTAINERS.md
 ,,Rafael Schloming,Datawire,rhs,
