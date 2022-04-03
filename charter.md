@@ -243,7 +243,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	i. TOC Members shall serve two-year, staggered terms.
 
-	-	ii. TOC members may be removed by a two-thirds vote of the other TOC members, with the impacted individual ineligible to participate in the vote.
+	-	ii. TOC members may be removed by a two-thirds vote of the other TOC members, with the impacted individual ineligible to participate in the vote. The TOC chair may select someone from a previous election to fill this seat (for the reminder of the term of the impacted member) or request the CNCF staff to conduct a fresh election.
 
 	-	iii. Any TOC member that misses three (3) consecutive meetings shall be automatically suspended from eligibility to vote until having attended two meetings consecutively. For avoidance of doubt, the suspended TOC member shall be eligible to vote in the second consecutive meeting.
 
