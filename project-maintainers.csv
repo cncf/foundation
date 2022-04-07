@@ -350,8 +350,6 @@ Sandbox,Virtual Kubelet,Ria Bhatia ,Niantic,rbitia,https://github.com/virtual-ku
 ,,Paulo Pires,,pires,
 ,,Ben Corrie,VMware,corrieb,
 ,,Sargun Dhillon ,Netflix,sargun,
-Sandbox,FabEdge,Haotao Geng,BoCloud,haotaogeng,https://github.com/FabEdge/fabedge/blob/main/MAINTAINERS.md
-,,Jianbo Yan,BoCloud,yanjianbo1983,
 Incubating,KubeEdge,Ce Zheng,DaoCloud,zc2638,https://github.com/kubeedge/kubeedge/blob/master/MAINTAINERS.md
 ,,Dave Chen,ARM,chendave,
 ,,Fei Xu,Huawei,fisherxu,
@@ -1009,3 +1007,5 @@ Incubating,Knative,April Kyle Nassi,Google,thisisnotapril, https://github.com/kn
 ,,Evan Anderson,VMware,evankanderson,
 ,,Scott Nichols,Chainguard,n3wscott,
 ,,Roland Huß,Red Hat,rhuss,
+Sandbox,FabEdge,Haotao Geng,BoCloud,haotaogeng,https://github.com/FabEdge/fabedge/blob/main/MAINTAINERS.md
+,,Jianbo Yan,BoCloud,yanjianbo1983,
