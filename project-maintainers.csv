@@ -395,7 +395,7 @@ Incubating,Thanos,Bartłomiej Płotka,Red Hat,bwplotka,https://github.com/thanos
 ,,Prem Saraswat,Red Hat,onprem,
 ,,Matthias Loibl,Polar Signals,metalmatze,
 ,,Ben Ye,ByteDance,yeya24,
-Incubating,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/community/blob/main/flux-project-maintainers.yaml
+Incubating,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/community/blob/main/project/flux-project-maintainers.yaml
 ,,Michael Bridgen,Weaveworks,squaremo,
 ,,Stefan Prodan,Weaveworks,stefanprodan,
 ,,Aurel Canciu, NexHealth,relu,
@@ -415,6 +415,7 @@ Incubating,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/commu
 ,,Bianca Cheng Costanzo, Weaveworks,bia,
 ,,Jordan Pellizzari, Weaveworks,jpellizzari,
 ,,Kingdon Barrett, Weaveworks,kingdonb,
+,,Paulo Gomes, Weaveworks,pjbgf,
 Sandbox,In-Toto,Justin Cappos,New York University,JustinCappos,https://github.com/in-toto/in-toto/blob/develop/MAINTAINERS.txt
 ,,Lukas Puehringer,NYU,lukpueh,
 ,,Marina Moore,NYU,mnm678,
