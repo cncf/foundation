@@ -432,7 +432,7 @@ Sandbox,Strimzi,Jakub Scholz,Red Hat,scholzj,https://github.com/strimzi/strimzi-
 ,,Paul Mellor,Red Hat,PaulRMellor,
 Incubating,KubeVirt,David Vossel,Red Hat,davidvossel,https://github.com/kubevirt/community/blob/master/MAINTAINERS.md
 ,,Vladik Romanovsky,Red Hat,vladikr,
-,,Roman Mohr,Red Hat,rmohr,
+,,Roman Mohr,Google,rmohr,
 ,,Vasiliy Ulyanov,SuSE,vasiliy-ul,
 ,,Stu Gott,Red Hat,stu-gott,
 ,,Fabian Deutsch,Red Hat,fabiand,
@@ -721,7 +721,9 @@ Sandbox,OpenKruise,Fei Guo,Alibaba,Fei-Guo,https://github.com/openkruise/kruise/
 ,,Zhen Zhang,Alibaba,furykerry,
 ,,Robert Everson,Lyft,reverson,
 ,,Henry Wang,Tencent,henrywangx,
-Sandbox,Tinkerbell ,Dan Finneran,Equinix Metal,thebsdbox,https://github.com/tinkerbell/.github/blob/master/MAINTAINERS.md
+Sandbox,Tinkerbell,Dan Finneran,Loft Labs,thebsdbox,https://github.com/tinkerbell/org/blob/main/MAINTAINERS.md
+,,Marky Jackson,Equinix Metal,markyjackson-taulia,
+,,Marques Johansson,Equinix Metal,displague,
 ,,Manuel Mendez,Equinix Metal,mmlb,
 Sandbox,Pravega,Flavio Junqueira,Pravega,fpj,https://github.com/pravega/.github/blob/main/MAINTAINERS
 ,,Tom Kaitchuck,Pravega,,
@@ -1010,6 +1012,27 @@ Incubating,Knative,April Kyle Nassi,Google,thisisnotapril, https://github.com/kn
 ,,Roland Huß,Red Hat,rhuss,
 Sandbox,FabEdge,Haotao Geng,BoCloud,haotaogeng,https://github.com/FabEdge/fabedge/blob/main/MAINTAINERS.md
 ,,Jianbo Yan,BoCloud,yanjianbo1983,
+Sandbox,sealer,Haitao Fang,Alibaba Group,fanux,https://github.com/alibaba/sealer/blob/main/MAINTAINERS.md
+,,Hongliang Sun,Alibaba Group,allencloud,
+,,Jiahui Huai,Boyan,bxy4543,
+,,Lei Zhou,Boyan,kakaZhou719,
+,,Jinrui Cui,Realai,cuisongliu,
+,,Jiangnan Bao,ZheJiang University,justadogistaken,
+,,Zhaodan Zhou,Iflytek,jmpcyc,
+,,Xun Wang,ZhengcaiCloud,lllwan,
+,,Vince Cui,Alibaba Group,vincecui,
+Sandbox,OpenFunction,Benjamin Huo,QingCloud,benjaminhuo,https://github.com/OpenFunction/OpenFunction/blob/main/OWNERS
+,,Feynman Zhou,QingCloud,FeynmanZhou,
+,,Wanjun Lei,QingCloud,wanjunlei,
+,,Tian Fang,StreamNative,tpiperatgod,
+,,Yifei Wang,QingCloud,wrongerror,
+,,Lei Tang,QingCloud,wentevill,
+,,Wei Zhang,,arugal,
+,,Kehui Li,UISEE,kehuili,
+,,Haili Zhang,UISEE,webup,
+,,Lize Cai,SAP,lizzzcai,
+,,Dehao Cheng,QingCloud,wenchajun,
+,,Shanyou Zhang,Weyhd,geffzhang,
 Sandbox,Confidential Containers,Ariel Adam,Red Hat,ariel-adam,https://github.com/confidential-containers/community/blob/main/MAINTAINERS
 ,,Pradipta Banerjee,Red Hat,bpradipt,
 ,,Zhang Jia,Alibaba,jiazhang0,
