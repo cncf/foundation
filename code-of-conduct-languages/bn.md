@@ -1,25 +1,5 @@
 ## CNCF কমিউনিটি কোড অফ কন্ডাক্ট (CNCF Community Code of Conduct) v1.1
 
-অন্যান্য ভাষাতে উপলব্ধ:
-- [আরবি/العربية](code-of-conduct-languages/ar.md)
-- [বুলগেরিয়ান/Български](code-of-conduct-languages/bg.md)
-- [চাইনিজ/中文](code-of-conduct-languages/zh.md)
-- [চেক/Česky](code-of-conduct-languages/cs.md)
-- [ফারসি/فارسی](code-of-conduct-languages/fa.md)
-- [ফরাসি/Français](code-of-conduct-languages/fr.md)
-- [জার্মান/Deutsch](code-of-conduct-languages/de.md)
-- [ইন্দোনেশিয়া/Bahasa Indonesia](code-of-conduct-languages/id.md)
-- [ইতালীয়/Italiano](code-of-conduct-languages/it.md)
-- [জাপানি/日本語](code-of-conduct-languages/jp.md)
-- [কোরিয়ান/한국어](code-of-conduct-languages/ko.md)
-- [পোলিশ/Polski](code-of-conduct-languages/pl.md)
-- [পর্তুগিজ/Português](কোড-অফ-কন্ডাক্ট-ভাষা/pt.md)
-- [রাশিয়ান/Русский](code-of-conduct-languages/ru.md)
-- [স্প্যানিশ/Español](code-of-conduct-languages/es.md)
-- [তুরকিশ/Türkçe](code-of-conduct-languages/tr.md)
-- [ইউক্রেনীয়/Українська](code-of-conduct-languages/uk.md)
-- [ভিয়েতনামি/Tiếng Việt](code-of-conduct-languages/vi.md)
-
 
 ### কন্ট্রিবিউটর কোড অফ কন্ডাক্ট (Contributor Code of Conduct)
 
