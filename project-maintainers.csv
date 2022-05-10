@@ -310,9 +310,6 @@ Sandbox,Telepresence,Abhay Saxena,Datawire,ark3,https://github.com/telepresencei
 ,,Rafael Schloming,Datawire,rhs,
 ,,Richard Li,Datawire,richarddli,
 ,,Luke Shumaker,Datawire,LukeShu,
-Sandbox,Teller,Dotan Nahum,Check Point,jondot,https://github.com/SpectralOps/teller/blob/master/MAINTAINERS.md
-,,Elad Kaplan,Check Point,kaplanelad,
-,,Lior Reuven,Check Point,lreuven,
 Sandbox,OpenMetrics,Ben Kochie,GitLab,superq,https://github.com/OpenObservability/OpenMetrics/blob/master/MAINTAINERS.md
 ,,Brian Brazil,Robust Perception,brian-brazil,
 ,,Jerome Froelich,Uber,jeromefroe,
@@ -1013,3 +1010,6 @@ Incubating,Knative,April Kyle Nassi,Google,thisisnotapril, https://github.com/kn
 ,,Roland Huß,Red Hat,rhuss,
 Sandbox,FabEdge,Haotao Geng,BoCloud,haotaogeng,https://github.com/FabEdge/fabedge/blob/main/MAINTAINERS.md
 ,,Jianbo Yan,BoCloud,yanjianbo1983,
+Sandbox,Teller,Dotan Nahum,Check Point,jondot,https://github.com/SpectralOps/teller/blob/master/MAINTAINERS.md
+,,Elad Kaplan,Check Point,kaplanelad,
+,,Lior Reuven,Check Point,lreuven,
