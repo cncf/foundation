@@ -319,6 +319,7 @@ Sandbox,OpenMetrics,Ben Kochie,GitLab,superq,https://github.com/OpenObservabilit
 Incubating,Cortex,Bryan Boreham,Grafana Labs,bboreham,https://github.com/cortexproject/cortex/blob/master/MAINTAINERS
 ,,Alan Protasio,Amazon Web Services,alanprot,
 ,,Alvin Lin,Amazon Web Services,alvinlin123,
+,,Friedrich Gonzalez,Adobe,friedrich-at-adobe,
 ,,Goutham Veeramachaneni,Grafana Labs,gouthamve,
 ,,Jacob Lisi,Google,jtlisi,
 ,,Marco Pracucci,Grafana Labs,pracucci,
@@ -396,6 +397,7 @@ Incubating,Thanos,Bartłomiej Płotka,Red Hat,bwplotka,https://github.com/thanos
 ,,Prem Saraswat,Red Hat,onprem,
 ,,Matthias Loibl,Polar Signals,metalmatze,
 ,,Ben Ye,ByteDance,yeya24,
+,,Wiard van Rij,Roku,wiardvanrij,
 Incubating,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/community/blob/main/project/flux-project-maintainers.yaml
 ,,Michael Bridgen,Weaveworks,squaremo,
 ,,Stefan Prodan,Weaveworks,stefanprodan,
@@ -432,12 +434,11 @@ Sandbox,Strimzi,Jakub Scholz,Red Hat,scholzj,https://github.com/strimzi/strimzi-
 ,,Paul Mellor,Red Hat,PaulRMellor,
 Incubating,KubeVirt,David Vossel,Red Hat,davidvossel,https://github.com/kubevirt/community/blob/master/MAINTAINERS.md
 ,,Vladik Romanovsky,Red Hat,vladikr,
-,,Roman Mohr,Red Hat,rmohr,
+,,Roman Mohr,Google,rmohr,
 ,,Vasiliy Ulyanov,SuSE,vasiliy-ul,
 ,,Stu Gott,Red Hat,stu-gott,
 ,,Fabian Deutsch,Red Hat,fabiand,
 ,,Ryan Hallisey,Nvidia,rthallisey,
-,,Federico Gimenez,Red Hat,fgimenez,
 ,,Andrew Burden,Red Hat,aburdenthehand,
 Incubating,Longhorn,Sheng Yang,SUSE,yasker,https://github.com/longhorn/longhorn/blob/master/MAINTAINERS
 ,,Shuo Wu,SUSE,shuo-wu,
@@ -721,7 +722,9 @@ Sandbox,OpenKruise,Fei Guo,Alibaba,Fei-Guo,https://github.com/openkruise/kruise/
 ,,Zhen Zhang,Alibaba,furykerry,
 ,,Robert Everson,Lyft,reverson,
 ,,Henry Wang,Tencent,henrywangx,
-Sandbox,Tinkerbell ,Dan Finneran,Equinix Metal,thebsdbox,https://github.com/tinkerbell/.github/blob/master/MAINTAINERS.md
+Sandbox,Tinkerbell,Dan Finneran,Loft Labs,thebsdbox,https://github.com/tinkerbell/org/blob/main/MAINTAINERS.md
+,,Marky Jackson,Equinix Metal,markyjackson-taulia,
+,,Marques Johansson,Equinix Metal,displague,
 ,,Manuel Mendez,Equinix Metal,mmlb,
 Sandbox,Pravega,Flavio Junqueira,Pravega,fpj,https://github.com/pravega/.github/blob/main/MAINTAINERS
 ,,Tom Kaitchuck,Pravega,,
@@ -1010,6 +1013,33 @@ Incubating,Knative,April Kyle Nassi,Google,thisisnotapril, https://github.com/kn
 ,,Roland Huß,Red Hat,rhuss,
 Sandbox,FabEdge,Haotao Geng,BoCloud,haotaogeng,https://github.com/FabEdge/fabedge/blob/main/MAINTAINERS.md
 ,,Jianbo Yan,BoCloud,yanjianbo1983,
+Sandbox,sealer,Haitao Fang,Alibaba Group,fanux,https://github.com/alibaba/sealer/blob/main/MAINTAINERS.md
+,,Hongliang Sun,Alibaba Group,allencloud,
+,,Jiahui Huai,Boyan,bxy4543,
+,,Lei Zhou,Boyan,kakaZhou719,
+,,Jinrui Cui,Realai,cuisongliu,
+,,Jiangnan Bao,ZheJiang University,justadogistaken,
+,,Zhaodan Zhou,Iflytek,jmpcyc,
+,,Xun Wang,ZhengcaiCloud,lllwan,
+,,Vince Cui,Alibaba Group,vincecui,
+Sandbox,OpenFunction,Benjamin Huo,QingCloud,benjaminhuo,https://github.com/OpenFunction/OpenFunction/blob/main/OWNERS
+,,Feynman Zhou,QingCloud,FeynmanZhou,
+,,Wanjun Lei,QingCloud,wanjunlei,
+,,Tian Fang,StreamNative,tpiperatgod,
+,,Yifei Wang,QingCloud,wrongerror,
+,,Lei Tang,QingCloud,wentevill,
+,,Wei Zhang,,arugal,
+,,Kehui Li,UISEE,kehuili,
+,,Haili Zhang,UISEE,webup,
+,,Lize Cai,SAP,lizzzcai,
+,,Dehao Cheng,QingCloud,wenchajun,
+,,Shanyou Zhang,Weyhd,geffzhang,
+Sandbox,Confidential Containers,Ariel Adam,Red Hat,ariel-adam,https://github.com/confidential-containers/community/blob/main/MAINTAINERS
+,,Pradipta Banerjee,Red Hat,bpradipt,
+,,Zhang Jia,Alibaba,jiazhang0,
+,,Jiang Liu,Alibaba,jiangliu,
+,,Larry Dewey,AMD,larrydewey,
+,,Tobin Feldman-Fitzthum,IBM,fitzthum,
 Sandbox,Teller,Dotan Nahum,Check Point,jondot,https://github.com/SpectralOps/teller/blob/master/MAINTAINERS.md
 ,,Elad Kaplan,Check Point,kaplanelad,
 ,,Lior Reuven,Check Point,lreuven,
