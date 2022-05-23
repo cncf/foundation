@@ -15,8 +15,8 @@ Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steer
 ,,Carlos Tadeu Panato Jr.,Mattermost,cpanato,
 ,,Jeremy Rickard,Apple,jeremyrickard,
 ,,Adolfo García Veytia,Mattermost,puerco,
-,Prometheus,Augustin Husson,Amadeus,Nexucis,https://prometheus.io/governance/#team-members
-Graduated,,Bartłomiej Płotka,Red Hat,bwplotka,
+Graduated,Prometheus,Augustin Husson,Amadeus,Nexucis,https://prometheus.io/governance/#team-members
+,,Bartłomiej Płotka,Red Hat,bwplotka,
 ,,Ben Kochie,Reddit,superq,
 ,,Björn Rabenstein,Grafana Labs,beorn7,
 ,,Callum Styan,Grafana Labs,cstyan,
@@ -25,7 +25,6 @@ Graduated,,Bartłomiej Płotka,Red Hat,bwplotka,
 ,,Fabian Stäber,Grafana Labs,fstab,
 ,,Ganesh Vernekar,Grafana Labs,codesome,
 ,,Goutham Veeramachaneni,Grafana Labs,gouthamve,
-,,Jessica Grebenschikov,Reddit,jessicagreben,
 ,,Johannes Ziemke,Independent,discordianfish,
 ,,Julien Pivotto,Inuits,roidelapluie,
 ,,Julius Volz,Promlabs,juliusv,
