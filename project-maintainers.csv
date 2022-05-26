@@ -292,15 +292,16 @@ Incubating,Falco,Mark Stemm,Sysdig,mstemm,https://github.com/falcosecurity/falco
 ,,Kris Nova,Sysdig,kris-nova,
 ,,Leonardo Grasso,Sysdig,leogr,
 ,,Jason Dellaluce,Sysdig,jasondellaluce,
-Incubating,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/master/CODEOWNERS
+Incubating,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Andrew Jessup,HPE,ajessup,
 ,,Andrew Moore,Uber,amoore877,
 ,,Frederick Kautz,Doc.ai,fkautz,
+,,Dan Feldman,HPE,dfeldman,
 ,,Justin Burke,Google,justinburke,
 ,,Spike Curtis,Tigera,spikecurtis,
 ,,Andrew Harding,VMware,azdagron,
-Incubating,SPIRE,Andrew Harding,VMware,azdagron,https://github.com/spiffe/spire/blob/master/CODEOWNERS
+Incubating,SPIRE,Andrew Harding,VMware,azdagron,https://github.com/spiffe/spire/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Marcos Yacob,HPE,MarcosDY,
 ,,Agustin Martinez Fayo,HPE,amartinezfayo,
