@@ -728,10 +728,12 @@ Sandbox,Tinkerbell,Dan Finneran,Loft Labs,thebsdbox,https://github.com/tinkerbel
 ,,Marques Johansson,Equinix Metal,displague,
 ,,Manuel Mendez,Equinix Metal,mmlb,
 Sandbox,Pravega,Flavio Junqueira,Pravega,fpj,https://github.com/pravega/.github/blob/main/MAINTAINERS
-,,Tom Kaitchuck,Pravega,,
+,,Tom Kaitchuck,Pravega,tkaitchuck,
 ,,Derek Moore,Pravega,derekm,
-,,Andrei Paduroiu,Dell,,
-,,Srikanth Satya ,Dell,,
+,,Andrei Paduroiu,Amazon,andreipaduroiu,
+,,Srikanth Satya,Wheels Up,,
+,,Brian Zhou,Dell,crazyzhou,
+,,Raul Gracia,Dell,RaulGracia,
 Sandbox,Kyverno,Jim Bugwadia,Nirmata,JimBugwadia,https://github.com/kyverno/kyverno/blob/main/MAINTAINERS.md
 ,,Shuting Zhao,Nirmata,realshuting,
 ,,Chip Zoller,Dell Technologies,chipzoller,
