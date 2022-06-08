@@ -326,7 +326,7 @@ Incubating,Cortex,Bryan Boreham,Grafana Labs,bboreham,https://github.com/cortexp
 ,,Peter Štibraný,Grafana Labs,pstibrany,
 ,,Tom Wilkie,Grafana Labs,tomwilkie,
 Incubating,Buildpacks,Aidan Delaney,Bloomberg,aidandelaney,https://github.com/buildpacks/community/blob/main/OWNERS
-,,Daniel Mikusa,VMware,dmikusa-pivotal,
+,,Ben Hale,VMware,nebhale,
 ,,David Freilich,AppsFlyer,dfreilich,
 ,,Emily Casey,VMware,ekcasey,
 ,,Javier Romero,VMware,jromero,
@@ -1045,3 +1045,4 @@ Sandbox,Confidential Containers,Ariel Adam,Red Hat,ariel-adam,https://github.com
 Sandbox,Teller,Dotan Nahum,Check Point,jondot,https://github.com/SpectralOps/teller/blob/master/MAINTAINERS.md
 ,,Elad Kaplan,Check Point,kaplanelad,
 ,,Lior Reuven,Check Point,lreuven,
+Graduated,Kubernetes,Chris Short,AWS,chris-short,https://github.com/kubernetes/community/blob/master/communication/marketing-team/OWNERS
