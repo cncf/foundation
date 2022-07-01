@@ -74,14 +74,11 @@ For incidents occuring in the Kubernetes community, contact the [Kubernetes Code
 
 For other projects, or for incidents that are project-agnostic or impact multiple CNCF projects, please contact the [CNCF Code of Conduct Committee](https://www.cncf.io/conduct/committee/) via conduct@cncf.io.  Alternatively, you can contact any of the individual members of the [CNCF Code of Conduct Committee](https://www.cncf.io/conduct/committee/) to submit your report. For more detailed instructions on how to submit a report, including how to submit a report anonymously, please see our [Incident Resolution Procedures](https://www.cncf.io/conduct/procedures/). You can expect a response within three business days.
 
-In matters that require an outside mediator, CNCF has retained Mishi Choudhary (mishi@linux.com). Use of an outside mediator can be requested when reporting or used at CNCF staff's discretion. In general, contacting <conduct@cncf.io> directly is preferred.
-
-
 ## Enforcement 
 
-The Kubernetes project's [Code of Conduct Committee](https://github.com/kubernetes/community/tree/master/committee-code-of-conduct) enforces code of conduct issues.
+The Kubernetes project's [Code of Conduct Committee](https://github.com/kubernetes/community/tree/master/committee-code-of-conduct) enforces code of conduct issues for the Kubernetes project.
 
-For all projects that do not have their own Code of Conduct Committee or other Code of Conduct incident responders, and for incidents that are project-agnostic or impact multiple projects, the CNCF Code of Conduct Committee enforces code of conduct issues. For more information, see our [Jurisdiction and Escalation Policy](https://www.cncf.io/conduct/jurisdiction/)
+For all projects that do not have their own Code of Conduct Committee or other Code of Conduct incident responders, and for incidents that are project-agnostic or impact multiple projects, the [CNCF Code of Conduct Committee](https://www.cncf.io/conduct/committee/) enforces code of conduct issues. For more information, see our [Jurisdiction and Escalation Policy](https://www.cncf.io/conduct/jurisdiction/)
 
 Both bodies try to resolve incidents without punishment, but may remove people from the project or CNCF communities at their discretion.
 
