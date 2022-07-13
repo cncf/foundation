@@ -795,10 +795,12 @@ Sandbox,Trickster ,James Ranson,Comcast,jranson,https://github.com/tricksterprox
 ,,Chris Randles,Comcast,crandles,
 ,,Adam Ross,Comcast,LimitlessEarth,
 ,,Julius Volz,Promlabs,juliusv,
-Incubating,Emissary-Ingress,Rafael Schloming,Ambassador Labs,rhs,https://github.com/emissary-ingress/community/blob/main/MAINTAINERS.md
-,,Flynn,Ambassador Labs,kflynn,
-,,John Esmet,Ambassador Labs,esmet,
-,,Alix Cook,Ambassador Labs,acookin,
+Incubating,Emissary-ingress,Aidan Hahn,,aidanhahn,https://github.com/emissary-ingress/emissary/blob/master/MAINTAINERS.md
+,,Alex Gervais,Ambassador Labs,alexgervais,
+,,Alice Wasko,Ambassador Labs,aliceproxy,
+,,Flynn,Buoyant,kflynn,
+,,Luke Shumaker,Ambassador Labs,lukeshu,
+,,Rafael Schloming,Ambassador Labs,rhs,
 Incubating,Cilium,Aditi Ghag,Isovalent,aditighag,https://github.com/cilium/cilium/blob/master/MAINTAINERS.md
 ,,Alexandre Perrin,Isovalent,kaworu,
 ,,André Martins,Isovalent,aanm,
