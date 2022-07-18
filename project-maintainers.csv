@@ -1,4 +1,4 @@
-,Project,Maintainer Name ,Company,Github Name,OWNERS/MAINTAINERS
+Project,Maintainer Name ,Company,Github Name,OWNERS/MAINTAINERS
 Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steering#members
 ,,Paris Pittman,Apple,parispittman,
 ,,Bob Killen,Google,mrbobbytables,
@@ -1049,6 +1049,8 @@ Sandbox,Aeraki Mesh,Huabing Zhao,Tencent,zhaohuabing,https://github.com/aeraki-m
 ,,ESTLing,Tencent Music,ESTLing,
 ,,Sad-polar-bear,BOSS Zhipin,Sad-polar-bear,
 ,,Xunzhuo,Tencent,Xunzhuo,
+Sandbox,DevStream,Tiexin Guo,Merico,IronCore864,https://github.com/devstream-io/devstream/blob/main/MAINTAINERS.md
+,,Daniel Hu,Merico,Daniel-hutao,
 Sandbox,Curve,Pan WANG,NetEase,aspirer,https://github.com/opencurve/curve/blob/master/MAINTAINERS.md
 ,,XiaoCui Li,NetEase,ilixiaocui,
 ,,opencurveadmin,opencurveadmin,NetEase,
