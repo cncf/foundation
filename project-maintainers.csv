@@ -1,4 +1,4 @@
-,Project,Maintainer Name ,Company,Github Name,OWNERS/MAINTAINERS
+Project,Maintainer Name ,Company,Github Name,OWNERS/MAINTAINERS
 Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steering#members
 ,,Paris Pittman,Apple,parispittman,
 ,,Bob Killen,Google,mrbobbytables,
@@ -26,7 +26,6 @@ Graduated,Prometheus,Augustin Husson,Amadeus,Nexucis,https://prometheus.io/gover
 ,,Ganesh Vernekar,Grafana Labs,codesome,
 ,,Goutham Veeramachaneni,Grafana Labs,gouthamve,
 ,,Johannes Ziemke,Independent,discordianfish,
-,,Josh Abreu,Grafana Labs,gotjosh,
 ,,Julien Pivotto,Inuits,roidelapluie,
 ,,Julius Volz,Promlabs,juliusv,
 ,,Matthias Loibl,Polar Signals,metalmatze,
@@ -204,7 +203,6 @@ Incubating,NATS,Colin Sullivan,Synadia,ColinSullivan1,https://github.com/nats-io
 ,,Phil Pennock,Synadia,philpennock,
 ,,Matthias Hanel,Synadia,matthiashanel,
 ,,Scott Fauerbach,Synadia,scottf,
-,,Tomasz Pietrek, Synadia,jarema,
 Graduated,Linkerd,Oliver Gould,Buoyant,olix0r,https://github.com/linkerd/linkerd2/blob/main/MAINTAINERS.md
 ,,Alex Leong ,Buoyant,adleong,
 ,,Zarahi Dichev,Buoyant,zaharidichev,
@@ -248,11 +246,12 @@ Graduated,Harbor,Daniel Jiang,VMware,reasonerjt,https://github.com/goharbor/comm
 ,Harbor: SIG Community,Orlin Vasilev,VMware,OrlinVasilev,
 ,Harbor: SIG Docs,Abigail McCarthy,VMware,a-mccarthy,
 Graduated,etcd,Ben Darnell,Cockroach Labs,bdarnell,https://github.com/etcd-io/etcd/blob/master/MAINTAINERS
-,,Brandon Philips,Red Hat,philips,
+,,Benjamin Wang,WMware,ahrtr,
 ,,Gyuho Lee,Amazon,gyuho,
 ,,Hitoshi Mitake,,mitake,
 ,,Jingyi Hu,Google,jingyih,
 ,,Joe Betz,Google,jpbetz,
+,,Marek Siarkowicz,Google,serathius,
 ,,Piotr Tabor,Google,ptabor,
 ,,Sahdev Zala,IBM,spzala,
 ,,Sam Batschelet,Red Hat,hexfusion,
@@ -291,7 +290,7 @@ Incubating,CloudEvents,Doug Davis,IBM,duglin,https://github.com/cloudevents/spec
 Incubating,Falco,Mark Stemm,Sysdig,mstemm,https://github.com/falcosecurity/falco/blob/master/OWNERS
 ,,Leonardo Di Donato,Sysdig,leodido,
 ,,Lorenzo Fontana,Sysdig,fntlnz,
-,,Kris Nóva,Independent,kris-nova,
+,,Kris Nova,Sysdig,kris-nova,
 ,,Leonardo Grasso,Sysdig,leogr,
 ,,Jason Dellaluce,Sysdig,jasondellaluce,
 Incubating,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
@@ -362,11 +361,7 @@ Incubating,KubeEdge,Ce Zheng,DaoCloud,zc2638,https://github.com/kubeedge/kubeedg
 ,,Yin Ding,Pure Storage,dingyin,
 ,,Zefeng (Kevin) Wang,Huawei,kevin-wangzefeng,
 ,,Zhe Gong,HarmonyCloud,GsssC,
-Sandbox,Brigade,Matt Butcher,Fermyon,technosophos,https://github.com/brigadecore/community/blob/main/MAINTAINERS.md
-,,Jorge Arteiro,Microsoft,jorgearteiro,
-,,Vaughn Dice,Fermyon,vdice ,
-,,Radu Matei,Fermyon,radu-matei,
-,,Kent Rancourt,Independent,krancour,
+Sandbox,Brigade,Jorge Arteiro,Microsoft,jorgearteiro,https://github.com/brigadecore/community/blob/main/MAINTAINERS.md
 Sandbox,Network Service Mesh,Ed Warnicke,Cisco,edwarnicke,https://github.com/networkservicemesh/networkservicemesh/blob/master/OWNERS.md
 ,,Frederick Kautz,Doc.ai,fkautz,
 ,,Nikolay Nikolaev,VMware,nickolaev,
@@ -406,7 +401,7 @@ Incubating,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/commu
 ,,Michael Bridgen,Weaveworks,squaremo,
 ,,Stefan Prodan,Weaveworks,stefanprodan,
 ,,Aurel Canciu, NexHealth,relu,
-,,Max Jonas Werner, Weaveworks,makkes,
+,,Max Jonas Werner, D2iQ,makkes,
 ,,Philip Laine, Xenit,phillebaba,
 ,,Sunny, Weaveworks,darkowlzz,
 ,,Alison Dowdney,,alisondy,
@@ -418,6 +413,8 @@ Incubating,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/commu
 ,,Simon Howe, Weaveworks,foot,
 ,,Soule Ba, Weaveworks,souleb,
 ,,Yiannis Triantafyllopoulos, Weaveworks,yiannistri,
+,,Bianca Cheng Costanzo, Weaveworks,bia,
+,,Jordan Pellizzari, Weaveworks,jpellizzari,
 ,,Kingdon Barrett, Weaveworks,kingdonb,
 ,,Paulo Gomes, Weaveworks,pjbgf,
 ,,Sanskar Jaiswal,Weaveworks,aryan9600,
@@ -680,7 +677,6 @@ Sandbox,Porter,Carolyn Van Slyck,Microsoft,carolynvs,https://github.com/deislabs
 ,,Vaughn Dice,VMware,vdice,
 ,,Reddy Prasad,,dev-drprasad,
 ,,Jennifer Davis,Microsoft,iennae,
-,,Yingrong Zhao,Microsoft,vinozzz,
 Sandbox,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/openyurt/blob/master/OWNERS
 ,,Fei Guo,Alibaba,Fei-Guo,
 ,,frank-huangyuqi,Alibaba,huangyuqi,
@@ -795,10 +791,12 @@ Sandbox,Trickster ,James Ranson,Comcast,jranson,https://github.com/tricksterprox
 ,,Chris Randles,Comcast,crandles,
 ,,Adam Ross,Comcast,LimitlessEarth,
 ,,Julius Volz,Promlabs,juliusv,
-Incubating,Emissary-Ingress,Rafael Schloming,Ambassador Labs,rhs,https://github.com/emissary-ingress/community/blob/main/MAINTAINERS.md
-,,Flynn,Ambassador Labs,kflynn,
-,,John Esmet,Ambassador Labs,esmet,
-,,Alix Cook,Ambassador Labs,acookin,
+Incubating,Emissary-ingress,Aidan Hahn,,aidanhahn,https://github.com/emissary-ingress/emissary/blob/master/MAINTAINERS.md
+,,Alex Gervais,Ambassador Labs,alexgervais,
+,,Alice Wasko,Ambassador Labs,aliceproxy,
+,,Flynn,Buoyant,kflynn,
+,,Luke Shumaker,Ambassador Labs,lukeshu,
+,,Rafael Schloming,Ambassador Labs,rhs,
 Incubating,Cilium,Aditi Ghag,Isovalent,aditighag,https://github.com/cilium/cilium/blob/master/MAINTAINERS.md
 ,,Alexandre Perrin,Isovalent,kaworu,
 ,,André Martins,Isovalent,aanm,
@@ -1048,9 +1046,16 @@ Sandbox,Teller,Dotan Nahum,Check Point,jondot,https://github.com/SpectralOps/tel
 Sandbox,Aeraki Mesh,Huabing Zhao,Tencent,zhaohuabing,https://github.com/aeraki-mesh/aeraki/blob/master/MAINTAINERS.md
 ,,huanghuangzym,Alauda,huanghuangzym,
 ,,smwyzi,Baidu,smwyzi,
-,,whitefirer,Tencent Music,whitefirer,
+,,ESTLing,Tencent Music,ESTLing,
 ,,Sad-polar-bear,BOSS Zhipin,Sad-polar-bear,
 ,,Xunzhuo,Tencent,Xunzhuo,
+Sandbox,DevStream,Tiexin Guo,Merico,IronCore864,https://github.com/devstream-io/devstream/blob/main/MAINTAINERS.md
+,,Daniel Hu,Merico,Daniel-hutao,
+Sandbox,Curve,Pan WANG,NetEase,aspirer,https://github.com/opencurve/curve/blob/master/MAINTAINERS.md
+,,XiaoCui Li,NetEase,ilixiaocui,
+,,opencurveadmin,opencurveadmin,NetEase,
+Sandbox,Clusterpedia,Iceber Gu,DaoCloud,Iceber,https://github.com/clusterpedia-io/clusterpedia/blob/main/MAINTAINERS.md
+,,Calvin Chen,DaoCloud,calvin0327,
 Sandbox,OpenFeature,Michael Beemer,Dynatrace,beeme1mr,https://github.com/open-feature/community/blob/main/governance-charter.md#governing-committee
 ,,Ben Rometsch,Flagsmith,dabeeeenster,
 ,,Justin Abrahms,eBay,justinabrahms,
