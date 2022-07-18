@@ -54,7 +54,7 @@ Graduated,Envoy,Matt Klein,Lyft,mattklein123,https://github.com/envoyproxy/envoy
 ,,Sotiris Nanopoulos,davinci26,Microsoft,
 ,,Dmitry Rozhkov,rojkov,Intel,
 ,,Ryan Hamilton,RyanTheOptimist,Google,
-
+,,,,,
 Graduated,CoreDNS,Chris O'Haver,Infoblox,chrisohaver,https://github.com/coredns/coredns/blob/master/CODEOWNERS
 ,,John Belamaric,Google,johnbelamaric,
 ,,Miek Gieben,,miekg,
@@ -146,14 +146,14 @@ Incubating,gRPC,Abhishek Kumar,Google,a11r,https://github.com/grpc/grpc/blob/mas
 ,,Nathaniel Manista,Google,nathanielmanistaatgoogle,
 ,,Nicolas Noble,Google,nicolasnoble,
 ,,Pau Freixes,Skyscanner Ltd,pfreixes,
-,,Qixuan Li,Google,qixuanl1  ,
+,,Qixuan Li,Google,qixuanl1,
 ,,Ran,Google,ran-su  ,
 ,,Prashant Jaikumar,Google,rmstar  ,
 ,,Sanjay Pujare,Google,sanjaypujare  ,
 ,,Sheena Madan,Google,sheenaqotj  ,
 ,,Soheil Hassas Yeganeh,Google,soheilhy  ,
 ,,Sree Kuchibhotla,LinkedIn,sreecha,
-,,Srini Polavarapu,Google,srini100  ,
+,,Srini Polavarapu,Google,srini100,
 ,,Stanley Cheung,Google,stanley-cheung  ,
 ,,Esun Kim,Google,veblush  ,
 ,,vishalpowar,Google,vishalpowar  ,
@@ -595,7 +595,7 @@ Incubating,Crossplane,Bassam Tabbara,Upbound,bassam,https://github.com/crossplan
 ,,Daniel Mangum,Upbound,hasheddan,
 ,,Muvaffak Onus,Upbound,muvaf,
 ,,Hasan Turken,Upbound,turkenh,
-Incubating,Contour,Nick Young,VMware,youngnick,"https://github.com/projectcontour/community/blob/master/MAINTAINERS.md"
+Incubating,Contour,Nick Young,VMware,youngnick,https://github.com/projectcontour/community/blob/master/MAINTAINERS.md
 ,,Steve Sloka,VMware,stevesloka,
 ,,Steve Kriss,VMware,skriss,
 ,,Alex Xu,VMware,xaleeks,
@@ -896,7 +896,7 @@ Sandbox,Service Mesh Performance,Lee Calcote,Layer5,leecalcote,https://github.co
 Sandbox,KubeVela,Hongchao Deng,Alibaba,hongchaodeng,https://github.com/oam-dev/kubevela/blob/master/OWNERS_ALIASES
 ,,Jianbo Sun,Alibaba,wonderflow,
 ,,Zheng Xi Zhou,Alibaba,zzxwill,
-,,guoxudong,GitLab,sunny0826 ,
+,,guoxudong,GitLab,sunny0826,
 ,,Lei Zhang (Harry),Alibaba,resouer,
 ,,Yue Wang,Hanyang University,captainroy-hy,
 Sandbox,kube-vip,Daniel Finneran,Packethost,thebsdbox,https://github.com/kube-vip/kube-vip/blob/main/CODEOWNERS
@@ -957,7 +957,7 @@ Sandbox,Open Cluster Management,Qiu Jian,Red Hat,qiujian16,https://github.com/op
 ,,Mike Ng,Red Hat,mikeshng,
 ,,Min Kim,Ant Group,yue9944882,
 ,,Yong Feng,Alibaba,luckyfengyong,
-Incubating,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/community/blob/master/MAINTAINERS.md
+Incubating,Dapr,Yaron Schneider,Diagrid,yaron2,https://github.com/dapr/community/blob/master/MAINTAINERS.md
 ,,Mark Fussell,Diagrid,msfussell,
 ,,Long Dai,Intel,daixiang0,
 ,,Xavier Geernick,Tinx.AI,XavierGeerinck,
@@ -1059,3 +1059,5 @@ Sandbox,OpenFeature,Michael Beemer,Dynatrace,beeme1mr,https://github.com/open-fe
 ,,Todd Baert,Dynatrace,toddbaert,
 ,,Steve Arch,CloudBees,agentgonzo,
 ,,Dan O'Brien,LaunchDarkly,intheclouddan,
+Sandbox,DevStream,Tiexin Guo,Merico,IronCore864,https://github.com/devstream-io/devstream/blob/main/MAINTAINERS.md
+,,Daniel Hu,Merico,Daniel-hutao,
