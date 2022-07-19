@@ -1,4 +1,4 @@
-# DCO Policy v1.0
+# DCO Guidelines v1.0
 
 The DCO is a representation by someone stating they have the right to contribute the code they have proposed for acceptance into a project: https://developercertificate.org
 
