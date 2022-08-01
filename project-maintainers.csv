@@ -1075,7 +1075,7 @@ Sandbox,OpenCost,Ajay Tripathy,Kubecost,AjayTripathy,https://github.com/kubecost
 ,,Michael Dresser,Kubecost,michaelmdresser,
 ,,Niko Kovacevic,Kubecost,nikovacevic,
 ,,Sean Holcomb,Kubecost,Sean-Holcomb,
-Sandbox,External Secrets Operator,Moritz Johner,Form3,moolen,https://github.com/external-secrets/external-secrets/blob/main/.github/PAUL.yaml,
-,,Lucas Severo Alves,Red Hat,knelasevero,,
-,,Gustavo Fernandes de Carvalho,Kubecost,gusfcarvalho,,
-,,Sebastian Gomez,Container Solutions,sebagomez,,
+Sandbox,External Secrets Operator,Moritz Johner,Form3,moolen,https://github.com/external-secrets/external-secrets/blob/main/.github/PAUL.yaml
+,,Lucas Severo Alves,Red Hat,knelasevero,
+,,Gustavo Fernandes de Carvalho,Container Solutions,gusfcarvalho,
+,,Sebastian Gomez,Container Solutions,sebagomez,
