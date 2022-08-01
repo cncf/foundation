@@ -1,4 +1,4 @@
-,Project,Maintainer Name ,Company,Github Name,OWNERS/MAINTAINERS
+﻿,Project,Maintainer Name ,Company,Github Name,OWNERS/MAINTAINERS
 Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steering#members
 ,,Paris Pittman,Apple,parispittman,
 ,,Bob Killen,Google,mrbobbytables,
@@ -53,7 +53,7 @@ Graduated,Envoy,Matt Klein,Lyft,mattklein123,https://github.com/envoyproxy/envoy
 ,,Sotiris Nanopoulos,davinci26,Microsoft,
 ,,Dmitry Rozhkov,rojkov,Intel,
 ,,Ryan Hamilton,RyanTheOptimist,Google,
-
+,,,,,
 Graduated,CoreDNS,Chris O'Haver,Infoblox,chrisohaver,https://github.com/coredns/coredns/blob/master/CODEOWNERS
 ,,John Belamaric,Google,johnbelamaric,
 ,,Miek Gieben,,miekg,
@@ -593,7 +593,7 @@ Incubating,Crossplane,Bassam Tabbara,Upbound,bassam,https://github.com/crossplan
 ,,Daniel Mangum,Upbound,hasheddan,
 ,,Muvaffak Onus,Upbound,muvaf,
 ,,Hasan Turken,Upbound,turkenh,
-Incubating,Contour,Nick Young,VMware,youngnick,"https://github.com/projectcontour/community/blob/master/MAINTAINERS.md"
+Incubating,Contour,Nick Young,VMware,youngnick,https://github.com/projectcontour/community/blob/master/MAINTAINERS.md
 ,,Steve Sloka,VMware,stevesloka,
 ,,Steve Kriss,VMware,skriss,
 ,,Alex Xu,VMware,xaleeks,
@@ -1075,3 +1075,7 @@ Sandbox,OpenCost,Ajay Tripathy,Kubecost,AjayTripathy,https://github.com/kubecost
 ,,Michael Dresser,Kubecost,michaelmdresser,
 ,,Niko Kovacevic,Kubecost,nikovacevic,
 ,,Sean Holcomb,Kubecost,Sean-Holcomb,
+Sandbox,External Secrets Operator,Moritz Johner,Form3,moolen,https://github.com/external-secrets/external-secrets/blob/main/.github/PAUL.yaml,
+,,Lucas Severo Alves,Red Hat,knelasevero,,
+,,Gustavo Fernandes de Carvalho,Kubecost,gusfcarvalho,,
+,,Sebastian Gomez,Container Solutions,sebagomez,,
