@@ -289,12 +289,18 @@ Incubating,CloudEvents,Doug Davis,IBM,duglin,https://github.com/cloudevents/spec
 ,,Mark Peek,VMware,markpeek,
 ,,Ken Owens,Mastercard,kenowens12,
 ,,Klaus Deissner,SAP,deissnerk,
-Incubating,Falco,Mark Stemm,Sysdig,mstemm,https://github.com/falcosecurity/falco/blob/master/OWNERS
-,,Leonardo Di Donato,Sysdig,leodido,
-,,Lorenzo Fontana,Sysdig,fntlnz,
-,,Kris Nova,Sysdig,kris-nova,
-,,Leonardo Grasso,Sysdig,leogr,
+Incubating,Falco,Andrea Terzolo,Polytechnic of Turin,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
+,,Carlos Tadeu Panato Junior,Chainguard,cpanato,
+,,Federico Di Pierro,Sysdig,fededp,
+,,Grzegorz Nosek,Sysdig,gnosek,
 ,,Jason Dellaluce,Sysdig,jasondellaluce,
+,,Leonardo Grasso,Sysdig,leogr,
+,,Luca Guerra,Sysdig,lucaguerra,
+,,Mark Stemm,Sysdig,mstemm,
+,,Massimiliano Giovagnoli,Clastix,maxgio92,
+,,Mauro Ezequiel Moltrasio,RedHat,molter73,
+,,Michele Zuccala,Sysdig,zuc,
+,,Thomas Labarussias,Sysdig,issif,
 Incubating,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Andrew Jessup,HPE,ajessup,
