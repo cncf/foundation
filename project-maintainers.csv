@@ -672,11 +672,14 @@ Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/m
 ,,Stephen Benjamin,Red Hat,stbenjam,
 ,,Anwar Hassen,Ericsson Software Technology,xenwar,
 ,,Zane Bitter,Red Hat,zaneb,
-Sandbox,Porter,Carolyn Van Slyck,Microsoft,carolynvs,https://github.com/deislabs/porter/blob/main/OWNERS.md
+Sandbox,Porter,Carolyn Van Slyck,Microsoft,carolynvs,https://github.com/getporter/porter/blob/main/OWNERS.md
 ,,Jeremy Rickard,VMware,jeremyrickard,
-,,Vaughn Dice,VMware,vdice,
+,,Vaughn Dice,Fermyon,vdice,
 ,,Reddy Prasad,,dev-drprasad,
 ,,Jennifer Davis,Microsoft,iennae,
+,,Yingrong Zhao,Microsoft,vinozzz,
+,,Brian DeGeeter,F5,bdegeeter,
+,,Steven Gettys,F5,sgettys,
 Sandbox,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/openyurt/blob/master/OWNERS
 ,,Fei Guo,Alibaba,Fei-Guo,
 ,,frank-huangyuqi,Alibaba,huangyuqi,
