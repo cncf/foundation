@@ -2,14 +2,15 @@
 Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steering#members
 ,,Paris Pittman,Apple,parispittman,
 ,,Bob Killen,Google,mrbobbytables,
-,,Jordan Liggitt,Google,liggitt,
-,,Davanum Srinivas,VMware,dims,
 ,,Stephen Augustus,Cisco,justaugustus,
 ,,Tim Pepper,VMware,tpepper,
+,,Benjamin Elder,Google,BenTheElder,
+,,Nabarun Pal,VMware,palnabarun,
 ,Kubernetes: SIG Contributor Experience (non-voting),Alison Dowdney,Independent,alisondy,https://git.k8s.io/community/sig-contributor-experience#leadership
 ,,Nikhita Raghunath,VMware,nikhita,
 ,Kubernetes: SIG K8s Infra (non-voting),Arnaud Meukam,Alter Way,ameukam,https://git.k8s.io/community/sig-k8s-infra#leadership
 ,,Aaron Crickenberger,Google,spiffxp,
+,,Davanum Srinivas,AWS,dims,
 ,,Tim Hockin,Google,thockin,
 ,Kubernetes: SIG Release (non-voting),Sascha Grunert,Red Hat,saschagrunert,https://git.k8s.io/community/sig-release#leadership
 ,,Carlos Tadeu Panato Jr.,Mattermost,cpanato,
