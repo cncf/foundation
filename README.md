@@ -25,6 +25,8 @@ This repo contains several documents related to the operation of the [Cloud Nati
 
 A lot of project, SIG, and TOC-related content is in the TOC [repo](https://github.com/cncf/toc#cncf-technical-oversight-committee-toc). [cncf.io](https://cncf.io) has information on all programs offered publicly by CNCF.
 
+The list of maintainers for each CNCF project is held in the [project-maintainers.csv](project-maintainers.csv) file. An existing project maintainer can update this list by Pull Request, and they should also raise a service desk ticket to request corresponding changes to the project's CNCF-run maintainer mailing list.  
+
 ## How to request changes
 
 You are welcome to file non-technical [issues](https://github.com/cncf/foundation/issues/new) related to [CNCF](https://cncf.io) on this repo.
