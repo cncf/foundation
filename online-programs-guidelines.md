@@ -44,9 +44,10 @@ Ambassadors
 	* Members submit their own pre-recorded content and it will be assigned a publish date based on the editorial calendar. Content cannot be from previous KubeCon + CloudNativeCons.
 	* Premiere date - Thursdays
 * Livestream option 
-	* Streaming to Twitch and will upload to CNCF YouTube channel under Online Programs playlist
+	* Streaming from Restream and will broadcast to YouTubeLive and LinkedIn Live - recordings uploaded to CNCF YouTube channel under Online Programs playlist
 	* Kickoff this option with the Kubernetes 1.20 release on Jan 8
 	* Content must be live coding/demo - no presentations with slides, no product pitches
+	* We will require a high level outline to be provided including any demos you will present one week prior to the event
 	* CNCF Ambassador will join the stream as co-host
 	* Premiere date - Wednesdays (1 per week)
 * YouTube Playlist submission
@@ -82,7 +83,7 @@ Note: This is not a link to a CNCF website or form on the CNCF website.
 If you are a CNCF member and eligible to participate in our online programs, [please submit your request here](https://calendly.com/cncfonlineprograms?month=2021-03&date=2021-03-10). We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following deadlines for submissions (once date is secured):
 * Live webinars: Slides due 1 week in advance of presentation
 * On-demand webinars: Slides and recording due 2 weeks in advance of presentation
-* No deadlines are required for livestream as it is live
+* Livestreams: High level outline of talk including live demos due 1 week prior to show
 * YouTube playlist submissions for the corresponding week are due 11:59 PM PT on Wednesdays to make Friday publish date 
 
 
