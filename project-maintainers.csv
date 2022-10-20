@@ -320,15 +320,9 @@ Sandbox,OpenMetrics,Ben Kochie,GitLab,superq,https://github.com/OpenObservabilit
 ,,Richard Hartmann,Grafana Labs,richih,
 ,,Rob Skillington,Chronosphere,robskillington,
 ,,Sumeer Bhola,Google,sumeer,
-Incubating,Cortex,Bryan Boreham,Grafana Labs,bboreham,https://github.com/cortexproject/cortex/blob/master/MAINTAINERS
-,,Alan Protasio,Amazon Web Services,alanprot,
+Incubating,Cortex,Alan Protasio,Amazon Web Services,alanprot,https://github.com/cortexproject/cortex/blob/master/MAINTAINERS
 ,,Alvin Lin,Amazon Web Services,alvinlin123,
 ,,Friedrich Gonzalez,Adobe,friedrich-at-adobe,
-,,Goutham Veeramachaneni,Grafana Labs,gouthamve,
-,,Jacob Lisi,Google,jtlisi,
-,,Marco Pracucci,Grafana Labs,pracucci,
-,,Peter Štibraný,Grafana Labs,pstibrany,
-,,Tom Wilkie,Grafana Labs,tomwilkie,
 Incubating,Buildpacks,Aidan Delaney,Bloomberg,aidandelaney,https://github.com/buildpacks/community/blob/main/OWNERS
 ,,Daniel Mikusa,VMware,dmikusa-pivotal,
 ,,David Freilich,AppsFlyer,dfreilich,
