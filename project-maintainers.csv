@@ -508,7 +508,7 @@ Incubating,Argo, Saravanan Balasubramanian,sarabala1979,Intuit,https://github.co
 Sandbox,CNI-Genie,Zefeng (Kevin) Wang,Huawei ,kevin-wangzefeng,https://github.com/cni-genie/CNI-Genie/blob/master/MAINTAINERS
 ,,Sushantha Kumar,Huawei ,sushanthakumar,
 ,,Jun Du,Huawei ,m1093782566,
-Sandbox,Keptn,Alois Reitbauer,Dynatrace,AloisReitbauer,https://github.com/keptn/keptn/blob/master/MAINTAINERS
+Incubating,Keptn,Alois Reitbauer,Dynatrace,AloisReitbauer,https://github.com/keptn/keptn/blob/master/MAINTAINERS
 ,,Andreas Grabner,Dynatrace,grabnerandi,
 ,,Bernd Warmuth,Dynatrace,warber,
 ,,Christian Kreuzberger,Dynatrace,christian-kreuzberger-dtx,
@@ -524,6 +524,7 @@ Sandbox,Keptn,Alois Reitbauer,Dynatrace,AloisReitbauer,https://github.com/keptn/
 ,,Ondrej Dubaj,Dynatrace,odubajDT,
 ,,Oleg Nenashev,Dynatrace,oleg-nenashev,
 ,,Thomas Schuetz,Dynatrace,thschue,
+,,David Hirsch, Dynatrace, DavidPHirsch,
 Sandbox,Kudo,Alena Varkockova,,alenkacz,https://github.com/kudobuilder/kudo/blob/main/OWNERS
 ,,Gerred Dillon,,gerred,
 ,,Thomas Runyon,,runyontr,
