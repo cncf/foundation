@@ -295,7 +295,7 @@ Incubating,Falco,Andrea Terzolo,Polytechnic of Turin,andreagit97,https://github.
 ,,Mauro Ezequiel Moltrasio,RedHat,molter73,
 ,,Michele Zuccala,Sysdig,zuc,
 ,,Thomas Labarussias,Sysdig,issif,
-Incubating,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
+Graduated,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Andrew Jessup,HPE,ajessup,
 ,,Andrew Moore,Uber,amoore877,
@@ -304,7 +304,7 @@ Incubating,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blo
 ,,Justin Burke,Google,justinburke,
 ,,Spike Curtis,Tigera,spikecurtis,
 ,,Andrew Harding,VMware,azdagron,
-Incubating,SPIRE,Andrew Harding,VMware,azdagron,https://github.com/spiffe/spire/blob/main/CODEOWNERS
+Graduated,SPIRE,Andrew Harding,VMware,azdagron,https://github.com/spiffe/spire/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Marcos Yacob,HPE,MarcosDY,
 ,,Agustin Martinez Fayo,HPE,amartinezfayo,
@@ -313,7 +313,7 @@ Sandbox,Telepresence,Abhay Saxena,Datawire,ark3,https://github.com/telepresencei
 ,,Rafael Schloming,Datawire,rhs,
 ,,Richard Li,Datawire,richarddli,
 ,,Luke Shumaker,Datawire,LukeShu,
-Sandbox,OpenMetrics,Ben Kochie,GitLab,superq,https://github.com/OpenObservability/OpenMetrics/blob/master/MAINTAINERS.md
+Incubating,OpenMetrics,Ben Kochie,GitLab,superq,https://github.com/OpenObservability/OpenMetrics/blob/master/MAINTAINERS.md
 ,,Brian Brazil,Robust Perception,brian-brazil,
 ,,Jerome Froelich,Uber,jeromefroe,
 ,,Richard Hartmann,Grafana Labs,richih,
@@ -412,7 +412,7 @@ Incubating,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/commu
 ,,Kingdon Barrett, Weaveworks,kingdonb,
 ,,Paulo Gomes, Weaveworks,pjbgf,
 ,,Sanskar Jaiswal,Weaveworks,aryan9600,
-Sandbox,In-Toto,Justin Cappos,New York University,JustinCappos,https://github.com/in-toto/in-toto/blob/develop/MAINTAINERS.txt
+Incubating,In-Toto,Justin Cappos,New York University,JustinCappos,https://github.com/in-toto/in-toto/blob/develop/MAINTAINERS.txt
 ,,Lukas Puehringer,NYU,lukpueh,
 ,,Marina Moore,NYU,mnm678,
 ,,Santiago Torres,Purdue University,SantiagoTorres,
@@ -474,7 +474,7 @@ Sandbox,Service Mesh Interface,Thomas Rampelberg,Buoyant Inc,grampelberg,https:/
 ,,Michelle Noorali,Microsoft,michelleN ,
 ,,Bridget Kromhout,Microsoft,bridgetkromhout ,
 ,,Idit Levine,Solo.io,ilevine,
-Sandbox,Volcano,Klaus Ma,Huawei,k82cn,https://github.com/volcano-sh/volcano/blob/master/MAINTAINERS.md
+Incubating,Volcano,Klaus Ma,Huawei,k82cn,https://github.com/volcano-sh/volcano/blob/master/MAINTAINERS.md
 ,,Kevin Wang,Huawei,kevin-wangzefeng,
 ,,Zhonghu Xu,Huawei,hzxuzhonghu,
 ,,Thor-wl,Huawei,Thor-wl,
@@ -534,7 +534,7 @@ Sandbox,Kudo,Alena Varkockova,,alenkacz,https://github.com/kudobuilder/kudo/blob
 ,,Zain Malik,,zmalik,
 ,,Jeff McCormick,Red Hat,jmccormick2001,
 ,,Ken Sipe,d2iq,kensipe,
-Sandbox,Cloud Custodian,Kapil Thangavelu,Stacklet,kapilt,https://github.com/cloud-custodian/cloud-custodian/blob/master/OWNERS.md
+Incubating,Cloud Custodian,Kapil Thangavelu,Stacklet,kapilt,https://github.com/cloud-custodian/cloud-custodian/blob/master/OWNERS.md
 ,,Darren Dao,Intuit,darrendao,
 ,,Todd Stansell,23andMe,tjstansell,
 ,,John Hillegass,Fidelity,JohnHillegass,
@@ -552,7 +552,7 @@ Sandbox,Dex,Joel Speed ,Red Hat,JoelSpeed,https://github.com/dexidp/dex/blob/mas
 ,,Rithu John,Lyft,rithujohn191,
 ,,Stephan Renatus ,Chef,srenatus,
 ,,Stephen Augustus ,VMware,justaugustus,
-Sandbox,LitmusChaos,Chandan Kumar,MayaData,chandankumar4,https://github.com/litmuschaos/litmus/blob/master/MAINTAINERS
+Incubating,LitmusChaos,Chandan Kumar,MayaData,chandankumar4,https://github.com/litmuschaos/litmus/blob/master/MAINTAINERS
 ,,Jayesh Kumar,Self,k8s-dev,
 ,,Karthik Satchitanand,MayaData,ksatchit,
 ,,Maria Kotlyarevskaya,Dino Systems,Jasstkn,
@@ -641,7 +641,7 @@ Sandbox,k3s,Brad Davidson,SUSE,brandond,https://github.com/rancher/k3s/blob/mast
 ,,Thomas Ferrandiz,SUSE,thomasferrandiz,
 ,,Roberto Bonafiglia,SUSE,rbrtbnfgl,
 ,,Nikolai Shields,SUSE,nikolaishields,
-Sandbox,Backstage,Patrik Oldsberg,Spotify,Rugvip,https://github.com/spotify/backstage/blob/master/OWNERS.md
+Incubating,Backstage,Patrik Oldsberg,Spotify,Rugvip,https://github.com/spotify/backstage/blob/master/OWNERS.md
 ,,Fredrik Adelöw,Spotify,freben,
 ,,Johan Haals,Spotify,jhaals,
 ,,Ben Lambert,Spotify,benjdlambert,
@@ -714,7 +714,7 @@ Sandbox ,Cloud Development Kit for Kubernetes (cdk8s),Elad Ben-Israel,,eladb,htt
 ,,Eli Polonsky,Amazon,iliapolo,
 ,,Nathan Taber,Amazon,tabern,
 ,,Chris Rybicki,Amazon,Chriscbr,
-Sandbox,cert-manager,James Munnelly,Apple,munnerz,https://github.com/jetstack/cert-manager/blob/master/OWNERS
+Incubating,cert-manager,James Munnelly,Apple,munnerz,https://github.com/jetstack/cert-manager/blob/master/OWNERS
 ,,Josh Van Leeuwen,Jetstack,joshvanl,
 ,,Maartje Eyskens,,meyskens,
 ,,Richard Wall,Jetstack,wallrj,
@@ -740,7 +740,7 @@ Sandbox,Pravega,Flavio Junqueira,Pravega,fpj,https://github.com/pravega/.github/
 ,,Srikanth Satya,Wheels Up,,
 ,,Brian Zhou,Dell,crazyzhou,
 ,,Raul Gracia,Dell,RaulGracia,
-Sandbox,Kyverno,Jim Bugwadia,Nirmata,JimBugwadia,https://github.com/kyverno/kyverno/blob/main/MAINTAINERS.md
+Incubating,Kyverno,Jim Bugwadia,Nirmata,JimBugwadia,https://github.com/kyverno/kyverno/blob/main/MAINTAINERS.md
 ,,Shuting Zhao,Nirmata,realshuting,
 ,,Chip Zoller,Dell Technologies,chipzoller,
 ,,Marcel Muller,Giant Swarm GmbH,MarcelMue,
