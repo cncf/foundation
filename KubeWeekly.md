@@ -18,6 +18,16 @@ To provide high-value content to the community, the editors review article submi
 * No gated content, unless in the webinar section.
 * Articles should be published within the last week. Exceptions will be made for good content we missed.
 
+## Editor requirements:
+
+Commitment: Half-year (temp)
+
+* 1-2 hours a week; scanning for content and reviewing submissions (async)
+* Wednesday afternoon for review time, add notes for articles not chosen
+* Kickoff call/1x quarter to touch base 
+* Actively contributing to 1x project
+* Ability to have an unbiased/vendor-neutral perspective when choosing/approving articles
+
 
 **Types of Content**
 The types of content shared includes but is not limited to: 
