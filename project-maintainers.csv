@@ -175,6 +175,7 @@ Graduated,TUF (The Update Framework),Sebastien Awwad,NYU,awwad,https://github.co
 ,,Joshua Lock,VMware,joshuagl,
 ,,Jussi Kukkonen,,jku,
 Incubating,Notary,Justin Cormack ,Docker,justincormack,https://github.com/notaryproject/notary/blob/master/MAINTAINERS
+,,Feynman Zhou,Microsoft,feynmanzhou
 ,,Steve Lasker,Microsoft,stevelasker,
 ,,Niaz Kahn,AWS,niazfk,
 ,,Hu Keping,Huawei,HuKeping,
@@ -931,6 +932,7 @@ Sandbox,Krator,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/krator
 ,,Kevin Flansburg,,kflansburg,
 ,,Matt Butcher,Microsoft,technosophos,
 Sandbox,ORAS (OCI Registry as Storage),Avi Deitcher,,deitch,https://github.com/oras-project/oras/blob/main/OWNERS
+,,Feynman Zhou,Microsoft,feynmanzhou
 ,,Josh Dolitsky,Blood Orange,jdolitsky,
 ,,Sajay Antony,Microsoft,sajayantony,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,
