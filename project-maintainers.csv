@@ -1021,12 +1021,11 @@ Sandbox,Devfile,Andreas Resios,AWS,resios, https://github.com/devfile/api/blob/m
 ,,Ida Olsen,AWS,miaida,
 ,,Stevan Le Meur,Red Hat,slemeur,
 ,,Tomas Kral,Red Hat,kadel,
-Incubating,Knative,April Kyle Nassi,Google,thisisnotapril, https://github.com/knative/community/blob/main/OWNERS_ALIASES
-,,Carlos Santana,IBM,csantanapr,
+Incubating,Knative,Carlos Santana,AWS,csantanapr, https://github.com/knative/community/blob/main/OWNERS_ALIASES
 ,,Lance Ball,Red Hat,lance,
 ,,Murugappan Chetty,Optum,itsmurugappan,
-,,Paul Morie,Independent,pmorie,
-,,Ville Aikas,Chainguard,vaikas,
+,,Naina Singh,Red Hat,nainaz,
+,,Mauricio Salatino,VMware,salaboy,
 ,,Dave Protasowski,VMware,dprotaso,
 ,,Evan Anderson,VMware,evankanderson,
 ,,David Simansky,Red Hat,dsimansk,
