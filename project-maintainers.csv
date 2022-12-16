@@ -1139,7 +1139,7 @@ Sandbox,kubewarden,Flavio Castelli,SUSE,flavio,https://github.com/orgs/kubewarde
 ,,Raul Cabello Martin r,SUSE,raulcabello,
 ,,Rafael Fernández López ,VMware,ereslibre,
 ,,Olivier Vernin,SUSE,olblak,
-Incubating,Istio (Steering Committee),Ameer Abbas,Google,ameer00,https://github.com/istio/community/tree/master/steering#members
+Incubating,Istio: Steering Committee,Ameer Abbas,Google,ameer00,https://github.com/istio/community/tree/master/steering#members
 ,,Srihari Angaluri,IBM,angaluri,
 ,,Craig Box,ARMO,craigbox,
 ,,Rob Cernich,Red Hat,rcernich,
@@ -1151,12 +1151,12 @@ Incubating,Istio (Steering Committee),Ameer Abbas,Google,ameer00,https://github.
 ,,Jason McGee,IBM,CloudJason,
 ,,Christian Posta,Solo.io,christian-posta,
 ,,Louis Ryan,Google,louiscryan,
-,Technical Oversight Committee,Mitch Connors,Aviatrix,therealmitchconnors,https://github.com/istio/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md#committee-members
+,Istio: Technical Oversight Committee,Mitch Connors,Aviatrix,therealmitchconnors,https://github.com/istio/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md#committee-members
 ,,John Howard,Google,howardjohn,
 ,,Neeraj Poddar,Solo.io,nrjpoddar,
 ,,Lin Sun,Solo.io,linsun,
 ,,Eric Van Norman,IBM,ericvn,
-,Working Group Leads,Rama Chavali,Salesforce,ramaraochavali,https://github.com/istio/community/blob/master/WORKING-GROUPS.md#working-group-leads
+,Istio: Working Group Leads,Rama Chavali,Salesforce,ramaraochavali,https://github.com/istio/community/blob/master/WORKING-GROUPS.md#working-group-leads
 ,,Jacob Delgado,F5,jacob-delgado,
 ,,Steven Landow,Google,stevenctl,
 ,,Lei Tang,Google,lei-tang,
@@ -1168,7 +1168,7 @@ Incubating,Istio (Steering Committee),Ameer Abbas,Google,ameer00,https://github.
 ,,Lizan Zhou,Tetrate,lizan,
 ,,Greg Hanson,Solo.io,GregHanson,
 ,,Jianpeng He,Huawei,zirain,
-,Maintainers,Aditya Prerepa,Aviatrix,adiprerepa,https://github.com/istio/community/blob/master/org/teams.yaml
+,Istio: Maintainers,Aditya Prerepa,Aviatrix,adiprerepa,https://github.com/istio/community/blob/master/org/teams.yaml
 ,,Amit Jain,VMWare,amjain-vmware,
 ,,Andrea Ma,IBM,andream12345,
 ,,Aryan Gupta,Google,aryan16,
