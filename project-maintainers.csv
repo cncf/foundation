@@ -944,11 +944,12 @@ Sandbox,ORAS (OCI Registry as Storage),Avi Deitcher,,deitch,https://github.com/o
 Sandbox,wasmCloud,Brooks Townsend,Capital One,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/OWNERS
 ,,Liam Randall,Cosmonic,liamrandall,
 ,,Kevin Hoffman,wasmCloud,autodidaddict,
-Sandbox,Akri,Kate Goldenring,Microsoft,kate-goldenring,https://github.com/deislabs/akri/blob/main/CODEOWNERS
+Sandbox,Akri,Kate Goldenring,Fermyon,kate-goldenring,https://github.com/project-akri/akri/blob/main/CODEOWNERS
 ,,Brian Fjeldstad,Microsoft,bfjelds,
 ,,Roaa Sakr,Microsoft,romoh,
 ,,Jiri Appl,Microsoft,jiria,
-,,Edrick Wong,Microsoft,edrickwong,
+,,Edrick Wong,Amazon,edrickwong,
+,,Adithya Jayachandran,Microsoft,adithyaj,
 Sandbox,MetalLB,Rodrigo Campos,Microsoft,rata,https://github.com/metallb/metallb/blob/main/CODEOWNERS
 ,,Johannes Liebermann,Microsoft,johananl,
 ,,Russell Bryant,Red Hat,russellb,
