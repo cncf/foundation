@@ -257,16 +257,14 @@ Graduated,Open Policy Agent,Tim Hinrichs,Styra,timothyhinrichs,https://github.co
 ,,Oren Shomron,VMware,shomron,
 ,,Max Smythe,Google,maxsmythe,
 ,,Craig Tabita,Google,ctab,
-Incubating,CRI-O,Mrunal Patel,Red Hat,mrunalp,https://github.com/cri-o/cri-o/blob/master/OWNERS
-,,Antonio Murdaca,Red Hat,runcom,
-,,Samuel Ortiz,Intel,sameo,
-,,Daniel Walsh,Red Hat,rhatdan,
+Incubating,CRI-O,Mrunal Patel,Red Hat,mrunalp,https://github.com/cri-o/cri-o/blob/main/OWNERS
 ,,Nalin Dahyabhai,Red Hat,nalind,
 ,,Giuseppe Scrivano,Red Hat,giuseppe,
-,,Sebastien Boeuf,Intel,sboeuf,
 ,,Urvashi Mohnani,Red Hat,umohnani8,
-,,Sascha Grunert,SUSE,saschagrunert,
-,,Valentin Rothberg,Red Hat,vrothberg,
+,,Sascha Grunert,Red Hat,saschagrunert,
+,,Peter Hunt,Red Hat,haircommander,
+,,Fabiano Fidêncio,Intel,fidencio,
+,,Kir Kolyshkin,Red Hat,kolyshkin
 Graduated,TiKV,Siddon Tang,PingCAP,siddontang,https://github.com/tikv/tikv/blob/master/MAINTAINERS.md
 ,,Jay Li,PingCAP,busyjay,
 ,,Jinpeng Zhang,PingCAP,zhangjinpeng1987,
