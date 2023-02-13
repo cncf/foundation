@@ -720,10 +720,12 @@ Sandbox,SchemaHero ,Marc Campbell ,Replicated,marccampbell,https://github.com/sc
 ,,Dan Stough,Replicated,danstough,
 ,,Salah Aldeen Al Saleh,Replicated,sgalsaleh,
 ,,Treva Nichole Williams,Replicated,OGtrilliams,
-Sandbox ,Cloud Development Kit for Kubernetes (cdk8s),Elad Ben-Israel,,eladb,https://github.com/cdk8s-team/cdk8s/blob/master/OWNERS.md
-,,Eli Polonsky,Amazon,iliapolo,
+Sandbox ,Cloud Development Kit for Kubernetes (cdk8s),Eli Polonsky,Amazon,iliapolo,https://github.com/cdk8s-team/cdk8s/blob/master/OWNERS.md
+,,Vinayak Kukreja,Amazon,vinayak-kukreja,
+,,Sumu Pitchayan,Amazon,sumupitchayan,
+,,Evgeny Karasik,Amazon,evgenyka,
+,,Uday Pant,Amazon,udaypant,
 ,,Nathan Taber,Amazon,tabern,
-,,Chris Rybicki,Amazon,Chriscbr,
 Incubating,cert-manager,James Munnelly,Apple,munnerz,https://github.com/jetstack/cert-manager/blob/master/OWNERS
 ,,Josh Van Leeuwen,Jetstack,joshvanl,
 ,,Maartje Eyskens,,meyskens,
