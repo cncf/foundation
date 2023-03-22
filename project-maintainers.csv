@@ -177,11 +177,17 @@ Graduated,TUF (The Update Framework),Sebastien Awwad,NYU,awwad,https://github.co
 ,,Santiago Torres-Arias,NYU,SantiagoTorres,
 ,,Joshua Lock,VMware,joshuagl,
 ,,Jussi Kukkonen,,jku,
-Incubating,Notary,Justin Cormack ,Docker,justincormack,https://github.com/notaryproject/notary/blob/master/MAINTAINERS
-,,Steve Lasker,Microsoft,stevelasker,
+Incubating,Notary,Justin Cormack ,Docker,justincormack,https://github.com/notaryproject/.github/blob/main/MAINTAINERS
+,,Steve Lasker,Individual,stevelasker,
 ,,Niaz Kahn,AWS,niazfk,
 ,,Hu Keping,Huawei,HuKeping,
 ,,Marina More,NYU,mnm678,
+,,Feynman Zhou,Microsoft,FeynmanZhou,
+,,Milind Gokarn,AWS,gokarnm,
+,,Pritesh Bandi,AWS,priteshbandi,
+,,Toddy Mladenov,Microsoft,toddysm,
+,,Vani Rao,AWS,vaninrao10,
+,,Yi Zha,Microsoft,yizha1,
 Incubating,NATS,Colin Sullivan,Luxant Solutions,ColinSullivan1,https://github.com/nats-io/nats-general/blob/master/MAINTAINERS.md
 ,,Derek Collison,Synadia,derekcollison,
 ,,Ivan Kozlovic,Synadia,kozlovic,
