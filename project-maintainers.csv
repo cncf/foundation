@@ -1250,10 +1250,8 @@ Sandbox,Armada,Alex Scammon,G-Research,stackedsax,https://github.com/G-Research/
 ,,Albin Severinson,G-Research,severinson,
 ,,Dejan Zele Pejchev,G-Research,dejanzele,
 ,,Geoffrey Wilson,G-Research,suprjinx,
-Sandbox,Carvel,Dmitriy Kalinin,VMware,cppforlife,
-,,Aaron Hurley,VMware,aaronshurley,
+Sandbox,Carvel,Dmitriy Kalinin,VMware,cppforlife, https://github.com/carvel-dev/carvel/blob/develop/MAINTAINERS.md
 ,,João Pereira,VMware,joaopapereira,
-,,Joe Kimmel,VMware,joe-kimmel-vmw,
 ,,John Brunton,converge.io,jbrunton,
 ,,John Ryan,VMware,jtigger,
 ,,Kumari Tanushree,VMware,kumaritanushree,
