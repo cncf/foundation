@@ -951,11 +951,11 @@ Sandbox,Krator,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/krator
 ,,Matt Fisher,Microsoft,bacongobbler,
 ,,Kevin Flansburg,,kflansburg,
 ,,Matt Butcher,Microsoft,technosophos,
-Sandbox,ORAS (OCI Registry as Storage),Avi Deitcher,,deitch,https://github.com/oras-project/oras/blob/main/OWNERS
-,,Josh Dolitsky,Blood Orange,jdolitsky,
+Sandbox,ORAS (OCI Registry as Storage),Andrew Block,Red Hat,sabre1041,https://github.com/oras-project/community/blob/main/OWNERS.md
 ,,Sajay Antony,Microsoft,sajayantony,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,
 ,,Steve Lasker,Microsoft,stevelasker,
+,,Terry Howe,AWS,Terry Howe,
 Sandbox,wasmCloud,Brooks Townsend,Capital One,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/OWNERS
 ,,Liam Randall,Cosmonic,liamrandall,
 ,,Kevin Hoffman,wasmCloud,autodidaddict,
