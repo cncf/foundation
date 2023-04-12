@@ -1,0 +1,1 @@
+The Brigade project is a cloud-native computing foundation (CNCF) sandbox project that was created to provide an event-driven scripting framework for Kubernetes. Brigade allows developers to build event-driven workflows using JavaScript, enabling them to automate complex tasks within a Kubernetes cluster.
