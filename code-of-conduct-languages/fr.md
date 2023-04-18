@@ -1,8 +1,5 @@
 Ce texte est également disponible à l'adresse suivante: https://github.com/cncf/foundation/blob/master/code-of-conduct.md
 
-À TRADUIRE :
-------------
-
 Code de conduite de la communauté de la CNCF v1.0
 -------------------------------------------------
 
