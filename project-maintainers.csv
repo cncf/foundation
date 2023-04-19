@@ -312,10 +312,10 @@ Graduated,SPIRE,Andrew Harding,VMware,azdagron,https://github.com/spiffe/spire/b
 ,,Marcos Yacob,HPE,MarcosDY,
 ,,Agustin Martinez Fayo,HPE,amartinezfayo,
 ,,Ryan Turner,Uber,rturner3,
-Sandbox,Telepresence,Abhay Saxena,Datawire,ark3,https://github.com/telepresenceio/telepresence/blob/master/MAINTAINERS.md
-,,Rafael Schloming,Datawire,rhs,
-,,Richard Li,Datawire,richarddli,
-,,Luke Shumaker,Datawire,LukeShu,
+Sandbox,Telepresence,Jose Cortes,Datawire,josecv,https://github.com/telepresenceio/telepresence/blob/release/v2/MAINTAINERS.md
+,,Kévin Lambert,Datawire,knlambert,
+,,Nick Powell,Datawire,njayp,
+,,Thomas Hallgren,Datawire,thallgren,
 Incubating,OpenMetrics,Ben Kochie,GitLab,superq,https://github.com/OpenObservability/OpenMetrics/blob/master/MAINTAINERS.md
 ,,Brian Brazil,Robust Perception,brian-brazil,
 ,,Jerome Froelich,Uber,jeromefroe,
