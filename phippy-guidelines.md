@@ -4,7 +4,7 @@ Are you a maintainer on a graduated project? Do you want to help others better u
 
 ## Background ##
 
-In 2016, [Deis](http://deis.io/) (now part of Microsoft Azure) platform architect Matt Butcher was looking for a way to explain Kubernetes to technical and non-technical people alike. Inspired by his daughter’s prolific stuffed animal collection, he came up with the idea of [“The Children’s Illustrated Guide to Kubernetes.”](https://www.cncf.io/the-childrens-illustrated-guide-to-kubernetes/) Together with Karen Chu, and Bailey Beougher, he created Phippy, the yellow PHP application giraffe, and set her off on her first adventure.
+In 2016, [Deis](http://deis.io/) (now part of Microsoft Azure) platform architect Matt Butcher was looking for a way to explain Kubernetes to technical and non-technical people alike. Inspired by his daughter’s prolific stuffed animal collection, he came up with the idea of [“The Children’s Illustrated Guide to Kubernetes.”](https://www.cncf.io/phippy/the-childrens-illustrated-guide-to-kubernetes/) Together with Karen Chu, and Bailey Beougher, he created Phippy, the yellow PHP application giraffe, and set her off on her first adventure.
 
 In 2018, Phippy was donated to the Linux Foundation and today the Phippy characters are free to use to teach others about cloud native computing. 
 
