@@ -1023,9 +1023,12 @@ Sandbox,K8up,Tobias Brunner,VSHN AG,tobru,https://github.com/k8up-io/k8up/blob/m
 ,,Simon Beck,VSHN AG,Kidswiss,
 ,,Christian Cremer,VSHN AG,ccremer,
 ,,Christian Häusler,,corvus-ch,
-Sandbox,KubeArmor,Rahul Jadhav,Accuknox,nyrahul,https://github.com/kubearmor/KubeArmor/blob/main/MAINTAINERS.md
-,,Asif Ali,Accuknox,asifalix,
-,,Jaehyun Nam,Accuknox,nam-jaehyun,
+Sandbox,KubeArmor,Rahul Jadhav,AccuKnox,nyrahul,https://github.com/kubearmor/KubeArmor/blob/main/MAINTAINERS.md
+,,Achref Ben Saad,AccuKnox,achrefbensaad,
+,,Ankur Kothiwal,AccuKnox,Ankurk99,
+,,Anurag Kumar,,kranurag7,
+,,Barun Acharya,AccuKnox,daemon1024,
+,,Jaehyun Nam,AccuKnox,nam-jaehyun,
 Sandbox,kube-rs,Eirik Albrigtsen,TrueLayer,clux,https://github.com/kube-rs/.github/blob/main/maintainers.md
 ,,Teo Klestrup Röijezon,Stackable,teozkr,
 ,,Kaz Yoshihara,Qualified,kazk,
