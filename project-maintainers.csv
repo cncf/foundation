@@ -785,9 +785,12 @@ Sandbox,Kube-OVN,Mengxin Liu,Alauda,oilbeater,https://github.com/alauda/kube-ovn
 ,,Riming Fan,China Telecom,fanriming,
 ,,Tao Liu,Alauda,lut777,
 ,,Bingbing Zhang,Yealink,bobz965,
-Sandbox,k8dash,Eric Herbrandson,Indeed,herbrandson,https://github.com/indeedeng/k8dash/blob/master/MAINTAINERS
+Sandbox,skooner,Eric Herbrandson,Indeed,herbrandson,https://github.com/skooner-k8s/skooner/blob/master/MAINTAINERS
 ,,Arthur Tu,Indeed,tianni4104,
+,,Renisha Nellums,Indeed,coffeesippa,
+,,Yuqiu Wang,Indeed,yuqiuw,
 ,,Charlie Gao,Indeed,chargao,
+,,Jeff Ng,Indeed,jeffhem,
 Sandbox,Distribution,Chris Patterson,GitHub,chrispat,https://github.com/distribution/distribution/blob/main/MAINTAINERS
 ,,Bryan Clark,GitHub,clarkbw,
 ,,Hayley Swimelar,Gitlab,deleteriousEffect,
