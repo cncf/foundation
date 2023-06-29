@@ -1,0 +1,164 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: cncf-exceptions-2023-06-27
+DocumentNamespace: https://github.com/cncf/foundation/license-exceptions-2023-06-27
+Creator: Organization: CNCF
+Created: 2023-06-27T14:38:55Z
+
+##### Package: hashicorp/go-plugin
+
+PackageName: hashicorp/go-plugin
+SPDXID: SPDXRef-Package2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+
+##### Package: hashicorp/go-immutable-radix
+
+PackageName: hashicorp/go-immutable-radix
+SPDXID: SPDXRef-Package3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/raft
+
+PackageName: hashicorp/raft
+SPDXID: SPDXRef-Package4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/go-rootcerts
+
+PackageName: hashicorp/go-rootcerts
+SPDXID: SPDXRef-Package5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/go-sockaddr
+
+PackageName: hashicorp/go-sockaddr
+SPDXID: SPDXRef-Package6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/vault
+
+PackageName: hashicorp/vault
+SPDXID: SPDXRef-Package7
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/consul/api
+
+PackageName: hashicorp/consul/api
+SPDXID: SPDXRef-Package8
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/serf
+
+PackageName: hashicorp/serf
+SPDXID: SPDXRef-Package9
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/go-hclog
+
+PackageName: hashicorp/go-hclog
+SPDXID: SPDXRef-Package10
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/go-secure-stdlib
+
+PackageName: hashicorp/go-secure-stdlib
+SPDXID: SPDXRef-Package11
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/go-uuid
+
+PackageName: hashicorp/go-uuid
+SPDXID: SPDXRef-Package12
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/go-version
+
+PackageName: hashicorp/go-version
+SPDXID: SPDXRef-Package13
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+
+##### Package: hashicorp/yamux
+
+PackageName: hashicorp/yamux
+SPDXID: SPDXRef-Package14
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+
+##### Package: veraison/go-cose
+
+PackageName: veraison/go-cose
+SPDXID: SPDXRef-Package15
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
