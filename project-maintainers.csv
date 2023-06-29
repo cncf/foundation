@@ -924,12 +924,16 @@ Sandbox,Service Mesh Performance,Lee Calcote,Layer5,leecalcote,https://github.co
 ,,Utkarsh Srivastava,Layer5,utkarsh-pro,
 ,,Abishek Kumar,Layer5,kumarabd,
 ,,Navendu Pottekkat,Layer5,navendu-pottekkat,
-Sandbox,KubeVela,Jianbo Sun,Alibaba,wonderflow,https://github.com/kubevela/community/blob/main/OWNERS.md
+Incubating,KubeVela,Jianbo Sun,Alibaba,wonderflow,https://github.com/kubevela/community/blob/main/OWNERS.md
 ,,Zheng Xi Zhou,Independent,zzxwill,
 ,,guoxudong,GitLab,sunny0826 ,
 ,,Qingguo Zeng,Alibaba,barnettZQG,
 ,,Da Yin,Alibaba,Somefive,
 ,,Jiahang Xu,China Merchants Bank,jefree-cat,
+,,Daniel Higuero,Napptive,dhiguero
+,,Anoop Gopalakrishnan,Guidewire,anoop2811
+,,Fog Dong,BentoML,FogDong
+,,Lei Zhang,JD.com,StevenLeiZhang
 Sandbox,Serverless Devs,Anycodes,National University of Defense Technology,anycodes,https://github.com/Serverless-Devs/Serverless-Devs/blob/master/OWNERS
 ,,Kun Yuan,Alibaba Cloud,heimanba,
 ,,Shoushuai Wang,Boyan,wss-git,
@@ -1273,6 +1277,13 @@ Sandbox,Carvel,Dmitriy Kalinin,VMware,cppforlife, https://github.com/carvel-dev/
 ,,Soumik Majumder,VMware,100mik,
 ,,Varsha Munishwar,VMware,vmunishwar,
 ,,Yash Sethiya,VMware,sethiyash,
+Sandbox,HwameiStor,Liang Sun,DaoCloud,sun7927,https://github.com/hwameistor/hwameistor/blob/main/MAINTAINERS.md
+,,MingMing Zhou,DaoCloud,SSmallMonster,
+,,buffalo1024,DaoCloud,buffalo1024,
+,,Kay Yan,DaoCloud,yankay,
+,,A_tian,DaoCloud,FloatXD,
+,,EchoS,DaoCloud,zhaosimon,
+,,Michael Yao,DaoCloud,windsonsea,
 Sandbox,Merbridge,Kebe Liu,DaoCloud,kebe7jun,https://github.com/merbridge/merbridge/blob/main/MAINTAINERS.md
 ,,Wenqing Dai,Zhejiang University,dddddai,
 ,,Xunzhuo Liu,Tencent,Xunzhuo,
@@ -1323,6 +1334,7 @@ Sandbox,Clusternet,Di Xu,Tencent,dixudx,https://github.com/clusternet/clusternet
 ,,Lingming Xia,Purple Mountain Laboratory,lmxia,
 ,,Yiwei Chen,Independent,yiwei-C,
 Incubating,Keycloak,Stian Thorgersen,Red Hat,stianst,https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md
+,,Alexander Schwartz,Red Hat,ahus1,
 ,,Bruno Oliveira da Silva,Red Hat,abstractj,
 ,,Hynek Mlnařík,Red Hat,hmlnarik,
 ,,Marek Posolda,Red Hat,mposolda,
@@ -1369,5 +1381,10 @@ Sandbox,Headlamp,Joaquim Rocha,Microsoft,joaquimrocha,https://github.com/headlam
 ,,Ashu Ghildiyal,Microsoft,ashu8912,
 ,,Santhosh Nagaraj,Microsoft,yolossn,
 ,,Kautilya Tripathi,Microsoft,knrt10,
+Sandbox,Xline,Jiawei Zhao,Datenlord,Phoenix500526,https://github.com/datenlord/Xline/blob/master/MAINTAINERS
+,,Jicheng Shi,Datenlord,rogercloud,
+,,Yu Guan,Datenlord,themanforfree,
+,,Zhenghao Yin,Datenlord,bsbds,
+,,Wenhui Tang,Datenlord,iGxnon,
 Sandbox,Microcks,Laurent Broudoux,Postman,lbroudoux,https://github.com/microcks/.github/blob/main/MAINTAINERS.md
 ,,Yacine Kheddache,Postman,yada,
