@@ -42,7 +42,7 @@ PackageComment: not auto-allowlist because: Non-allowlist license(s); approved b
 
 ##### Package: raft-boltdb
 
-PackageName: raft
+PackageName: raft-boltdb
 SPDXID: SPDXRef-Package5
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
