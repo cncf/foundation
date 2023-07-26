@@ -8,6 +8,7 @@ Other languages available:
 - [Farsi/فارسی](code-of-conduct-languages/fa.md)
 - [French/Français](code-of-conduct-languages/fr.md)
 - [German/Deutsch](code-of-conduct-languages/de.md)
+- [Hindi/हिन्दी](code-of-conduct-languages/hi.md)
 - [Indonesian/Bahasa Indonesia](code-of-conduct-languages/id.md)
 - [Italian/Italiano](code-of-conduct-languages/it.md)
 - [Japanese/日本語](code-of-conduct-languages/jp.md)
