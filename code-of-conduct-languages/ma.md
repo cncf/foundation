@@ -1,6 +1,6 @@
 ## CNCF सामुदायिक आचार संहिता v1.3
 
-अन्य भाषाएँ उपलब्ध:
+अन्य भाषा उपलब्ध:
 - [अरबी/العربية](code-of-conduct-languages/ar.md)
 - [बल्गेरियाई/Български](code-of-conduct-languages/bg.md)
 - [चीनी/中文](code-of-conduct-languages/zh.md)
