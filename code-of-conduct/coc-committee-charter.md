@@ -1,5 +1,3 @@
-**PROPOSED DRAFT: This proposed working draft is under review and development by the [Code of Conduct Working Group](https://github.com/cncf/wg-coc). It is not a final document. If you would like to propose changes to this document, please do so by opening a pull request, opening an issue, or posting a comment. The first version of this proposed draft was contributed by the [Interim CNCF Code of Conduct Committee](https://www.cncf.io/conduct/committee/) and is based on the interim committee’s own [committee description](https://www.cncf.io/conduct/committee/).**
-
 # CNCF Code of Conduct Committee Charter
 
 ## Purpose
