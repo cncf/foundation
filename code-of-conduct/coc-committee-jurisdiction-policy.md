@@ -137,7 +137,7 @@ If none of the <span style="text-decoration:underline;">Risk Factors</span> abov
 
 ### How to Contact LF Legal Counsel
 
-LF Legal counsel can be contacted at [__________].
+LF Legal counsel can be contacted at coclegal@linuxfoundation.org.
 
 
 ## Central Recordkeeping and Notification
