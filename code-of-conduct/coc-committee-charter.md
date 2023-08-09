@@ -1,5 +1,3 @@
-**PROPOSED DRAFT: This proposed working draft is under review and development by the [Code of Conduct Working Group](https://github.com/cncf/wg-coc). It is not a final document. If you would like to propose changes to this document, please do so by opening a pull request, opening an issue, or posting a comment. The first version of this proposed draft was contributed by the [Interim CNCF Code of Conduct Committee](https://www.cncf.io/conduct/committee/) and is based on the interim committee’s own [committee description](https://www.cncf.io/conduct/committee/).**
-
 # CNCF Code of Conduct Committee Charter
 
 ## Purpose
@@ -70,7 +68,7 @@ When a Code of Conduct incident is subject to both the CNCF Code of Conduct and 
 
 ## CNCF Governing Board Liaison
 
-The CNCF Governing Board shall designate a representative to serve as a liaison (the "GB Liaison") to coordinate efforts between the Governing Board and CoC Committee when the CoC Committee deems such coordination to be in the best interests of the community. The GB Liaison shall not participate in the investigation (except as a witness if appropriate) or decision-making regarding how an incident should be resolved. The GB Liaison is required to comply with the [Confidentiality Policy](https://github.com/cncf/wg-coc/blob/main/coc-incident-resolution-procedures-proposed.md#confidentiality-policy). 
+The CNCF Governing Board shall designate a representative to serve as a liaison (the "GB Liaison") to coordinate efforts between the Governing Board and CoC Committee when the CoC Committee deems such coordination to be in the best interests of the community. The GB Liaison shall not participate in the investigation (except as a witness if appropriate) or decision-making regarding how an incident should be resolved. The GB Liaison is required to comply with the [Confidentiality Policy](coc-incident-resolution-procedures.md#confidentiality-policy). 
 
 ## Information Sharing with TOC and Governing Board
 
