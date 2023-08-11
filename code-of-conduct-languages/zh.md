@@ -40,9 +40,7 @@ CNCF 社区是开放、包容和尊重的。社区的每个成员都有权让自
 * 未经明确许可，发布他人的私密信息，比如地址或电子邮箱
 * 暴力、暴力威胁或鼓励他人从事暴力行为
 * 未经同意跟踪或跟随他人
-* Unwelcome physical contact
 * 不受欢迎的身体接触
-* Unwelcome sexual or romantic attention or advances
 * 不受欢迎的性或浪漫的追求和挑逗
 * 其他可能视为不道德或不专业的行为
 
