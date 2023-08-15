@@ -91,7 +91,7 @@ The CoC Committee may, in its discretion, engage external mediators, investigato
 
 ## Incident Resolution Procedures
 
-Please see our [Jurisdiction Policy](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-committee-jurisdiction-policy.md)) and our [Incident Resolution Procedures](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md), which address:
+Please see our [Jurisdiction Policy](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-committee-jurisdiction-policy.md) and our [Incident Resolution Procedures](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md), which address:
 
 -   How to submit a report
 -   What information to share in your report
