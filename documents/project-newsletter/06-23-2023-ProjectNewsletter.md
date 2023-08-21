@@ -1,8 +1,7 @@
 Cloud Native Project Monthly (CNPM) June 2023  
 June 23, 2023 
 
-Welcome back from Kubecon! 
-This is our Projects update, this will go out once a month, letting CNCF maintainers know of upcoming deadlines, outreach or other useful things going on in the wider community of CNCF.
+This is our Projects update, this will go out once a month letting CNCF maintainers know of upcoming deadlines, outreach or other useful things going on in the wider community of CNCF.
 
 In this edition for June 2023: 
 ## Upcoming Maintainers' Circle
