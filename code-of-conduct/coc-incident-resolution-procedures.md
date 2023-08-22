@@ -180,7 +180,7 @@ Project-level Code of Conduct responders, the CNCF CoC Committee, and The Linux 
     
 -   Implementing protective measures and protecting community members from harm,
     
--   Issuing public transparency reports regarding CNCF Code of Conduct incidents (similar to [transparency reports issued by the Linux Foundation](https://www.linuxfoundation.org/blog/linux-foundation-events-code-of-conduct-transparency-report-2021-event-summary/)). Such transparency reports will not disclose the identities of reporters, persons harmed, or witnesses. Depending on the resolution of an incident, the accused person might or might not be named in a transparency report or other communication to the community.
+-   Issuing public transparency reports regarding CNCF Code of Conduct incidents (similar to [transparency reports issued by the Linux Foundation](https://www.linuxfoundation.org/blog/blog/linux-foundation-events-code-of-conduct-transparency-report-2021-event-summary/)). Such transparency reports will not disclose the identities of reporters, persons harmed, or witnesses. Depending on the resolution of an incident, the accused person might or might not be named in a transparency report or other communication to the community.
 
 ## Confidentiality Policy
 

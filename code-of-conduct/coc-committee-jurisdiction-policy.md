@@ -44,7 +44,7 @@ Projects that have their own designated Code of Conduct (CoC) responders have ju
 Project-level Code of Conduct responders shall promptly transfer a reported incident to the [CNCF CoC Committee](http://www.cncf.io/conduct/committee) if any of the following are true:
 
 * The incident is project-agnostic or impacts multiple CNCF projects.
-* A majority of project-level Code of Conduct responders have hard conflicts of interest (as described in the [Conflict of Interest Policy](https://www.cncf.io/conduct/procedures/#conflicts-of-interest)).
+* A majority of project-level Code of Conduct responders have hard conflicts of interest (as described in the [Conflict of Interest Policy](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#conflicts-of-interest)).
 * Laws or regulations may have been violated.
 * The incident or its resolution is likely to expose CNCF, the LF, or CNCF project or community leaders (including the CNCF CoC Committee or other CoC responders) to legal risk or liability as determined in accordance with “Legal Risk Analysis’ below.
 
@@ -54,7 +54,7 @@ Project-level Code of Conduct responders shall promptly transfer a reported inci
 An involved party (a reporter, a person who was targeted or harmed by the incident, or the accused person) can appeal a decision of project-level CoC responders to the CNCF CoC Committee. The CNCF CoC Committee may reverse or overturn a Project-level decision regarding a CoC incident only in the following circumstances:
 
 * The Project-level CoC responders lacked jurisdiction and were required to transfer the incident to the CNCF CoC Committee per “Transfer by Project CoC Responders” above; 
-* Individuals who have hard conflicts of interest (see the [Conflict of Interest Policy](https://www.cncf.io/conduct/procedures/#conflicts-of-interest)) decided the outcome of the incident;
+* Individuals who have hard conflicts of interest (see the [Conflict of Interest Policy](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#conflicts-of-interest)) decided the outcome of the incident;
 * The Project-level responders did not conduct a fair evaluation of the incident (e.g., they failed to review relevant evidence that was available to them);
 * The Project-level responders violated applicable policies or procedures of the project or of CNCF, or violated applicable laws, when responding to or resolving the incident;
 * The outcome is grossly disproportionate to the alleged misconduct (e.g., permanent ban for an single instance of minor misconduct with a low probability of recurrence) or grossly inadequate to protect the community from further harm (e.g., mere warning to an individual who continues to engage in severe misconduct that endangers the safety of others).
@@ -70,11 +70,11 @@ The [CNCF CoC Committee](http://www.cncf.io/conduct/committee) has jurisdiction 
 
 The CNCF CoC Committee  will transfer an incident to the Linux Foundation if any of the following are true:
 
-* The members of the CNCF CoC Committee who are available to resolve the incident do not meet the following minimums: (a) there must be at least one committee member with no hard or soft conflicts of interest and (b) there must be at least three committee members with no hard conflicts of interest.  See our [Conflict of Interest Policy](https://www.cncf.io/conduct/procedures/#conflicts-of-interest) for a description of hard and soft conflicts.
+* The members of the CNCF CoC Committee who are available to resolve the incident do not meet the following minimums: (a) there must be at least one committee member with no hard or soft conflicts of interest and (b) there must be at least three committee members with no hard conflicts of interest.  See our [Conflict of Interest Policy](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#conflicts-of-interest) for a description of hard and soft conflicts.
 * The incident impacts one or more LF communities besides CNCF.
 * The incident or its resolution is likely to expose CNCF, the LF, or CNCF project or community leaders (including the CNCF CoC Committee or other CoC responders) to legal risk or liability as determined in accordance with “Legal Risk Analysis’ below.
 
-If an incident is reported to the [CNCF CoC Committee](www.cncf.io/conduct/committee) that falls under the jurisdiction of project-level responders, the committee will transfer resolution of the incident to the project-level responders.
+If an incident is reported to the [CNCF CoC Committee](http://www.cncf.io/conduct/committee) that falls under the jurisdiction of project-level responders, the committee will transfer resolution of the incident to the project-level responders.
 
 
 ## Jurisdiction of The Linux Foundation
@@ -90,7 +90,7 @@ The Linux Foundation does not have jurisdiction over incidents occurring at even
 
 ## Joint Jurisdiction of the Linux Foundation and CNCF
 
-If both LF and CNCF have jurisdiction over an incident as described above, LF and the [CNCF CoC Committee](www.cncf.io/conduct/committee) will collaborate to jointly resolve the incident.  
+If both LF and CNCF have jurisdiction over an incident as described above, LF and the [CNCF CoC Committee](http://www.cncf.io/conduct/committee) will collaborate to jointly resolve the incident.  
 
 However, if any of the following circumstances applies, the Linux Foundation may take action to resolve the Code of Conduct incident independently without consulting the Interim CNCF CoC Committee:
 
@@ -142,7 +142,7 @@ LF Legal counsel can be contacted at coclegal@linuxfoundation.org.
 
 ## Central Recordkeeping and Notification
 
-To ensure that there is a central repository of data regarding Code of Conduct incidents across all CNCF projects that can be checked to determine whether an accused person is a repeat offender, Project-level incident responders shall promptly notify the CNCF Code of Conduct Committee of any incident that is reported to them even if it is not transferred to the CNCF Code of Conduct Committee.  The Project-level incident responders shall provide a brief summary of the nature of the alleged violation and the name of the accused person (but do not have to provide a copy of the full incident report or the identities of the reporters, witnesses, or persons allegedly harmed or targeted), and the CNCF Code of Conduct Committee shall in response notify the project-level Code of Conduct responders if the accused individual has a record of prior violations.  When the incident is resolved, the Project-level incident responders shall notify the CNCF Code of Conduct Committee of whether a violation was found and if so, what remediation steps were taken.  All information in the central repository shall remain confidential under the Confidentiality Policy and only be shared with other CoC responders in accordance with the [Information Sharing](https://www.cncf.io/conduct/procedures/#information-sharing) policy.
+To ensure that there is a central repository of data regarding Code of Conduct incidents across all CNCF projects that can be checked to determine whether an accused person is a repeat offender, Project-level incident responders shall promptly notify the CNCF Code of Conduct Committee of any incident that is reported to them even if it is not transferred to the CNCF Code of Conduct Committee.  The Project-level incident responders shall provide a brief summary of the nature of the alleged violation and the name of the accused person (but do not have to provide a copy of the full incident report or the identities of the reporters, witnesses, or persons allegedly harmed or targeted), and the CNCF Code of Conduct Committee shall in response notify the project-level Code of Conduct responders if the accused individual has a record of prior violations.  When the incident is resolved, the Project-level incident responders shall notify the CNCF Code of Conduct Committee of whether a violation was found and if so, what remediation steps were taken.  All information in the central repository shall remain confidential under the Confidentiality Policy and only be shared with other CoC responders in accordance with the [Information Sharing](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#information-sharing) policy.
 
 
 ## Amendments
