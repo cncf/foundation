@@ -473,11 +473,11 @@ Incubating,CubeFS,Haifeng Liu ,OPPO,bladehliu,https://github.com/cubefs/cubefs/b
 ,,Junyuan Zeng,JD,jzeng4,
 ,,Xihao Xu,JD,xxscott,
 ,,Wenjia Wu,JD,wenjia322,
-Incubating,KEDA,Ahmed ElSayed,Microsoft,ahmelsayed,https://github.com/kedacore/keda/blob/master/MAINTAINERS.md
-,,Jeff Hollan,Microsoft,jeffhollan,
-,,Jorge Turrado Ferrero,Docplanner Tech,jorturfer,
+Graduated,KEDA,Ahmed ElSayed,Microsoft,ahmelsayed,https://github.com/kedacore/governance/blob/main/MAINTAINERS.md
+,,Jeff Hollan,Snowflake,jeffhollan,
+,,Jorge Turrado Ferrero,SCRM Lidl International Hub,jorturfer,
 ,,Tom Kerkhove,Microsoft,tomkerkhove,
-,,Zbynek Roubalik,Red Hat,zroubalik,
+,,Zbynek Roubalik,Kedify,zroubalik,
 Sandbox,Service Mesh Interface,Thomas Rampelberg,Buoyant Inc,grampelberg,https://github.com/servicemeshinterface/smi-spec/blob/master/CODEOWNERS
 ,,Lachlan Evenson,Microsoft,lachie83,
 ,,Lee Calcote,Layer5,leecalcote,
