@@ -978,10 +978,8 @@ Sandbox,Akri,Kate Goldenring,Fermyon,kate-goldenring,https://github.com/project-
 ,,Nicolas Belouin,SUSE,diconico07,
 ,,Johnson Shih,Microsoft,johnsonshih,
 ,,Yu Jin Kim,Microsoft,yujinkim-msft,
-Sandbox,MetalLB,Rodrigo Campos,Microsoft,rata,https://github.com/metallb/metallb/blob/main/CODEOWNERS
-,,Johannes Liebermann,Microsoft,johananl,
+Sandbox,MetalLB,Federico Paolinelli,Red Hat,fedepaol,https://github.com/metallb/metallb/blob/main/CODEOWNERS
 ,,Russell Bryant,Red Hat,russellb,
-,,Federico Paolinelli,Red Hat,fedepaol,
 Sandbox,Inclavare Containers,Jia Zhang,Alibaba,jiazhang0,https://github.com/alibaba/inclavare-containers/blob/master/MAINTAINERS.md
 ,,Liang Yang,Intel,YangLiang3,
 Sandbox,SuperEdge,Gerald Wang,Tencent,neweyes,https://github.com/superedge/superedge/blob/main/MAINTAINERS.md
