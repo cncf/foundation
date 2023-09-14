@@ -43,7 +43,7 @@ Members can add 1-2 sentences at the end of their blog with a link to an externa
 * Links to projects websites or Github
 * Can advertise if they are hiring and who to contact if interested
 
-Note: This is not a link to a CNCF website or form on the CNCF website.
+Note: This is not a link to a CNCF website or from on the CNCF website.
 
 CNCF will review the statement, as we do for the content for the blog, to approve the content. If changes are needed, we will provide suggested changes. 
 
