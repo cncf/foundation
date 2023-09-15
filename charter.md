@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated July 28 2021
+Effective Nov 6 2015 / Updated September 14 2023
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -66,27 +66,21 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	iii. Enjoy most prominent placement in displays of membership including on the website.
 
-	-	iv. If the member is also an approved End User, all of the privileges of End User Members in (d).
+	-	iv. If the member is also an approved End User, appoint one (1) representative to the End User TAB.
 
 -	(b) Gold members shall be entitled to:
 
 	-	i. Appoint one (1) representative to the CNCF Governing Board per every five (5) Gold members, up to three (3) maximum Gold representatives.
 
-	-	ii. If the member is also an approved End User, all of the privileges of End User Members in (d).
+	-	ii. If the members are also approved End Users, elect one (1) representative to the End User TAB for every five (5) Gold End User members, up to three (3) maximum Gold representatives.
 
 -	(c) Silver members shall be entitled to:
 
 	-	i. Appoint one (1) representative to the CNCF Governing Board per every ten (10) Silver members, up to three (3) maximum Silver representatives.
 
-	-	ii. If the member is also an approved End User, all of the privileges of End User Members in (d).
+	-	ii. If the members are also approved End Users, elect one (1) representative to the End User TAB for every ten (10) Silver End User members, up to three (3) maximum Silver representatives.
 
--	(d) End User members shall be entitled to:
-
-	-	i. Participate in the End User Advisory Community as described below;
-
-	-	ii. Nominate one (1) representative to the End User Technical Advisory Board.
-
--	(e) Academic and Non-Profit members: The Academic and Non-Profit category of participation is limited to academic and non-profit institutions respectively and requires approval by the Governing Board. Academic and Non-Profit members shall be entitled to identify their organization as members supporting the mission of CNCF and any other rights or benefits as determined by the Governing Board.
+-	(d) Academic and Non-Profit members: The Academic and Non-Profit category of participation is limited to academic and non-profit institutions respectively and requires approval by the Governing Board. Academic and Non-Profit members shall be entitled to identify their organization as members supporting the mission of CNCF and any other rights or benefits as determined by the Governing Board.
 
 #### 5. Governing Board
 
@@ -177,7 +171,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	ii. TOC members elected are expected to cover key technical domains: container technologies, operating systems, technical operations, distributed systems, user level application design, etc.
 
-	-	iii. The Governing Board shall elect six (6) TOC members, the End User TAB shall elect two (2) TOC members, the non-sandbox project maintainers shall elect one (1) TOC member, and the TOC members shall elect an additional two (2) TOC members. Each group is defined as a Selecting Group.
+	-	iii. The Governing Board shall elect six (6) TOC members, the End User Participants shall elect two (2) TOC members, the non-sandbox project maintainers shall elect one (1) TOC member, and the TOC members shall elect an additional two (2) TOC members. Each group is defined as a Selecting Group.
 
 	-	iv. If more than two (2) TOC members would be from the same group of Related Companies, either at the time of election or from a later job change, they will jointly decide who should step down, or if there is no agreement, random lots shall be drawn.
 
@@ -259,29 +253,62 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 #### 7. End User Community
 
--	(a) End User Members in CNCF shall be entitled to coordinate and drive activities important to users of CNCF as consumers for which CNCF was designed. Any member or non-member who is an End User, each an “End User Participant”, shall be invited to participate. The End User Participants are expected to help provide input to the Technical Advisory Board and CNCF community on topics relevant to users.
+-	(a) End User Members in CNCF shall be entitled to coordinate and drive activities important to users of CNCF as consumers for which CNCF was designed. Any End User organization that is a CNCF Member or a CNCF End User Supporter(each an “End User Participant) may participate. The End User Participants are expected to help provide input to the Technical Advisory Board and CNCF community on topics relevant to users.
 
--	(b) The End User Community Members shall elect an End User Technical Advisory Board.
-
--	(c) End User Community Members will be approved by the CNCF Executive Director, or if none exists, The Linux Foundation Executive Director.
+-	(b) End User Community Members will be approved by CNCF.
 
 #### 8. End User Technical Advisory Board (“End User TAB”).
 
--	(a) Composition: The End User TAB shall be composed of seven (7) representatives from End User Participants plus one member of the TOC to facilitate input from the End User TAB to the TOC.
+-	(a) Purpose and Duties: The End User TAB will serve as the voice of End Users in the CNCF community, advance topics of concern to End Users, and raise awareness about the needs and perspectives of end users. More specifically, the goals and responsibilities of the End User TAB are to:
 
--	(b) Selection: To encourage participation of End Users in CNCF, the first seven (7) End User Members may appoint one (1) representative to the initial End User TAB with any remaining seats allocated by the CNCF Director to any End User Participant. After the initial year, all End User Participants may nominate one (1) representative and the End User Community shall vote to select the End User TAB members using a process approved by the then current End User TAB.
+	-	i. Facilitate communication among the end user community and other governing bodies of CNCF.
 
--	(c) The End User TAB may alter the size of the End User by two-thirds vote, provided there are a minimum of seven (7) possible representatives.
+	-	ii. Provide advice, feedback, and recommendations to the TOC on areas of mutual concern, including the state and technical direction of the cloud native ecosystem, and identification of technical challenges and gaps.
 
--	(d) End User representatives should be nominated on operational and technical acumen. Nominees should have significant practical experience with building and operating infrastructure and applications which embody the principles of the CNCF.
+	-	iii. Improve visibility into end user adoption of CNCF projects.
 
--	(e) The End User TAB will discuss and progress topics with a focus on identifying gaps and proposing priorities for the TOC and the CNCF developer community.
+	-	iv. Provide feedback on CNCF projects' usability, reliability, and performance.
 
--	(f) The End User TAB may also focus on proactively advancing topics of concern to End Users, promoting market adoption of CNCF, hosting meetings for End Users, or advising the Governing Board.
+	-	v. Review and approve publication of reference architectures.
 
--	(g) If the End User TAB desires, it may approve subcommittee Special Interest Groups (“SIGs”) to address industry or specialized topics.
+	-	vi. Advise on CNCF End User Radar tools and techniques.
 
--	(h) The End User TAB input to the TOC shall be taken together with other input and feedback for the TOC to make decisions and plans. The recommendations are advisory only and at no point shall the recommendations of the End User TAB be used to order or direct any TOC or project participant toward any action or outcome.
+	-	vii. Provide oversight into End User Groups and End User Special Interest Groups.					
+
+-	(b) Composition and Selection: The End User TAB shall be composed of seven (7) or more representatives from End User Participants selected in the following manner:
+
+	-	i. one representative appointed by each Platinum End User member.
+
+	-	ii. the representatives (if any) elected by the Gold and Silver End User members.
+
+	-	iii. at least three (3) representatives elected by the End User Participants at large. The number of at large End User Participant representatives shall generally be three (3), but may be increased either (A) by vote of the then-existing End User TAB or (B) automatically to the extent necessary to ensure the minimum size described in section 8(a) of this charter is met (given the number of Platinum, Gold, Silver End User member representatives).
+
+	-	iv. one (1) to two (2) TOC members designated by the TOC, each of whom must be employed by an End User Participant.
+
+	-	v. one (1) or more additional End User Participant representatives may be invited to serve on the End User TAB if approved by a majority of the then-existing members of the End User TAB.						
+
+-	(c) Terms: Each elected or invited member of the End User TAB shall serve a term of approximately two (2) years, except that approximately half of the elected members of the End User TAB resulting from the first election shall serve a one (1) year term in order to facilitate staggered terms. The initial End User TAB shall determine which of the initial members shall serve a one (1) year term and which shall serve a two (2) year term.
+
+-	(d) Termination: An End User TAB member's participation shall cease before the expiration of their term if they resign, are removed, or they cease to be employed by the End User organization that employed them at the time they were elected. There are no limits on the number of terms that an individual can serve. The End User TAB may, by supermajority vote of at least two-thirds of the End User TAB members who do not have conflicts of interest, remove an End User TAB member who is not fulfilling their duties or is not complying with the policies of CNCF or the End User TAB.
+
+-	(e) Vacancies: In the event of a vacancy due to an End User TAB member's employer ceasing to be an End User Participant, the End User TAB shall decide when to fill the vacancy and whether to fill the vacancy by election or invitation. In the event of a vacancy due to to an individual’s resignation, removal, or changing employers, the End User Participant that employed such individual at the time they were elected may designate a replacement. For the sake of continuity, in the event an individual serving on the End User TAB leaves their employer for another employer who is also an End User Participant, the remaining non-conflicted End User TAB members may, by majority vote, increase the size of the End User TAB and invite the individual to remain on the End User TAB for a duration no longer than their original term; such individual continuing to serve shall be in addition to (not in lieu of) the individual’s prior employer’s right to designate a replacement.
+
+-	(f) Alternates: Any End User Participant with an employee serving on the End User TAB may designate an alternate who may (a) attend meetings in listen-only mode when the primary representative is present and (b) speak and vote at meetings when the primary representative is not present. The TOC may also designate an alternate (who must be employed by an End User Participant) in addition to the End User TAB member(s) the TOC appoints in accordance with Section 8(d)(iv) of this charter.
+
+-	(g) Eligibility and Criteria:
+
+	-	i. Eligibility: Only employees of End User Participants in good standing may servce on the End User TAB.
+
+	-	ii. Criteria: End User representatives should be nominated on operational and technical acument. Nominees should have significant practical experience with operating cloud native infrastructure and applications including CNCF projects.
+
+	-	iii. Maximum Representatives from a Single Organization: No more than two representatives of the same organization (not counting alternates) may serve on the End User TAB simultaneously. If, for any reason (e.g., merger or combination) more than 2 End User TAB members would be from a single organization, the organization will choose which 2 representatives will serve on the End User TAB, and the organization’s other(s) representatives shall resign from the End User TAB.				
+-	The End User TAB may also focus on proactively advancing topics of concern to End Users, promoting market adoption of CNCF, hosting meetings for End Users, or advising the Governing Board.
+
+-	(h) If the End User TAB desires, it may approve End User Groups, Special Interest Groups (“SIGs”), or subcommittees to address industry or specialized topics.
+
+-	(i) The End User TAB input to the TOC shall be taken together with other input and feedback for the TOC to make decisions and plans. The recommendations are advisory only and at no point shall the recommendations of the End User TAB be used to order or direct any TOC or project participant toward any action or outcome.
+
+-	(j) The End User TAB may develop policies and procedures related to nominations, elections, operations, or other matters pertaining to its purpose, scope, and activities so long as such policies and procedures are consistent with this charter.
 
 #### 9. CNCF Projects
 
