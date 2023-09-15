@@ -281,7 +281,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	ii. the representatives (if any) elected by the Gold and Silver End User members.
 
-	-	iii. at least three (3) representatives elected by the End User Participants at large. The number of at large End User Participant representatives shall generally be three (3), but may be increased either (A) by vote of the then-existing End User TAB or (B) automatically to the extent necessary to ensure the minimum size described in section 8(a) of this charter is met (given the number of Platinum, Gold, Silver End User member representatives).
+	-	iii. at least three (3) representatives elected by the End User Participants at large. The number of at large End User Participant representatives shall generally be three (3), but may be increased either (A) by vote of the then-existing End User TAB or (B) automatically to the extent necessary to ensure the minimum size described in section 8(a) of this charter is met (given the number of Platinum, Gold, and Silver End User member representatives).
 
 	-	iv. one (1) to two (2) TOC members designated by the TOC, each of whom must be employed by an End User Participant.
 
@@ -297,9 +297,9 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 -	(g) Eligibility and Criteria:
 
-	-	i. Eligibility: Only employees of End User Participants in good standing may servce on the End User TAB.
+	-	i. Eligibility: Only employees of End User Participants in good standing may serve on the End User TAB.
 
-	-	ii. Criteria: End User representatives should be nominated on operational and technical acument. Nominees should have significant practical experience with operating cloud native infrastructure and applications including CNCF projects.
+	-	ii. Criteria: End User representatives should be nominated on operational and technical acumen. Nominees should have significant practical experience with operating cloud native infrastructure and applications including CNCF projects.
 
 	-	iii. Maximum Representatives from a Single Organization: No more than two representatives of the same organization (not counting alternates) may serve on the End User TAB simultaneously. If, for any reason (e.g., merger or combination) more than 2 End User TAB members would be from a single organization, the organization will choose which 2 representatives will serve on the End User TAB, and the organization’s other(s) representatives shall resign from the End User TAB.				
 -	The End User TAB may also focus on proactively advancing topics of concern to End Users, promoting market adoption of CNCF, hosting meetings for End Users, or advising the Governing Board.
