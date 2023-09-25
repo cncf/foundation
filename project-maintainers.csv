@@ -1089,16 +1089,19 @@ Sandbox,OpenFunction,Benjamin Huo,QingCloud,benjaminhuo,https://github.com/OpenF
 ,,Lize Cai,SAP,lizzzcai,
 ,,Dehao Cheng,QingCloud,wenchajun,
 ,,Shanyou Zhang,Weyhd,geffzhang,
-Sandbox,Confidential Containers,Ariel Adam,Red Hat,ariel-adam,https://github.com/confidential-containers/community/blob/main/MAINTAINERS
+Sandbox,Confidential Containers,Ariel Adam,Red Hat,ariel-adam,https://github.com/confidential-containers/confidential-containers/blob/main/governance.md#members
 ,,Pradipta Banerjee,Red Hat,bpradipt,
 ,,Zhang Jia,Alibaba,jiazhang0,
 ,,Jiang Liu,Alibaba,jiangliu,
 ,,Larry Dewey,AMD,larrydewey,
 ,,Tobin Feldman-Fitzthum,IBM,fitzthum,
 ,,James Magowan,IBM,magowan,
-,,Dan Middleton,Intel,dcmiddle,
+,,Fabiano Fidêncio,Intel,fidencio,
 ,,Peter Zhu,Intel,peterzcst,
 ,,Samuel Ortiz,Rivos,sameo,
+,,Ananya Garg,Microsoft,angarg05,
+..Vicent Batts,Microsoft,vbatts,
+,,Zvonko Kaisere,NVIDIA,zvonkok,
 Sandbox,Teller,Dotan Nahum,Check Point,jondot,https://github.com/SpectralOps/teller/blob/master/MAINTAINERS.md
 ,,Elad Kaplan,Check Point,kaplanelad,
 ,,Lior Reuven,Check Point,lreuven,
