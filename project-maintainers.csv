@@ -607,6 +607,8 @@ Sandbox,Parsec,Adam Parco,Docker,adamparco,https://github.com/parallaxsecond/par
 ,,Justin Cormack,Docker,justincormack,
 ,,Paul Howard,ARM,paulhowardarm,
 ,,Anton Antonov,ARM,anta5010,
+,,Gowtham Suresh Kumar,ARM,gowthamsk-arm,
+,,Tomás Agustín González Orlando,ARM,tgonzalezorlandoarm,
 Sandbox,BFE,Miao Zhang,Baidu,mileszhang2016,https://github.com/bfenetworks/bfe/blob/develop/MAINTAINERS.md
 ,,Sijie Yang,Baidu,iyangsj,
 ,,Derek Zheng,Kuaishou,shanhuhai5739,
@@ -1089,16 +1091,19 @@ Sandbox,OpenFunction,Benjamin Huo,QingCloud,benjaminhuo,https://github.com/OpenF
 ,,Lize Cai,SAP,lizzzcai,
 ,,Dehao Cheng,QingCloud,wenchajun,
 ,,Shanyou Zhang,Weyhd,geffzhang,
-Sandbox,Confidential Containers,Ariel Adam,Red Hat,ariel-adam,https://github.com/confidential-containers/community/blob/main/MAINTAINERS
+Sandbox,Confidential Containers,Ariel Adam,Red Hat,ariel-adam,https://github.com/confidential-containers/confidential-containers/blob/main/governance.md#members
 ,,Pradipta Banerjee,Red Hat,bpradipt,
 ,,Zhang Jia,Alibaba,jiazhang0,
 ,,Jiang Liu,Alibaba,jiangliu,
 ,,Larry Dewey,AMD,larrydewey,
 ,,Tobin Feldman-Fitzthum,IBM,fitzthum,
 ,,James Magowan,IBM,magowan,
-,,Dan Middleton,Intel,dcmiddle,
+,,Fabiano Fidêncio,Intel,fidencio,
 ,,Peter Zhu,Intel,peterzcst,
 ,,Samuel Ortiz,Rivos,sameo,
+,,Ananya Garg,Microsoft,angarg05,
+..Vicent Batts,Microsoft,vbatts,
+,,Zvonko Kaisere,NVIDIA,zvonkok,
 Sandbox,Teller,Dotan Nahum,Check Point,jondot,https://github.com/SpectralOps/teller/blob/master/MAINTAINERS.md
 ,,Elad Kaplan,Check Point,kaplanelad,
 ,,Lior Reuven,Check Point,lreuven,
@@ -1395,6 +1400,11 @@ Sandbox,Eraser,Sertac Ozercan,Microsoft,sozercan,https://github.com/eraser-dev/e
 ,,Peter Engelbert,Microsoft,pmengelbert,
 ,,Brian Goff,Microsoft,cpuguy83,
 ,,Xander Grzywinski,Microsoft,salaxander,
+Sandbox,kpt,Morten Torkildsen,Google,mortent,https://github.com/kptdev/kpt/blob/main/MAINTAINERS
+,,Sunil Arora,Google,droot,
+,,Natasha Sarkar,Google,natasha41575,
+,,Justin Santa Barbara,Google,justinsb,
+,,John Belamaric,Google,johnbelamaric,
 Sandbox,Copa,Sertac Ozercan,Microsoft,sozercan,https://github.com/project-copacetic/copacetic/blob/main/CODEOWNERS
 ,,Xander Grzywinski,Microsoft,salaxander,
 ,,Jeremy Rickard,Microsoft,jeremyrickard,
