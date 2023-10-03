@@ -1,0 +1,60 @@
+license-exception-request.yaml
+
+name: Licensing Exception Request
+description: Submit an exception request 
+title: "[License Exception Request] [Project] [License]"
+labels: ["licensing"]
+assignees: krook, amye
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### PLEASE NOTE
+        
+       For all license exception requests, we need the following information. 
+
+       If it is Apache-2.0 for code or CC-BY-4.0 for documentation, no further exception request is required.
+
+       Does it meet the [Allowlist policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)? If so, no further exception request is required. 
+        
+  - type: textarea
+    id: introduction
+    attributes:
+      label: Component
+      description: What is the third party component (name, URL, and version if available)?
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: License Name
+      description: Full name or title of license
+    validations:
+      required: true
+  - type: textarea
+    id: modifications
+    attributes:
+      label: modified
+      description: Will the code be used in modified or unmodified form? 
+    validations:
+      required: true
+  - type: textarea
+    id: license-exception
+    attributes:
+      label: contributed
+      description: If modified, will changes be contributed back to the upstream project?
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: alternatives
+      description: Are there any alternative components available with equivalent functionality under a more permissive license? 
+      If so, is it possible to use that component instead? 
+    validations:
+      required: true
+  - type: textarea
+    id: integration
+    attributes:
+      label: integration
+      description: How does this component integrate with or interact with, if at all, other components of the project?"
+    validations:
+      required: true
