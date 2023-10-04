@@ -60,7 +60,7 @@ List.
 
 ### Process for applying for an exception
 
-This outlines the process for applying for an exemption to the Intellectual Property policy referenced above.
+This outlines the process for applying for an exception to the Intellectual Property policy referenced above.
 
 - A CNCF project maintainer can file a request for an exception using the issue template. 
 
