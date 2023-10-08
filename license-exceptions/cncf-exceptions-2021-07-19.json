@@ -1,0 +1,27 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.1",
+  "creationInfo" : {
+    "created" : "2023-05-26T13:11:55Z",
+    "creators" : [ "Organization: CNCF", "Tool: cncf-exceptions-maker-0.1" ]
+  },
+  "name" : "cncf-exceptions-2011-07-19",
+  "dataLicense" : "CC0-1.0",
+  "documentNamespace" : "https://github.com/cncf/foundation/license-exceptions-2021-07-19",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-Package2",
+    "comment" : "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19",
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "licenseConcluded" : "MPL-2.0",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "go-retryablehttp"
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-Package2",
+    "comment" : "This describes relationship was added as a default relationship by the SPDX Tools Tag parser."
+  } ]
+}
