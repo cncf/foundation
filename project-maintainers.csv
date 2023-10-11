@@ -1,12 +1,13 @@
 ﻿,Project,Maintainer Name,Company,Github Name,OWNERS/MAINTAINERS
-Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steering#members
-,,Carlos Tadeu Panato Jr.,Chainguard,cpanato,
-,,Bob Killen,Google,mrbobbytables,
+Graduated,Kubernetes,Bob Killen,Google,mrbobbytables,https://git.k8s.io/steering#members
 ,,Stephen Augustus,Cisco,justaugustus,
-,,Tim Pepper,VMware,tpepper,
 ,,Benjamin Elder,Google,BenTheElder,
 ,,Nabarun Pal,VMware,palnabarun,
+,,Maciej Szulik,Red Hat,soltysh,
+,,Paco Xu 徐俊杰,DaoCloud,pacoxu,
+,,Patrick Ohly,Intel,pohly,
 ,Kubernetes: SIG Contributor Experience (non-voting),Josh Berkus,Red Hat,jberkus,https://git.k8s.io/community/sig-contributor-experience#leadership
+,,Christoph Blecker,Red Hat,cblecker,
 ,,Kaslin Fields,Google,kaslin,
 ,,Madhav Jivrajani,VMware,MadhavJivrajani,
 ,,Nikhita Raghunath,VMware,nikhita,
@@ -18,6 +19,8 @@ Graduated,Kubernetes,Christoph Blecker,Red Hat,cblecker,https://git.k8s.io/steer
 ,Kubernetes: SIG Release (non-voting),Sascha Grunert,Red Hat,saschagrunert,https://git.k8s.io/community/sig-release#leadership
 ,,Jeremy Rickard,Microsoft,jeremyrickard,
 ,,Adolfo García Veytia,Chainguard,puerco,
+,,Carlos Tadeu Panato Jr.,Chainguard,cpanato,
+,,Verónica López,PlanetScale,Verolop,
 Graduated,Prometheus,Augustin Husson,Amadeus,Nexucis,https://prometheus.io/governance/#team-members
 ,,Bartłomiej Płotka,Google,bwplotka,
 ,,Ben Kochie,Reddit,superq,
@@ -1399,6 +1402,10 @@ Sandbox,kpt,Morten Torkildsen,Google,mortent,https://github.com/kptdev/kpt/blob/
 Sandbox,Copa,Sertac Ozercan,Microsoft,sozercan,https://github.com/project-copacetic/copacetic/blob/main/CODEOWNERS
 ,,Xander Grzywinski,Microsoft,salaxander,
 ,,Jeremy Rickard,Microsoft,jeremyrickard,
+Sandbox,Capsule,Adriano Pezzuto,Clastix,bsctl,https://github.com/clastix/capsule/blob/master/.github/maintainers.yaml
+,,Dario Tranchitella,Clastix,prometherion,
+,,Maksim Fedotov,wargaming.net,MaxFedotov,
+,,Oliver Bähler,Bedag Informatik AG,oliverbaehler,
 Sandbox,kcl,Pengfei Xu,Ant Group,Peefy,https://github.com/kcl-lang/kcl/blob/main/MAINTAINERS
 ,,Xiaodong Duo,Ant Group,ldxdl,
 ,,Chaoqun Huang,TuSimple,ekkoful,
