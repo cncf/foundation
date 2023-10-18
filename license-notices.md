@@ -8,6 +8,9 @@ There are several reasons to include notices on a file-by-file basis, rather tha
 
 There is no one mandatory way in which license notices need to be provided. Following are some options for ways to provide notices in various use cases.
 
+For additional details regarding attribution notices for third party code used
+in CNCF projects, see the [CNCF attribution recommendations] document.
+
 ### Original content for CNCF projects
 
 Under the [CNCF charter], section 11, source code is to be made available under the Apache License, version 2.0 (Apache-2.0) and documentation is to be made available under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
@@ -101,3 +104,4 @@ This could be done in the file itself, or in a root-level file such as THIRD-PAR
 The [REUSE Software Initiative](https://reuse.software/spec/) also contains recommendations for placing license texts within a `/LICENSES/` directory.
 
 [CNCF Charter]: https://github.com/cncf/foundation/blob/master/charter.md
+[CNCF attribution recommendations]: https://github.com/cncf/foundation/blob/main/recommendations-for-attribution.md
