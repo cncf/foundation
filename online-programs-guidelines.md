@@ -8,9 +8,9 @@ Please note: We are unable to share leads due to the Linux Foundation privacy po
 
 ## Publishing schedule ##
 
-Live webinars are hosted on Tuesdays at 10am PT.
+Live webinars are hosted on Tuesdays at 10am PT once per month.
 
-Livestreams are hosted on Wednesdays from 9-10am PT.
+Livestreams are hosted on Tuesdays and Wednesdays from 9-10am PT.
 
 On-demand webinars premiere on Thursdays.
 
@@ -37,7 +37,7 @@ Ambassadors
 ## Online programs type definitions ##
 
 * Live webinars
-	* Only offered to Platinum members with 1 slot/week
+	* Only offered to Platinum members with 1 slot/month 
 	* Day of webinar - 15 minute soundcheck
 	* Premiere date - Tuesdays at 10am PT
 * On-demand webinars
@@ -49,7 +49,7 @@ Ambassadors
 	* Content must be live coding/demo - no presentations with slides, no product pitches
 	* We will require a high level outline to be provided including any demos you will present one week prior to the event
 	* CNCF Ambassador will join the stream as co-host
-	* Premiere date - Wednesdays (1 per week)
+	* Premiere date - Tuesdays and Wednesdays (2 per week)
 * YouTube Playlist submission
 	* Submit pre-recorded content (must be relevant to the last six months and can include previous KubeCon presentations) to our curated theme playlists on YouTube via Google Form
 	* CNCF staff  updates playlists 1x/week - Fridays
