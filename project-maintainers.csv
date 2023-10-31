@@ -1433,6 +1433,7 @@ Incubating,Kubeflow,James Liu,Google,zijianjoy,https://github.com/kubeflow/kubef
 ,,Kimonas Sotirchos,Canonical,kimwnasptd,
 ,,Yao Xiao,Google,PatrickXYS,
 ,,Stefano Fioravanzo,HPE,StefanoFioravanzo,
+,,Yannis Zarkadas,Columbia University,yanniszark,
 ,Kubeflow: MPI Operator,Aldo Culquicondor,Google,alculquicondor,https://github.com/kubeflow/mpi-operator/blob/master/OWNERS
 ,,Rong Ou,NVIDIA,rongou,
 ,,Yuan (Terry) Tang,Akuity,terrytangyuan,
@@ -1452,7 +1453,6 @@ Incubating,Kubeflow,James Liu,Google,zijianjoy,https://github.com/kubeflow/kubef
 ,,Prashant Sharma,IBM,scrapcodes,
 ,,Tommy Li,IBM,Tomcli,
 ,,Yihong Wang,IBM,yhwang,
-,,Yannis Zarkadas,Columbia University,yanniszark,
 ,Kubeflow: Training Operator,Ce Gao,TensorChord,gaocegege,https://github.com/kubeflow/training-operator/blob/master/OWNERS
 ,,Jiaxin Shan,Bytedance,Jeffwan,
 ,,Johnu George,Nutanix,johnugeorge,
