@@ -187,7 +187,6 @@ Graduated,TUF (The Update Framework),Sebastien Awwad,NYU,awwad,https://github.co
 ,,Joshua Lock,VMware,joshuagl,
 ,,Jussi Kukkonen,,jku,
 Incubating,Notary,Justin Cormack ,Docker,justincormack,https://github.com/notaryproject/.github/blob/main/MAINTAINERS
-,,Steve Lasker,Individual,stevelasker,
 ,,Niaz Kahn,AWS,niazfk,
 ,,Hu Keping,Huawei,HuKeping,
 ,,Marina More,NYU,mnm678,
@@ -794,7 +793,6 @@ Sandbox,Distribution,Chris Patterson,GitHub,chrispat,https://github.com/distribu
 ,,Milos Gajdos,Docker,milosgajdos,
 ,,Wayne Warren,Digital Ocean,waynr,
 ,,Wang Yan,VMware,wy65701436,
-,,Steve Lasker,Microsoft,stevelasker,
 Sandbox,Fonio,Peter Parkanyi,Redsift,rsdy,https://github.com/foniod/project/blob/main/MAINTAINERS
 ,,Junyeong Jeong,,rhdxmr,
 ,,Deepak Prabhakara,Redsift,deepakprabhakara,
@@ -958,7 +956,6 @@ Sandbox,Krator,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/krator
 Sandbox,ORAS (OCI Registry as Storage),Andrew Block,Red Hat,sabre1041,https://github.com/oras-project/community/blob/main/OWNERS.md
 ,,Sajay Antony,Microsoft,sajayantony,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,
-,,Steve Lasker,Microsoft,stevelasker,
 ,,Terry Howe,AWS,TerryHowe,
 Sandbox,wasmCloud,Brooks Townsend,Capital One,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/OWNERS
 ,,Liam Randall,Cosmonic,liamrandall,
