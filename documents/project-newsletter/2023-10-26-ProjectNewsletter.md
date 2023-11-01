@@ -73,11 +73,11 @@ Register Here: [Link](https://us02web.zoom.us/webinar/register/1316964463640/WN_
 
 ## ✍️Upcoming CFP Deadlines:
 Here are the upcoming deadlines for CFPs:
-KCD Los Angeles - November 1 [Link](https://www.socallinuxexpo.org/scale/21x/call-presenters)
-KCD Sao Paulo - November 5 [Link](https://kcd.smapply.io/prog/sp-brazil-cfp/)
-KCD Spain - November 10 [Link](https://kcd.smapply.io/prog/kcd_spain_2023/)
-KCD Oslo - November 13 [Link](https://kcd.smapply.io/prog/kcd_oslo_2024_cfp/)
-KubeCon + CloudNativeCon EU  - November 26 [Link](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/cfp/#submit-your-talk)
+- KCD Los Angeles - November 1 [Link](https://www.socallinuxexpo.org/scale/21x/call-presenters)
+- KCD Sao Paulo - November 5 [Link](https://kcd.smapply.io/prog/sp-brazil-cfp/)
+- KCD Spain - November 10 [Link](https://kcd.smapply.io/prog/kcd_spain_2023/)
+- KCD Oslo - November 13 [Link](https://kcd.smapply.io/prog/kcd_oslo_2024_cfp/)
+- KubeCon + CloudNativeCon EU  - November 26 [Link](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/cfp/#submit-your-talk)
 
 
 Want to contribute to November's newsletter? 
