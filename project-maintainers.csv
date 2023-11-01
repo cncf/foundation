@@ -1453,7 +1453,8 @@ Incubating,Kubeflow,James Liu,Google,zijianjoy,https://github.com/kubeflow/kubef
 ,,Prashant Sharma,IBM,scrapcodes,
 ,,Tommy Li,IBM,Tomcli,
 ,,Yihong Wang,IBM,yhwang,
-,Kubeflow: Training Operator,Ce Gao,TensorChord,gaocegege,https://github.com/kubeflow/training-operator/blob/master/OWNERS
+,Kubeflow: Training Operator,Andrey Velichkevich,Apple,andreyvelich,https://github.com/kubeflow/training-operator/blob/master/OWNERS
+,,Ce Gao,TensorChord,gaocegege,
 ,,Jiaxin Shan,Bytedance,Jeffwan,
 ,,Johnu George,Nutanix,johnugeorge,
 ,,Wang Zhang,Tencent,zw0610,
