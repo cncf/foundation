@@ -16,15 +16,19 @@ In this Edition:
 ## 🗺️A Maintainer’s Guide to KubeCon + CloudNativeCon!
 There will be some maintainer-focused activities at KubeCon + CloudNativeCon; be sure to check them out:
 Architect You Schedule:
+
 Tuesday, November 7
 - Navigating Open Source Project Hurdles to Achieve Community Empowerment - Aizhamal Nurmamat and Bob Killen [Link](https://kccncna2023.sched.com/event/1R2ob?iframe=no)
+
 Wednesday, November 8
 - The Cloud Native Maturity Model 3.0 - Danielle Cook and Simon Forster [Link](https://kccncna2023.sched.com/event/1R2vy?iframe=no)
 - Graduated Project Celebration [Link](https://kccncna2023.sched.com/event/1UTzL?iframe=no)
+
 Thursday, November 9
 - Hot Dog! The Technical Oversight Committee is on a Roll! - Duffie Cooley, Heba El Ayoty, Alolita Sharma, Pushkar JogleKar, and Catherine Paganini [Link](https://kccncna2023.sched.com/event/1R4bz?iframe=no)
 - Technical Oversight Committee + TAG Chairs Meeting [Link](https://kccncna2023.sched.com/event/1T8tH?iframe=no)
 - TAG Meet + Greet [Link](https://kccncna2023.sched.com/event/1S5lo?iframe=no)
+
 We are excited to see many projects taking advantage of your opportunities at KubeCon + CloudNativeCon. 
 This is a great time to set up cross-project collaborations or learn more about what other projects are focused on. Learn More - [Link](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/project-engagement/)
 
