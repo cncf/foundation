@@ -382,13 +382,15 @@ Incubating,OpenTelemetry (Governance Committee),Alolita Sharma,Apple,alolita,htt
 ,,Severin Neumann,Cisco,svrnm,
 ,,Ted Young,Lightstep,tedsuo,
 ,,Trask Stalnaker,Microsoft,trask,
-,OpenTelemetry (Community Maintainer),Austin Parker,Lightstep,austinlparker,https://github.com/open-telemetry/community/blob/main/community-members.md#community-management
 ,OpenTelemetry (Technical Committee excluding GC members),Armin Ruech,Dynatrace,arminru,https://github.com/open-telemetry/community/blob/master/community-members.md#technical-committee
+,,Bogdan Drutu,Snowflake,bogdandrutu,
 ,,Carlos Alberto,Lightstep,carlosalberto,
+,,Jack Berg,New Relic,jack-berg,
 ,,Josh MacDonald,Lightstep,jmacd,
 ,,Josh Suereth,Google,jsuereth,
-,,Sergey Kanzhelev,Google,SergeyKanzhelev,
+,,Reiley Yang,Microsoft,reyang,
 ,,Tigran Najaryan,Splunk,tigrannajaryan,
+,,Yuri Shkuro,Meta,yurishkuro,
 Sandbox,OpenEBS,Amit Kumar Das,MayaData,AmitKumarDas,https://github.com/openebs/openebs/blob/master/MAINTAINERS
 ,,Jeffry Molanus,MayaData,gila,
 ,,Karthik Satchitanand,MayaData,ksatchit,
