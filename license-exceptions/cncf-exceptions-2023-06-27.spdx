@@ -64,7 +64,7 @@ PackageComment: not auto-allowlist because: Non-allowlist license(s); approved b
 
 ##### Package: hashicorp/vault
 
-PackageName: hashicorp/vault
+PackageName: hashicorp/vault/api
 SPDXID: SPDXRef-Package7
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
