@@ -1,0 +1,52 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: cncf-exceptions-2023-08-31
+DocumentNamespace: https://github.com/cncf/foundation/license-exceptions-2023-08-31
+Creator: Organization: CNCF
+Created: 2023-09-8T13:52:00Z
+
+##### Package: docker/go-metrics
+
+PackageName: docker/go-metrics
+SPDXID: SPDXRef-Package2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: CC-BY-SA 4.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31
+
+
+##### Package: hashicorp/go-memdb
+
+PackageName: hashicorp/go-memdb
+SPDXID: SPDXRef-Package3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31
+
+##### Package: shoenig/go-m1cpu
+
+PackageName: shoenig/go-m1cpu
+SPDXID: SPDXRef-Package4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31
+
+##### Package: hashicorp/packer-plugin-sdk
+
+PackageName: hashicorp/packer-plugin-sdk
+SPDXID: SPDXRef-Package5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31

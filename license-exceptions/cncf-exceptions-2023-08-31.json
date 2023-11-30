@@ -1,0 +1,22 @@
+[
+    {
+        "package": "github.com/docker/go-metrics",
+        "license": "CC-BY-SA 4.0",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+    },
+    { 
+        "package": "github.com/hashicorp/go-memdb",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+      },
+      { 
+        "package": "github.com/shoenig/go-m1cpu",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+      },
+      { 
+        "package": "hashicorp/packer-plugin-sdk",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+      }
+    ]
