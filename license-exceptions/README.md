@@ -16,3 +16,12 @@ Dependencies that are not currently listed in the manifests, but which satisfy (
 
 [Allowlist Policy]: https://github.com/cncf/foundation/blob/master/allowed-third-party-license-policy.md#cncf-allowlist-license-policy
 [CNCF charter]: https://github.com/cncf/foundation/blob/master/charter.md
+
+## GPL exceptions for in-kernel eBPF programs
+
+By email vote concluded on August 31 2023, the Governing Board approved a blanket exception for in-kernel eBPF programs licensed under either of the following licenses, either on its own or dual licensed in combination with any license already on the CNCF Licensing Allowlist Approved Licenses list (e.g., MIT License):
+
+* GPL 2.0
+* GPL 2.0 or later
+
+This exception is not documented in the SPDX/JSON files because it applies only to in-kernel eBPF programs. Usage of GPL 2.0 (or later) for other code is not approved. There is more background explaining the rationale behind this exception in [this document](https://docs.google.com/document/d/10CY8V1w8aQ6CrJ_US_Gnz8cx2SoOtOBqpUKX4cWl_4w/edit#heading=h.oxrtx3xdj6dn). 
