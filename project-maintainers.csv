@@ -1053,15 +1053,13 @@ Sandbox,Devfile,Andreas Resios,AWS,resios, https://github.com/devfile/api/blob/m
 ,,Ida Olsen,AWS,miaida,
 ,,Stevan Le Meur,Red Hat,slemeur,
 ,,Tomas Kral,Red Hat,kadel,
-Incubating,Knative,Carlos Santana,AWS,csantanapr, https://github.com/knative/community/blob/main/OWNERS_ALIASES
-,,Lance Ball,Red Hat,lance,
+Incubating,Knative,Ali Ok,Red Hat,aliok, https://github.com/knative/community/blob/main/OWNERS_ALIASES
 ,,Adolfo García Veytia,Chainguard,puerco,
 ,,Naina Singh,Red Hat,nainaz,
 ,,Mauricio Salatino,Diagrid,salaboy,
-,,Dave Protasowski,VMware,dprotaso,
-,,Evan Anderson,VMware,evankanderson,
+,,Dave Protasowski,Broadcom,dprotaso,
+,,Evan Anderson,Stacklok Inc,evankanderson,
 ,,David Simansky,Red Hat,dsimansk,
-,,Zbynek Roubalik,Red Hat,zroubalik,
 ,,Paul Schweigert,IBM,psschwei,
 Sandbox,FabEdge,Haotao Geng,BoCloud,haotaogeng,https://github.com/FabEdge/fabedge/blob/main/MAINTAINERS.md
 ,,Jianbo Yan,BoCloud,yanjianbo1983,
