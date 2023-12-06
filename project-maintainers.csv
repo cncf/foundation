@@ -812,10 +812,10 @@ Sandbox,k8gb,Donovan Muller,Absa,donovanmuller,https://github.com/AbsaOSS/k8gb/b
 ,,MichalK,Absa,kuritka,
 ,,Timofey Ilinykh,Absa,somaritane,
 ,,Yury Tsarev,Absa,ytsarev,
-Sandbox,Trickster ,James Ranson,Comcast,jranson,https://github.com/tricksterproxy/trickster/blob/main/MAINTAINERS.md
-,,Chris Randles,Comcast,crandles,
-,,Adam Ross,Comcast,LimitlessEarth,
-,,Julius Volz,Promlabs,juliusv,
+Sandbox,Trickster ,James Ranson,Virga,jranson,https://github.com/trickstercache/trickster/blob/main/MAINTAINERS.md
+,,Chris Randles,WB Discovery,crandles,
+,,Adam Ross,Amazon,LimitlessEarth,
+,,Jake Nichols,Argano,jnichols-git,
 Incubating,Emissary-ingress,Aidan Hahn,,aidanhahn,https://github.com/emissary-ingress/emissary/blob/master/MAINTAINERS.md
 ,,Alex Gervais,Ambassador Labs,alexgervais,
 ,,Alice Wasko,Ambassador Labs,aliceproxy,
