@@ -1117,15 +1117,16 @@ Sandbox,Curve,Pan WANG,NetEase,aspirer,https://github.com/opencurve/curve/blob/m
 Sandbox,Clusterpedia,Iceber Gu,DaoCloud,Iceber,https://github.com/clusterpedia-io/clusterpedia/blob/main/MAINTAINERS.md
 ,,Calvin Chen,DaoCloud,calvin0327,
 ,,Yingjun Wu,China Mobile Cloud,wuyingjun-lucky,
-Sandbox,OpenFeature,Alex Jones,Canonical,AlexsJones,https://github.com/open-feature/community/blob/main/governance-charter.md#governing-committee
+Incubating,OpenFeature,Alex Jones,AWS,AlexsJones,https://openfeature.dev/community/community-members
 ,,Alois Reitbauer,Dynatrace,aloisreitbauer,
 ,,Ben Rometsch,Flagsmith,dabeeeenster,
-,,Dan O'Brien,LaunchDarkly,intheclouddan,
 ,,David Hirsch,Dynatrace,DavidPHirsch,
 ,,Justin Abrahms,eBay,justinabrahms,
+,,Lukas Reining,codecentric,lukas-reining,
 ,,Michael Beemer,Dynatrace,beeme1mr,
 ,,Pete Hodgson,Independent,moredip,
-,,Steve Arch,CloudBees,agentgonzo,
+,,Ryan Lamb,LaunchDarkly,kinyoklion,
+,,Thomas Poignant,Adevinta,thomaspoignant,
 ,,Todd Baert,Dynatrace,toddbaert,
 Sandbox,OpenCost,Ajay Tripathy,Kubecost,AjayTripathy,https://github.com/kubecost/opencost/blob/develop/MAINTAINERS.md
 ,,Matt Bolt,Kubecost,mbolt35,
