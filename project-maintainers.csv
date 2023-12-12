@@ -623,7 +623,7 @@ Incubating,Contour,Steve Kriss,VMware,skriss,https://github.com/projectcontour/c
 ,,Tero Saarni,Ericsson,tsaarni,
 ,,Sunjay Bhatia,VMware,sunjayBhatia,
 ,,Nigel Brown,VMware,pnbrown,
-Incubating,Operator Framework: SDK,Joe Lanford,Red Hat,joelanford,,https://github.com/operator-framework/operator-sdk/blob/master/.cncf-maintainers
+Incubating,Operator Framework: SDK,Joe Lanford,Red Hat,joelanford,https://github.com/operator-framework/operator-sdk/blob/master/.cncf-maintainers
 ,,Ish Shah,Red Hat,theishshah,
 ,,Jonathan Berkhahn,IBM,jberkhahn,
 ,,Fabian von Feilitzsch,Red Hat,fabianvf,
