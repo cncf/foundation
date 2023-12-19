@@ -32,6 +32,7 @@ Your input matters! We want to ensure our project opportunities at KubeCon + Clo
 ## ⚡ Announcing... Lightning Round - Security Slam!
 Following the impact of the 2023 Cloud Native Security Slam, the Kubernetes maintainers have scheduled a one-day special event to allow new Kubernetes contributors an easy path to helping commit critical security improvements to Kubernetes. 
 Whether you are joining for one day or would like to become a recurring contributor, this is a perfect opportunity to learn more about what goes on behind the scenes to make Kubernetes the global digital superpower it has become.
+
 [View Details](https://community.cncf.io/events/details/cncf-cloud-native-security-slam-presents-2023-security-slam-lightning-round/)
 
 ## 🍎 GitHub Actions: Now with Apple Silicon!
