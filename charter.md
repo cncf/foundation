@@ -141,7 +141,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	ix. adopt guidelines or a policy for use of the trademark; and
 
-	-	x. and provide financial governance overall.
+	-	x. provide financial governance overall.
 
 -	(e) The revenues collected by the project shall be used for the following purposes:
 
