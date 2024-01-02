@@ -57,3 +57,19 @@ List.
 [Allowlist License Policy]: #cncf-allowlist-policy
 [Approved Licenses]: #approved-licenses-for-allowlist
 [CNCF Charter]: https://github.com/cncf/foundation/blob/master/charter.md
+
+### Process for applying for an exception
+
+This outlines the process for applying for an exception to the Intellectual Property policy referenced above.
+
+- A CNCF project maintainer can file a request for an exception using the issue template. 
+
+Exceptions should be filed by the project using the component - the exception applies to how the component is being used. 
+
+- A staff member will review and add to the [Licensing Exception Board](https://github.com/cncf/foundation/projects/1)
+- Staff will work with Legal to create an agenda for the Legal Committee to review and present a recommendation to the Governing Board. 
+- A vote is called according to the [CNCF Charter](https://github.com/cncf/foundation/blob/master/charter.md).
+- If the vote is approved and the resolution passes, Staff will post in the issue, linking to the PR where this has been approved.
+- If the vote is not approved, the issue will be closed. 
+
+
