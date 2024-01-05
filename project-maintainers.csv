@@ -65,6 +65,7 @@ Graduated,Envoy,Matt Klein,bitdrift,mattklein123,https://github.com/envoyproxy/e
 ,,Raven Black,Dropbox,ravenblackx,
 ,,Kateryna Nezdolii,Spotify,nezdolik,
 ,,Alex Xu,Intel,soulxu,
+,Envoy: Gateway (non-voting),Xunzhuo Liu,Tencent,Xunzhuo,https://github.com/envoyproxy/gateway/blob/main/GOVERNANCE.md#steering-committee
 ,,,,,
 Graduated,CoreDNS,Chris O'Haver,Infoblox,chrisohaver,https://github.com/coredns/coredns/blob/master/CODEOWNERS
 ,,John Belamaric,Google,johnbelamaric,
@@ -1487,9 +1488,8 @@ Sandbox,KubeStellar,Andy Anderson,IBM,clubanderson,https://github.com/kubestella
 ,,Braulio Dumba,IBM,dumb0002,
 ,,Jun Duan,IBM,waltforme,
 Sandbox,Spiderpool,Weizhou Lan,Daocloud,weizhoublue,https://github.com/spidernet-io/spiderpool/blob/main/MAINTAINERS.md
-,,Qifeng Guo,Daocloud,cyclinder
-,,Haifeng Yao,Daocloud,windsonsea
-,,Kun Wu,Daocloud,Icarus9913
-,,Tao Yang,Daocloud,ty-dc
-,,Kai Yan,Daocloud,yankay
-
+,,Qifeng Guo,Daocloud,cyclinder,
+,,Haifeng Yao,Daocloud,windsonsea,
+,,Kun Wu,Daocloud,Icarus9913,
+,,Tao Yang,Daocloud,ty-dc,
+,,Kai Yan,Daocloud,yankay,
