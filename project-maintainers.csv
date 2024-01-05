@@ -65,6 +65,7 @@ Graduated,Envoy,Matt Klein,bitdrift,mattklein123,https://github.com/envoyproxy/e
 ,,Raven Black,Dropbox,ravenblackx,
 ,,Kateryna Nezdolii,Spotify,nezdolik,
 ,,Alex Xu,Intel,soulxu,
+,Envoy: Gateway (non-voting),Xunzhuo Liu,Tencent,Xunzhuo,https://github.com/envoyproxy/gateway/blob/main/GOVERNANCE.md#steering-committee
 ,,,,,
 Graduated,CoreDNS,Chris O'Haver,Infoblox,chrisohaver,https://github.com/coredns/coredns/blob/master/CODEOWNERS
 ,,John Belamaric,Google,johnbelamaric,
@@ -1478,9 +1479,17 @@ Sandbox,Logging Operator,Ferenc Hernádi,Axoflow,ahma,https://github.com/kube-lo
 ,,Márk Sági-Kazár,OpenMeter,sagikazarmark,
 ,,Péter Wilcsinszky,Axoflow,pepov,
 ,,Sándor Guba,Axoflow,tarokkk,
+Sandbox,k8sgpt-ai,Alex Jones,AWS,AlexsJones,https://raw.githubusercontent.com/k8sgpt-ai/community/main/MAINTAINERS.md
+,,Thomas Schuetz,WhizUs,thschue,
 Sandbox,KubeStellar,Andy Anderson,IBM,clubanderson,https://github.com/kubestellar/kubestellar/blob/main/OWNERS
 ,,Mike Spreitzer,IBM,MikeSpreitzer,
 ,,Ezra Silvera,IBM,ezrasilvera,
 ,,Paolo Dettori,IBM,pdettori,
 ,,Braulio Dumba,IBM,dumb0002,
 ,,Jun Duan,IBM,waltforme,
+Sandbox,Spiderpool,Weizhou Lan,Daocloud,weizhoublue,https://github.com/spidernet-io/spiderpool/blob/main/MAINTAINERS.md
+,,Qifeng Guo,Daocloud,cyclinder,
+,,Haifeng Yao,Daocloud,windsonsea,
+,,Kun Wu,Daocloud,Icarus9913,
+,,Tao Yang,Daocloud,ty-dc,
+,,Kai Yan,Daocloud,yankay,
