@@ -1478,6 +1478,8 @@ Sandbox,Logging Operator,Ferenc Hernádi,Axoflow,ahma,https://github.com/kube-lo
 ,,Márk Sági-Kazár,OpenMeter,sagikazarmark,
 ,,Péter Wilcsinszky,Axoflow,pepov,
 ,,Sándor Guba,Axoflow,tarokkk,
+Sandbox,k8sgpt-ai,Alex Jones,AWS,AlexsJones,https://raw.githubusercontent.com/k8sgpt-ai/community/main/MAINTAINERS.md
+,,Thomas Schuetz,WhizUs,thschue,
 Sandbox,KubeStellar,Andy Anderson,IBM,clubanderson,https://github.com/kubestellar/kubestellar/blob/main/OWNERS
 ,,Mike Spreitzer,IBM,MikeSpreitzer,
 ,,Ezra Silvera,IBM,ezrasilvera,
@@ -1490,3 +1492,4 @@ Sandbox,Spiderpool,Weizhou Lan,Daocloud,weizhoublue,https://github.com/spidernet
 ,,Kun Wu,Daocloud,Icarus9913
 ,,Tao Yang,Daocloud,ty-dc
 ,,Kai Yan,Daocloud,yankay
+
