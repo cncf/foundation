@@ -65,6 +65,7 @@ Graduated,Envoy,Matt Klein,bitdrift,mattklein123,https://github.com/envoyproxy/e
 ,,Raven Black,Dropbox,ravenblackx,
 ,,Kateryna Nezdolii,Spotify,nezdolik,
 ,,Alex Xu,Intel,soulxu,
+,Envoy: Gateway (non-voting),Xunzhuo Liu,Tencent,Xunzhuo,https://github.com/envoyproxy/gateway/blob/main/GOVERNANCE.md#steering-committee
 ,,,,,
 Graduated,CoreDNS,Chris O'Haver,Infoblox,chrisohaver,https://github.com/coredns/coredns/blob/master/CODEOWNERS
 ,,John Belamaric,Google,johnbelamaric,
@@ -294,7 +295,7 @@ Incubating,CloudEvents,Doug Davis,IBM,duglin,https://github.com/cloudevents/spec
 ,,Mark Peek,VMware,markpeek,
 ,,Ken Owens,Mastercard,kenowens12,
 ,,Klaus Deissner,SAP,deissnerk,
-Incubating,Falco,Andrea Terzolo,Polytechnic of Turin,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
+Incubating,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
 ,,Carlos Tadeu Panato Junior,Chainguard,cpanato,
 ,,Federico Di Pierro,Sysdig,fededp,
 ,,Grzegorz Nosek,Sysdig,gnosek,
@@ -397,7 +398,7 @@ Sandbox,OpenEBS,Amit Kumar Das,MayaData,AmitKumarDas,https://github.com/openebs/
 ,,Murat Karslioglu,MayaData,muratkars,
 ,,Richard Elling ,Viking Enterprise Solutions,richardelling,
 ,,Vishnu Itta,MayaData,vishnuitta,
-Incubating,Thanos,Bartłomiej Płotka,Red Hat,bwplotka,https://github.com/thanos-io/thanos/blob/master/MAINTAINERS.md
+Incubating,Thanos,Bartłomiej Płotka,Google,bwplotka,https://github.com/thanos-io/thanos/blob/master/MAINTAINERS.md
 ,,Frederic Branczyk ,Polar Signals,brancz,
 ,,Giedrius Statkevičius,Vinted,GiedriusS,
 ,,Kemal Akkoyun,Polar Signals,kakkoyun,
@@ -1027,7 +1028,7 @@ Incubating,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/communit
 ,,Alessandro Segala,Microsoft,ItalyPaleAle,
 ,,Ryan Nowak, Microsoft,rynowak,
 ,,Marc Duiker,Diagrid,marcduiker,
-,,Nyemade Uverski,Microsoft,nyemade-uversky,
+,,Cecil Phillip,Stripe,cecilphillip,
 Sandbox,Nocalhost,Zhenwei Wang,Tencent,jack230230,https://github.com/nocalhost/nocalhost/blob/main/MAINTAINERS.md
 ,,Wei Wang,Tencent,lyzhang1999,
 ,,Jinhao Huang,Tencent,anurnomeru,
@@ -1478,6 +1479,8 @@ Sandbox,Logging Operator,Ferenc Hernádi,Axoflow,ahma,https://github.com/kube-lo
 ,,Márk Sági-Kazár,OpenMeter,sagikazarmark,
 ,,Péter Wilcsinszky,Axoflow,pepov,
 ,,Sándor Guba,Axoflow,tarokkk,
+Sandbox,k8sgpt-ai,Alex Jones,AWS,AlexsJones,https://raw.githubusercontent.com/k8sgpt-ai/community/main/MAINTAINERS.md
+,,Thomas Schuetz,WhizUs,thschue,
 Sandbox,KubeStellar,Andy Anderson,IBM,clubanderson,https://github.com/kubestellar/kubestellar/blob/main/OWNERS
 ,,Mike Spreitzer,IBM,MikeSpreitzer,
 ,,Ezra Silvera,IBM,ezrasilvera,
@@ -1487,3 +1490,9 @@ Sandbox,KubeStellar,Andy Anderson,IBM,clubanderson,https://github.com/kubestella
 Sandbox,kube-burner,Raul Sevilla,Red Hat,rsevilla87,https://github.com/kube-burner/kube-burner/blob/main/MAINTAINERS.md
 ,,Vishnu Challa,Red Hat,vishnuchalla,
 ,,Sai Malleni,Red Hat,smalleni,
+Sandbox,Spiderpool,Weizhou Lan,Daocloud,weizhoublue,https://github.com/spidernet-io/spiderpool/blob/main/MAINTAINERS.md
+,,Qifeng Guo,Daocloud,cyclinder,
+,,Haifeng Yao,Daocloud,windsonsea,
+,,Kun Wu,Daocloud,Icarus9913,
+,,Tao Yang,Daocloud,ty-dc,
+,,Kai Yan,Daocloud,yankay,
