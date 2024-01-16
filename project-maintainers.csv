@@ -622,12 +622,10 @@ Incubating,Crossplane,Bassam Tabbara,Upbound,bassam,https://github.com/crossplan
 ,,Hasan Turken,Upbound,turkenh,
 ,,Philippe Scorsolini,Upbound,phisco,
 ,,Bob Haddleton,Nokia,bobh66,
-Incubating,Contour,Steve Kriss,VMware,skriss,https://github.com/projectcontour/community/blob/master/MAINTAINERS.md
-,,Steve Sloka,VMware,stevesloka,
-,,Alex Xu,VMware,xaleeks,
+Incubating,Contour,Steve Kriss,Broadcom,skriss,https://github.com/projectcontour/community/blob/master/MAINTAINERS.md
 ,,Tero Saarni,Ericsson,tsaarni,
-,,Sunjay Bhatia,VMware,sunjayBhatia,
-,,Nigel Brown,VMware,pnbrown,
+,,Sunjay Bhatia,Broadcom,sunjayBhatia,
+,,Nigel Brown,Intuit,pnbrown,
 Incubating,Operator Framework: SDK,Joe Lanford,Red Hat,joelanford,https://github.com/operator-framework/operator-sdk/blob/master/.cncf-maintainers
 ,,Ish Shah,Red Hat,theishshah,
 ,,Jonathan Berkhahn,IBM,jberkhahn,
