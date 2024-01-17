@@ -240,11 +240,13 @@ Graduated,Helm,Matt Butcher,Microsoft,technosophos,https://github.com/helm/commu
 ,,Karen Chu,Microsoft,karenhchu,
 ,,Martin Hickey,IBM,hickeyma,
 Graduated,Rook,Satoru Takeuchi,Cybozu,satoru-takeuchi,https://github.com/rook/rook/blob/master/OWNERS.md
-,,Jared Watts ,Upbound,jbw976,
+,,Jared Watts,Upbound,jbw976,
 ,,Sebastien Han,Red Hat,leseb,
 ,,Blaine Gardner,Red Hat,BlaineEXE,
 ,,Travis Nielsen ,Red Hat,travisn,
-,,Alexander Trost,Cloudibility,galexrt,
+,,Alexander Trost,Koor Technologies,galexrt,
+,,Subham Rai,Red Hat,subhamkrai,
+,,Santosh Pillai,Red Hat,sp98,
 Graduated,Harbor,Daniel Jiang,VMware,reasonerjt,https://github.com/goharbor/community/blob/master/MAINTAINERS.md
 ,,Fanjian Kong,Tencent,kofj,
 ,,Daniel Pacak,Aqua Security,danielpacak,
