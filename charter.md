@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated September 14 2023
+Effective Nov 6 2015 / Updated December 14 2023
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -109,9 +109,11 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	ii. Technical Community Representatives consist of:
 
-		-	a. the TOC Chair, and
+		-	a. the TOC Chair,
 
-		-	b. two Committers elected from the CNCF Projects under a process approved by the then-serving Governing Board.
+		-	b. the End User TAB Chair, and
+
+		-	c. two Committers elected from the CNCF Projects under a process approved by the then-serving Governing Board.
 
 	-	iii. The Governing Board may extend a Platinum membership at the Silver Membership Scale rates on a year-by-year basis for up to 5 years to startup companies with revenues less than \$50 million that are deemed strategic technology contributors by the Governing Board.
 
@@ -308,7 +310,9 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 -	(i) The End User TAB input to the TOC shall be taken together with other input and feedback for the TOC to make decisions and plans. The recommendations are advisory only and at no point shall the recommendations of the End User TAB be used to order or direct any TOC or project participant toward any action or outcome.
 
--	(j) The End User TAB may develop policies and procedures related to nominations, elections, operations, or other matters pertaining to its purpose, scope, and activities so long as such policies and procedures are consistent with this charter.
+-	(j) The End User TAB shall select a Chair of the End User TAB to set agendas, facilitate discussions, and serve as the End User TAB representative to the Governing Board. The End User TAB may, at its option, select one or two Vice Chairs.
+
+-	(k) The End User TAB may develop policies and procedures related to nominations, elections, operations, or other matters pertaining to its purpose, scope, and activities so long as such policies and procedures are consistent with this charter.
 
 #### 9. CNCF Projects
 
