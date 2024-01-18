@@ -245,11 +245,13 @@ Graduated,Helm,Matt Butcher,Microsoft,technosophos,https://github.com/helm/commu
 ,,Karen Chu,Microsoft,karenhchu,
 ,,Martin Hickey,IBM,hickeyma,
 Graduated,Rook,Satoru Takeuchi,Cybozu,satoru-takeuchi,https://github.com/rook/rook/blob/master/OWNERS.md
-,,Jared Watts ,Upbound,jbw976,
+,,Jared Watts,Upbound,jbw976,
 ,,Sebastien Han,Red Hat,leseb,
 ,,Blaine Gardner,Red Hat,BlaineEXE,
 ,,Travis Nielsen ,Red Hat,travisn,
-,,Alexander Trost,Cloudibility,galexrt,
+,,Alexander Trost,Koor Technologies,galexrt,
+,,Subham Rai,Red Hat,subhamkrai,
+,,Santosh Pillai,Red Hat,sp98,
 Graduated,Harbor,Daniel Jiang,VMware,reasonerjt,https://github.com/goharbor/community/blob/master/MAINTAINERS.md
 ,,Fanjian Kong,Tencent,kofj,
 ,,Daniel Pacak,Aqua Security,danielpacak,
@@ -506,7 +508,7 @@ Graduated,Argo, Saravanan Balasubramanian,Intuit,sarabala1979,https://github.com
 ,,Kareena Hirani,Intuit,khhirani,
 ,,Pasha Kostohrys,Codefresh,pasha-codefresh,
 ,,Ed Lee,Intuit,edlee2121,
-,,Alexander Matyushentsev,Intuit,alexmt,
+,,Alexander Matyushentsev,Akuity,alexmt,
 ,,Mikhail Mazurskiy,GitLab,ash2k,
 ,,Vaibhav Page, Black Rock,VaibhavPage,
 ,,William Tam,Red Hat,wtam2018,
@@ -522,6 +524,9 @@ Graduated,Argo, Saravanan Balasubramanian,Intuit,sarabala1979,https://github.com
 ,,Andrii Perenesenko,Intuit,perenesenko,
 ,,Leonardo Luz Almeida,Intuit,leoluz,
 ,,Michael Crenshaw,Intuit,crenshaw-dev,
+,,Soumya Ghosh Dastidar,Akuity,gdsoumya,
+,,Nicholas Morey,Akuity,morey-tech,
+,,Justin Marquis,Akuity,34fathombelow,
 Sandbox,CNI-Genie,Zefeng (Kevin) Wang,Huawei ,kevin-wangzefeng,https://github.com/cni-genie/CNI-Genie/blob/master/MAINTAINERS
 ,,Sushantha Kumar,Huawei ,sushanthakumar,
 ,,Jun Du,Huawei ,m1093782566,
@@ -587,6 +592,7 @@ Incubating,LitmusChaos,Amit Kumar Das,Harness,amityt,https://github.com/litmusch
 ,,Udit Gaurav,Harness,uditgaurav,
 ,,Vedant Shrotria,Harness,Jonsy13,
 ,,Uma Mukkara,Harness,umamukkara,
+,,Namkyu Park,Independent,namkyu1999,
 Sandbox,Artifact Hub,Sergio C. Arteaga,,tegioz,https://github.com/artifacthub/hub/blob/master/OWNERS
 ,,Cynthia S. Garcia,,cynthia-sg,
 ,,Matt Farina,SUSE,mattfarina,
@@ -623,12 +629,10 @@ Incubating,Crossplane,Bassam Tabbara,Upbound,bassam,https://github.com/crossplan
 ,,Hasan Turken,Upbound,turkenh,
 ,,Philippe Scorsolini,Upbound,phisco,
 ,,Bob Haddleton,Nokia,bobh66,
-Incubating,Contour,Steve Kriss,VMware,skriss,https://github.com/projectcontour/community/blob/master/MAINTAINERS.md
-,,Steve Sloka,VMware,stevesloka,
-,,Alex Xu,VMware,xaleeks,
+Incubating,Contour,Steve Kriss,Broadcom,skriss,https://github.com/projectcontour/community/blob/master/MAINTAINERS.md
 ,,Tero Saarni,Ericsson,tsaarni,
-,,Sunjay Bhatia,VMware,sunjayBhatia,
-,,Nigel Brown,VMware,pnbrown,
+,,Sunjay Bhatia,Broadcom,sunjayBhatia,
+,,Nigel Brown,Intuit,pnbrown,
 Incubating,Operator Framework: SDK,Joe Lanford,Red Hat,joelanford,https://github.com/operator-framework/operator-sdk/blob/master/.cncf-maintainers
 ,,Ish Shah,Red Hat,theishshah,
 ,,Jonathan Berkhahn,IBM,jberkhahn,
@@ -1000,7 +1004,7 @@ Sandbox,SuperEdge,Gerald Wang,Tencent,neweyes,https://github.com/superedge/super
 ,,Yiwei Chen,Tencent,yiwei-C,
 ,,Wenhu Wang,ZTO,wenhuwang,
 ,,Roy Liang,Tencent,lianghao208,
-Sandbox,Karmada,Kevin Wang,Huawei,kevin-wangzefeng,https://github.com/karmada-io/karmada/blob/master/MAINTAINERS.md
+Incubating,Karmada,Kevin Wang,Huawei,kevin-wangzefeng,https://github.com/karmada-io/karmada/blob/master/MAINTAINERS.md
 ,,Hanbo Li,Huawei,mrlihanbo,
 ,,Hongcai Ren,Huawei,RainbowMango,
 ,,Lei Xue,Tencent,carmark,
@@ -1032,6 +1036,7 @@ Incubating,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/communit
 ,,Ryan Nowak, Microsoft,rynowak,
 ,,Marc Duiker,Diagrid,marcduiker,
 ,,Cecil Phillip,Stripe,cecilphillip,
+,,Annu Singh,Nirmata,annucode,
 Sandbox,Nocalhost,Zhenwei Wang,Tencent,jack230230,https://github.com/nocalhost/nocalhost/blob/main/MAINTAINERS.md
 ,,Wei Wang,Tencent,lyzhang1999,
 ,,Jinhao Huang,Tencent,anurnomeru,
@@ -1190,10 +1195,7 @@ Sandbox, Lima, Akihiro Suda, NTT, AkihiroSuda, https://github.com/lima-vm/lima/b
 ,,Jan Dubois, SUSE, jandubois,
 ,,Anders F Björklund, Individual, afbjorklund,
 ,,Balaji Vijayakumar, Thoughtworks, balajiv113,
-Sandbox, ContainerSSH, Janos Bonic, Red Hat, janosdebugs, https://github.com/orgs/ContainerSSH/people
-,, Sanja Bonic, Red Hat, sanjacodes,
-,, Bence Santha, Axon Produkt Ltd, bencurio,
-,, Nikos Tsipinakis, CERN, tsipinakis,
+Sandbox, ContainerSSH, Nikos Tsipinakis, CERN, tsipinakis, https://github.com/orgs/ContainerSSH/people
 Sandbox,kubewarden,Flavio Castelli,SUSE,flavio,https://github.com/orgs/kubewarden/teams/maintainers/members
 ,,José Guilherme Vanz,SUSE,jvanz,
 ,,Víctor Cuadrado Juan ,SUSE,viccuad,
@@ -1308,6 +1310,7 @@ Sandbox,HwameiStor,Liang Sun,DaoCloud,sun7927,https://github.com/hwameistor/hwam
 ,,A_tian,DaoCloud,FloatXD,
 ,,EchoS,DaoCloud,zhaosimon,
 ,,Michael Yao,DaoCloud,windsonsea,
+,,Baofa Fan,DaoCloud,carlory,
 Sandbox,Merbridge,Kebe Liu,DaoCloud,kebe7jun,https://github.com/merbridge/merbridge/blob/main/MAINTAINERS.md
 ,,Wenqing Dai,Zhejiang University,dddddai,
 ,,Xunzhuo Liu,Tencent,Xunzhuo,
@@ -1476,7 +1479,7 @@ Incubating,Kubeflow,Aldo Culquicondor,Google,alculquicondor,https://github.com/k
 ,,Yao Xiao,Google,PatrickXYS,
 ,,Yang Pan,Google,IronPan,
 ,,Yihong Wang,IBM,yhwang,
-,,Yuan (Terry) Tang,Red Hat,terrytangyuan,
+,,Yuan Tang,Red Hat,terrytangyuan,
 ,,Yuki Iwai,CyberAgent,tenzen-y,
 Sandbox,Logging Operator,Ferenc Hernádi,Axoflow,ahma,https://github.com/kube-logging/.github/blob/main/MAINTAINERS.md
 ,,Márk Sági-Kazár,OpenMeter,sagikazarmark,
@@ -1501,3 +1504,19 @@ Sandbox,Spiderpool,Weizhou Lan,Daocloud,weizhoublue,https://github.com/spidernet
 ,,Kun Wu,Daocloud,Icarus9913,
 ,,Tao Yang,Daocloud,ty-dc,
 ,,Kai Yan,Daocloud,yankay,
+Sandbox,Kuasar,Danni Xia,Huawei,Vanient,https://github.com/kuasar-io/kuasar/blob/main/MAINTAINERS.md
+,,Hailin Luo,Huawei,luohl364218,
+,,Hung-Ying Tai,Second State,hydai,
+,,JingXiao Lu,Huawei,jingxiaolu,
+,,Michael Yuan,Second State,juntao,
+,,Pengfei Jiang,Huawei,flyflypeng,
+,,Quincy Liu,Agricultural Bank of China,quincyliu001,
+,,Shaobao Feng,Huawei,abel-von,
+,,Tianyang (Burning) Zhang,Huawei,Burning1020,
+,,Tuo Xie,Huawei,xietuo,
+,,Yulin Sun,Huawei,sunyulin728,
+,,Zefeng (Kevin) Wang,Huawei,kevin-wangzefeng,
+Sandbox,Krkn,Naga Ravi Chaitanya Elluri,Red Hat,chaitanyaenr,https://github.com/krkn-chaos/krkn/blob/main/MAINTAINERS.md
+,,Paige Rubendall,Red Hat,paigerube14,
+,,Tullio Sebastiani,Red Hat,tsebastiani,
+,,Pradeep Surisetty,Red Hat,psuriset,
