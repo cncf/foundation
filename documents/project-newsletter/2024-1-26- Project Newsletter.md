@@ -65,7 +65,7 @@ Here are the upcoming deadlines for CFPs:
 - [KCD Costa Rica](https://sessionize.com/kubernetes-community-day-costa-rica-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - January 31
 - [KCD Romania](https://sessionize.com/kcd-romania-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - January 31
 - [KCD Istanbul](https://sessionize.com/kubernetes-community-days-istanbul/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - January 31
-- [KCD Texas](https://sessionize.com/kcd-texas?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq} - February 4
+- [KCD Texas](https://sessionize.com/kcd-texas?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - February 4
 - [GitOpsCon](https://sessionize.com/GitOpsCon-North-America-2024/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - February 4
 - [KCD New York](https://sessionize.com/kcd-newyork-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - February 11
 - [KCD Munich](https://sessionize.com/kcd-munich-2024-cfp?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - March 31
