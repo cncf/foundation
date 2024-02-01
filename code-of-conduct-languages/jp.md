@@ -64,7 +64,7 @@ Linux Foundationが制作するCNCFイベントでのインシデントについ
 
 ## 改正
 
-CNCFの憲章と一貫して、この行動規範に対する実質的な変更は、技術監督委員会の承認が必要です。
+CNCFの憲章と一貫して、この行動規範に対する実質的な変更は、Technical Oversight Committeeの承認が必要です。
 
 ## 謝辞
 
