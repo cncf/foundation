@@ -15,7 +15,7 @@ CNCFコミュニティのコントリビュータ、メンテナ、およびそ�
 
 ### CNCFイベント
 
-Linux Foundationのプロフェッショナルなイベントスタッフによって制作されるCNCFのイベントに関しては、Linux Foundationの [イベント行動規約](https://events.linuxfoundation.org/code-of-conduct/) 従って運営されます。これは、CNCF行動規範と併用されることを目的としています。
+Linux Foundationのプロフェッショナルなイベントスタッフによって制作されるCNCFのイベントに関しては、Linux Foundationの [イベント行動規約](https://events.linuxfoundation.org/code-of-conduct/) に従って運営されます。これは、CNCF行動規範と併用されることを目的としています。
 
 ## 規範
 
