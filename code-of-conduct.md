@@ -11,7 +11,7 @@ Other languages available:
 - [Hindi/हिन्दी](code-of-conduct-languages/hi.md)
 - [Indonesian/Bahasa Indonesia](code-of-conduct-languages/id.md)
 - [Italian/Italiano](code-of-conduct-languages/it.md)
-- [Japanese/日本語](code-of-conduct-languages/jp.md)
+- [Japanese/日本語](code-of-conduct-languages/ja.md)
 - [Korean/한국어](code-of-conduct-languages/ko.md)
 - [Polish/Polski](code-of-conduct-languages/pl.md)
 - [Portuguese/Português](code-of-conduct-languages/pt.md)
