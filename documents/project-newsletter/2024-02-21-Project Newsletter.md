@@ -20,67 +20,76 @@ In this Edition:
 
 #### 
 
-## 🏨KubeCon + CloudNativeCon EU Hotels Now Available
-The schedule is LIVE for [KubeCon + CloudNativeCon Europe 2024](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)! 🎁 [If you’re not yet registered to join us in Paris](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/), France from 19-22 March, get a move on. 🏃
- 
-This epic event has everything you need: talks from experts, news, and tech from the best vendors, a hackathon, more than a dozen co-located events, parties, swag, and all the networking you can handle with the best in the industry! [Join us](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/).
+## 📝Certification Expiration Changes
+The Linux Foundation has announced a certification policy change effective 2024. This update includes revisions to exam eligibility requirements and a new retake policy, providing candidates with greater flexibility and support. These changes are part of the Linux Foundation's commitment to maintaining the integrity and relevance of its certification programs within the evolving landscape of technology.
 
-[View Schedule](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/schedule/)
+[Learn More](https://training.linuxfoundation.org/certification-policy-change-2024/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u)
 
-## 📽️ Project Video Update at KubeCon + CloudNativeCon EU
-For KubeCon + CloudNativeCon EU, we will limit the project updates on the keynote stage exclusively to Graduated projects + Kubernetes SIGs. 
+## 🗃️ Resource Provider Mega Thread
+There’s a lot of news this month around resources provided to projects! Please read as your project may be impacted or could benefit from this news:
 
-Incubating projects will still be able to provide updates at KubeCon + CloudNativeCon EU on our new Lightning Talk stage with the option to provide live or pre-recorded updates.  
+### OCI Credits Now Available for Projects
+Oracle has kindly donated $3 million in OCI credits for CNCF projects. These credits are now available for all CNCF projects, and we encourage you to investigate adding OCI to your CI/CD pipelines. Check out this [blog post](https://www.cncf.io/blog/2024/02/02/oracle-oci-credits-are-now-available-to-cncf-projects-here-is-what-you-need-to-know/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) for more information!
 
-All updates provided at KubeCon + CloudNativeCon EU will be showcased throughout the event on monitors displayed in our Project Pavilion. 
+### Equinix Updates
+The folks at Equinix have asked us to remind projects using their resources that they are bare metal! That means that any machines you have that sit idle, or even off, are still taking up resources and burning carbon for no reason. Equinix and CNCF Staff are double-checking that all the usage is valid and that resources are not stale/orphaned.
 
-Please submit your video and slide deck by Friday, January 25, in order to be considered.
+If you have an Equinix footprint, please take a few minutes and ensure the machines your project is using are what is needed. Doing so will also get you ahead of the game on the policy changes mentioned above. If you have any Equinix-specific questions or want help right-sizing machines, don’t hesitate to reach out to (equinix@cncf.io).
 
-[Review Guidelines](https://docs.google.com/forms/d/e/1FAIpQLSf_dCUIsbnCPohBqBtc22G6thTYyvf25kw8MbYb4WUipdC4_A/viewform?_hsenc=p2ANqtz-98E0spAnDIhKO1W2CZIiN-NM1ZaEkFwdDVS8M-4xz_-Pcr8KNd1-3KOAo7RoEW3BliThF0)
+### New Policy on Resource Usage
+To be good stewards of the resources donated to us by various providers, we CNCF folks need to change how we’re handing out and monitoring project usage of cloud/provider resources. To that end, we’ve written a policy around projects requesting and using compute resources. 
 
-## 🗣️Mentoring
-LFX Mentorship
-The LFX Mentorship 2024 Term 01: March - May is open now open for project ideas:
-[https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/01-Mar-May](https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/01-Mar-May)
+#### TL;DR: 
 
-Project submission and application timeline:
+CNCF will have hosted GHA Runners for you to use across all our major providers. If a provider/architecture/shape doesn’t exist, please contact CNCF staff, and we will add it.
+Unless there are extenuating circumstances, you should shape your CI to work within GitHub Actions. Resources just for CI/CD must be re-requested and approved by CNCF Staff.
+Non-ephemeral resources need to be re-requested every six months. At seven months, those resources are subject to deletion. 
+This will go into effect in September 2024, with staff reaching out to projects over the coming months to discuss their usage and identify a path forward
 
-- Project proposal period: January 8 - 24. If you miss this deadline by a day or so, please contact [nwaddington@linuxfoundation.org](nwaddington@linuxfoundation.org)
-- Mentee applications open: January 29 - February 13 (2 weeks)
-- Application review/admission decisions/HR paperwork: February 14 - February 27
-- We look forward to seeing all the project ideas you're interested in working on!
+Note from Jeefy: These changes are definitely a departure from how things have normally been handled, and it will also be a big lift from some projects. But we’ve also grown past what we can manage “the old way.” This gives us a much more sustainable model across the board. Thanks for helping us and your fellow projects out.
 
-Google Summer of Code 20
-This is Google Summer of Code’s 20th Year 🎉 CNCF has been participating in the Google Summer of Code for a few years, and now we are excited to apply and join the 2024 program cycle with them!
+### GitHub Action Runners
+The CNCF team has been working on supplementing the provided GitHub runners with hosted runners within our various providers. If your project is part of the CNCF’s GitHub Enterprise account, you should already have access to some. Example below:
 
-All CNCF projects are eligible to apply to participate in the Google Summer of Code. Please start thinking about project ideas and submit them via pull request:
-[https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#ideas](https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#ideas)
+To use these runners, see the [syntax provided by GitHub](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on) and use the name of the runner provided (ex. equinix-4cpu-16gb). We will be adding different types of runners over the next few months. If you would like any specific shape, size, or vendor platform, please reach out to us in [ServiceDesk](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1?_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u&utm_medium=email&utm_source=hs_email) and we’ll get it running ASAP!
 
-This year, GSoC is looking to have more AI/ML projects in particular, so please share any open source AI/ML projects that you’re thinking of doing.
+### Join the LFX Insights v3 Beta Pilot Program
+LFX is piloting a new tool for maintainers to learn about community growth trends and project velocity trends. Many early adopters have already boarded Insights, and we invite you to join them. Getting added to Insights is similar to configuring the DCO bot on your GitHub organization and activating it for one or more repos. [Learn more about Insights v3 here](https://docs.linuxfoundation.org/lfx/insights/v3-beta-version-current?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) and contact Daniel Krook on Slack to start onboarding now.
 
-The deadline to [submit project ideas](https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md) is March 11, 2024.
 
-[Google Summer of Code 2024 Timeline](https://developers.google.com/open-source/gsoc/timeline?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_rKmaXoYjQIRMIB5ww_TJEgv5XSEo8lK4abcyojedtSpe9MhS-trDJuBvCFoaX2n-K8wZq)
+### Use Scarf to Measure Project Adoption
+Scarf is now available to CNCF projects to learn about the adoption patterns of their projects through anonymized usage metrics. The Linux Foundation has partnered with Scarf to provide projects with licenses for their entire team, as well as hands-on support from Scarf. [Learn more about using Scarf here](https://about.scarf.sh/post/the-linux-foundation-is-partnering-with-scarf-for-oss-usage-analytics?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u).
 
+## 🔋Sustainability Survey
+Participate in the [CNCF Sustainability Survey](https://www.surveymonkey.com/r/YW5QK6D?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) to help shape the future of sustainability practices within cloud-native computing. Your input will contribute to developing environmentally conscious solutions in the CNCF ecosystem.
 
 ## 📋TechDocs: TechDocsCon CFP
-On the last Wednesday of each month, the TechDocs team hosts Open Office Hours for anyone to drop in with questions about technical documentation. Our next session will be on Jan 31, 2024, at 8:00 AM PST. You can find details on how to join us on the [public calendar](https://tockify.com/cncf.public.events/detail/643/1706716800000?startms=1706659200000&utm_source=hs_email&utm_medium=email). Hope to see you there!
+On the last Wednesday of each month, the TechDocs team hosts Open Office Hours for anyone to drop in with questions about technical documentation. Our next session will be on Feb 28, 2024, at 8:00 AM PST. You can find details on how to join us on the [public calendar](https://tockify.com/cncf.public.events/detail/701/1709136000000?startms=1709078400000&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u). Hope to see you there!
 
+## ☀️Google Summer of Code 2024
+CNCF has been accepted as a mentoring organization for 2024 🎉 Thanks everyone for all your support and proposals! See the whole list of accepted mentoring organizations at (https://g.co/gsoc).
+
+Now we’ve been accepted as an org, feel free to [update or add any project proposals](https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) up until March 11 when we make our request for project slots.
+
+[Check Out the Timeline](https://developers.google.com/open-source/gsoc/timeline?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u)
 
 ## ✍️Upcoming CFP Deadlines:
 Here are the upcoming deadlines for CFPs:
-- [KCD Costa Rica](https://sessionize.com/kubernetes-community-day-costa-rica-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - January 31
-- [KCD Romania](https://sessionize.com/kcd-romania-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - January 31
-- [KCD Istanbul](https://sessionize.com/kubernetes-community-days-istanbul/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - January 31
-- [KCD Texas](https://sessionize.com/kcd-texas?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - February 4
-- [GitOpsCon](https://sessionize.com/GitOpsCon-North-America-2024/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - February 4
-- [KCD New York](https://sessionize.com/kcd-newyork-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - February 11
-- [KCD Munich](https://sessionize.com/kcd-munich-2024-cfp?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - March 31
-- [CloudNativeSecurityCon](https://events.linuxfoundation.org/cloudnativesecuritycon-north-america/program/cfp/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - March 31
-- [KCD Italy](https://sessionize.com/kcd-italy-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9_TuQzHGK_-Ldi2EzFOBySc36uQ3vVcRX63QsId5ooLD7xTvXMqFCT8UmVrtOX77lZY0gq) - April 4
+- [CloudNativeHacks](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/cloudnativehacks/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - February 24
+- [KCD Pune](https://sessionize.com/kcd-pune-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 4
+- [AI_Dev](https://events.linuxfoundation.org/ai-dev-europe/program/cfp/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 5
+- [KCD Islamabad](https://sessionize.com/kubernetes-community-day-islamabad?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 9
+- [StrimziCon](https://sessionize.com/strimzicon-2024/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 10
+- [KCD Shanghai](https://sessionize.com/kubernetes-community-day-islamabad?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 17
+- [KCD Munich](https://sessionize.com/kcd-munich-2024-cfp?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 31
+- [CloudNativeSecurityCon](https://events.linuxfoundation.org/cloudnativesecuritycon-north-america/program/cfp/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 31
+- [KCD Zurich](https://sessionize.com/kcd-zurich-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 31
+- [KCD Czech + Slovak](https://sessionize.com/kcd-czech-slovak-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 31
+- [WasmCon](https://events.linuxfoundation.org/wasmcon/program/cfp/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - March 31
+- [KCD Italy](https://sessionize.com/kcd-italy-2024?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u) - April 4
 
 
-Want to contribute to February's newsletter? 
+Want to contribute to March's newsletter? 
 [Contribute Today!](projects@cncf.io)
 
 
