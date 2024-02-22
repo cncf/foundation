@@ -51,6 +51,8 @@ Note from Jeefy: These changes are definitely a departure from how things have n
 ### GitHub Action Runners
 The CNCF team has been working on supplementing the provided GitHub runners with hosted runners within our various providers. If your project is part of the CNCF’s GitHub Enterprise account, you should already have access to some. Example below:
 
+![Alt text](https://github.com/cncf/foundation/blob/main/documents/project-newsletter/share_7138959161444758122.png)
+
 To use these runners, see the [syntax provided by GitHub](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on) and use the name of the runner provided (ex. equinix-4cpu-16gb). We will be adding different types of runners over the next few months. If you would like any specific shape, size, or vendor platform, please reach out to us in [ServiceDesk](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1?_hsenc=p2ANqtz-8arVGmTX_JL4lNqa4ikKnLbt8ak4yM9rLY35uelNYkYzJZTgWcBQdcGJxykqUngkHbVN2u&utm_medium=email&utm_source=hs_email) and we’ll get it running ASAP!
 
 ### Join the LFX Insights v3 Beta Pilot Program
