@@ -419,7 +419,7 @@ Incubating,Thanos,Bartłomiej Płotka,Google,bwplotka,https://github.com/thanos-
 ,,Filip Petkovski,Shopify,fpetkovski,
 ,,Saswata Mukherjee,Red Hat,saswatamcode,
 ,,Michael Hoffmann,Aiven,MichaHoffmann,
-Graduated,Flux,Hidde Beydals,Weaveworks,hiddeco,https://github.com/fluxcd/community/blob/main/project/flux-project-maintainers.yaml
+Graduated,Flux,Hidde Beydals,Independent,hiddeco,https://github.com/fluxcd/community/blob/main/project/flux-project-maintainers.yaml
 ,,Michael Bridgen,Pulumi,squaremo,
 ,,Stefan Prodan,Weaveworks,stefanprodan,
 ,,Aurel Canciu, NexHealth,relu,
@@ -1198,7 +1198,7 @@ Sandbox,Hexa Policy Orchestrator,Gerry Gebel,Strata Identity,ggebel,https://gith
 ,,Damien Le Berrigaud, Initial Capacity, dam5s,
 Sandbox,Kured,Christian Kotzbauer,nerdware,ckotzbauer,https://github.com/weaveworks/kured/blob/main/MAINTAINERS
 ,,Daniel Holbach,Independent,dholbach,
-,,Hidde Beydals,Weaveworks,hiddeco,
+,,Hidde Beydals,Independent,hiddeco,
 ,,Jean-Philippe Evrard,TLaaS,evrardjp,
 ,,Jack Francis,Microsoft,jackfrancis,
 Sandbox, OpenFGA, Adrian Tam, Okta, adriantam, https://github.com/openfga/community/blob/main/MAINTAINERS
@@ -1438,7 +1438,7 @@ Sandbox,Xline,Jiawei Zhao,Datenlord,Phoenix500526,https://github.com/datenlord/X
 ,,Wenhui Tang,Datenlord,iGxnon,
 Sandbox,Microcks,Laurent Broudoux,Postman,lbroudoux,https://github.com/microcks/.github/blob/main/MAINTAINERS.md
 ,,Yacine Kheddache,Postman,yada,
-Sandbox,SOPS,Hidde Beydals,Weaveworks,hiddeco,https://github.com/getsops/community/blob/main/MAINTAINERS.md
+Sandbox,SOPS,Hidde Beydals,Independent,hiddeco,https://github.com/getsops/community/blob/main/MAINTAINERS.md
 ,,Andrew Block,Red Hat,sabre1041,
 ,,Devin Buhl,Individual,onedr0p,
 ,,Devin Stein,Individual,devstein,
