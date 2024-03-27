@@ -1087,7 +1087,6 @@ Sandbox,Devfile,Andreas Resios,AWS,resios, https://github.com/devfile/api/blob/m
 ,,Stevan Le Meur,Red Hat,slemeur,
 ,,Tomas Kral,Red Hat,kadel,
 Incubating,Knative,Ali Ok,Red Hat,aliok, https://github.com/knative/community/blob/main/OWNERS_ALIASES
-,,Adolfo García Veytia,Chainguard,puerco,
 ,,Naina Singh,Red Hat,nainaz,
 ,,Mauricio Salatino,Diagrid,salaboy,
 ,,Dave Protasowski,Broadcom,dprotaso,
@@ -1098,15 +1097,14 @@ Incubating,Knative,Ali Ok,Red Hat,aliok, https://github.com/knative/community/bl
 ,,David Hadas,IBM,davidhadas,
 ,,Vincent Hou,Bloomberg,houshengbo,
 ,,Luke Kingland,Red Hat,lkingland,
-,,Navid Shaikh,Broadcom,navidshaikh,
 ,,Roland Huss,Red Hat,rhuss,
-,,Samia Nneji,Broadcom,snneji,
 ,,Pierangelo Di Pilato,Red Hat,pierDipi,
 ,,Mahamed Ali,Cisco,upodroid,
 ,,Calum Murray,Red Hat,cali0707,
 ,,Leo Li,Red Hat,leo6leo,
 ,,Mariana Mejia,OCAD University,mmejia02,
 ,,Zainab Husain,OCAD University,zainabhusain227,
+,,Norris Sam Osarenkhoe,SVA,nrrso,
 Sandbox,FabEdge,Haotao Geng,BoCloud,haotaogeng,https://github.com/FabEdge/fabedge/blob/main/MAINTAINERS.md
 ,,Jianbo Yan,BoCloud,yanjianbo1983,
 Sandbox,sealer,Haitao Fang,Alibaba Group,fanux,https://github.com/alibaba/sealer/blob/main/MAINTAINERS.md
