@@ -40,19 +40,24 @@ The CNCF will serve a role in the open source community responsible for:
 
 The CNCF will strive to adhere to the following principles:
 
--	(a) Fast is better than slow. The foundation enables projects to progress at high velocity to support aggressive adoption by users.
+-	(a) Trusted. We guide projects to build trust with adopters and users, balancing quality and sustainability with velocity.
 
--	(b) Open. The foundation is open and accessible, and operates independently of specific partisan interests. The foundation accepts all contributors based on the merit of their contributions, and the foundation’s technology must be available to all according to open source values. The technical community and its decisions shall be transparent.
+-	(b) Open. Openness and transparency are foundational: our technical work must be available to all according to these values. Our community, processes, and decisions are transparent, visible, and discoverable.
 
--	(c) Fair. The foundation will avoid undue influence, bad behavior or “pay-to-play” decision-making.
+-	(c) Neutral. We avoid influence, biased behavior, “pay-to-play” decision-making, and other activities that favor one project, individual, or organization over another. We operate independently of specific partisan interests and biases, considerate of global and international interests. 
 
--	(d) Strong technical identity. The foundation will achieve and maintain a high degree of its own technical identity that is shared across the projects.
+-	(d) Platform agnostic. We have an explicit bias toward projects and specifications developed to be platform agnostic such that they can be implemented on a variety of platforms, architectures, clouds, and operating systems.
 
--	(e) Clear boundaries. The foundation shall establish clear goals, and in some cases, what the non-goals of the foundation are to allow projects to effectively co-exist, and to help the ecosystem understand where to focus for new innovation.
+-	(e) Accelerated adoption. We enable progress at high velocity to support aggressive adoption of quality, sustainable, and secure projects by users.
 
--	(f) Scalable. Ability to support all scales of deployment, from small developer centric environments to the scale of enterprises and service providers. This implies that in some deployments some optional components may not be deployed, but the overall design and architecture should still be applicable.
+-	(f) Project diversity and scalability. We support diverse projects, from experimentation and small developer-centric environments to the scale of enterprises and service providers, with robust maturity.
 
--	(g) Platform agnostic. The specifications developed will not be platform specific such that they can be implemented on a variety of architectures and operating systems.
+-	(g) Experimentation and innovation. We support projects that address new and existing problem spaces in keeping with the cloud native definition, fostering project innovation for a variety of solutions to meet the diverse needs of adopters and users. We remain aware of innovation in the space and may invite projects to become a part of the CNCF ecosystem, to succeed or to learn.
+
+-	(h) Sustainability. We encourage sustainability, growth, and health of maintainers, contributors, and byproducts to foster succession and support of the CNCF vision for the long term, with focus to reduce additional burden and toil on maintainers. We consider the future needs of cloud native impact on a global scale, to use resources efficiently for all projects.
+
+-	(i) Inclusive unity. Whether operating the Foundation, serving on a board or committee, contributing to a review, or managing a project, we are unified in the advancement of cloud native inclusivity, enabling our collective technical vision to be achievable. We accept all contributors based on the merit of their contributions and conduct.
+
 
 #### 4. Membership.
 
