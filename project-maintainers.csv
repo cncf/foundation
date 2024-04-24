@@ -683,11 +683,11 @@ Incubating,Backstage,Patrik Oldsberg,Spotify,Rugvip,https://github.com/spotify/b
 ,,Lee Mills,Spotify,leemills83,
 ,,Himanshu Mishra,Spotify,orkohunter,
 ,,Tim Hansen,Spotify,timbonicus,
-Sandbox,Tremor,Anup Dhamala,Wayfair,anupdhml,https://github.com/tremor-rs/tremor-runtime/blob/main/CODEOWNERS
-,,Darach Ennis,Wayfair,darach,
-,,Heinz N. Gies,Wayfair,Licenser,
-,,Matthias Wahl,Wayfair,mfelsche,
-,,Sharon Koech,Individual,skoech,
+,,Darach Ennis,Axiom,darach,
+,,Heinz N. Gies,Axiom,Licenser,
+,,Matthias Wahl,GSMK GmbH,mfelsche,
+,,Natali Vlatko,Cisco,natalisucks,
+,,Sharon Koech,Canonical,skoech,
 Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/metal3-docs/blob/master/maintainers/ALL-OWNERS
 ,,Bob Fournier,Red Hat,bfournie,
 ,,Derek Higgins,Red Hat,derekhiggins,
