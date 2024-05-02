@@ -29,7 +29,7 @@ an open and welcoming community, we pledge to respect all people who participate
 through reporting issues, posting feature requests, updating documentation,
 submitting pull requests or patches, attending conferences or events, or engaging in other community or project activities.
 
-We are committed to making participation in the CNCF community a harassment-free experience for everyone, regardless of age, body size, caste, disability, ethnicity, level of experience, family status, gender, gender identity and expression, marital status, military or veteran status, nationality, personal appearance, race, religion, sexual orientation, socioeconomic status, tribe, or any other dimension of diversity.
+We are committed to making participation in the CNCF community a harassment-free experience for everyone, regardless of age, body size, caste, disability, ethnicity, level of experience, family status, marital status, military or veteran status, nationality, personal appearance, race, religion, sexual orientation, socioeconomic status, tribe, or any other dimension of diversity.
 
 ## Scope
 
