@@ -26,7 +26,7 @@ apply:
 not stored in the CNCF project repository and instead retrieved at installation
 or build time from the upstream third party repository or package repository; AND
 
-5. It has indications of substantial use outside CNCF by satisfying one of the
+3. It has indications of substantial use outside CNCF by satisfying one of the
 following:
 
     1. the component is part of the applicable programming language’s standard
