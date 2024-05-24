@@ -50,13 +50,13 @@ List.
 - BSD-3-Clause
 - MIT
 - ISC
+- PSF-2.0
 - Python-2.0
 - Python-2.0.1
 - PostgreSQL
 - X11
 - Zlib
 - Google patent license for Golang (https://golang.org/PATENTS)
-- PSF-2.0
 
 [Allowlist License Policy]: #cncf-allowlist-policy
 [Approved Licenses]: #approved-licenses-for-allowlist
