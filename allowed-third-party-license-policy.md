@@ -22,7 +22,9 @@ apply:
 1. It is fully licensable under the approved licenses set forth below under
 [Approved Licenses] (including combinations with Apache-2.0); AND
 
-2. It is stored unmodified in a designated third-party folder; AND
+2. It is either (A) stored unmodified in a designated third-party folder, or (B)
+not stored in the CNCF project repository and instead retrieved at installation
+or build time from the upstream third party repository or package repository; AND
 
 3. It has indications of substantial use outside CNCF by satisfying one of the
 following:
@@ -48,7 +50,9 @@ List.
 - BSD-3-Clause
 - MIT
 - ISC
+- PSF-2.0
 - Python-2.0
+- Python-2.0.1
 - PostgreSQL
 - X11
 - Zlib
