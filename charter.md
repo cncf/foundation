@@ -216,7 +216,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	i. commit that they have the available bandwidth to make the time to invest in the CNCF TOC,
 
-	-	ii. demonstrate an advanced level of professional experience as engineers in the scope of CNCF,
+	-	ii. demonstrate an advanced level of professional experience as technical leaders in the scope of CNCF,
 
 	-	iii. demonstrate seniority sufficient to access additional staff or community members to assist in their TOC preparations, and
     
