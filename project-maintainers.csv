@@ -695,12 +695,12 @@ Incubating,Backstage,Patrik Oldsberg,Spotify,Rugvip,https://github.com/spotify/b
 ,,Matthias Wahl,GSMK GmbH,mfelsche,
 ,,Natali Vlatko,Cisco,natalisucks,
 ,,Sharon Koech,Canonical,skoech,
-Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/metal3-docs/blob/master/maintainers/ALL-OWNERS
+Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/community/blob/main/maintainers/ALL-OWNERS
+,,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffarDev,
 ,,Bob Fournier,Red Hat,bfournie,
 ,,Derek Higgins,Red Hat,derekhiggins,
 ,,Dmitry Tantsur,Red Hat,dtantsur,
 ,,Riccardo Pittau,Red Hat,elfosardo,
-,,Furkat Gofurov,SUSE,furkatgofurov7,
 ,,Honza Pokorny,Red Hat,honza,
 ,,Himanshu Roy,Red Hat,hroyrh,
 ,,Iury Gregory Melo Ferreira,Red Hat,iurygregory,
@@ -708,6 +708,7 @@ Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/m
 ,,Lennart Jern,Ericsson Software Technology,lentzi90,
 ,,Mohammed Boukhalfa,Ericsson Software Technology,mboukhalfa,
 ,,Adam Rozman,Ericsson Software Technology,Rozzii,
+,,Sunnat Samadov,Ericsson Software Technology,Sunnatillo,
 ,,Moshiur Rahman,Ericsson Software Technology,smoshiur1237,
 ,,Tuomo Tanskanen,Ericsson Software Technology,tuminoid,
 ,,Zane Bitter,Red Hat,zaneb,
