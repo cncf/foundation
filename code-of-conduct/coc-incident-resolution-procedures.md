@@ -190,7 +190,7 @@ In some cases, in order to perform a fair and thorough investigation of a report
 
 In rare situations, the CNCF CoC Committee may be required to disclose confidential information pertaining to an investigation in order to comply with applicable laws, a subpoena, or court order, or to defend against litigation.
 
-The Interim CoCC may, in its discretion, disclose the identity of the accused person to CNCF staff, CNCF community leaders, or CNCF community members if the Interim CoCC determines that such disclosure is necessary to protect the community or its members from harm.
+The CoCC may, in its discretion, disclose the identity of the accused person to CNCF staff, CNCF community leaders, or CNCF community members if the CoCC determines that such disclosure is necessary to protect the community or its members from harm.
 
 ## No Retaliation
 
