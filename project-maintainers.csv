@@ -967,10 +967,6 @@ Sandbox,Krustlet,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/deis
 ,,Matt Fisher,Microsoft,bacongobbler,
 ,,Kevin Flansburg,,kflansburg,
 ,,Matt Butcher,Microsoft,technosophos,
-Sandbox,Krator,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/krator-rs/krator/blob/main/CODEOWNERS
-,,Matt Fisher,Microsoft,bacongobbler,
-,,Kevin Flansburg,,kflansburg,
-,,Matt Butcher,Microsoft,technosophos,
 Sandbox,ORAS (OCI Registry as Storage),Andrew Block,Red Hat,sabre1041,https://github.com/oras-project/community/blob/main/OWNERS.md
 ,,Sajay Antony,Microsoft,sajayantony,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,
