@@ -340,12 +340,6 @@ Sandbox,Telepresence,Jose Cortes,Datawire,josecv,https://github.com/telepresence
 ,,Kévin Lambert,Datawire,knlambert,
 ,,Nick Powell,Datawire,njayp,
 ,,Thomas Hallgren,Datawire,thallgren,
-Incubating,OpenMetrics,Ben Kochie,GitLab,superq,https://github.com/OpenObservability/OpenMetrics/blob/master/MAINTAINERS.md
-,,Brian Brazil,Robust Perception,brian-brazil,
-,,Jerome Froelich,Uber,jeromefroe,
-,,Richard Hartmann,Grafana Labs,richih,
-,,Rob Skillington,Chronosphere,robskillington,
-,,Sumeer Bhola,Google,sumeer,
 Incubating,Cortex,Alan Protasio,Amazon Web Services,alanprot,https://github.com/cortexproject/cortex/blob/master/MAINTAINERS
 ,,Alvin Lin,Amazon Web Services,alvinlin123,
 ,,Ben Ye,Amazon Web Services,yeya24,
@@ -407,11 +401,6 @@ Incubating,OpenTelemetry (Governance Committee),Alolita Sharma,Apple,alolita,htt
 ,,Reiley Yang,Microsoft,reyang,
 ,,Tigran Najaryan,Splunk,tigrannajaryan,
 ,,Yuri Shkuro,Meta,yurishkuro,
-Sandbox,OpenEBS,Abhinandan Purkait,DataCore Software,Abhinandan-Purkait,https://github.com/openebs/community/blob/HEAD/MAINTAINERS
-,,David Brace,DataCore Software,orville-wright,
-,,Niladri Halder,DataCore Software,niladrih,
-,,Tiago Castro,DataCore Software,tiagolobocastro,
-,,Vishnu Attur,DataCore Software,avishnu,
 Incubating,Thanos,Bartłomiej Płotka,Google,bwplotka,https://github.com/thanos-io/thanos/blob/master/MAINTAINERS.md
 ,,Frederic Branczyk ,Polar Signals,brancz,
 ,,Giedrius Statkevičius,Vinted,GiedriusS,
@@ -792,11 +781,6 @@ Sandbox,Piraeus-Datastore,Alex Zheng,DaoCloud,alexzhc,https://github.com/piraeus
 ,,Joel Colledge,LINBIT,JoelColledge,
 ,,Moritz Wanzenböck,LINBIT,WanzenBug,
 ,,Roland Kammerer,LINBIT,rck,
-Sandbox,Curiefense,Tzury Bar Yochay,Reblaze,tzuryby,https://github.com/curiefense/curiefense/blob/master/CODEOWNERS
-,,Philippe Biondi,Airbus,phil777,
-,,Xavier Mehrenberger,Airbus,xavier-rbz,
-,,Aviv Galmidi,Reblaze,Aviv-Galmidi,
-,,Spiros Psarris,Reblaze,spiros-reblaze,
 Sandbox,Athenz,Henry Avetisyan,Yahoo Inc.,havetisyan,https://github.com/AthenZ/athenz/blob/master/MAINTAINERS
 ,,Abhijeet Vaidya,Yahoo Inc.,abvaidya,
 ,,Dvir Guttman,Yahoo Inc.,dvirguttman,
@@ -822,9 +806,6 @@ Sandbox,Distribution,Chris Patterson,GitHub,chrispat,https://github.com/distribu
 ,,Milos Gajdos,Docker,milosgajdos,
 ,,Wayne Warren,Digital Ocean,waynr,
 ,,Wang Yan,VMware,wy65701436,
-Sandbox,Fonio,Peter Parkanyi,Redsift,rsdy,https://github.com/foniod/project/blob/main/MAINTAINERS
-,,Junyeong Jeong,,rhdxmr,
-,,Deepak Prabhakara,Redsift,deepakprabhakara,
 Sandbox,Kuberhealthy,Eric Greer,Comcast,integrii,https://github.com/Comcast/kuberhealthy/blob/master/OWNERS
 ,,Joshulyne Park,Comcast,joshulyne,
 ,,Jonathan Phan,Comcast,jonnydawg,
@@ -974,10 +955,6 @@ Sandbox,KubeDL,Jian He,,jian-he,https://github.com/alibaba/kubedl/blob/master/OW
 ,,Cheng Zhang,,tzzcfrank,
 ,,Yinghao Yu,,yhalpha,
 Sandbox,Krustlet,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/deislabs/krustlet/blob/main/CODEOWNERS
-,,Matt Fisher,Microsoft,bacongobbler,
-,,Kevin Flansburg,,kflansburg,
-,,Matt Butcher,Microsoft,technosophos,
-Sandbox,Krator,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/krator-rs/krator/blob/main/CODEOWNERS
 ,,Matt Fisher,Microsoft,bacongobbler,
 ,,Kevin Flansburg,,kflansburg,
 ,,Matt Butcher,Microsoft,technosophos,
