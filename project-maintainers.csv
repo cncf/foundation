@@ -307,7 +307,7 @@ Graduated,CloudEvents,Doug Davis,Microsoft,duglin,https://github.com/cloudevents
 ,,Mark Peek,VMware,markpeek,
 ,,Ken Owens,Mastercard,kenowens12,
 ,,Klaus Deissner,SAP,deissnerk,
-Incubating,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
+Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
 ,,Carlos Tadeu Panato Junior,Chainguard,cpanato,
 ,,Federico Di Pierro,Sysdig,fededp,
 ,,Grzegorz Nosek,Sysdig,gnosek,
@@ -321,6 +321,7 @@ Incubating,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecur
 ,,Michele Zuccala,Sysdig,zuc,
 ,,Thomas Labarussias,Sysdig,issif,
 ,,Aldo Lacuku,Sysdig,alacuku,
+,,Samuel Gaist,Idiap Research Institute,sgaist,
 Graduated,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Andrew Jessup,HPE,ajessup,
