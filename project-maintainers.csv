@@ -31,6 +31,7 @@ Graduated,Prometheus,Arthur Sens Silva,Coralogix,ArthurSens,https://prometheus.i
 ,,Calle Pettersson,Instabee Group,carlpett,
 ,,Callum Styan,Grafana Labs,cstyan,
 ,,Chris Marchbanks,Grafana Labs,csmarchbanks,
+,,David Ashpole,Google,dashpole,
 ,,Frederic Branczyk,Polar Signals,brancz,
 ,,Fabian Stäber,Grafana Labs,fstab,
 ,,Ganesh Vernekar,Grafana Labs,codesome,
@@ -306,7 +307,7 @@ Graduated,CloudEvents,Doug Davis,Microsoft,duglin,https://github.com/cloudevents
 ,,Mark Peek,VMware,markpeek,
 ,,Ken Owens,Mastercard,kenowens12,
 ,,Klaus Deissner,SAP,deissnerk,
-Incubating,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
+Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
 ,,Carlos Tadeu Panato Junior,Chainguard,cpanato,
 ,,Federico Di Pierro,Sysdig,fededp,
 ,,Grzegorz Nosek,Sysdig,gnosek,
@@ -320,6 +321,7 @@ Incubating,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecur
 ,,Michele Zuccala,Sysdig,zuc,
 ,,Thomas Labarussias,Sysdig,issif,
 ,,Aldo Lacuku,Sysdig,alacuku,
+,,Samuel Gaist,Idiap Research Institute,sgaist,
 Graduated,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Andrew Jessup,HPE,ajessup,
@@ -334,20 +336,16 @@ Graduated,SPIRE,Andrew Harding,VMware,azdagron,https://github.com/spiffe/spire/b
 ,,Marcos Yacob,HPE,MarcosDY,
 ,,Agustin Martinez Fayo,HPE,amartinezfayo,
 ,,Ryan Turner,Uber,rturner3,
+,,Kevin Fox,PNNL,kfox1111,
 Sandbox,Telepresence,Jose Cortes,Datawire,josecv,https://github.com/telepresenceio/telepresence/blob/release/v2/MAINTAINERS.md
 ,,Kévin Lambert,Datawire,knlambert,
 ,,Nick Powell,Datawire,njayp,
 ,,Thomas Hallgren,Datawire,thallgren,
-Incubating,OpenMetrics,Ben Kochie,GitLab,superq,https://github.com/OpenObservability/OpenMetrics/blob/master/MAINTAINERS.md
-,,Brian Brazil,Robust Perception,brian-brazil,
-,,Jerome Froelich,Uber,jeromefroe,
-,,Richard Hartmann,Grafana Labs,richih,
-,,Rob Skillington,Chronosphere,robskillington,
-,,Sumeer Bhola,Google,sumeer,
 Incubating,Cortex,Alan Protasio,Amazon Web Services,alanprot,https://github.com/cortexproject/cortex/blob/master/MAINTAINERS
 ,,Alvin Lin,Amazon Web Services,alvinlin123,
 ,,Ben Ye,Amazon Web Services,yeya24,
-,,Friedrich Gonzalez,Adobe,friedrich-at-adobe,
+,,Charlie Le,Apple,CharlieTLe,
+,,Friedrich Gonzalez,Adobe,friedrichg,
 Incubating,Buildpacks,Aidan Delaney,Bloomberg,aidandelaney,https://github.com/buildpacks/community/blob/main/OWNERS
 ,,Daniel Mikusa,Independent,dmikusa-pivotal,
 ,,David Freilich,AppsFlyer,dfreilich,
@@ -405,13 +403,6 @@ Incubating,OpenTelemetry (Governance Committee),Alolita Sharma,Apple,alolita,htt
 ,,Reiley Yang,Microsoft,reyang,
 ,,Tigran Najaryan,Splunk,tigrannajaryan,
 ,,Yuri Shkuro,Meta,yurishkuro,
-Sandbox,OpenEBS,Amit Kumar Das,MayaData,AmitKumarDas,https://github.com/openebs/openebs/blob/master/MAINTAINERS
-,,Jeffry Molanus,MayaData,gila,
-,,Karthik Satchitanand,MayaData,ksatchit,
-,,Kiran Mova,MayaData,kmova,
-,,Murat Karslioglu,MayaData,muratkars,
-,,Richard Elling ,Viking Enterprise Solutions,richardelling,
-,,Vishnu Itta,MayaData,vishnuitta,
 Incubating,Thanos,Bartłomiej Płotka,Google,bwplotka,https://github.com/thanos-io/thanos/blob/master/MAINTAINERS.md
 ,,Frederic Branczyk ,Polar Signals,brancz,
 ,,Giedrius Statkevičius,Vinted,GiedriusS,
@@ -442,12 +433,12 @@ Incubating,In-Toto,Justin Cappos,New York University,JustinCappos,https://github
 ,,Santiago Torres,Purdue University,SantiagoTorres,
 ,,Sebastien Awwad,Conda,awwad,
 ,,Aditya Sirish A Yelgundhalli,NYU,adityasaky,
-Sandbox,Strimzi,Jakub Scholz,Red Hat,scholzj,https://github.com/strimzi/strimzi-kafka-operator/blob/master/MAINTAINERS
+Incubating,Strimzi,Jakub Scholz,Red Hat,scholzj,https://github.com/strimzi/strimzi-kafka-operator/blob/master/MAINTAINERS
 ,,Paolo Patierno,Red Hat,ppatierno,
 ,,Tom Bentley,Red Hat,tombentley,
 ,,Jakub Stejskal,Red Hat,Frawless ,
 ,,Sam Hawker,IBM,samuel-hawker,
-,,Stanislav Knot,Red Hat,sknot-rh,
+,,Stanislav Knot,CN Group,sknot-rh,
 ,,Paul Mellor,Red Hat,PaulRMellor,
 ,,Lukáš Král,Red Hat,im-konge,
 ,,Maroš Orsák,Red Hat,see-quick,
@@ -694,12 +685,12 @@ Incubating,Backstage,Patrik Oldsberg,Spotify,Rugvip,https://github.com/spotify/b
 ,,Matthias Wahl,GSMK GmbH,mfelsche,
 ,,Natali Vlatko,Cisco,natalisucks,
 ,,Sharon Koech,Canonical,skoech,
-Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/metal3-docs/blob/master/maintainers/ALL-OWNERS
+Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/community/blob/main/maintainers/ALL-OWNERS
+,,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffarDev,
 ,,Bob Fournier,Red Hat,bfournie,
 ,,Derek Higgins,Red Hat,derekhiggins,
 ,,Dmitry Tantsur,Red Hat,dtantsur,
 ,,Riccardo Pittau,Red Hat,elfosardo,
-,,Furkat Gofurov,SUSE,furkatgofurov7,
 ,,Honza Pokorny,Red Hat,honza,
 ,,Himanshu Roy,Red Hat,hroyrh,
 ,,Iury Gregory Melo Ferreira,Red Hat,iurygregory,
@@ -707,6 +698,7 @@ Sandbox,metal3-io,Andrea Fasano,Red Hat,andfasano,https://github.com/metal3-io/m
 ,,Lennart Jern,Ericsson Software Technology,lentzi90,
 ,,Mohammed Boukhalfa,Ericsson Software Technology,mboukhalfa,
 ,,Adam Rozman,Ericsson Software Technology,Rozzii,
+,,Sunnat Samadov,Ericsson Software Technology,Sunnatillo,
 ,,Moshiur Rahman,Ericsson Software Technology,smoshiur1237,
 ,,Tuomo Tanskanen,Ericsson Software Technology,tuminoid,
 ,,Zane Bitter,Red Hat,zaneb,
@@ -790,11 +782,6 @@ Sandbox,Piraeus-Datastore,Alex Zheng,DaoCloud,alexzhc,https://github.com/piraeus
 ,,Joel Colledge,LINBIT,JoelColledge,
 ,,Moritz Wanzenböck,LINBIT,WanzenBug,
 ,,Roland Kammerer,LINBIT,rck,
-Sandbox,Curiefense,Tzury Bar Yochay,Reblaze,tzuryby,https://github.com/curiefense/curiefense/blob/master/CODEOWNERS
-,,Philippe Biondi,Airbus,phil777,
-,,Xavier Mehrenberger,Airbus,xavier-rbz,
-,,Aviv Galmidi,Reblaze,Aviv-Galmidi,
-,,Spiros Psarris,Reblaze,spiros-reblaze,
 Sandbox,Athenz,Henry Avetisyan,Yahoo Inc.,havetisyan,https://github.com/AthenZ/athenz/blob/master/MAINTAINERS
 ,,Abhijeet Vaidya,Yahoo Inc.,abvaidya,
 ,,Dvir Guttman,Yahoo Inc.,dvirguttman,
@@ -820,9 +807,6 @@ Sandbox,Distribution,Chris Patterson,GitHub,chrispat,https://github.com/distribu
 ,,Milos Gajdos,Docker,milosgajdos,
 ,,Wayne Warren,Digital Ocean,waynr,
 ,,Wang Yan,VMware,wy65701436,
-Sandbox,Fonio,Peter Parkanyi,Redsift,rsdy,https://github.com/foniod/project/blob/main/MAINTAINERS
-,,Junyeong Jeong,,rhdxmr,
-,,Deepak Prabhakara,Redsift,deepakprabhakara,
 Sandbox,Kuberhealthy,Eric Greer,Comcast,integrii,https://github.com/Comcast/kuberhealthy/blob/master/OWNERS
 ,,Joshulyne Park,Comcast,joshulyne,
 ,,Jonathan Phan,Comcast,jonnydawg,
@@ -926,18 +910,22 @@ Sandbox,Pixie,Michelle Nguyen,Pixie Labs,aimichelle,https://github.com/pixie-lab
 ,,Vihang Mehta,Pixie Labs,vihangm,
 ,,Zain Asgar,Pixie Labs,zasgar,
 Sandbox,Meshery,Lee Calcote,Layer5,leecalcote,https://github.com/meshery/meshery/blob/master/MAINTAINERS.md
-,,Abishek Kumar,Layer5,kumarabd,
-,,Navendu Pottekkat,Layer5,navendu-pottekkat,
+,,Abishek Kumar,VMware,kumarabd,
+,,Navendu Pottekkat,API7,pottekkat,
 ,,Hussaina Begum,VMware,hexxdump,
 ,,Nikhil Ladha,Red Hat,Nikhil-Ladha,
-,,Dhruv Patel,Layer5,dhruv0000,
-,,Aisuko,Layer5,Aisuko,
+,,Dhruv Patel,Oracle,dhruv0000,
+,,Aisuko Li,Layer5,Aisuko,
 ,,Michael Gfeller,Computas AS,mgfeller,
 ,,Haim Helman,VMware,thehh1974,
 ,,Dhiraj Gedam,Citrix,dheerajng,
 ,,Rodolfo Martínez Vega,Rackspace,ramrodo,
 ,,Adithya Krishna,Red Hat,adithyaakrishna,
-,,Utkarsh Srivastava,Layer5,utkarsh-pro,
+,,Utkarsh Srivastava,IBM,utkarsh-pro,
+,,Mario Arriaga,F5,MarioArriaga92,
+,,Yash Sharma,Layer5,Yashsharma1911,
+,,Uzair Shaikh,Layer5,muzairs15,
+,,Antonette Caldwell,Aquia,nebula-aac,
 Sandbox,Service Mesh Performance,Lee Calcote,Layer5,leecalcote,https://github.com/service-mesh-performance/service-mesh-performance/blob/master/MAINTAINERS.md
 ,,Otto van der Schaaf,Red Hat,oschaaf,
 ,,Nicholas Jackson,Hashicorp,nicholasjackson,
@@ -972,10 +960,6 @@ Sandbox,KubeDL,Jian He,,jian-he,https://github.com/alibaba/kubedl/blob/master/OW
 ,,Cheng Zhang,,tzzcfrank,
 ,,Yinghao Yu,,yhalpha,
 Sandbox,Krustlet,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/deislabs/krustlet/blob/main/CODEOWNERS
-,,Matt Fisher,Microsoft,bacongobbler,
-,,Kevin Flansburg,,kflansburg,
-,,Matt Butcher,Microsoft,technosophos,
-Sandbox,Krator,Taylor Thomas,Microsoft,thomastaylor312,https://github.com/krator-rs/krator/blob/main/CODEOWNERS
 ,,Matt Fisher,Microsoft,bacongobbler,
 ,,Kevin Flansburg,,kflansburg,
 ,,Matt Butcher,Microsoft,technosophos,
@@ -1386,7 +1370,6 @@ Incubating,Keycloak,Stian Thorgersen,Red Hat,stianst,https://github.com/keycloak
 ,,Hynek Mlnařík,Red Hat,hmlnarik,
 ,,Marek Posolda,Red Hat,mposolda,
 ,,Michal Hajas,Red Hat,mhajas,
-,,Pavel Drozd,Red Hat,pdrozd,
 ,,Pedro Igor,Red Hat,pedroigor,
 ,,Sebastian Schuster,Bosch,sschu,
 ,,Stan Silvert,Red Hat,ssilvert,
@@ -1408,6 +1391,10 @@ Sandbox,Kepler,Huamin Chen,Red Hat,rootfs,https://github.com/sustainable-computi
 ,,Sunyanan Choochotkaew,IBM,sunya-ch,
 ,,Ruomeng Hao,Intel,ruomengh,
 ,,Chen Wang,IBM,wangchen615,
+,,Sunil Thaha,Red Hat,sthaha,
+,,Dave Tucker,Red Hat,dave-tucker,
+,,Vimal Kumar,Red Hat,vimalk78,
+,,Vibhu Prashar,Red Hat,vprashar2929,
 Sandbox,SlimToolkit,Kyle Quest,,kcq,https://github.com/slimtoolkit/slim/blob/master/MAINTAINERS.md
 ,,Ivan Velichko,,iximiuz,
 Sandbox,PipeCD,Tran Cong Khanh,CyberAgent,khanhtc1202,https://github.com/pipe-cd/pipecd/blob/master/MAINTAINERS.md
@@ -1416,6 +1403,7 @@ Sandbox,PipeCD,Tran Cong Khanh,CyberAgent,khanhtc1202,https://github.com/pipe-cd
 ,,Le Van Nghia,CyberAgent,nghialv,
 ,,Yoshiki Fujikane,CyberAgent,ffjlabo,
 ,,Tetsuya Kikuchi,CyberAgent,t-kikuc,
+,,Shinnosuke Sawada,CyberAgent,Warashi,
 Sandbox,Inspektor Gadget,Mauricio Vásquez Bernal,Microsoft,mauriciovasquezbernal,https://github.com/inspektor-gadget/inspektor-gadget/blob/main/MAINTAINERS.md
 ,,Alban Crequy,Microsoft,alban,
 ,,Francis Laniel,Microsoft,eiffel-fl,
@@ -1586,3 +1574,18 @@ Sandbox,Connect RPC,Akshay Shah,Buf,akshayjshah,https://github.com/connectrpc/co
 ,,Sri Krishna Paritala,Buf,srikrsna-buf,
 ,,Steve Ayers,Buf,smaye81,
 ,,Timo Stamm,Buf,timostamm,
+Sandbox,Atlantis,Dylan Page, Lambda, GenPage, https://github.com/runatlantis/atlantis/blob/main/MAINTAINERS.md
+,,PePe Amengual, Slalom, jamengual,
+,,Rui Chen, Meetup, chenrui333,
+Sandbox,Kuadrant,Jason Madigan,Red Hat,jasonmadigan,https://github.com/Kuadrant/kuadrant-operator/blob/main/MAINTAINERS.md
+,,Craig Brookes,Red Hat,maleck13,
+,,Mike Nairn,Red Hat,mikenairn,
+,,Alex Snaps,Red Hat,alexsnaps,
+,,Eguzki Astiz Lezaun,Red Hat,eguzki,
+,,Guilherme Cassolato,Red Hat,guicassolato,
+,,Didier Di Cesare,Red Hat,didierofrivia,
+,,David Martin,Red Hat,david-martin,
+Sandbox,Score,Ben Meier,Humanitec,astromechza,https://github.com/score-spec/spec/blob/main/MAINTAINERS.md
+,,Chris Stephenson,Humanitec,chrishumanitec,
+,,Mathieu Benoit,Humanitec,mathieu-benoit,
+,,Susa Tünker,Checkly,sujaya-sys,
