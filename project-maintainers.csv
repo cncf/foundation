@@ -307,7 +307,7 @@ Graduated,CloudEvents,Doug Davis,Microsoft,duglin,https://github.com/cloudevents
 ,,Mark Peek,VMware,markpeek,
 ,,Ken Owens,Mastercard,kenowens12,
 ,,Klaus Deissner,SAP,deissnerk,
-Incubating,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
+Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
 ,,Carlos Tadeu Panato Junior,Chainguard,cpanato,
 ,,Federico Di Pierro,Sysdig,fededp,
 ,,Grzegorz Nosek,Sysdig,gnosek,
@@ -321,6 +321,7 @@ Incubating,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecur
 ,,Michele Zuccala,Sysdig,zuc,
 ,,Thomas Labarussias,Sysdig,issif,
 ,,Aldo Lacuku,Sysdig,alacuku,
+,,Samuel Gaist,Idiap Research Institute,sgaist,
 Graduated,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Andrew Jessup,HPE,ajessup,
@@ -343,7 +344,8 @@ Sandbox,Telepresence,Jose Cortes,Datawire,josecv,https://github.com/telepresence
 Incubating,Cortex,Alan Protasio,Amazon Web Services,alanprot,https://github.com/cortexproject/cortex/blob/master/MAINTAINERS
 ,,Alvin Lin,Amazon Web Services,alvinlin123,
 ,,Ben Ye,Amazon Web Services,yeya24,
-,,Friedrich Gonzalez,Adobe,friedrich-at-adobe,
+,,Charlie Le,Apple,CharlieTLe,
+,,Friedrich Gonzalez,Adobe,friedrichg,
 Incubating,Buildpacks,Aidan Delaney,Bloomberg,aidandelaney,https://github.com/buildpacks/community/blob/main/OWNERS
 ,,Daniel Mikusa,Independent,dmikusa-pivotal,
 ,,David Freilich,AppsFlyer,dfreilich,
@@ -909,18 +911,22 @@ Sandbox,Pixie,Michelle Nguyen,Pixie Labs,aimichelle,https://github.com/pixie-lab
 ,,Vihang Mehta,Pixie Labs,vihangm,
 ,,Zain Asgar,Pixie Labs,zasgar,
 Sandbox,Meshery,Lee Calcote,Layer5,leecalcote,https://github.com/meshery/meshery/blob/master/MAINTAINERS.md
-,,Abishek Kumar,Layer5,kumarabd,
-,,Navendu Pottekkat,Layer5,navendu-pottekkat,
+,,Abishek Kumar,VMware,kumarabd,
+,,Navendu Pottekkat,API7,pottekkat,
 ,,Hussaina Begum,VMware,hexxdump,
 ,,Nikhil Ladha,Red Hat,Nikhil-Ladha,
-,,Dhruv Patel,Layer5,dhruv0000,
-,,Aisuko,Layer5,Aisuko,
+,,Dhruv Patel,Oracle,dhruv0000,
+,,Aisuko Li,Layer5,Aisuko,
 ,,Michael Gfeller,Computas AS,mgfeller,
 ,,Haim Helman,VMware,thehh1974,
 ,,Dhiraj Gedam,Citrix,dheerajng,
 ,,Rodolfo Martínez Vega,Rackspace,ramrodo,
 ,,Adithya Krishna,Red Hat,adithyaakrishna,
-,,Utkarsh Srivastava,Layer5,utkarsh-pro,
+,,Utkarsh Srivastava,IBM,utkarsh-pro,
+,,Mario Arriaga,F5,MarioArriaga92,
+,,Yash Sharma,Layer5,Yashsharma1911,
+,,Uzair Shaikh,Layer5,muzairs15,
+,,Antonette Caldwell,Aquia,nebula-aac,
 Sandbox,Service Mesh Performance,Lee Calcote,Layer5,leecalcote,https://github.com/service-mesh-performance/service-mesh-performance/blob/master/MAINTAINERS.md
 ,,Otto van der Schaaf,Red Hat,oschaaf,
 ,,Nicholas Jackson,Hashicorp,nicholasjackson,
@@ -1572,3 +1578,15 @@ Sandbox,Connect RPC,Akshay Shah,Buf,akshayjshah,https://github.com/connectrpc/co
 Sandbox,Atlantis,Dylan Page, Lambda, GenPage, https://github.com/runatlantis/atlantis/blob/main/MAINTAINERS.md
 ,,PePe Amengual, Slalom, jamengual,
 ,,Rui Chen, Meetup, chenrui333,
+Sandbox,Kuadrant,Jason Madigan,Red Hat,jasonmadigan,https://github.com/Kuadrant/kuadrant-operator/blob/main/MAINTAINERS.md
+,,Craig Brookes,Red Hat,maleck13,
+,,Mike Nairn,Red Hat,mikenairn,
+,,Alex Snaps,Red Hat,alexsnaps,
+,,Eguzki Astiz Lezaun,Red Hat,eguzki,
+,,Guilherme Cassolato,Red Hat,guicassolato,
+,,Didier Di Cesare,Red Hat,didierofrivia,
+,,David Martin,Red Hat,david-martin,
+Sandbox,Score,Ben Meier,Humanitec,astromechza,https://github.com/score-spec/spec/blob/main/MAINTAINERS.md
+,,Chris Stephenson,Humanitec,chrishumanitec,
+,,Mathieu Benoit,Humanitec,mathieu-benoit,
+,,Susa Tünker,Checkly,sujaya-sys,
