@@ -19,7 +19,7 @@ Every Friday, CNCF YouTube playlists are updated with curated vendor neutral con
 ## Who can participate in CNCF Online Programs ##
  
 Members 
-* Platinum members are eligible for 4 activities per quarter including live webinar, on-demand webinar, livestream, and YouTube playlist submission. (Only 1 can be live webinar or 1 live stream, you get to choose.)
+* Platinum members are eligible for 4 activities per quarter including live webinar, on-demand webinar, livestream, and YouTube playlist submission. 
 * Gold members are eligible for 4 activities per quarter including on-demand webinar, livestream, and YouTube playlist submission. (Only 1 can be livestream, you get to choose.)
 * Silver members are eligible for 2 activities per quarter including on-demand webinars, livestream, and YouTube playlist submission. (Only 1 can be livestream, you get to choose.)
 * End user supporter members cannot hold a webinar.
@@ -45,8 +45,7 @@ Ambassadors
 	* Premiere date - Thursdays
 * Livestream option 
 	* Streaming from Restream and will broadcast to YouTubeLive and LinkedIn Live - recordings uploaded to CNCF YouTube channel under Online Programs playlist
-	* Kickoff this option with the Kubernetes 1.20 release on Jan 8
-	* Content must be live coding/demo - no presentations with slides, no product pitches
+	* Content must be live coding/demo/panel discussions - no presentations with slides, no product pitches
 	* We will require a high level outline to be provided including any demos you will present one week prior to the event
 	* CNCF Ambassador will join the stream as co-host
 	* Premiere date - Tuesdays and Wednesdays (2 per week)
@@ -69,7 +68,7 @@ Ambassadors
 * It is NOT okay to mislead or misrepresent features of CNCF projects.
 * All Online Programs are subject to the CNCF Code of Conduct.
 
-Members can add a slide at the end of their webinar on where to get more information. 
+Members can add a CTA (Call to Action) at the end of their webinar or livestream on where to get more information. 
 Examples:
 * Share contact info of speaker - twitter, slack, email
 * Links to company websites
@@ -84,7 +83,13 @@ If you are a CNCF member and eligible to participate in our online programs, [pl
 * Live webinars: Slides due 1 week in advance of presentation
 * On-demand webinars: Slides and recording due 2 weeks in advance of presentation
 * Livestreams: High level outline of talk including live demos due 1 week prior to show
-* YouTube playlist submissions for the corresponding week are due 11:59 PM PT on Wednesdays to make Friday publish date 
+* YouTube playlist submissions for the corresponding week are due 11:59 PM PT on Wednesdays to make Friday publish date
+* Notes for all submissions:
+	* Your event will *not* be published and promoted on cncf.io until you have submitted your title and abstract
+ 	* Character limit for titles is 81
+	* Character limit for abstract is 10,000
+	* You may submit your title, abstract, speaker bios, speaker titles and speaker headshots to onlineprograms@cncf.io if they do not fit in the Calendly form
+	* If we do not receive your information at least 1 week prior to your event we will reach out to move the date so that your event can be properly promoted
 
 
 ## Please reach out to onlineprograms@cncf.io with any questions ##
