@@ -10,6 +10,7 @@ Other languages available:
 - [French/Français](code-of-conduct-languages/fr.md)
 - [German/Deutsch](code-of-conduct-languages/de.md)
 - [Hindi/हिन्दी](code-of-conduct-languages/hi.md)
+- [Hungarian/Magyar](code-of-conduct-languages/hu.md)
 - [Indonesian/Bahasa Indonesia](code-of-conduct-languages/id.md)
 - [Italian/Italiano](code-of-conduct-languages/it.md)
 - [Japanese/日本語](code-of-conduct-languages/ja.md)
