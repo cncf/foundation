@@ -80,7 +80,7 @@ A decision to fork and maintain a pre-existing independent project is typically 
 
 The forked project’s ongoing maintenance could potentially be managed (1) within CNCF; (2) within a [separate open collaboration project under the Linux Foundation](https://www.linuxfoundation.org/projects); or (3) as part of a fully-separate community effort.
 
-If the fork would be part of the existing CNCF project which uses it, then it would need to comply with the IP policy from the [CNCF Charter]. Similarly, if it would be set up as its own CNCF project, it would also be subject to CNCF’s standard processes for onboarding new projects.
+If the fork would be part of the existing CNCF project which uses it, then it would need to comply with the IP policy from the [CNCF Charter] and be recorded as a sub-project subject to the CNCF project's existing governance processes. Similarly, if it would be set up as its own CNCF project, it would also be subject to CNCF’s standard processes for onboarding new projects; [initiating an application to join the CNCF](https://github.com/cncf/toc/tree/main/process).
 
 If the maintained fork would be a new project under the Linux Foundation, then it would likely need to be set up with its own governance structure and charter as with other LF-supported projects.
 
