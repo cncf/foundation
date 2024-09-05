@@ -16,7 +16,7 @@ To provide high-value content to the community, the editors review article submi
 * Content should be of interest to the community as a whole, not just the users of a single commercial platform.
 * Content does not have to be vendor-neutral, but a press release or commercial announcement that does not outline feature benefits or how to use the project / product is not appropriate.
 * No gated content, unless in the webinar section.
-* Articles should be published within the last week. Exceptions will be made for good content we missed.
+* Articles should be published within the last month. Exceptions will be made for good content we missed.
 
 ## Editor requirements:
 
@@ -31,6 +31,7 @@ Commitment: Half-year (temp)
 
 **Types of Content**
 The types of content shared includes but is not limited to: 
+* Articles
 * Blogs
 * Videos
 * Podcasts
@@ -40,7 +41,7 @@ The types of content shared includes but is not limited to:
 
 With tens of thousands of people in the Kubernetes community, the editors could never keep up with the events and publish them in KubeWeekly. 
 
-The only events shared in KubeWeekly are the CNCF webinars.
+The only events shared in KubeWeekly are the CNCF Online Programs, CNCF hosted events, and CNCF supported events.
 
 ## To submit content
  
