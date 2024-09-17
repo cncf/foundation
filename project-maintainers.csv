@@ -542,6 +542,7 @@ Incubating,Keptn,Alois Reitbauer,Dynatrace,AloisReitbauer,https://github.com/kep
 ,,David Hirsch, Dynatrace, DavidPHirsch,
 ,,Alex Jones, Canonical, AlexsJones,
 ,,Ana Margarita Medina, Lightstep, AnaMMedina21,
+,,Rakshit Gondwal,,rakshitgondwal,
 Sandbox,Kudo,Alena Varkockova,,alenkacz,https://github.com/kudobuilder/kudo/blob/main/OWNERS
 ,,Gerred Dillon,,gerred,
 ,,Thomas Runyon,,runyontr,
@@ -886,7 +887,7 @@ Sandbox,Vineyard,Tao He,Alibaba,sighingnow,https://github.com/alibaba/v6d/blob/m
 ,,Weibin Zeng,Alibaba,acezen,
 ,,Siyuan Zhang,Alibaba,siyuan0322,
 ,,Diwen Zhu,Alibaba,andydiwenzhu,
-Sandbox,WasmEdge Runtime,Michael Yuan,Second State,juntao,https://github.com/WasmEdge/WasmEdge/blob/master/doc/OWNER.md
+Sandbox,WasmEdge Runtime,Michael Yuan,Second State,juntao,https://github.com/WasmEdge/WasmEdge/blob/master/docs/OWNER.md
 ,,Hung-Ying Tai,Second State,hydai,
 ,,Yi-Ying He,Second State,q82419,
 ,,Shen-Ta Hsieh(BestSteve),Second State,ibmibmibm,
@@ -1380,6 +1381,7 @@ Incubating,Keycloak,Stian Thorgersen,Red Hat,stianst,https://github.com/keycloak
 ,,Václav Muzikář,Red Hat,vmuzikar,
 Sandbox,Kepler,Huamin Chen,Red Hat,rootfs,https://github.com/sustainable-computing-io/kepler/blob/main/MAINTAINERS.md
 ,,Ji Chen,IBM,jichenjc,
+,,Maryam Tahhan,Red Hat,maryamtahhan,
 ,,Parul Singh,Red Hat,husky-parul,
 ,,Kaiyi Liu,Red Hat,KaiyiLiu1234,
 ,,Peng Hui Jiang,IBM,jiangphcn,
@@ -1612,3 +1614,17 @@ Sandbox,LoxiLB,Trekkie,NetLOX,TrekkieCoder,https://github.com/loxilb-io/loxilb/b
 ,,Nikhil Malik,NetLOX,nik-netlox,
 ,,BackGuyn Jung,NetLOX,backguynn,
 ,,Inho Gog,NetLOX,inhogog2,
+Sandbox,HAMi,Xiao Zhang,Daocloud,wawa0210,https://github.com/Project-HAMi/HAMi/blob/master/MAINTAINERS.md
+,,Li Mengxuan,4paradigm,archlitchi,
+,,Xiao Zhang,DaoCloud,wawaw0210,
+,,William-wang,Huawei,william-wang,
+Incubating,Flatcar Container Linux,Thilo Fromm,Microsoft,t-lo,https://github.com/flatcar/Flatcar/blob/main/MAINTAINERS.md
+,,Dongsu Park,Microsoft,dongsupark,
+,,James Le Cuirot,Microsoft,chewi,
+,,Jeremi Piotrowski,Microsoft,jepio,
+,,Kai Lüke,Microsoft,pothos,
+,,Krzesimir Nowak,Microsoft,krnowak,
+,,Mathieu Tortuyaux,Microsoft,tormath1,
+,,Sayan Chowdhury,Microsoft,sayanchowdhury,
+,,Adrian Vladu,Cloudbase Solutions,ader1990,
+,,Gabriel Samfira,Cloudbase Solutions,gabriel-samfira,
