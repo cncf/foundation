@@ -17,6 +17,7 @@ To provide high-value content to the community, the editors review article submi
 * Content does not have to be vendor-neutral, but a press release or commercial announcement that does not outline feature benefits or how to use the project / product is not appropriate.
 * No gated content, unless in the webinar section.
 * Articles should be published within the last month. Exceptions will be made for good content we missed.
+* Only CNCF Online Programs, CNCF hosted events, and CNCF supported events are promoted in KubeWeekly
 
 ## Editor requirements:
 
