@@ -240,14 +240,12 @@ Graduated,Linkerd,Oliver Gould,Buoyant,olix0r,https://github.com/linkerd/linkerd
 ,,Christian Hüning,,christianhuening,
 ,,Justin Turner,,justin-turner-heb,
 ,,William King,,quentusrex,
-Graduated,Helm,Matt Butcher,Microsoft,technosophos,https://github.com/helm/community/blob/master/MAINTAINERS.md
+Graduated,Helm,Matt Butcher,Fermyon,technosophos,https://github.com/helm/community/blob/master/MAINTAINERS.md
 ,,Matt Farina,SUSE,mattfarina,
-,,Matt Fisher,Microsoft,bacongobbler,
-,,Adam Reese,Microsoft,adamreese,
-,,Reinhard Nägele,codecentric AG,unguiculus,
-,,Josh Dolitsky,Blood Orange,jdolitsky,
+,,Reinhard Nägele,IBM,unguiculus,
+,,Josh Dolitsky,Chainguard,jdolitsky,
 ,,Scott Rigby,Independent,scottrigby,
-,,Karen Chu,Microsoft,karenhchu,
+,,Karen Chu,Independent,karenhchu,
 Graduated,Rook,Satoru Takeuchi,Cybozu,satoru-takeuchi,https://github.com/rook/rook/blob/master/OWNERS.md
 ,,Jared Watts,Upbound,jbw976,
 ,,Sebastien Han,Red Hat,leseb,
