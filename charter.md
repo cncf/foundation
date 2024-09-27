@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated December 14 2023
+Effective Nov 6 2015 / Updated September 26, 2024
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -34,11 +34,9 @@ The CNCF will serve a role in the open source community responsible for:
 
 -	(d) Serve the community by making the technology accessible and reliable.
 
-	-	i. The foundation seeks to offer up a fully integrated and qualified build of each of the constituent pieces, on a well-defined cadence across the reference architecture.
-
 #### 3. Values.
 
-The CNCF will strive to adhere to the following principles:
+The CNCF community will strive to adhere to the following principles:
 
 -	(a) Trusted. We guide projects to build trust with adopters and users, balancing quality and sustainability with velocity.
 
@@ -216,7 +214,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	i. commit that they have the available bandwidth to make the time to invest in the CNCF TOC,
 
-	-	ii. demonstrate an advanced level of professional experience as engineers in the scope of CNCF,
+	-	ii. demonstrate an advanced level of professional experience as leaders with demonstrated technical experience in the scope of CNCF,
 
 	-	iii. demonstrate seniority sufficient to access additional staff or community members to assist in their TOC preparations, and
     
@@ -327,7 +325,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	i. Included in CNCF, under a neutral home for collaboration
 
-		-	a. All aspects of the project are governed by the CNCF
+		-	a. The project meets the requirements for being incuding as a CNCF project.
 
 		-	b. The project is marketed by the CNCF as a CNCF project
 
@@ -367,9 +365,9 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 #### 11. IP Policy
 
--	(a) Any project that is added to the CNCF must have ownership of its trademark and logo assets transferred to the Linux Foundation.
+-	(a) Any project that is added to the CNCF must have ownership of its trademark and logo assets transferred to the Linux Foundation or a Linux Foundation project hosting entity.
 
--	(b) Each project shall determine whether it will require use of an approved CNCF CLA. For projects that select to use a CLA, all code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF as the recipient of the contributions, and which shall be approved by the Governance Board. See CNCF Contributor License Agreements available at https://github.com/cncf/cla. The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
+-	(b) Each project shall determine whether it will require use of an approved CNCF CLA. For projects that select to use a CLA, all code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF or the project as the recipient of the contributions, and which shall be approved by the Governance Board. See CNCF Contributor License Agreements available at https://github.com/cncf/cla. The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
 
 -	(c) All new inbound code contributions to the CNCF shall be (i) accompanied by a Developer Certificate of Origin sign-off ([*https://developercertificate.org*](https://developercertificate.org/)\) and (ii) made under the Apache License, Version 2.0 (available at [*https://www.apache.org/licenses/LICENSE-2.0*](https://www.apache.org/licenses/LICENSE-2.0)), such license to be in addition to, and shall not supersede, obligations undertaken under the contribution license agreement(s) provided for in (b) above.
 
@@ -423,7 +421,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 #### 17. General Rules and Operations.
 
-The participants in CNCF shall:
+CNCF projects are required to:
 
 -	(a) demonstrate plans and the means to coordinate with the open source project’s developer community, including on topics such as branding, logos, and other collateral that will represent the community;
 
