@@ -52,7 +52,7 @@
 
 למקרים המתרחשים בקהילת Kubernetes, צור קשר עם [ועדת קוד ההתנהגות של Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) דרך <conduct@kubernetes.io>. ניתן לצפות לתגובה תוך שלושה ימי עסקים.
 
-עבור פרויקטים אחרים, או עבור תקריות שהן אגנוסטיות לפרויקט או להשפיע על פרויקטים מרובים של CNCF, אנא צור קשר עם [ועדת קוד ההתנהגות של CNCF](https://www.cncf.io/conduct/committee/) דרך <conduct@cncf. io>. לחלופין, תוכל ליצור קשר עם כל אחד מהחברים הפרטיים של [ועדת קוד ההתנהגות של CNCF](https://www.cncf.io/conduct/committee/) כדי להגיש את הדוח שלך. להנחיות מפורטות יותר כיצד להגיש דוח, לרבות כיצד להגיש דוח באופן אנונימי, עיין ב[נהלי פתרון תקריות](https://github.com/cncf/foundation/blob/main/code-of-conduct/ coc-incident-resolution-procedures.md). ניתן לצפות לתגובה תוך שלושה ימי עסקים.
+עבור פרויקטים אחרים, או עבור תקריות שהן אגנוסטיות לפרויקט או להשפיע על פרויקטים מרובים של CNCF, אנא צור קשר עם [ועדת קוד ההתנהגות של CNCF](https://www.cncf.io/conduct/committee/) דרך <conduct@cncf.io>. לחלופין, תוכל ליצור קשר עם כל אחד מהחברים הפרטיים של [ועדת קוד ההתנהגות של CNCF](https://www.cncf.io/conduct/committee/) כדי להגיש את הדוח שלך. להנחיות מפורטות יותר כיצד להגיש דוח, לרבות כיצד להגיש דוח באופן אנונימי, עיין ב[נהלי פתרון תקריות](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md). ניתן לצפות לתגובה תוך שלושה ימי עסקים.
 
 לתקריות המתרחשות באירוע CNCF המופק על ידי קרן Linux, אנא צור קשר עם <eventconduct@cncf.io>.
 
