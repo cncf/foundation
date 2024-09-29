@@ -68,4 +68,4 @@
 
 ## הכרת תודה
 
-קוד התנהגות זה מותאם מאמנת התורמים (http://contributor-covenant.org), גרסה 2.0 הזמינה בכתובת: [http://contributor-covenant.org/version/2/0/code_of_conduct/](http://contributor-covenant.org/version/2/0/code_of_conduct/)
+קוד התנהגות זה הותאם בהתאם לאמנת התורמים (http://contributor-covenant.org), גרסה 2.0 הזמינה בכתובת: [http://contributor-covenant.org/version/2/0/code_of_conduct/](http://contributor-covenant.org/version/2/0/code_of_conduct/)
