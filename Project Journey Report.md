@@ -6,16 +6,14 @@ A Project Journey Report is an in-depth analysis created by the CNCF to objectiv
 
 [Review other Project Journey Reports](https://www.cncf.io/reports?_sft_lf-report-type=project-journey)
 
-[Submit your request for a Project Journey Report](https://form.asana.com/?k=DTQg_jRnviXiApjcxWl-KA&d=9283783873717)
-
 ## What you can expect once you submit your PJR request:
 
-* Submit your request and wait for confirmation
-* CNCF will create a workback plan to share with the maintainers and determine publish date - current turnaround is 6 weeks
-* Identify correct maintainers (2 to 3) that will review the report
-* CNCF will set up interview/questionnaire with maintainers as well as end-user contacts for quotes and begin collecting data for the report
-* Maintainers receive first draft of the report and provide feedback in accordance with the workback plan
-* Once the report copy is finalized, CNCF will develop the creative draft of the report and initiate the blog drafting with the social team
-* Report will be published to the CNCF website & blog posting date will be set and shared with the maintainers - CNCF will send over all of the live links
+1. Submit your request and wait for confirmation
+2. CNCF will create a workback plan to share with the maintainers and determine publish date - current turnaround is 6 weeks
+3. Identify correct maintainers (2 to 3) that will review the report
+4. CNCF will set up interview/questionnaire with maintainers as well as end-user contacts for quotes and begin collecting data for the report
+5. Maintainers receive first draft of the report and provide feedback in accordance with the workback plan
+6. Once the report copy is finalized, CNCF will develop the creative draft of the report and initiate the blog drafting with the social team
+7. Report will be published to the CNCF website & blog posting date will be set and shared with the maintainers - CNCF will send over all of the live links
 
 [Submit your request for a Project Journey Report](https://form.asana.com/?k=DTQg_jRnviXiApjcxWl-KA&d=9283783873717)
