@@ -866,7 +866,7 @@ Graduated,Cilium,Aditi Ghag,Isovalent,aditighag,https://github.com/cilium/cilium
 ,,Nicolas Busseneau,Isovalent,nbusseneau,
 ,,Nirmoy Das,AMD,nirmoy,
 ,,Paul Chaignon,Isovalent,pchaigno,
-,,Quentin Monnet,Isovalent,qmonnet,
+,,Quentin Monnet,Hedgehog,qmonnet,
 ,,Robin Hahling,Isovalent,rolinh,
 ,,Sebastian Wicki,Isovalent,gandro,
 ,,Tam Mach,Zendesk,sayboras,
@@ -968,9 +968,10 @@ Sandbox,ORAS (OCI Registry as Storage),Andrew Block,Red Hat,sabre1041,https://gi
 ,,Sajay Antony,Microsoft,sajayantony,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,
 ,,Terry Howe,AWS,TerryHowe,
-Sandbox,wasmCloud,Brooks Townsend,Capital One,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/OWNERS
+Sandbox,wasmCloud,Brooks Townsend,Capital One,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/MAINTAINERS.md
 ,,Liam Randall,Cosmonic,liamrandall,
 ,,Kevin Hoffman,wasmCloud,autodidaddict,
+,,Taylor Thomas,Cosmonic,thomastaylor312,
 Sandbox,Akri,Kate Goldenring,Fermyon,kate-goldenring,https://github.com/project-akri/akri/blob/main/CODEOWNERS
 ,,Brian Fjeldstad,Microsoft,bfjelds,
 ,,Roaa Sakr,Microsoft,romoh,
@@ -1011,17 +1012,14 @@ Sandbox,Open Cluster Management,Qiu Jian,Red Hat,qiujian16,https://github.com/op
 Incubating,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/community/blob/master/MAINTAINERS.md
 ,,Mark Fussell,Diagrid,msfussell,
 ,,Long Dai,Intel,daixiang0,
-,,Xavier Geerinck,Signalr.io,XavierGeerinck,
 ,,Rob Landers,Automattic,withinboredom,
 ,,Artur Souza,Diagrid,artursouza,
 ,,Mukundan Sundararajan,Microsoft,mukundansundar,
 ,,Nick Greenfield,Microsoft,greenie-msft,
 ,,Bernd Verst,Microsoft,berndverst,
 ,,Hal Spang,Microsoft,halspang,
-,,Shubham Sharma,Microsoft,shubham1172,
 ,,Paul Yuknewicz,Microsoft,paulyuk,
 ,,Hanna Hunter,Microsoft,@hhunter-ms,
-,,Alessandro Segala,Microsoft,ItalyPaleAle,
 ,,Marc Duiker,Diagrid,marcduiker,
 ,,Cecil Phillip,Stripe,cecilphillip,
 ,,Annu Singh,Nirmata,annucode,
@@ -1029,6 +1027,7 @@ Incubating,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/communit
 ,,Deepanshu Agarwal,Microsoft,DeepanshuA,
 ,,Mike Nguyen,,mikeee,
 ,,Josh van Leeuwen,Diagrid,JoshVanL,
+,,Mauricio Salatino,Diagrid,salaboy,
 Sandbox,Nocalhost,Zhenwei Wang,Tencent,jack230230,https://github.com/nocalhost/nocalhost/blob/main/MAINTAINERS.md
 ,,Wei Wang,Tencent,lyzhang1999,
 ,,Jinhao Huang,Tencent,anurnomeru,
@@ -1630,3 +1629,15 @@ Incubating,Flatcar Container Linux,Thilo Fromm,Microsoft,t-lo,https://github.com
 Sandbox,Shipwright,Enrique Encalada,IBM,qu1queee,https://github.com/shipwright-io/community/blob/main/MAINTAINERS.md
 ,,Sascha Schwarze,IBM,SaschaSchwarze0,
 ,,Adam Kaplan,Red Hat,adambkaplan,
+Sandbox,KusionStack,Zibo He,Ant Group,adohe,https://github.com/KusionStack/community/blob/main/MAINTAINERS.md
+,,Dayuan Li,Ant Group,SparkYuan,
+,,Yingming Yang,Ant Group,elliotxx,
+,,Haoming Liu,Ant Group,liu-hm19,
+,,Yang Yang,Ant Group,Yangyang96,
+,,Zai Chen,Ant Group,ffforest,
+,,Ruquan Zhao,Ant Group,ruquanzhao,
+,,Ke Wu,Ant Group,wu8685,
+,,Jun Zhang,Ant Group,zoumo,
+,,Shuai Han,Ant Group,shaofan-hs,
+,,Xin He,Ant Group,ColdsteelRail,
+,,Yikun Wang,Ant Group,Eikykun,
