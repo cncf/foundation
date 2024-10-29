@@ -1,11 +1,11 @@
 ﻿,Project,Maintainer Name,Company,Github Name,OWNERS/MAINTAINERS
-Graduated,Kubernetes,Bob Killen,Google,mrbobbytables,https://git.k8s.io/steering#members
-,,Stephen Augustus,Cisco,justaugustus,
+Graduated,Kubernetes,Antonio Ojea,Google,aojea,https://git.k8s.io/steering#members
 ,,Benjamin Elder,Google,BenTheElder,
-,,Nabarun Pal,VMware,palnabarun,
-,,Maciej Szulik,Red Hat,soltysh,
+,,Maciej Szulik,Defense Unicorns,soltysh,
 ,,Paco Xu 徐俊杰,DaoCloud,pacoxu,
 ,,Patrick Ohly,Intel,pohly,
+,,Sascha Grunert,Red Hat,saschagrunert,
+,,Stephen Augustus,Cisco,justaugustus,
 ,Kubernetes: SIG Contributor Experience (non-voting),Josh Berkus,Red Hat,jberkus,https://git.k8s.io/community/sig-contributor-experience#leadership
 ,,Christoph Blecker,Red Hat,cblecker,
 ,,Kaslin Fields,Google,kaslin,
@@ -1645,4 +1645,3 @@ Sandbox,KusionStack,Zibo He,Ant Group,adohe,https://github.com/KusionStack/commu
 ,,Shuai Han,Ant Group,shaofan-hs,
 ,,Xin He,Ant Group,ColdsteelRail,
 ,,Yikun Wang,Ant Group,Eikykun,
-
