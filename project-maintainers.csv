@@ -1,11 +1,11 @@
 ﻿,Project,Maintainer Name,Company,Github Name,OWNERS/MAINTAINERS
-Graduated,Kubernetes,Bob Killen,Google,mrbobbytables,https://git.k8s.io/steering#members
-,,Stephen Augustus,Cisco,justaugustus,
+Graduated,Kubernetes,Antonio Ojea,Google,aojea,https://git.k8s.io/steering#members
 ,,Benjamin Elder,Google,BenTheElder,
-,,Nabarun Pal,VMware,palnabarun,
-,,Maciej Szulik,Red Hat,soltysh,
+,,Maciej Szulik,Defense Unicorns,soltysh,
 ,,Paco Xu 徐俊杰,DaoCloud,pacoxu,
 ,,Patrick Ohly,Intel,pohly,
+,,Sascha Grunert,Red Hat,saschagrunert,
+,,Stephen Augustus,Cisco,justaugustus,
 ,Kubernetes: SIG Contributor Experience (non-voting),Josh Berkus,Red Hat,jberkus,https://git.k8s.io/community/sig-contributor-experience#leadership
 ,,Christoph Blecker,Red Hat,cblecker,
 ,,Kaslin Fields,Google,kaslin,
@@ -841,6 +841,7 @@ Graduated,Cilium,Aditi Ghag,Isovalent,aditighag,https://github.com/cilium/cilium
 ,,Daniel Borkmann,Isovalent,borkmann,
 ,,Dan Wendlandt,Isovalent,danwent,
 ,,Deepesh Pathak,,fristonio,
+,,Dorde Lapcevic,Google,dlapcevic,
 ,,Dylan Reimerink,Isovalent,dylandreimerink,
 ,,Eloy Coto,Red Hat,eloycoto,
 ,,Gilberto Bertin,Isovalent,jibi,
@@ -898,12 +899,17 @@ Sandbox,Fluid,Rong Gu,Nanjing University,RongGu,https://github.com/fluid-cloudna
 ,,Bin Fan,Alluxio,apc999,
 ,,Zhihao Xu,Nanjing University,TrafalgarZZZ,
 ,,Kai Zhang,Alibaba,wsxiaozhang,
-Sandbox,Submariner,Miguel Angel Ajo Pelayo,Red Hat,mangelajo,https://github.com/submariner-io/submariner/blob/devel/CODEOWNERS.in
+Sandbox,Submariner,Aswin Suryanarayanan,Red Hat,aswinsuryan,https://github.com/submariner-io/submariner/blob/devel/CODEOWNERS.in
 ,,Chris Kim,Rancher Labs,Oats87,
-,,Stephen Kitt,Red Hat,skitt,
-,,Thomas Pantelis,Red Hat,tpantelis,
+,,Daniel Farrell,Red Hat,dfarrell07,
+,,Janki Chhatbar,Red Hat,Jaanki,https://github.com/submariner-io/subctl/blob/devel/CODEOWNERS.in
+,,Maayan Friedman,Red Hat,maayanf24,
 ,,Mike Kolesnik,Red Hat,mkolesnik,
-,,Sridhar Gaddam,Red Hat,sridhargaddam ,
+,,Stephen Kitt,Red Hat,skitt,
+,,Sridhar Gaddam,Red Hat,sridhargaddam,
+,,Thomas Pantelis,Red Hat,tpantelis,
+,,Vishal Thapar,Red Hat,vthapar,
+,,Yossi Boaron,Red Hat,yboaron,
 Sandbox,Antrea,Antonin Bas,VMware,antoninbas,https://github.com/vmware-tanzu/antrea/blob/main/MAINTAINERS.md
 ,,Jianjun Shen,VMware,jianjuns,
 ,,Quan Tian,VMware,tnqn,
@@ -1031,6 +1037,7 @@ Incubating,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/communit
 ,,Mike Nguyen,,mikeee,
 ,,Josh van Leeuwen,Diagrid,JoshVanL,
 ,,Mauricio Salatino,Diagrid,salaboy,
+,,Whit Waldo,Innovian,WhitWaldo,
 Sandbox,Nocalhost,Zhenwei Wang,Tencent,jack230230,https://github.com/nocalhost/nocalhost/blob/main/MAINTAINERS.md
 ,,Wei Wang,Tencent,lyzhang1999,
 ,,Jinhao Huang,Tencent,anurnomeru,
