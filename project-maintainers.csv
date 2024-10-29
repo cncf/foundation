@@ -12,7 +12,7 @@ Graduated,Kubernetes,Bob Killen,Google,mrbobbytables,https://git.k8s.io/steering
 ,,Madhav Jivrajani,VMware,MadhavJivrajani,
 ,,Nikhita Raghunath,VMware,nikhita,
 ,,Priyanka Saggu,SUSE,Priyankasaggu11929,
-,Kubernetes: SIG K8s Infra (non-voting),Arnaud Meukam,VMware,ameukam,https://git.k8s.io/community/sig-k8s-infra#leadership
+,Kubernetes: SIG K8s Infra (non-voting),Arnaud Meukam,Independent,ameukam,https://git.k8s.io/community/sig-k8s-infra#leadership
 ,,Aaron Crickenberger,Google,spiffxp,
 ,,Davanum Srinivas,AWS,dims,
 ,,Tim Hockin,Google,thockin,
@@ -30,6 +30,7 @@ Graduated,Prometheus,Arthur Sens Silva,Coralogix,ArthurSens,https://prometheus.i
 ,,Bryan Boreham,Grafana Labs,bboreham,
 ,,Calle Pettersson,Instabee Group,carlpett,
 ,,Callum Styan,Grafana Labs,cstyan,
+,,Sanket Kalekar,Freelancer,ooye-sanket,
 ,,Chris Marchbanks,Grafana Labs,csmarchbanks,
 ,,David Ashpole,Google,dashpole,
 ,,Frederic Branczyk,Polar Signals,brancz,
@@ -240,15 +241,12 @@ Graduated,Linkerd,Oliver Gould,Buoyant,olix0r,https://github.com/linkerd/linkerd
 ,,Christian Hüning,,christianhuening,
 ,,Justin Turner,,justin-turner-heb,
 ,,William King,,quentusrex,
-Graduated,Helm,Matt Butcher,Microsoft,technosophos,https://github.com/helm/community/blob/master/MAINTAINERS.md
+Graduated,Helm,Matt Butcher,Fermyon,technosophos,https://github.com/helm/community/blob/master/MAINTAINERS.md
 ,,Matt Farina,SUSE,mattfarina,
-,,Matt Fisher,Microsoft,bacongobbler,
-,,Adam Reese,Microsoft,adamreese,
-,,Reinhard Nägele,codecentric AG,unguiculus,
-,,Josh Dolitsky,Blood Orange,jdolitsky,
+,,Reinhard Nägele,IBM,unguiculus,
+,,Josh Dolitsky,Chainguard,jdolitsky,
 ,,Scott Rigby,Independent,scottrigby,
-,,Karen Chu,Microsoft,karenhchu,
-,,Martin Hickey,IBM,hickeyma,
+,,Karen Chu,Independent,karenhchu,
 Graduated,Rook,Satoru Takeuchi,Cybozu,satoru-takeuchi,https://github.com/rook/rook/blob/master/OWNERS.md
 ,,Jared Watts,Upbound,jbw976,
 ,,Sebastien Han,Red Hat,leseb,
@@ -313,6 +311,7 @@ Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecuri
 ,,Grzegorz Nosek,Sysdig,gnosek,
 ,,Jason Dellaluce,Sysdig,jasondellaluce,
 ,,Leonardo Grasso,Sysdig,leogr,
+,,Lorenzo Susini,Sysdig,loresuso,
 ,,Luca Guerra,Sysdig,lucaguerra,
 ,,Mark Stemm,Sysdig,mstemm,
 ,,Massimiliano Giovagnoli,Clastix,maxgio92,
@@ -353,7 +352,7 @@ Incubating,Buildpacks,Aidan Delaney,Bloomberg,aidandelaney,https://github.com/bu
 ,,Joe Kutner,Salesforce,jkutner,
 ,,Juan Bustamante,Broadcom,jjbustamante,
 ,,Natalie Arellano,Broadcom,natalieparellano,
-,,Sambhav Kothari,Bloomberg,samj1912,
+,,Sambhav Kothari,Bloomberg,sambhav,
 ,,Terence Lee,Salesforce,hone,
 ,,Travis Longoria,Salesforce,elbandito,
 Incubating,Dragonfly,Allen Sun,Alibaba Group,allencloud,https://github.com/dragonflyoss/dragonfly/blob/master/MAINTAINERS.md
@@ -473,8 +472,8 @@ Incubating,CubeFS,Haifeng Liu ,_,bladehliu,https://github.com/cubefs/cubefs/blob
 ,,slasher,OPPO,sejust,
 Graduated,KEDA,Jeff Hollan,Snowflake,jeffhollan,https://github.com/kedacore/governance/blob/main/MAINTAINERS.md
 ,,Jorge Turrado Ferrero,SCRM Lidl International Hub,jorturfer,
-,,Tom Kerkhove,Microsoft,tomkerkhove,
 ,,Zbynek Roubalik,Kedify,zroubalik,
+,,Jan Wozniak,Kedify,wozniakjan,
 Incubating,Volcano,Klaus Ma,Huawei,k82cn,https://github.com/volcano-sh/volcano/blob/master/MAINTAINERS.md
 ,,Kevin Wang,Huawei,kevin-wangzefeng,
 ,,Zhonghu Xu,Huawei,hzxuzhonghu,
@@ -510,6 +509,7 @@ Graduated,Argo, Saravanan Balasubramanian,Intuit,sarabala1979,https://github.com
 ,,Andrii Perenesenko,Intuit,perenesenko,
 ,,Leonardo Luz Almeida,Intuit,leoluz,
 ,,Michael Crenshaw,Intuit,crenshaw-dev,
+,,Zach Aller,Intuit,zachaller,
 ,,Soumya Ghosh Dastidar,Akuity,gdsoumya,
 ,,Nicholas Morey,Akuity,morey-tech,
 ,,Justin Marquis,Akuity,34fathombelow,
@@ -540,6 +540,7 @@ Incubating,Keptn,Alois Reitbauer,Dynatrace,AloisReitbauer,https://github.com/kep
 ,,David Hirsch, Dynatrace, DavidPHirsch,
 ,,Alex Jones, Canonical, AlexsJones,
 ,,Ana Margarita Medina, Lightstep, AnaMMedina21,
+,,Rakshit Gondwal,,rakshitgondwal,
 Sandbox,Kudo,Alena Varkockova,,alenkacz,https://github.com/kudobuilder/kudo/blob/main/OWNERS
 ,,Gerred Dillon,,gerred,
 ,,Thomas Runyon,,runyontr,
@@ -746,6 +747,7 @@ Incubating,cert-manager,James Munnelly,Apple,munnerz,https://github.com/jetstack
 ,,Maël Valais,Venafi,maelvls,
 ,,Tim Ramlot,Venafi,inteon,
 ,,Adam Talbot,Venafi,ThatsMrTalbot,
+,,Erik Godding Boye,Zenior AS,erikgb,
 Sandbox,OpenKruise,Fei Guo,Alibaba,Fei-Guo,https://github.com/openkruise/kruise/blob/master/MAINTAINERS.md
 ,,Siyu Wang,Alibaba,FillZpp,
 ,,Zhen Zhang,Alibaba,furykerry,
@@ -865,7 +867,7 @@ Graduated,Cilium,Aditi Ghag,Isovalent,aditighag,https://github.com/cilium/cilium
 ,,Nicolas Busseneau,Isovalent,nbusseneau,
 ,,Nirmoy Das,AMD,nirmoy,
 ,,Paul Chaignon,Isovalent,pchaigno,
-,,Quentin Monnet,Isovalent,qmonnet,
+,,Quentin Monnet,Hedgehog,qmonnet,
 ,,Robin Hahling,Isovalent,rolinh,
 ,,Sebastian Wicki,Isovalent,gandro,
 ,,Tam Mach,Zendesk,sayboras,
@@ -883,7 +885,7 @@ Sandbox,Vineyard,Tao He,Alibaba,sighingnow,https://github.com/alibaba/v6d/blob/m
 ,,Weibin Zeng,Alibaba,acezen,
 ,,Siyuan Zhang,Alibaba,siyuan0322,
 ,,Diwen Zhu,Alibaba,andydiwenzhu,
-Sandbox,WasmEdge Runtime,Michael Yuan,Second State,juntao,https://github.com/WasmEdge/WasmEdge/blob/master/doc/OWNER.md
+Sandbox,WasmEdge Runtime,Michael Yuan,Second State,juntao,https://github.com/WasmEdge/WasmEdge/blob/master/docs/OWNER.md
 ,,Hung-Ying Tai,Second State,hydai,
 ,,Yi-Ying He,Second State,q82419,
 ,,Shen-Ta Hsieh(BestSteve),Second State,ibmibmibm,
@@ -967,9 +969,12 @@ Sandbox,ORAS (OCI Registry as Storage),Andrew Block,Red Hat,sabre1041,https://gi
 ,,Sajay Antony,Microsoft,sajayantony,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,
 ,,Terry Howe,AWS,TerryHowe,
-Sandbox,wasmCloud,Brooks Townsend,Capital One,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/OWNERS
+Sandbox,wasmCloud,Brooks Townsend,Cosmonic,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/MAINTAINERS.md
 ,,Liam Randall,Cosmonic,liamrandall,
-,,Kevin Hoffman,wasmCloud,autodidaddict,
+,,Taylor Thomas,Cosmonic,thomastaylor312,
+,,Bailey Hayes,Cosmonic,ricochet,
+,,Jordan Rash,Synadia,jordan-rash,
+,,Colin Murphy,Adobe,cdmurph32,
 Sandbox,Akri,Kate Goldenring,Fermyon,kate-goldenring,https://github.com/project-akri/akri/blob/main/CODEOWNERS
 ,,Brian Fjeldstad,Microsoft,bfjelds,
 ,,Roaa Sakr,Microsoft,romoh,
@@ -1010,17 +1015,14 @@ Sandbox,Open Cluster Management,Qiu Jian,Red Hat,qiujian16,https://github.com/op
 Incubating,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/community/blob/master/MAINTAINERS.md
 ,,Mark Fussell,Diagrid,msfussell,
 ,,Long Dai,Intel,daixiang0,
-,,Xavier Geerinck,Signalr.io,XavierGeerinck,
 ,,Rob Landers,Automattic,withinboredom,
 ,,Artur Souza,Diagrid,artursouza,
 ,,Mukundan Sundararajan,Microsoft,mukundansundar,
 ,,Nick Greenfield,Microsoft,greenie-msft,
 ,,Bernd Verst,Microsoft,berndverst,
 ,,Hal Spang,Microsoft,halspang,
-,,Shubham Sharma,Microsoft,shubham1172,
 ,,Paul Yuknewicz,Microsoft,paulyuk,
 ,,Hanna Hunter,Microsoft,@hhunter-ms,
-,,Alessandro Segala,Microsoft,ItalyPaleAle,
 ,,Marc Duiker,Diagrid,marcduiker,
 ,,Cecil Phillip,Stripe,cecilphillip,
 ,,Annu Singh,Nirmata,annucode,
@@ -1028,6 +1030,7 @@ Incubating,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/communit
 ,,Deepanshu Agarwal,Microsoft,DeepanshuA,
 ,,Mike Nguyen,,mikeee,
 ,,Josh van Leeuwen,Diagrid,JoshVanL,
+,,Mauricio Salatino,Diagrid,salaboy,
 Sandbox,Nocalhost,Zhenwei Wang,Tencent,jack230230,https://github.com/nocalhost/nocalhost/blob/main/MAINTAINERS.md
 ,,Wei Wang,Tencent,lyzhang1999,
 ,,Jinhao Huang,Tencent,anurnomeru,
@@ -1042,10 +1045,12 @@ Sandbox,K8up,Tobias Brunner,VSHN AG,tobru,https://github.com/k8up-io/k8up/blob/m
 ,,Christian Häusler,,corvus-ch,
 Sandbox,KubeArmor,Rahul Jadhav,AccuKnox,nyrahul,https://github.com/kubearmor/KubeArmor/blob/main/MAINTAINERS.md
 ,,Achref Ben Saad,AccuKnox,achrefbensaad,
-,,Ankur Kothiwal,AccuKnox,Ankurk99,
+,,Ankur Kothiwal,CERN,Ankurk99,
 ,,Anurag Kumar,,kranurag7,
 ,,Barun Acharya,AccuKnox,daemon1024,
-,,Jaehyun Nam,AccuKnox,nam-jaehyun,
+,,Jaehyun Nam,Dankook University,nam-jaehyun,
+,,Ramakant Sharma,AccuKnox,rksharma95,
+,,Rudraksh Pareek,AccuKnox,DelusionalOptimist,
 Sandbox,kube-rs,Eirik Albrigtsen,TrueLayer,clux,https://github.com/kube-rs/.github/blob/main/maintainers.md
 ,,Teo Klestrup Röijezon,Stackable,teozkr,
 ,,Kaz Yoshihara,Qualified,kazk,
@@ -1367,7 +1372,6 @@ Sandbox,Clusternet,Di Xu,Tencent,dixudx,https://github.com/clusternet/clusternet
 Incubating,Keycloak,Stian Thorgersen,Red Hat,stianst,https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md
 ,,Alexander Schwartz,Red Hat,ahus1,
 ,,Bruno Oliveira da Silva,Red Hat,abstractj,
-,,Hynek Mlnařík,Red Hat,hmlnarik,
 ,,Marek Posolda,Red Hat,mposolda,
 ,,Michal Hajas,Red Hat,mhajas,
 ,,Pedro Igor,Red Hat,pedroigor,
@@ -1378,6 +1382,7 @@ Incubating,Keycloak,Stian Thorgersen,Red Hat,stianst,https://github.com/keycloak
 ,,Václav Muzikář,Red Hat,vmuzikar,
 Sandbox,Kepler,Huamin Chen,Red Hat,rootfs,https://github.com/sustainable-computing-io/kepler/blob/main/MAINTAINERS.md
 ,,Ji Chen,IBM,jichenjc,
+,,Maryam Tahhan,Red Hat,maryamtahhan,
 ,,Parul Singh,Red Hat,husky-parul,
 ,,Kaiyi Liu,Red Hat,KaiyiLiu1234,
 ,,Peng Hui Jiang,IBM,jiangphcn,

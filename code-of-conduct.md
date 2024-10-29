@@ -10,6 +10,7 @@ Other languages available:
 - [French/Français](code-of-conduct-languages/fr.md)
 - [German/Deutsch](code-of-conduct-languages/de.md)
 - [Hindi/हिन्दी](code-of-conduct-languages/hi.md)
+- [Hungarian/Magyar](code-of-conduct-languages/hu.md)
 - [Indonesian/Bahasa Indonesia](code-of-conduct-languages/id.md)
 - [Italian/Italiano](code-of-conduct-languages/it.md)
 - [Japanese/日本語](code-of-conduct-languages/ja.md)
@@ -35,7 +36,7 @@ We are committed to making participation in the CNCF community a harassment-free
 
 This code of conduct applies:
 * within project and community spaces,
-* in other spaces when an individual CNCF community participant's words or actions are directed at or are about a CNCF project, the CNCF community, or another CNCF community participant.
+* in other spaces when an individual CNCF community participant's words or actions are directed at or are about a CNCF project, the CNCF community, or another CNCF community participant in the context of a CNCF activity.
 
 ### CNCF Events
 
