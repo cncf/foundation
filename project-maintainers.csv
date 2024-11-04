@@ -908,6 +908,11 @@ Sandbox,Submariner,Aswin Suryanarayanan,Red Hat,aswinsuryan,https://github.com/s
 ,,Thomas Pantelis,Red Hat,tpantelis,
 ,,Vishal Thapar,Red Hat,vthapar,
 ,,Yossi Boaron,Red Hat,yboaron,
+Sandbox,OVN-Kubernetes,Dan Williams,Independent,dcbw,https://github.com/ovn-org/ovn-kubernetes/blob/master/MAINTAINERS.md
+,,Girish Moodalbail,NVIDIA,girishmg,
+,,Jaime Caamaño Ruiz,Red Hat,jcaamano,
+,,Surya Seetharaman,Red Hat,tssurya,
+,,Tim Rozet,Red Hat,trozet,
 Sandbox,Antrea,Antonin Bas,VMware,antoninbas,https://github.com/vmware-tanzu/antrea/blob/main/MAINTAINERS.md
 ,,Jianjun Shen,VMware,jianjuns,
 ,,Quan Tian,VMware,tnqn,
