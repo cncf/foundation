@@ -46,4 +46,4 @@ The only events shared in KubeWeekly are the CNCF Online Programs, CNCF hosted e
 
 ## To submit content
  
-Interested in submitting an article? Email kubeweekly@cncf.io
+Interested in submitting an article? Submit your form [here](https://form.asana.com/?k=Lh4owFnlMrHzXopMIHZZlg&d=9283783873717) or email [here](kubeweekly@cncf.io)
