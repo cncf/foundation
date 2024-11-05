@@ -34,4 +34,4 @@ The only events shared in KubeWeekly are the CNCF webinars.
 
 ## To submit content
  
-Please submit your KubeWeekly articles via our [online form]([url](https://form.asana.com/?k=z6hNf3wVvlLxETIco730kw&d=9283783873717)).
+Please submit your KubeWeekly articles via the [online form](https://form.asana.com/?k=z6hNf3wVvlLxETIco730kw&d=9283783873717).
