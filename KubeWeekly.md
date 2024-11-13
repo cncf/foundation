@@ -21,7 +21,7 @@ To provide high-value content to the community, the editors review article submi
 
 ## Editor requirements:
 
-Commitment: Half-year (temp)
+Commitment: 1 year
 
 * 1-2 hours a week; scanning for content and reviewing submissions (async)
 * Wednesday afternoon for review time, add notes for articles not chosen
