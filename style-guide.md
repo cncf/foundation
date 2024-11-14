@@ -44,7 +44,7 @@ middle of the word ("ubernete") with the number of letters it contains (8). K8s 
 
 ## 3. Other CNCF Projects ##
 
-Different CNCF-hosted projects have preferred capitalization (e.g., containerd, gRPC). Please see
+Different CNCF-hosted projects have preferred capitalization (e.g., containerd, gRPC, KEDA). Please see
 [https://www.cncf.io/projects/](https://www.cncf.io/projects/).
 
 ## 4. Logos ##

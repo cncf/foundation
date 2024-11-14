@@ -61,6 +61,9 @@ You _should not_ change or remove someone else's copyright notice unless they
 have expressly permitted you to do so. This includes third parties' notices in
 pre-existing code.
 
+For additional details regarding attribution notices for third party code used
+in CNCF projects, see the [CNCF attribution recommendations] document.
+
 ## Why not list every copyright holder?
 
 There are several reasons why CNCF doesn't require or recommend trying to list
@@ -80,3 +83,5 @@ every copyright holder for contributions to every file:
   notices.
 - The specific individual or legal entity that owns the copyright might not be
   known to the contributor; it could be you, your employer, or some other entity.
+
+[CNCF attribution recommendations]: https://github.com/cncf/foundation/blob/main/recommendations-for-attribution.md

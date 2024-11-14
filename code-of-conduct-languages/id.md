@@ -1,31 +1,66 @@
-# Pedoman Perilaku Komunitas CNCF V1.0
+# Kode Etik Komunitas
 
-## Kode Etik Kontributor
+Sebagai kontributor, pengelola, dan peserta dalam komunitas CNCF, dan untuk membina komunitas yang terbuka dan ramah, kami berjanji akan menghormati semua orang yang berpartisipasi atau berkontribusi dengan melaporkan masalah, memposting permintaan fitur, memperbarui dokumentasi, mengirim permintaan penarikan atau perbaikan, menghadiri konferensi atau acara, atau terlibat dalam aktivitas komunitas atau proyek lainnya.
 
-Sebagai kontributor dan pengelola proyek ini, dan untuk kepentingan pembinaan sebuah komunitas yang terbuka dan ramah, kami berjanji untuk menghormati semua orang yang berkontribusi melalui masalah pelaporan, memposting permintaan fitur, memperbarui dokumentasi, mengajukan permintaan atau tambalan, dan kegiatan lainnya.
+Kami berkomitmen untuk memberikan pengalaman bebas pelecehan bagi semua orang yang berpartisipasi dalam komunitas CNCF, tanpa memandang usia, ukuran tubuh, kasta, disabilitas, etnis, tingkat pengalaman, status keluarga, gender, identitas dan ekspresi gender, status perkawinan, status militer atau veteran, kewarganegaraan, penampilan pribadi, ras, agama, orientasi seksual, status sosial ekonomi, suku, atau dimensi keberagaman lainnya.
 
-Kami berkomitmen untuk menjadikan partisipasi dalam proyek ini pengalaman yang bebas dari pelecehan
-semua orang, terlepas dari tingkat pengalaman, jenis kelamin, identitas dan ekspresi gender orientasi seksual, kecacatan, penampilan pribadi, ukuran tubuh, ras, etnis, usia, agama, atau kebangsaan.
+## Ruang Lingkup
 
-Contoh perilaku yang tidak dapat diterima oleh peserta termasuk:
+Kode etik ini berlaku:
+* dalam ruang lingkup proyek dan komunitas,
+* dalam ruang lingkup lain ketika ucapan atau tindakan seorang peserta komunitas CNCF ditujukan untuk atau terkait dengan proyek CNCF, komunitas CNCF, atau peserta komunitas CNCF lainnya.
 
-* Penggunaan bahasa atau citra seksual
-* Menyerangan pribadi
-* Berkomentar dengan bertujuan trolling atau menghina/merendahkan
-* Pelecehan secara publik atau pribadi
-* Mempublikasikan informasi pribadi orang lain, seperti alamat fisik atau elektronik, tanpa izin tegas
-* Perilaku tidak etis atau tidak profesional lainnya.
+### Acara CNCF
 
-Pengelola proyek memiliki hak dan tanggung jawab untuk menghapus, mengedit, atau menolak komentar, komit, kode, suntingan wiki, isu, dan kontribusi lain yang tidak selaras dengan Kode Etik ini. Dengan mengadopsi Kode Etik ini, pengelola proyek berkomitmen untuk menerapkan prinsip-prinsip ini secara adil dan konsisten pada setiap aspek mengelola proyek ini. Pengelola proyek yang tidak mengikuti atau menegakkan Kode Perilaku dapat dihapus secara permanen dari tim proyek.
+Acara CNCF yang diselenggarakan oleh Linux Foundation bersama staf acara profesional diatur dalam [Kode Etik Acara](https://events.linuxfoundation.org/code-of-conduct/) Linux Foundation yang tersedia di halaman acara. Kode Etik Acara ini dirancang untuk digunakan bersama dengan Kode Etik CNCF.
 
-Kode etik ini berlaku baik di dalam ruang proyek maupun di ruang publik ketika seorang individu mewakili proyek atau komunitasnya.
+## Standar Kami
 
-Contoh perilaku kasar, melecehkan, atau tidak dapat diterima di Kubernetes dapat dilaporkan dengan menghubungi [Komite Kode Etik Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) melalui <conduct@kubernetes.io>. Untuk proyek lainnya, silakan hubungi pengelola proyek CNCF atau mediator kami, Mishi Choudhary <mishi@linux.com>.
+Komunitas CNCF bersifat terbuka, inklusif, dan saling menghormati. Setiap anggota dalam komunitas kami berhak untuk dihormati identitasnya.
 
-Kode Etik ini diadaptasi dari Covenant Contributor
-(http://contributor-covenant.org), versi 1.2.0, tersedia di
-(http://contributor-covenant.org/version/1/2/0/)
+Contoh perilaku yang berkontribusi menciptakan lingkungan positif mencakup, tetapi tidak terbatas pada:
+* Menunjukkan empati dan kebaikan kepada orang lain
+* Menghargai pendapat, sudut pandang, dan pengalaman yang berbeda
+* Memberi dan menerima masukan yang membangun dengan lapang dada
+* Bertanggung jawab dan meminta maaf kepada mereka yang terkena dampak dari kesalahan kita, serta belajar dari pengalaman
+* Berfokus pada apa yang terbaik, tidak hanya bagi kita secara pribadi, tetapi juga bagi komunitas secara keseluruhan
+* Menggunakan bahasa yang inklusif dan ramah
 
-### Pedoman Perilaku Acara CNCF
+Contoh perilaku yang tidak dapat diterima mencakup, tetapi tidak terbatas pada:
+* Penggunaan bahasa atau gambaran yang berkonotasi seksual
+* Komentar yang mengejek, menghina, atau merendahkan, dan serangan pribadi atau politik
+* Pelecehan publik atau pribadi dalam bentuk apa pun
+* Pemublikasian informasi pribadi orang lain, seperti alamat fisik atau email, tanpa izin tersurat dari pemiliknya
+* Kekerasan, ancaman kekerasan, atau dorongan kepada orang lain untuk melakukan tindakan kekerasan
+* Perbuatan menguntit atau mengikuti seseorang tanpa persetujuan orang tersebut
+* Sentuhan fisik yang tidak diinginkan
+* Perhatian atau rayuan seksual atau romantis yang tidak diinginkan
+* Perilaku lain yang secara wajar dapat dianggap tidak patut di lingkungan profesional
 
-Acara CNCF ini diatur oleh Linux Foundation [Kode Etik](https://events.linuxfoundation.org/code-of-conduct/) yang tersedia di halaman acara. Ini dirancang agar kompatibel dengan kebijakan di atas dan juga mencakup rincian lebih lanjut tentang hal menanggapi insiden.
+Berikut adalah perilaku yang juga dilarang:
+* Memberikan informasi palsu atau menyesatkan secara disengaja terkait penyelidikan Kode Etik atau dengan sengaja mengganggu penyelidikan.
+* Melakukan tindakan balasan terhadap seseorang karena telah melaporkan suatu kejadian atau memberikan informasi tentang suatu kejadian sebagai saksi.
+
+Pengelola proyek berhak dan bertanggung jawab untuk menghapus, mengedit, atau menolak komentar, komitmen, kode, pengeditan wiki, masalah, dan kontribusi lainnya yang tidak sejalan dengan Kode Etik ini. Dengan menerapkan Kode Etik ini, pengelola proyek berkomitmen untuk menerapkan prinsip-prinsip ini secara adil dan konsisten di setiap aspek pengelolaan proyek CNCF. Pengelola proyek yang tidak mengikuti atau menegakkan Kode Etik dapat dikeluarkan dari tim proyek untuk sementara waktu atau secara permanen.
+
+## Pelaporan
+
+Untuk insiden yang terjadi di komunitas Kubernetes, hubungi [Komite Kode Etik Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) melalui [conduct@kubernetes.io](mailto:conduct@kubernetes.io). Tanggapan biasanya akan diberikan dalam waktu tiga hari kerja.
+
+Untuk proyek lain, atau untuk insiden yang tidak terkait proyek atau yang berdampak pada beberapa proyek CNCF, hubungi [Komite Kode Etik CNCF](https://www.cncf.io/conduct/committee/) melalui [conduct@cncf.io](mailto:conduct@cncf.io). Anda juga dapat menghubungi salah satu anggota [Komite Kode Etik CNCF](https://www.cncf.io/conduct/committee/) secara pribadi untuk mengirimkan laporan Anda. Untuk petunjuk lebih terperinci tentang cara mengirimkan laporan, termasuk cara mengirimkan laporan secara anonim, lihat [Prosedur Penyelesaian Insiden](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md). Tanggapan biasanya akan diberikan dalam waktu tiga hari kerja.
+
+Untuk insiden yang terjadi di acara CNCF yang diselenggarakan oleh Linux Foundation, hubungi [eventconduct@cncf.io](mailto:eventconduct@cncf.io).
+
+## Pelaksanaan
+
+Setelah meninjau dan menyelidiki insiden yang dilaporkan, tim respons CoC yang memiliki yurisdiksi akan menentukan tindakan yang tepat berdasarkan Kode Etik ini dan dokumentasi terkait.
+
+Untuk informasi mengenai insiden Kode Etik yang ditangani oleh pimpinan proyek, insiden yang ditangani oleh Komite Kode Etik CNCF, dan insiden yang ditangani oleh Linux Foundation (termasuk tim acaranya), lihat [Kebijakan Yurisdiksi](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-committee-jurisdiction-policy.md) kami.
+
+## Amendemen
+
+Sesuai dengan Piagam CNCF, persetujuan dari Komite Pengawasan Teknis diperlukan untuk setiap perubahan substantif terhadap Kode Etik ini.
+
+## Pernyataan
+
+Kode Etik ini diadaptasi dari Perjanjian Kontributor ([http://contributor-covenant.org](http://contributor-covenant.org/)) versi 2.0 yang tersedia di [http://contributor-covenant.org/version/2/0/code_of_conduct/](http://contributor-covenant.org/version/2/0/code_of_conduct/)

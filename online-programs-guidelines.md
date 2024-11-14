@@ -22,6 +22,9 @@ Members
 * Platinum members are eligible for 4 activities per quarter including live webinar, on-demand webinar, livestream, and YouTube playlist submission. 
 * Gold members are eligible for 4 activities per quarter including on-demand webinar, livestream, and YouTube playlist submission. (Only 1 can be livestream, you get to choose.)
 * Silver members are eligible for 2 activities per quarter including on-demand webinars, livestream, and YouTube playlist submission. (Only 1 can be livestream, you get to choose.)
+* Platinum members are eligible for 4 activities for the quarter (including live webinar, on-demand webinar, livestream, and YouTube playlist submission) but only 1 live webinar, 1 livestream - you get to choose.
+* Gold members are eligible for 4 activities for the quarter (including on-demand webinar, livestream, and YouTube playlist submission) but only 1 livestream - you get to choose. 
+* Silver members are eligible for 2 activities for the quarter (including on-demand webinars, livestream, and YouTube playlist submission) but only 1 livestream.
 * End user supporter members cannot hold a webinar.
 * CNCF Member webinars will have “member webinar” in the YouTube description.
 

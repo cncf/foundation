@@ -5,7 +5,7 @@ The [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-o
 ## Channel Spamming
 Outside of the issue queues, this is our best communication medium for projects. Please keep your messages on topic for each channel, and please use the appropriate channel. Spamming channels with unsolicited or frequent messages is not allowed.
 
-## Unwanted Solitication through Private Messages
+## Unwanted Solicitation through Private Messages
 Directly messaging users (unless the user has specifically requested the information) offering services, events, employment opportunities or freelance projects, is not allowed. We have a #jobs channel where employment opportunities can be posted on top of a online jobs board at https://jobs.cncf.io
 
 ### Unwanted Voice/Video Calling

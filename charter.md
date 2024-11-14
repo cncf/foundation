@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated Dec 10 2018
+Effective Nov 6 2015 / Updated September 26, 2024
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -34,29 +34,32 @@ The CNCF will serve a role in the open source community responsible for:
 
 -	(d) Serve the community by making the technology accessible and reliable.
 
-	-	i. The foundation seeks to offer up a fully integrated and qualified build of each of the constituent pieces, on a well-defined cadence across the reference architecture.
-
 #### 3. Values.
 
-The CNCF will strive to adhere to the following principles:
+The CNCF community will strive to adhere to the following principles:
 
--	(a) Fast is better than slow. The foundation enables projects to progress at high velocity to support aggressive adoption by users.
+-	(a) Trusted. We guide projects to build trust with adopters and users, balancing quality and sustainability with velocity.
 
--	(b) Open. The foundation is open and accessible, and operates independently of specific partisan interests. The foundation accepts all contributors based on the merit of their contributions, and the foundation’s technology must be available to all according to open source values. The technical community and its decisions shall be transparent.
+-	(b) Open. Openness and transparency are foundational: our technical work must be available to all according to these values. Our community, processes, and decisions are transparent, visible, and discoverable.
 
--	(c) Fair. The foundation will avoid undue influence, bad behavior or “pay-to-play” decision-making.
+-	(c) Neutral. We avoid influence, biased behavior, “pay-to-play” decision-making, and other activities that favor one project, individual, or organization over another. We operate independently of specific partisan interests and biases, considerate of global and international interests. 
 
--	(d) Strong technical identity. The foundation will achieve and maintain a high degree of its own technical identify that is shared across the projects.
+-	(d) Platform agnostic. We have an explicit bias toward projects and specifications developed to be platform agnostic such that they can be implemented on a variety of platforms, architectures, clouds, and operating systems.
 
--	(e) Clear boundaries. The foundation shall establish clear goals, and in some cases, what the non-goals of the foundation are to allow projects to effectively co-exist, and to help the ecosystem understand where to focus for new innovation.
+-	(e) Accelerated adoption. We enable progress at high velocity to support aggressive adoption of quality, sustainable, and secure projects by users.
 
--	(f) Scalable. Ability to support all scales of deployment, from small developer centric environments to the scale of enterprises and service providers. This implies that in some deployments some optional components may not be deployed, but the overall design and architecture should still be applicable.
+-	(f) Project diversity and scalability. We support diverse projects, from experimentation and small developer-centric environments to the scale of enterprises and service providers, with robust maturity.
 
--	(g) Platform agnostic. The specifications developed will not be platform specific such that they can be implemented on a variety of architectures and operating systems.
+-	(g) Experimentation and innovation. We support projects that address new and existing problem spaces in keeping with the cloud native definition, fostering project innovation for a variety of solutions to meet the diverse needs of adopters and users. We remain aware of innovation in the space and may invite projects to become a part of the CNCF ecosystem, to succeed or to learn.
+
+-	(h) Sustainability. We encourage sustainability, growth, and health of maintainers, contributors, and byproducts to foster succession and support of the CNCF vision for the long term, with focus to reduce additional burden and toil on maintainers. We consider the future needs of cloud native impact on a global scale, to use resources efficiently for all projects.
+
+-	(i) Inclusive unity. Whether operating the Foundation, serving on a board or committee, contributing to a review, or managing a project, we are unified in the advancement of cloud native inclusivity, enabling our collective technical vision to be achievable. We accept all contributors based on the merit of their contributions and conduct.
+
 
 #### 4. Membership.
 
-The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Profit member participants. All member applications will be reviewed by the Linux Foundation, who will decide whether that applicant is to be classified as an end-user, academic/non-profit, or vendor for purposes of CNCF membership.
+The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non-Profit member participants. All member applications will be reviewed by the Linux Foundation, who will decide whether that applicant is to be classified as an end user, academic/non-profit, or vendor for purposes of CNCF membership.
 
 -	(a) Platinum members shall be entitled to:
 
@@ -66,27 +69,21 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	iii. Enjoy most prominent placement in displays of membership including on the website.
 
-	-	iv. If the member is also an approved End User, all of the privileges of End User Members in (d).
+	-	iv. If the member is also an approved End User, appoint one (1) representative to the End User TAB.
 
 -	(b) Gold members shall be entitled to:
 
 	-	i. Appoint one (1) representative to the CNCF Governing Board per every five (5) Gold members, up to three (3) maximum Gold representatives.
 
-	-	ii. If the member is also an approved End User, all of the privileges of End User Members in (d).
+	-	ii. If the members are also approved End Users, elect one (1) representative to the End User TAB for every five (5) Gold End User members, up to three (3) maximum Gold representatives.
 
 -	(c) Silver members shall be entitled to:
 
 	-	i. Appoint one (1) representative to the CNCF Governing Board per every ten (10) Silver members, up to three (3) maximum Silver representatives.
 
-	-	ii. If the member is also an approved End User, all of the privileges of End User Members in (d).
+	-	ii. If the members are also approved End Users, elect one (1) representative to the End User TAB for every ten (10) Silver End User members, up to three (3) maximum Silver representatives.
 
--	(d) End User members shall be entitled to:
-
-	-	i. Participate in the End User Advisory Community as described below;
-
-	-	ii. Nominate one (1) representative to the End User Technical Advisory Board.
-
--	(e) Academic and Non-Profit members: The Academic and Non-Profit category of participation is limited to academic and non-profit institutions respectively and requires approval by the Governing Board. Academic and Non-Profit members shall be entitled to identify their organization as members supporting the mission of CNCF and any other rights or benefits as determined by the Governing Board.
+-	(d) Academic and Non-Profit members: The Academic and Non-Profit category of participation is limited to academic and non-profit institutions respectively and requires approval by the Governing Board. Academic and Non-Profit members shall be entitled to identify their organization as members supporting the mission of CNCF and any other rights or benefits as determined by the Governing Board.
 
 #### 5. Governing Board
 
@@ -115,9 +112,11 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	ii. Technical Community Representatives consist of:
 
-		-	a. the TOC Chair, and
+		-	a. the TOC Chair,
 
-		-	b. two Committers elected from the CNCF Projects under a process approved by the then-serving Governing Board.
+		-	b. the End User TAB Chair, and
+
+		-	c. two Committers elected from the CNCF Projects under a process approved by the then-serving Governing Board.
 
 	-	iii. The Governing Board may extend a Platinum membership at the Silver Membership Scale rates on a year-by-year basis for up to 5 years to startup companies with revenues less than \$50 million that are deemed strategic technology contributors by the Governing Board.
 
@@ -128,6 +127,10 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 	-	i. approve a budget directing the use of funds raised from all sources of revenue to be used for technical, marketing or community investments that advance the mission of the CNCF;
 
 	-	ii. elect a Chair of the Governing Board to preside over meetings, authorize expenditures approved by the budget and manage any day-to-day operations;
+
+		-	a. The Chair of the Governing Board shall be elected to a two-year term. The Executive Director may call a special election as needed. 
+
+		-	b. The Chair of the Governing Board shall be elected to the position and a Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service (https://civs.cs.cornell.edu/).
 
 	-	iii. vote on decisions or matters before the Governing Board;
 
@@ -173,7 +176,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	ii. TOC members elected are expected to cover key technical domains: container technologies, operating systems, technical operations, distributed systems, user level application design, etc.
 
-	-	iii. The Governing Board shall elect six (6) TOC members, the End User TAB shall elect two (2) TOC members, the non-sandbox project maintainers shall elect one (1) TOC member, and the TOC members shall elect an additional two (2) TOC members. Each group is defined as a Selecting Group.
+	-	iii. The Governing Board shall elect six (6) TOC members, the End User Participants shall elect two (2) TOC members, the non-sandbox project maintainers shall elect one (1) TOC member, and the TOC members shall elect an additional two (2) TOC members. Each group is defined as a Selecting Group.
 
 	-	iv. If more than two (2) TOC members would be from the same group of Related Companies, either at the time of election or from a later job change, they will jointly decide who should step down, or if there is no agreement, random lots shall be drawn.
 
@@ -211,7 +214,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	i. commit that they have the available bandwidth to make the time to invest in the CNCF TOC,
 
-	-	ii. demonstrate an advanced level of professional experience as engineers in the scope of CNCF,
+	-	ii. demonstrate an advanced level of professional experience as leaders with demonstrated technical expertise in the scope of CNCF,
 
 	-	iii. demonstrate seniority sufficient to access additional staff or community members to assist in their TOC preparations, and
     
@@ -255,29 +258,64 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 #### 7. End User Community
 
--	(a) End User Members in CNCF shall be entitled to coordinate and drive activities important to users of CNCF as consumers for which CNCF was designed. Any member or non-member who is an End User, each an “End User Participant”, shall be invited to participate. The End User Participants are expected to help provide input to the Technical Advisory Board and CNCF community on topics relevant to users.
+-	(a) End User Members in CNCF shall be entitled to coordinate and drive activities important to users of CNCF as consumers for which CNCF was designed. Any End User organization that is a CNCF Member or a CNCF End User Supporter(each an “End User Participant) may participate. The End User Participants are expected to help provide input to the Technical Advisory Board and CNCF community on topics relevant to users.
 
--	(b) The End User Community Members shall elect an End User Technical Advisory Board.
-
--	(c) End User Community Members will be approved by the CNCF Executive Director, or if none exists, The Linux Foundation Executive Director.
+-	(b) End User Community Members will be approved by CNCF.
 
 #### 8. End User Technical Advisory Board (“End User TAB”).
 
--	(a) Composition: The End User TAB shall be composed of seven (7) representatives from End User Participants plus one member of the TOC to facilitate input from the End User TAB to the TOC.
+-	(a) Purpose and Duties: The End User TAB will serve as the voice of End Users in the CNCF community, advance topics of concern to End Users, and raise awareness about the needs and perspectives of end users. More specifically, the goals and responsibilities of the End User TAB are to:
 
--	(b) Selection: To encourage participation of End Users in CNCF, the first seven (7) End User Members may appoint one (1) representative to the initial End User TAB with any remaining seats allocated by the CNCF Director to any End User Participant. After the initial year, all End User Participants may nominate one (1) representative and the End User Community shall vote to select the End User TAB members using a process approved by the then current End User TAB.
+	-	i. Facilitate communication among the end user community and other governing bodies of CNCF.
 
--	(c) The End User TAB may alter the size of the End User by two-thirds vote, provided there are a minimum of seven (7) possible representatives.
+	-	ii. Provide advice, feedback, and recommendations to the TOC on areas of mutual concern, including the state and technical direction of the cloud native ecosystem, and identification of technical challenges and gaps.
 
--	(d) End User representatives should be nominated on operational and technical acumen. Nominees should have significant practical experience with building and operating infrastructure and applications which embody the principles of the CNCF.
+	-	iii. Improve visibility into end user adoption of CNCF projects.
 
--	(e) The End User TAB will discuss and progress topics with a focus on identifying gaps and proposing priorities for the TOC and the CNCF developer community.
+	-	iv. Provide feedback on CNCF projects' usability, reliability, and performance.
 
--	(f) The End User TAB may also focus on proactively advancing topics of concern to End Users, promoting market adoption of CNCF, hosting meetings for End Users, or advising the Governing Board.
+	-	v. Review and approve publication of reference architectures.
 
--	(g) If the End User TAB desires, it may approve subcommittee Special Interest Groups (“SIGs”) to address industry or specialized topics.
+	-	vi. Advise on CNCF End User Radar tools and techniques.
 
--	(h) The End User TAB input to the TOC shall be taken together with other input and feedback for the TOC to make decisions and plans. The recommendations are advisory only and at no point shall the recommendations of the End User TAB be used to order or direct any TOC or project participant toward any action or outcome.
+	-	vii. Provide oversight into End User Groups and End User Special Interest Groups.					
+
+-	(b) Composition and Selection: The End User TAB shall be composed of seven (7) or more representatives from End User Participants selected in the following manner:
+
+	-	i. one representative appointed by each Platinum End User member.
+
+	-	ii. the representatives (if any) elected by the Gold and Silver End User members.
+
+	-	iii. at least three (3) representatives elected by the End User Participants at large. The number of at large End User Participant representatives shall generally be three (3), but may be increased either (A) by vote of the then-existing End User TAB or (B) automatically to the extent necessary to ensure the minimum size described in section 8(a) of this charter is met (given the number of Platinum, Gold, and Silver End User member representatives).
+
+	-	iv. one (1) to two (2) TOC members designated by the TOC, each of whom must be employed by an End User Participant.
+
+	-	v. one (1) or more additional End User Participant representatives may be invited to serve on the End User TAB if approved by a majority of the then-existing members of the End User TAB.						
+
+-	(c) Terms: Each elected or invited member of the End User TAB shall serve a term of approximately two (2) years, except that approximately half of the elected members of the End User TAB resulting from the first election shall serve a one (1) year term in order to facilitate staggered terms. The initial End User TAB shall determine which of the initial members shall serve a one (1) year term and which shall serve a two (2) year term.
+
+-	(d) Termination: An End User TAB member's participation shall cease before the expiration of their term if they resign, are removed, or they cease to be employed by the End User organization that employed them at the time they were elected. There are no limits on the number of terms that an individual can serve. The End User TAB may, by supermajority vote of at least two-thirds of the End User TAB members who do not have conflicts of interest, remove an End User TAB member who is not fulfilling their duties or is not complying with the policies of CNCF or the End User TAB.
+
+-	(e) Vacancies: In the event of a vacancy due to an End User TAB member's employer ceasing to be an End User Participant, the End User TAB shall decide when to fill the vacancy and whether to fill the vacancy by election or invitation. In the event of a vacancy due to to an individual’s resignation, removal, or changing employers, the End User Participant that employed such individual at the time they were elected may designate a replacement. For the sake of continuity, in the event an individual serving on the End User TAB leaves their employer for another employer who is also an End User Participant, the remaining non-conflicted End User TAB members may, by majority vote, increase the size of the End User TAB and invite the individual to remain on the End User TAB for a duration no longer than their original term; such individual continuing to serve shall be in addition to (not in lieu of) the individual’s prior employer’s right to designate a replacement.
+
+-	(f) Alternates: Any End User Participant with an employee serving on the End User TAB may designate an alternate who may (a) attend meetings in listen-only mode when the primary representative is present and (b) speak and vote at meetings when the primary representative is not present. The TOC may also designate an alternate (who must be employed by an End User Participant) in addition to the End User TAB member(s) the TOC appoints in accordance with Section 8(d)(iv) of this charter.
+
+-	(g) Eligibility and Criteria:
+
+	-	i. Eligibility: Only employees of End User Participants in good standing may serve on the End User TAB.
+
+	-	ii. Criteria: End User representatives should be nominated on operational and technical acumen. Nominees should have significant practical experience with operating cloud native infrastructure and applications including CNCF projects.
+
+	-	iii. Maximum Representatives from a Single Organization: No more than two representatives of the same organization (not counting alternates) may serve on the End User TAB simultaneously. If, for any reason (e.g., merger or combination) more than 2 End User TAB members would be from a single organization, the organization will choose which 2 representatives will serve on the End User TAB, and the organization’s other(s) representatives shall resign from the End User TAB.				
+-	The End User TAB may also focus on proactively advancing topics of concern to End Users, promoting market adoption of CNCF, hosting meetings for End Users, or advising the Governing Board.
+
+-	(h) If the End User TAB desires, it may approve End User Groups, Special Interest Groups (“SIGs”), or subcommittees to address industry or specialized topics.
+
+-	(i) The End User TAB input to the TOC shall be taken together with other input and feedback for the TOC to make decisions and plans. The recommendations are advisory only and at no point shall the recommendations of the End User TAB be used to order or direct any TOC or project participant toward any action or outcome.
+
+-	(j) The End User TAB shall select a Chair of the End User TAB to set agendas, facilitate discussions, and serve as the End User TAB representative to the Governing Board. The End User TAB may, at its option, select one or two Vice Chairs.
+
+-	(k) The End User TAB may develop policies and procedures related to nominations, elections, operations, or other matters pertaining to its purpose, scope, and activities so long as such policies and procedures are consistent with this charter.
 
 #### 9. CNCF Projects
 
@@ -287,7 +325,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 	-	i. Included in CNCF, under a neutral home for collaboration
 
-		-	a. All aspects of the project are governed by the CNCF
+		-	a. The project meets the requirements for being incuding as a CNCF project.
 
 		-	b. The project is marketed by the CNCF as a CNCF project
 
@@ -327,9 +365,9 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 #### 11. IP Policy
 
--	(a) Any project that is added to the CNCF must have ownership of its trademark and logo assets transferred to the Linux Foundation.
+-	(a) Any project that is added to the CNCF must have ownership of its trademark and logo assets transferred to the Linux Foundation or a Linux Foundation project hosting entity.
 
--	(b) Each project shall determine whether it will require use of an approved CNCF CLA. For projects that select to use a CLA, all code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF as the recipient of the contributions, and which shall be approved by the Governance Board. See CNCF Contributor License Agreements available at https://github.com/cncf/cla. The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
+-	(b) Each project shall determine whether it will require use of an approved CNCF CLA. For projects that select to use a CLA, all code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF or the project as the recipient of the contributions, and which shall be approved by the Governance Board. See CNCF Contributor License Agreements available at https://github.com/cncf/cla. The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
 
 -	(c) All new inbound code contributions to the CNCF shall be (i) accompanied by a Developer Certificate of Origin sign-off ([*https://developercertificate.org*](https://developercertificate.org/)\) and (ii) made under the Apache License, Version 2.0 (available at [*https://www.apache.org/licenses/LICENSE-2.0*](https://www.apache.org/licenses/LICENSE-2.0)), such license to be in addition to, and shall not supersede, obligations undertaken under the contribution license agreement(s) provided for in (b) above.
 
@@ -383,7 +421,7 @@ The CNCF shall be composed of Platinum, Silver, End-User and Academic and Non-Pr
 
 #### 17. General Rules and Operations.
 
-The participants in CNCF shall:
+CNCF projects are required to:
 
 -	(a) demonstrate plans and the means to coordinate with the open source project’s developer community, including on topics such as branding, logos, and other collateral that will represent the community;
 

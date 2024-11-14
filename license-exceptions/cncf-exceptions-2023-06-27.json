@@ -1,0 +1,72 @@
+[
+    {
+        "package": "github.com/hashicorp/go-plugin",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    { 
+        "package": "github.com/hashicorp/go-immutable-radix",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/raft",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/go-rootcerts",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/go-sockaddr",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/vault",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/consul/api",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/serf",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/serf",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/go-hclog",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/go-secure-stdlib",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/go-uuid",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/hashicorp/go-version",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      },
+      { 
+        "package": "github.com/veraison/go-cose",
+        "license": "MPL-2.0 ",
+        "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      }
+]

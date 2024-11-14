@@ -1,0 +1,75 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: cncf-exceptions-2022-04-12
+DocumentNamespace: https://github.com/cncf/foundation/license-exceptions-2022-04-12
+Creator: Organization: CNCF
+Creator: Tool: cncf-exceptions-maker-0.1
+Created: 2023-05-26
+
+##### Package: webpki-roots
+
+PackageName: webpki-roots
+SPDXID: SPDXRef-Package2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+
+##### Package: go-version
+
+PackageName: go-version
+SPDXID: SPDXRef-Package3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+
+##### Package: raft
+
+PackageName: raft
+SPDXID: SPDXRef-Package4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+
+##### Package: raft-boltdb
+
+PackageName: raft-boltdb
+SPDXID: SPDXRef-Package5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+
+
+##### Package: tslib
+
+PackageName: tslib
+SPDXID: SPDXRef-Package6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: 0BSD
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+
+##### Package: paho.mqtt.golang
+
+PackageName: paho.mqtt.golang
+SPDXID: SPDXRef-Package7
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: EPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12

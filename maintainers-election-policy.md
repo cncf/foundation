@@ -10,9 +10,15 @@ To nominate themselves for an open position, a graduated or incubating maintaine
 
 The CNCF GB has defined the following system of “Maintainer Voting”:
 
-Each maintainer receives a fractional vote in proportion to the number of maintainers from their project that vote, with graduated projects getting double the vote weight of incubating projects. For example, if an incubating project has 8 maintainers of which 3 vote, each vote has a weight of 1/3rd. If a graduated project has 20 maintainers of which 13 vote, each vote has a weight of 2/13ths. The single vote from an individual who is a maintainer of more than one project will be counted as the sum of the fractional weights from that vote.
+The eligible voters for a maintainer chosen seat are the maintainers of graduated and incubating projects on the date that the election is opened. 
 
-Because [CIVS](https://civs.cs.cornell.edu/) does not support these novel rules for voting, votes will occur by email to a private list <cncf-maintainer-voting@lists.cncf.io> managed by CNCF. Each maintainer who participates will make a single, non-transferable vote for their preferred nominee. Votes will be tallied by CNCF staff and the candidate with the greatest sum of fractional votes wins. In the unlikely case of a tie, a random selection method will be used to determine the winner from among the tied nominees. Only the winning candidate will be made public, but the votes (maintained in the mailing list archive) and tally (calculated in a spreadsheet) will be available for review by a committee of the Governing Board.
+This means that projects in process to move to incubation are not eligible if they have not been announced on the date that the election is opened. 
+
+These project maintainer lists will be determined by the public lists at maintainers.cncf.io. 
+
+Each eligible project maintainer will receive one vote.  In order to participate in the election process, maintainers will need to add themselves to the list of active voters. This will occur at the same time as the nomination process and last at least two weeks. 
+
+Votes will occur using Condorcet-IRV.
 
 ## Developer Representation on the CNCF GB
 
@@ -26,7 +32,7 @@ The developer seats are be held for 2 years with an election each year to replac
 
 Current and emeritus members of the Kubernetes Steering Committee are eligible to hold the Kubernetes seat. The Kubernetes Steering Committee will determine its own method for selecting the representative, though CNCF is happy to organize an election for it if requested. Maintainer voting is not used for selecting this seat.
 
-For the other GB developer seat, the pool of eligible nominees and voters are individuals who are maintainers of at least one graduated or incubating, non-Kubernetes project at the time when nominations are called. The CNCF maintains a [list](https://docs.google.com/spreadsheets/d/1Pr8cyp8RLrNGx9WBAgQvBzUUmqyOv69R7QAFKhacJEM/edit#gid=262035321) of project maintainers. The election will be held using the process described in the “Maintainers Election Policy” above, limited to the graduated or incubating non-Kubernetes project maintainers.
+For the other GB developer seat, the pool of eligible nominees and voters are individuals who are maintainers of at least one graduated or incubating, non-Kubernetes project at the time when nominations are called. The CNCF maintains a [list](https://github.com/cncf/foundation/blob/master/project-maintainers.csv) of project maintainers. The election will be held using the process described in the “Maintainers Election Policy” above, limited to the graduated or incubating non-Kubernetes project maintainers.
 
 Maintainers who already hold a Governing Board seat are eligible to vote but not to run. The 2 developer seats and the TOC chair are collectively known as Technical Community Representatives and are required to be from different companies (i.e., each must work for a different group of Related Companies as defined in the CNCF Charter section 14). If more than one Technical Community Representative would be from the same group of Related Companies, either at the time of election or from a later job change, they will jointly decide who should step down, or if there is no agreement, random lots shall be drawn.
 
