@@ -740,16 +740,15 @@ Sandbox ,Cloud Development Kit for Kubernetes (cdk8s),Eli Polonsky,Amazon,iliapo
 ,,Evgeny Karasik,Amazon,evgenyka,
 ,,Uday Pant,Amazon,udaypant,
 ,,Nathan Taber,Amazon,tabern,
-Incubating,cert-manager,James Munnelly,Apple,munnerz,https://github.com/jetstack/cert-manager/blob/master/OWNERS
+Graduated,cert-manager,James Munnelly,Apple,munnerz,https://github.com/cert-manager/cert-manager/blob/master/OWNERS
 ,,Josh Van Leeuwen,Diagrid,joshvanl,
 ,,Richard Wall,Venafi,wallrj,
 ,,Jake Sanders,G-Research,jakexks,
 ,,Ashley Davis,Venafi,SgtCoDFish,
-,,Irbe Krumina,Tailscale,irbekrm,
 ,,Maël Valais,Venafi,maelvls,
 ,,Tim Ramlot,Venafi,inteon,
-,,Adam Talbot,Venafi,ThatsMrTalbot,
-,,Erik Godding Boye,Zenior AS,erikgb,
+,,Adam Talbot,Epic Games,ThatsMrTalbot,
+,,Erik Godding Boye,Zenior,erikgb,
 Sandbox,OpenKruise,Fei Guo,Alibaba,Fei-Guo,https://github.com/openkruise/kruise/blob/master/MAINTAINERS.md
 ,,Siyu Wang,Alibaba,FillZpp,
 ,,Zhen Zhang,Alibaba,furykerry,
