@@ -45,15 +45,21 @@ License IDs refer to the SPDX License List at https://spdx.org/licenses, except
 where a URL is specified below for licenses that are not on the SPDX License
 List.
 
+- 0BSD
 - BSD-2-Clause
 - BSD-2-Clause-FreeBSD
 - BSD-3-Clause
 - MIT
+- MIT-0
 - ISC
+- OpenSSL
+- OpenSSL-standalone
 - PSF-2.0
 - Python-2.0
 - Python-2.0.1
 - PostgreSQL
+- SSLeay-standalone
+- UPL-1.0
 - X11
 - Zlib
 - Google patent license for Golang (https://golang.org/PATENTS)
