@@ -110,11 +110,12 @@ Graduated,Fluentd,Naotoshi SEO,ZOZO Technologies,sonots,https://github.com/fluen
 ,,Takuro Ashie,Clearcode,ashie,
 ,,Toru Takahashi,Treasure Data,toru-takahashi,
 ,,Daijiro Fukuda,Clearcode,daipom,
-Graduated,Jaeger,Yuri Shkuro,Meta,yurishkuro,https://github.com/uber/jaeger/blob/master/CODEOWNERS
-,,Albert Teoh,,albertteoh,
+Graduated,Jaeger,Yuri Shkuro,Meta,yurishkuro,https://github.com/jaegertracing/jaeger/blob/main/MAINTAINERS.md
+,,Albert Teoh,PackSmith,albertteoh,
 ,,Joe Elliot,Grafana Labs,joe-elliott,
 ,,Jonah Kowall,Aiven,jkowall,
 ,,Pavol Loffay,Red Hat,pavolloffay,
+,,Mahad Zaryab,Bloomberg,mahadzaryab1,
 Graduated,Vitess,Deepthi Sigireddi,PlanetScale,deepthi,https://github.com/vitessio/vitess/blob/master/MAINTAINERS.md
 ,,Andres Taylor,PlanetScale,systay,
 ,,Andrew Mason,Independent,amason,
