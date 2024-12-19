@@ -16,6 +16,11 @@ The ideal MC Chair has a strong marketing background, is collaborative, and has 
 * Have a good understanding of all CNCF member marketing benefits and be able to discuss them with existing members
 * Provide guidance and assistance to Subcommittees and other initiatives that emerge from the MC (as needed)
 
+## Requirements ##
+To be nominated for MC Chair you must have the following:
+* Be a member company of CNCF for at least 1 year
+* Have attended at least 75% of MC meetings in the past year
+
 ## Time commitment ##
 
 Minimum 3 hours a month
@@ -25,6 +30,11 @@ Minimum 3 hours a month
 ## Term ##
 
 * The Marketing Committee Chair shall serve a 1 year term.
+
+## Voting requirements ##
+* Votes may only be cast from members
+* 1 vote per member company will count
+* Employees of The Linux Foundation are disqualified from voting to allow for community voice
 
 ## Benefits ##
 
