@@ -14,7 +14,7 @@
 
 ### رویدادهای CNCF
 
-رویدادهای CNCF که توسط بنیاد لینوکس و با کارکنان رویدادهای حرفه‌ای تولید می‌شوند، تحت کنترل<a href="https://events.linuxfoundation.org/code-of-conduct/">منشور اخلاقی رویدادهای</a> بنیاد لینوکس هستند که در صفحه رویداد در دسترس قرار دارد. این سند به‌نحوی طراحی شده است که در کنار «منشور اخلاقی CNCF» استفاده شود.
+رویدادهای CNCF که توسط بنیاد لینوکس و با کارکنان رویدادهای حرفه‌ای تولید می‌شوند، تحت کنترل <a href="https://events.linuxfoundation.org/code-of-conduct/">منشور اخلاقی رویدادهای</a> بنیاد لینوکس هستند که در صفحه رویداد در دسترس قرار دارد. این سند به‌نحوی طراحی شده است که در کنار «منشور اخلاقی CNCF» استفاده شود.
 
 ### استانداردهای ما
 
@@ -49,7 +49,7 @@
 
 برای حوادثی که در انجمن Kubernetes رخ می‌دهد، با <a href="https://git.k8s.io/community/committee-code-of-conduct">کمیته منشور اخلاقی Kubernetes</a> از طریق <a href="mailto:conduct@kubernetes.io">conduct@kubernetes.io</a> تماس بگیرید. می‌توانید ظرف سه روز کاری منتظر پاسخ باشید.
 
-برای پروژه‌های دیگر یا حوادثی که ضد پروژه هستند یا بر چند پروژه CNCF تأثیر می‌گذارند، لطفاً با <a href="https://www.cncf.io/conduct/committee/">کمیته منشور اخلاقی CNCF</a> از طریق<a href="mailto:conduct@cncf.io">conduct@cncf.io</a> تماس بگیرید. یا، می‌توانید با اعضای حقیقی<a href="https://www.cncf.io/conduct/committee/">کمیته منشور اخلاقی CNCF</a> <span style="text-decoration:underline;">تماس بگیرید تا گزارشتان را ارسال کنید.</span> برای دستورالعمل‌های دقیق‌تر درباره نحوه ارسال گزارش، از جمله نحوه ارسال ناشناس گزارش، لطفاً به<a href="https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md">رویه‌های حل‌وفصل حادثه</a> ما بروید. می‌توانید ظرف سه روز کاری منتظر پاسخ باشید.
+برای پروژه‌های دیگر یا حوادثی که ضد پروژه هستند یا بر چند پروژه CNCF تأثیر می‌گذارند، لطفاً با <a href="https://www.cncf.io/conduct/committee/">کمیته منشور اخلاقی CNCF</a> از طریق <a href="mailto:conduct@cncf.io">conduct@cncf.io</a> تماس بگیرید. یا، می‌توانید با اعضای حقیقی <a href="https://www.cncf.io/conduct/committee/">کمیته منشور اخلاقی CNCF</a> <span style="text-decoration:underline;">تماس بگیرید تا گزارشتان را ارسال کنید.</span> برای دستورالعمل‌های دقیق‌تر درباره نحوه ارسال گزارش، از جمله نحوه ارسال ناشناس گزارش، لطفاً به <a href="https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md">رویه‌های حل‌وفصل حادثه</a> ما بروید. می‌توانید ظرف سه روز کاری منتظر پاسخ باشید.
 
 برای حوادثی که در رویداد CNCF تولیدشده توسط بنیاد لینوکس رخ می‌دهند، لطفاً با <a href="mailto:eventconduct@cncf.io">eventconduct@cncf.io</a> تماس بگیرید.
 
