@@ -246,7 +246,7 @@ Graduated,Helm,Matt Butcher,Fermyon,technosophos,https://github.com/helm/communi
 ,,Matt Farina,SUSE,mattfarina,
 ,,Reinhard Nägele,IBM,unguiculus,
 ,,Josh Dolitsky,Chainguard,jdolitsky,
-,,Scott Rigby,Independent,scottrigby,
+,,Scott Rigby,Replicated,scottrigby,
 ,,Karen Chu,Independent,karenhchu,
 Graduated,Rook,Satoru Takeuchi,Cybozu,satoru-takeuchi,https://github.com/rook/rook/blob/master/OWNERS.md
 ,,Jared Watts,Upbound,jbw976,
@@ -427,7 +427,7 @@ Graduated,Flux,Stefan Prodan,ControlPlane,stefanprodan,https://github.com/fluxcd
 ,,Paulo Gomes, SUSE,pjbgf,
 ,,Sanskar Jaiswal, Independent,aryan9600,
 ,,Kingdon Barrett, Independent,kingdonb,
-,,Scott Rigby, Independent,scottrigby,
+,,Scott Rigby,Replicated,scottrigby,
 ,,Tamao Nakahara, Independent,mewzherder,
 Incubating,In-Toto,Justin Cappos,New York University,JustinCappos,https://github.com/in-toto/in-toto/blob/develop/MAINTAINERS.txt
 ,,Lukas Puehringer,NYU,lukpueh,
@@ -779,7 +779,7 @@ Sandbox,OpenGitOps,Chris Patterson,GitHub,chrispat,https://github.com/open-gitop
 ,,Dan Garfield,CodeFresh,todaywasawesome,
 ,,Chris Short,Amazon Web Services,chris-short,
 ,,Leonardo Murillo,Weaveworks,murillodigital,
-,,Scott Rigby,Independent,scottrigby,
+,,Scott Rigby,Replicated,scottrigby,
 Sandbox,Piraeus-Datastore,Alex Zheng,DaoCloud,alexzhc,https://github.com/piraeusdatastore/piraeus/blob/master/MAINTAINERS.md
 ,,Joel Colledge,LINBIT,JoelColledge,
 ,,Moritz Wanzenböck,LINBIT,WanzenBug,
