@@ -979,7 +979,7 @@ Sandbox,ORAS (OCI Registry as Storage),Andrew Block,Red Hat,sabre1041,https://gi
 ,,Sajay Antony,Microsoft,sajayantony,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,
 ,,Terry Howe,AWS,TerryHowe,
-Sandbox,wasmCloud,Brooks Townsend,Cosmonic,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/MAINTAINERS.md
+Incubating,wasmCloud,Brooks Townsend,Cosmonic,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/MAINTAINERS.md
 ,,Liam Randall,Cosmonic,liamrandall,
 ,,Taylor Thomas,Cosmonic,thomastaylor312,
 ,,Bailey Hayes,Cosmonic,ricochet,
