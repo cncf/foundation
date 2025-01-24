@@ -369,7 +369,7 @@ Sandbox,Virtual Kubelet,Ria Bhatia ,Niantic,rbitia,https://github.com/virtual-ku
 ,,Paulo Pires,,pires,
 ,,Ben Corrie,VMware,corrieb,
 ,,Sargun Dhillon ,Netflix,sargun,
-Incubating,KubeEdge,Ce Zheng,DaoCloud,zc2638,https://github.com/kubeedge/kubeedge/blob/master/MAINTAINERS.md
+Graduated,KubeEdge,Ce Zheng,DaoCloud,zc2638,https://github.com/kubeedge/kubeedge/blob/master/MAINTAINERS.md
 ,,Dave Chen,ARM,chendave,
 ,,Fei Xu,Huawei,fisherxu,
 ,,Jiawei Liu,DaoCloud,JiaweiGithub,
@@ -382,6 +382,10 @@ Incubating,KubeEdge,Ce Zheng,DaoCloud,zc2638,https://github.com/kubeedge/kubeedg
 ,,Yue Bao,Huawei,Shelley-BaoYue,
 ,,Zefeng (Kevin) Wang,Huawei,kevin-wangzefeng,
 ,,Zhe Gong,HarmonyCloud,GsssC,
+,,Benjamin Huo,KubeShpere,benjaminhuo,
+,,Hongbing Zhang,DaoCloud,HongbingZhang,
+,,Huan Wei,HarmonyCloud,huanwei,
+,,Tina Tsou,ARM,tinatsou,
 ,,Zhijia Yang,Southwest Automation Research Institute,luomengY,
 Sandbox,Network Service Mesh,Ed Warnicke,Cisco,edwarnicke,https://github.com/networkservicemesh/networkservicemesh/blob/master/OWNERS.md
 ,,Frederick Kautz,Doc.ai,fkautz,
