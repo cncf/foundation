@@ -70,6 +70,9 @@ Examples of unacceptable behavior include but are not limited to:
 * Stalking or following someone without their consent
 * Unwelcome physical contact
 * Unwelcome sexual or romantic attention or advances
+* Using CNCF projects or community spaces for political campaigning or  promotion of political causes 
+  that are unrelated to the advancement of cloud native technology. For clarity, this does not restrict 
+  individuals’ personal attire. Please see the Code of Conduct FAQ for more information. 
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
@@ -89,6 +92,9 @@ For incidents occurring in the Kubernetes community, contact the [Kubernetes Cod
 For other projects, or for incidents that are project-agnostic or impact multiple CNCF projects, please contact the [CNCF Code of Conduct Committee](https://www.cncf.io/conduct/committee/) via <conduct@cncf.io>.  Alternatively, you can contact any of the individual members of the [CNCF Code of Conduct Committee](https://www.cncf.io/conduct/committee/) to submit your report. For more detailed instructions on how to submit a report, including how to submit a report anonymously, please see our [Incident Resolution Procedures](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md). You can expect a response within three business days.
 
 For incidents occurring at CNCF event that is produced by the Linux Foundation, please contact <eventconduct@cncf.io>.
+
+## Frequently asked questions
+For more information about this Code of Conduct, please see the [CNCF Code of Conduct Frequently Asked Questions](https://www.cncf.io/conduct/faq/).
 
 ## Enforcement
 
