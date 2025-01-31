@@ -330,11 +330,11 @@ Graduated,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob
 ,,Justin Burke,Google,justinburke,
 ,,Spike Curtis,Tigera,spikecurtis,
 ,,Andrew Harding,VMware,azdagron,
-Graduated,SPIRE,Andrew Harding,VMware,azdagron,https://github.com/spiffe/spire/blob/main/CODEOWNERS
-,,Evan Gilman,VMware,evan2645,
+Graduated,SPIRE,Sorin Dumitru,Bloomberg,sorindumitru,https://github.com/spiffe/spire/blob/main/CODEOWNERS
+,,Evan Gilman,SPIRL,evan2645,
 ,,Marcos Yacob,HPE,MarcosDY,
 ,,Agustin Martinez Fayo,HPE,amartinezfayo,
-,,Ryan Turner,Uber,rturner3,
+,,Ryan Turner,Cielara AI,rturner3,
 ,,Kevin Fox,PNNL,kfox1111,
 Sandbox,Telepresence,Jose Cortes,Datawire,josecv,https://github.com/telepresenceio/telepresence/blob/release/v2/MAINTAINERS.md
 ,,Kévin Lambert,Datawire,knlambert,
