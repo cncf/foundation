@@ -1,6 +1,6 @@
 ### What are CNCF groups?
 
-CNCF groups are public long lived groups that do not fall under a specific CNCF project, a [TOC SIG](https://github.com/cncf/toc/blob/master/sigs/cncf-sigs.md), or a [local CNCG chapter](https://community.cncf.io/). These groups can cut across technologies, geographies, and businesses to address matters that affect CNCF members. They are important forums for working on the issues, beyond technological, transforming the cloud native community. They can have multiple purposes which may include:
+CNCF groups are public long lived groups that do not fall under a specific CNCF project, a [TOC SIG](https://github.com/cncf/toc/blob/master/sigs/cncf-sigs.md), or a [local CNCF chapter](https://community.cncf.io/). These groups can cut across technologies, geographies, and businesses to address matters that affect CNCF members. They are important forums for working on the issues, beyond technological, transforming the cloud native community. They can have multiple purposes which may include:
 
 1. Discussion and sharing issues
 2. Providing feedback
