@@ -12,4 +12,4 @@ jobs:
       - name: Validate CSV
         uses: krook/csv-lint@main
         env:
-          CSV_FILE: "file.csv"
+          CSV_FILE: "project-maintainers.csv"
