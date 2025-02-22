@@ -817,12 +817,12 @@ Sandbox,Distribution,Chris Patterson,GitHub,chrispat,https://github.com/distribu
 Sandbox,Kuberhealthy,Eric Greer,Comcast,integrii,https://github.com/Comcast/kuberhealthy/blob/master/OWNERS
 ,,Joshulyne Park,Comcast,joshulyne,
 ,,Jonathan Phan,Comcast,jonnydawg,
-Sandbox,k8gb,Donovan Muller,Absa,donovanmuller,https://github.com/AbsaOSS/k8gb/blob/master/CODEOWNERS
+Sandbox,k8gb,Donovan Muller,Absa,donovanmuller,https://github.com/k8gb-io/k8gb/blob/master/CODEOWNERS
 ,,Dinar Valeev,Absa,k0da,
-,,Jiří Kremser,Absa,jkremser,
+,,Jiří Kremser,Kedify,jkremser,
 ,,MichalK,Absa,kuritka,
-,,Timofey Ilinykh,Absa,somaritane,
-,,Yury Tsarev,Absa,ytsarev,
+,,Yury Tsarev,Upbound,ytsarev,
+,,Andre Baptista Aguas,Open Systems,abaguas
 Sandbox,Trickster ,James Ranson,Virga,jranson,https://github.com/trickstercache/trickster/blob/main/MAINTAINERS.md
 ,,Chris Randles,WB Discovery,crandles,
 ,,Adam Ross,Amazon,LimitlessEarth,
