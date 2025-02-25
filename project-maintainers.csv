@@ -1169,12 +1169,13 @@ Incubating,OpenFeature,Alex Jones,AWS,AlexsJones,https://openfeature.dev/communi
 ,,Thomas Poignant,Adevinta,thomaspoignant,
 ,,Todd Baert,Dynatrace,toddbaert,
 ,,Weyert de Boer,FNZ,weyert,
-Sandbox,OpenCost,Ajay Tripathy,Kubecost,AjayTripathy,https://github.com/kubecost/opencost/blob/develop/MAINTAINERS.md
-,,Matt Bolt,Kubecost,mbolt35,
-,,Michael Dresser,Kubecost,michaelmdresser,
-,,Niko Kovacevic,Kubecost,nikovacevic,
-,,Sean Holcomb,Kubecost,Sean-Holcomb,
-,,Matt Ray,Kubecost,mattray,
+Sandbox,OpenCost,Ajay Tripathy,IBM,AjayTripathy,https://github.com/kubecost/opencost/blob/develop/MAINTAINERS.md
+,,Matt Bolt,IBM,mbolt35,
+,,Alex Meijer,IBM,ameijer,
+,,Niko Kovacevic,IBM,nikovacevic,
+,,Sean Holcomb,IBM,Sean-Holcomb,
+,,Cliff Colvin,IBM,cliffcolvin,
+,,Artur Khantimirov, Microsoft,r2k1,
 Sandbox,External Secrets Operator,Moritz Johner,Form3,moolen,https://github.com/external-secrets/external-secrets/blob/main/.github/PAUL.yaml
 ,,Lucas Severo Alves,Red Hat,knelasevero,
 ,,Gustavo Fernandes de Carvalho,Container Solutions,gusfcarvalho,
