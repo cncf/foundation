@@ -2,7 +2,10 @@
 # Source: https://github.com/krook/csv-lint
 # Test:   https://github.com/krook/csv-lint-test
 
-on: [pull_request]
+on: 
+  pull_request:
+    paths:
+      - 'project-maintainers.csv'
 
 jobs:
   verify-cvs-validation:
