@@ -17,3 +17,5 @@ A Project Journey Report is an in-depth analysis created by the CNCF to objectiv
 7. Report will be published to the CNCF website & blog posting date will be set and shared with the maintainers - CNCF will send over all of the live links
 
 [Submit your request for a Project Journey Report](https://form.asana.com/?k=DTQg_jRnviXiApjcxWl-KA&d=9283783873717)
+
+*Suggested amount of time between reports is 2 years*
