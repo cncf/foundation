@@ -110,7 +110,7 @@ Participants will need to:
 * Case study is published to <[https://cncf.io/reports](https://www.cncf.io/reports?_sft_lf-report-type=end-user-journey)>
 * Promotion cycle begins 
 
-**Sample End User Journey Report:[Adobe](https://www.cncf.io/reports/adobe-end-user-journey-report/)** 
+**Sample End User Journey Report: [Adobe](https://www.cncf.io/reports/adobe-end-user-journey-report/)** 
 
 ### Promotion ### 
 
