@@ -511,7 +511,7 @@ Incubating,Volcano,Klaus Ma,Huawei,k82cn,https://github.com/volcano-sh/volcano/b
 ,,Zhonghu Xu,Huawei,hzxuzhonghu,
 ,,Thor-wl,Huawei,Thor-wl,
 ,,William-wang,Huawei,william-wang,
-Graduated,Argo, Saravanan Balasubramanian,Intuit,sarabala1979,https://github.com/argoproj/argoproj/blob/master/MAINTAINERS.md
+Graduated,Argo, Saravanan Balasubramanian,Intuit,sarabala1979,https://github.com/argoproj/argoproj/blob/main/MAINTAINERS.md
 ,,Chetan Banavikalmutt,Red Hat,chetan-rns,
 ,,Simon Behar,AirBnB,simster7,
 ,,Xianlu Bird,Alibaba Cloud,xianlubird,
@@ -549,6 +549,7 @@ Graduated,Argo, Saravanan Balasubramanian,Intuit,sarabala1979,https://github.com
 ,,Alan Clucas,Pipekit,Joibel,
 ,,Isitha Subasinghe,Pipekit,isubasinghe,
 ,,Shuangkun Tian,Alibaba Cloud,shuangkun,
+,,Mason Malone,Adobe,MasonM,
 Sandbox,CNI-Genie,Zefeng (Kevin) Wang,Huawei ,kevin-wangzefeng,https://github.com/cni-genie/CNI-Genie/blob/master/MAINTAINERS
 ,,Sushantha Kumar,Huawei ,sushanthakumar,
 ,,Jun Du,Huawei ,m1093782566,
