@@ -48,7 +48,7 @@ Only books related to CNCF projects are eligible for the program. This includes 
 #### 2. Books Creation & Funding: ####
 CNCF is willing to provide full funding for creating and distributing these books through its marketing budget if approved. Projects must [submit a proposal](https://form.asana.com/?k=oh-3qL8bEm0Vb-7plwTTeQ&d=9283783873717) outlining their book concept and how it aligns with the project’s goals and potential community impact.
 
-#### 3. Submission:: ####
+#### 3. Submission: ####
 Projects interested in having their book included in the program must submit a request via the CNCF book creation form. All proposals should be submitted three to four months before the desired KubeCon + CloudNativeCon event. The submission should include:
 * A brief description of the book
 * Estimated production timeline
@@ -80,7 +80,7 @@ Books created for workshops must be shared with the [marketing team](marketing@c
 #### 2. Sponsorship & Funding: ####
 Books created for Kids Day or workshops must secure a sponsor to cover the printing and distribution costs. This sponsor will be responsible for covering these costs and ensuring that the books can be distributed to attendees of these events free of charge. CNCF does not provide direct funding for these books through its marketing or event budgets.
 
-#### 3. Submission:: ####
+#### 3. Submission: ####
 Projects interested in creating books for Kids Day or workshops must submit a proposal to CNCF’s marketing team. This submission should include:
 * A brief description of the book + workshop
 * Estimated production timeline
@@ -89,7 +89,7 @@ Projects interested in creating books for Kids Day or workshops must submit a pr
 * Indicate which Kids Day or workshop you’d like to provide the book for
 * Book details must be received no later than 12 weeks before the Kids Day or Workshop
 
-#### 4. Approval & Scheduling at Kids Day ####
+#### 4. Approval & Scheduling at Kids Day: ####
 Once the proposal is submitted, the CNCF marketing team will review it and share the book for approval with the Kids Day leads. The authors can schedule a book signing during the Kids Day event upon approval. However, book signings during the main KubeCon + CloudNativeCon event cannot be scheduled. CNCF will coordinate the time and location of the book signing, which will be included in the event’s agenda.CNCF will coordinate the time and location of the book signing, which will be included in the event’s agenda.
 
 #### 5. Distribution of Books at Kids Day: ####
