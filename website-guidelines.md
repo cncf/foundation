@@ -1,5 +1,5 @@
 August 13, 2017
-Updated: March 10, 2021
+Updated: March 6, 2025
 
 CNCF encourages each project to manage its own website, but after consulting with the projects,
 we are publishing a set of guidelines around dealing with potential commercial conflicts.
@@ -38,7 +38,9 @@ sandbox project.” and the CNCF logo. We also appreciate a link to KubeCon + Cl
 events approach.
 7. Website footers must include trademark guidelines by either linking to [Trademark Usage][]
 (directly or via a "Terms of service" page), or by including the following text: "The Linux Foundation® (TLF)
-has registered trademarks and uses trademarks. For a list of TLF trademarks, see [Trademark Usage][]".
+has registered trademarks and uses trademarks. For a list of TLF trademarks, see [Trademark Usage][]". 
+If your project has been converted to the Series LLC model (starting in 2025), please use the following 
+in your copyright statement: "Copyright ©$PROJECT_NAME a Series of LF Projects, LLC."
 
 Questions? Email us at info@cncf.io.
 
