@@ -1,5 +1,5 @@
 ---
-name: Licensing Exception Request
+name: License Exception Request
 description: Submit an exception request
 title: "[License Exception Request] [Project] [License]"
 labels:
@@ -8,61 +8,203 @@ assignees: krook,jeefy,joannalee333
 body:
   - type: markdown
     attributes:
-      value: >
-        ### Please note:
-        
-        If it is Apache-2.0 for code or CC-BY-4.0 for documentation, no further exception request is required.
-        
-        
-        Does it meet the [Allowlist policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)? If so, no further exception request is required.
-        
-        
-        For all other license exception requests, we need the following information.
-        
-        
-        ### License Exception Request:
-  - type: textarea
-    id: introduction
+      value: |
+        # Read before proceeding
+
+        Before submitting this License Exception Request, please familiarize yourself with the following:
+
+        - the CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy), particularly 11(g)
+        - the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)
+        - the [HOWTO for submitting a license exception request](https://contribute.cncf.io/resources/how-to/submit-license-exception-request/)
+
+
+        If the license for a particular component or dependency is one of the following, please also read the noted guidance before proceeding:
+
+
+        - AGPL-3.0 (Affero GPL v3): [AGPL guidance](https://github.com/cncf/foundation/blob/main/agpl-recommendations.md)
+        - A component that has relicensed to a non-open source, "source available” license: [Source available guidance](https://github.com/cncf/foundation/blob/main/source-available-recommendations.md)
+        - Interactions generally with source available and other proprietary licenses: [Proprietary / source available guidance](https://github.com/cncf/foundation/blob/main/proprietary-interactions-guidance.md)
+
+
+        # When no exception is required
+
+        **Please note**: No exception request is required if the component meets any of the following:
+
+
+        - is entirely licensed under Apache-2.0 for code; or
+        - is entirely licensed under CC-BY-4.0 for documentation; or
+        - satisfies the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); or
+        - is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md) or another previously-granted exception for an equivalent use case.
+
+        <br />
+
+        ---
+
+        # License Exception Request form
+
+        For any components where none of the above criteria are met, please complete the form below.
+
+
+  - type: markdown
     attributes:
-      label: Component details
-      description: What is the third party component (name, URL, and version if available)?
-    validations:
-      required: true
+      value: |
+        <br />
+        
+        ## :clipboard: Project details
+
+        The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
+
+
   - type: input
-    id: name
+    id: project_name
     attributes:
-      label: License name
-      description: What is the full name or title of the license?
+      label: "For which CNCF project are you requesting exceptions?"
     validations:
       required: true
+
+  - type: dropdown
+    id: is_maintainer
+    attributes:
+      label: "Are you an official maintainer of this project?"
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        <br />
+        
+        ## :computer: Component details
+        
+        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Purpose" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it.
+
   - type: textarea
+    id: component_details
+    attributes:
+      label: "List of components requiring an exception"
+      value: "| Component | Upstream URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        <br />
+        
+        ## :newspaper: Additional details
+
+        The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
+
+        Please see "[Scope and Nature of Dependencies](https://github.com/cncf/foundation/blob/main/recommendations-for-attribution.md#scope-and-nature-of-dependencies)” for details on how the following terms are being used here.
+
+        <br />
+        
+        ### :page_with_curl: Context
+
+
+  - type: dropdown
+    id: mandatory_dependencies
+    attributes:
+      label: "Are all of the components mandatory dependencies for the project to function as intended?"
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: textarea
+    id: mandatory_dependencies_explanation
+    attributes:
+      label: "If no, please explain"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: inclusion_method
+    attributes:
+      label: "How  will the components be included in or with the project's code and distributions?"
+      description: "Select all that apply"
+      options:
+        - label: "Incorporated code"
+        - label: "Vendored component"
+        - label: "Build-time dependency"
+        - label: "Build and test tooling"
+        - label: "Install-time dependency"
+        - label: "Required upstream dependencies"
+        - label: "Other (please describe below)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: inclusion_method_explanation
+    attributes:
+      label: "If any of the above selections don't apply to all of the components listed in the table above, please explain"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        <br />
+        
+        ### :page_with_curl: Nature of interactions
+
+
+  - type: checkboxes
+    id: interaction_nature
+    attributes:
+      label: "Which of the following best describes how the components interact with the project's own code?"
+      description: "Select all that apply"
+      options:
+        - label: "Static linking: e.g., compiled together with project code into a single binary"
+        - label: "Dynamic linking: e.g., compiled into a separate binary, running together with project code in a single address space at run-time"
+        - label: "Separate process: e.g., separate executable running in a different process space, interacting with project code only via mechanisms such as pipes, sockets, etc."
+        - label: "Network interaction only: e.g., logically separated over a network and communicating only via mechanisms such as network API call, exchanging JSON data, etc."
+        - label: "Other (please describe below)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: interaction_explanation
+    attributes:
+      label: "If any of the above selections don't apply to all of the components listed in the table above, please explain"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        <br />
+        
+        ### :page_with_curl: Modifications
+        
+
+  - type: dropdown
     id: modifications
     attributes:
-      label: Code modified?
-      description: Will the code be used in modified or unmodified form?
+      label: "Will any of the components be modified?"
+      options:
+        - "Yes"
+        - "No"
     validations:
       required: true
+
   - type: textarea
-    id: license-exception
+    id: modifications_details
     attributes:
-      label: Changes contributed?
-      description: If modified, will changes be contributed back to the upstream project?
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Any alternatives?
-      description:
-        Are there any alternative components available with equivalent
-        functionality under a more permissive license? If so, is it possible to
-        use that component instead?
+      label: "If yes, please specify which components will be modified, and briefly describe the purpose and nature of the modifications."
     validations:
-      required: true
-  - type: textarea
-    id: integration
+      required: false
+
+  - type: dropdown
+    id: upstream_contribution
     attributes:
-      label: Integrates with other components?
-      description:
-        How does this component integrate with or interact with, if at all,
-        other components of the project?
+      label: "Will the project be seeking to contribute the modifications back to the upstream project?"
+      options:
+        - "Yes"
+        - "No"
     validations:
-      required: true
+      required: false
