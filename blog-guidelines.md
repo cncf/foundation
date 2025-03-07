@@ -2,57 +2,88 @@
 
 ## CNCF Blog Overview ##
 
-The Cloud Native Computing Foundation (CNCF) blog serves as a channel for CNCF members, project maintainers of graduated and incubating projects, CNCF Technical Advisory Groups (TAGs), ambassadors to share content with the cloud native community.
+The Cloud Native Computing Foundation (CNCF) blog is a community-driven platform designed to highlight cloud native technologies, best practices, innovations, and community experiences. Contributions are welcomed from CNCF members, project maintainers, ambassadors, mentors and mentees, scholarship recipients, and Technical Advisory Groups (TAGs).
 
-The content on our blog consists of:
-* Articles about graduated or incubating CNCF projects
-* Technical content and how-to’s
-* Stories about cloud native and CNCF project deployments
-* Use cases and success stories
-* Industry insight into cloud native adoption
-* Reports from CNCF events
+### Preferred Content Topics: ###
+* Updates and insights on CNCF Graduated or Incubating projects
+* Technical guides, tutorials, and how-to articles focused on CNCF projects or broader cloud native technologies
+* Real-world case studies showcasing CNCF project deployments and cloud native implementations
+* Success stories illustrating effective strategies for cloud native adoption
+* Thought leadership on cloud native trends, industry developments, and future outlooks
+* Recaps, experiences, and insights from CNCF events
 
-Other topics are welcome, but it needs to have a direct link to the CNCF community.
+Submissions on other relevant topics may be considered if they have clear connections to CNCF projects or the wider cloud native ecosystem.
 
-We accept content from CNCF members, project maintainers of graduated and incubating projects, CNCF TAGs, CNCF ambassadors. The content needs to be originally published within the last 2 months.
+## Submission Categories ##
 
-Please note that we do not accept AI-generated posts.
+* CNCF members
+  * Member Blog: Vendor-neutral posts from CNCF members aligned with CNCF guidelines. Members may discuss open-source projects, including CNCF Sandbox projects.
+  * Posts focused solely on CNCF Graduated or Incubating projects, written on behalf of the project, will be categorized as Project Blogs.
+  * If the blog includes information about a CNCF Graduated or Incubating project with instructional or tutorial content (e.g., how-to guides), it remains classified as a Member Blog.
+      * Members can add 1-2 sentences at the end of their blog with a link to an external site such as their website or a gated asset. Examples for best practices:
+      * Share contact info of  speaker - twitter, slack, email
+      * Links to company websites
+      * Links to projects websites or Github
+      * Can advertise if they are hiring and who to contact if interested
 
-Blog type definitions:
-* Project blog: Any blog post on a graduated or incubating project. This is written by or on behalf of the project. If written by a member about a project, this blog is classified as a Project blog. An example is a Harbor blog written by the VMware team. The blog is classified as a Project blog.
-* Member blog: Any blog post written by a member. The blog must comply with the blog guidelines. A member can write about any open source project, including a CNCF Sandbox project. If a CNCF member writes solely about a CNCF graduated or incubating project and on behalf of the project, it is classified as a Project blog. If the blog contains information about a CNCF graduated or incubating project and includes information on how to do something with that project, it is classified as a Member blog.
-* Technical Advisory Group (TAG) blog: A blog written by a TAG team member(s) is classified as a TAG blog. If a CNCF member writes a blog on behalf of the TAG, it is classified as a TAG blog. If a member writes a blog about a TAG, it is classified as a Member blog.
-* Ambassador blog: This is a blog written by one of the CNCF Ambassadors.
-* CNCF Staff: This is a blog written by a CNCF staff member. If the staff member is writing a blog on behalf of a project or a TAG, it is classified as a Project or TAG blog.
-* Project internships and scholarship recipients: This is a blog that is written about a scholarship or internship related to a CNCF event or project.
+* Project Maintainers (Graduated and Incubating Projects)
+   * Project blog: Blog posts specifically focused on CNCF Graduated or Incubating projects. These posts are authored by the project maintainers or written on behalf of the project. For example, a Harbor project blog authored by VMware team members is classified as a Project Blog.
 
-## Content ##
-The CNCF blog audience is developers, IT operators, and cloud native and open source enthusiasts. Keep this in mind as you develop your blog content.
+* CNCF Technical Advisory Groups (TAGs)
+   * TAG Blog: Blog posts authored by CNCF TAG members or by CNCF members explicitly on behalf of a TAG are classified as TAG Blogs.
+   * If a CNCF member writes independently about a TAG (not on behalf of the TAG), the blog is classified as a Member Blog
 
-Some things to think about:
-* Posts from members must be vendor-neutral. The post may mention a vendor’s name as it relates to specific open source projects, project deployments, adoption paths, their hosting of an in-person event or speaking at an event, or other indications of meaningful participation in the community, but it shouldn’t feel like an advertisement for your services or company. We do not accept announcements or press releases to the CNCF blog.
+* CNCF Ambassadors
+  * Ambassador blog: Blog posts authored by CNCF Ambassadors. Ambassadors may submit up to two blog posts per month. These blogs may include pieces on expertise, thought leadership, insights, and personal experience.
 
-* The most interesting posts are how-to blogs, blogs with technical content, and those that teach or show how to do something in a way others may not have thought of.
-* Blog posts that show hurdles that were encountered and explain how they were overcome often do very well as the community is looking to learn.
-* Content on how to choose between different technologies and how to accommodate different legacy issues and cloud platforms is a good way to highlight your learnings and share with the community.
-* When showing upstreaming of a patch fixing an issue for others, link back to the Github issue, so readers can follow along.
-* Critical commentary or broad issues must be approached with sensitivity, professionalism, and tact in a way that is beneficial and positive for the community.
-* Your post must be your content, but can be published elsewhere with a right to republish. All content should have an author and be published Creative Commons with Attribution.
+* CNCF Mentor + Mentees
+  * Mentorship blog: Sharing experiences, learnings, insights, and the impact of participation in CNCF mentorship programs
 
-Members can add 1-2 sentences at the end of their blog with a link to an external site such as their website or a gated asset. Examples for best practices:
-* Share contact info of  speaker - twitter, slack, email
-* Links to company websites
-* Links to projects websites or Github
-* Can advertise if they are hiring and who to contact if interested
+* Scholarship Recipients
+  * Scholarship blog: Posts detailing personal experiences from CNCF events, discussing the impact of receiving a CNCF scholarship, and highlighting how it contributed to personal or professional goals.
 
-Note: This is not a link to a CNCF website or form on the CNCF website.
+All submissions should be original content published within the past two months. CNCF does not accept paid or sponsored blog posts.
 
-CNCF will review the statement, as we do for the content for the blog, to approve the content. If changes are needed, we will provide suggested changes. 
+
+
+## Content Guidelines ##
+The primary audience for CNCF blogs is developers, IT operators, and cloud native and open-source enthusiasts. Please ensure your content addresses their interests and needs
+
+### Best Practices: ###
+* Vendor-Neutrality: Mention vendors only in contexts directly related to open-source projects, meaningful community participation, or event involvement. Promotional or advertising content, announcements, and press releases are not accepted.
+
+* Technical & Educational Value: Strongly encouraged are how-to articles, technical deep dives, tutorials, and innovative use-cases.
+
+* Community Relevance: Posts describing real-world challenges and the solutions adopted often generate significant community interest.
+
+*  Comparative and Analytical Content: Articles helping readers navigate choices among technologies or solutions addressing legacy issues or cloud platform compatibility are valuable.
+
+* Links to Upstream Contributions: When referencing project contributions, always link back to relevant GitHub issues or pull requests.
+
+*  Constructive Criticism: Address sensitive or broad industry issues constructively and professionally, aiming for positive impacts on the community.
+
+*  Originality & Licensing: Ensure content is original or provide explicit permission for republication. All posts must follow the Creative Commons Attribution license.
+
+(Note: Links to CNCF websites or CNCF forms are not permitted.)
+
+CNCF will review and approve all content, including any concluding statements. Suggested edits may be provided as needed
 
 ## Promotion ##
-Please feel free to share the blog on Twitter and reach out to [blog@cncf.io](blog@cncf.io) if you would like to request CNCF's handle RTs.
+You are encouraged to promote published blogs through social media. For further amplification, request CNCF’s social media shares by contacting [marketing@cncf.io](marketing@cncf.io)
 
-## How to submit for consideration ##
-Please submit a brief summary and the topic of the post to blog@cncf.io for consideration. Or you can supply the blog for review. We will respond with a proposed date of publication or if it’s not suitable for the CNCF blog, we will provide feedback and direction.
+## Submission Process ##
+1. Proposal
+   * Submit your blog post in a google doc or word document with any images that needed to uploaded to [marketing@cncf.io](marketing@cncf.io).
+   * For previously published content, include the complete article or presentation along with explicit permission for republishing.
+2. Review
+   *  [marketing@cncf.io](marketing@cncf.io) team will review your proposal within 3-5 working days.
+   *  If the proposal meets the criteria, and no edits are required the marketing team will reach out with an expected publication date. Please note that, depending on our editorial calendar, blog posts can be scheduled for publication approximately two weeks after submission.
+   *  If the proposal doesn’t meet the criteria, the [marketing@cncf.io](marketing@cncf.io) team will provide feedback for the author.
+3. Editng
+   * CNCF reviews the blog and makes any necessary edits as suggestions
+4. Publishing
+   * CNCF prepares the blog for publication
+   * Generally blog posts can be scheduled for publication approximately two weeks after submission. It may be longer if there is a CNCF event taking place around the time of submission. The marketing team will communicate potential publication dates and/or changes to those dates.
+   * Blogs are published to [https://www.cncf.io/blog/](https://www.cncf.io/blog/)
+  
 
-If you are submitting an article or presentation that already exists, please send it in its entirety with a note on the expressed permission from the owner of the content.
