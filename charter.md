@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated September 26, 2024
+Effective Nov 6 2015 / Updated March 12, 2025
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -118,9 +118,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 		-	c. two Committers elected from the CNCF Projects under a process approved by the then-serving Governing Board.
 
-	-	iii. The Governing Board may extend a Platinum membership at the Silver Membership Scale rates on a year-by-year basis for up to 5 years to startup companies with revenues less than \$50 million that are deemed strategic technology contributors by the Governing Board.
-
-	-	iv. Only one person from a group of Related Companies may serve as a Member Representative. Only one person from a group of Related Companies may serve as a Technical Community Representative.
+	-	iii. Only one person from a group of Related Companies may serve as a Member Representative. Only one person from a group of Related Companies may serve as a Technical Community Representative.
 
 -	(d) Responsibilities:
 
@@ -128,9 +126,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	ii. elect a Chair of the Governing Board to preside over meetings, authorize expenditures approved by the budget and manage any day-to-day operations;
 
-		-	a. The Chair of the Governing Board shall be elected to a two-year term. The Executive Director may call a special election as needed. 
-
-		-	b. The Chair of the Governing Board shall be elected to the position and a Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service (https://civs.cs.cornell.edu/).
+		-	a. The Chair of the Governing Board shall be elected to a two-year term. The Executive Director may call a special election as needed. If more than two candidates run for election, a Condorcet vote shall be run using the Condorcet-IRV method.
 
 	-	iii. vote on decisions or matters before the Governing Board;
 
@@ -232,7 +228,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	ii. Qualification: After the Evaluation Period, the Governing Board and the TOC members shall vote on each nominee individually to validate that the nominee meets the qualification criteria. A valid vote shall require at least 50% participation. Nominees passing with over 50% shall be Qualified Nominees.
 
-	-	iii. Elections: If the number of Qualified Nominees is equal to or less than the number of TOC seats available to be elected, the Qualified Nominees shall be approved after the nomination period has closed. If there are more Qualified Nominees than open TOC seats available for election, then the Selecting Group shall elect the TOC members via a Condorcet vote. A Condorcet vote shall be run using the Condorcet-IRV method through the Cornell online service ([*https://civs.cs.cornell.edu/*](https://civs.cs.cornell.edu/)).
+	-	iii. Elections: If the number of Qualified Nominees is equal to or less than the number of TOC seats available to be elected, the Qualified Nominees shall be approved after the nomination period has closed. If there are more Qualified Nominees than open TOC seats available for election, then the Selecting Group shall elect the TOC members via a Condorcet vote. A Condorcet vote shall be run using the Condorcet-IRV method.
 
     -   iv. TOC-Selected Seats: TOC-Selected TOC members may nominate and qualify but not vote when their seat is up for election.
 
@@ -255,6 +251,8 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 		-	c. defining process to ratify a contributed technology as a standard API
 
 		-	d. identifying immediate gaps that require further investigation
+
+-	(g) Vacancies: In the event of a vacancy in a Governing Board-elected seat on the TOC, the vacancy will be filled by the single highest ranked qualified runner-up in the most recent election for Governing Board-elected TOC seats who is serving in an alternate or shadow role established by the TOC. For a vacancy in any other seat, the vacancy will be filled by the single highest ranked runner-up in the most recent election for TOC-elected seats who is serving in an alternate or shadow role established by the TOC. If no such person is available to fill the vacancy in a timely manner, the TOC may hold a special election to fill the vacancy. 
 
 #### 7. End User Community
 
