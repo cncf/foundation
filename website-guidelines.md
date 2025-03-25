@@ -34,7 +34,7 @@ or to CNCF, not the origin company. For details, see [Copyright notices](copyrig
 6. CNCF requests that graduated and incubating projects include the sentence “We are a Cloud Native
 Computing Foundation project.” and the CNCF logo near the bottom of their project homepage.
 Sandbox-level projects should include the sentence “We are a Cloud Native Computing Foundation
-sandbox project.” and the CNCF logo. We also appreciate a link to KubeCon + CloudNativeCon as the
+Sandbox project.” and the CNCF logo. We also appreciate a link to KubeCon + CloudNativeCon as the
 events approach.
 7. Website footers must include trademark guidelines by either linking to [Trademark Usage][]
 (directly or via a "Terms of service" page), or by including the following text: "The Linux Foundation® (TLF)
