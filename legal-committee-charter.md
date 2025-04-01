@@ -2,7 +2,7 @@
 
 (a) The responsibilities of the Legal Committee include making recommendations to the Governing Board in response to questions submitted to the Legal Committee by the Governing Board.  For clarity, the Legal Committee does not represent CNCF and does not have an attorney-client relationship with CNCF.
 
-(b) Participation on the Legal Committee is optional. The voting members of the Legal Committee will consist of attorney representatives from Platinum, Gold, and Silver Members who have appointed seats on the Governing Board.  Governing Board members appointed by such Platinum, Gold, and Silver Member companies who wish to participate on the Legal Committee may do so together with any attorney representative of their company.  Additionally, the Governing Board may designate one or more Governing Board members to attend Legal Committee meetings as non-voting liaison observers. 
+(b) Participation on the Legal Committee is optional. The voting members of the Legal Committee will consist of attorney representatives from Platinum, Gold, and Silver Members who have appointed or elected seats on the Governing Board.  Governing Board members appointed by such Platinum, Gold, and Silver Member companies who wish to participate on the Legal Committee may do so together with any attorney representative of their company.  Additionally, the Governing Board may designate one or more Governing Board members to attend Legal Committee meetings as non-voting liaison observers. 
 
 (c) In the event that the attorney representative appointed by an eligible Member company is unable to attend a Legal Committee meeting, the Member company may send an alternate attorney representative to that meeting which alternate representative may participate in voting. 
 
