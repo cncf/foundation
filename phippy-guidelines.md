@@ -14,7 +14,7 @@ It’s not just for bedtime stories, you can use the Phippy and Friends characte
 
 Any graduated CNCF project is welcome to donate a character to the Phippy and Friends family, and we encourage you to do so. Not only does this help expand the educational outreach of the program, but it also provides more marketing and engagement opportunities for your project.
 
-TTo get started, please [file a request](https://form.asana.com/?k=oh-3qL8bEm0Vb-7plwTTeQ&d=9283783873717)
+To get started, please [file a request](https://form.asana.com/?k=oh-3qL8bEm0Vb-7plwTTeQ&d=9283783873717)
 
 ### What’s Involved? ###
 
