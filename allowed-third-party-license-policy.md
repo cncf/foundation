@@ -64,7 +64,7 @@ List.
 - Zlib
 - Google patent license for Golang (https://golang.org/PATENTS)
 
-[Allowlist License Policy]: #cncf-allowlist-policy
+[Allowlist License Policy]: #cncf-allowlist-license-policy
 [Approved Licenses]: #approved-licenses-for-allowlist
 [CNCF Charter]: https://github.com/cncf/foundation/blob/master/charter.md
 
