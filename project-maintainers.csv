@@ -490,6 +490,8 @@ Incubating,KubeVirt,David Vossel,Red Hat,davidvossel,https://github.com/kubevirt
 ,,Fabian Deutsch,Red Hat,fabiand,
 ,,Ryan Hallisey,Nvidia,rthallisey,
 ,,Andrew Burden,Red Hat,aburdenthehand,
+,,Alice Frosi,Red Hat,alicefr,
+,,Ľuboslav Pivarč,Red Hat,xpivarc,
 Incubating,Longhorn,Sheng Yang,SUSE,yasker,https://github.com/longhorn/longhorn/blob/master/MAINTAINERS
 ,,Shuo Wu,SUSE,shuo-wu,
 ,,David Ko,SUSE,innobead,
@@ -1898,6 +1900,13 @@ Sandbox,Podman Container Tools,Brent Baude,Red Hat,baude,https://github.com/cont
 Sandbox,OpenTofu,Christian Mesh,Spacelift.io,cam72cam,https://github.com/opentofu/opentofu/blob/main/MAINTAINERS
 ,,James Humphries,Spacelift.io,Yantrio,
 ,,Martin atkins,Spacelift.io,apparentlymart,
-,,Andrei Ciobanu,Env0,yottta
-,,Ilia Gogotchuri,Env0,Gogotchuri
-,,Diógenes Fernandes,Gruntworks,diofeher
+,,Andrei Ciobanu,Env0,yottta,
+,,Ilia Gogotchuri,Env0,Gogotchuri,
+,,Diógenes Fernandes,Gruntworks,diofeher,
+Sandbox,KitOps,Gorkem Ercan,Jozu,gorkem,https://github.com/kitops-ml/kitops/blob/main/MAINTAINERS.md
+,,Angel Misevski,Jozu,amisevsk,
+,,Brad Micklea,Jozu,bmicklea,
+,,Javis V. Pérez,Jozu,javisperez,
+,,Jacob Fuss,Jozu,jfuss,
+,,Jesse Williams,Jozu,Jwilliamsr,
+,,Nida Hasan,Jozu,nida-hasan,
