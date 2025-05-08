@@ -1459,7 +1459,7 @@ Incubating,Keycloak,Stian Thorgersen,Red Hat,stianst,https://github.com/keycloak
 ,,Sebastian Schuster,Bosch,sschu,
 ,,Stan Silvert,Red Hat,ssilvert,
 ,,Takashi Norimatsu,Hitachi,tnorimat,
-,,Thomas Darimont,codecentric AG,thomasdarimont,
+,keycloak,Thomas Darimont,Identity Tailor GmbH,thomasdarimont,https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md
 ,,Václav Muzikář,Red Hat,vmuzikar,
 Sandbox,Kepler,Huamin Chen,Red Hat,rootfs,https://github.com/sustainable-computing-io/kepler/blob/main/MAINTAINERS.md
 ,,Ji Chen,IBM,jichenjc,
