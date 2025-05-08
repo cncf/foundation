@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Project Journey Report is an in-depth analysis created by the CNCF to objectively evaluate the current state of a project and assess the impact CNCF has had on its development and growth. The report provides a comprehensive overview, including a detailed history of the project, its evolution over time, and a current snapshot of its status. Key metrics such as project velocity, community diversity, and levels of participation will also be included.
+A Project Journey Report is an in-depth analysis created by the CNCF to objectively evaluate the current state of a project and assess the impact CNCF has had on its development and growth through the graduation stage. The report provides a comprehensive overview, including a detailed history of the project, its evolution over time, and a current snapshot of its status. Key metrics such as project velocity, community diversity, and levels of participation will also be included. Projects must be graduated to request a Project Journey Report.
 
 [Review other Project Journey Reports](https://www.cncf.io/reports?_sft_lf-report-type=project-journey)
 
