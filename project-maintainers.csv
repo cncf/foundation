@@ -75,10 +75,7 @@ Graduated,Prometheus,Alex Greenbank,Grafana Labs,alexgreenbank,https://prometheu
 ,,Tobias Schmidt,Independent,grobie,
 ,,Tom Wilkie,Grafana Labs,tomwilkie,
 Graduated,Envoy,Matt Klein,bitdrift,mattklein123,https://github.com/envoyproxy/envoy/blob/master/OWNERS.md
-,,Harvey Tuch,Google,htuch,
-,,Alyssa Wilk,Google,alyssawilk,
 ,,Stephan Zuercher,Turbine Labs,zuercher,
-,,Lizan Zhou,Aviatrix,lizan,
 ,,Greg Greenway,Apple,ggreenway,
 ,,Yan Avlasov,Google,yanavlasov,
 ,,Ryan Northey,CNCF,phlax,
@@ -91,8 +88,8 @@ Graduated,Envoy,Matt Klein,bitdrift,mattklein123,https://github.com/envoyproxy/e
 ,,Kuat Yessenov,Google,kyessenov,
 ,,Raven Black,Dropbox,ravenblackx,
 ,,Kateryna Nezdolii,Spotify,nezdolik,
-,,Alex Xu,Intel,soulxu,
 ,,Takeshi Yoneda,Tetrate,mathetake,
+,,Boteng Yao,Google,botengyao,
 ,Envoy: Gateway (non-voting),Xunzhuo Liu,Tencent,Xunzhuo,https://github.com/envoyproxy/gateway/blob/main/GOVERNANCE.md#steering-committee
 ,,Arko Dasgupta,Tetrate,arkodg,
 ,,Jianpeng He,Tetrate,zirain,
@@ -806,12 +803,14 @@ Sandbox,Pravega,Flavio Junqueira,Pravega,fpj,https://github.com/pravega/.github/
 ,,Srikanth Satya,Wheels Up,,
 ,,Brian Zhou,Dell,crazyzhou,
 ,,Raul Gracia,Dell,RaulGracia,
-Incubating,Kyverno,Jim Bugwadia,Nirmata,JimBugwadia,https://github.com/kyverno/kyverno/blob/main/MAINTAINERS.md
+Incubating,Kyverno,Jim Bugwadia,Nirmata,JimBugwadia,https://github.com/kyverno/community/blob/main/MAINTAINERS.md
 ,,Shuting Zhao,Nirmata,realshuting,
 ,,Frank Jogeleit,Nirmata,fjogeleit,
 ,,Charles-Edouard Brétéché,Nirmata,eddycharly,
-,,Vishal Choudhary,Nirmata,vishal-chdhry,
+,,Vishal Choudhary,Chainguard,vishal-chdhry,
 ,,Mariam Fahmy,Nirmata,MariamFahmy98,
+,,Liang Deng, Kuaishou Technology,YTGhost,
+,,Jonas Beck,VELUX,Jonas-Beck,
 Sandbox,OpenGitOps,Chris Patterson,GitHub,chrispat,https://github.com/open-gitops/project/blob/main/MAINTAINERS
 ,,Christian Hernandez,Akuity,christianh814,
 ,,Chris Sanders,Microsoft,csand-msft,
@@ -877,6 +876,7 @@ Graduated,Cilium,Aditi Ghag,Isovalent,aditighag,https://github.com/cilium/cilium
 ,,Dorde Lapcevic,Google,dlapcevic,
 ,,Dylan Reimerink,Isovalent,dylandreimerink,
 ,,Eloy Coto,Red Hat,eloycoto,
+,,Fabio Falzoi,Isovalent,pippolo84,
 ,,Gilberto Bertin,Isovalent,jibi,
 ,,Glib Smaga,Isovalent,glibsm,
 ,,Hemanth Malla,Datadog,hemanthmalla,
@@ -1072,6 +1072,7 @@ Graduated,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/community
 ,,Mauricio Salatino,Diagrid,salaboy,
 ,,Whit Waldo,Innovian,WhitWaldo,
 ,,Dana Arsovska,Ahold Delhaize,Dzvezdana,
+,,Artur Ciocanu,Adobe Inc,artur-ciocanu,
 Sandbox,K8up,Tobias Brunner,VSHN AG,tobru,https://github.com/k8up-io/k8up/blob/master/CODEOWNERS
 ,,Simon Beck,VSHN AG,Kidswiss,
 ,,Aarno Aukia,VSHN AG,arska,
