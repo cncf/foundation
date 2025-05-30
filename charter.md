@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated March 12, 2025
+Effective Nov 6 2015 / Updated May 28, 2025
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -363,19 +363,27 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 #### 11. IP Policy
 
--	(a) Any project that is added to the CNCF must have ownership of its trademark and logo assets transferred to the Linux Foundation or a Linux Foundation project hosting entity.
+-	(a) Any project that is added to the CNCF must:
 
--	(b) Each project shall determine whether it will require use of an approved CNCF CLA. For projects that select to use a CLA, all code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF or the project as the recipient of the contributions, and which shall be approved by the Governance Board. See CNCF Contributor License Agreements available at https://github.com/cncf/cla. The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
+	-	i. Have ownership of its trademark and logo assets transferred to the Linux Foundation or a Linux Foundation project hosting entity;
 
--	(c) All new inbound code contributions to the CNCF shall be (i) accompanied by a Developer Certificate of Origin sign-off ([*https://developercertificate.org*](https://developercertificate.org/)\) and (ii) made under the Apache License, Version 2.0 (available at [*https://www.apache.org/licenses/LICENSE-2.0*](https://www.apache.org/licenses/LICENSE-2.0)), such license to be in addition to, and shall not supersede, obligations undertaken under the contribution license agreement(s) provided for in (b) above.
+	-	ii. For code development, use only OSI-approved open source software licenses;
 
--	(d) All outbound code will be made available under the Apache License, Version 2.0.
+	-	iii. For new technical specifications or standards that are not designed to be implemented primarily when using or interacting with a particular piece of software, use any of the following: (1) the Community Specification License and governance framework ("CSL"), or (2) one of the Joint Development Foundation Projects, LLC ("JDF") template options; and
 
--	(e) All projects evaluated for inclusion in the CNCF shall be completely licensed under an OSI-approved open source license. If the license for a project included in CNCF is not Apache License, Version 2.0, approval of the Governing Board shall be required.
+	-	iv. For new technical specifications or standards that are designed to be implemented primarily when using or interacting with a particular piece of software (e.g., an API specification), use any of the options listed in paragraph iii. above or the Apache License, Version 2.0.
 
--	(f) All documentation will be received and made available by the CNCF under the Creative Commons Attribution 4.0 International License.
+ -	(b) In the case of code and documentation pertaining to code:
 
--	(g) If an alternative inbound or outbound license is required for compliance with the license for a leveraged open source project or is otherwise required to achieve the CNCF’s mission, the Governing Board may approve the use of an alternative license for inbound or outbound contributions on an exception basis.
+	-	i. Each project shall determine whether it will require use of an approved CNCF CLA. For projects that select to use a CLA, all code contributors will undertake the obligations set forth in the Apache contributor license agreement(s), altered only as necessary to identify CNCF or the project as the recipient of the contributions, and which shall be approved by the Governance Board. See CNCF Contributor License Agreements available at https://github.com/cncf/cla. The process for managing contributions in accordance with this policy shall be subject to Governance Board approval.
+
+	-	ii. All new inbound code contributions to the CNCF shall be (i) accompanied by a Developer Certificate of Origin sign-off ([*https://developercertificate.org*](https://developercertificate.org/)\) and (ii) made under the Apache License, Version 2.0 (available at [*https://www.apache.org/licenses/LICENSE-2.0*](https://www.apache.org/licenses/LICENSE-2.0)), such license to be in addition to, and shall not supersede, obligations undertaken under the contribution license agreement(s) provided for in (b)i. above.
+
+	-	iii. All outbound code will be made available under the Apache License, Version 2.0.
+
+	-	iv. All documentation will be received and made available by the CNCF under the Creative Commons Attribution 4.0 International License.
+
+	-	v. If an alternative inbound or outbound license is required for compliance with the license for a leveraged open source project or is otherwise required to achieve the CNCF’s mission, the Governing Board may approve the use of an alternative license for inbound or outbound contributions on an exception basis.
 
 #### 12. Antitrust Guidelines
 
