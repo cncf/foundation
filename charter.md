@@ -383,7 +383,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	iv. All documentation will be received and made available by the CNCF under the Creative Commons Attribution 4.0 International License.
 
-	-	v. If an alternative inbound or outbound license is required for compliance with the license for a leveraged open source project or is otherwise required to achieve the CNCF’s mission, the Governing Board may approve the use of an alternative license for inbound or outbound contributions on an exception basis.
+ -	(c) If an alternative inbound or outbound license is required for compliance with the license for a leveraged open source project or is otherwise required to achieve the CNCF’s mission, the Governing Board may approve the use of an alternative license for inbound or outbound contributions on an exception basis.
 
 #### 12. Antitrust Guidelines
 
