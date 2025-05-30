@@ -1463,11 +1463,10 @@ Sandbox,Eraser,Sertac Ozercan,Microsoft,sozercan,https://github.com/eraser-dev/e
 ,,Peter Engelbert,Microsoft,pmengelbert,
 ,,Brian Goff,Microsoft,cpuguy83,
 ,,Xander Grzywinski,Microsoft,salaxander,
-Sandbox,kpt,Morten Torkildsen,Google,mortent,https://github.com/kptdev/kpt/blob/main/MAINTAINERS
-,,Sunil Arora,Google,droot,
-,,Natasha Sarkar,Google,natasha41575,
-,,Justin Santa Barbara,Google,justinsb,
-,,John Belamaric,Google,johnbelamaric,
+Sandbox,kpt,Gergely Csatari,Nokia,CsatariGergely,https://github.com/kptdev/governance/blob/main/maintainers.yaml
+,,Istvan Kispal,Nokia,kispaljr,
+,,Liam Fallon,Ericsson Software Technology,liamfallon,
+,,Ciaran Johnston,Ericsson,ciaranjohnston,
 Sandbox,Copa,Sertac Ozercan,Microsoft,sozercan,https://github.com/project-copacetic/copacetic/blob/main/CODEOWNERS
 ,,Ashna Mehrotra,Microsoft,ashnamehrotra,
 ,,Jeremy Rickard,Microsoft,jeremyrickard,
