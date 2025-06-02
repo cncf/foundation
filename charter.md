@@ -371,7 +371,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	iii. For new technical specifications or standards that are not designed to be implemented primarily when using or interacting with a particular piece of software, use any of the following: (1) the Community Specification License and governance framework ("CSL"), or (2) one of the Joint Development Foundation Projects, LLC ("JDF") template options; and
 
-	-	iv. For new technical specifications or standards that are designed to be implemented primarily when using or interacting with a particular piece of software (e.g., an API specification), use any of the options listed in paragraph iii. above or the Apache License, Version 2.0.
+	-	iv. For new technical specifications or standards that are designed to be implemented primarily when using or interacting with a particular piece of software (e.g., an API specification), use any of the options listed in paragraph (iii) above or the Apache License, Version 2.0.
 
  -	(b) In the case of code and documentation pertaining to code:
 
