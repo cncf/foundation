@@ -39,12 +39,12 @@ To empower our fast-growing end user community to tell their stories, case studi
 The self-service partnership follows a five-step process:
 
 **1. Proposal**
-* End users submit a [case study proposal](https://forms.gle/3rexeb56aDuYNMga8)
+* End users submit a [case study proposal](https://form.asana.com/?k=Ufi_ZE31X3EAKMTiplIEcA&d=9283783873717)
 
 **2. Review**
-* [marketing@cncf.io](marketing@cncf.io) team reviews proposal within 20 working days
+* The CNCF team reviews proposal within 20 working days
 * If the proposal meets the criteria, the end user is sent a [case study pack](https://drive.google.com/file/d/1a19vzDM7EZtAvBbJnkTeSVbvDp4z5Kex/view?usp=sharing) 
-* If the proposal doesn’t meet the criteria, the [marketing@cncf.io](marketing@cncf.io) team will provide feedback and the end user is invited to resubmit 
+* If the proposal doesn’t meet the criteria, the CNCF team will provide feedback and the end user is invited to resubmit 
 
 **3. Creation**
 * End user writes case study
@@ -67,10 +67,6 @@ Case studies are published on [cncf.io](https://www.cncf.io/newsroom/case-studie
 
 CNCF markets the case studies online, through social media, blog promotion, and the CNCF newsletter. In some cases, the case study will be shared via social media. End users are encouraged to leverage CNCF’s numerous marketing channels to amplify their case study. We ask that you share the case study on your platforms as well
 
-### Summary ###
-
-If you have any questions or feedback about the Written Case Study program, please email [marketing@cncf.io](marketing@cncf.io).
-
 
 # End User Journey Report # 
 
@@ -83,7 +79,7 @@ End User Journey Reports are comprehensive deep-dives, demonstrating how organiz
 End User Journey Reports are managed, written and produced by CNCF, in close collaboration with End User Members.
 Participants will need to:
 **1. Proposal**
-* To participate in an End User Journey Report, submit a [proposal](https://forms.gle/y2wqydF1hVGBRXGEA)
+* To participate in an End User Journey Report, submit a [proposal]
   * Complete initial proposal which covers:
       * How long have you been using CNCF projects?
       * Which projects do you use?
@@ -91,9 +87,9 @@ Participants will need to:
       * Do employees of your organization take an active role in CNCF -- for example, chairing committees, or speaking at KubeCon + CloudNativeCon?
    
 **2. Review**
-* [marketing@cncf.io](marketing@cncf.io) team reviews proposal within 20 working days
+* The CNCF team reviews proposal within 20 working days
 * If the proposal meets the criteria, the marketing team reaches out to set up an interview
-* If the proposal doesn’t meet the criteria, the [marketing@cncf.io](marketing@cncf.io) team will provide feedback and the end user is invited to resubmit
+* If the proposal doesn’t meet the criteria, the CNCF team will provide feedback and the end user is invited to resubmit
 
 **3. Creation**  
 * Nominate 1-2 employees to take part in an hour-long interview
@@ -116,6 +112,3 @@ Participants will need to:
 
 End User Journey Reports are published on [cncf.io](cncf.io) and marketed through social media, blog promotion, and the CNCF newsletter. Participating End Users may be asked to join media interviews or speaking opportunities with CNCF leaders. End users are encouraged to leverage CNCF’s numerous marketing channels to amplify their End User Journey Report. We ask that you share the report on your platforms as well.
 
-### Summary ###
-
-If you have any questions or feedback about the End User Journey Report program, please email [marketing@cncf.io](marketing@cncf.io).
