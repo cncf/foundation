@@ -73,7 +73,7 @@ You are encouraged to promote published blogs through social media.
 
 ## Submission Process ##
 1. Proposal
-   * Submit your blog post in a google doc or word document with any images that needed to uploaded to [Marketing Sumbission Form](https://form.asana.com/?k=Ufi_ZE31X3EAKMTiplIEcA&d=9283783873717).
+   * Submit your blog post in a google doc or word document with any images that needed to uploaded to [Marketing Submission Form](https://form.asana.com/?k=Ufi_ZE31X3EAKMTiplIEcA&d=9283783873717).
    * For previously published content, include the complete article or presentation along with explicit permission for republishing.
 2. Review
    *  The CNCFteam will typically responds within 7–10 business days, though response times may be longer around KubeCon + CloudNativeCon events due to increased volume.
