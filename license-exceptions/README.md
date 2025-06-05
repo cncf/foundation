@@ -14,8 +14,8 @@ For convenience, the manifests also contain a list of certain other dependencies
 
 Dependencies that are not currently listed in the manifests, but which satisfy (a) or (b) in the preceding paragraph, are automatically approved and do not need separate license exceptions.
 
-[Allowlist Policy]: https://github.com/cncf/foundation/blob/master/allowed-third-party-license-policy.md#cncf-allowlist-license-policy
-[CNCF charter]: https://github.com/cncf/foundation/blob/master/charter.md
+[Allowlist Policy]: https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy
+[CNCF charter]: https://github.com/cncf/foundation/blob/main/charter.md
 
 ## GPL exceptions for in-kernel eBPF programs
 

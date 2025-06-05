@@ -34,6 +34,6 @@
 
 | NAME                              	| LINK                                                                                                           	|
 |-----------------------------------	|----------------------------------------------------------------------------------------------------------------	|
-| CNCF Style Guide                  	| https://github.com/cncf/foundation/blob/master/style-guide.md                                                  	|
-| CNCF Cloud Native Definition v1.0 	| https://github.com/cncf/toc/blob/master/DEFINITION.md                                                          	|
+| CNCF Style Guide                  	| https://github.com/cncf/foundation/blob/main/style-guide.md                                                  	|
+| CNCF Cloud Native Definition v1.0 	| https://github.com/cncf/toc/blob/main/DEFINITION.md                                                          	|
 | 翻译规范                          	| https://github.com/kubernetes/kubernetes-docs-zh/blob/master/README-CN.md#%E7%BF%BB%E8%AF%91%E8%A7%84%E8%8C%83 	|

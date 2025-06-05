@@ -14,16 +14,16 @@ body:
         Before submitting this License Exception Request, please familiarize yourself with the following:
 
         - the CNCF IP Policy, from [section 11 of the CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy), particularly 11(g)
-        - the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)
+        - the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)
         - the [HOWTO for submitting a license exception request](https://contribute.cncf.io/resources/how-to/submit-license-exception-request/)
 
 
         If the license for a particular component or dependency is one of the following, please also read the noted guidance before proceeding:
 
 
-        - AGPL-3.0 (Affero GPL v3): [AGPL guidance](https://github.com/cncf/foundation/blob/main/agpl-recommendations.md)
-        - A component that has relicensed to a non-open source, "source available” license: [Source available guidance](https://github.com/cncf/foundation/blob/main/source-available-recommendations.md)
-        - Interactions generally with source available and other proprietary licenses: [Proprietary / source available guidance](https://github.com/cncf/foundation/blob/main/proprietary-interactions-guidance.md)
+        - AGPL-3.0 (Affero GPL v3): [AGPL guidance](https://github.com/cncf/foundation/blob/main/policies-guidance/agpl-recommendations.md)
+        - A component that has relicensed to a non-open source, "source available” license: [Source available guidance](https://github.com/cncf/foundation/blob/main/policies-guidance/source-available-recommendations.md)
+        - Interactions generally with source available and other proprietary licenses: [Proprietary / source available guidance](https://github.com/cncf/foundation/blob/main/policies-guidance/proprietary-interactions-guidance.md)
 
 
         # When no exception is required
@@ -33,7 +33,7 @@ body:
 
         - is entirely licensed under Apache-2.0 for code; or
         - is entirely licensed under CC-BY-4.0 for documentation; or
-        - satisfies the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); or
+        - satisfies the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); or
         - is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md) or another previously-granted exception for an equivalent use case.
 
         <br />
@@ -98,7 +98,7 @@ body:
 
         The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
 
-        Please see "[Scope and Nature of Dependencies](https://github.com/cncf/foundation/blob/main/recommendations-for-attribution.md#scope-and-nature-of-dependencies)” for details on how the following terms are being used here.
+        Please see "[Scope and Nature of Dependencies](https://github.com/cncf/foundation/blob/main/policies-guidance/recommendations-for-attribution.md#scope-and-nature-of-dependencies)” for details on how the following terms are being used here.
 
         <br />
         

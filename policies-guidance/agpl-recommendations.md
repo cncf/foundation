@@ -91,6 +91,6 @@ exception.
   Apache-2.0 or a similar permissive license, that may also make it more
   acceptable as an exception.
 
-[CNCF Charter]: https://github.com/cncf/foundation/blob/master/charter.md
-[Allowlist License Policy]: https://github.com/cncf/foundation/blob/master/allowed-third-party-license-policy.md
+[CNCF Charter]: https://github.com/cncf/foundation/blob/main/charter.md
+[Allowlist License Policy]: https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md
 [AGPL-3.0]: https://www.gnu.org/licenses/agpl-3.0.en.html

@@ -53,7 +53,7 @@ Informational, engaging, and ecosystem-focused content:
 * Thought leadership: insights, perspectives, learnings, and experiences 
 
 ### Strategy
-* Keep messages positive and uplifting, consistent with the [values and principles of CNCF](https://github.com/cncf/foundation/blob/master/charter.md)
+* Keep messages positive and uplifting, consistent with the [values and principles of CNCF](https://github.com/cncf/foundation/blob/main/charter.md)
 * Communicate big picture ideas vs “announcements” or news. News will be positioned less like an announcement and more around what it means.
 * Share content across social media channels that benefit the ecosystem as a whole
 * Maintain a balance of posting on CNCF activities/news and ecosystem-focused content 

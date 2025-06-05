@@ -1,6 +1,6 @@
 # Cloud Native Computing Foundation Slack Guidelines v1.0
 
-The [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md) applies in all areas in addition to these rules:
+The [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md) applies in all areas in addition to these rules:
 
 ## Channel Spamming
 Outside of the issue queues, this is our best communication medium for projects. Please keep your messages on topic for each channel, and please use the appropriate channel. Spamming channels with unsolicited or frequent messages is not allowed.
