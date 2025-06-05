@@ -1,12 +1,12 @@
 ,Project,Maintainer Name,Company,Github Name,OWNERS/MAINTAINERS
-Graduated,Kubernetes,Antonio Ojea,Google,aojea,https://git.k8s.io/steering#members
+Graduated,Kubernetes steering,Antonio Ojea,Google,aojea,https://git.k8s.io/steering#members
 ,,Benjamin Elder,Google,BenTheElder,
 ,,Maciej Szulik,Defense Unicorns,soltysh,
 ,,Paco Xu 徐俊杰,DaoCloud,pacoxu,
 ,,Patrick Ohly,Intel,pohly,
 ,,Sascha Grunert,Red Hat,saschagrunert,
 ,,Stephen Augustus,Bloomberg,justaugustus,
-,Kubernetes:,Adolfo García Veytia,"Carabiner Systems, Inc",puerco,
+,Kubernetes maintainers,Adolfo García Veytia,"Carabiner Systems, Inc",puerco,
 ,,Anish Ramasekar,Microsoft,aramase,
 ,,Aravindh Puthiyaparambil,Softdrive Technologies Group Inc.,aravindhp,
 ,,Arda Guclu,Red Hat,ardaguclu,
