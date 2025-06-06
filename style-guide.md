@@ -22,7 +22,7 @@ as the proper style.
 The words should be lowercase, except in organization names like the Cloud Native Computing Foundation and Open Source
 Initiative. Normal capitalization rules apply at the beginning of a sentence and in titles.
 
-The CNCF Cloud Native [Definition](https://github.com/cncf/toc/blob/master/DEFINITION.md) is available in multiple languages.
+The CNCF Cloud Native [Definition](https://github.com/cncf/toc/blob/main/DEFINITION.md) is available in multiple languages.
 
 ## 2. Kubernetes ##
 

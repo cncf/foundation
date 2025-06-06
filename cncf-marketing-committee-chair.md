@@ -1,6 +1,6 @@
 # CNCF Marketing Committee Chair #
 
-*Role, as defined in the [CNCF Charter](https://github.com/cncf/foundation/blob/master/charter.md#10-marketing-committee)*
+*Role, as defined in the [CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md#10-marketing-committee)*
 
 ## Overview ##
 

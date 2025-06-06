@@ -103,5 +103,5 @@ This could be done in the file itself, or in a root-level file such as THIRD-PAR
 
 The [REUSE Software Initiative](https://reuse.software/spec/) also contains recommendations for placing license texts within a `/LICENSES/` directory.
 
-[CNCF Charter]: https://github.com/cncf/foundation/blob/master/charter.md
-[CNCF attribution recommendations]: https://github.com/cncf/foundation/blob/main/recommendations-for-attribution.md
+[CNCF Charter]: https://github.com/cncf/foundation/blob/main/charter.md
+[CNCF attribution recommendations]: https://github.com/cncf/foundation/blob/main/policies-guidance/recommendations-for-attribution.md

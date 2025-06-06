@@ -11,7 +11,7 @@ The CNCF End User Stories Program features real-world use cases and the impact C
   * Case studies from vendor companies selling cloud native services to external organizations are not eligible
 * Participate in an [End User Journey Report](#end-user-journey-report) and demonstrate how your organization has grown as technology leader 
   * Open to all Platinum and Gold End User Members 
-* Leveraging CNCF’s [Online Programs](https://github.com/cncf/foundation/blob/master/online-programs-guidelines.md) to showcase a case study webinar or submit a pre-recorded video case study for our YouTube channels
+* Leveraging CNCF’s [Online Programs](https://github.com/cncf/foundation/blob/main/policies-guidance/online-programs-guidelines.md) to showcase a case study webinar or submit a pre-recorded video case study for our YouTube channels
   * Open to all CNCF members
 
 
@@ -52,7 +52,7 @@ The self-service partnership follows a five-step process:
 
 **4. Editing**
 * CNCF reviews the case study and makes any necessary edits as suggestions
-* Edits are based on the [style guide and case study criteria](https://github.com/cncf/foundation/blob/master/style-guide.md) 
+* Edits are based on the [style guide and case study criteria](https://github.com/cncf/foundation/blob/main/style-guide.md) 
 * End user is welcome to make further edits or additions to the case study
 * End user confirms when the draft is final and manages any approval processes
 

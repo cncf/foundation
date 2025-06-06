@@ -5,19 +5,19 @@ This repo contains several documents related to the operation of the [Cloud Nati
 ## Governance
 
 * The [charter](charter.md) under which CNCF operates
-* [Maintainer election policy](maintainers-election-policy.md) for the maintainer-elected TOC member and the two maintainers on the governing board
+* [Maintainer election policy](policies-guidance/maintainers-election-policy.md) for the maintainer-elected TOC member and the two maintainers on the governing board
 * The [membership](cncf-membership-agreement.pdf) agreement
 * The [Code of Conduct](code-of-conduct.md) which has been translated into multiple languages
 
 ## Project Guidance
 
-* [Copyright](copyright-notices.md) notice recommendations
-* [Website guidelines](website-guidelines.md) for mentioning companies while maintaining neutrality
-* [Allowlist License Policy](allowed-third-party-license-policy.md) for which licenses are acceptable in upstream dependencies without requiring an explicit vote of the governing board
+* [Copyright](policies-guidance/copyright-notices.md) notice recommendations
+* [Website guidelines](policies-guidance/website-guidelines.md) for mentioning companies while maintaining neutrality
+* [Allowlist License Policy](policies-guidance/allowed-third-party-license-policy.md) for which licenses are acceptable in upstream dependencies without requiring an explicit vote of the governing board
 
 ## Community recommendations
 
-* [CNCF Blog Guidelines](blog-guidelines.md) outlining who can submit, suggested topics, and how to submit. 
+* [CNCF Blog Guidelines](policies-guidance/blog-guidelines.md) outlining who can submit, suggested topics, and how to submit. 
 * A [style guide](style-guide.md) with recommendations for cloud native terminology
 * A [translation guide](translation.md) for the Chinese equivalent of cloud native phrases
 

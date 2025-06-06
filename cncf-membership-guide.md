@@ -114,7 +114,7 @@ Creating and sharing valuable content enhances your organization's reputation an
 
 - Create tutorials, blog posts, and videos about the use of CNCF technologies
 - Share success stories of integrating projects with organizational products
-- Review [CNCF's Blog Program guidelines and submission process](https://github.com/cncf/foundation/blob/main/blog-guidelines.md)
+- Review [CNCF's Blog Program guidelines and submission process](https://github.com/cncf/foundation/blob/main/policies-guidance/blog-guidelines.md)
 
 ## Track and Measure ROI
 

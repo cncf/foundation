@@ -169,11 +169,11 @@ programs generally, as well as some other Linux Foundation projects that have
 implemented a conformance program.
 
 [LF blog post]: https://www.linuxfoundation.org/en/blog/driving-compatibility-with-code-and-specifications-through-conformance-trademark-programs/
-[Certified Kubernetes badge]: https://github.com/cncf/artwork/blob/master/projects/kubernetes/certified-kubernetes/versionless/color/certified-kubernetes-color.png
-[Certified Kubernetes Brand Guidelines]: https://github.com/cncf/artwork/blob/master/projects/kubernetes/certified-kubernetes/certified-kubernetes-brand-guide.pdf
+[Certified Kubernetes badge]: https://github.com/cncf/artwork/blob/main/projects/kubernetes/certified-kubernetes/versionless/color/certified-kubernetes-color.png
+[Certified Kubernetes Brand Guidelines]: https://github.com/cncf/artwork/blob/main/projects/kubernetes/certified-kubernetes/certified-kubernetes-brand-guide.pdf
 [Certified Kubernetes T&Cs]: https://github.com/cncf/k8s-conformance/blob/master/terms-conditions/Certified_Kubernetes_Terms.md
 [Certified Kubernetes Participation Form]: https://github.com/cncf/k8s-conformance/blob/master/participation-form/Certified_Kubernetes_Form.pdf
 [Certified Kubernetes repo]: https://github.com/cncf/k8s-conformance/
 [Certified Kubernetes offerings]: https://www.cncf.io/certification/software-conformance/
-[CNCF Charter]: https://github.com/cncf/foundation/blob/master/charter.md
+[CNCF Charter]: https://github.com/cncf/foundation/blob/main/charter.md
 [Linux Foundation Antitrust Policy]: https://www.linuxfoundation.org/antitrust-policy/

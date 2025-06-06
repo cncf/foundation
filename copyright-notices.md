@@ -84,4 +84,4 @@ every copyright holder for contributions to every file:
 - The specific individual or legal entity that owns the copyright might not be
   known to the contributor; it could be you, your employer, or some other entity.
 
-[CNCF attribution recommendations]: https://github.com/cncf/foundation/blob/main/recommendations-for-attribution.md
+[CNCF attribution recommendations]: https://github.com/cncf/foundation/blob/main/policies-guidance/recommendations-for-attribution.md

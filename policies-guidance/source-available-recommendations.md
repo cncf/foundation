@@ -16,7 +16,7 @@ approved as exceptions, when used in an unmodified manner provided certain other
 
 In early 2021, CNCF projects discovered that some existing
 dependencies they were using had been relicensed in subsequent releases by their licensors from
-Apache-2.0 to the GNU Affero General Public License v3.0, [AGPL-3.0]. Following such changes, [CNCF published guidance and recommendations for the community regarding such dependencies](https://github.com/cncf/foundation/blob/main/agpl-recommendations.md).
+Apache-2.0 to the GNU Affero General Public License v3.0, [AGPL-3.0]. Following such changes, [CNCF published guidance and recommendations for the community regarding such dependencies](https://github.com/cncf/foundation/blob/main/policies-guidance/agpl-recommendations.md).
 
 Separately, other dependencies that were once available under Apache-2.0 or other permissive licenses have been relicensed such that, while being "source available", newer versions are no longer available under open source licenses. This document is intended to provide guidance to the CNCF community regarding such source available licenses.
 
@@ -125,9 +125,9 @@ Here are a few guidelines and recommendations that a forked project will want to
 * **Do** consider establishing a process for reviewing pull requests to confirm they are not similar to the post-fork upstream source.
   - Depending on whether it is feasible given the project's size and the number of maintainers, a maintainer or reviewer who reviews a questionable pull request can subsequently limit their development in that area of the codebase to minimize this risk that their exposure to post-fork upstream code could influence their future contributions.
 
-[CNCF Charter]: https://github.com/cncf/foundation/blob/master/charter.md
+[CNCF Charter]: https://github.com/cncf/foundation/blob/main/charter.md
 [CNCF Service Desk]: https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1/group/1/create/14
-[Allowlist License Policy]: https://github.com/cncf/foundation/blob/master/allowed-third-party-license-policy.md
+[Allowlist License Policy]: https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md
 [AGPL-3.0]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [Open Source Definition]: https://opensource.org/osd/
 [Open Source Initiative]: https://opensource.org/
