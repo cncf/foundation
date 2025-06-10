@@ -20,7 +20,7 @@ Members
 * Silver members are eligible for 2 activities per quarter including on-demand webinars and livestreams. (Only 1 can be livestream, you get to choose.)
 * End user supporter members cannot hold a webinar.
 * CNCF Member webinars will have “member webinar” in the YouTube description.
-* All luvestreams and webinars (live or on-demand) make it to a YouTube playlist on the [CNCF YouTube channel](https://www.youtube.com/@cncf).
+* All livestreams and webinars (live or on-demand) make it to a YouTube playlist on the [CNCF YouTube channel](https://www.youtube.com/@cncf).
 
 Projects
 * Graduated and incubating projects can participate in our online programs via livestream. These livestreams can demonstrate release features and details or provide a project update. 
@@ -72,15 +72,14 @@ Note: This is not a link to a CNCF website or form on the CNCF website.
 
 ## Submit to participate in online programs + deadlines ##
 
-If you are a CNCF member and eligible to participate in our online programs, [please submit your request here](http://marketingform.cncf.io/). We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following deadlines for submissions (once date is secured):
-* Live webinars: Slides due 1 week in advance of presentation
-* On-demand webinars: Slides and recording due 2 weeks in advance of presentation
-* Livestreams: High level outline of talk including live demos due 1 week prior to show
+If you are a CNCF member and eligible to participate in our online programs, [please submit your request here](http://marketingform.cncf.io/). We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following will also be due upon submission:
+* Live webinar slides
+* On-demand webinar slides and recording
+* Livestreams: High level outline of talk including live demos
 * Notes for all submissions:
 	* Your event will *not* be published and promoted on cncf.io until you have submitted your title and abstract
  	* Character limit for titles is 81
 	* Character limit for abstract is 10,000
-	* You may submit your title, abstract, speaker bios, speaker titles and speaker headshots to onlineprograms@cncf.io if they do not fit in the Calendly form
-	* If we do not receive your information at least 1 week prior to your event we will reach out to move the date so that your event can be properly promoted
+	* Please submit your title, abstract, speaker bios, speaker titles and speaker headshots upon submission
 
-## Please reach out to onlineprograms@cncf.io with any questions ##
+### If we do not receive all neccessary documents and assets upon submission, your online program is subject to proponement
