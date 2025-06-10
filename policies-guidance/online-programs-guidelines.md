@@ -8,22 +8,19 @@ Please note: We are unable to share leads due to the Linux Foundation privacy po
 
 ## Publishing schedule ##
 
-Live webinars are hosted on Tuesdays at 10am PT once per month.
-
-Livestreams are hosted on Tuesdays and Wednesdays from 9-10am PT.
+Live webinars and Livestreams are hosted on Tuesdays or Wednesdays at 10am PT once per month.
 
 On-demand webinars premiere on Thursdays.
-
-Every Friday, CNCF YouTube playlists are updated with curated vendor neutral content from our members.
 
 ## Who can participate in CNCF Online Programs ##
  
 Members 
-* Platinum members are eligible for 4 activities per quarter including live webinar, on-demand webinar, livestream, and YouTube playlist submission. 
-* Gold members are eligible for 4 activities per quarter including on-demand webinar, livestream, and YouTube playlist submission. (Only 1 can be livestream, you get to choose.)
-* Silver members are eligible for 2 activities per quarter including on-demand webinars, livestream, and YouTube playlist submission. (Only 1 can be livestream, you get to choose.)
+* Platinum members are eligible for 4 activities per quarter including live webinar, on-demand webinar, and a livestream.
+* Gold members are eligible for 4 activities per quarter including on-demand webinar or livestream (Only 1 can be livestream, you get to choose.)
+* Silver members are eligible for 2 activities per quarter including on-demand webinars and livestreams. (Only 1 can be livestream, you get to choose.)
 * End user supporter members cannot hold a webinar.
 * CNCF Member webinars will have “member webinar” in the YouTube description.
+* All luvestreams and webinars (live or on-demand) make it to a YouTube playlist on the [CNCF YouTube channel](https://www.youtube.com/@cncf).
 
 Projects
 * Graduated and incubating projects can participate in our online programs via livestream. These livestreams can demonstrate release features and details or provide a project update. 
@@ -39,7 +36,7 @@ Ambassadors
 * Live webinars
 	* Only offered to Platinum members with 1 slot/month 
 	* Day of webinar - 15 minute soundcheck
-	* Premiere date - Tuesdays at 10am PT
+	* Premiere date - Tuesdays or Wednesdays at 10am PT
 * On-demand webinars
 	* Members submit their own pre-recorded content and it will be assigned a publish date based on the editorial calendar. Content cannot be from previous KubeCon + CloudNativeCons.
 	* Premiere date - Thursdays
@@ -49,10 +46,6 @@ Ambassadors
 	* We will require a high level outline to be provided including any demos you will present one week prior to the event
 	* CNCF Ambassador will join the stream as co-host
 	* Premiere date - Tuesdays and Wednesdays (2 per week)
-* YouTube Playlist submission
-	* Submit pre-recorded content (must be relevant to the last six months and can include previous KubeCon presentations) to our curated theme playlists on YouTube via Google Form
-	* CNCF staff  updates playlists 1x/week - Fridays
-
 
 
 ## Online Programs content guidelines ##
@@ -66,7 +59,7 @@ Ambassadors
 	* Unlicensed or potentially closed-source technologies
 * Webinars should not be promotional.
 * It is NOT okay to mislead or misrepresent features of CNCF projects.
-* All Online Programs are subject to the CNCF Code of Conduct.
+* All Online Programs are subject to [the CNCF Code of Conduct](https://www.cncf.io/conduct/).
 
 Members can add a CTA (Call to Action) at the end of their webinar or livestream on where to get more information. 
 Examples:
@@ -79,11 +72,10 @@ Note: This is not a link to a CNCF website or form on the CNCF website.
 
 ## Submit to participate in online programs + deadlines ##
 
-If you are a CNCF member and eligible to participate in our online programs, [please submit your request here](https://calendly.com/cncfonlineprograms?month=2021-03&date=2021-03-10). We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following deadlines for submissions (once date is secured):
+If you are a CNCF member and eligible to participate in our online programs, [please submit your request here](http://marketingform.cncf.io/). We are always accepting submissions and will get in touch with you once your submission is received and to discuss next steps for scheduling. Please note the following deadlines for submissions (once date is secured):
 * Live webinars: Slides due 1 week in advance of presentation
 * On-demand webinars: Slides and recording due 2 weeks in advance of presentation
 * Livestreams: High level outline of talk including live demos due 1 week prior to show
-* YouTube playlist submissions for the corresponding week are due 11:59 PM PT on Wednesdays to make Friday publish date
 * Notes for all submissions:
 	* Your event will *not* be published and promoted on cncf.io until you have submitted your title and abstract
  	* Character limit for titles is 81
