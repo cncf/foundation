@@ -1,26 +1,26 @@
 # HOWTO Backup Private Channels and DMs from Slack
 
-To back up private channels, and direct message chains, from Slack we currently recommend [slackdump](https://github.com/rusq/slackdump).
+To back up private channels - and direct message chains - from Slack we currently recommend [slackdump](https://github.com/rusq/slackdump).
 
-It is a relatively easy to use commandline tool to backup your channels and DMs and store the data locally. No fees or 3rd-party online storage is involved, making it suitable for even confidential private channels.
+It is a relatively easy to use command line tool to backup your channels and DMs and store the data locally. No fees or 3rd-party online storage are involved, making it suitable for even confidential private channels.
 
 ## Preparing to Export
 
-Decide which member of your private channel will archive it. This should be someone who is prepared to follow up before the June 20th deadline, and can easily install and use Slackdump. You should also give some thought as to [what you will do with the archive files](#what-should-i-do-with-the-backup-files) afterwards, although the critical thing is to make sure that someone makes a copy before the deadline.
+Decide which member of your private channel will archive it. This should be someone who is prepared to follow up before the June 20th deadline, and can easily install and use `slackdump`. You should also give some thought as to [what you will do with the archive files](#what-should-i-do-with-the-backup-files) afterwards, although the critical thing is to make sure that someone makes a copy before the deadline.
 
-## Installing Slackdump
+## Installing `slackdump`
 
-Slackdump is supporting various platforms. You can find the latest release [here](https://github.com/rusq/slackdump/releases/tag/v3.1.4). The installation instructions below are taken from [the official instructions of the project](https://github.com/rusq/slackdump/?tab=readme-ov-file#installation-and-quickstart) with a few additions based on our experience.
+`slackdump` supports various platforms. You can find the latest release [here](https://github.com/rusq/slackdump/releases/tag/v3.1.4). The installation instructions below are taken from [the official instructions of the project](https://github.com/rusq/slackdump/?tab=readme-ov-file#installation-and-quickstart) with a few additions based on our experience.
 
 ### MacOS
 
-The easiest way to install on a Mac is using Brew:
+The easiest way to install on a Mac is using [Homebrew](https://brew.sh/):
 
-```
+```shell
 brew install slackdump
 ```
 
-Some Linux distros also support Brew, which can be an easy way to install there as well.
+Some Linux distros also support Homebrew, which can be an easy way to install there as well.
 
 ### Other OSes
 
@@ -43,18 +43,18 @@ To work around this:
   Anyway" button.
 - **on macOS** 14 Sonoma and prior:  open the folder in Finder, hold Option
   and double click the executable, choose Run.
-- **on macOS** 15 Sequoia and later:  start the slackdump, OS will show the
+- **on macOS** 15 Sequoia and later:  start `slackdump`, OS will show the
   "Unknown developer" window, then go to System Preferences -> Security and
   Privacy -> General, and press "Open Anyway" button.
 
-## Basic Slackdump Navigation
+## Basic `slackdump` Navigation
 
-Most of the Slackdump CLI uses this basic navigation:
+Most of the `slackdump` CLI uses this basic navigation:
 
-* Use TAB to navigate between fields
-* Use up and down arrows to navigate between items on a list
-* Use ENTER to select an option
-* Use ESC to go back to a higher-level menu
+- Use TAB to navigate between fields
+- Use up and down arrows to navigate between items on a list
+- Use ENTER to select an option
+- Use ESC to go back to a higher-level menu
 
 ## Step by Step Walkthrough
 
@@ -100,13 +100,13 @@ Now you can export the channel contents, selecting each channel via its ID. We r
 
 ![screenshot of the UI showing the options for exporting a channel](media/slack-backup/exportdata1.jpeg)
 
-Once you have selected all the options, hit ESC to go back, and choose "Run Export". Slackdump will do a lot of pulling data, and eventually create a zip file in the root of your home directory.
+Once you have selected all the options, hit ESC to go back, and choose "Run Export". `slackdump` will do a lot of pulling data, and eventually create a zip file in the root of your home directory.
 
-![example of Slackdump exporting a channel](media/slack-backup/exportdata2.jpeg)
+![example of slackdump exporting a channel](media/slack-backup/exportdata2.jpeg)
 
-## View the export:
+## View the export
 
-Once the workspace data is dumped, you can run built-in viewer:
+Once the workspace data is dumped, you can run the built-in viewer:
 
 ```shell
 slackdump view <zip or directory>
@@ -114,7 +114,7 @@ slackdump view <zip or directory>
 
 The built-in viewer supports all types of dumps:
 
-1. Slackdump Archive format
+1. `slackdump` Archive format
 1. Standard and Mattermost Slack Export
 1. Dump mode files
 
