@@ -62,7 +62,7 @@ Use the wizard to get started:
 
 ![screenshot of starting the wizard](media/slack-backup/runwizard.jpeg)
 
-Choose "Workspace", and then "New" to authenticate for the Kubernetes Slack. You will be prompted to choose a method for logging in.
+Choose "Workspace", and then "New" to authenticate for the CNCF Slack. You will be prompted to choose a method for logging in.
 
 ![screenshot of login choices menu](media/slack-backup/login.jpeg)
 
@@ -70,11 +70,11 @@ You can select any of the login options that work for you. For some users, the d
 
 ![screenshot of cookie login choice](media/slack-backup/cookielogin.jpeg)
 
-To retrieve the Cookie, Login into [https://kubernetes.slack.com](https://kubernetes.slack.com) with your credentials through your regular browser. You can retrieve the cookie using your browser's web developer tools (this works on both Firefox and Chrome). It will start with the string `xoxd`.
+To retrieve the Cookie, Login into [https://cloud-native.slack.com](https://cloud-native.slack.com) with your credentials through your regular browser. You can retrieve the cookie using your browser's web developer tools (this works on both Firefox and Chrome). It will start with the string `xoxd`.
 
 ![screenshot of looking at the cookie in Chrome web developer tools](media/slack-backup/getcookie.jpeg)
 
-Enter "kubernetes" for the workspace name, your session cookie, and select "Yes" for "Confirm creation of workspace" to create credentials.
+Enter "cloud-native" for the workspace name, your session cookie, and select "Yes" for "Confirm creation of workspace" to create credentials.
 
 ![screenshot of the create credentials from cookie interface](media/slack-backup/createcredential.jpeg)
 
