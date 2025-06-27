@@ -410,7 +410,6 @@ Graduated,TiKV,Siddon Tang,PingCAP,siddontang,https://github.com/tikv/tikv/blob/
 ,,Fu Chen,Yidianzixun,fredchenbj,
 Graduated,CloudEvents,Doug Davis,Microsoft,duglin,https://github.com/cloudevents/spec/blob/main/OWNERS
 ,,Mark Peek,VMware,markpeek,
-,,Ken Owens,Mastercard,kenowens12,
 ,,Klaus Deissner,SAP,deissnerk,
 Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
 ,,Carlos Tadeu Panato Junior,Chainguard,cpanato,
@@ -1960,3 +1959,5 @@ Sandbox,kagent,Art Berger,Solo.io,artberger,https://github.com/kagent-dev/commun
 ,,Peter Jausovec,Solo.io,peterj,
 ,,Scott Weiss,Solo.io,ilackarms,
 ,,Yuval Kohavi,Solo.io,yuval-k,
+Sandbox,xregistry,Doug Davis,,duglin,https://github.com/xregistry/spec/blob/main/OWNERS
+,,Klaus Deissner,SAP,deissnerk,
