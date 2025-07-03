@@ -11,7 +11,7 @@ This repo contains several documents related to the operation of the [Cloud Nati
 
 ## Project Guidance
 
-* [Copyright](policies-guidance/copyright-notices.md) notice recommendations
+* [Copyright](copyright-notices.md) notice recommendations
 * [Website guidelines](policies-guidance/website-guidelines.md) for mentioning companies while maintaining neutrality
 * [Allowlist License Policy](policies-guidance/allowed-third-party-license-policy.md) for which licenses are acceptable in upstream dependencies without requiring an explicit vote of the governing board
 
