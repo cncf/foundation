@@ -52,7 +52,7 @@ The primary audience for CNCF blogs is developers, IT operators, and cloud nativ
 ### Best Practices: ###
 * Vendor-Neutrality: Mention vendors only in contexts directly related to open-source projects, meaningful community participation, or event involvement. Promotional or advertising content, announcements, and press releases are not accepted.
 
-* Technical & Educational Value: Strongly encouraged are how-to articles, technical deep dives, tutorials, and innovative use-cases.
+* Technical & Educational Value: Strongly encouraged are how-to articles, technical deep dives, tutorials, and innovative use cases.
 
 * Community Relevance: Posts describing real-world challenges and the solutions adopted often generate significant community interest.
 
@@ -73,13 +73,13 @@ You are encouraged to promote published blogs through social media.
 
 ## Submission Process ##
 1. Proposal
-   * Submit your blog post in a google doc or word document with any images that needed to uploaded to [Marketing Submission Form](https://form.asana.com/?k=Ufi_ZE31X3EAKMTiplIEcA&d=9283783873717).
+   * Submit your blog post in a Google doc or word document with any images that needed to uploaded to [Marketing Submission Form](https://form.asana.com/?k=Ufi_ZE31X3EAKMTiplIEcA&d=9283783873717).
    * For previously published content, include the complete article or presentation along with explicit permission for republishing.
 2. Review
-   *  The CNCFteam will typically responds within 7–10 business days, though response times may be longer around KubeCon + CloudNativeCon events due to increased volume.
+   *  The CNCF team will typically responds within 7–10 business days, though response times may be longer around KubeCon + CloudNativeCon events due to increased volume.
    *  If the proposal meets the criteria, and no edits are required the marketing team will reach out with an expected publication date. Please note that delivery or publication may take 2–3 weeks, depending on scope and complexity.
    *  If the proposal doesn’t meet the criteria, the CNCF team will provide feedback for the author.
-3. Editng
+3. Editing
    * CNCF reviews the blog and makes any necessary edits as suggestions
 4. Publishing
    * CNCF prepares the blog for publication
