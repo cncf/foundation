@@ -183,7 +183,7 @@ Utilize these additional resources to support your CNCF engagement:
 
 - [CNCF Public Events Calendar](https://www.cncf.io/community/calendar/)
 - [Cloud Native Glossary](https://glossary.cncf.io/) (for those new to cloud native)
-- [Wisdom of the Cloud Newsletter](https://www.cncf.io/enduser/wisdom-of-the-cloud/)
+- [CNCF Monthly Newsletter](https://www.cncf.io/newsletter)
 
 ## Conclusion
 
