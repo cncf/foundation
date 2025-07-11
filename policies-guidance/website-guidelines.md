@@ -1,5 +1,6 @@
 August 13, 2017
-Updated: March 6, 2025
+
+Updated: July 9, 2025
 
 CNCF encourages each project to manage its own website, but after consulting with the projects,
 we are publishing a set of guidelines around dealing with potential commercial conflicts.
@@ -30,18 +31,16 @@ this vetting to CNCF staff if it becomes a burden.
 4. Links to companies offering support are expected to go a page that at least mentions support of
 the project. This can either be the company homepage or a project-specific landing page.
 5. If there is a copyright notice at the bottom of the page, copyright should be to the project authors
-or to CNCF, not the origin company. For details, see [Copyright notices](copyright-notices.md).
+or to CNCF, not the origin company. For details, see [Copyright notices](https://github.com/cncf/foundation/blob/main/copyright-notices.md).
 6. CNCF requests that graduated and incubating projects include the sentence “We are a Cloud Native
 Computing Foundation project.” and the CNCF logo near the bottom of their project homepage.
 Sandbox-level projects should include the sentence “We are a Cloud Native Computing Foundation
 sandbox project.” and the CNCF logo. We also appreciate a link to KubeCon + CloudNativeCon as the
 events approach.
-7. Website footers must include trademark guidelines by either linking to [Trademark Usage][]
-(directly or via a "Terms of service" page), or by including the following text: "The Linux Foundation® (TLF)
-has registered trademarks and uses trademarks. For a list of TLF trademarks, see [Trademark Usage][]". 
-If your project has been converted to the Series LLC model (starting in 2025), please use the following 
-in your copyright statement: "Copyright © $PROJECT_NAME a Series of LF Projects, LLC."
+7. Website footers must include trademark guidelines and a copyright notice.
+   ```
+   Copyright © $PROJECT_NAME a Series of LF Projects, LLC
+   For website terms of use, trademark policy and other project policies please see lfprojects.org/policies/.
+   ```
 
-Questions? Email us at info@cncf.io.
-
-[Trademark Usage]: https://www.linuxfoundation.org/trademark-usage/
+Questions? Email us at <info@cncf.io>.
