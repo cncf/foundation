@@ -1463,16 +1463,16 @@ Sandbox,Clusternet,Di Xu,Tencent,dixudx,https://github.com/clusternet/clusternet
 ,,Huifeng Le,Intel,hle2,
 ,,Lingming Xia,Purple Mountain Laboratory,lmxia,
 ,,Yiwei Chen,Independent,yiwei-C,
-Incubating,Keycloak,Stian Thorgersen,Red Hat,stianst,https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md
-,,Alexander Schwartz,Red Hat,ahus1,
-,,Bruno Oliveira da Silva,Red Hat,abstractj,
-,,Marek Posolda,Red Hat,mposolda,
-,,Pedro Igor,Red Hat,pedroigor,
+Incubating,Keycloak,Stian Thorgersen,IBM,stianst,https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md
+,,Alexander Schwartz,IBM,ahus1,
+,,Bruno Oliveira da Silva,IBM,abstractj,
+,,Marek Posolda,IBM,mposolda,
+,,Pedro Igor,IBM,pedroigor,
 ,,Sebastian Schuster,Bosch,sschu,
-,,Stan Silvert,Red Hat,ssilvert,
+,,Stan Silvert,IBM,ssilvert,
 ,,Takashi Norimatsu,Hitachi,tnorimat,
 ,keycloak,Thomas Darimont,Identity Tailor GmbH,thomasdarimont,https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md
-,,Václav Muzikář,Red Hat,vmuzikar,
+,,Václav Muzikář,IBM,vmuzikar,
 Sandbox,Kepler,Huamin Chen,Red Hat,rootfs,https://github.com/sustainable-computing-io/kepler/blob/main/MAINTAINERS.md
 ,,Ji Chen,IBM,jichenjc,
 ,,Maryam Tahhan,Red Hat,maryamtahhan,
