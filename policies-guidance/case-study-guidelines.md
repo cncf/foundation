@@ -10,7 +10,6 @@ You’ve got great case studies. We want our ecosystem (and beyond) to hear abou
 * Open to any end user (CNCF member or non-member companies that use, but don’t sell cloud native technologies) organization working with a * CNCF incubating or graduated project 
 * CNCF members can provide a case study centered on your customer use case with details about how you helped with the implementation
 * All case studies must demonstrate at least one tangible business impact of CNCF incubating or graduated projects
-* NOTE: Case studies from vendor companies selling cloud native services to external organizations are not eligible
  
 [Online Programs](https://github.com/cncf/foundation/blob/main/policies-guidance/online-programs-guidelines.md) – CNCF Member organizations can also submit a case study webinar.
 
