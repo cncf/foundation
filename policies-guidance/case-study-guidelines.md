@@ -36,7 +36,6 @@ You’ve got great case studies. We want our ecosystem (and beyond) to hear abou
   * Please use the active voice in CNCF case studies. More information on active vs passive voices can be [found here](https://www.grammarly.com/blog/active-vs-passive-voice/) 
 * Conversational and honest: avoid jargon-heavy corporate speak
   * All CNCF publications use "open source" and "cloud native" as the proper style
-  * Projects use different styles of capitalization. Reference the [graduated and incubating project listing](https://www.cncf.io/projects/%5d) to confirm
 * User-centric: highlight the real-world experience of engineers or decision-makers
 * Outcome-driven: focus on measurable impacts and lessons learned
 * Mention contributions, bug reports, or participation in working groups or KubeCon and other relevant meetups, KCDs, events, and talks.
