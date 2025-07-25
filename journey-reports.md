@@ -6,7 +6,7 @@ A Project Journey Report is an in-depth analysis created by the CNCF to objectiv
 
 [Review other Project Journey Reports](https://www.cncf.io/reports?_sft_lf-report-type=project-journey)
 
-## What you can expect once you submit your PJR request:
+## What you can expect once you submit your PJR request
 
 1. Submit your request and wait for confirmation
 2. CNCF will create a workback plan to share with the maintainers and determine publish date - current turnaround is 6 weeks
@@ -20,41 +20,45 @@ A Project Journey Report is an in-depth analysis created by the CNCF to objectiv
 
 *Suggested amount of time between reports is 2 years*
 
-
-### End User Journey Report Submission Process ### 
+### End User Journey Report Submission Process ###
 
 End User Journey Reports are managed, written and produced by CNCF, in close collaboration with End User Members.
 Participants will need to:
 **1. Proposal**
+
 * To participate in an End User Journey Report, submit a [proposal] - Currently Closed
   * Complete initial proposal which covers:
-      * How long have you been using CNCF projects?
-      * Which projects do you use?
-      * Has your organization contributed to a project/donated a project?
-      * Do employees of your organization take an active role in CNCF -- for example, chairing committees, or speaking at KubeCon + CloudNativeCon?
-   
+    * How long have you been using CNCF projects?
+    * Which projects do you use?
+    * Has your organization contributed to a project/donated a project?
+    * Do employees of your organization take an active role in CNCF -- for example, chairing committees, or speaking at KubeCon + CloudNativeCon?
+
 **2. Review**
+
 * The CNCF team reviews proposal within 20 working days
 * If the proposal meets the criteria, the marketing team reaches out to set up an interview
 * If the proposal doesn’t meet the criteria, the CNCF team will provide feedback and the end user is invited to resubmit
 
 **3. Creation**  
+
 * Nominate 1-2 employees to take part in an hour-long interview
 * CNCF writes end user journey report
 
 **4. Editing**
-* Take part in a follow-up interviews to fact-check and clarify information 
+
+* Take part in a follow-up interviews to fact-check and clarify information
 * Approve written content
 * Approve final designed content
 
 **5. Publishing**
+
 * CNCF prepares the end user journey report for publication
 * Generally end user journey reports are published within 30 days but the timeframe can vary. The case study team will communicate potential publication dates and/or changes to those dates
-* Case study is published to <[https://cncf.io/reports](https://www.cncf.io/reports?_sft_lf-report-type=end-user-journey)>
-* Promotion cycle begins 
+* Case study is published to [cncf.io/reports](https://www.cncf.io/reports?_sft_lf-report-type=end-user-journey)
+* Promotion cycle begins
 
-**Sample End User Journey Report: [Adobe](https://www.cncf.io/reports/adobe-end-user-journey-report/)** 
+**Sample End User Journey Report: [Adobe](https://www.cncf.io/reports/adobe-end-user-journey-report/)**
 
-### Promotion ### 
+### Promotion ###
 
-End User Journey Reports are published on [cncf.io](cncf.io) and marketed through social media, blog promotion, and the CNCF newsletter. Participating End Users may be asked to join media interviews or speaking opportunities with CNCF leaders. End users are encouraged to leverage CNCF’s numerous marketing channels to amplify their End User Journey Report. We ask that you share the report on your platforms as well.
+End User Journey Reports are published on [cncf.io](https://www.cncf.io/) and marketed through social media, blog promotion, and the CNCF newsletter. Participating End Users may be asked to join media interviews or speaking opportunities with CNCF leaders. End users are encouraged to leverage CNCF’s numerous marketing channels to amplify their End User Journey Report. We ask that you share the report on your platforms as well.
