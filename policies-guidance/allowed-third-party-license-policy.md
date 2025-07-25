@@ -41,7 +41,7 @@ To be approved as “allowlisted,” a third-party component must be fully
 licenseable under one or more of the following licenses, and must meet the
 other allowlist criteria set forth in the [Allowlist License Policy] above.
 
-License IDs refer to the SPDX License List at <https://spdx.org/licenses>, except
+License IDs refer to the [SPDX License List](https://spdx.org/licenses), except
 where a URL is specified below for licenses that are not on the SPDX License
 List.
 
