@@ -62,7 +62,7 @@ List.
 - UPL-1.0
 - X11
 - Zlib
-- Google patent license for Golang (<https://golang.org/PATENTS>)
+- [Google patent license for Golang](https://golang.org/PATENTS)
 
 [Allowlist License Policy]: #cncf-allowlist-license-policy
 [Approved Licenses]: #approved-licenses-for-allowlist
