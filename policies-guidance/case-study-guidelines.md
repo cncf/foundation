@@ -82,9 +82,8 @@ You’ve got great case studies. We want our ecosystem (and beyond) to hear abou
 * Future Plans
   * Upcoming initiatives or deeper integration with CNCF technologies
   * Potential for community contributions or open sourcing
-* Quote–must be included 
-  * Someone who worked on or with the project - engineers, SREs, or product leads help humanize the story
-  * Mention CNCF 
+* At least one quote must be included 
+  * From someone who worked on or with the project - engineers, SREs, or product leads help humanize the story 
 
 
 ### How to Submit ###
