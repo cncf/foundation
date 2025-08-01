@@ -56,7 +56,7 @@ The primary audience for CNCF blogs is developers, IT operators, and cloud nativ
 
 * Community Relevance: Posts describing real-world challenges and the solutions adopted often generate significant community interest.
 
-* Comparative and Analytical Content: Articles that help readers navigate choices among technologies or solutions—such as addressing legacy issues or cloud platform compatibility—are valuable. However, in alignment with CNCF Values and Operating Principles, CNCF blogs must remain neutral and collaborative, avoiding any criticism, negative portrayal, or discouragement of any project's adoption. While external platforms may host comparative content that favors adoption of one project over another, the CNCF blog will not.
+* Comparative and Analytical Content: Articles that help readers navigate choices among technologies or solutions—such as addressing legacy issues or cloud platform compatibility—are valuable. However, in alignment with [CNCF Values](https://github.com/cncf/foundation/blob/main/charter.md#3-values) and [Operating Principles](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#no-kingmakers--one-size-does-not-fit-all), CNCF blogs must remain neutral and collaborative, avoiding any criticism, negative portrayal, or discouragement of any project's adoption. While external platforms may host comparative content that favors adoption of one project over another, the CNCF blog will not.
   
 * Links to Upstream Contributions: When referencing project contributions, always link back to relevant GitHub issues or pull requests.
 
