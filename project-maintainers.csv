@@ -1972,11 +1972,6 @@ Sandbox,composefs,Alexander Larsson,Red Hat,alexl,https://github.com/composefs/c
 ,,Giuseppe Scrivano,Red Hat,giuseppe,
 ,,Erik Sjölund,Independent,eriksjolund,
 ,,Colin Walters,Red Hat,cgwalters,
-Sandbox,Curve,Pan WANG,,aspirer,https://github.com/opencurve/curve/blob/master/MAINTAINERS.md
-,,XiaoCui Li,,ilixiaocui,
-,,opencurveadmin, Project Managment,opencurveadmin,
-Sandbox,DevStream,Tiexin Guo,Merico,IronCore864,https://github.com/devstream-io/devstream/blob/main/MAINTAINERS.md
-,,Daniel Hu,Merico,Daniel-hutao,
 Sandbox,Kubeclipper,Wenxiang Wu,99cloud,@wu-wenxiang,https://github.com/kubeclipper/community/blob/main/MAINTAINERS.md
 ,,Xiaowei Zhu,99cloud,x893675,
 ,,Yang Qin,99cloud,qinyer,
@@ -2020,5 +2015,3 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Serge Hallyn,Cisco Systems,hallyn,
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
 ,,Tycho Andersen,Netflix,tych0,
-Sandbox,Teller,Dotan Nahum,,jondot,https://github.com/tellerops/teller/blob/master/MAINTAINERS.md
-,,Elad Kaplan,,kaplanelad,
