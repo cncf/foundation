@@ -1568,7 +1568,7 @@ Sandbox,kcp,Andy Anderson,IBM,clubanderson,https://github.com/kcp-dev/kcp/blob/m
 ,,Sebastian Scheele,Kubermatic,scheeles,
 ,,Stefan Schimanski,Upbound,sttts,
 ,,Christoph Mewes,Kubermatic,xrstf,
-,,Mangirdas Judeikis,synpse.net & Cast.AI,mjudeikis,
+,,Mangirdas Judeikis,Upbound,mjudeikis,
 ,,Marvin Beckers,Kubermatic,embik,
 Incubating,Kubeflow,Aldo Culquicondor,Google,alculquicondor,https://github.com/kubeflow/community/blob/master/MAINTAINERS.md
 ,,Amber Graner,Independent,akgraner,
@@ -2014,4 +2014,5 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Scott Moser,Cisco Systems,smosert,
 ,,Serge Hallyn,Cisco Systems,hallyn,
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
+
 ,,Tycho Andersen,Netflix,tych0,
