@@ -804,7 +804,7 @@ Incubating,Backstage,Patrik Oldsberg,Spotify,Rugvip,https://github.com/spotify/b
 ,,Matthias Wahl,GSMK GmbH,mfelsche,
 ,,Natali Vlatko,Cisco,natalisucks,
 ,,Sharon Koech,Canonical,skoech,
-Sandbox,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffarDev,https://github.com/metal3-io/community/blob/main/maintainers/ALL-OWNERS
+Incubating,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffarDev,https://github.com/metal3-io/community/blob/main/maintainers/ALL-OWNERS
 ,,Bob Fournier,Red Hat,bfournie,
 ,,Derek Higgins,Red Hat,derekhiggins,
 ,,Dmitry Tantsur,Red Hat,dtantsur,
@@ -814,6 +814,7 @@ Sandbox,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffar
 ,,Iury Gregory Melo Ferreira,Red Hat,iurygregory,
 ,,Kashif Khan,Ericsson Software Technology,kashifest,
 ,,Lennart Jern,Ericsson Software Technology,lentzi90,
+,,Peppi-Lotta Saari,Ericsson Software Technology,peppi-lotta,
 ,,Adam Rozman,Ericsson Software Technology,Rozzii,
 ,,Sunnat Samadov,Ericsson Software Technology,Sunnatillo,
 ,,Moshiur Rahman,Ericsson Software Technology,smoshiur1237,
@@ -2016,4 +2017,3 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
 
 ,,Tycho Andersen,Netflix,tych0,
-
