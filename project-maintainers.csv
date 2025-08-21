@@ -84,6 +84,7 @@ Graduated,Kubernetes steering,Antonio Ojea,Google,aojea,https://git.k8s.io/steer
 ,,Shane Utt,Red Hat,shaneutt,
 ,,Shu Muto,NEC,shu-mutou,
 ,,Shyam Jeedigunta,Amazon,shyamjvs,
+,,Siyuan Zhang,Google,siyuanfoundation,
 ,,Stefan Schimanski,Upbound,sttts,
 ,,Stephen Kitt,Red Hat,skitt,
 ,,Tabitha Sable,Datadog,tabbysable,
@@ -804,7 +805,7 @@ Incubating,Backstage,Patrik Oldsberg,Spotify,Rugvip,https://github.com/spotify/b
 ,,Matthias Wahl,GSMK GmbH,mfelsche,
 ,,Natali Vlatko,Cisco,natalisucks,
 ,,Sharon Koech,Canonical,skoech,
-Sandbox,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffarDev,https://github.com/metal3-io/community/blob/main/maintainers/ALL-OWNERS
+Incubating,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffarDev,https://github.com/metal3-io/community/blob/main/maintainers/ALL-OWNERS
 ,,Bob Fournier,Red Hat,bfournie,
 ,,Derek Higgins,Red Hat,derekhiggins,
 ,,Dmitry Tantsur,Red Hat,dtantsur,
@@ -814,6 +815,7 @@ Sandbox,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffar
 ,,Iury Gregory Melo Ferreira,Red Hat,iurygregory,
 ,,Kashif Khan,Ericsson Software Technology,kashifest,
 ,,Lennart Jern,Ericsson Software Technology,lentzi90,
+,,Peppi-Lotta Saari,Ericsson Software Technology,peppi-lotta,
 ,,Adam Rozman,Ericsson Software Technology,Rozzii,
 ,,Sunnat Samadov,Ericsson Software Technology,Sunnatillo,
 ,,Moshiur Rahman,Ericsson Software Technology,smoshiur1237,
@@ -1906,6 +1908,7 @@ Sandbox,interLink,Diego Ciangottini,INFN,dciangot,https://github.com/interTwin-e
 ,,Giulio Bianchini,INFN,bianco95,
 Sandbox,Podman Container Tools,Brent Baude,Red Hat,baude,https://github.com/containers/podman/blob/main/MAINTAINERS.md
 ,,Ygal Blum,Red Hat,ygalblum,
+,,Mohan Boddu,Red Hat,mohanboddu,
 ,,Ashley Cui,Red Hat,ashley-cui,
 ,,Nalin Dahyabhai,Red Hat,nalind,
 ,,Matthew Heon,Red Hat,mheon,
@@ -2013,7 +2016,4 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Scott Moser,Cisco Systems,smosert,
 ,,Serge Hallyn,Cisco Systems,hallyn,
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
-
 ,,Tycho Andersen,Netflix,tych0,
-
-
