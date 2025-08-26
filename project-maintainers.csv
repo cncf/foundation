@@ -539,7 +539,7 @@ Graduated,Flux,Stefan Prodan,ControlPlane,stefanprodan,https://github.com/fluxcd
 ,,Tamao Nakahara, Independent,mewzherder,
 ,,Dipti Pai, Microsoft,dipti-pai,
 ,,Leigh Capili,ControlPlane,stealthybox,
-Incubating,In-Toto,Justin Cappos,New York University,JustinCappos,https://github.com/in-toto/in-toto/blob/develop/MAINTAINERS.txt
+Graduated,In-Toto,Justin Cappos,New York University,JustinCappos,https://github.com/in-toto/in-toto/blob/develop/MAINTAINERS.txt
 ,,Lukas Puehringer,NYU,lukpueh,
 ,,Marina Moore,NYU,mnm678,
 ,,Santiago Torres,Purdue University,SantiagoTorres,
@@ -696,7 +696,7 @@ Incubating,LitmusChaos,Amit Kumar Das,Harness,amityt,https://github.com/litmusch
 ,,Vedant Shrotria,Harness,Jonsy13,
 ,,Uma Mukkara,Harness,umamukkara,
 ,,Namkyu Park,Independent,namkyu1999,
-Sandbox,Artifact Hub,Sergio C. Arteaga,,tegioz,https://github.com/artifacthub/hub/blob/master/OWNERS
+Incubating,Artifact Hub,Sergio C. Arteaga,,tegioz,https://github.com/artifacthub/hub/blob/master/OWNERS
 ,,Cynthia S. Garcia,,cynthia-sg,
 ,,Matt Farina,SUSE,mattfarina,
 ,,Dan Kohn,Linux Foundation,dankohn,
@@ -825,7 +825,7 @@ Sandbox,Porter,Sarah Christoff,Microsoft,hypernovasunnix,https://github.com/getp
 ,,Brian DeGeeter,F5,bdegeeter,
 ,,Steven Gettys,F5,sgettys,
 ,,Troy Connor,Microsoft,troy0820,
-Sandbox,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/openyurt/blob/master/OWNERS
+Incubating,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/openyurt/blob/master/OWNERS
 ,,Fei Guo,Alibaba,Fei-Guo,
 ,,frank-huangyuqi,Alibaba,huangyuqi,
 ,,rambohe,Alibaba,rambohe-ch,
@@ -860,7 +860,7 @@ Graduated,cert-manager,James Munnelly,Apple,munnerz,https://github.com/cert-mana
 ,,Tim Ramlot,Venafi,inteon,
 ,,Adam Talbot,Epic Games,ThatsMrTalbot,
 ,,Erik Godding Boye,Zenior,erikgb,
-Sandbox,OpenKruise,Fei Guo,Alibaba,Fei-Guo,https://github.com/openkruise/kruise/blob/master/MAINTAINERS.md
+Incubating,OpenKruise,Fei Guo,Alibaba,Fei-Guo,https://github.com/openkruise/kruise/blob/master/MAINTAINERS.md
 ,,Siyu Wang,Alibaba,FillZpp,
 ,,Zhen Zhang,Alibaba,furykerry,
 ,,Robert Everson,Lyft,reverson,
@@ -1421,7 +1421,7 @@ Sandbox,HwameiStor,Liang Sun,DaoCloud,sun7927,https://github.com/hwameistor/hwam
 ,,Baofa Fan,DaoCloud,carlory,
 ,,Peng Lai,DaoCloud,peng9808,
 ,,Peter Pan,DaoCloud,panpan0000,
-Sandbox,Kubescape,Bezalel Brandwine,ARMO,Bezbran,https://github.com/kubescape/kubescape/blob/master/MAINTAINERS.md#maintainers
+Incubating,Kubescape,Bezalel Brandwine,ARMO,Bezbran,https://github.com/kubescape/kubescape/blob/master/MAINTAINERS.md#maintainers
 ,,Craig Box,ARMO,craigbox,
 ,,David Wertenteil,ARMO,dwertent,
 ,,Rotem Refael,ARMO,rotemamsa,
