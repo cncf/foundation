@@ -430,6 +430,7 @@ Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecuri
 ,,Thomas Labarussias,Sysdig,issif,
 ,,Aldo Lacuku,Sysdig,alacuku,
 ,,Samuel Gaist,Idiap Research Institute,sgaist,
+,,Angelo Puglisi,Sysdig,deepskyblue86,
 Graduated,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
 ,,Evan Gilman,VMware,evan2645,
 ,,Andrew Jessup,HPE,ajessup,
@@ -1996,4 +1997,5 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Serge Hallyn,Cisco Systems,hallyn,
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
 ,,Tycho Andersen,Netflix,tych0,
+
 
