@@ -1159,7 +1159,7 @@ Sandbox,Devfile,Andreas Resios,AWS,resios, https://github.com/devfile/api/blob/m
 ,,Mario Loriedo,Red Hat,l0rd,
 ,,Stevan Le Meur,Red Hat,slemeur,
 ,,Tomas Kral,Red Hat,kadel,
-Incubating,Knative,Ali Ok,Red Hat,aliok, https://github.com/knative/community/blob/main/OWNERS_ALIASES
+Graduated,Knative,Ali Ok,Red Hat,aliok, https://github.com/knative/community/blob/main/OWNERS_ALIASES
 ,,Naina Singh,Red Hat,nainaz,
 ,,Mauricio Salatino,Diagrid,salaboy,
 ,,Dave Protasowski,Broadcom,dprotaso,
@@ -1990,5 +1990,6 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Serge Hallyn,Cisco Systems,hallyn,
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
 ,,Tycho Andersen,Netflix,tych0,
+
 
 
