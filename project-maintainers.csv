@@ -509,22 +509,21 @@ Sandbox,Network Service Mesh,Ed Warnicke,Cisco,edwarnicke,https://github.com/net
 ,,Andrey Sobolev,Xored,haiodo,
 Incubating,OpenTelemetry (Governance Committee),Alolita Sharma,Apple,alolita,https://github.com/open-telemetry/community/blob/master/community-members.md#governance-committee
 ,,Austin Parker,Honeycomb,austinlparker,
-,,Daniel Gomez Blanco,Skyscanner,danielgblanco,
+,,Daniel Gomez Blanco,New Relic,danielgblanco,
 ,,Juraci Paixão Kröhling,OllyGarden,jpkrohling,
 ,,Morgan James McLean,Splunk,mtwo,
 ,,Pablo Baeyens Fernandez,Datadog,mx-psi,
 ,,Severin Neumann,Causely,svrnm,
-,,Ted Young,Lightstep,tedsuo,
+,,Ted Young,Grafana Labs,tedsuo,
 ,,Trask Stalnaker,Microsoft,trask,
 ,OpenTelemetry (Technical Committee excluding GC members),Armin Ruech,Dynatrace,arminru,https://github.com/open-telemetry/community/blob/master/community-members.md#technical-committee
 ,,Bogdan Drutu,Snowflake,bogdandrutu,
 ,,Carlos Alberto,Lightstep,carlosalberto,
 ,,Jack Berg,New Relic,jack-berg,
 ,,Josh Suereth,Google,jsuereth,
-,,Liudmila Molkova,Microsoft,lmolkova,
+,,Liudmila Molkova,Grafana Labs,lmolkova,
 ,,Reiley Yang,Microsoft,reyang,
 ,,Tigran Najaryan,Splunk,tigrannajaryan,
-,,Yuri Shkuro,Meta,yurishkuro,
 Incubating,Thanos,Bartłomiej Płotka,Google,bwplotka,https://github.com/thanos-io/thanos/blob/master/MAINTAINERS.md
 ,,Frederic Branczyk ,Polar Signals,brancz,
 ,,Giedrius Statkevičius,Vinted,GiedriusS,
@@ -1974,6 +1973,7 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Serge Hallyn,Cisco Systems,hallyn,
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
 ,,Tycho Andersen,Netflix,tych0,
+
 
 
 
