@@ -1834,7 +1834,7 @@ Sandbox,k0s,Jussi Nummelin,Mirantis,jnummelin,https://github.com/k0sproject/k0s/
 ,,Aleksey Makhov,Mirantis,makhov,
 ,,Kimmo Lehto,Mirantis,kke,
 ,,Ethan Mosbaugh,Replicated,emosbaugh,
-Sandbox,kgateway,Art Berger,Solo.io,artberger,,https://github.com/kgateway-dev/community/blob/main/MAINTAINERS.md
+Sandbox,kgateway,Art Berger,Solo.io,artberger,https://github.com/kgateway-dev/community/blob/main/MAINTAINERS.md
 ,,Ashley Wang,Solo.io,ashleywang1,
 ,,Christian Posta,Solo.io,christian-posta,
 ,,Craig Box,Solo.io,craigbox,
@@ -1845,7 +1845,7 @@ Sandbox,kgateway,Art Berger,Solo.io,artberger,,https://github.com/kgateway-dev/c
 ,,Jacob Bohanon,Coinbase,jbohanon,
 ,,Jahvon Dockery,CarGurus,jahvon,
 ,,Jenny Shu,Solo.io,jenshu,
-,,Kevin Dorosh,\_unaffiliated\_,kdorosh,
+,,Kevin Dorosh,,kdorosh,
 ,,Lawrence Gadban,Solo.io,lgadban,
 ,,Lin Sun,Solo.io,linsun,
 ,,Nadine Spies,Solo.io,Nadine2016,
