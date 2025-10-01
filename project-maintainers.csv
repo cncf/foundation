@@ -224,7 +224,6 @@ Graduated,Vitess,Andres Taylor,PlanetScale,systay,https://github.com/vitessio/vi
 ,,Florent Poinsard,PlanetScale,frouioui,
 ,,Frances Thai,Independent,notfelineit,
 ,,Harshit Gangal,PlanetScale,harshit-gangal,
-,,Manan Gupta,PlanetScale,GuptaManan100,
 ,,Matt Lord,Independent,mattlord,
 ,,Rohit Nayak,PlanetScale,rohit-nayak-ps,
 ,,Shlomi Noach,PlanetScale,shlomi-noach,
@@ -360,6 +359,7 @@ Graduated,Rook,Satoru Takeuchi,Cybozu,satoru-takeuchi,https://github.com/rook/ro
 ,,Alexander Trost,Koor Technologies,galexrt,
 ,,Subham Rai,Red Hat,subhamkrai,
 ,,Santosh Pillai,Red Hat,sp98,
+,,Parth Arora,IBM,parth-gr,
 Graduated,Harbor,Daniel Jiang,VMware,reasonerjt,https://github.com/goharbor/community/blob/master/MAINTAINERS.md
 ,,Fanjian Kong,Tencent,kofj,
 ,,Daniel Pacak,Aqua Security,danielpacak,
@@ -890,9 +890,7 @@ Sandbox,Distribution,Chris Patterson,GitHub,chrispat,https://github.com/distribu
 ,,Milos Gajdos,Docker,milosgajdos,
 ,,Wayne Warren,Digital Ocean,waynr,
 ,,Wang Yan,VMware,wy65701436,
-Sandbox,Kuberhealthy,Eric Greer,Comcast,integrii,https://github.com/Comcast/kuberhealthy/blob/master/OWNERS
-,,Joshulyne Park,Comcast,joshulyne,
-,,Jonathan Phan,Comcast,jonnydawg,
+Sandbox,Kuberhealthy,Eric Greer,,integrii,https://github.com/kuberhealthy/kuberhealthy/blob/master/OWNERS
 Sandbox,k8gb,Donovan Muller,Absa,donovanmuller,https://github.com/k8gb-io/k8gb/blob/master/CODEOWNERS
 ,,Dinar Valeev,Absa,k0da,
 ,,Jiří Kremser,Kedify,jkremser,
@@ -1894,7 +1892,7 @@ Sandbox,OpenTofu,Christian Mesh,Spacelift.io,cam72cam,https://github.com/opentof
 ,,Martin atkins,Spacelift.io,apparentlymart,
 ,,Andrei Ciobanu,Env0,yottta,
 ,,Ilia Gogotchuri,Env0,Gogotchuri,
-,,Diógenes Fernandes,Gruntworks,diofeher,
+,,Diógenes Fernandes,Gruntwork,diofeher,
 Sandbox,KitOps,Gorkem Ercan,Jozu,gorkem,https://github.com/kitops-ml/kitops/blob/main/MAINTAINERS.md
 ,,Angel Misevski,Jozu,amisevsk,
 ,,Brad Micklea,Jozu,bmicklea,
@@ -1973,6 +1971,7 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Serge Hallyn,Cisco Systems,hallyn,
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
 ,,Tycho Andersen,Netflix,tych0,
+
 
 
 
