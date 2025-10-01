@@ -1893,7 +1893,7 @@ Sandbox,OpenTofu,Christian Mesh,Spacelift.io,cam72cam,https://github.com/opentof
 ,,Martin atkins,Spacelift.io,apparentlymart,
 ,,Andrei Ciobanu,Env0,yottta,
 ,,Ilia Gogotchuri,Env0,Gogotchuri,
-,,Diógenes Fernandes,Gruntworks,diofeher,
+,,Diógenes Fernandes,Gruntwork,diofeher,
 Sandbox,KitOps,Gorkem Ercan,Jozu,gorkem,https://github.com/kitops-ml/kitops/blob/main/MAINTAINERS.md
 ,,Angel Misevski,Jozu,amisevsk,
 ,,Brad Micklea,Jozu,bmicklea,
@@ -1972,6 +1972,7 @@ Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/pro
 ,,Serge Hallyn,Cisco Systems,hallyn,
 ,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
 ,,Tycho Andersen,Netflix,tych0,
+
 
 
 
