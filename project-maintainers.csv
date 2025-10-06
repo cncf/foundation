@@ -1573,9 +1573,13 @@ Incubating,Kubeflow,Aldo Culquicondor,Google,alculquicondor,https://github.com/k
 ,,Yuan Tang,Red Hat,terrytangyuan,
 ,,Yuki Iwai,CyberAgent,tenzen-y,
 Sandbox,Logging Operator,Ferenc Hernádi,Axoflow,ahma,https://github.com/kube-logging/.github/blob/main/MAINTAINERS.md
-,,Márk Sági-Kazár,OpenMeter,sagikazarmark,
+,,Márk Sági-Kazár,-,sagikazarmark,
 ,,Péter Wilcsinszky,Axoflow,pepov,
 ,,Sándor Guba,Axoflow,tarokkk,
+,,Bence Csáti,Axoflow,csatib02,
+,,Szilárd Parrag,Axoflow,overorion,
+,,Attila Szakács,Axoflow,alltilla,
+,,Róbert Fekete,Axoflow,fekete-robert,
 Sandbox,k8sgpt-ai,Alex Jones,AWS,AlexsJones,https://raw.githubusercontent.com/k8sgpt-ai/community/main/MAINTAINERS.md
 ,,Thomas Schuetz,WhizUs,thschue,
 Sandbox,KubeStellar,Andy Anderson,IBM,clubanderson,https://github.com/kubestellar/kubestellar/blob/main/OWNERS
