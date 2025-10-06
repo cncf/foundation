@@ -1289,7 +1289,7 @@ Graduated,Istio: Steering Committee,Ameer Abbas,Google,ameer00,https://github.co
 ,,Iris (Shaojun) Ding,Intel,irisdingbj,
 ,,Cameron Etezadi,Google,cetezadi,
 ,,Chaomeng Zhang,Huawei,idouba,
-,,John Howard,Google,howardjohn,
+,,John Howard,Solo.io,howardjohn,
 ,,Faseela K,Ericsson Software Technology,kfaseela,
 ,,April Kyle Nassi,Google,thisisnotapril,
 ,,Justin Pettit,Google,justinpettit,
@@ -1297,7 +1297,7 @@ Graduated,Istio: Steering Committee,Ameer Abbas,Google,ameer00,https://github.co
 ,,Cale Rath,IBM,ctrath,
 ,,Zhonghu Xu,Huawei,hzxuzhonghu,
 ,Istio: Technical Oversight Committee,Mitch Connors,Aviatrix,therealmitchconnors,https://github.com/istio/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md#committee-members
-,,John Howard,Google,howardjohn,
+,,John Howard,Solo.io,howardjohn,
 ,,Neeraj Poddar,Solo.io,nrjpoddar,
 ,,Louis Ryan,Solo.io,louiscryan,
 ,,Lin Sun,Solo.io,linsun,
@@ -1474,7 +1474,7 @@ Sandbox,PipeCD,Tran Cong Khanh,CyberAgent,khanhtc1202,https://github.com/pipe-cd
 ,,Le Van Nghia,CyberAgent,nghialv,
 ,,Yoshiki Fujikane,CyberAgent,ffjlabo,
 ,,Tetsuya Kikuchi,CyberAgent,t-kikuc,
-,,Shinnosuke Sawada,CyberAgent,Warashi,
+,,Shinnosuke Sawada-Dazai,Independent,Warashi,
 Sandbox,Inspektor Gadget,Mauricio Vásquez Bernal,Microsoft,mauriciovasquezbernal,https://github.com/inspektor-gadget/inspektor-gadget/blob/main/MAINTAINERS.md
 ,,Alban Crequy,Microsoft,alban,
 ,,Francis Laniel,Microsoft,eiffel-fl,
@@ -1898,7 +1898,7 @@ Sandbox,OpenTofu,Christian Mesh,Spacelift.io,cam72cam,https://github.com/opentof
 ,,Martin atkins,Spacelift.io,apparentlymart,
 ,,Andrei Ciobanu,Env0,yottta,
 ,,Ilia Gogotchuri,Env0,Gogotchuri,
-,,Diógenes Fernandes,Gruntworks,diofeher,
+,,Diógenes Fernandes,Gruntwork,diofeher,
 Sandbox,KitOps,Gorkem Ercan,Jozu,gorkem,https://github.com/kitops-ml/kitops/blob/main/MAINTAINERS.md
 ,,Angel Misevski,Jozu,amisevsk,
 ,,Brad Micklea,Jozu,bmicklea,
@@ -1985,7 +1985,17 @@ Sandbox,kagent,Eitan Yarmush,Solo.io,EItanya,https://github.com/kagent-dev/commu
 ,,Peter Jausovec,Solo.io,peterj,
 ,,Scott Weiss,Solo.io,ilackarms,
 ,,Yuval Kohavi,Solo.io,yuval-k,
-
-
-
-
+Incubating,KServe,Dan Sun,Bloomberg,yuzisun,https://github.com/kserve/kserve/blob/master/OWNERS
+,,Yuan Tang,Red Hat,terrytangyuan,
+,,Jooho Lee,Red Hat,Jooho,
+,,Filippe Spolti,Red Hat,spolti,
+,,Edgar Hernández,Red Hat,israel-hdez,
+,,Jin Dong,Bloomberg,greenmoon55,
+,,Curtis Maddalozzo,Bloomberg,cmaddalozzo,
+,,Lize Cai,SAP,lizzzcai,
+,,Sivanantham Chinnaiyan,Idea2IT,sivanantha321,
+,,Andrews Arokiam,Idea2IT,andyi2it,
+,,Johnu George,Nutanix,johnugeorge,
+,,Gavrish Prabhu,Nutanix,gavrissh,
+,,Datta Nimmaturi,Nutanix,Datta0,
+,,Rachit Chauhan,Intuit,rachitchauhan43,
