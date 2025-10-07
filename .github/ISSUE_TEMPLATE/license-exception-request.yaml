@@ -79,13 +79,13 @@ body:
         
         ## :computer: Component details
         
-        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Purpose" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it.
+        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Project Usage URL" column, please include one or more URLs showing the CNCF project source code or other artifact where the component and its license are located or used. In the "Purpose" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it.
 
   - type: textarea
     id: component_details
     attributes:
       label: "List of components requiring an exception"
-      value: "| Component | Upstream URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
+      value: "| Component | Upstream URL | Project Usage URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
     validations:
       required: true
 
