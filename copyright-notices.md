@@ -22,7 +22,7 @@ following (where XYZ is the project's name):
 - **Copyright The XYZ Authors.**
 - **Copyright The XYZ Contributors.**
 - **Copyright Contributors to the XYZ project.**
-- **Copyright © contributors to XYZ, established as XYZ a Series of LF Projects, LLC.**
+- **Copyright Contributors to XYZ a Series of LF Projects, LLC.**
 
 > [!NOTE]  
 > Use the fourth format if the project has been converted to the [Series LLC model](https://github.com/cncf/foundation/issues/910).
