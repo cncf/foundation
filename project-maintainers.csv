@@ -509,22 +509,21 @@ Sandbox,Network Service Mesh,Ed Warnicke,Cisco,edwarnicke,https://github.com/net
 ,,Andrey Sobolev,Xored,haiodo,
 Incubating,OpenTelemetry (Governance Committee),Alolita Sharma,Apple,alolita,https://github.com/open-telemetry/community/blob/master/community-members.md#governance-committee
 ,,Austin Parker,Honeycomb,austinlparker,
-,,Daniel Gomez Blanco,Skyscanner,danielgblanco,
+,,Daniel Gomez Blanco,New Relic,danielgblanco,
 ,,Juraci Paixão Kröhling,OllyGarden,jpkrohling,
 ,,Morgan James McLean,Splunk,mtwo,
 ,,Pablo Baeyens Fernandez,Datadog,mx-psi,
 ,,Severin Neumann,Causely,svrnm,
-,,Ted Young,Lightstep,tedsuo,
+,,Ted Young,Grafana Labs,tedsuo,
 ,,Trask Stalnaker,Microsoft,trask,
 ,OpenTelemetry (Technical Committee excluding GC members),Armin Ruech,Dynatrace,arminru,https://github.com/open-telemetry/community/blob/master/community-members.md#technical-committee
 ,,Bogdan Drutu,Snowflake,bogdandrutu,
 ,,Carlos Alberto,Lightstep,carlosalberto,
 ,,Jack Berg,New Relic,jack-berg,
 ,,Josh Suereth,Google,jsuereth,
-,,Liudmila Molkova,Microsoft,lmolkova,
+,,Liudmila Molkova,Grafana Labs,lmolkova,
 ,,Reiley Yang,Microsoft,reyang,
 ,,Tigran Najaryan,Splunk,tigrannajaryan,
-,,Yuri Shkuro,Meta,yurishkuro,
 Incubating,Thanos,Bartłomiej Płotka,Google,bwplotka,https://github.com/thanos-io/thanos/blob/master/MAINTAINERS.md
 ,,Frederic Branczyk ,Polar Signals,brancz,
 ,,Giedrius Statkevičius,Vinted,GiedriusS,
@@ -1535,7 +1534,7 @@ Sandbox,kcp,Andy Anderson,IBM,clubanderson,https://github.com/kcp-dev/kcp/blob/m
 ,,Sebastian Scheele,Kubermatic,scheeles,
 ,,Stefan Schimanski,Upbound,sttts,
 ,,Christoph Mewes,Kubermatic,xrstf,
-,,Mangirdas Judeikis,Upbound,mjudeikis,
+,,Mangirdas Judeikis,faros.sh,mjudeikis,
 ,,Marvin Beckers,Kubermatic,embik,
 Incubating,Kubeflow,Aldo Culquicondor,Google,alculquicondor,https://github.com/kubeflow/community/blob/master/MAINTAINERS.md
 ,,Amber Graner,Independent,akgraner,
@@ -1574,9 +1573,13 @@ Incubating,Kubeflow,Aldo Culquicondor,Google,alculquicondor,https://github.com/k
 ,,Yuan Tang,Red Hat,terrytangyuan,
 ,,Yuki Iwai,CyberAgent,tenzen-y,
 Sandbox,Logging Operator,Ferenc Hernádi,Axoflow,ahma,https://github.com/kube-logging/.github/blob/main/MAINTAINERS.md
-,,Márk Sági-Kazár,OpenMeter,sagikazarmark,
+,,Márk Sági-Kazár,-,sagikazarmark,
 ,,Péter Wilcsinszky,Axoflow,pepov,
 ,,Sándor Guba,Axoflow,tarokkk,
+,,Bence Csáti,Axoflow,csatib02,
+,,Szilárd Parrag,Axoflow,overorion,
+,,Attila Szakács,Axoflow,alltilla,
+,,Róbert Fekete,Axoflow,fekete-robert,
 Sandbox,k8sgpt-ai,Alex Jones,AWS,AlexsJones,https://raw.githubusercontent.com/k8sgpt-ai/community/main/MAINTAINERS.md
 ,,Thomas Schuetz,WhizUs,thschue,
 Sandbox,KubeStellar,Andy Anderson,IBM,clubanderson,https://github.com/kubestellar/kubestellar/blob/main/OWNERS
