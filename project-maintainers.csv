@@ -1534,7 +1534,7 @@ Sandbox,kcp,Andy Anderson,IBM,clubanderson,https://github.com/kcp-dev/kcp/blob/m
 ,,Sebastian Scheele,Kubermatic,scheeles,
 ,,Stefan Schimanski,Upbound,sttts,
 ,,Christoph Mewes,Kubermatic,xrstf,
-,,Mangirdas Judeikis,Upbound,mjudeikis,
+,,Mangirdas Judeikis,faros.sh,mjudeikis,
 ,,Marvin Beckers,Kubermatic,embik,
 Incubating,Kubeflow,Aldo Culquicondor,Google,alculquicondor,https://github.com/kubeflow/community/blob/master/MAINTAINERS.md
 ,,Amber Graner,Independent,akgraner,
@@ -2002,3 +2002,4 @@ Incubating,KServe,Dan Sun,Bloomberg,yuzisun,https://github.com/kserve/kserve/blo
 ,,Gavrish Prabhu,Nutanix,gavrissh,
 ,,Datta Nimmaturi,Nutanix,Datta0,
 ,,Rachit Chauhan,Intuit,rachitchauhan43,
+
