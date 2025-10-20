@@ -46,14 +46,14 @@ events approach.
 7. Website footers must include trademark guidelines and a copyright notice (where XYZ is the project's name).
 
    ```text
-   Copyright © XYZ a Series of LF Projects, LLC
+   Copyright XYZ a Series of LF Projects, LLC
    For website terms of use, trademark policy and other project policies please see lfprojects.org/policies/.
    ```
 
 8. If the project does not have a website, this copyright notice must be added in the README or similar location.
 
    ```text
-   Copyright © contributors to XYZ, established as XYZ a Series of LF Projects, LLC.
+   Copyright Contributors to XYZ, established as XYZ a Series of LF Projects, LLC.
    ```
 
 Questions? Email us at <info@cncf.io>.
