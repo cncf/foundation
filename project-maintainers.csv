@@ -11,7 +11,7 @@ Graduated,Kubernetes steering,Antonio Ojea,Google,aojea,https://git.k8s.io/steer
 ,,Aravindh Puthiyaparambil,Softdrive Technologies Group Inc.,aravindhp,
 ,,Arda Guclu,Red Hat,ardaguclu,
 ,,Arnaud Meukam,Independent,ameukam,
-,,Benjamin Wang,VMware,ahrtr,
+,,Benjamin Wang,Broadcom,ahrtr,
 ,,Brady Pratt,Red Hat,jbpratt,
 ,,Bridget Kromhout,Microsoft,bridgetkromhout,
 ,,Brian McQueen,LinkedIn,xmcqueen,
@@ -376,7 +376,7 @@ Graduated,Harbor,Daniel Jiang,VMware,reasonerjt,https://github.com/goharbor/comm
 ,,Vadim Bauer,8gears,Vad1mo,
 ,Harbor: SIG Community,Orlin Vasilev,SUSE,OrlinVasilev,
 ,Harbor: SIG Docs,Abigail McCarthy,VMware,a-mccarthy,
-Graduated,etcd,Benjamin Wang,VMware,ahrtr,https://github.com/etcd-io/etcd/blob/main/OWNERS
+Graduated,etcd,Benjamin Wang,Broadcom,ahrtr,https://github.com/etcd-io/etcd/blob/main/OWNERS
 ,,Hitoshi Mitake,,mitake,
 ,,Marek Siarkowicz,Google,serathius,
 ,,Piotr Tabor,Google,ptabor,
