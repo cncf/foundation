@@ -92,7 +92,7 @@ The Linux Foundation does not have jurisdiction over incidents occurring at even
 
 If both LF and CNCF have jurisdiction over an incident as described above, LF and the [CNCF CoC Committee](http://www.cncf.io/conduct/committee) will collaborate to jointly resolve the incident.  
 
-However, if any of the following circumstances applies, the Linux Foundation may take action to resolve the Code of Conduct incident independently without consulting the Interim CNCF CoC Committee:
+However, if any of the following circumstances applies, the Linux Foundation may take action to resolve the Code of Conduct incident independently without consulting the CNCF CoC Committee:
 
 * Immediate action must be taken in order to prevent harm or otherwise resolve the incident (e.g., removing someone who is threatening violence from an event).
 * The incident arises solely from complaints about an event vendor, sponsor, or exhibiting company, and does not involve complaints about any individual community member’s conduct.
