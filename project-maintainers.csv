@@ -467,7 +467,7 @@ Incubating,Buildpacks,Aidan Delaney,Bloomberg,aidandelaney,https://github.com/bu
 ,,Sambhav Kothari,Bloomberg,sambhav,
 ,,Terence Lee,Salesforce,hone,
 ,,Travis Longoria,Salesforce,elbandito,
-Incubating,Dragonfly,Allen Sun,Alibaba Group,allencloud,https://github.com/dragonflyoss/dragonfly/blob/main/MAINTAINERS.md
+Graduated,Dragonfly,Allen Sun,Alibaba Group,allencloud,https://github.com/dragonflyoss/dragonfly/blob/main/MAINTAINERS.md
 ,,Zuozheng Hu,Alibaba Group,garfield009,
 ,,Yuan Yang,Alibaba Group,yyzai384,
 ,,Peng Tao,Ant Group,bergwolf,
@@ -713,7 +713,7 @@ Sandbox,BFE,Miao Zhang,Baidu,mileszhang2016,https://github.com/bfenetworks/bfe/b
 ,,Wensi Yang,Baidu,tianxinheihei,
 ,,Kaiyu Zheng,ByteDance,kaiyuzheng,
 ,,Xiao Yuqi,163,,
-Incubating,Crossplane,Bassam Tabbara,Upbound,bassam,https://github.com/crossplane/crossplane/blob/master/OWNERS.md
+Graduated,Crossplane,Bassam Tabbara,Upbound,bassam,https://github.com/crossplane/crossplane/blob/master/OWNERS.md
 ,,Uzair Ali,Civo,uzair,
 ,,Krishnan Anantheswaran,Elastic,gotwarlost,
 ,,Vishal Anarase,Civo,vishal,
@@ -1325,7 +1325,7 @@ Sandbox,Kured,Christian Kotzbauer,nerdware,ckotzbauer,https://github.com/kubereb
 ,,Hidde Beydals,Independent,hiddeco,
 ,,Jean-Philippe Evrard,TLaaS,evrardjp,
 ,,Jack Francis,Microsoft,jackfrancis,
-Sandbox, OpenFGA, Adrian Tam, Okta, adriantam, https://github.com/openfga/community/blob/main/MAINTAINERS.md
+Incubating, OpenFGA, Adrian Tam, Okta, adriantam, https://github.com/openfga/community/blob/main/MAINTAINERS.md
 ,,Dan Cech, Grafana Labs, DanCech,
 ,,Jose Padilla, Okta, jpadilla,
 ,,Joshua Jones, Okta, senojj,
