@@ -72,7 +72,7 @@ List.
 
 This outlines the process for applying for an exception to the Intellectual Property policy referenced above.
 
-- A CNCF project maintainer can file a request for an exception using the issue template.
+- A CNCF project maintainer can [file a request for an exception using the issue template](https://github.com/cncf/foundation/issues/new?template=license-exception-request.yaml).
 
 Exceptions should be filed by the project using the component - the exception applies to how the component is being used.
 
