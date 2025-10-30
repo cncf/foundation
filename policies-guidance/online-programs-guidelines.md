@@ -82,4 +82,4 @@ If you are a CNCF member and eligible to participate in our online programs, [pl
 	* Character limit for abstract is 10,000
 	* Please submit your title, abstract, speaker bios, speaker titles and speaker headshots upon submission
 
-### If we do not receive all neccessary documents and assets upon submission, your online program is subject to proponement
+### If we do not receive all neccessary documents and assets upon submission, your online program is subject to postponement
