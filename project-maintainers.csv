@@ -383,17 +383,17 @@ Graduated,etcd,Benjamin Wang,Broadcom,ahrtr,https://github.com/etcd-io/etcd/blob
 ,,Sahdev Zala,IBM,spzala,
 ,,Wenjia Zhang,Google,wenjiaswe,
 ,SIG etcd,James Blair,Red Hat,jmhbnz,https://github.com/kubernetes/community/tree/master/sig-etcd#leadership
-Graduated,Open Policy Agent,Tim Hinrichs,Styra,timothyhinrichs,https://github.com/open-policy-agent/opa/blob/master/MAINTAINERS.md
-,,Torin Sandall,Styra,tsandall,
-,,Ashutosh Narkar,Styra,ashutosh-narkar,
-,,Sertaç Özercan,Microsoft,sozercan,
-,,Rita Zhang,Microsoft,ritazh,
+Graduated,Open Policy Agent,Tim Hinrichs,Apple,timothyhinrichs,https://github.com/open-policy-agent/opa/blob/master/MAINTAINERS.md
+,,Anders Eknert,Apple,anderseknert,
+,,Ash Narkar,Apple,ashutosh-narkar,
+,,Charlie Egan,Apple,charlieegan3,
 ,,Max Smythe,Google,maxsmythe,
-,,Anders Eknert,Styra,anderseknert,
-,,Charlie Egan,Styra,charlieegan3,
 ,,Nilekh Chaudhari,Microsoft,nilekhc,
+,,Rita Zhang,Microsoft,ritazh,
+,,Sertaç Özercan,Microsoft,sozercan,
 ,,Jaydip Gabani,Microsoft,JaydipGabani,
-,,Stephan Renatus,Styra,srenatus,
+,,Stephan Renatus,Apple,srenatus,
+,,Torin Sandall,Apple,tsandall,
 Graduated,CRI-O,Mrunal Patel,Red Hat,mrunalp,https://github.com/cri-o/cri-o/blob/main/OWNERS
 ,,Nalin Dahyabhai,Red Hat,nalind,
 ,,Giuseppe Scrivano,Red Hat,giuseppe,
