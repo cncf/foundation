@@ -1213,6 +1213,10 @@ Graduated,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/community
 ,,Whit Waldo,Innovian,WhitWaldo,
 ,,Dana Arsovska,Ahold Delhaize,Dzvezdana,
 ,,Artur Ciocanu,Adobe Inc,artur-ciocanu,
+,,Albert Callarisa,Diagrid,acroca,
+,,Alice Gibbons,Diagrid,alicejgibbons,
+,,Samantha Coyle,Diagrid,sicoyle,
+,,Siri Varma,Microsoft,siri-varma,
 Sandbox,K8up,Tobias Brunner,VSHN AG,tobru,https://github.com/k8up-io/k8up/blob/master/CODEOWNERS
 ,,Simon Beck,VSHN AG,Kidswiss,
 ,,Aarno Aukia,VSHN AG,arska,
@@ -2096,4 +2100,5 @@ Sandbox,Dalec,Brian Goff,Microsoft,cpuguy83,https://github.com/project-dalec/dal
 ,,Jeremy Rickard,Microsoft,jrrickard,
 ,,Sertac Ozercan,Microsoft,sozercan,
 ,,Peter Engelbert,Microsoft,pmengelbert,
+
 
