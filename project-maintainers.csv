@@ -2067,12 +2067,12 @@ Sandbox,Sealer,Haitao Fang,Alibaba Group,fanux,https://github.com/sealerio/seale
 ,,Vince Cui,Alibaba Group,vincecui,
 ,,Yuxing Liu,Alibaba Group,Starnop,
 Sandbox,stacker,Ravi Chamarthy,Ciroos AI,rchamarthy,https://github.com/project-stacker/stacker/blob/main/MAINTAINERS.md
-,,Ram Chinchani,Microsoft,rchincha.dev@gmail.com,rchincha,
-,,Serge Hallyn,Geico,serge@hallyn.com,hallyn,
-,,Tycho Andersen,Netflix,tycho@tycho.pizza,tych0,
-,,Scott Moser,Chainguard,smoser@brickies.net,smoser,
-,,Mike Mccracken,Cisco Systems,michael.mccracken@gmail.com,mikemccracken,
-,,Ryan Harper,Cisco Systems,rharper@woxford.com,raharper,
+,,Ram Chinchani,Microsoft,rchincha,
+,,Serge Hallyn,Geico,hallyn,
+,,Tycho Andersen,Netflix,tych0,
+,,Scott Moser,Chainguard,smoser,
+,,Mike Mccracken,Cisco Systems,mikemccracken,
+,,Ryan Harper,Cisco Systems,raharper,
 Sandbox,kagent,Eitan Yarmush,Solo.io,EItanya,https://github.com/kagent-dev/community/blob/main/MAINTAINERS.md
 ,,Art Berger,Solo.io,artberger,
 ,,Dmytro Rashko,Amdocs,dimetron,
@@ -2102,3 +2102,4 @@ Sandbox,Dalec,Brian Goff,Microsoft,cpuguy83,https://github.com/project-dalec/dal
 ,,Jeremy Rickard,Microsoft,jrrickard,
 ,,Sertac Ozercan,Microsoft,sozercan,
 ,,Peter Engelbert,Microsoft,pmengelbert,
+
