@@ -1975,16 +1975,13 @@ Sandbox,Sealer,Haitao Fang,Alibaba Group,fanux,https://github.com/sealerio/seale
 ,,Xun Wang,ZhengcaiCloud,lllwan,
 ,,Vince Cui,Alibaba Group,vincecui,
 ,,Yuxing Liu,Alibaba Group,Starnop,
-Sandbox,stacker,Ravi Chamarthy,,rchamarthy,https://github.com/project-stacker/stacker/blob/main/MAINTAINERS.md
-,,Ram Chinchani,,rchincha,
-,,Serge Hallyn,,hallyn,
-,,Andrei Aaron,,andaaron,
-,,Tycho Andersen,,tych0,
-Sandbox,Stacker,Ramkumar Chinchani,Cisco Systems,rchincha,https://github.com/project-stacker/stacker/blob/main/MAINTAINERS.md
-,,Scott Moser,Cisco Systems,smosert,
-,,Serge Hallyn,Cisco Systems,hallyn,
-,,Petu Constantin Eusebiu,Cisco Systems,peusebiu,
-,,Tycho Andersen,Netflix,tych0,
+Sandbox,stacker,Ravi Chamarthy,Ciroos AI,rchamarthy,https://github.com/project-stacker/stacker/blob/main/MAINTAINERS.md
+,,Ram Chinchani,Microsoft,rchincha.dev@gmail.com,rchincha,
+,,Serge Hallyn,Geico,serge@hallyn.com,hallyn,
+,,Tycho Andersen,Netflix,tycho@tycho.pizza,tych0,
+,,Scott Moser,Chainguard,smoser@brickies.net,smoser,
+,,Mike Mccracken,Cisco Systems,michael.mccracken@gmail.com,mikemccracken,
+,,Ryan Harper,Cisco Systems,rharper@woxford.com,raharper,
 Sandbox,kagent,Eitan Yarmush,Solo.io,EItanya,https://github.com/kagent-dev/community/blob/main/MAINTAINERS.md
 ,,Art Berger,Solo.io,artberger,
 ,,Dmytro Rashko,Amdocs,dimetron,
@@ -2007,3 +2004,4 @@ Incubating,KServe,Dan Sun,Bloomberg,yuzisun,https://github.com/kserve/kserve/blo
 ,,Gavrish Prabhu,Nutanix,gavrissh,
 ,,Datta Nimmaturi,Nutanix,Datta0,
 ,,Rachit Chauhan,Intuit,rachitchauhan43,
+
