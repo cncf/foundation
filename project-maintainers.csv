@@ -1534,7 +1534,6 @@ Sandbox,Clusternet,Di Xu,Tencent,dixudx,https://github.com/clusternet/clusternet
 ,,Yiwei Chen,Independent,yiwei-C,
 Incubating,Keycloak,Stian Thorgersen,IBM,stianst,https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md
 ,,Alexander Schwartz,Red Hat,ahus1,
-,,Bruno Oliveira da Silva,Red Hat,abstractj,
 ,,Marek Posolda,Red Hat,mposolda,
 ,,Pedro Igor,Red Hat,pedroigor,
 ,,Sebastian Schuster,Bosch,sschu,
@@ -2102,4 +2101,5 @@ Sandbox,Dalec,Brian Goff,Microsoft,cpuguy83,https://github.com/project-dalec/dal
 ,,Jeremy Rickard,Microsoft,jrrickard,
 ,,Sertac Ozercan,Microsoft,sozercan,
 ,,Peter Engelbert,Microsoft,pmengelbert,
+
 
