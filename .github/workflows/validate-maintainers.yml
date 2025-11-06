@@ -1,0 +1,277 @@
+name: Maintainer PR Validation
+
+on:
+  pull_request:
+    types: [opened, edited, ready_for_review, synchronize]
+    paths:
+      - "project-maintainers.csv"
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  validate-maintainers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check PR requirements
+        id: check-requirements
+        run: |
+          # Create a Python script to safely parse the PR body
+          cat > check_requirements.py << 'EOF'
+          import os
+          import re
+
+          # Get PR body from environment
+          pr_body = os.getenv('PR_BODY', '')
+
+          # Debug: Print first 200 chars of PR body
+          print(f"PR body preview: {repr(pr_body[:200])}")
+
+          # Find all checkboxes in order (both checked and unchecked)
+          # Pattern matches: - [ ] or - [x] or - [X]
+          all_checkboxes = re.findall(r'- \[([xX ])\]', pr_body, re.MULTILINE)
+
+          print(f"Found {len(all_checkboxes)} total checkboxes: {all_checkboxes}")
+
+          # Check if first 3 checkboxes are completed
+          check_results = []
+          for i in range(3):  # Check first 3 checkboxes
+              if i < len(all_checkboxes):
+                  is_checked = all_checkboxes[i].lower() == 'x'
+                  check_results.append(is_checked)
+                  print(f"Checkbox {i+1}: {'CHECKED' if is_checked else 'UNCHECKED'} ({all_checkboxes[i]})")
+              else:
+                  # Not enough checkboxes found
+                  check_results.append(False)
+                  print(f"Checkbox {i+1}: NOT FOUND")
+
+          all_complete = all(check_results)
+          print(f"All first three checkboxes complete: {all_complete}")
+
+          # Write to GitHub output file only
+          github_output = os.environ.get('GITHUB_OUTPUT')
+          if github_output:
+              with open(github_output, 'a') as f:
+                  for i, check in enumerate(check_results, 1):
+                      f.write(f"check{i}={'true' if check else 'false'}\n")
+                  f.write(f"all_required_complete={'true' if all_complete else 'false'}\n")
+          EOF
+
+          # Run the Python script
+          python3 check_requirements.py
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+
+      - name: Add warning comment if requirements not met
+        if: steps.check-requirements.outputs.all_required_complete == 'false'
+        run: |
+          # Add comment explaining requirements
+          gh pr comment ${{ github.event.pull_request.number }} --body "⚠️ **PR Requirements Not Met**
+
+          This PR can't be merged until the first three checkboxes are marked complete."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add approval comment if requirements met
+        if: steps.check-requirements.outputs.all_required_complete == 'true'
+        run: |
+          gh pr comment ${{ github.event.pull_request.number }} --body "✅ **PR Requirements Complete**
+
+          All required checkboxes have been completed. This PR is ready to be handled and merged."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Analyze CSV changes
+        if: steps.check-requirements.outputs.all_required_complete == 'true'
+        id: analyze-changes
+        run: |
+          # Get the changes in the CSV file
+          git diff HEAD~1 HEAD project-maintainers.csv > csv_changes.diff
+
+          # Parse the CSV changes and create the change summary
+          python3 << 'EOF'
+          import csv
+          import sys
+          import os
+
+          def parse_csv_file(filename):
+              """Parse CSV file and return list of rows with project inheritance"""
+              rows = []
+              current_project = ""
+              try:
+                  with open(filename, 'r', newline='', encoding='utf-8') as csvfile:
+                      reader = csv.reader(csvfile)
+                      for row in reader:
+                          if len(row) >= 4:  # Ensure minimum columns
+                              # Inherit project from most recent non-empty project row
+                              if len(row) > 1 and row[1].strip():  # Project column is not empty
+                                  current_project = row[1].strip()
+                              elif current_project:  # Project column is empty, use inherited
+                                  # Create a copy of the row with inherited project
+                                  row_copy = row.copy()
+                                  if len(row_copy) > 1:
+                                      row_copy[1] = current_project
+                                  row = row_copy
+                              rows.append(row)
+              except FileNotFoundError:
+                  return []
+              return rows
+
+          def create_change_summary():
+              """Analyze changes and create summary"""
+              # Get current CSV content
+              current_rows = parse_csv_file('project-maintainers.csv')
+              
+              # Try to get previous version
+              os.system('git show HEAD~1:project-maintainers.csv > previous.csv 2>/dev/null || touch previous.csv')
+              previous_rows = parse_csv_file('previous.csv')
+              
+              changes = []
+              
+              # Create lookup dictionaries for comparison
+              # Using combination of project and maintainer name as key
+              def make_key(row):
+                  if len(row) > 2:
+                      return f"{row[1]}|{row[2]}"
+                  elif len(row) > 1:
+                      return f"{row[1]}|"
+                  return ""
+              
+              previous_dict = {make_key(row): row for row in previous_rows if len(row) >= 2}
+              current_dict = {make_key(row): row for row in current_rows if len(row) >= 2}
+              
+              # Find additions and updates
+              for key, current_row in current_dict.items():
+                  if len(current_row) >= 4:
+                      if key not in previous_dict:
+                          # New entry
+                          changes.append({
+                              'project': current_row[1],
+                              'maintainer': current_row[2],
+                              'company': current_row[3],
+                              'github': current_row[4] if len(current_row) > 4 else '',
+                              'change': 'Add'
+                          })
+                      elif current_row != previous_dict[key]:
+                          # Updated entry
+                          changes.append({
+                              'project': current_row[1],
+                              'maintainer': current_row[2],
+                              'company': current_row[3],
+                              'github': current_row[4] if len(current_row) > 4 else '',
+                              'change': 'Update'
+                          })
+              
+              # Find removals
+              for key, previous_row in previous_dict.items():
+                  if key not in current_dict and len(previous_row) >= 4:
+                      changes.append({
+                          'project': previous_row[1],
+                          'maintainer': previous_row[2],
+                          'company': previous_row[3],
+                          'github': previous_row[4] if len(previous_row) > 4 else '',
+                          'change': 'Remove'
+                      })
+              
+              return changes
+
+          changes = create_change_summary()
+
+          # Create the output CSV content using csv.writer to properly escape values
+          with open('changes_summary.csv', 'w', newline='', encoding='utf-8') as f:
+              writer = csv.writer(f)
+              writer.writerow(["Project", "Maintainer Name", "Company", "Email", "GitHub Handle", "Change"])
+              for change in changes:
+                  writer.writerow([
+                      change['project'],
+                      change['maintainer'],
+                      change['company'],
+                      '',  # Email field left blank
+                      change['github'],
+                      change['change']
+                  ])
+          # Set output for GitHub Actions
+          print(f"Found {len(changes)} changes")
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"changes_count={len(changes)}\n")
+              f.write(f"has_changes={'true' if changes else 'false'}\n")
+          EOF
+
+      - name: Add changes comment
+        if: steps.analyze-changes.outputs.has_changes == 'true' && steps.check-requirements.outputs.all_required_complete == 'true'
+        run: |
+          # Create Markdown table from changes summary
+          python3 << 'EOF'
+          import csv
+          import os
+
+          def create_markdown_table():
+              """Convert CSV changes to Markdown table"""
+              if not os.path.exists('changes_summary.csv'):
+                  return "No changes detected."
+              
+              with open('changes_summary.csv', 'r') as f:
+                  reader = csv.reader(f)
+                  rows = list(reader)
+              
+              if len(rows) <= 1:  # Only header or empty
+                  return "No changes detected."
+              
+              # Create Markdown table
+              table = "| Project | Maintainer Name | Company | Email | GitHub Handle | Change |\n"
+              table += "|---------|-----------------|---------|-------|---------------|--------|\n"
+              
+              for row in rows[1:]:  # Skip header
+                  if len(row) >= 6:
+                      # Escape pipe characters in data and handle empty values
+                      project = row[0].replace('|', '\\|') if row[0] else '-'
+                      maintainer = row[1].replace('|', '\\|') if row[1] else '-'
+                      company = row[2].replace('|', '\\|') if row[2] else '-'
+                      email = row[3].replace('|', '\\|') if row[3] else '_Shared by email_'
+                      github = row[4].replace('|', '\\|') if row[4] else '-'
+                      change = row[5].replace('|', '\\|') if row[5] else '-'
+                      
+                      # Add emoji for change type
+                      change_emoji = {
+                          'Add': '✅ Add',
+                          'Update': '🔄 Update', 
+                          'Remove': '❌ Remove'
+                      }.get(change, change)
+                      
+                      table += f"| {project} | {maintainer} | {company} | {email} | {github} | {change_emoji} |\n"
+              
+              return table
+
+          markdown_table = create_markdown_table()
+
+          # Write to file for use in next step
+          with open('changes_table.md', 'w') as f:
+              f.write(markdown_table)
+          EOF
+
+          # Read the generated table and post comment
+          CHANGES_TABLE=$(cat changes_table.md)
+
+          gh pr comment ${{ github.event.pull_request.number }} --body "## 📋 Maintainer Changes Summary
+
+          The following maintainer changes are ready to handle:
+
+          $CHANGES_TABLE"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload changes summary as artifact
+        if: steps.analyze-changes.outputs.has_changes == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: maintainer-changes-${{ github.event.pull_request.number }}
+          path: |
+            changes_summary.csv
+            changes_table.md
