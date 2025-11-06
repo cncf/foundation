@@ -255,7 +255,7 @@ jobs:
 
           gh pr comment ${{ github.event.pull_request.number }} --body "## 📋 Maintainer Changes Summary
 
-          The following maintainer changes are ready handle:
+          The following maintainer changes are ready to handle:
 
           $CHANGES_TABLE"
         env:
