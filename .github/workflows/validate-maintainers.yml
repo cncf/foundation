@@ -84,7 +84,7 @@ jobs:
         run: |
           gh pr comment ${{ github.event.pull_request.number }} --body "✅ **PR Requirements Complete**
 
-          All required checkboxes have been completed. This PR is ready to handle and merge."
+          All required checkboxes have been completed. This PR is ready to be handled and merged."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
