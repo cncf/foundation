@@ -138,8 +138,10 @@ jobs:
               # Create lookup dictionaries for comparison
               # Using combination of project and maintainer name as key
               def make_key(row):
-                  if len(row) >= 2:
-                      return f"{row[1]}|{row[2]}" if len(row) > 2 else f"{row[1]}|"
+                  if len(row) > 2:
+                      return f"{row[1]}|{row[2]}"
+                  elif len(row) > 1:
+                      return f"{row[1]}|"
                   return ""
               
               previous_dict = {make_key(row): row for row in previous_rows if len(row) >= 2}
