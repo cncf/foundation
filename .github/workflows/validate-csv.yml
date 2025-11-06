@@ -1,14 +1,12 @@
-# Used to validate changes to the project-maintainers.csv file
-# Source: https://github.com/krook/csv-lint
-# Test:   https://github.com/krook/csv-lint-test
+name: CSV Formatting Validation
 
-on: 
+on:
   pull_request:
     paths:
-      - 'project-maintainers.csv'
+      - "project-maintainers.csv"
 
 jobs:
-  verify-csv-validation:
+  validate-csv:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
