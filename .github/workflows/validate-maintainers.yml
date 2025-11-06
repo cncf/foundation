@@ -184,15 +184,19 @@ jobs:
 
           changes = create_change_summary()
 
-          # Create the output CSV content
-          csv_content = "Project,Maintainer Name,Company,Email,GitHub Handle,Change\n"
-          for change in changes:
-              csv_content += f"{change['project']},{change['maintainer']},{change['company']},,{change['github']},{change['change']}\n"
-
-          # Write to file for email
-          with open('changes_summary.csv', 'w') as f:
-              f.write(csv_content)
-
+          # Create the output CSV content using csv.writer to properly escape values
+          with open('changes_summary.csv', 'w', newline='', encoding='utf-8') as f:
+              writer = csv.writer(f)
+              writer.writerow(["Project", "Maintainer Name", "Company", "Email", "GitHub Handle", "Change"])
+              for change in changes:
+                  writer.writerow([
+                      change['project'],
+                      change['maintainer'],
+                      change['company'],
+                      '',  # Email field left blank
+                      change['github'],
+                      change['change']
+                  ])
           # Set output for GitHub Actions
           print(f"Found {len(changes)} changes")
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
