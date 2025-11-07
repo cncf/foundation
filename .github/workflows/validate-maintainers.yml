@@ -10,10 +10,16 @@ permissions:
   contents: read
   pull-requests: write
   issues: write
+  actions: read
 
 jobs:
   validate-maintainers:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      actions: read
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -72,21 +78,44 @@ jobs:
       - name: Add warning comment if requirements not met
         if: steps.check-requirements.outputs.all_required_complete == 'false'
         run: |
+          # Debug token permissions
+          echo "Attempting to add warning comment..."
+          echo "PR number: ${{ github.event.pull_request.number }}"
+          
           # Add comment explaining requirements
           gh pr comment ${{ github.event.pull_request.number }} --body "⚠️ **PR Requirements Not Met**
 
-          This PR can't be merged until the first three checkboxes are marked complete."
+          This PR can't be merged until the first three checkboxes are marked complete." || {
+            echo "Failed to add comment. Trying with curl..."
+            curl -L \
+              -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
+              -d '{"body":"⚠️ **PR Requirements Not Met**\n\nThis PR can'\''t be merged until the first three checkboxes are marked complete."}'
+          }
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Add approval comment if requirements met
         if: steps.check-requirements.outputs.all_required_complete == 'true'
         run: |
+          echo "Attempting to add approval comment..."
           gh pr comment ${{ github.event.pull_request.number }} --body "✅ **PR Requirements Complete**
 
-          All required checkboxes have been completed. This PR is ready to be handled and merged."
+          All required checkboxes have been completed. This PR is ready to be handled and merged." || {
+            echo "Failed to add comment via gh CLI, trying curl..."
+            curl -L \
+              -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
+              -d '{"body":"✅ **PR Requirements Complete**\n\nAll required checkboxes have been completed. This PR is ready to be handled and merged."}'
+          }
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Analyze CSV changes
         if: steps.check-requirements.outputs.all_required_complete == 'true'
@@ -138,10 +167,8 @@ jobs:
               # Create lookup dictionaries for comparison
               # Using combination of project and maintainer name as key
               def make_key(row):
-                  if len(row) > 2:
-                      return f"{row[1]}|{row[2]}"
-                  elif len(row) > 1:
-                      return f"{row[1]}|"
+                  if len(row) >= 2:
+                      return f"{row[1]}|{row[2]}" if len(row) > 2 else f"{row[1]}|"
                   return ""
               
               previous_dict = {make_key(row): row for row in previous_rows if len(row) >= 2}
@@ -197,6 +224,7 @@ jobs:
                       change['github'],
                       change['change']
                   ])
+
           # Set output for GitHub Actions
           print(f"Found {len(changes)} changes")
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
@@ -258,14 +286,30 @@ jobs:
 
           # Read the generated table and post comment
           CHANGES_TABLE=$(cat changes_table.md)
-
+          
+          echo "Attempting to add changes summary comment..."
           gh pr comment ${{ github.event.pull_request.number }} --body "## 📋 Maintainer Changes Summary
 
           The following maintainer changes are ready to handle:
 
-          $CHANGES_TABLE"
+          $CHANGES_TABLE" || {
+            echo "Failed to add comment via gh CLI, trying alternative approach..."
+            # Save comment body to file and use curl
+            cat > comment_body.json << EOF
+          {
+            "body": "## 📋 Maintainer Changes Summary\n\nThe following maintainer changes are ready to handle:\n\n$(cat changes_table.md | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')"
+          }
+          EOF
+            curl -L \
+              -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
+              -d @comment_body.json
+          }
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Upload changes summary as artifact
         if: steps.analyze-changes.outputs.has_changes == 'true'
