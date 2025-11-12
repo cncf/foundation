@@ -1,4 +1,4 @@
-## CNCF Community Code of Conduct v1.3
+## CNCF Community Code of Conduct v1.4
 
 Other languages available:
 - [Arabic/العربية](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/ar.md)
