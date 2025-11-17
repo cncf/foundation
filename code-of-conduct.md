@@ -57,7 +57,7 @@ Examples of behavior that contributes to a positive environment include but are 
 * Focusing on what is best not just for us as individuals, but for the
   overall community
 * Using welcoming and inclusive language
-
+* Addressing disagreements or concerns through appropriate channels
 
 Examples of unacceptable behavior include but are not limited to:
 
@@ -71,7 +71,8 @@ Examples of unacceptable behavior include but are not limited to:
 * Unwelcome physical contact
 * Unwelcome sexual or romantic attention or advances
 * Using CNCF projects or community spaces for political campaigning or promotion of political causes 
-  that are unrelated to the advancement of cloud native technology. To clarify, this policy does not restrict individuals' personal attire, including attire that expresses personal beliefs or aspects of identity.
+  that are unrelated to the advancement of cloud native technology. To clarify, this policy does not restrict individuals' personal attire, including attire that expresses personal beliefs or aspects of identity
+* The solicitation or encouragement of harmful mass criticism against an individual
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
