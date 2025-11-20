@@ -1764,8 +1764,8 @@ Sandbox,Kuadrant,Jason Madigan,Red Hat,jasonmadigan,https://github.com/Kuadrant/
 ,,Didier Di Cesare,Red Hat,didierofrivia,
 ,,David Martin,Red Hat,david-martin,
 Sandbox,Score,Ben Meier,Humanitec,astromechza,https://github.com/score-spec/spec/blob/main/MAINTAINERS.md
-,,Chris Stephenson,Humanitec,chrishumanitec,
-,,Mathieu Benoit,Humanitec,mathieu-benoit,
+,,Chris Stephenson,Independant,chrishumanitec,
+,,Mathieu Benoit,Docker,mathieu-benoit,
 ,,Susa Tünker,Checkly,sujaya-sys,
 Sandbox,openGemini,Yu Xiang,Huawei,xiangyu5632,https://github.com/openGemini/openGemini/blob/main/MAINTAINERS.md
 ,,Shilin Li,Huawei,shilinlee,
@@ -2105,5 +2105,6 @@ Sandbox,Dalec,Brian Goff,Microsoft,cpuguy83,https://github.com/project-dalec/dal
 ,,Jeremy Rickard,Microsoft,jrrickard,
 ,,Sertac Ozercan,Microsoft,sozercan,
 ,,Peter Engelbert,Microsoft,pmengelbert,
+
 
 
