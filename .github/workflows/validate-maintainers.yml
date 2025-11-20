@@ -20,6 +20,7 @@ jobs:
       pull-requests: write
       issues: write
       actions: read
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -49,28 +50,25 @@ jobs:
           # Check if first 3 checkboxes are completed
           check_results = []
           for i in range(3):  # Check first 3 checkboxes
-              if i < len(all_checkboxes):
-                  is_checked = all_checkboxes[i].lower() == 'x'
-                  check_results.append(is_checked)
-                  print(f"Checkbox {i+1}: {'CHECKED' if is_checked else 'UNCHECKED'} ({all_checkboxes[i]})")
-              else:
-                  # Not enough checkboxes found
-                  check_results.append(False)
-                  print(f"Checkbox {i+1}: NOT FOUND")
-
+            if i < len(all_checkboxes):
+              is_checked = all_checkboxes[i].lower() == 'x'
+              check_results.append(is_checked)
+              print(f"Checkbox {i+1}: {'CHECKED' if is_checked else 'UNCHECKED'} ({all_checkboxes[i]})")
+            else:
+              # Not enough checkboxes found
+              check_results.append(False)
+              print(f"Checkbox {i+1}: NOT FOUND")
           all_complete = all(check_results)
           print(f"All first three checkboxes complete: {all_complete}")
 
           # Write to GitHub output file only
           github_output = os.environ.get('GITHUB_OUTPUT')
           if github_output:
-              with open(github_output, 'a') as f:
-                  for i, check in enumerate(check_results, 1):
-                      f.write(f"check{i}={'true' if check else 'false'}\n")
-                  f.write(f"all_required_complete={'true' if all_complete else 'false'}\n")
+            with open(github_output, 'a') as f:
+              for i, check in enumerate(check_results, 1):
+                f.write(f"check{i}={'true' if check else 'false'}\n")
+              f.write(f"all_required_complete={'true' if all_complete else 'false'}\n")
           EOF
-
-          # Run the Python script
           python3 check_requirements.py
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
@@ -81,7 +79,6 @@ jobs:
           # Debug token permissions
           echo "Attempting to add warning comment..."
           echo "PR number: ${{ github.event.pull_request.number }}"
-          
           # Add comment explaining requirements
           gh pr comment ${{ github.event.pull_request.number }} --body "⚠️ **PR Requirements Not Met**
 
@@ -90,13 +87,13 @@ jobs:
             curl -L \
               -X POST \
               -H "Accept: application/vnd.github+json" \
-              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "Authorization: Bearer ${{ secrets.MAINTAINER_PR_TOKEN }}" \
               -H "X-GitHub-Api-Version: 2022-11-28" \
               https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
               -d '{"body":"⚠️ **PR Requirements Not Met**\n\nThis PR can'\''t be merged until the first three checkboxes are marked complete."}'
           }
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.MAINTAINER_PR_TOKEN }}
 
       - name: Add approval comment if requirements met
         if: steps.check-requirements.outputs.all_required_complete == 'true'
@@ -109,13 +106,13 @@ jobs:
             curl -L \
               -X POST \
               -H "Accept: application/vnd.github+json" \
-              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "Authorization: Bearer ${{ secrets.MAINTAINER_PR_TOKEN }}" \
               -H "X-GitHub-Api-Version: 2022-11-28" \
               https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
               -d '{"body":"✅ **PR Requirements Complete**\n\nAll required checkboxes have been completed. This PR is ready to be handled and merged."}'
           }
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.MAINTAINER_PR_TOKEN }}
 
       - name: Analyze CSV changes
         if: steps.check-requirements.outputs.all_required_complete == 'true'
@@ -149,13 +146,13 @@ jobs:
                                       row_copy[1] = current_project
                                   row = row_copy
                               rows.append(row)
-              except FileNotFoundError:
+                    -H "Authorization: Bearer ${{ secrets.MAINTAINER_PR_TOKEN }}" \
                   return []
               return rows
 
           def create_change_summary():
               """Analyze changes and create summary"""
-              # Get current CSV content
+                GH_TOKEN: ${{ secrets.MAINTAINER_PR_TOKEN }}
               current_rows = parse_csv_file('project-maintainers.csv')
               
               # Try to get previous version
@@ -286,7 +283,7 @@ jobs:
 
           # Read the generated table and post comment
           CHANGES_TABLE=$(cat changes_table.md)
-          
+
           echo "Attempting to add changes summary comment..."
           gh pr comment ${{ github.event.pull_request.number }} --body "## 📋 Maintainer Changes Summary
 
@@ -303,13 +300,13 @@ jobs:
             curl -L \
               -X POST \
               -H "Accept: application/vnd.github+json" \
-              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "Authorization: Bearer ${{ secrets.MAINTAINER_PR_TOKEN }}" \
               -H "X-GitHub-Api-Version: 2022-11-28" \
               https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
               -d @comment_body.json
           }
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.MAINTAINER_PR_TOKEN }}
 
       - name: Upload changes summary as artifact
         if: steps.analyze-changes.outputs.has_changes == 'true'
