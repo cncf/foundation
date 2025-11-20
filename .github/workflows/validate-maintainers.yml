@@ -146,13 +146,13 @@ jobs:
                                       row_copy[1] = current_project
                                   row = row_copy
                               rows.append(row)
-                    -H "Authorization: Bearer ${{ secrets.MAINTAINER_PR_TOKEN }}" \
+                except FileNotFoundError:
                   return []
               return rows
 
           def create_change_summary():
               """Analyze changes and create summary"""
-                GH_TOKEN: ${{ secrets.MAINTAINER_PR_TOKEN }}
+              # Get current CSV content
               current_rows = parse_csv_file('project-maintainers.csv')
               
               # Try to get previous version
