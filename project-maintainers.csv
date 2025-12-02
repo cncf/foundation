@@ -301,14 +301,12 @@ Incubating,CNI,Bruce Ma,,mars1024,https://github.com/containernetworking/cni/blo
 ,,Ben Leggett,edera.dev,bleggett,
 ,,Marcelo Guerrero,Red Hat,mlguerrero12,
 ,,Doug Smith,Red Hat,dougbtv,
-Graduated,TUF (The Update Framework),Sebastien Awwad,NYU,awwad,https://github.com/theupdateframework/tuf/blob/develop/docs/MAINTAINERS.txt
-,,Justin Cappos,NYU,JustinCappos,
-,,Marina Moore,NYU,mnm678,
-,,Trishank Karthik Kuppusamy,NYU,trishankatdatadog,
-,,Lukas Puehringer,NYU,lukpueh,
-,,Santiago Torres-Arias,NYU,SantiagoTorres,
+Graduated,TUF (The Update Framework),Justin Cappos,NYU,JustinCappos,https://github.com/theupdateframework/community/blob/main/MAINTAINERS.md
+,,Marina Moore,Edera,mnm678,
+,,Trishank Karthik Kuppusamy,Apple,trishankatdatadog,
+,,Lukas Puehringer,Eclipse Foundation,lukpueh,
+,,John Kjell,ControlPlane,jkjell,
 ,,Joshua Lock,Verizon,joshuagl,
-,,Jussi Kukkonen,,jku,
 Incubating,Notary,Justin Cormack ,Docker,justincormack,https://github.com/notaryproject/.github/blob/main/MAINTAINERS
 ,,Niaz Kahn,AWS,niazfk,
 ,,Hu Keping,Huawei,HuKeping,
@@ -556,12 +554,10 @@ Graduated,Flux,Stefan Prodan,ControlPlane,stefanprodan,https://github.com/fluxcd
 ,,Tamao Nakahara, Independent,mewzherder,
 ,,Dipti Pai, Microsoft,dipti-pai,
 ,,Leigh Capili,ControlPlane,stealthybox,
-Graduated,In-Toto,Justin Cappos,New York University,JustinCappos,https://github.com/in-toto/in-toto/blob/develop/MAINTAINERS.txt
-,,Lukas Puehringer,NYU,lukpueh,
-,,Marina Moore,NYU,mnm678,
-,,Santiago Torres,Purdue University,SantiagoTorres,
-,,Sebastien Awwad,Conda,awwad,
-,,Aditya Sirish A Yelgundhalli,NYU,adityasaky,
+Graduated,In-Toto,Santiago Torres-Arias,Purdue University,SantiagoTorres,https://github.com/in-toto/community/blob/main/STEERING-COMMITTEE.md
+,,Justin Cappos,New York University,JustinCappos,
+,,Jack Kelly,ControlPlane,06kellyjac,
+,,Trishank Karthik Kuppusamy,Apple,trishankatdatadog,
 Incubating,Strimzi,Jakub Scholz,Red Hat,scholzj,https://github.com/strimzi/strimzi-kafka-operator/blob/master/MAINTAINERS
 ,,Paolo Patierno,Red Hat,ppatierno,
 ,,Tom Bentley,Red Hat,tombentley,
@@ -2115,6 +2111,7 @@ Sandbox,Dalec,Brian Goff,Microsoft,cpuguy83,https://github.com/project-dalec/dal
 ,,Jeremy Rickard,Microsoft,jrrickard,
 ,,Sertac Ozercan,Microsoft,sozercan,
 ,,Peter Engelbert,Microsoft,pmengelbert,
+
 
 
 
