@@ -1352,10 +1352,9 @@ Sandbox,Hexa Policy Orchestrator,Gerry Gebel,Strata Identity,ggebel,https://gith
 ,,Hunter Gillane, Initial Capacity, gnarargs,
 ,,Tyson Gern, Initial Capacity, tygern,
 ,,Damien Le Berrigaud, Initial Capacity, dam5s,
-Sandbox,Kured,Christian Kotzbauer,nerdware,ckotzbauer,https://github.com/kubereboot/kured/blob/main/MAINTAINERS
-,,Hidde Beydals,Independent,hiddeco,
-,,Jean-Philippe Evrard,TLaaS,evrardjp,
+Sandbox,Kured,Jean-Philippe Evrard,TLaaS,evrardjp,https://github.com/kubereboot/kured/blob/main/MAINTAINERS
 ,,Jack Francis,Microsoft,jackfrancis,
+,,Dharsan Baskar,Independent,dharsanb,
 Incubating, OpenFGA, Adrian Tam, Okta, adriantam, https://github.com/openfga/community/blob/main/MAINTAINERS.md
 ,,Dan Cech, Grafana Labs, DanCech,
 ,,Jose Padilla, Okta, jpadilla,
