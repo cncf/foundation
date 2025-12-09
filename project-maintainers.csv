@@ -95,7 +95,7 @@ Graduated,Kubernetes steering,Antonio Ojea,Google,aojea,https://git.k8s.io/steer
 ,,Walter Fender,Google,cheftako,
 ,,Wenjia Zhang,Google,wenjiaswe,
 ,,Wojciech Tyczynski,Google,wojtek-t,
-,,Xander Grzywinski,Independent,salaxander,
+,,Xander Grzywinski,Giant Swarm,salaxander,
 ,,Xing Yang,VMware,xing-yang,
 ,,Yuanliang Zhang,Microsoft,zylxjtu,
 Graduated,Prometheus,Alex Greenbank,Grafana Labs,alexgreenbank,https://prometheus.io/governance/#team-members
@@ -1601,7 +1601,6 @@ Sandbox,Eraser,Sertac Ozercan,Microsoft,sozercan,https://github.com/eraser-dev/e
 ,,Ashna Mehrotra,Microsoft,ashnamehrotra,
 ,,Peter Engelbert,Microsoft,pmengelbert,
 ,,Brian Goff,Microsoft,cpuguy83,
-,,Xander Grzywinski,Microsoft,salaxander,
 Sandbox,kpt,Gergely Csatari,Nokia,CsatariGergely,https://github.com/kptdev/governance/blob/main/maintainers.yaml
 ,,Istvan Kispal,Nokia,kispaljr,
 ,,Liam Fallon,Ericsson Software Technology,liamfallon,
