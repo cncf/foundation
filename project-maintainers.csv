@@ -439,15 +439,15 @@ Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecuri
 ,,Samuel Gaist,Idiap Research Institute,sgaist,
 ,,Angelo Puglisi,Sysdig,deepskyblue86,
 ,,Gerald Combs,Wireshark Foundation,geraldcombs,
-Graduated,SPIFFE,Andres Vega,VMware,anvega,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
-,,Evan Gilman,VMware,evan2645,
-,,Andrew Jessup,HPE,ajessup,
-,,Andrew Moore,Uber,amoore877,
-,,Frederick Kautz,Doc.ai,fkautz,
-,,Dan Feldman,HPE,dfeldman,
+Graduated,SPIFFE,Arndt Schwenkschuster,Defakto,arndt-s,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
 ,,Justin Burke,Google,justinburke,
-,,Spike Curtis,Tigera,spikecurtis,
-,,Andrew Harding,VMware,azdagron,
+,,Spike Curtis,Coder,spikecurtis,
+,,Andrew Harding,Anthropic,azdagron,
+,SPIFFE Steering Committee,Arndt Schwenkschuster,Defakto,arndt-s,https://github.com/spiffe/spiffe/blob/main/ssc/README.md
+,,Noah Stride,Teleport,strideynet,
+,,Volkan Ozcelik,Broadcom,v0lkan,
+,,Mariusz Sabath,IBM Research,mrsabath,
+,,Kevin Fox,Pacific Northwest National Laboratory,kfox1111,
 Graduated,SPIRE,Sorin Dumitru,Bloomberg,sorindumitru,https://github.com/spiffe/spire/blob/main/CODEOWNERS
 ,,Evan Gilman,SPIRL,evan2645,
 ,,Marcos Yacob,HPE,MarcosDY,
