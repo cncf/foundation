@@ -917,13 +917,11 @@ Incubating,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaf
 ,,Zane Bitter,Red Hat,zaneb,
 Sandbox,Porter,Sarah Christoff,Microsoft,hypernovasunnix,https://github.com/getporter/porter/blob/main/OWNERS.md
 ,,Jeremy Rickard,VMware,jeremyrickard,
-,,Vaughn Dice,Fermyon,vdice,
-,,Reddy Prasad,,dev-drprasad,
-,,Jennifer Davis,Microsoft,iennae,
-,,Yingrong Zhao,Honeycomb,vinozzz,
 ,,Brian DeGeeter,F5,bdegeeter,
 ,,Steven Gettys,F5,sgettys,
 ,,Troy Connor,Microsoft,troy0820,
+,,Kim Christensen,SimCorp,kichristensen,
+,,David Gannon,,dgannon991,
 Incubating,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/openyurt/blob/master/OWNERS
 ,,Fei Guo,Alibaba,Fei-Guo,
 ,,frank-huangyuqi,Alibaba,huangyuqi,
@@ -2134,6 +2132,7 @@ Sandbox,HolmesGPT,Natan Yellin,Robusta,aantn,https://github.com/HolmesGPT/holmes
 ,,Roi Glinik,Robusta,RoiGlinik,
 ,,Moshe Morad,Robusta,moshemorad,
 ,,Qingchuan Hao,Microsoft,mainred,
+
 
 
 
