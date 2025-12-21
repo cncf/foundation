@@ -418,7 +418,7 @@ Graduated,TiKV,Siddon Tang,PingCAP,siddontang,https://github.com/tikv/tikv/blob/
 ,,Xiaoguang Sun,PingCAP,sunxiaoguang,
 ,,Daobing Li,JD,lidaobing,
 ,,Fu Chen,Yidianzixun,fredchenbj,
-Graduated,CloudEvents,Doug Davis,Microsoft,duglin,https://github.com/cloudevents/spec/blob/main/OWNERS
+Graduated,CloudEvents,Doug Davis,,duglin,https://github.com/cloudevents/spec/blob/main/OWNERS
 ,,Mark Peek,VMware,markpeek,
 ,,Klaus Deissner,SAP,deissnerk,
 Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
@@ -2139,3 +2139,4 @@ Sandbox,HolmesGPT,Natan Yellin,Robusta,aantn,https://github.com/HolmesGPT/holmes
 ,,Roi Glinik,Robusta,RoiGlinik,
 ,,Moshe Morad,Robusta,moshemorad,
 ,,Qingchuan Hao,Microsoft,mainred,
+
