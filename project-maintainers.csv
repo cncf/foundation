@@ -228,16 +228,17 @@ Graduated,Jaeger,Yuri Shkuro,Meta,yurishkuro,https://github.com/jaegertracing/ja
 ,,Pavol Loffay,Red Hat,pavolloffay,
 ,,Mahad Zaryab,Bloomberg,mahadzaryab1,
 Graduated,Vitess,Andres Taylor,PlanetScale,systay,https://github.com/vitessio/vitess/blob/master/MAINTAINERS.md
-,,Arthur Schreiber,Microsoft,arthurschreiber,
+,,Arthur Schreiber,PlanetScale,arthurschreiber,
 ,,Derek Perkins,Nozzle,derekperkins,
 ,,Dirkjan Bussink,PlanetScale,dbussink,
 ,,Florent Poinsard,PlanetScale,frouioui,
-,,Frances Thai,Independent,notfelineit,
 ,,Harshit Gangal,PlanetScale,harshit-gangal,
-,,Matt Lord,Independent,mattlord,
+,,Matt Lord,PlanetScale,mattlord,
+,,Nick Van Wiggeren,PlanetScale,nickvanw,
+,,Noble Mittal,PlanetScale,beingnoble03,
 ,,Rohit Nayak,PlanetScale,rohit-nayak-ps,
 ,,Shlomi Noach,PlanetScale,shlomi-noach,
-,,Tim Vaillancourt,Slack (Salesforce),timvaillancourt,
+,,Tim Vaillancourt,PlanetScale,timvaillancourt,
 Incubating,gRPC,Abhishek Kumar,Google,a11r,https://github.com/grpc/grpc/blob/master/MAINTAINERS.md
 ,,Alexander Polcyn,Google,apolcyn,
 ,,Arjun Roy,Google,arjunroy,
@@ -418,7 +419,7 @@ Graduated,TiKV,Siddon Tang,PingCAP,siddontang,https://github.com/tikv/tikv/blob/
 ,,Xiaoguang Sun,PingCAP,sunxiaoguang,
 ,,Daobing Li,JD,lidaobing,
 ,,Fu Chen,Yidianzixun,fredchenbj,
-Graduated,CloudEvents,Doug Davis,Microsoft,duglin,https://github.com/cloudevents/spec/blob/main/OWNERS
+Graduated,CloudEvents,Doug Davis,,duglin,https://github.com/cloudevents/spec/blob/main/OWNERS
 ,,Mark Peek,VMware,markpeek,
 ,,Klaus Deissner,SAP,deissnerk,
 Graduated,Falco,Andrea Terzolo,Sysdig,andreagit97,https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
@@ -915,13 +916,11 @@ Incubating,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaf
 ,,Zane Bitter,Red Hat,zaneb,
 Sandbox,Porter,Sarah Christoff,Microsoft,hypernovasunnix,https://github.com/getporter/porter/blob/main/OWNERS.md
 ,,Jeremy Rickard,VMware,jeremyrickard,
-,,Vaughn Dice,Fermyon,vdice,
-,,Reddy Prasad,,dev-drprasad,
-,,Jennifer Davis,Microsoft,iennae,
-,,Yingrong Zhao,Honeycomb,vinozzz,
 ,,Brian DeGeeter,F5,bdegeeter,
 ,,Steven Gettys,F5,sgettys,
 ,,Troy Connor,Microsoft,troy0820,
+,,Kim Christensen,SimCorp,kichristensen,
+,,David Gannon,,dgannon991,
 Incubating,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/openyurt/blob/master/OWNERS
 ,,Fei Guo,Alibaba,Fei-Guo,
 ,,frank-huangyuqi,Alibaba,huangyuqi,
@@ -1562,7 +1561,8 @@ Incubating,Keycloak,Stian Thorgersen,IBM,stianst,https://github.com/keycloak/key
 ,,Stan Silvert,Red Hat,ssilvert,
 ,,Takashi Norimatsu,Hitachi,tnorimat,
 ,keycloak,Thomas Darimont,Identity Tailor GmbH,thomasdarimont,https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md
-,,Václav Muzikář,Red Hat,vmuzikar,
+,,Václav Muzikář,IBM,vmuzikar,
+,,Steven Hawkins,IBM,shawkins,
 Sandbox,Kepler,Sunil Thaha,Red Hat,sthaha,https://github.com/sustainable-computing-io/kepler/blob/main/MAINTAINERS.md
 ,,Vimal Kumar,Red Hat,vimalk78,
 ,,Vibhu Prashar,Red Hat,vprashar2929,
@@ -2136,3 +2136,4 @@ Sandbox,HolmesGPT,Natan Yellin,Robusta,aantn,https://github.com/HolmesGPT/holmes
 ,,Roi Glinik,Robusta,RoiGlinik,
 ,,Moshe Morad,Robusta,moshemorad,
 ,,Qingchuan Hao,Microsoft,mainred,
+
