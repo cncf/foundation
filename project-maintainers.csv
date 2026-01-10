@@ -205,7 +205,7 @@ Graduated,containerd,Michael Crosby,Apple,crosbymichael,https://github.com/conta
 ,,Phil Estes,Amazon,estesp,
 ,,Akihiro Suda,NTT,AkihiroSuda,
 ,,Mike Brown,IBM,mikebrow,
-,,Maksym Pavlenko,Apple,mxpv,
+,,Maksym Pavlenko,NVIDIA,mxpv,
 ,,Wei Fu,Microsoft,fuweid,
 ,,Davanum Srinivas,Nvidia,dims,
 ,,Kevin Parsons,Microsoft,kevpar,
@@ -2142,4 +2142,5 @@ Sandbox,HolmesGPT,Natan Yellin,Robusta,aantn,https://github.com/HolmesGPT/holmes
 ,,Roi Glinik,Robusta,RoiGlinik,
 ,,Moshe Morad,Robusta,moshemorad,
 ,,Qingchuan Hao,Microsoft,mainred,
+
 
