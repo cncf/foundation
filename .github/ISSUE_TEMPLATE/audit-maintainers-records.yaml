@@ -1,0 +1,25 @@
+---
+name: Audit Maintainers Records
+description: Audit project maintainers records
+title: "Audit [project-name] maintainers records"
+labels:
+  - maintainers
+assignees:
+  - riaankleinhans
+body:
+  - type: textarea
+    id: checklist
+    attributes:
+      label: "Audit Checklist"
+      value: |
+        - [ ] Update internal CNCF spreadsheet
+          - [ ] Update owners file link in spreadsheet
+          - [ ] Check and update maintainer-d
+        - [ ] Check https://github.com/cncf/foundation/ PR against owners file
+        - [ ] Update Service desk access
+        - [ ] Update maintainers groups.io members
+
+        Related to: https://github.com/cncf/foundation/pull/
+    validations:
+      required: false
+
