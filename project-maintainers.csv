@@ -1516,11 +1516,11 @@ Sandbox,HwameiStor,Liang Sun,DaoCloud,sun7927,https://github.com/hwameistor/hwam
 ,,Baofa Fan,DaoCloud,carlory,
 ,,Peng Lai,DaoCloud,peng9808,
 ,,Peter Pan,DaoCloud,panpan0000,
-Incubating,Kubescape,Bezalel Brandwine,ARMO,Bezbran,https://github.com/kubescape/kubescape/blob/master/MAINTAINERS.md#maintainers
-,,Craig Box,ARMO,craigbox,
-,,David Wertenteil,ARMO,dwertent,
-,,Rotem Refael,ARMO,rotemamsa,
+Incubating,Kubescape,Bertschy Matthias,ARMO,matthyx,https://github.com/kubescape/project-governance/blob/main/MAINTAINERS.md
 ,,Ben Hirschberg,ARMO,slashben,
+,,Rotem Refael,ARMO,rotemamsa,
+,,Amir Malka,ARMO,amirmalka,
+,,Bezalel Brandwine,Softwine,Bezbran,
 Sandbox,Carina,Zhenhua Zhang,BoCloud,ZhangZhenhua,https://github.com/carina-io/carina/blob/main/MAINTAINERS.md
 ,,Shaosong Fu,Bocloud,antmoveh,
 Sandbox,Paralus,Avinash Varma Penmetsa,Rafay,avinashpenmetsa,https://github.com/paralus/paralus/blob/main/MAINTAINERS.md
@@ -2147,5 +2147,6 @@ Sandbox,HolmesGPT,Natan Yellin,Robusta,aantn,https://github.com/HolmesGPT/holmes
 ,,Roi Glinik,Robusta,RoiGlinik,
 ,,Moshe Morad,Robusta,moshemorad,
 ,,Qingchuan Hao,Microsoft,mainred,
+
 
 
