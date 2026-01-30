@@ -15,8 +15,8 @@ On-demand webinars premiere on Thursdays.
 ## Who can participate in CNCF Online Programs ##
  
 Members 
-* Platinum members are eligible for 3 activities per quarter including live webinar, on-demand webinar, and a livestream.
-* Gold members are eligible for 3 activities per quarter including on-demand webinar or livestream (Only 1 can be livestream, you get to choose.)
+* Platinum members are eligible for 4 activities per year including live, on-demand, and Fireside Chat.
+* Gold members are eligible for 4 activities per year including live, on-demand, and Fireside Chat.
 * Silver members are eligible for 2 on-demand webinars per year.
 * End user supporter members cannot hold a webinar.
 * CNCF Member webinars will have “member webinar” in the YouTube description.
@@ -34,7 +34,7 @@ Ambassadors
 ## Online programs type definitions ##
 
 * Live webinars
-	* Only offered to Platinum members with 1 slot/month 
+	* Only offered to Gold and Platinum members
 	* Day of webinar - 15 minute soundcheck
 	* Premiere date - Tuesdays or Wednesdays at 10am PT
 * On-demand webinars
