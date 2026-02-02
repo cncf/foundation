@@ -1,0 +1,103 @@
+name: Validate License Exceptions
+
+on:
+  pull_request:
+    paths:
+      - 'license-exceptions/exceptions.json'
+      - 'license-exceptions/schema/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats
+
+      - name: Validate JSON Schema
+        run: |
+          ajv validate \
+            --spec=draft2020 \
+            -s license-exceptions/schema/exception.schema.json \
+            -d license-exceptions/exceptions.json \
+            --strict=false \
+            -c ajv-formats
+
+      - name: Check for duplicate IDs
+        run: |
+          node -e "
+            const data = JSON.parse(require('fs').readFileSync('license-exceptions/exceptions.json', 'utf-8'));
+            const ids = data.exceptions.map(e => e.id);
+            const seen = new Set();
+            const duplicates = [];
+            
+            for (const id of ids) {
+              if (seen.has(id)) {
+                duplicates.push(id);
+              }
+              seen.add(id);
+            }
+            
+            if (duplicates.length > 0) {
+              console.error('Duplicate IDs found:', duplicates);
+              process.exit(1);
+            }
+            
+            console.log('✓ No duplicate IDs found (' + ids.length + ' exceptions)');
+          "
+
+      - name: Verify generated files are in sync
+        run: |
+          # Generate fresh files
+          cd license-exceptions
+          node scripts/generate-all.js
+          
+          # Check if CSV changed
+          if ! git diff --quiet CNCF-licensing-exceptions.csv; then
+            echo "::error::CSV file is out of sync with exceptions.json"
+            echo "Run 'node scripts/generate-all.js' and commit the changes"
+            git diff CNCF-licensing-exceptions.csv
+            exit 1
+          fi
+          
+          # Check if SPDX changed
+          if ! git diff --quiet cncf-exceptions-current.spdx; then
+            echo "::error::SPDX file is out of sync with exceptions.json"
+            echo "Run 'node scripts/generate-all.js' and commit the changes"
+            git diff cncf-exceptions-current.spdx
+            exit 1
+          fi
+          
+          echo "✓ All generated files are in sync"
+
+      - name: Validate JSON structure
+        run: |
+          node -e "
+            const data = JSON.parse(require('fs').readFileSync('license-exceptions/exceptions.json', 'utf-8'));
+            
+            // Check required top-level fields
+            if (!data.version) throw new Error('Missing version field');
+            if (!data.lastUpdated) throw new Error('Missing lastUpdated field');
+            if (!Array.isArray(data.exceptions)) throw new Error('exceptions must be an array');
+            
+            // Check each exception has required fields
+            for (let i = 0; i < data.exceptions.length; i++) {
+              const exc = data.exceptions[i];
+              if (!exc.id) throw new Error('Exception ' + i + ' missing id');
+              if (!exc.package) throw new Error('Exception ' + i + ' missing package');
+              if (!exc.license) throw new Error('Exception ' + i + ' missing license');
+              if (!exc.status) throw new Error('Exception ' + i + ' missing status');
+              if (!['approved', 'allowlisted', 'apache-2.0'].includes(exc.status)) {
+                throw new Error('Exception ' + i + ' has invalid status: ' + exc.status);
+              }
+            }
+            
+            console.log('✓ JSON structure is valid');
+          "
