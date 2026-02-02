@@ -1,6 +1,3756 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2024-01-01",
-  "blanketExceptions": [],
-  "exceptions": []
+  "lastUpdated": "2026-02-02",
+  "blanketExceptions": [
+    {
+      "id": "blanket-ebpf-gpl",
+      "name": "GPL for in-kernel eBPF programs",
+      "description": "GPL-2.0 licensed code is permitted for in-kernel eBPF programs only, as this is required by the Linux kernel BPF subsystem.",
+      "licenses": [
+        "GPL-2.0-only",
+        "GPL-2.0-or-later"
+      ],
+      "scope": "in-kernel eBPF programs only",
+      "approvedDate": "2023-08-31",
+      "documentUrl": "https://github.com/cncf/foundation/blob/main/license-exceptions/README.md"
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "exc-2023-08-31-001",
+      "package": "github.com/docker/go-metrics",
+      "license": "CC-BY-SA 4.0",
+      "approvedDate": "2023-08-31",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+    },
+    {
+      "id": "exc-2023-08-31-002",
+      "package": "github.com/hashicorp/go-memdb",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-08-31",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+    },
+    {
+      "id": "exc-2023-08-31-003",
+      "package": "github.com/shoenig/go-m1cpu",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-08-31",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+    },
+    {
+      "id": "exc-2023-08-31-004",
+      "package": "hashicorp/packer-plugin-sdk",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-08-31",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+    },
+    {
+      "id": "exc-2023-06-27-001",
+      "package": "github.com/hashicorp/consul/api",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-002",
+      "package": "github.com/hashicorp/go-hclog",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-003",
+      "package": "github.com/hashicorp/go-immutable-radix",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-004",
+      "package": "github.com/hashicorp/go-plugin",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-005",
+      "package": "github.com/hashicorp/go-rootcerts",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-006",
+      "package": "github.com/hashicorp/go-secure-stdlib",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-007",
+      "package": "github.com/hashicorp/go-sockaddr",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-008",
+      "package": "github.com/hashicorp/go-uuid",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-009",
+      "package": "github.com/hashicorp/serf",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-010",
+      "package": "github.com/hashicorp/vault",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-011",
+      "package": "github.com/veraison/go-cose",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-012",
+      "package": "hashicorp/consul/api",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-013",
+      "package": "hashicorp/go-hclog",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-014",
+      "package": "hashicorp/go-immutable-radix",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-015",
+      "package": "hashicorp/go-plugin",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-016",
+      "package": "hashicorp/go-rootcerts",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-017",
+      "package": "hashicorp/go-secure-stdlib",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-018",
+      "package": "hashicorp/go-sockaddr",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-019",
+      "package": "hashicorp/go-uuid",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-020",
+      "package": "hashicorp/go-version",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-021",
+      "package": "hashicorp/raft",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-022",
+      "package": "hashicorp/serf",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-023",
+      "package": "hashicorp/vault",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-024",
+      "package": "hashicorp/yamux",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2023-06-27-025",
+      "package": "veraison/go-cose",
+      "license": "MPL-2.0",
+      "approvedDate": "2023-06-27",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+    },
+    {
+      "id": "exc-2022-04-12-001",
+      "package": "github.com/eclipse/paho.mqtt.golang",
+      "license": "EPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-002",
+      "package": "github.com/hashicorp/go-version",
+      "license": "MPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-003",
+      "package": "github.com/hashicorp/raft",
+      "license": "MPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-004",
+      "package": "github.com/hashicorp/raft-boltdb",
+      "license": "MPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-005",
+      "package": "github.com/Microsoft/tslib",
+      "license": "0BSD",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-006",
+      "package": "go-version",
+      "license": "MPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-007",
+      "package": "paho.mqtt.golang",
+      "license": "EPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-008",
+      "package": "raft",
+      "license": "MPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-009",
+      "package": "raft-boltdb",
+      "license": "MPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-010",
+      "package": "tslib",
+      "license": "0BSD",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+    },
+    {
+      "id": "exc-2022-04-12-011",
+      "package": "webpki-roots",
+      "license": "MPL-2.0",
+      "approvedDate": "2022-04-12",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+    },
+    {
+      "id": "exc-2021-07-19-001",
+      "package": "github.com/hashicorp/go-retryablehttp",
+      "license": "MPL-2.0",
+      "approvedDate": "2021-07-19",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19"
+    },
+    {
+      "id": "exc-2021-07-19-002",
+      "package": "go-retryablehttp",
+      "license": "MPL-2.0",
+      "approvedDate": "2021-07-19",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19"
+    },
+    {
+      "id": "exc-2019-11-01-001",
+      "package": "Chart.js",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-002",
+      "package": "cloud.google.com/go",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-003",
+      "package": "code.cloudfoundry.org/clock",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-004",
+      "package": "colors",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-005",
+      "package": "defusedxml",
+      "license": "Python-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-006",
+      "package": "ejs",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-007",
+      "package": "github.com/abbot/go-http-auth",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-008",
+      "package": "github.com/aclements/go-moremath",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-009",
+      "package": "github.com/andygrunwald/go-gerrit",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-010",
+      "package": "github.com/aokoli/goutils",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-011",
+      "package": "github.com/appc/spec",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-012",
+      "package": "github.com/armon/circbuf",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-013",
+      "package": "github.com/armon/go-proxyproto",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-014",
+      "package": "github.com/armon/go-radix",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-015",
+      "package": "github.com/asaskevich/govalidator",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-016",
+      "package": "github.com/aws/aws-k8s-tester",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-017",
+      "package": "github.com/aws/aws-sdk-go",
+      "license": "((MIT OR GPL-3.0) AND BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-018",
+      "package": "github.com/Azure/azure-sdk-for-go",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-019",
+      "package": "github.com/Azure/azure-storage-blob-go",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-020",
+      "package": "github.com/Azure/go-ansiterm",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-021",
+      "package": "github.com/Azure/go-autorest",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-022",
+      "package": "github.com/bazelbuild/bazel-gazelle",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-023",
+      "package": "github.com/bazelbuild/buildtools",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-024",
+      "package": "github.com/beorn7/perks",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-025",
+      "package": "github.com/blang/semver",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-026",
+      "package": "github.com/bluebreezecf/opentsdb-goclient",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-027",
+      "package": "github.com/boltdb/bolt",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-028",
+      "package": "github.com/bwmarrin/snowflake",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-029",
+      "package": "github.com/chai2010/gettext-go",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-030",
+      "package": "github.com/cloudflare/cfssl",
+      "license": "(BSD-2-Clause AND BSD-3-Clause AND ISC)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-031",
+      "package": "github.com/cloudfoundry-incubator/candiedyaml",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-032",
+      "package": "github.com/clusterhq/flocker-go",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-033",
+      "package": "github.com/cockroachdb/cmux",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-034",
+      "package": "github.com/codedellemc/goscaleio",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-035",
+      "package": "github.com/container-storage-interface/spec",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-036",
+      "package": "github.com/containerd/console",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-037",
+      "package": "github.com/containerd/containerd",
+      "license": "(CC-BY-4.0 AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-038",
+      "package": "github.com/containernetworking/cni",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-039",
+      "package": "github.com/containernetworking/plugins",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-040",
+      "package": "github.com/coredns/coredns",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-041",
+      "package": "github.com/coreos/bbolt",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-042",
+      "package": "github.com/coreos/etcd",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-043",
+      "package": "github.com/coreos/go-etcd",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-044",
+      "package": "github.com/coreos/go-oidc",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-045",
+      "package": "github.com/coreos/go-semver",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-046",
+      "package": "github.com/coreos/go-systemd",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-047",
+      "package": "github.com/coreos/pkg",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-048",
+      "package": "github.com/coreos/rkt",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-049",
+      "package": "github.com/cpuguy83/go-md2man",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-050",
+      "package": "github.com/cyphar/filepath-securejoin",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-051",
+      "package": "github.com/daaku/go.zipexe",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-052",
+      "package": "github.com/davecgh/go-spew",
+      "license": "ISC",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-053",
+      "package": "github.com/daviddengcn/go-colortext",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-054",
+      "package": "github.com/dchest/safefile",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-055",
+      "package": "github.com/deckarep/golang-set",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-056",
+      "package": "github.com/denverdino/aliyungo",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-057",
+      "package": "github.com/dgrijalva/jwt-go",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-058",
+      "package": "github.com/digitalocean/godo",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-059",
+      "package": "github.com/djherbis/atime",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-060",
+      "package": "github.com/docker/cli",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-061",
+      "package": "github.com/docker/distribution",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-062",
+      "package": "github.com/docker/docker",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-063",
+      "package": "github.com/docker/engine-api",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-064",
+      "package": "github.com/docker/go-connections",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-065",
+      "package": "github.com/docker/libcompose",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-066",
+      "package": "github.com/docker/libnetwork",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-067",
+      "package": "github.com/docker/libtrust",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-068",
+      "package": "github.com/docker/machine",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-069",
+      "package": "github.com/dustin/go-humanize",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-070",
+      "package": "github.com/eapache/channels",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-071",
+      "package": "github.com/eapache/go-resiliency",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-072",
+      "package": "github.com/eapache/go-xerial-snappy",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-073",
+      "package": "github.com/eapache/queue",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-074",
+      "package": "github.com/elazarl/go-bindata-assetfs",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-075",
+      "package": "github.com/elazarl/goproxy",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-076",
+      "package": "github.com/emicklei/go-restful",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-077",
+      "package": "github.com/emicklei/go-restful-swagger12",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-078",
+      "package": "github.com/emirpasic/gods",
+      "license": "(BSD-2-Clause AND ISC)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-079",
+      "package": "github.com/euank/go-kmsg-parser",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-080",
+      "package": "github.com/evanphx/json-patch",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-081",
+      "package": "github.com/exponent-io/jsonpath",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-082",
+      "package": "github.com/fatih/camelcase",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-083",
+      "package": "github.com/fatih/structs",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-084",
+      "package": "github.com/flynn/go-shlex",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-085",
+      "package": "github.com/fsnotify/fsnotify",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-086",
+      "package": "github.com/fsouza/fake-gcs-server",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-087",
+      "package": "github.com/fsouza/go-dockerclient",
+      "license": "(BSD-2-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-088",
+      "package": "github.com/fullsailor/pkcs7",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-089",
+      "package": "github.com/GeertJohan/go.rice",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-090",
+      "package": "github.com/ghodss/yaml",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-091",
+      "package": "github.com/globalsign/mgo",
+      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-092",
+      "package": "github.com/go-ini/ini",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-093",
+      "package": "github.com/go-openapi/analysis",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-094",
+      "package": "github.com/go-openapi/errors",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-095",
+      "package": "github.com/go-openapi/jsonpointer",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-096",
+      "package": "github.com/go-openapi/jsonreference",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-097",
+      "package": "github.com/go-openapi/loads",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-098",
+      "package": "github.com/go-openapi/runtime",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-099",
+      "package": "github.com/go-openapi/spec",
+      "license": "(CC-BY-4.0 AND Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-100",
+      "package": "github.com/go-openapi/strfmt",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-101",
+      "package": "github.com/go-openapi/swag",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-102",
+      "package": "github.com/go-openapi/validate",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-103",
+      "package": "github.com/go-ozzo/ozzo-validation",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-104",
+      "package": "github.com/go-yaml/yaml",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-105",
+      "package": "github.com/gobuffalo/envy",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-106",
+      "package": "github.com/godbus/dbus",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-107",
+      "package": "github.com/gogo/protobuf",
+      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-108",
+      "package": "github.com/golang/dep",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-109",
+      "package": "github.com/golang/glog",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-110",
+      "package": "github.com/golang/groupcache",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-111",
+      "package": "github.com/golang/lint",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-112",
+      "package": "github.com/golang/mock",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-113",
+      "package": "github.com/golang/protobuf",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-114",
+      "package": "github.com/golang/snappy",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-115",
+      "package": "github.com/google/btree",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-116",
+      "package": "github.com/google/cadvisor",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-117",
+      "package": "github.com/google/certificate-transparency-go",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-118",
+      "package": "github.com/google/go-containerregistry",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-119",
+      "package": "github.com/google/go-querystring",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-120",
+      "package": "github.com/google/go-tpm",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-121",
+      "package": "github.com/google/gofuzz",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-122",
+      "package": "github.com/google/uuid",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-123",
+      "package": "github.com/googleapis/gax-go",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-124",
+      "package": "github.com/googleapis/gnostic",
+      "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-125",
+      "package": "github.com/GoogleCloudPlatform/gke-managed-certs",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-126",
+      "package": "github.com/gophercloud/gophercloud",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-127",
+      "package": "github.com/gorilla/context",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-128",
+      "package": "github.com/gorilla/mux",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-129",
+      "package": "github.com/gorilla/securecookie",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-130",
+      "package": "github.com/gorilla/sessions",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-131",
+      "package": "github.com/gorilla/websocket",
+      "license": "(BSD-2-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-132",
+      "package": "github.com/gregjones/httpcache",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-133",
+      "package": "github.com/grpc-ecosystem/go-grpc-middleware",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-134",
+      "package": "github.com/grpc-ecosystem/go-grpc-prometheus",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-135",
+      "package": "github.com/grpc-ecosystem/grpc-gateway",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-136",
+      "package": "github.com/hawkular/hawkular-client-go",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-137",
+      "package": "github.com/heketi/heketi REST API",
+      "license": "(Apache-2.0 OR LGPL-3.0-or-later)",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-138",
+      "package": "github.com/hpcloud/tail",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-139",
+      "package": "github.com/huandu/xstrings",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-140",
+      "package": "github.com/imdario/mergo",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-141",
+      "package": "github.com/inconshreveable/mousetrap",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-142",
+      "package": "github.com/influxdata/influxdb",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-143",
+      "package": "github.com/jimmidyson/go-download",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-144",
+      "package": "github.com/jinzhu/gorm",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-145",
+      "package": "github.com/jinzhu/inflection",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-146",
+      "package": "github.com/jmespath/go-jmespath",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-147",
+      "package": "github.com/jmhodges/clock",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-148",
+      "package": "github.com/jmoiron/sqlx",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-149",
+      "package": "github.com/joho/godotenv",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-150",
+      "package": "github.com/jonboulle/clockwork",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-151",
+      "package": "github.com/jpillora/backoff",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-152",
+      "package": "github.com/json-iterator/go",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-153",
+      "package": "github.com/kardianos/osext",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-154",
+      "package": "github.com/karrick/godirwalk",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-155",
+      "package": "github.com/kevinburke/ssh_config",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-156",
+      "package": "github.com/kisielk/sqlstruct",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-157",
+      "package": "github.com/knative/build",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-158",
+      "package": "github.com/kr/fs",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-159",
+      "package": "github.com/kr/pretty",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-160",
+      "package": "github.com/kr/pty",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-161",
+      "package": "github.com/kr/text",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-162",
+      "package": "github.com/kubernetes-incubator/apiserver-builder",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-163",
+      "package": "github.com/kubernetes-incubator/reference-docs",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-164",
+      "package": "github.com/kubernetes-sigs/application",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-165",
+      "package": "github.com/kubernetes/repo-infra",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-166",
+      "package": "github.com/kylelemons/godebug",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-167",
+      "package": "github.com/lib/pq",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-168",
+      "package": "github.com/libopenstorage/openstorage",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-169",
+      "package": "github.com/libvirt/libvirt-go",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-170",
+      "package": "github.com/libvirt/libvirt-go-xml",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-171",
+      "package": "github.com/lpabon/godbc",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-172",
+      "package": "github.com/lxn/win",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-173",
+      "package": "github.com/magiconair/properties",
+      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-174",
+      "package": "github.com/mailru/easyjson",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-175",
+      "package": "github.com/MakeNowJust/heredoc",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-176",
+      "package": "github.com/markbates/inflect",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-177",
+      "package": "github.com/marpaia/graphite-golang",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-178",
+      "package": "github.com/Masterminds/semver",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-179",
+      "package": "github.com/Masterminds/sprig",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-180",
+      "package": "github.com/Masterminds/vcs",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-181",
+      "package": "github.com/mattn/go-runewidth",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-182",
+      "package": "github.com/mattn/go-shellwords",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-183",
+      "package": "github.com/mattn/go-zglob",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-184",
+      "package": "github.com/matttproud/golang_protobuf_extensions",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-185",
+      "package": "github.com/mesos/mesos-go",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-186",
+      "package": "github.com/mholt/caddy",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-187",
+      "package": "github.com/Microsoft/go-winio",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-188",
+      "package": "github.com/Microsoft/hcsshim",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-189",
+      "package": "github.com/miekg/coredns",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-190",
+      "package": "github.com/miekg/dns",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-191",
+      "package": "github.com/mindprince/gonvml",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-192",
+      "package": "github.com/mistifyio/go-zfs",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-193",
+      "package": "github.com/mitchellh/go-homedir",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-194",
+      "package": "github.com/mitchellh/go-ps",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-195",
+      "package": "github.com/mitchellh/go-wordwrap",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-196",
+      "package": "github.com/mitchellh/hashstructure",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-197",
+      "package": "github.com/mitchellh/mapstructure",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-198",
+      "package": "github.com/moby/hyperkit",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-199",
+      "package": "github.com/modern-go/concurrent",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-200",
+      "package": "github.com/modern-go/reflect2",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-201",
+      "package": "github.com/mohae/deepcopy",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-202",
+      "package": "github.com/moul/http2curl",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-203",
+      "package": "github.com/mrunalp/fileutils",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-204",
+      "package": "github.com/mvdan/xurls",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-205",
+      "package": "github.com/mxk/go-flowrate",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-206",
+      "package": "github.com/ncabatoff/process-exporter",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-207",
+      "package": "github.com/nightlyone/lockfile",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-208",
+      "package": "github.com/novln/docker-parser",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-209",
+      "package": "github.com/NYTimes/gziphandler",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-210",
+      "package": "github.com/olekukonko/tablewriter",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-211",
+      "package": "github.com/onsi/ginkgo",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-212",
+      "package": "github.com/onsi/gomega",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-213",
+      "package": "github.com/opencontainers/image-spec",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-214",
+      "package": "github.com/opencontainers/runtime-spec",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-215",
+      "package": "github.com/opencontainers/selinux",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-216",
+      "package": "github.com/openshift/origin",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-217",
+      "package": "github.com/opentracing/opentracing-go",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-218",
+      "package": "github.com/parnurzeal/gorequest",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-219",
+      "package": "github.com/patrickmn/go-cache",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-220",
+      "package": "github.com/paultag/sniff",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-221",
+      "package": "github.com/pborman/uuid",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-222",
+      "package": "github.com/pelletier/go-buffruneio",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-223",
+      "package": "github.com/pelletier/go-toml",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-224",
+      "package": "github.com/petar/GoLLRB",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-225",
+      "package": "github.com/peterbourgon/diskv",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-226",
+      "package": "github.com/pierrec/lz4",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-227",
+      "package": "github.com/pierrec/xxHash",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-228",
+      "package": "github.com/pkg/browser",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-229",
+      "package": "github.com/pkg/errors",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-230",
+      "package": "github.com/pkg/profile",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-231",
+      "package": "github.com/pkg/sftp",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-232",
+      "package": "github.com/pmezard/go-difflib",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-233",
+      "package": "github.com/pquerna/cachecontrol",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-234",
+      "package": "github.com/pquerna/ffjson",
+      "license": "(BSD-3-Clause AND Apache-2.0 AND ISC)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-235",
+      "package": "github.com/prometheus/client_golang",
+      "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-236",
+      "package": "github.com/prometheus/client_model",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-237",
+      "package": "github.com/prometheus/common",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-238",
+      "package": "github.com/prometheus/procfs",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-239",
+      "package": "github.com/PuerkitoBio/purell",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-240",
+      "package": "github.com/PuerkitoBio/urlesc",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-241",
+      "package": "github.com/r2d4/external-storage",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-242",
+      "package": "github.com/rackspace/gophercloud",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-243",
+      "package": "github.com/rancher/go-rancher",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-244",
+      "package": "github.com/rcrowley/go-metrics",
+      "license": "BSD-2-Clause-FreeBSD",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-245",
+      "package": "github.com/renstrom/dedent",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-246",
+      "package": "github.com/Rican7/retry",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-247",
+      "package": "github.com/riemann/riemann-go-client",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-248",
+      "package": "github.com/robfig/cron",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-249",
+      "package": "github.com/russross/blackfriday",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-250",
+      "package": "github.com/samalba/dockerclient",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-251",
+      "package": "github.com/satori/go.uuid",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-252",
+      "package": "github.com/scalingdata/gcfg",
+      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-253",
+      "package": "github.com/sdboyer/constext",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-254",
+      "package": "github.com/seccomp/libseccomp-golang",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-255",
+      "package": "github.com/sergi/go-diff",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-256",
+      "package": "github.com/Shopify/sarama",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-257",
+      "package": "github.com/shurcooL/githubv4",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-258",
+      "package": "github.com/shurcooL/go",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-259",
+      "package": "github.com/shurcooL/graphql",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-260",
+      "package": "github.com/shurcooL/sanitized_anchor_name",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-261",
+      "package": "github.com/sirupsen/logrus",
+      "license": "(BSD-2-Clause AND BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-262",
+      "package": "github.com/skynetservices/skydns",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-263",
+      "package": "github.com/smartystreets/go-aws-auth",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-264",
+      "package": "github.com/soheilhy/cmux",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-265",
+      "package": "github.com/spf13/afero",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-266",
+      "package": "github.com/spf13/cast",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-267",
+      "package": "github.com/spf13/cobra",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-268",
+      "package": "github.com/spf13/jwalterweatherman",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-269",
+      "package": "github.com/spf13/pflag",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-270",
+      "package": "github.com/spf13/viper",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-271",
+      "package": "github.com/storageos/go-api",
+      "license": "(BSD-2-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-272",
+      "package": "github.com/streadway/quantile",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-273",
+      "package": "github.com/stretchr/objx",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-274",
+      "package": "github.com/stretchr/testify",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-275",
+      "package": "github.com/syndtr/gocapability",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-276",
+      "package": "github.com/tchap/go-patricia",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-277",
+      "package": "github.com/thockin/glogr",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-278",
+      "package": "github.com/thockin/logr",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-279",
+      "package": "github.com/tmc/grpc-websocket-proxy",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-280",
+      "package": "github.com/tsenart/vegeta",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-281",
+      "package": "github.com/ugorji/go",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-282",
+      "package": "github.com/Unknwon/goconfig",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-283",
+      "package": "github.com/urfave/cli",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-284",
+      "package": "github.com/vishvananda/netlink",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-285",
+      "package": "github.com/vishvananda/netns",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-286",
+      "package": "github.com/vmware/govmomi",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-287",
+      "package": "github.com/vmware/photon-controller-go-sdk",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-288",
+      "package": "github.com/weaveworks/mesh",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-289",
+      "package": "github.com/xanzy/go-cloudstack",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-290",
+      "package": "github.com/xeipuuv/gojsonpointer",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-291",
+      "package": "github.com/xeipuuv/gojsonreference",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-292",
+      "package": "github.com/xeipuuv/gojsonschema",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-293",
+      "package": "github.com/xiang90/probing",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-294",
+      "package": "github.com/zakjan/cert-chain-resolver",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-295",
+      "package": "github.com/ziutek/syslog",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-296",
+      "package": "go.opencensus.io",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-297",
+      "package": "go.uber.org/atomic",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-298",
+      "package": "go.uber.org/multierr",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-299",
+      "package": "go.uber.org/zap",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-300",
+      "package": "go4.org/errorutil",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-301",
+      "package": "golang.org/x/build",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-302",
+      "package": "golang.org/x/exp",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-303",
+      "package": "golang.org/x/lint",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-304",
+      "package": "golang.org/x/oauth2",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-305",
+      "package": "golang.org/x/sync",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-306",
+      "package": "golang.org/x/sys",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-307",
+      "package": "golang.org/x/text",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-308",
+      "package": "golang.org/x/time",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-309",
+      "package": "golang.org/x/tools",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-310",
+      "package": "golang/archive/tar",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-311",
+      "package": "gonum.org/v1/gonum",
+      "license": "((BSD-3-Clause OR CC0-1.0) AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-312",
+      "package": "google.golang.org/cloud",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-313",
+      "package": "google.golang.org/genproto",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-314",
+      "package": "gopkg.in/check.v1",
+      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-315",
+      "package": "gopkg.in/cheggaaa/pb.v1",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-316",
+      "package": "gopkg.in/fsnotify",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-317",
+      "package": "gopkg.in/gcfg.v1",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-318",
+      "package": "gopkg.in/go-playground/pool.v3",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-319",
+      "package": "gopkg.in/igm/sockjs-go.v2",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-320",
+      "package": "gopkg.in/inf.v0",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-321",
+      "package": "gopkg.in/natefinch/lumberjack.v2",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-322",
+      "package": "gopkg.in/olivere/elastic.v3",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-323",
+      "package": "gopkg.in/olivere/elastic.v5",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-324",
+      "package": "gopkg.in/robfig/cron.v2",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-325",
+      "package": "gopkg.in/square/go-jose.v2",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-326",
+      "package": "gopkg.in/src-d",
+      "license": "Apache-2.0",
+      "approvedDate": "2019-11-01",
+      "status": "apache-2.0",
+      "comment": "Apache-2.0, no approval needed"
+    },
+    {
+      "id": "exc-2019-11-01-327",
+      "package": "gopkg.in/tomb.v1",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-328",
+      "package": "jquery.scrollto",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-329",
+      "package": "marked",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-330",
+      "package": "mime",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-331",
+      "package": "minimist",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-332",
+      "package": "node-static",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-333",
+      "package": "optimist",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-334",
+      "package": "ui-router for Angular",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-335",
+      "package": "vbom.ml/util",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-11-01-336",
+      "package": "wordwrap",
+      "license": "MIT",
+      "approvedDate": "2019-11-01",
+      "status": "allowlisted",
+      "comment": "allowlisted"
+    },
+    {
+      "id": "exc-2019-05-20-001",
+      "package": "VirtualBox Linux Guest Drivers Makefile",
+      "license": "GPL-2.0-only",
+      "approvedDate": "2019-05-20",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-05-20"
+    },
+    {
+      "id": "exc-2019-03-11-001",
+      "package": "Angular",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-002",
+      "package": "Asciidoctor",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-003",
+      "package": "Azure acr-docker-credential-helper",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-004",
+      "package": "Backbone",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-005",
+      "package": "bitbucket.org/bertimus9/systemstat",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-006",
+      "package": "bitbucket.org/ww/goautoneg",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-007",
+      "package": "bootstrap",
+      "license": "(CC-BY-3.0 AND MIT)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-008",
+      "package": "dialog-polyfill.css",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-009",
+      "package": "font-awesome",
+      "license": "(CC-BY-3.0 AND MIT AND OFL-1.1)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-010",
+      "package": "Gingko",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-011",
+      "package": "github.com/Azure/azure-pipeline-go",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-012",
+      "package": "github.com/bungle/lua-resty-template",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-013",
+      "package": "github.com/c4milo/gotoolkit",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-014",
+      "package": "github.com/client9/misspell",
+      "license": "(Unlicense AND BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-015",
+      "package": "github.com/d2g/dhcp4",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-016",
+      "package": "github.com/d2g/dhcp4client",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-017",
+      "package": "github.com/dgryski/go-onlinestats",
+      "license": "(MIT AND LicenseRef-Public-domain-statement)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-018",
+      "package": "github.com/docker/go-units",
+      "license": "(CC-BY-SA-4.0 AND CC-BY-4.0 AND Apache-2.0)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-019",
+      "package": "github.com/docker/spdystream",
+      "license": "(CC-BY-SA-4.0 AND CC-BY-4.0 AND BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-020",
+      "package": "github.com/go-sql-driver/mysql",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-021",
+      "package": "github.com/gonum/graph",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-022",
+      "package": "github.com/google/go-github",
+      "license": "(BSD-3-Clause AND CC-BY-3.0)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-023",
+      "package": "github.com/grpc-ecosystem/grpc-opentracing",
+      "license": "(BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-024",
+      "package": "github.com/hashicorp/errwrap",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-025",
+      "package": "github.com/hashicorp/go-cleanhttp",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-026",
+      "package": "github.com/hashicorp/go-multierror",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-027",
+      "package": "github.com/hashicorp/golang-lru",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-028",
+      "package": "github.com/hashicorp/hcl",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-029",
+      "package": "github.com/hooklift/iso9660",
+      "license": "MPL-2.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-030",
+      "package": "github.com/howeyc/gopass",
+      "license": "(ISC AND CDDL-1.0)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-031",
+      "package": "github.com/jbenet/go-context",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-032",
+      "package": "github.com/JeffAshton/win_pdh",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-033",
+      "package": "github.com/jmank88/nuts",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-034",
+      "package": "github.com/johanneswuerbach/nfsexports",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-035",
+      "package": "github.com/joshdk/go-junit",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-036",
+      "package": "github.com/jteeuwen/go-bindata",
+      "license": "CC0-1.0",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-037",
+      "package": "github.com/konsorten/go-windows-terminal-sequences",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-038",
+      "package": "github.com/marstr/guid",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-039",
+      "package": "github.com/mattn/go-sqlite3",
+      "license": "(MIT AND LicenseRef-Public-domain-statement)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-040",
+      "package": "github.com/multiarch/qemu-user-static",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-041",
+      "package": "github.com/Nvveen/Gotty",
+      "license": "BSD-2-Clause-FreeBSD",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-042",
+      "package": "github.com/opencontainers/go-digest",
+      "license": "(CC-BY-SA-4.0 AND CC-BY-4.0 AND Apache-2.0)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-043",
+      "package": "github.com/opencontainers/runc",
+      "license": "(LicenseRef-CC-unspecified AND Apache-2.0)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-044",
+      "package": "github.com/quobyte/api",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-045",
+      "package": "github.com/rubiojr/go-vhd",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-046",
+      "package": "github.com/sigma/go-inotify",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-047",
+      "package": "github.com/spotinst/spotinst-sdk-go",
+      "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-048",
+      "package": "github.com/src-d/gcfg",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-049",
+      "package": "github.com/tent/http-link-go",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-050",
+      "package": "github.com/xanzy/ssh-agent",
+      "license": "(Apache-2.0 AND MIT)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-051",
+      "package": "github.com/zchee/go-vmnet",
+      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-052",
+      "package": "go-srcimporter",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-053",
+      "package": "go9p",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-054",
+      "package": "godep",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-055",
+      "package": "golang.org/x/crypto",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND MIT AND LicenseRef-Public-domain-statement)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-056",
+      "package": "golang.org/x/net",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause AND CC-BY-3.0 AND (BSD-3-Clause OR LicenseRef-W3C-Test-Suite-License-1))",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-057",
+      "package": "golang/expansion",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-058",
+      "package": "golang/go/types",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-059",
+      "package": "golang/internal/srcimporter",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-060",
+      "package": "golang/json",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-061",
+      "package": "golang/netutil",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-062",
+      "package": "golang/reflect",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-063",
+      "package": "golang/template",
+      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-064",
+      "package": "Google Protocol Buffers",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-065",
+      "package": "google.golang.org/api",
+      "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-066",
+      "package": "google.golang.org/appengine",
+      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-067",
+      "package": "google.golang.org/grpc",
+      "license": "(BSD-3-Clause AND Apache-2.0 AND LicenseRef-Google-Patents-Notice-GRPC)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-068",
+      "package": "gopkg.in/warnings.v0",
+      "license": "BSD-2-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-069",
+      "package": "Handlebars",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-070",
+      "package": "Highlight",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-071",
+      "package": "highlight.js",
+      "license": "(BSD-3-Clause AND MIT AND CC0-1.0 AND LicenseRef-Public-domain-statement)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-072",
+      "package": "htpasswd",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-073",
+      "package": "jQuery",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-074",
+      "package": "jQuery BBQ",
+      "license": "(MIT OR GPL-2.0+)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-075",
+      "package": "jQuery hashchange event",
+      "license": "(GPL-2.0+ OR MIT)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-076",
+      "package": "jQuery Slideto",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-077",
+      "package": "jQuery Wiggle",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-078",
+      "package": "moment.js",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-079",
+      "package": "normalize.css",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-080",
+      "package": "Octicons",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-081",
+      "package": "parseUri",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-082",
+      "package": "Pause",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-083",
+      "package": "Pure CSS",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-084",
+      "package": "shred",
+      "license": "ISC",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-085",
+      "package": "sigs.k8s.io/yaml",
+      "license": "(BSD-3-Clause AND MIT)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "fork of github.com/ghodss/yaml; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-086",
+      "package": "speter.net/go/exp",
+      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-087",
+      "package": "sprintf() for JavaScript",
+      "license": "BSD-3-Clause",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    },
+    {
+      "id": "exc-2019-03-11-088",
+      "package": "Underscore.js",
+      "license": "MIT",
+      "approvedDate": "2019-03-11",
+      "status": "approved",
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+    }
+  ]
 }
