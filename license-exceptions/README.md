@@ -1,27 +1,81 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-## License exceptions
+# CNCF License Exceptions
 
-The manifest files in this directory contain a list of license exceptions that have been approved by the CNCF Governing Board. The exceptions are provided in JSON and SPDX tag-value format for convenience.
+This directory contains license exceptions approved by the CNCF Governing Board.
 
-These manifests will be updated from time to time as new exceptions are approved.
+## Browse Exceptions
 
-Please see the [CNCF charter] and the [Allowlist Policy] for more background information.
+**[View the searchable exceptions database](https://cncf.github.io/foundation/license-exceptions/site/)**
 
-## Allowlisted components
+The web interface allows you to:
+- Search by package name
+- Filter by license type, approval status, or year
+- Sort by date or name
+- Download data in JSON, CSV, or SPDX formats
 
-For convenience, the manifests also contain a list of certain other dependencies for which individual license exceptions were not required. This is either because (a) they were automatically approved as license exceptions under CNCF's [Allowlist Policy]; or (b) they are under Apache-2.0 and therefore aligned with the IP policy in the [CNCF charter]. 
+## Data Files
 
-Dependencies that are not currently listed in the manifests, but which satisfy (a) or (b) in the preceding paragraph, are automatically approved and do not need separate license exceptions.
+| File | Description |
+|------|-------------|
+| `exceptions.json` | **Source of truth** - All exception data in structured JSON |
+| `CNCF-licensing-exceptions.csv` | Generated CSV for spreadsheet tools |
+| `cncf-exceptions-current.spdx` | Generated SPDX tag-value format |
+| `schema/exception.schema.json` | JSON Schema for validation |
 
-[Allowlist Policy]: https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy
-[CNCF charter]: https://github.com/cncf/foundation/blob/main/charter.md
+> **Note:** The CSV and SPDX files are auto-generated from `exceptions.json`. Edit only the JSON file.
 
-## GPL exceptions for in-kernel eBPF programs
+## Blanket Exceptions
 
-By email vote concluded on August 31 2023, the Governing Board approved a blanket exception for in-kernel eBPF programs licensed under either of the following licenses, either on its own or dual licensed in combination with any license already on the CNCF Licensing Allowlist Approved Licenses list (e.g., MIT License):
+### GPL for in-kernel eBPF programs
 
-* GPL 2.0
-* GPL 2.0 or later
+By email vote concluded on August 31, 2023, the Governing Board approved a blanket exception for in-kernel eBPF programs licensed under:
 
-This exception is not documented in the SPDX/JSON files because it applies only to in-kernel eBPF programs. Usage of GPL 2.0 (or later) for other code is not approved. There is more background explaining the rationale behind this exception in [this document](https://docs.google.com/document/d/10CY8V1w8aQ6CrJ_US_Gnz8cx2SoOtOBqpUKX4cWl_4w/edit#heading=h.oxrtx3xdj6dn). 
+- GPL-2.0-only
+- GPL-2.0-or-later
+
+This applies only to in-kernel eBPF programs, either standalone or dual-licensed with any [allowlist license](../policies-guidance/allowed-third-party-license-policy.md).
+
+[Background documentation](https://docs.google.com/document/d/10CY8V1w8aQ6CrJ_US_Gnz8cx2SoOtOBqpUKX4cWl_4w/edit)
+
+## Request an Exception
+
+If your CNCF project needs to use a component with a non-allowlisted license, [submit an exception request](https://github.com/cncf/foundation/issues/new?template=license-exception-request.yaml).
+
+See also:
+- [CNCF Allowlist License Policy](../policies-guidance/allowed-third-party-license-policy.md)
+- [CNCF Charter (IP Policy)](../charter.md#11-ip-policy)
+
+## For Maintainers
+
+### Updating Exception Data
+
+1. Edit `exceptions.json` directly
+2. Run `node scripts/generate-all.js` to update derived formats
+3. Submit a PR
+
+### Schema
+
+All exception entries follow this structure:
+
+```json
+{
+  "id": "exc-2023-08-31-001",
+  "package": "github.com/example/package",
+  "packageUrl": "https://github.com/example/package",
+  "license": "MPL-2.0",
+  "requestingProject": "ProjectName",
+  "approvedDate": "2023-08-31",
+  "issueUrl": "https://github.com/cncf/foundation/issues/123",
+  "status": "approved",
+  "comment": "Optional notes"
+}
+```
+
+### Status Values
+
+| Status | Description |
+|--------|-------------|
+| `approved` | Approved by Governing Board vote |
+| `allowlisted` | Meets allowlist criteria automatically |
+| `apache-2.0` | Apache-2.0 licensed (no exception needed) |
