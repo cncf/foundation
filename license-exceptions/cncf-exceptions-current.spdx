@@ -334,7 +334,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: EPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
 
 ##### Package: hashicorp/go-version
 
@@ -345,7 +345,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
 
 ##### Package: hashicorp/raft
 
@@ -356,7 +356,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
 
 ##### Package: hashicorp/raft-boltdb
 
@@ -367,7 +367,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
 
 ##### Package: Microsoft/tslib
 
@@ -378,7 +378,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: 0BSD
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12
+PackageComment: not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
 
 ##### Package: go-version
 

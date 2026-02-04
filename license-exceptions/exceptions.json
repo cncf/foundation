@@ -257,7 +257,7 @@
       "license": "EPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
     },
     {
       "id": "exc-2022-04-12-002",
@@ -265,7 +265,7 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
     },
     {
       "id": "exc-2022-04-12-003",
@@ -273,7 +273,7 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
     },
     {
       "id": "exc-2022-04-12-004",
@@ -281,7 +281,7 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
     },
     {
       "id": "exc-2022-04-12-005",
@@ -289,7 +289,7 @@
       "license": "0BSD",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 20212-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
     },
     {
       "id": "exc-2022-04-12-006",
