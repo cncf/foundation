@@ -8,6 +8,7 @@
     // State
     let data = null;
     let filteredExceptions = [];
+    let currentSort = { column: 'date', direction: 'desc' };
 
     // DOM Elements
     const elements = {
@@ -18,7 +19,6 @@
         sortBy: document.getElementById('sort-by'),
         clearFilters: document.getElementById('clear-filters'),
         resultsCount: document.getElementById('results-count'),
-        blanketCards: document.getElementById('blanket-cards'),
         tableBody: document.getElementById('exceptions-tbody'),
         noResults: document.getElementById('no-results'),
         downloadCsv: document.getElementById('download-csv'),
@@ -38,7 +38,11 @@
     // Fetch and initialize data
     async function init() {
         try {
-            const response = await fetch('../exceptions.json');
+            // Try same-directory first (deployed), fall back to parent (local dev)
+            let response = await fetch('exceptions.json');
+            if (!response.ok) {
+                response = await fetch('../exceptions.json');
+            }
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -50,9 +54,6 @@
 
             // Populate filters
             populateFilters();
-
-            // Render blanket exceptions
-            renderBlanketExceptions();
 
             // Initial render
             applyFiltersAndRender();
@@ -98,44 +99,29 @@
         });
     }
 
-    // Render blanket exceptions as cards
-    function renderBlanketExceptions() {
-        if (!data.blanketExceptions || data.blanketExceptions.length === 0) {
-            document.getElementById('blanket-exceptions').style.display = 'none';
-            return;
-        }
-
-        const html = data.blanketExceptions.map(blanket => `
-            <div class="blanket-card">
-                <h3>${escapeHtml(blanket.name)}</h3>
-                <p>${escapeHtml(blanket.description)}</p>
-                <div class="meta">
-                    <span class="meta-item"><strong>Scope:</strong> ${escapeHtml(blanket.scope)}</span>
-                    <span class="meta-item"><strong>Approved:</strong> ${escapeHtml(blanket.approvedDate)}</span>
-                </div>
-                <div class="licenses">
-                    ${blanket.licenses.map(l => `<span class="license-tag">${escapeHtml(l)}</span>`).join('')}
-                </div>
-                ${blanket.documentUrl ? `<p style="margin-top: 1rem; margin-bottom: 0;"><a href="${escapeHtml(blanket.documentUrl)}" target="_blank" rel="noopener noreferrer">View Documentation</a></p>` : ''}
-            </div>
-        `).join('');
-
-        elements.blanketCards.innerHTML = html;
-    }
-
     // Apply filters and render table
     function applyFiltersAndRender() {
         const searchTerm = elements.search.value.toLowerCase().trim();
         const licenseFilter = elements.licenseFilter.value;
         const statusFilter = elements.statusFilter.value;
         const yearFilter = elements.yearFilter.value;
-        const sortBy = elements.sortBy.value;
 
         // Filter
         filteredExceptions = data.exceptions.filter(exc => {
-            // Search filter
-            if (searchTerm && !exc.package.toLowerCase().includes(searchTerm)) {
-                return false;
+            // Search filter - search across all fields
+            if (searchTerm) {
+                const searchableText = [
+                    exc.package,
+                    exc.license,
+                    exc.status,
+                    exc.scope || '',
+                    exc.approvedDate || '',
+                    exc.comment || ''
+                ].join(' ').toLowerCase();
+                
+                if (!searchableText.includes(searchTerm)) {
+                    return false;
+                }
             }
 
             // License filter
@@ -159,27 +145,85 @@
             return true;
         });
 
-        // Sort
-        filteredExceptions.sort((a, b) => {
-            switch (sortBy) {
-                case 'date-desc':
-                    return (b.approvedDate || '').localeCompare(a.approvedDate || '');
-                case 'date-asc':
-                    return (a.approvedDate || '').localeCompare(b.approvedDate || '');
-                case 'package-asc':
-                    return a.package.toLowerCase().localeCompare(b.package.toLowerCase());
-                case 'package-desc':
-                    return b.package.toLowerCase().localeCompare(a.package.toLowerCase());
-                case 'license-asc':
-                    return a.license.localeCompare(b.license);
-                default:
-                    return 0;
-            }
-        });
+        // Sort based on current sort state
+        sortExceptions();
 
         // Render
         renderTable();
         updateResultsCount();
+        updateSortIndicators();
+    }
+
+    // Sort exceptions based on current sort state
+    function sortExceptions() {
+        const { column, direction } = currentSort;
+        const modifier = direction === 'asc' ? 1 : -1;
+
+        filteredExceptions.sort((a, b) => {
+            let valA, valB;
+
+            switch (column) {
+                case 'package':
+                    valA = a.package.toLowerCase();
+                    valB = b.package.toLowerCase();
+                    break;
+                case 'license':
+                    valA = a.license.toLowerCase();
+                    valB = b.license.toLowerCase();
+                    break;
+                case 'status':
+                    valA = a.status.toLowerCase();
+                    valB = b.status.toLowerCase();
+                    break;
+                case 'date':
+                    valA = a.approvedDate || '';
+                    valB = b.approvedDate || '';
+                    break;
+                default:
+                    return 0;
+            }
+
+            if (valA < valB) return -1 * modifier;
+            if (valA > valB) return 1 * modifier;
+            return 0;
+        });
+    }
+
+    // Handle column header click for sorting
+    function handleColumnSort(column) {
+        if (currentSort.column === column) {
+            // Toggle direction if same column
+            currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+        } else {
+            // New column, default to ascending (except date which defaults to descending)
+            currentSort.column = column;
+            currentSort.direction = column === 'date' ? 'desc' : 'asc';
+        }
+
+        // Update the dropdown to match
+        const sortValue = `${column}-${currentSort.direction}`;
+        if (elements.sortBy.querySelector(`option[value="${sortValue}"]`)) {
+            elements.sortBy.value = sortValue;
+        }
+
+        applyFiltersAndRender();
+    }
+
+    // Update sort indicators in table headers
+    function updateSortIndicators() {
+        const headers = document.querySelectorAll('#exceptions-table th.sortable');
+        headers.forEach(header => {
+            const column = header.dataset.sort;
+            const indicator = header.querySelector('.sort-indicator');
+            
+            if (column === currentSort.column) {
+                indicator.textContent = currentSort.direction === 'asc' ? ' \u25B2' : ' \u25BC';
+                header.classList.add('sorted');
+            } else {
+                indicator.textContent = '';
+                header.classList.remove('sorted');
+            }
+        });
     }
 
     // Render the exceptions table
@@ -195,13 +239,16 @@
         const html = filteredExceptions.map(exc => {
             const packageHtml = formatPackage(exc.package);
             const statusClass = getStatusClass(exc.status);
+            const resultsHtml = formatResults(exc.results);
 
             return `
                 <tr>
                     <td>${packageHtml}</td>
                     <td><span class="license-badge">${escapeHtml(exc.license)}</span></td>
+                    <td>${escapeHtml(exc.scope || '-')}</td>
                     <td><span class="status-badge ${statusClass}">${escapeHtml(exc.status)}</span></td>
                     <td>${escapeHtml(exc.approvedDate || '-')}</td>
+                    <td>${resultsHtml}</td>
                 </tr>
             `;
         }).join('');
@@ -216,6 +263,22 @@
             return `<a href="${escapeHtml(url)}" class="package-link" target="_blank" rel="noopener noreferrer">${escapeHtml(packageName)}</a>`;
         }
         return `<span class="package-name">${escapeHtml(packageName)}</span>`;
+    }
+
+    // Format results link (Google Doc or GitHub issue)
+    function formatResults(resultsUrl) {
+        if (!resultsUrl) {
+            return '-';
+        }
+        
+        let linkText = 'View';
+        if (resultsUrl.includes('docs.google.com')) {
+            linkText = 'Google Doc';
+        } else if (resultsUrl.includes('github.com')) {
+            linkText = 'GitHub Issue';
+        }
+        
+        return `<a href="${escapeHtml(resultsUrl)}" class="results-link" target="_blank" rel="noopener noreferrer">${linkText}</a>`;
     }
 
     // Get CSS class for status badge
@@ -251,17 +314,20 @@
         elements.statusFilter.value = '';
         elements.yearFilter.value = '';
         elements.sortBy.value = 'date-desc';
+        currentSort = { column: 'date', direction: 'desc' };
         applyFiltersAndRender();
     }
 
     // Download CSV
     function downloadCsv() {
-        const headers = ['Package', 'License', 'Status', 'Approved Date', 'Comment'];
+        const headers = ['Package', 'License', 'Scope', 'Status', 'Approved Date', 'Results', 'Comment'];
         const rows = filteredExceptions.map(exc => [
             exc.package,
             exc.license,
+            exc.scope || '',
             exc.status,
             exc.approvedDate || '',
+            exc.results || '',
             exc.comment || ''
         ]);
 
@@ -299,8 +365,25 @@
         elements.statusFilter.addEventListener('change', applyFiltersAndRender);
         elements.yearFilter.addEventListener('change', applyFiltersAndRender);
 
-        // Sort
-        elements.sortBy.addEventListener('change', applyFiltersAndRender);
+        // Sort dropdown
+        elements.sortBy.addEventListener('change', function() {
+            const value = this.value;
+            const parts = value.split('-');
+            if (parts.length >= 2) {
+                currentSort.column = parts[0];
+                currentSort.direction = parts[parts.length - 1];
+                applyFiltersAndRender();
+            }
+        });
+
+        // Clickable column headers
+        const sortableHeaders = document.querySelectorAll('#exceptions-table th.sortable');
+        sortableHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const column = header.dataset.sort;
+                handleColumnSort(column);
+            });
+        });
 
         // Clear filters
         elements.clearFilters.addEventListener('click', clearFilters);

@@ -36,6 +36,8 @@
           "approvedDate": { "type": "string", "format": "date" },
           "issueUrl": { "type": "string", "format": "uri" },
           "status": { "type": "string", "enum": ["approved", "allowlisted", "apache-2.0"] },
+          "scope": { "type": "string", "description": "Usage context and codebase area, e.g., 'build dependency, dynamically linked'" },
+          "results": { "type": "string", "format": "uri", "description": "Link to results documentation (Google Doc or GitHub issue)" },
           "comment": { "type": "string" }
         },
         "required": ["id", "package", "license", "status"]

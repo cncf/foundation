@@ -22,6 +22,7 @@
       "license": "CC-BY-SA 4.0",
       "approvedDate": "2023-08-31",
       "status": "approved",
+      "scope": "runtime dependency, statically linked",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
     },
     {
@@ -30,6 +31,7 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-08-31",
       "status": "approved",
+      "scope": "runtime dependency, dynamically linked",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
     },
     {
@@ -38,6 +40,7 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-08-31",
       "status": "approved",
+      "scope": "build dependency",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
     },
     {

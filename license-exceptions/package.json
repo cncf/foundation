@@ -1,0 +1,21 @@
+{
+  "name": "license-exceptions",
+  "version": "1.0.0",
+  "description": "CNCF License Exceptions site and tooling",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "serve": "serve -l 3000 .",
+    "generate": "node scripts/generate-all.js"
+  },
+  "keywords": [],
+  "author": "CNCF",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "serve": "^14.2.5"
+  }
+}

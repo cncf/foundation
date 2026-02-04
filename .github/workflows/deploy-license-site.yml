@@ -17,8 +17,44 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  test:
+    name: Run E2E Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: license-exceptions
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: license-exceptions/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Run Playwright tests
+        run: npm test
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: license-exceptions/playwright-report/
+          retention-days: 7
+
   build:
     runs-on: ubuntu-latest
+    needs: test
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,11 +71,11 @@ jobs:
 
       - name: Prepare site
         run: |
-          mkdir -p _site
-          cp -r license-exceptions/site/* _site/
-          cp license-exceptions/exceptions.json _site/
-          cp license-exceptions/CNCF-licensing-exceptions.csv _site/
-          cp license-exceptions/cncf-exceptions-current.spdx _site/
+          mkdir -p _site/license-exceptions
+          cp -r license-exceptions/site/* _site/license-exceptions/
+          cp license-exceptions/exceptions.json _site/license-exceptions/
+          cp license-exceptions/CNCF-licensing-exceptions.csv _site/license-exceptions/
+          cp license-exceptions/cncf-exceptions-current.spdx _site/license-exceptions/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -49,7 +85,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}license-exceptions/
     runs-on: ubuntu-latest
     needs: build
     steps:

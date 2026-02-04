@@ -14,13 +14,22 @@
         </div>
     </header>
 
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Package Exceptions</a></li>
+                <li><a href="blanket-exceptions.html">Blanket Exceptions</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <main class="container">
         <!-- Filters Section -->
         <section class="filters">
             <div class="filters-row">
                 <div class="filter-group">
-                    <label for="search">Search Packages</label>
-                    <input type="text" id="search" placeholder="Search package names...">
+                    <label for="search">Search</label>
+                    <input type="text" id="search" placeholder="Search all fields...">
                 </div>
                 <div class="filter-group">
                     <label for="license-filter">License</label>
@@ -60,15 +69,10 @@
                     <option value="package-asc">Package (A-Z)</option>
                     <option value="package-desc">Package (Z-A)</option>
                     <option value="license-asc">License (A-Z)</option>
+                    <option value="license-desc">License (Z-A)</option>
+                    <option value="status-asc">Status (A-Z)</option>
+                    <option value="status-desc">Status (Z-A)</option>
                 </select>
-            </div>
-        </section>
-
-        <!-- Blanket Exceptions Section -->
-        <section class="blanket-exceptions" id="blanket-exceptions">
-            <h2>Blanket Exceptions</h2>
-            <div class="blanket-cards" id="blanket-cards">
-                <!-- Populated by JavaScript -->
             </div>
         </section>
 
@@ -78,10 +82,12 @@
                 <table id="exceptions-table">
                     <thead>
                         <tr>
-                            <th>Package</th>
-                            <th>License</th>
-                            <th>Status</th>
-                            <th>Approved Date</th>
+                            <th class="sortable" data-sort="package">Package <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-sort="license">License <span class="sort-indicator"></span></th>
+                            <th>Scope</th>
+                            <th class="sortable" data-sort="status">Status <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-sort="date">Approved Date <span class="sort-indicator"></span></th>
+                            <th>Results</th>
                         </tr>
                     </thead>
                     <tbody id="exceptions-tbody">
@@ -101,7 +107,7 @@
                 <a href="https://github.com/cncf/foundation/tree/main/license-exceptions" target="_blank" rel="noopener noreferrer">
                     View on GitHub
                 </a>
-                <a href="../exceptions.json" download="cncf-license-exceptions.json">
+                <a href="exceptions.json" download="cncf-license-exceptions.json">
                     Download JSON
                 </a>
                 <button id="download-csv" class="link-btn">Download CSV</button>
