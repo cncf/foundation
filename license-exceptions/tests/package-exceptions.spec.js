@@ -130,8 +130,6 @@ test.describe('Filter Dropdowns', () => {
     await page.selectOption('#status-filter', 'approved');
     await page.waitForTimeout(100);
     
-    const afterStatusText = await page.locator('#results-count').textContent();
-    
     await page.fill('#search', 'MIT');
     await page.waitForTimeout(400);
     
