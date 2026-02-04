@@ -4,7 +4,7 @@ SPDXID: SPDXRef-DOCUMENT
 DocumentName: cncf-exceptions-2026-02-02
 DocumentNamespace: https://github.com/cncf/foundation/license-exceptions-2026-02-02
 Creator: Organization: CNCF
-Created: 2026-02-02T03:42:40Z
+Created: 2026-02-02T12:00:00Z
 
 ##### Package: docker/go-metrics
 

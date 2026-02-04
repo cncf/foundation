@@ -22,9 +22,11 @@ function stripPackagePrefix(packageName) {
 
 /**
  * Generate ISO timestamp for Created field
+ * Uses lastUpdated date for deterministic output
  */
-function getISOTimestamp() {
-  return new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
+function getISOTimestamp(lastUpdated) {
+  // Use noon UTC on lastUpdated date for deterministic timestamp
+  return `${lastUpdated}T12:00:00Z`;
 }
 
 function main() {
@@ -41,7 +43,7 @@ function main() {
   lines.push(`DocumentName: cncf-exceptions-${lastUpdated}`);
   lines.push(`DocumentNamespace: https://github.com/cncf/foundation/license-exceptions-${lastUpdated}`);
   lines.push('Creator: Organization: CNCF');
-  lines.push(`Created: ${getISOTimestamp()}`);
+  lines.push(`Created: ${getISOTimestamp(lastUpdated)}`);
   lines.push('');
 
   // Package entries
