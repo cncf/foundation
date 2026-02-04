@@ -57,11 +57,6 @@ test.describe('Search Functionality', () => {
   });
 
   test('search filters results', async ({ page }) => {
-    // Get initial count
-    const initialText = await page.locator('#results-count').textContent();
-    const initialMatch = initialText?.match(/(\d+) exceptions/);
-    const initialCount = initialMatch ? parseInt(initialMatch[1]) : 0;
-    
     // Type a search term
     await page.fill('#search', 'MIT');
     
