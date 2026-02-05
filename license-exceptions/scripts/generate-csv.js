@@ -36,6 +36,15 @@ function formatDate(dateStr) {
   return dateStr || '';
 }
 
+/**
+ * Format project field (can be string or array)
+ */
+function formatProject(project) {
+  if (!project) return '';
+  if (Array.isArray(project)) return project.join('; ');
+  return project;
+}
+
 function main() {
   // Read exceptions.json
   const data = JSON.parse(fs.readFileSync(EXCEPTIONS_FILE, 'utf8'));
@@ -46,8 +55,11 @@ function main() {
 
   // Header row - note "Last updated" column includes the date in the header
   const header = [
-    'Package Name',
+    'Package or Category',
     'License Concluded',
+    'Project',
+    'Scope',
+    'Status',
     'Comments',
     'Date Published',
     `Last updated: ${lastUpdated}`
@@ -59,6 +71,9 @@ function main() {
     const row = [
       exc.package,
       exc.license,
+      formatProject(exc.project),
+      exc.scope || '',
+      exc.status || '',
       exc.comment || '',
       formatDate(exc.approvedDate),
       '' // Last updated column is empty for data rows

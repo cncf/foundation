@@ -50,7 +50,12 @@ function main() {
   let packageNum = 1;
   for (const exc of exceptions) {
     const strippedName = stripPackagePrefix(exc.package);
-    const comment = exc.comment || `approved ${exc.approvedDate}`;
+    const project = Array.isArray(exc.project) ? exc.project.join(', ') : (exc.project || '');
+    const projectInfo = project ? `Project: ${project}. ` : '';
+    const scopeInfo = exc.scope ? `Scope: ${exc.scope}. ` : '';
+    const statusInfo = exc.status ? `Status: ${exc.status}. ` : '';
+    const baseComment = exc.comment || `${exc.status || 'approved'} ${exc.approvedDate}`;
+    const comment = `${projectInfo}${scopeInfo}${statusInfo}${baseComment}`;
 
     lines.push(`##### Package: ${strippedName}`);
     lines.push('');

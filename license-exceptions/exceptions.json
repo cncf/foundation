@@ -1,21 +1,228 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2026-02-02",
-  "blanketExceptions": [
+  "version": "1.1.0",
+  "lastUpdated": "2026-02-04",
+  "blanketExceptions": [],
+  "exceptions": [
+    {
+      "id": "exc-2026-02-05-001",
+      "package": "eclipse-ee4j/expressly",
+      "license": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "project": "Keycloak",
+      "approvedDate": "2026-02-05",
+      "status": "approved",
+      "scope": "required upstream dependency, dynamically linked, unmodified",
+      "results": "https://github.com/cncf/foundation/issues/1177",
+      "comment": "Default implementation of Jakarta Expression Language 6.0, transitive dependency for Hibernate Validator"
+    },
+    {
+      "id": "exc-2026-02-05-002",
+      "package": "libpathrs",
+      "license": "MPL-2.0 OR LGPL-3.0-or-later",
+      "project": "All CNCF Projects",
+      "approvedDate": "2026-02-05",
+      "status": "approved",
+      "scope": "vendored component, build-time dependency, or install-time dependency; statically or dynamically linked",
+      "results": "https://github.com/cncf/foundation/issues/1154",
+      "comment": "Blanket exception: Projects using libpathrs statically linked MUST elect MPL-2.0 and document this. Provides secure path resolution APIs."
+    },
+    {
+      "id": "exc-2026-02-05-003",
+      "package": "go-pathrs",
+      "license": "MPL-2.0",
+      "project": "All CNCF Projects",
+      "approvedDate": "2026-02-05",
+      "status": "approved",
+      "scope": "vendored component, build-time dependency, or install-time dependency; statically or dynamically linked",
+      "results": "https://github.com/cncf/foundation/issues/1154",
+      "comment": "Blanket exception: Go bindings for libpathrs. Provides secure path resolution APIs."
+    },
+    {
+      "id": "exc-2025-11-21-001",
+      "package": "cyphar/filepath-securejoin",
+      "license": "MPL-2.0 AND BSD-3-Clause",
+      "project": "All CNCF Projects",
+      "approvedDate": "2025-11-21",
+      "status": "approved",
+      "scope": "vendored component, build-time dependency, or install-time dependency; statically or dynamically linked",
+      "results": "https://github.com/cncf/foundation/issues/1154",
+      "comment": "Blanket exception: Provides secure path resolution APIs on Linux. Used by Kubernetes, containerd, Podman, buildah, cri-o, nerdctl."
+    },
+    {
+      "id": "exc-2025-11-21-002",
+      "package": "Liquibase",
+      "license": "FSL (Functional Source License)",
+      "project": "Keycloak",
+      "approvedDate": "2025-11-21",
+      "status": "denied",
+      "scope": "incorporated code, dynamically linked",
+      "results": "https://github.com/cncf/foundation/issues/1147",
+      "comment": "Denied: FSL is not an open source license. GB does not approve exceptions for non-OSS licenses."
+    },
+    {
+      "id": "exc-2025-10-17-001",
+      "package": "paramiko",
+      "license": "LGPL-2.1",
+      "project": "oscal-compass",
+      "approvedDate": "2025-10-17",
+      "status": "approved",
+      "scope": "build-time dependency, dynamically linked",
+      "results": "https://github.com/cncf/foundation/issues/1108",
+      "comment": "Pure-Python SSHv2 protocol implementation, used for fetching files"
+    },
+    {
+      "id": "exc-2025-10-17-002",
+      "package": "certifi",
+      "license": "MPL-2.0",
+      "project": "oscal-compass",
+      "approvedDate": "2025-10-17",
+      "status": "approved",
+      "scope": "install-time dependency, dynamically linked",
+      "results": "https://github.com/cncf/foundation/issues/1091",
+      "comment": "Dependency for requests library"
+    },
+    {
+      "id": "exc-2025-10-17-003",
+      "package": "pathspec",
+      "license": "MPL-2.0",
+      "project": "oscal-compass",
+      "approvedDate": "2025-10-17",
+      "status": "approved",
+      "scope": "build-time dependency, separate process",
+      "results": "https://github.com/cncf/foundation/issues/1090",
+      "comment": "Dependency for black, mkdocs, mypy"
+    },
+    {
+      "id": "exc-2025-10-17-004",
+      "package": "cyphar/filepath-securejoin",
+      "license": "BSD-3-Clause AND MPL-2.0",
+      "project": "Kubernetes",
+      "approvedDate": "2025-10-17",
+      "status": "approved",
+      "scope": "vendored component, build-time dependency, statically linked",
+      "results": "https://github.com/cncf/foundation/issues/1074",
+      "comment": "Provides secure path construction functions. Superseded by blanket exception in issue #1154."
+    },
+    {
+      "id": "exc-2024-10-23-001",
+      "package": "hashicorp/terraform-provider-aws",
+      "license": "MPL-2.0",
+      "project": "Crossplane",
+      "approvedDate": "2024-10-23",
+      "status": "approved",
+      "scope": "build-time dependency, modified fork",
+      "results": "https://github.com/cncf/foundation/issues/818",
+      "comment": "Fork maintained for Crossplane providers, changes contributed upstream"
+    },
+    {
+      "id": "exc-2024-10-23-002",
+      "package": "hashicorp/terraform-provider-azurerm",
+      "license": "MPL-2.0",
+      "project": "Crossplane",
+      "approvedDate": "2024-10-23",
+      "status": "approved",
+      "scope": "build-time dependency, modified fork",
+      "results": "https://github.com/cncf/foundation/issues/818",
+      "comment": "Fork maintained for Crossplane providers, changes contributed upstream"
+    },
+    {
+      "id": "exc-2024-10-23-003",
+      "package": "hashicorp/terraform-provider-azuread",
+      "license": "MPL-2.0",
+      "project": "Crossplane",
+      "approvedDate": "2024-10-23",
+      "status": "approved",
+      "scope": "build-time dependency, modified fork",
+      "results": "https://github.com/cncf/foundation/issues/818",
+      "comment": "Fork maintained for Crossplane providers, changes contributed upstream"
+    },
+    {
+      "id": "exc-2024-10-23-004",
+      "package": "apple/swift-nio-ssl",
+      "license": "OpenSSL",
+      "project": "Connect",
+      "approvedDate": "2024-10-23",
+      "status": "approved",
+      "scope": "build-time dependency, unmodified",
+      "results": "https://github.com/cncf/foundation/issues/823",
+      "comment": "Required for HTTP/2 + TLS with HTTP trailers on iOS. Also used by gRPC Swift."
+    },
+    {
+      "id": "exc-2024-10-23-005",
+      "package": "Crossplane Upjet MPL dependencies",
+      "license": "MPL-2.0",
+      "project": "Crossplane",
+      "approvedDate": "2024-10-23",
+      "status": "approved",
+      "scope": "build-time dependency, unmodified, linked at build time",
+      "results": "https://github.com/cncf/foundation/issues/787",
+      "comment": "Various hashicorp terraform dependencies for Upjet: hcl, terraform-json, terraform-plugin-framework, terraform-plugin-go, terraform-plugin-sdk, go-plugin, go-uuid, go-version, logutils, terraform-plugin-log, terraform-registry-address, terraform-svchost, yamux"
+    },
+    {
+      "id": "exc-2024-10-23-006",
+      "package": "Linux kernel uapi headers (btrfs)",
+      "license": "GPL-2.0-only WITH Linux-syscall-note",
+      "project": "containerd",
+      "approvedDate": "2024-10-23",
+      "status": "approved",
+      "scope": "kernel headers included via #include, no inline functions compiled in",
+      "results": "https://github.com/cncf/foundation/issues/174",
+      "comment": "Used by containerd/btrfs for btrfs-related ioctl syscalls. Headers from linux/btrfs.h and linux/btrfs_tree.h."
+    },
+    {
+      "id": "exc-2024-10-22-001",
+      "package": "github.com/hashicorp/go-set/v2",
+      "license": "MPL-2.0",
+      "project": "OpenFGA",
+      "approvedDate": "2024-10-22",
+      "status": "approved",
+      "scope": "build-time dependency, linked at build time",
+      "results": "https://github.com/cncf/foundation/issues/830",
+      "comment": "Unmodified code"
+    },
+    {
+      "id": "exc-2024-10-22-002",
+      "package": "Keycloak Java dependencies",
+      "license": "0BSD, CDDL-1.1, EPL-1.0, EPL-2.0, GPL-2.0-only, GPL-2.0-with-classpath-exception, LGPL-2.1, LGPL-2.1-only, MIT-0, MPL-2.0, UPL-1.0",
+      "project": "Keycloak",
+      "approvedDate": "2024-10-22",
+      "status": "approved",
+      "scope": "transitive dependencies from Quarkus framework, unmodified",
+      "results": "https://github.com/cncf/foundation/issues/817",
+      "comment": "Multiple Java dependencies including: tslib, h2, mysql-connector-j, jakarta.* APIs, parsson, graalvm SDK, hibernate-*, mariadb-java-client, nashorn-core, reactive-streams"
+    },
+    {
+      "id": "exc-2024-12-17-001",
+      "package": "github.com/hashicorp/memberlist",
+      "license": "MPL-2.0",
+      "project": "kubernetes/kops",
+      "approvedDate": "2024-07-16",
+      "status": "approved",
+      "scope": "build-time dependency, unmodified",
+      "results": "https://github.com/cncf/foundation/issues/741",
+      "comment": "Main component of Gossip DNS feature for peer-to-peer network K8s API address propagation"
+    },
+    {
+      "id": "exc-2024-02-27-001",
+      "package": "Falco kernel module",
+      "license": "GPL-2.0-only OR MIT",
+      "project": "Falco",
+      "approvedDate": "2024-02-27",
+      "status": "approved",
+      "scope": "kernel module, dual-licensed",
+      "results": "https://github.com/cncf/foundation/issues/645",
+      "comment": "Falco's kernel module is dual-licensed GPL-2.0-only OR MIT"
+    },
     {
       "id": "blanket-ebpf-gpl",
-      "name": "GPL for in-kernel eBPF programs",
-      "description": "GPL-2.0 licensed code is permitted for in-kernel eBPF programs only, as this is required by the Linux kernel BPF subsystem.",
-      "licenses": [
-        "GPL-2.0-only",
-        "GPL-2.0-or-later"
-      ],
-      "scope": "in-kernel eBPF programs only",
+      "package": "In-kernel eBPF programs",
+      "license": "GPL-2.0-only, GPL-2.0-or-later",
+      "project": "All CNCF Projects",
       "approvedDate": "2023-08-31",
-      "documentUrl": "https://github.com/cncf/foundation/blob/main/license-exceptions/README.md"
-    }
-  ],
-  "exceptions": [
+      "status": "approved",
+      "scope": "in-kernel eBPF programs only",
+      "results": "https://github.com/cncf/foundation/blob/main/license-exceptions/README.md#gpl-exceptions-for-in-kernel-ebpf-programs",
+      "comment": "Blanket exception: GPL-2.0 licensed code is permitted for in-kernel eBPF programs only, as this is required by the Linux kernel BPF subsystem."
+    },
     {
       "id": "exc-2023-08-31-001",
       "package": "github.com/docker/go-metrics",
@@ -32,7 +239,9 @@
       "approvedDate": "2023-08-31",
       "status": "approved",
       "scope": "runtime dependency, dynamically linked",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31",
+      "results": "https://github.com/cncf/foundation/issues/400",
+      "project": "Cilium"
     },
     {
       "id": "exc-2023-08-31-003",
@@ -57,7 +266,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/400",
+      "scope": "build-time dependency, unmodified",
+      "project": "Cilium"
     },
     {
       "id": "exc-2023-06-27-002",
@@ -65,7 +277,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/400",
+      "scope": "build-time dependency, unmodified",
+      "project": "Cilium"
     },
     {
       "id": "exc-2023-06-27-003",
@@ -73,7 +288,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/400",
+      "scope": "build-time dependency, unmodified",
+      "project": "Cilium"
     },
     {
       "id": "exc-2023-06-27-004",
@@ -81,7 +299,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/300",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2023-06-27-005",
@@ -89,7 +309,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/400",
+      "scope": "build-time dependency, unmodified",
+      "project": "Cilium"
     },
     {
       "id": "exc-2023-06-27-006",
@@ -121,7 +344,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/400",
+      "scope": "build-time dependency, unmodified",
+      "project": "Cilium"
     },
     {
       "id": "exc-2023-06-27-010",
@@ -129,7 +355,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/485",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2023-06-27-011",
@@ -137,7 +365,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/526",
+      "scope": "build-time dependency, unmodified",
+      "project": "Notary"
     },
     {
       "id": "exc-2023-06-27-012",
@@ -169,7 +400,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/300",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2023-06-27-016",
@@ -209,7 +442,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/297",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2023-06-27-021",
@@ -233,7 +468,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/485",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2023-06-27-024",
@@ -241,7 +478,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/400",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2023-06-27-025",
@@ -249,7 +488,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "results": "https://github.com/cncf/foundation/issues/526",
+      "scope": "build-time dependency, unmodified",
+      "project": "Notary"
     },
     {
       "id": "exc-2022-04-12-001",
@@ -257,7 +499,8 @@
       "license": "EPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2022-04-12-002",
@@ -265,7 +508,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "results": "https://github.com/cncf/foundation/issues/297",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2022-04-12-003",
@@ -273,7 +518,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "results": "https://github.com/cncf/foundation/issues/297",
+      "scope": "build-time dependency, unmodified",
+      "project": "Dapr"
     },
     {
       "id": "exc-2022-04-12-004",
@@ -281,7 +529,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "results": "https://github.com/cncf/foundation/issues/297",
+      "scope": "build-time dependency, unmodified",
+      "project": "Dapr"
     },
     {
       "id": "exc-2022-04-12-005",
@@ -289,7 +540,8 @@
       "license": "0BSD",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2022-04-12-006",
@@ -297,7 +549,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "results": "https://github.com/cncf/foundation/issues/297",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2022-04-12-007",
@@ -305,7 +559,8 @@
       "license": "EPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2022-04-12-008",
@@ -313,7 +568,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "results": "https://github.com/cncf/foundation/issues/297",
+      "scope": "build-time dependency, unmodified",
+      "project": "Dapr"
     },
     {
       "id": "exc-2022-04-12-009",
@@ -321,7 +579,10 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "results": "https://github.com/cncf/foundation/issues/297",
+      "scope": "build-time dependency, unmodified",
+      "project": "Dapr"
     },
     {
       "id": "exc-2022-04-12-010",
@@ -329,7 +590,8 @@
       "license": "0BSD",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2022-04-12-011",
@@ -337,7 +599,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2022-04-12",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
+      "results": "https://github.com/cncf/foundation/issues/172",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2021-07-19-001",
@@ -345,7 +609,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2021-07-19",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19",
+      "results": "https://github.com/cncf/foundation/issues/138",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2021-07-19-002",
@@ -353,7 +619,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2021-07-19",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19",
+      "results": "https://github.com/cncf/foundation/issues/138",
+      "scope": "build-time dependency, unmodified"
     },
     {
       "id": "exc-2019-11-01-001",
@@ -361,7 +629,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-002",
@@ -369,7 +638,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-003",
@@ -377,7 +647,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-004",
@@ -385,7 +656,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-005",
@@ -393,7 +665,8 @@
       "license": "Python-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-006",
@@ -401,7 +674,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-007",
@@ -409,7 +683,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-008",
@@ -417,7 +692,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-009",
@@ -425,7 +701,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-010",
@@ -433,7 +710,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-011",
@@ -441,7 +719,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-012",
@@ -449,7 +728,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-013",
@@ -457,7 +737,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-014",
@@ -465,7 +746,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-015",
@@ -473,7 +755,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-016",
@@ -481,7 +764,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-017",
@@ -489,7 +773,8 @@
       "license": "((MIT OR GPL-3.0) AND BSD-3-Clause AND Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-018",
@@ -497,7 +782,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-019",
@@ -505,7 +791,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-020",
@@ -513,7 +800,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-021",
@@ -521,7 +809,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-022",
@@ -529,7 +818,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-023",
@@ -537,7 +827,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-024",
@@ -545,7 +836,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-025",
@@ -553,7 +845,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-026",
@@ -561,7 +854,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-027",
@@ -569,7 +863,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-028",
@@ -577,7 +872,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-029",
@@ -585,7 +881,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-030",
@@ -593,7 +890,8 @@
       "license": "(BSD-2-Clause AND BSD-3-Clause AND ISC)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-031",
@@ -601,7 +899,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-032",
@@ -609,7 +908,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-033",
@@ -617,7 +917,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-034",
@@ -625,7 +926,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-035",
@@ -633,7 +935,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-036",
@@ -641,7 +944,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-037",
@@ -649,7 +953,8 @@
       "license": "(CC-BY-4.0 AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-038",
@@ -657,7 +962,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-039",
@@ -665,7 +971,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-040",
@@ -673,7 +980,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-041",
@@ -681,7 +989,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-042",
@@ -689,7 +998,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-043",
@@ -697,7 +1007,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-044",
@@ -705,7 +1016,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-045",
@@ -713,7 +1025,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-046",
@@ -721,7 +1034,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-047",
@@ -729,7 +1043,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-048",
@@ -737,7 +1052,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-049",
@@ -745,7 +1061,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-050",
@@ -753,7 +1070,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-051",
@@ -761,7 +1079,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-052",
@@ -769,7 +1088,8 @@
       "license": "ISC",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-053",
@@ -777,7 +1097,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-054",
@@ -785,7 +1106,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-055",
@@ -793,7 +1115,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-056",
@@ -801,7 +1124,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-057",
@@ -809,7 +1133,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-058",
@@ -817,7 +1142,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-059",
@@ -825,7 +1151,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-060",
@@ -833,7 +1160,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-061",
@@ -841,7 +1169,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-062",
@@ -849,7 +1178,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-063",
@@ -857,7 +1187,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-064",
@@ -865,7 +1196,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-065",
@@ -873,7 +1205,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-066",
@@ -881,7 +1214,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-067",
@@ -889,7 +1223,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-068",
@@ -897,7 +1232,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-069",
@@ -905,7 +1241,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-070",
@@ -913,7 +1250,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-071",
@@ -921,7 +1259,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-072",
@@ -929,7 +1268,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-073",
@@ -937,7 +1277,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-074",
@@ -945,7 +1286,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-075",
@@ -953,7 +1295,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-076",
@@ -961,7 +1304,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-077",
@@ -969,7 +1313,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-078",
@@ -977,7 +1322,8 @@
       "license": "(BSD-2-Clause AND ISC)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-079",
@@ -985,7 +1331,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-080",
@@ -993,7 +1340,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-081",
@@ -1001,7 +1349,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-082",
@@ -1009,7 +1358,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-083",
@@ -1017,7 +1367,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-084",
@@ -1025,7 +1376,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-085",
@@ -1033,7 +1385,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-086",
@@ -1041,7 +1394,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-087",
@@ -1049,7 +1403,8 @@
       "license": "(BSD-2-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-088",
@@ -1057,7 +1412,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-089",
@@ -1065,7 +1421,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-090",
@@ -1073,7 +1430,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-091",
@@ -1081,7 +1439,8 @@
       "license": "(BSD-2-Clause AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-092",
@@ -1089,7 +1448,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-093",
@@ -1097,7 +1457,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-094",
@@ -1105,7 +1466,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-095",
@@ -1113,7 +1475,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-096",
@@ -1121,7 +1484,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-097",
@@ -1129,7 +1493,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-098",
@@ -1137,7 +1502,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-099",
@@ -1145,7 +1511,8 @@
       "license": "(CC-BY-4.0 AND Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-100",
@@ -1153,7 +1520,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-101",
@@ -1161,7 +1529,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-102",
@@ -1169,7 +1538,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-103",
@@ -1177,7 +1547,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-104",
@@ -1185,7 +1556,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-105",
@@ -1193,7 +1565,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-106",
@@ -1201,7 +1574,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-107",
@@ -1209,7 +1583,8 @@
       "license": "(BSD-2-Clause AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-108",
@@ -1217,7 +1592,8 @@
       "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-109",
@@ -1225,7 +1601,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-110",
@@ -1233,7 +1610,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-111",
@@ -1241,7 +1619,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-112",
@@ -1249,7 +1628,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-113",
@@ -1257,7 +1637,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-114",
@@ -1265,7 +1646,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-115",
@@ -1273,7 +1655,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-116",
@@ -1281,7 +1664,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-117",
@@ -1289,7 +1673,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-118",
@@ -1297,7 +1682,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-119",
@@ -1305,7 +1691,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-120",
@@ -1313,7 +1700,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-121",
@@ -1321,7 +1709,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-122",
@@ -1329,7 +1718,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-123",
@@ -1337,7 +1727,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-124",
@@ -1345,7 +1736,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-125",
@@ -1353,7 +1745,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-126",
@@ -1361,7 +1754,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-127",
@@ -1369,7 +1763,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-128",
@@ -1377,7 +1772,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-129",
@@ -1385,7 +1781,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-130",
@@ -1393,7 +1790,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-131",
@@ -1401,7 +1799,8 @@
       "license": "(BSD-2-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-132",
@@ -1409,7 +1808,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-133",
@@ -1417,7 +1817,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-134",
@@ -1425,7 +1826,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-135",
@@ -1433,7 +1835,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-136",
@@ -1441,7 +1844,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-137",
@@ -1449,7 +1853,8 @@
       "license": "(Apache-2.0 OR LGPL-3.0-or-later)",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-138",
@@ -1457,7 +1862,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-139",
@@ -1465,7 +1871,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-140",
@@ -1473,7 +1880,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-141",
@@ -1481,7 +1889,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-142",
@@ -1489,7 +1898,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-143",
@@ -1497,7 +1907,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-144",
@@ -1505,7 +1916,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-145",
@@ -1513,7 +1925,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-146",
@@ -1521,7 +1934,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-147",
@@ -1529,7 +1943,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-148",
@@ -1537,7 +1952,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-149",
@@ -1545,7 +1961,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-150",
@@ -1553,7 +1970,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-151",
@@ -1561,7 +1979,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-152",
@@ -1569,7 +1988,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-153",
@@ -1577,7 +1997,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-154",
@@ -1585,7 +2006,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-155",
@@ -1593,7 +2015,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-156",
@@ -1601,7 +2024,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-157",
@@ -1609,7 +2033,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-158",
@@ -1617,7 +2042,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-159",
@@ -1625,7 +2051,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-160",
@@ -1633,7 +2060,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-161",
@@ -1641,7 +2069,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-162",
@@ -1649,7 +2078,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-163",
@@ -1657,7 +2087,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-164",
@@ -1665,7 +2096,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-165",
@@ -1673,7 +2105,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-166",
@@ -1681,7 +2114,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-167",
@@ -1689,7 +2123,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-168",
@@ -1697,7 +2132,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-169",
@@ -1705,7 +2141,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-170",
@@ -1713,7 +2150,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-171",
@@ -1721,7 +2159,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-172",
@@ -1729,7 +2168,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-173",
@@ -1737,7 +2177,8 @@
       "license": "(BSD-2-Clause AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-174",
@@ -1745,7 +2186,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-175",
@@ -1753,7 +2195,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-176",
@@ -1761,7 +2204,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-177",
@@ -1769,7 +2213,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-178",
@@ -1777,7 +2222,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-179",
@@ -1785,7 +2231,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-180",
@@ -1793,7 +2240,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-181",
@@ -1801,7 +2249,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-182",
@@ -1809,7 +2258,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-183",
@@ -1817,7 +2267,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-184",
@@ -1825,7 +2276,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-185",
@@ -1833,7 +2285,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-186",
@@ -1841,7 +2294,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-187",
@@ -1849,7 +2303,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-188",
@@ -1857,7 +2312,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-189",
@@ -1865,7 +2321,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-190",
@@ -1873,7 +2330,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-191",
@@ -1881,7 +2339,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-192",
@@ -1889,7 +2348,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-193",
@@ -1897,7 +2357,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-194",
@@ -1905,7 +2366,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-195",
@@ -1913,7 +2375,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-196",
@@ -1921,7 +2384,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-197",
@@ -1929,7 +2393,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-198",
@@ -1937,7 +2402,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-199",
@@ -1945,7 +2411,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-200",
@@ -1953,7 +2420,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-201",
@@ -1961,7 +2429,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-202",
@@ -1969,7 +2438,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-203",
@@ -1977,7 +2447,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-204",
@@ -1985,7 +2456,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-205",
@@ -1993,7 +2465,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-206",
@@ -2001,7 +2474,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-207",
@@ -2009,7 +2483,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-208",
@@ -2017,7 +2492,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-209",
@@ -2025,7 +2501,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-210",
@@ -2033,7 +2510,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-211",
@@ -2041,7 +2519,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-212",
@@ -2049,7 +2528,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-213",
@@ -2057,7 +2537,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-214",
@@ -2065,7 +2546,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-215",
@@ -2073,7 +2555,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-216",
@@ -2081,7 +2564,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-217",
@@ -2089,7 +2573,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-218",
@@ -2097,7 +2582,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-219",
@@ -2105,7 +2591,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-220",
@@ -2113,7 +2600,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-221",
@@ -2121,7 +2609,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-222",
@@ -2129,7 +2618,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-223",
@@ -2137,7 +2627,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-224",
@@ -2145,7 +2636,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-225",
@@ -2153,7 +2645,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-226",
@@ -2161,7 +2654,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-227",
@@ -2169,7 +2663,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-228",
@@ -2177,7 +2672,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-229",
@@ -2185,7 +2681,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-230",
@@ -2193,7 +2690,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-231",
@@ -2201,7 +2699,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-232",
@@ -2209,7 +2708,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-233",
@@ -2217,7 +2717,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-234",
@@ -2225,7 +2726,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0 AND ISC)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-235",
@@ -2233,7 +2735,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-236",
@@ -2241,7 +2744,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-237",
@@ -2249,7 +2753,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-238",
@@ -2257,7 +2762,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-239",
@@ -2265,7 +2771,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-240",
@@ -2273,7 +2780,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-241",
@@ -2281,7 +2789,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-242",
@@ -2289,7 +2798,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-243",
@@ -2297,7 +2807,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-244",
@@ -2305,7 +2816,8 @@
       "license": "BSD-2-Clause-FreeBSD",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-245",
@@ -2313,7 +2825,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-246",
@@ -2321,7 +2834,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-247",
@@ -2329,7 +2843,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-248",
@@ -2337,7 +2852,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-249",
@@ -2345,7 +2861,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-250",
@@ -2353,7 +2870,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-251",
@@ -2361,7 +2879,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-252",
@@ -2369,7 +2888,8 @@
       "license": "(BSD-2-Clause AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-253",
@@ -2377,7 +2897,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-254",
@@ -2385,7 +2906,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-255",
@@ -2393,7 +2915,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-256",
@@ -2401,7 +2924,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-257",
@@ -2409,7 +2933,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-258",
@@ -2417,7 +2942,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-259",
@@ -2425,7 +2951,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-260",
@@ -2433,7 +2960,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-261",
@@ -2441,7 +2969,8 @@
       "license": "(BSD-2-Clause AND BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-262",
@@ -2449,7 +2978,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-263",
@@ -2457,7 +2987,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-264",
@@ -2465,7 +2996,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-265",
@@ -2473,7 +3005,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-266",
@@ -2481,7 +3014,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-267",
@@ -2489,7 +3023,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-268",
@@ -2497,7 +3032,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-269",
@@ -2505,7 +3041,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-270",
@@ -2513,7 +3050,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-271",
@@ -2521,7 +3059,8 @@
       "license": "(BSD-2-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-272",
@@ -2529,7 +3068,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-273",
@@ -2537,7 +3077,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-274",
@@ -2545,7 +3086,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-275",
@@ -2553,7 +3095,8 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-276",
@@ -2561,7 +3104,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-277",
@@ -2569,7 +3113,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-278",
@@ -2577,7 +3122,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-279",
@@ -2585,7 +3131,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-280",
@@ -2593,7 +3140,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-281",
@@ -2601,7 +3149,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-282",
@@ -2609,7 +3158,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-283",
@@ -2617,7 +3167,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-284",
@@ -2625,7 +3176,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-285",
@@ -2633,7 +3185,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-286",
@@ -2641,7 +3194,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-287",
@@ -2649,7 +3203,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-288",
@@ -2657,7 +3212,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-289",
@@ -2665,7 +3221,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-290",
@@ -2673,7 +3230,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-291",
@@ -2681,7 +3239,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-292",
@@ -2689,7 +3248,8 @@
       "license": "(Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-293",
@@ -2697,7 +3257,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-294",
@@ -2705,7 +3266,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-295",
@@ -2713,7 +3275,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-296",
@@ -2721,7 +3284,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-297",
@@ -2729,7 +3293,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-298",
@@ -2737,7 +3302,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-299",
@@ -2745,7 +3311,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-300",
@@ -2753,7 +3320,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-301",
@@ -2761,7 +3329,8 @@
       "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-302",
@@ -2769,7 +3338,8 @@
       "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-303",
@@ -2777,7 +3347,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-304",
@@ -2785,7 +3356,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-305",
@@ -2793,7 +3365,8 @@
       "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-306",
@@ -2801,7 +3374,8 @@
       "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-307",
@@ -2809,7 +3383,8 @@
       "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-308",
@@ -2817,7 +3392,8 @@
       "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-309",
@@ -2825,7 +3401,8 @@
       "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND Apache-2.0 AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-310",
@@ -2833,7 +3410,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-311",
@@ -2841,7 +3419,8 @@
       "license": "((BSD-3-Clause OR CC0-1.0) AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-312",
@@ -2849,7 +3428,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-313",
@@ -2857,7 +3437,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-314",
@@ -2865,7 +3446,8 @@
       "license": "(BSD-2-Clause AND BSD-3-Clause)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-315",
@@ -2873,7 +3455,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-316",
@@ -2881,7 +3464,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-317",
@@ -2889,7 +3473,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-318",
@@ -2897,7 +3482,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-319",
@@ -2905,7 +3491,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-320",
@@ -2913,7 +3500,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-321",
@@ -2921,7 +3509,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-322",
@@ -2929,7 +3518,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-323",
@@ -2937,7 +3527,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-324",
@@ -2945,7 +3536,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-325",
@@ -2953,7 +3545,8 @@
       "license": "(BSD-3-Clause AND Apache-2.0)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-326",
@@ -2961,7 +3554,8 @@
       "license": "Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
-      "comment": "Apache-2.0, no approval needed"
+      "comment": "Apache-2.0, no approval needed",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-327",
@@ -2969,7 +3563,8 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-328",
@@ -2977,7 +3572,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-329",
@@ -2985,7 +3581,8 @@
       "license": "(BSD-3-Clause AND MIT)",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-330",
@@ -2993,7 +3590,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-331",
@@ -3001,7 +3599,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-332",
@@ -3009,7 +3608,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-333",
@@ -3017,7 +3617,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-334",
@@ -3025,7 +3626,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-335",
@@ -3033,7 +3635,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-11-01-336",
@@ -3041,7 +3644,8 @@
       "license": "MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
-      "comment": "allowlisted"
+      "comment": "allowlisted",
+      "scope": "build-time dependency"
     },
     {
       "id": "exc-2019-05-20-001",

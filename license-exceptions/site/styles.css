@@ -542,6 +542,11 @@ body {
     color: #383d41;
 }
 
+.status-denied {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
 /* No Results */
 .no-results {
     padding: 3rem;

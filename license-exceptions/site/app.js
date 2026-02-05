@@ -15,6 +15,7 @@
         search: document.getElementById('search'),
         licenseFilter: document.getElementById('license-filter'),
         statusFilter: document.getElementById('status-filter'),
+        projectFilter: document.getElementById('project-filter'),
         yearFilter: document.getElementById('year-filter'),
         sortBy: document.getElementById('sort-by'),
         clearFilters: document.getElementById('clear-filters'),
@@ -73,6 +74,20 @@
         }
     }
 
+    // Helper to normalize project field to array
+    function normalizeProject(project) {
+        if (!project) return [];
+        if (Array.isArray(project)) return project;
+        return [project];
+    }
+
+    // Helper to format project for display
+    function formatProject(project) {
+        const projects = normalizeProject(project);
+        if (projects.length === 0) return '-';
+        return projects.join(', ');
+    }
+
     // Populate filter dropdowns from data
     function populateFilters() {
         // Get unique licenses
@@ -82,6 +97,19 @@
             option.value = license;
             option.textContent = license;
             elements.licenseFilter.appendChild(option);
+        });
+
+        // Get unique projects (flatten arrays)
+        const projectSet = new Set();
+        data.exceptions.forEach(e => {
+            normalizeProject(e.project).forEach(p => projectSet.add(p));
+        });
+        const projects = [...projectSet].sort();
+        projects.forEach(project => {
+            const option = document.createElement('option');
+            option.value = project;
+            option.textContent = project;
+            elements.projectFilter.appendChild(option);
         });
 
         // Get unique years from approvedDate
@@ -104,17 +132,20 @@
         const searchTerm = elements.search.value.toLowerCase().trim();
         const licenseFilter = elements.licenseFilter.value;
         const statusFilter = elements.statusFilter.value;
+        const projectFilter = elements.projectFilter.value;
         const yearFilter = elements.yearFilter.value;
 
         // Filter
         filteredExceptions = data.exceptions.filter(exc => {
             // Search filter - search across all fields
             if (searchTerm) {
+                const projectText = normalizeProject(exc.project).join(' ');
                 const searchableText = [
                     exc.package,
                     exc.license,
                     exc.status,
                     exc.scope || '',
+                    projectText,
                     exc.approvedDate || '',
                     exc.comment || ''
                 ].join(' ').toLowerCase();
@@ -132,6 +163,14 @@
             // Status filter
             if (statusFilter && exc.status !== statusFilter) {
                 return false;
+            }
+
+            // Project filter
+            if (projectFilter) {
+                const projects = normalizeProject(exc.project);
+                if (!projects.includes(projectFilter)) {
+                    return false;
+                }
             }
 
             // Year filter
@@ -170,6 +209,10 @@
                 case 'license':
                     valA = a.license.toLowerCase();
                     valB = b.license.toLowerCase();
+                    break;
+                case 'project':
+                    valA = formatProject(a.project).toLowerCase();
+                    valB = formatProject(b.project).toLowerCase();
                     break;
                 case 'status':
                     valA = a.status.toLowerCase();
@@ -240,11 +283,13 @@
             const packageHtml = formatPackage(exc.package);
             const statusClass = getStatusClass(exc.status);
             const resultsHtml = formatResults(exc.results);
+            const projectHtml = escapeHtml(formatProject(exc.project));
 
             return `
                 <tr>
                     <td>${packageHtml}</td>
                     <td><span class="license-badge">${escapeHtml(exc.license)}</span></td>
+                    <td>${projectHtml}</td>
                     <td>${escapeHtml(exc.scope || '-')}</td>
                     <td><span class="status-badge ${statusClass}">${escapeHtml(exc.status)}</span></td>
                     <td>${escapeHtml(exc.approvedDate || '-')}</td>
@@ -265,7 +310,7 @@
         return `<span class="package-name">${escapeHtml(packageName)}</span>`;
     }
 
-    // Format results link (Google Doc or GitHub issue)
+    // Format results link (Google Doc or GitHub)
     function formatResults(resultsUrl) {
         if (!resultsUrl) {
             return '-';
@@ -275,7 +320,7 @@
         if (resultsUrl.includes('docs.google.com')) {
             linkText = 'Google Doc';
         } else if (resultsUrl.includes('github.com')) {
-            linkText = 'GitHub Issue';
+            linkText = 'GitHub';
         }
         
         return `<a href="${escapeHtml(resultsUrl)}" class="results-link" target="_blank" rel="noopener noreferrer">${linkText}</a>`;
@@ -286,6 +331,8 @@
         switch (status) {
             case 'approved':
                 return 'status-approved';
+            case 'denied':
+                return 'status-denied';
             case 'allowlisted':
                 return 'status-allowlisted';
             case 'apache-2.0':
@@ -312,6 +359,7 @@
         elements.search.value = '';
         elements.licenseFilter.value = '';
         elements.statusFilter.value = '';
+        elements.projectFilter.value = '';
         elements.yearFilter.value = '';
         elements.sortBy.value = 'date-desc';
         currentSort = { column: 'date', direction: 'desc' };
@@ -320,10 +368,11 @@
 
     // Download CSV
     function downloadCsv() {
-        const headers = ['Package', 'License', 'Scope', 'Status', 'Approved Date', 'Results', 'Comment'];
+        const headers = ['Package or Category', 'License', 'Project', 'Scope', 'Status', 'Approved Date', 'Results', 'Comment'];
         const rows = filteredExceptions.map(exc => [
             exc.package,
             exc.license,
+            formatProject(exc.project),
             exc.scope || '',
             exc.status,
             exc.approvedDate || '',
@@ -363,6 +412,7 @@
         // Filter dropdowns
         elements.licenseFilter.addEventListener('change', applyFiltersAndRender);
         elements.statusFilter.addEventListener('change', applyFiltersAndRender);
+        elements.projectFilter.addEventListener('change', applyFiltersAndRender);
         elements.yearFilter.addEventListener('change', applyFiltersAndRender);
 
         // Sort dropdown

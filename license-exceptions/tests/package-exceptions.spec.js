@@ -8,7 +8,8 @@ const { test, expect } = require('@playwright/test');
 // Helper to wait for data to load
 async function waitForDataLoad(page) {
   // Wait for the results count to show actual data (not "Loading...")
-  await expect(page.locator('#results-count')).not.toHaveText('Loading...', { timeout: 10000 });
+  // Use a regex that matches either "X exceptions" or "X of Y exceptions"
+  await expect(page.locator('#results-count')).toHaveText(/\d+ (of \d+ )?exceptions/, { timeout: 15000 });
 }
 
 test.describe('Package Exceptions Page', () => {
@@ -33,20 +34,22 @@ test.describe('Package Exceptions Page', () => {
     expect(resultsText).toMatch(/\d+ exceptions/);
   });
 
-  test('navigation links are present and correct', async ({ page }) => {
-    const navLinks = page.locator('.nav-links a');
-    await expect(navLinks).toHaveCount(2);
-    
-    await expect(navLinks.nth(0)).toHaveText('Package Exceptions');
-    await expect(navLinks.nth(0)).toHaveClass(/active/);
-    
-    await expect(navLinks.nth(1)).toHaveText('Blanket Exceptions');
+  test('page has subtitle text', async ({ page }) => {
+    // The page should have subtitle text about license exceptions
+    await expect(page.locator('.subtitle')).toBeVisible();
+    await expect(page.locator('.subtitle')).toContainText('Approved license exceptions');
   });
 
-  test('can navigate to blanket exceptions page', async ({ page }) => {
-    await page.click('a:has-text("Blanket Exceptions")');
-    await expect(page).toHaveURL(/blanket-exceptions/);
-    await expect(page.locator('h1')).toHaveText('CNCF License Exceptions');
+  test('blanket exceptions are shown in main table', async ({ page }) => {
+    await waitForDataLoad(page);
+    // Search for blanket exceptions (project = "All CNCF Projects")
+    await page.selectOption('#project-filter', 'All CNCF Projects');
+    await page.waitForTimeout(100);
+    
+    // Should find at least one blanket exception
+    const rows = page.locator('#exceptions-tbody tr');
+    const count = await rows.count();
+    expect(count).toBeGreaterThan(0);
   });
 });
 

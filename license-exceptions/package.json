@@ -4,10 +4,12 @@
   "description": "CNCF License Exceptions site and tooling",
   "private": true,
   "scripts": {
+    "pretest": "cp exceptions.json site/exceptions.json",
     "test": "playwright test",
-    "test:headed": "playwright test --headed",
-    "test:debug": "playwright test --debug",
-    "serve": "serve -l 3000 .",
+    "posttest": "rm -f site/exceptions.json",
+    "test:headed": "cp exceptions.json site/exceptions.json && playwright test --headed; rm -f site/exceptions.json",
+    "test:debug": "cp exceptions.json site/exceptions.json && playwright test --debug; rm -f site/exceptions.json",
+    "serve": "cp exceptions.json site/exceptions.json && serve -l 3000 .",
     "generate": "node scripts/generate-all.js"
   },
   "keywords": [],

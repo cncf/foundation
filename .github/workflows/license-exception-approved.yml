@@ -1,4 +1,4 @@
-name: License Exception Approved
+name: License Exception Decision
 
 on:
   issues:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   create-pr:
-    if: github.event.label.name == 'approved'
+    if: github.event.label.name == 'approved' || github.event.label.name == 'denied'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,12 +30,18 @@ jobs:
             const body = context.payload.issue.body || '';
             const issueNumber = context.issue.number;
             const today = new Date().toISOString().split('T')[0];
+            const labelName = context.payload.label.name;
+            const status = labelName === 'approved' ? 'approved' : 'denied';
             
             // Extract project name
             const projectMatch = body.match(/For which CNCF project[^]*?\n\n([^\n]+)/);
             const project = projectMatch ? projectMatch[1].trim() : 'Unknown';
             
-            // Extract component table - parse all columns
+            // Extract scope/usage context if present
+            const scopeMatch = body.match(/(?:How|Where|What).*(?:used|usage|scope|context)[^]*?\n\n([^\n]+)/i);
+            const defaultScope = scopeMatch ? scopeMatch[1].trim() : undefined;
+            
+            // Extract component table - parse all columns including scope
             const tableMatch = body.match(/\|[^\n]*Component[^\n]*\|[\s\S]*?\n\|[-|\s]+\|\n([\s\S]*?)(?=\n\n|\n###|$)/);
             const newExceptions = [];
             
@@ -45,16 +51,20 @@ jobs:
               for (const row of rows) {
                 const cells = row.split('|').map(c => c.trim()).filter(c => c);
                 if (cells.length >= 4 && cells[0]) {
+                  // Try to extract scope from table (column 5 if present) or use default
+                  const scope = (cells.length >= 5 && cells[4]) ? cells[4] : defaultScope;
+                  
                   newExceptions.push({
                     id: `exc-${today}-${String(idx).padStart(3, '0')}`,
                     package: cells[0],
                     packageUrl: cells[1] || undefined,
                     license: cells[3],
-                    requestingProject: project,
+                    project: project,
                     approvedDate: today,
                     issueUrl: `https://github.com/${context.repo.owner}/${context.repo.repo}/issues/${issueNumber}`,
-                    status: 'approved',
-                    comment: cells[4] || undefined
+                    status: status,
+                    scope: scope,
+                    comment: cells.length >= 6 ? cells[5] : undefined
                   });
                   idx++;
                 }
@@ -68,6 +78,7 @@ jobs:
             core.setOutput('project', project);
             core.setOutput('count', newExceptions.length);
             core.setOutput('date', today);
+            core.setOutput('status', status);
 
       - name: Update exceptions.json
         run: |
@@ -97,18 +108,19 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: license-exception-${{ github.event.issue.number }}
-          title: "Add license exceptions for ${{ steps.parse.outputs.project }} (#${{ github.event.issue.number }})"
+          title: "Record license exception decision (${{ steps.parse.outputs.status }}) for ${{ steps.parse.outputs.project }} (#${{ github.event.issue.number }})"
           body: |
-            ## License Exception Approval
+            ## License Exception Decision
             
-            This PR adds the license exceptions approved in #${{ github.event.issue.number }}.
+            This PR records the license exception decision from #${{ github.event.issue.number }}.
             
             **Project:** ${{ steps.parse.outputs.project }}
-            **Approval Date:** ${{ steps.parse.outputs.date }}
-            **Exceptions Added:** ${{ steps.parse.outputs.count }}
+            **Decision:** ${{ steps.parse.outputs.status }}
+            **Decision Date:** ${{ steps.parse.outputs.date }}
+            **Exceptions Recorded:** ${{ steps.parse.outputs.count }}
             
             Closes #${{ github.event.issue.number }}
-          commit-message: "feat(license): add exceptions for ${{ steps.parse.outputs.project }} (#${{ github.event.issue.number }})"
+          commit-message: "feat(license): record ${{ steps.parse.outputs.status }} exceptions for ${{ steps.parse.outputs.project }} (#${{ github.event.issue.number }})"
           add-paths: |
             license-exceptions/exceptions.json
             license-exceptions/CNCF-licensing-exceptions.csv
@@ -120,12 +132,17 @@ jobs:
           script: |
             const prNumber = '${{ steps.create-pr.outputs.pull-request-number }}';
             const prUrl = '${{ steps.create-pr.outputs.pull-request-url }}';
+            const status = '${{ steps.parse.outputs.status }}';
             
             if (prNumber) {
+              const emoji = status === 'approved' ? '✅' : '❌';
+              const title = status === 'approved' ? 'Exception Approved' : 'Exception Denied';
+              const action = status === 'approved' ? 'add these approved exceptions' : 'record these denied exceptions';
+              
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: `## ✅ Exception Approved\n\nA pull request has been created to add these exceptions to the database:\n\n${prUrl}\n\nOnce merged, the exceptions will appear in the [exceptions database](https://cncf.github.io/foundation/license-exceptions/site/).`
+                body: `## ${emoji} ${title}\n\nA pull request has been created to ${action} to the database:\n\n${prUrl}\n\nOnce merged, the exceptions will appear in the [exceptions database](https://cncf.github.io/foundation/license-exceptions/site/).`
               });
             }

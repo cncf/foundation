@@ -71,19 +71,16 @@ test.describe('Blanket Exceptions Page', () => {
 });
 
 test.describe('Navigation Between Pages', () => {
-  test('can navigate from package to blanket and back', async ({ page }) => {
-    // Start at package exceptions
-    await page.goto('/site/index.html');
-    await expect(page.locator('.nav-links a.active')).toHaveText('Package Exceptions');
-    
-    // Navigate to blanket
-    await page.click('a:has-text("Blanket Exceptions")');
-    await expect(page).toHaveURL(/blanket-exceptions/);
+  test('can navigate from blanket page to main page', async ({ page }) => {
+    // Start at blanket exceptions page (has nav)
+    await page.goto('/site/blanket-exceptions.html');
     await expect(page.locator('.nav-links a.active')).toHaveText('Blanket Exceptions');
     
-    // Navigate back
+    // Navigate to package exceptions (main page)
     await page.click('a:has-text("Package Exceptions")');
     await expect(page).toHaveURL(/index\.html|\/site\/?$/);
-    await expect(page.locator('.nav-links a.active')).toHaveText('Package Exceptions');
+    
+    // Main page doesn't have nav since blanket exceptions are now in the main table
+    await expect(page.locator('h1')).toHaveText('CNCF License Exceptions');
   });
 });
