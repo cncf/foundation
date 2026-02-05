@@ -70,7 +70,7 @@ Please see [below](#considerations-for-forking-and-maintaining) for details to c
 
 ### Exception requests
 
-Source-available or non-OSI-approved licenses, and use by CNCF projects of dependencies distributed under such licenses, are not eligible for approval under the [CNCF IP Policy] on an exception basis. However, certain technical interactions between a CNCF project and such packages may be permitted. For guidance on permissible interaction types, please see
+Source-available or non-open source licenses, and use by CNCF projects of dependencies distributed under such licenses, are not eligible for approval under the [CNCF IP Policy] on an exception basis. However, certain technical interactions between a CNCF project and such packages may be permitted. For guidance on permissible interaction types, please see
 [Guidance for Interactions between CNCF Project Code and Closed Source / Source-Available Products]
 
 ## Considerations for Forking and Maintaining
