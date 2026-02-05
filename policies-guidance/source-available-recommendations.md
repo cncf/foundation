@@ -1,4 +1,4 @@
-# Source Available Recommendations v1.1
+# Source Available Recommendations v1.2
 
 Third Party Dependencies that have been Relicensed to Source Available, non-open source licenses
 
@@ -70,7 +70,8 @@ Please see [below](#considerations-for-forking-and-maintaining) for details to c
 
 ### Exception requests
 
-In any case, while a project's maintainers may request a license exception from the CNCF Governing Board, it is _extremely_ unlikely that one will be granted for the use of a dependency under a source available, non-open source license.
+Source-available or non-OSI-approved licenses, and use by CNCF projects of dependencies distributed under such licenses, are not eligible for approval under the [CNCF IP Policy] on an exception basis. However, certain technical interactions between a CNCF project and such packages may be permitted. For guidance on permissible interaction types, please see
+[Guidance for Interactions between CNCF Project Code and Closed Source / Source-Available Products]
 
 ## Considerations for Forking and Maintaining
 
@@ -126,9 +127,11 @@ Here are a few guidelines and recommendations that a forked project will want to
   - Depending on whether it is feasible given the project's size and the number of maintainers, a maintainer or reviewer who reviews a questionable pull request can subsequently limit their development in that area of the codebase to minimize this risk that their exposure to post-fork upstream code could influence their future contributions.
 
 [CNCF Charter]: https://github.com/cncf/foundation/blob/main/charter.md
+[CNCF IP Policy]: https://github.com/cncf/foundation/blob/main/charter.md](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy
 [CNCF Service Desk]: https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1/group/1/create/14
 [Allowlist License Policy]: https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md
 [AGPL-3.0]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [Open Source Definition]: https://opensource.org/osd/
 [Open Source Initiative]: https://opensource.org/
 [SPDX License List]: https://spdx.org/licenses
+[Guidance for Interactions between CNCF Project Code and Closed Source / Source-Available Products]: https://github.com/cncf/foundation/blob/main/policies-guidance/proprietary-interactions-guidance.md
