@@ -1610,11 +1610,13 @@ Sandbox,Inspektor Gadget,Mauricio Vásquez Bernal,Microsoft,mauriciovasquezberna
 ,,Chris Kühl,Microsoft,blixtra,
 ,,Maya Singh,Microsoft,mayasingh17,
 ,,Veaceslav Falico,Microsoft,vfalico,
-Sandbox,Headlamp,Joaquim Rocha,Microsoft,joaquimrocha,https://github.com/headlamp-k8s/headlamp/blob/main/MAINTAINERS.md
+Sandbox,Headlamp,Joaquim Rocha,Microsoft,joaquimrocha,https://github.com/kubernetes-sigs/headlamp/blob/main/OWNERS_ALIASES
 ,,René Dudfield,Microsoft,illume,
 ,,Ashu Ghildiyal,Microsoft,ashu8912,
 ,,Santhosh Nagaraj,Microsoft,yolossn,
-,,Kautilya Tripathi,Microsoft,knrt10,
+,,Oleksandr Dubenko,Microsoft,sniok,
+,,Vincent Taylor,Microsoft,vyncent-t,
+,,Evangelos Skopelitis,Microsoft,skoeva,
 Sandbox,Microcks,Laurent Broudoux,Postman,lbroudoux,https://github.com/microcks/.github/blob/main/MAINTAINERS.md
 ,,Yacine Kheddache,Postman,yada,
 Sandbox,SOPS,Hidde Beydals,Independent,hiddeco,https://github.com/getsops/community/blob/main/MAINTAINERS.md
