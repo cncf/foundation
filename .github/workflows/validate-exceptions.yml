@@ -94,7 +94,7 @@ jobs:
               if (!exc.package) throw new Error('Exception ' + i + ' missing package');
               if (!exc.license) throw new Error('Exception ' + i + ' missing license');
               if (!exc.status) throw new Error('Exception ' + i + ' missing status');
-              if (!['approved', 'allowlisted', 'apache-2.0'].includes(exc.status)) {
+              if (!['approved', 'denied', 'allowlisted', 'apache-2.0'].includes(exc.status)) {
                 throw new Error('Exception ' + i + ' has invalid status: ' + exc.status);
               }
             }
