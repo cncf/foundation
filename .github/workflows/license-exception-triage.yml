@@ -1,0 +1,114 @@
+name: License Exception Triage
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  triage:
+    if: contains(github.event.issue.labels.*.name, 'licensing')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Parse issue and check duplicates
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // Parse issue body
+            const body = context.payload.issue.body || '';
+            
+            // Extract project name (after "For which CNCF project" question)
+            const projectMatch = body.match(/For which CNCF project[^]*?\n\n([^\n]+)/);
+            const project = projectMatch ? projectMatch[1].trim() : 'Unknown';
+            
+            // Extract component table rows
+            const tableMatch = body.match(/\|[^\n]*Component[^\n]*\|[\s\S]*?\n\|[-|\s]+\|\n([\s\S]*?)(?=\n\n|\n###|$)/);
+            const components = [];
+            
+            if (tableMatch) {
+              const rows = tableMatch[1].trim().split('\n');
+              for (const row of rows) {
+                const cells = row.split('|').map(c => c.trim()).filter(c => c);
+                if (cells.length >= 1 && cells[0]) {
+                  components.push(cells[0]);
+                }
+              }
+            }
+            
+            // Read exceptions.json
+            const fs = require('fs');
+            const exceptionsData = JSON.parse(fs.readFileSync('license-exceptions/exceptions.json', 'utf-8'));
+            const existingPackages = new Set(exceptionsData.exceptions.map(e => e.package.toLowerCase()));
+            
+            // Check for duplicates
+            const duplicates = components.filter(c => {
+              const normalized = c.toLowerCase().replace(/^https?:\/\//, '').replace(/\/$/, '');
+              return existingPackages.has(normalized);
+            });
+            
+            core.setOutput('project', project);
+            core.setOutput('component_count', components.length);
+            core.setOutput('duplicates', JSON.stringify(duplicates));
+            core.setOutput('has_duplicates', duplicates.length > 0);
+
+      - name: Add labels
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const hasDuplicates = ${{ steps.parse.outputs.has_duplicates }};
+            
+            const labels = ['needs-review'];
+            if (hasDuplicates) {
+              labels.push('possible-duplicate');
+            }
+            
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: labels
+            });
+
+      - name: Post triage comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const project = `${{ steps.parse.outputs.project }}`;
+            const componentCount = ${{ steps.parse.outputs.component_count }};
+            const duplicates = JSON.parse('${{ steps.parse.outputs.duplicates }}');
+            
+            let comment = `## Automated Triage Summary\n\n`;
+            comment += `**Project:** ${project}\n`;
+            comment += `**Components Requested:** ${componentCount}\n\n`;
+            
+            if (duplicates.length > 0) {
+              comment += `### ⚠️ Possible Duplicates Detected\n\n`;
+              comment += `The following components may already have an exception:\n\n`;
+              for (const dup of duplicates) {
+                comment += `- \`${dup}\`\n`;
+              }
+              comment += `\nPlease check the [exceptions database](https://cncf.github.io/foundation/license-exceptions/site/) to verify.\n\n`;
+            }
+            
+            comment += `---\n`;
+            comment += `*This issue will be reviewed by the CNCF staff and Legal Committee. `;
+            comment += `See [process documentation](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#process-for-applying-for-an-exception).*`;
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: comment
+            });
