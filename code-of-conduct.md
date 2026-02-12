@@ -72,7 +72,7 @@ Examples of unacceptable behavior include but are not limited to:
 * Unwelcome sexual or romantic attention or advances
 * Using CNCF projects or community spaces for political campaigning or promotion of political causes 
   that are unrelated to the advancement of cloud native technology. To clarify, this policy does not restrict individuals' personal attire, including attire that expresses personal beliefs or aspects of identity
-* The solicitation or encouragement of targeted harassment or dog-piling against an individual
+* The solicitation or encouragement of targeted or coordinated harassment against an individual. To clarify,  the incitement, solicitation, and encouragement of this specific harm which may result in a multiplier effect. Professional, valid public awareness on accountability is not considered targeted or coordinated harassment.
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
