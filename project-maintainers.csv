@@ -1810,7 +1810,7 @@ Sandbox,Kuadrant,Jason Madigan,Red Hat,jasonmadigan,https://github.com/Kuadrant/
 ,,Didier Di Cesare,Red Hat,didierofrivia,
 ,,David Martin,Red Hat,david-martin,
 Sandbox,Score,Ben Meier,Humanitec,astromechza,https://github.com/score-spec/spec/blob/main/MAINTAINERS.md
-,,Chris Stephenson,Independent,chrishumanitec,
+,,Chris Stephenson,Independent,chris-stephenson,
 ,,Mathieu Benoit,Docker,mathieu-benoit,
 ,,Susa Tünker,Checkly,sujaya-sys,
 Sandbox,openGemini,Yu Xiang,Huawei,xiangyu5632,https://github.com/openGemini/openGemini/blob/main/MAINTAINERS.md
@@ -2209,4 +2209,5 @@ Sandbox,Cadence,Ender Demirkaya,Uber,demirkayaender,https://github.com/cadence-w
 ,,Tim Li,Uber,timl3136,
 ,,Vsevolod Kaloshin,Uber,arzonus,
 ,,Zijian Chen,Uber,Shaddoll,
+
 
