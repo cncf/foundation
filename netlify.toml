@@ -1,0 +1,14 @@
+[build]
+  base = "license-exceptions/"
+  command = "node scripts/generate-all.js && mkdir -p _site && cp -r site/* _site/ && cp exceptions.json CNCF-licensing-exceptions.csv cncf-exceptions-current.spdx _site/"
+  publish = "license-exceptions/_site"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

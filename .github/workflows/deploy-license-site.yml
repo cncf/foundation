@@ -1,20 +1,17 @@
-name: Deploy License Exceptions Site
+name: License Exceptions Site Tests
 
 on:
   push:
     branches: [main]
     paths:
       - 'license-exceptions/**'
+  pull_request:
+    paths:
+      - 'license-exceptions/**'
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   test:
@@ -51,44 +48,3 @@ jobs:
           name: playwright-report
           path: license-exceptions/playwright-report/
           retention-days: 7
-
-  build:
-    runs-on: ubuntu-latest
-    needs: test
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Generate derived formats
-        run: |
-          cd license-exceptions
-          node scripts/generate-all.js
-
-      - name: Prepare site
-        run: |
-          mkdir -p _site/license-exceptions
-          cp -r license-exceptions/site/* _site/license-exceptions/
-          cp license-exceptions/exceptions.json _site/license-exceptions/
-          cp license-exceptions/CNCF-licensing-exceptions.csv _site/license-exceptions/
-          cp license-exceptions/cncf-exceptions-current.spdx _site/license-exceptions/
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '_site'
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}license-exceptions/
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

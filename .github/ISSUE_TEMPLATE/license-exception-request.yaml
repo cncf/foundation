@@ -42,7 +42,7 @@ body:
 
         Before submitting, please check if an exception already exists for your component(s):
 
-        **[Search the exceptions database](https://cncf.github.io/foundation/license-exceptions/site/)**
+        **[Search the exceptions database](https://exceptions.cncf.io/)**
 
         If an exception already exists for the same package and license, you do not need to request a new one.
 

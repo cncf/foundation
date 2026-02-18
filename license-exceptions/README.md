@@ -6,7 +6,7 @@ This directory contains license exceptions approved by the CNCF Governing Board.
 
 ## Browse Exceptions
 
-**[View the searchable exceptions database](https://cncf.github.io/foundation/license-exceptions/site/)**
+**[View the searchable exceptions database](https://exceptions.cncf.io/)**
 
 The web interface allows you to:
 - Search by package name

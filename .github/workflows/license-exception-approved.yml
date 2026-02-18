@@ -143,6 +143,6 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: `## ${emoji} ${title}\n\nA pull request has been created to ${action} to the database:\n\n${prUrl}\n\nOnce merged, the exceptions will appear in the [exceptions database](https://cncf.github.io/foundation/license-exceptions/site/).`
+                body: `## ${emoji} ${title}\n\nA pull request has been created to ${action} to the database:\n\n${prUrl}\n\nOnce merged, the exceptions will appear in the [exceptions database](https://exceptions.cncf.io/).`
               });
             }
