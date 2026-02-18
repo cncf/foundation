@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNCF License Exceptions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>CNCF License Exceptions</h1>
+            <p class="subtitle">Approved license exceptions for CNCF projects</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Filters Section -->
+        <section class="filters">
+            <div class="filters-row">
+                <div class="filter-group">
+                    <label for="search">Search</label>
+                    <input type="text" id="search" placeholder="Search all fields...">
+                </div>
+                <div class="filter-group">
+                    <label for="license-filter">License</label>
+                    <select id="license-filter">
+                        <option value="">All Licenses</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="status-filter">Status</label>
+                    <select id="status-filter">
+                        <option value="">All Statuses</option>
+                        <option value="approved">Approved</option>
+                        <option value="denied">Denied</option>
+                        <option value="allowlisted">Allowlisted</option>
+                        <option value="apache-2.0">Apache-2.0</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="project-filter">Project</label>
+                    <select id="project-filter">
+                        <option value="">All Projects</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="year-filter">Year</label>
+                    <select id="year-filter">
+                        <option value="">All Years</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filters-actions">
+                <button id="clear-filters" class="btn btn-secondary">Clear Filters</button>
+            </div>
+        </section>
+
+        <!-- Sort Controls -->
+        <section class="sort-controls">
+            <span class="results-count" id="results-count">Loading...</span>
+            <div class="sort-group">
+                <label for="sort-by">Sort by:</label>
+                <select id="sort-by">
+                    <option value="date-desc">Date (Newest First)</option>
+                    <option value="date-asc">Date (Oldest First)</option>
+                    <option value="package-asc">Package (A-Z)</option>
+                    <option value="package-desc">Package (Z-A)</option>
+                    <option value="license-asc">License (A-Z)</option>
+                    <option value="license-desc">License (Z-A)</option>
+                    <option value="status-asc">Status (A-Z)</option>
+                    <option value="status-desc">Status (Z-A)</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Results Table -->
+        <section class="results">
+            <div class="table-wrapper">
+                <table id="exceptions-table">
+                    <thead>
+                        <tr>
+                            <th class="sortable" data-sort="package">Package or Category <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-sort="license">License <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-sort="project">Project <span class="sort-indicator"></span></th>
+                            <th>Scope</th>
+                            <th class="sortable" data-sort="status">Status <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-sort="date">Approved Date <span class="sort-indicator"></span></th>
+                            <th>Results</th>
+                        </tr>
+                    </thead>
+                    <tbody id="exceptions-tbody">
+                        <!-- Populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="no-results" id="no-results" style="display: none;">
+                <p>No exceptions match your filters.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://github.com/cncf/foundation/tree/main/license-exceptions" target="_blank" rel="noopener noreferrer">
+                    View on GitHub
+                </a>
+                <a href="exceptions.json" download="cncf-license-exceptions.json">
+                    Download JSON
+                </a>
+                <button id="download-csv" class="link-btn">Download CSV</button>
+            </div>
+            <p class="footer-meta">
+                Data version: <span id="data-version">-</span> | 
+                Last updated: <span id="last-updated">-</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

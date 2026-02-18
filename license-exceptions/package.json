@@ -1,0 +1,23 @@
+{
+  "name": "license-exceptions",
+  "version": "1.0.0",
+  "description": "CNCF License Exceptions site and tooling",
+  "private": true,
+  "scripts": {
+    "pretest": "cp exceptions.json site/exceptions.json",
+    "test": "playwright test",
+    "posttest": "rm -f site/exceptions.json",
+    "test:headed": "cp exceptions.json site/exceptions.json && playwright test --headed; rm -f site/exceptions.json",
+    "test:debug": "cp exceptions.json site/exceptions.json && playwright test --debug; rm -f site/exceptions.json",
+    "serve": "cp exceptions.json site/exceptions.json && serve -l 3000 .",
+    "generate": "node scripts/generate-all.js"
+  },
+  "keywords": [],
+  "author": "CNCF",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "serve": "^14.2.5"
+  }
+}

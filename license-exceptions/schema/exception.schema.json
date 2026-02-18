@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cncf/foundation/license-exceptions/schema/exception.schema.json",
+  "title": "CNCF License Exception",
+  "description": "Schema for CNCF license exception records",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "lastUpdated": { "type": "string", "format": "date" },
+    "blanketExceptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "licenses": { "type": "array", "items": { "type": "string" } },
+          "scope": { "type": "string" },
+          "approvedDate": { "type": "string", "format": "date" },
+          "documentUrl": { "type": "string", "format": "uri" }
+        },
+        "required": ["id", "name", "description", "licenses", "approvedDate"]
+      }
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "description": "Unique ID like exc-2023-08-31-001" },
+          "package": { "type": "string" },
+          "packageUrl": { "type": "string", "format": "uri" },
+          "license": { "type": "string", "description": "SPDX license identifier(s)" },
+          "requestingProject": { "type": "string" },
+          "approvedDate": { "type": "string", "format": "date" },
+          "issueUrl": { "type": "string", "format": "uri" },
+          "status": { "type": "string", "enum": ["approved", "denied", "allowlisted", "apache-2.0"] },
+          "project": { 
+            "oneOf": [
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } }
+            ],
+            "description": "Requesting project(s) or 'All CNCF Projects' for blanket exceptions"
+          },
+          "scope": { "type": "string", "description": "Usage context and codebase area, e.g., 'build dependency, dynamically linked'" },
+          "results": { "type": "string", "format": "uri", "description": "Link to results documentation (Google Doc or GitHub issue)" },
+          "comment": { "type": "string" }
+        },
+        "required": ["id", "package", "license", "status"]
+      }
+    }
+  },
+  "required": ["version", "lastUpdated", "exceptions"]
+}
