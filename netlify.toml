@@ -1,7 +1,7 @@
 [build]
   base = "license-exceptions/"
   command = "node scripts/generate-all.js && mkdir -p _site && cp -r site/* _site/ && cp exceptions.json CNCF-licensing-exceptions.csv cncf-exceptions-current.spdx _site/"
-  publish = "license-exceptions/_site"
+  publish = "_site"
 
 [build.environment]
   NODE_VERSION = "20"
