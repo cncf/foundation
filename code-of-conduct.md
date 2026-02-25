@@ -1,4 +1,4 @@
-## CNCF Community Code of Conduct v1.3
+## CNCF Community Code of Conduct v1.4
 
 Other languages available:
 - [Arabic/العربية](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/ar.md)
@@ -57,7 +57,7 @@ Examples of behavior that contributes to a positive environment include but are 
 * Focusing on what is best not just for us as individuals, but for the
   overall community
 * Using welcoming and inclusive language
-
+* Addressing disagreements or concerns through appropriate channels
 
 Examples of unacceptable behavior include but are not limited to:
 
@@ -71,7 +71,8 @@ Examples of unacceptable behavior include but are not limited to:
 * Unwelcome physical contact
 * Unwelcome sexual or romantic attention or advances
 * Using CNCF projects or community spaces for political campaigning or promotion of political causes 
-  that are unrelated to the advancement of cloud native technology. To clarify, this policy does not restrict individuals' personal attire, including attire that expresses personal beliefs or aspects of identity.
+  that are unrelated to the advancement of cloud native technology. To clarify, this policy does not restrict individuals' personal attire, including attire that expresses personal beliefs or aspects of identity
+* The solicitation or encouragement of targeted or coordinated harassment against an individual. To clarify,  the incitement, solicitation, and encouragement of this specific harm which may result in a multiplier effect. Professional, valid public awareness on accountability is not considered targeted or coordinated harassment.
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
