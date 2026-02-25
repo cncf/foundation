@@ -24,7 +24,7 @@ Submissions on other relevant topics may be considered if they have clear connec
   * Member Blog: Vendor-neutral posts from CNCF members aligned with CNCF guidelines. Members may discuss open-source projects, including CNCF Sandbox projects.
   * Posts focused solely on CNCF Graduated or Incubating projects, written on behalf of the project, will be categorized as Project Blogs.
   * If the blog includes information about a CNCF Graduated or Incubating project with instructional or tutorial content (e.g., how-to guides), it remains classified as a Member Blog.
-      * Members can add 1-2 sentences at the end of their blog with a link to an external site such as their website or a gated asset. Examples for best practices:
+  * Members can add 1-2 sentences at the end of their blog with one (1) link to an external site such as their website or a gated asset. Examples for best practices:
       * Share contact info of  speaker - twitter, slack, email
       * Links to company websites
       * Links to projects websites or Github
@@ -55,19 +55,12 @@ The primary audience for CNCF blogs is developers, IT operators, and cloud nativ
 
 ### Best Practices: ###
 * Vendor-Neutrality: Mention vendors only in contexts directly related to open-source projects, meaningful community participation, or event involvement. Promotional or advertising content, announcements, and press releases are not accepted.
-
 * Technical & Educational Value: Strongly encouraged are how-to articles, technical deep dives, tutorials, and innovative use cases.
-
 * Community Relevance: Posts describing real-world challenges and the solutions adopted often generate significant community interest.
-
 * Comparative and Analytical Content: Articles that help readers navigate choices among technologies or solutions—such as addressing legacy issues or cloud platform compatibility—are valuable. However, in alignment with [CNCF Values](https://github.com/cncf/foundation/blob/main/charter.md#3-values) and [Operating Principles](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#no-kingmakers--one-size-does-not-fit-all), CNCF blogs must remain neutral and collaborative, avoiding any criticism, negative portrayal, or discouragement of any project's adoption. While external platforms may host comparative content that favors adoption of one project over another, the CNCF blog will not.
-  
 * Links to Upstream Contributions: When referencing project contributions, always link back to relevant GitHub issues or pull requests.
-
-*  Constructive Criticism: Address sensitive or broad industry issues constructively and professionally, aiming for positive impacts on the community.
-
-*  Originality & Licensing: Ensure content is original or provide explicit permission for republication. All posts must follow the Creative Commons Attribution license.
-
+* Constructive Criticism: Address sensitive or broad industry issues constructively and professionally, aiming for positive impacts on the community.
+* Originality & Licensing: Ensure content is original or provide explicit permission for republication. All posts must follow the Creative Commons Attribution license.
 (Note: Links to CNCF websites or CNCF forms are not permitted.)
 
 CNCF will review and approve all content, including any concluding statements. Suggested edits may be provided as needed
