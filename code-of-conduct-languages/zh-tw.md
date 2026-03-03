@@ -8,8 +8,8 @@
 
 本行為準則適用於：
 
-* 專案和社群空間，
-* 其他空間（當個別 CNCF 社群參與者的言論或行動針對或涉及 CNCF 專案、CNCF 社群或其他 CNCF 社群參與者時）。
+* 在專案和社群空間內，
+* 在其他空間中，當 CNCF 社群成員的個人言語或行為針對 CNCF 專案、CNCF 社群或 CNCF 活動中的其他 CNCF 社群成員時，也屬於此類情況。
 
 ## CNCF 活動
 
@@ -19,7 +19,7 @@
 
 CNCF 社群是一個開放、包容且互相尊重的社群。我們社群的每位成員都有權讓自己的身份受到尊重。
 
-有助於營造積極環境的行為範例包括但不限於：
+有助於營造正向環境的行為包括但不限於：
 
 * 對他人展現同理心與善意
 * 尊重不同的意見、觀點和經驗
@@ -60,7 +60,7 @@ CNCF 社群是一個開放、包容且互相尊重的社群。我們社群的每
 
 如需進一步瞭解本行為準則，請參閱 [CNCF 行為準則常見問題](https://www.cncf.io/conduct/faq/)。
 
-## 執行
+## 執法
 
 在審查並調查所回報的事件後，具有管轄權的行為準則回應團隊將根據本行為準則及其相關文件決定採取何種適當行動。
 
@@ -72,4 +72,4 @@ CNCF 社群是一個開放、包容且互相尊重的社群。我們社群的每
 
 ## 致謝
 
-本行為準則改編自《貢獻者公約》（[http://contributor-covenant.org](http://contributor-covenant.org/)），版本 2.0 可於 [http://contributor-covenant.org/version/2/0/code_of_conduct/](http://contributor-covenant.org/version/2/0/code_of_conduct/) 取得
+本行為準則改編自《貢獻者公約》（[http://contributor-covenant.org](http://contributor-covenant.org/)），版本 2.0 可於 [http://contributor-covenant.org/version/2/0/code_of_conduct/](http://contributor-covenant.org/version/2/0/code_of_conduct/) 取得。
