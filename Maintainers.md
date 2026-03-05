@@ -1,6 +1,7 @@
 ## CNCF Community Code of Conduct v1.3
 
-Other languages available:
+Other languages available:code-of-conduct.md
+-.[IsiZulu/?]_(https://Contribution	License	Agreement]
 - [Arabic/العربية](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/ar.md)
 - [Bengali/বাংলা](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/bn.md)
 - [Bulgarian/Български](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/bg.md)
