@@ -71,7 +71,7 @@ Graduated,Kubernetes steering,Antonio Ojea,Google,aojea,https://git.k8s.io/steer
 ,,Mrunal Patel,Red Hat,mrunalp,
 ,,Nabarun Pal,Broadcom,palnabarun,
 ,,Natali Vlatko,Cisco,natalisucks,
-,,Nir Rozenbaum,IBM,nirrozenbaum,
+,,Nir Rozenbaum,Red Hat,nirrozenbaum,
 ,,Patrick Ohly,Intel,pohly,
 ,,Peter Hunt,Red Hat,haircommander,
 ,,Pranshu Srivastava,Red Hat,rexagod,
@@ -2234,4 +2234,5 @@ Sandbox,KAI Scheduler,Roman Baron,NVIDIA,romanbaron,https://github.com/NVIDIA/KA
 ,,Hagay Sharon,NVIDIA,Hagay-RunAI,
 ,,Sior Meir,NVIDIA,siormeir,
 ,,Guy Shaibi,NVIDIA,gshaibi,
+
 
