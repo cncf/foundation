@@ -1,0 +1,46 @@
+name: E2E Tests - License Exceptions Site
+
+on:
+  pull_request:
+    paths:
+      - 'license-exceptions/site/**'
+      - 'license-exceptions/exceptions.json'
+      - 'license-exceptions/tests/**'
+      - 'license-exceptions/playwright.config.js'
+      - 'license-exceptions/package.json'
+
+jobs:
+  e2e-tests:
+    name: Run E2E Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: license-exceptions
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: license-exceptions/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Run Playwright tests
+        run: npm test
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: license-exceptions/playwright-report/
+          retention-days: 7
