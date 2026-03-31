@@ -699,13 +699,8 @@ Incubating,Cloud Custodian,Kapil Thangavelu,Stacklet,kapilt,https://github.com/c
 ,,Andy Luong,Microsoft,aluong,
 ,,Kiril Logachev,Stacklet,logachev,
 ,,Jorge Castro,Stacklet,castrojo,
-Sandbox,Dex,Joel Speed ,Red Hat,JoelSpeed,https://github.com/dexidp/dex/blob/master/MAINTAINERS
-,,Mark Sagi-Kazar,Banzai Cloud,sagikazarmark,
-,,Nandor Kracser,Banzai Cloud,bonifaido,
-,,Maksim Nabokikh,Palark,nabokihms,
-,,Rithu John,Lyft,rithujohn191,
-,,Stephan Renatus ,Chef,srenatus,
-,,Stephen Augustus ,VMware,justaugustus,
+Sandbox,Dex,Márk Sági-Kazár,,sagikazarmark,https://github.com/dexidp/dex/blob/master/MAINTAINERS.md
+,,Maksim Nabokikh,Palark GmbH,nabokihms,
 Incubating,LitmusChaos,Amit Kumar Das,Harness,amityt,https://github.com/litmuschaos/litmus/blob/master/MAINTAINERS.md
 ,,Arkojyoti Mukherjee,Harness,arkajyotiMukherjee,
 ,,Chandan Kumar,ZopsMart,chandankumar4,
