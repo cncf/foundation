@@ -4,8 +4,8 @@
 
 Online and in print media, the phrases "cloud native" and "open source" are written both with and without the hyphen.
 [Merriam-Webster](https://www.merriam-webster.com/dictionary/open-source) lists the phrase as "open-source," and the
-[Chicago Manual of Style](http://www.chicagomanualofstyle.org/16/images/ch07_tab01.pdf) recommends a hyphen in
-noun + adjective compounds used as an adjective in front of a noun. 
+[Chicago Manual of Style](https://www.chicagomanualofstyle.org/book/ed18/part2/ch07/toc.html) recommends a hyphen in
+noun + adjective compounds used as an adjective in front of a noun.
 
 However, the [Open Source Initiative](https://opensource.org/), established in 1998, does not use a hyphen in
 "open source." Likewise, the Cloud Native Computing Foundation does not use a hyphen in "cloud native" in its name.
@@ -17,7 +17,7 @@ phrase serves as a noun. The same can be said for an "open source project." Foll
 "open source" are not compound adjectives that need to be hyphenated, per the Chicago Manual of Style.
 
 Thus, going forward, for all CNCF publications online and in print, we are establishing "open source" and "cloud native"
-as the proper style. 
+as the proper style.
 
 The words should be lowercase, except in organization names like the Cloud Native Computing Foundation and Open Source
 Initiative. Normal capitalization rules apply at the beginning of a sentence and in titles.
@@ -31,7 +31,7 @@ Greek for helmsman or pilot. Also the root word for cybernetics and governor (wh
 theory).
 
 *Abbreviation:* K8s (sometimes k8s), a [numeronym](https://en.wikipedia.org/wiki/Numeronym) formed by replacing the
-middle of the word ("ubernete") with the number of letters it contains (8). K8s is preferred, as Kubernetes is a proper noun. 
+middle of the word ("ubernete") with the number of letters it contains (8). K8s is preferred, as Kubernetes is a proper noun.
 
 *Unacceptable abbreviations:* K8, which leaves off the "s," and K8S, which gets the capitalization wrong.
 

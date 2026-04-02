@@ -89,7 +89,7 @@ Leveraging CNCF's marketing channels can amplify your organization's reach withi
 - Coordinate with CNCF on [joint press releases](mailto:pr@cncf.io)
 - Leverage CNCF's social media channels for announcements
 - Submit a [cloud native case study (if applicable)](https://www.cncf.io/case-studies/)
-- Submit a posting to the [CNCF Job Board](https://jobs.cncf.io/) 
+- Submit a posting to the [CNCF Job Board](https://jobs.cncf.io/)
 
 ## Engage in CNCF Governance
 
@@ -183,7 +183,6 @@ Utilize these additional resources to support your CNCF engagement:
 
 - [CNCF Public Events Calendar](https://www.cncf.io/community/calendar/)
 - [Cloud Native Glossary](https://glossary.cncf.io/) (for those new to cloud native)
-- [Wisdom of the Cloud Newsletter](https://www.cncf.io/enduser/wisdom-of-the-cloud/)
 
 ## Conclusion
 

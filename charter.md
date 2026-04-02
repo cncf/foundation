@@ -2,7 +2,7 @@ Cloud Native Computing Foundation (“CNCF”) Charter
 
 The Linux Foundation
 
-Effective Nov 6 2015 / Updated May 28, 2025
+Effective Nov 6 2015 / Updated June 25, 2025
 
 #### 1. Mission of the Cloud Native Computing Foundation.
 
@@ -172,7 +172,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	ii. TOC members elected are expected to cover key technical domains: container technologies, operating systems, technical operations, distributed systems, user level application design, etc.
 
-	-	iii. The Governing Board shall elect six (6) TOC members, the End User Participants shall elect two (2) TOC members, the non-sandbox project maintainers shall elect one (1) TOC member, and the TOC members shall elect an additional two (2) TOC members. Each group is defined as a Selecting Group.
+	-	iii. The Governing Board shall elect six (6) TOC members, the End User Members shall elect two (2) TOC members, the non-sandbox project maintainers shall elect one (1) TOC member, and the TOC members shall elect an additional two (2) TOC members. Each group is defined as a Selecting Group.
 
 	-	iv. If more than two (2) TOC members would be from the same group of Related Companies, either at the time of election or from a later job change, they will jointly decide who should step down, or if there is no agreement, random lots shall be drawn.
 
@@ -256,9 +256,9 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 #### 7. End User Community
 
--	(a) End User Members in CNCF shall be entitled to coordinate and drive activities important to users of CNCF as consumers for which CNCF was designed. Any End User organization that is a CNCF Member or a CNCF End User Supporter(each an “End User Participant) may participate. The End User Participants are expected to help provide input to the Technical Advisory Board and CNCF community on topics relevant to users.
+-	(a) End User Members in CNCF shall be entitled to coordinate and drive activities important to users of CNCF projects as consumers for which CNCF was designed. Any End User organization that is a CNCF Member or a CNCF End User Contributor (each an “End User Participant) may participate. The End User Participants are expected to help provide input to the Technical Advisory Board and CNCF community on topics relevant to users.
 
--	(b) End User Community Members will be approved by CNCF.
+-	(b) End User Participants will be approved by CNCF.
 
 #### 8. End User Technical Advisory Board (“End User TAB”).
 
@@ -284,7 +284,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 	-	ii. the representatives (if any) elected by the Gold and Silver End User members.
 
-	-	iii. at least three (3) representatives elected by the End User Participants at large. The number of at large End User Participant representatives shall generally be three (3), but may be increased either (A) by vote of the then-existing End User TAB or (B) automatically to the extent necessary to ensure the minimum size described in section 8(a) of this charter is met (given the number of Platinum, Gold, and Silver End User member representatives).
+	-	iii. at least three (3) representatives elected by the End User members at large. The number of at large End User Participant representatives shall generally be three (3), but may be increased either (A) by vote of the then-existing End User TAB or (B) automatically to the extent necessary to ensure the minimum size described in section 8(a) of this charter is met (given the number of Platinum, Gold, and Silver End User member representatives).
 
 	-	iv. one (1) to two (2) TOC members designated by the TOC, each of whom must be employed by an End User Participant.
 
@@ -294,7 +294,7 @@ The CNCF shall be composed of Platinum, Gold, Silver, End User, Academic and Non
 
 -	(d) Termination: An End User TAB member's participation shall cease before the expiration of their term if they resign, are removed, or they cease to be employed by the End User organization that employed them at the time they were elected. There are no limits on the number of terms that an individual can serve. The End User TAB may, by supermajority vote of at least two-thirds of the End User TAB members who do not have conflicts of interest, remove an End User TAB member who is not fulfilling their duties or is not complying with the policies of CNCF or the End User TAB.
 
--	(e) Vacancies: In the event of a vacancy due to an End User TAB member's employer ceasing to be an End User Participant, the End User TAB shall decide when to fill the vacancy and whether to fill the vacancy by election or invitation. In the event of a vacancy due to to an individual’s resignation, removal, or changing employers, the End User Participant that employed such individual at the time they were elected may designate a replacement. For the sake of continuity, in the event an individual serving on the End User TAB leaves their employer for another employer who is also an End User Participant, the remaining non-conflicted End User TAB members may, by majority vote, increase the size of the End User TAB and invite the individual to remain on the End User TAB for a duration no longer than their original term; such individual continuing to serve shall be in addition to (not in lieu of) the individual’s prior employer’s right to designate a replacement.
+-	(e) Vacancies: In the event of a vacancy due to an End User TAB member's employer ceasing to be an End User Participant, the End User TAB shall decide when to fill the vacancy and whether to fill the vacancy by election or invitation. In the event of a vacancy due to an individual’s resignation, removal, or changing employers, the End User Participant that employed such individual at the time they were elected may designate a replacement. For the sake of continuity, in the event an individual serving on the End User TAB leaves their employer for another employer who is also an End User Participant, the remaining non-conflicted End User TAB members may, by majority vote, increase the size of the End User TAB and invite the individual to remain on the End User TAB for a duration no longer than their original term; such individual continuing to serve shall be in addition to (not in lieu of) the individual’s prior employer’s right to designate a replacement.
 
 -	(f) Alternates: Any End User Participant with an employee serving on the End User TAB may designate an alternate who may (a) attend meetings in listen-only mode when the primary representative is present and (b) speak and vote at meetings when the primary representative is not present. The TOC may also designate an alternate (who must be employed by an End User Participant) in addition to the End User TAB member(s) the TOC appoints in accordance with Section 8(b)(iv) of this charter.
 

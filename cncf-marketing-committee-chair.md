@@ -46,6 +46,7 @@ Minimum 3 hours a month
 
 ## Past MC Chairs ##
 
+* 2025: Rohit Ghumare
 * 2024: Carla Gaggini
 * 2023: Lori Lorusso
 * 2022: Carla Gaggini

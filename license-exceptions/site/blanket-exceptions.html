@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blanket Exceptions - CNCF License Exceptions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>CNCF License Exceptions</h1>
+            <p class="subtitle">Approved license exceptions for CNCF projects</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Package Exceptions</a></li>
+                <li><a href="blanket-exceptions.html" class="active">Blanket Exceptions</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Blanket Exceptions Section -->
+        <section class="blanket-exceptions-page">
+            <div class="page-header">
+                <h2>Blanket Exceptions</h2>
+                <p class="page-description">
+                    Blanket exceptions are pre-approved license exceptions that apply broadly to specific use cases. 
+                    These don't require individual package approval when the criteria are met.
+                </p>
+            </div>
+            <div class="blanket-cards" id="blanket-cards">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div class="no-results" id="no-results" style="display: none;">
+                <p>No blanket exceptions found.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://github.com/cncf/foundation/tree/main/license-exceptions" target="_blank" rel="noopener noreferrer">
+                    View on GitHub
+                </a>
+                <a href="exceptions.json" download="cncf-license-exceptions.json">
+                    Download JSON
+                </a>
+            </div>
+            <p class="footer-meta">
+                Data version: <span id="data-version">-</span> | 
+                Last updated: <span id="last-updated">-</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="blanket-app.js"></script>
+</body>
+</html>
