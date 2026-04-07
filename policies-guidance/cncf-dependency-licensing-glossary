@@ -36,7 +36,7 @@ The definitions in this Glossary are intended to facilitate review of exceptions
 1. The dependency will be used ***only*** in the course of building and testing. 
 2. The dependency will ***not ***be incorporated in any form into the built artifacts, and it will*** not*** inject any code or libraries into the final artifact. 
 3. The CNCF project will ***not*** cause the user’s system to retrieve the dependency from an upstream source.
-4. Users of the CNCF project will ***not*** need the dependency in order to install or run the CNCF project’s code.
+4. Users of the CNCF project will ***not*** need the dependency in order to install or run the CNCF project’s code or its distributed artifacts.
 
 
 ## Structural Segmentation {#structural-segmentation}
@@ -78,11 +78,11 @@ The definitions in this Glossary are intended to facilitate review of exceptions
 ## Data Exchange {#data-exchange}
 
 
-### Tightly Coupled: {#tightly-coupled}
+### Tightly Coupled {#tightly-coupled}
 
 **Tightly Coupled:** The upstream dependency and CNCF project code will exchange  complex internal data structures such as shared pointers, class instances, or private memory offsets that require extensive knowledge of the other component's internal memory layout.
 
 
-### Arms-Length Only:  {#arms-length-only}
+### Arms-Length Only  {#arms-length-only}
 
 **Arms-Length Only:** The communication between the dependency and the CNCF project code will be limited to standard serialized data (e.g., JSON, XML, or Protobuf) where data is "flattened" for transport and neither component accesses the other's internal memory structures.
