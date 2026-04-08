@@ -9,27 +9,27 @@ The definitions in this Glossary are intended to facilitate review of exceptions
 
 
 
-## Distribution & Integration Models {#distribution-&-integration-models}
+## Distribution & Integration Models
 
 
-### CNCF-Distributed  {#cncf-distributed}
+### CNCF-Distributed
 
 **CNCF-Distributed:** The CNCF project will distribute the dependency or the resulting combined artifacts to users.
 
 
-### User-Fetched Dependency  {#user-fetched-dependency}
+### User-Fetched Dependency
 
 **User-Fetched Dependency:** The CNCF project code will cause the user’s system to automatically retrieve the dependency from an upstream source at build, install, or runtime.
 
 
-### System Component:  {#system-component}
+### System Component:
 
 **System Component:** The CNCF project expects that the dependency will either already be present on the user’s system or will be installed independently by the user.
 
 
-### Not Distributed + Not Needed by End User (Internal Project Tooling)  {#not-distributed-not-needed-by-end-user-internal-project-tooling}
+### Not Distributed + Not Needed by End User (Internal Project Tooling)
 
-**Not Distributed + Not Needed by End User (Internal Project Tooling):** ALL of the following are true:
+**Not Distributed + Not Needed by End User (Internal Project Tooling):** means that ALL of the following are true:
 
 
 
@@ -39,50 +39,50 @@ The definitions in this Glossary are intended to facilitate review of exceptions
 4. Users of the CNCF project will ***not*** need the dependency in order to install or run the CNCF project’s code or its distributed artifacts.
 
 
-## Structural Segmentation {#structural-segmentation}
+## Structural Segmentation
 
 
-### Separated Component  {#separated-component}
+### Separated Component
 
 **Separated Component:** The dependency’s code will either be (a) kept in a distinct directory or module clearly separated from CNCF project code, or (b) retrieved at build/installation time from a third-party repository and never stored in the CNCF project repository.
 
 
-### Intermingled Code  {#intermingled-code}
+### Intermingled Code
 
 **Intermingled Code:** The dependency's code will be "mixed in" with CNCF source files, copied into existing project files, or will otherwise lose its distinct directory/module boundary. 
 
 
-## Communication Mechanisms {#communication-mechanisms}
+## Communication Mechanisms
 
 
-### Static Linking {#static-linking}
+### Static Linking 
 
 **Static Linking:** The dependency and the CNCF project code will be combined into a single binary or similar type of artifact during the build process.
 
 
-### Dynamic Linking {#dynamic-linking}
+### Dynamic Linking 
 
-**Dynamic Linking: **The CNCF project code will interact with the dependency by loading it into the shared address space (memory) at run-time. This includes traditional shared objects compiled into a separate binary, as well as runtime module loading in interpreted or JIT-compiled languages.
+**Dynamic Linking:** The CNCF project code will interact with the dependency by loading it into the shared address space (memory) at run-time. This includes traditional shared objects compiled into a separate binary, as well as runtime module loading in interpreted or JIT-compiled languages.
 
 
-### Separate Process {#separate-process}
+### Separate Process
 
 **Separate Process:** The dependency and the CNCF project code will run as distinct executables and communicate via Inter-Process Communication (e.g., pipes, sockets, or shared files).
 
 
-### Network Interaction {#network-interaction}
+### Network Interaction
 
 **Network Interaction:** The dependency and the CNCF project code will be logically and physically separated by a network boundary, with the CNCF project’s code acting as a client or consumer of the remote service and interacting with the dependency exclusively via standardized network protocols.
 
 
-## Data Exchange {#data-exchange}
+## Data Exchange
 
 
-### Tightly Coupled {#tightly-coupled}
+### Tightly Coupled
 
 **Tightly Coupled:** The upstream dependency and CNCF project code will exchange  complex internal data structures such as shared pointers, class instances, or private memory offsets that require extensive knowledge of the other component's internal memory layout.
 
 
-### Arms-Length Only  {#arms-length-only}
+### Arms-Length Only
 
 **Arms-Length Only:** The communication between the dependency and the CNCF project code will be limited to standard serialized data (e.g., JSON, XML, or Protobuf) where data is "flattened" for transport and neither component accesses the other's internal memory structures.
