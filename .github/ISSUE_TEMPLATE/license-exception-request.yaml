@@ -33,7 +33,7 @@ body:
 
         - is entirely licensed under Apache-2.0 for code; or
         - is entirely licensed under CC-BY-4.0 for documentation; or
-        - satisfies the [**CNCF Allowlist License Policy**](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); 
+        - satisfies the [**CNCF Allowlist License Policy**](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)
 
 
         # Check for existing exceptions
