@@ -22,7 +22,7 @@ body:
 
 
         - AGPL-3.0 (Affero GPL v3): [AGPL guidance](https://github.com/cncf/foundation/blob/main/policies-guidance/agpl-recommendations.md)
-        - A component that has relicensed to a non-open source, "source available” license: [Source available guidance](https://github.com/cncf/foundation/blob/main/policies-guidance/source-available-recommendations.md)
+        - A component that has relicensed to a non-open source, "source available" license: [Source available guidance](https://github.com/cncf/foundation/blob/main/policies-guidance/source-available-recommendations.md)
         - Interactions generally with source available and other proprietary licenses: [Proprietary / source available guidance](https://github.com/cncf/foundation/blob/main/policies-guidance/proprietary-interactions-guidance.md)
 
 
@@ -33,10 +33,8 @@ body:
 
         - is entirely licensed under Apache-2.0 for code; or
         - is entirely licensed under CC-BY-4.0 for documentation; or
-        - satisfies the [CNCF Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy); or
-        - is subject to a blanket exception that has been [granted previously](https://github.com/cncf/foundation/blob/main/license-exceptions/README.md) or another previously-granted exception for an equivalent use case.
+        - satisfies the [**CNCF Allowlist License Policy**](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy)
 
-        <br />
 
         # Check for existing exceptions
 
@@ -44,7 +42,7 @@ body:
 
         **[Search the exceptions database](https://exceptions.cncf.io/)**
 
-        If an exception already exists for the same package and license, you do not need to request a new one.
+        If a blanket exception for all CNCF projects already exists for the same package and license, you do not need to request a new one.
 
         <br />
 
@@ -54,16 +52,12 @@ body:
 
         For any components where none of the above criteria are met, please complete the form below.
 
-
   - type: markdown
     attributes:
       value: |
         <br />
-        
+
         ## :clipboard: Project details
-
-        The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
-
 
   - type: input
     id: project_name
@@ -86,16 +80,18 @@ body:
     attributes:
       value: |
         <br />
-        
-        ## :computer: Component details
-        
-        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Project Usage URL" column, please include one or more URLs showing the CNCF project source code or other artifact where the component and its license are located or used. In the "Purpose" column, please briefly (1-2 sentences) describe the functionality of the component and the reason why the Project is using it.
+
+        ## :package: Component details
+
+        **IMPORTANT**:  You may include multiple packages in this issue only if the answers to **ALL** questions in this form (excluding this Component Details question) are identical for all packages. If any answer differs, please open a **separate issue** for each individual package.
+
+        Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Project Usage URL" column, please include the URL(s) where the component and its license are located. In the "Purpose" column, please briefly describe (in 1-2 sentences) the functionality of the component and the reason why the Project is using it.
 
   - type: textarea
     id: component_details
     attributes:
       label: "List of components requiring an exception"
-      value: "| Component | Upstream URL | Project Usage URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|-----------|\n|            |            |            |            |\n|            |            |            |            |\n|            |            |            |            |"
+      value: "| Component | Upstream URL | Project Usage URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|-----------|\n|            |            |            |            |            |\n|            |            |            |            |            |\n|            |            |            |            |            |"
     validations:
       required: true
 
@@ -103,118 +99,175 @@ body:
     attributes:
       value: |
         <br />
-        
-        ## :newspaper: Additional details
 
-        The following information will help facilitate the review by the CNCF Legal Committee and Governing Board, and will help minimize further questions during review.
-
-        Please see "[Scope and Nature of Dependencies](https://github.com/cncf/foundation/blob/main/policies-guidance/recommendations-for-attribution.md#scope-and-nature-of-dependencies)” for details on how the following terms are being used here.
-
-        <br />
-        
-        ### :page_with_curl: Context
-
-
-  - type: dropdown
-    id: mandatory_dependencies
-    attributes:
-      label: "Are all of the components mandatory dependencies for the project to function as intended?"
-      options:
-        - "Yes"
-        - "No"
-    validations:
-      required: true
-
-  - type: textarea
-    id: mandatory_dependencies_explanation
-    attributes:
-      label: "If no, please explain"
-    validations:
-      required: false
+        ## :outbox_tray: Distribution and integration model
 
   - type: checkboxes
-    id: inclusion_method
+    id: distribution_and_integration_model
     attributes:
-      label: "How  will the components be included in or with the project's code and distributions?"
-      description: "Select all that apply"
+      label: "Distribution and integration model"
+      description: "Please select all that apply"
       options:
-        - label: "Incorporated code"
-        - label: "Vendored component"
-        - label: "Build-time dependency"
-        - label: "Build and test tooling"
-        - label: "Install-time dependency"
-        - label: "Required upstream dependencies"
-        - label: "Other (please describe below)"
+        - label: "**CNCF-Distributed**: The CNCF project will distribute the dependency or the resulting combined artifacts to users."
+        - label: "**User-Fetched Dependency**: The CNCF project code will cause the user's system to automatically retrieve the dependency from an upstream source at build, install, or runtime."
+        - label: "**System Component**: The CNCF project expects that the dependency will either already be present on the user's system or will be installed independently by the user."
+        - label: "**Not Distributed + Not Needed by End User (Internal Project Tooling)**: ALL of the following are true:"
     validations:
       required: true
 
-  - type: textarea
-    id: inclusion_method_explanation
+  - type: markdown
     attributes:
-      label: "If any of the above selections don't apply to all of the components listed in the table above, please explain"
+      value: |
+        * The dependency will be used ***only*** in the course of building and testing.
+        * The dependency will ***not*** be incorporated in any form into the built artifacts, and it will ***not*** inject any code or libraries into the final artifact. 
+        * The CNCF project will ***not*** cause the user's system to retrieve the dependency from an upstream source.
+        * Users of the CNCF project will ***not*** need the dependency in order to install or run the CNCF project's code or its distributed artifacts.
+
+  - type: textarea
+    id: distribution_and_integration_model_explanation
+    attributes:
+      label: Please explain
+      placeholder: Provide details about your selection(s)
     validations:
-      required: false
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+
+        <br />
+
+        ***If the last option ("Not Distributed + Not Needed by End User") is the ONLY option selected for the above question, no license exception is needed and you do not need to answer the remaining questions or submit this form.*** 
+
+        ***If "CNCF-Distributed", "User-Fetched Dependency" or "System Component" applies, please continue to fill out this form.***
 
   - type: markdown
     attributes:
       value: |
         <br />
-        
-        ### :page_with_curl: Nature of interactions
 
+        ## :pencil2: Modification status
 
   - type: checkboxes
-    id: interaction_nature
+    id: modification_status
     attributes:
-      label: "Which of the following best describes how the components interact with the project's own code?"
-      description: "Select all that apply"
+      label: "Modification status"
+      description: "Please select all that apply"
       options:
-        - label: "Static linking: e.g., compiled together with project code into a single binary"
-        - label: "Dynamic linking: e.g., compiled into a separate binary, running together with project code in a single address space at run-time"
-        - label: "Separate process: e.g., separate executable running in a different process space, interacting with project code only via mechanisms such as pipes, sockets, etc."
-        - label: "Network interaction only: e.g., logically separated over a network and communicating only via mechanisms such as network API call, exchanging JSON data, etc."
-        - label: "Other (please describe below)"
+        - label: "**Modified Upstream**: The CNCF project will patch, alter, or otherwise modify the source code of the dependency and contribute upstream."
+        - label: "**Modified Downstream**: The CNCF project will patch, alter, or otherwise modify the source code of the dependency and maintain a downstream fork or local copy."
+        - label: "**Unmodified**: The CNCF project will use the dependency exactly as provided by the upstream maintainers without any changes to its source code."
     validations:
       required: true
 
   - type: textarea
-    id: interaction_explanation
+    id: modification_status_explanation
     attributes:
-      label: "If any of the above selections don't apply to all of the components listed in the table above, please explain"
+      label: Please explain
+      placeholder: Provide details about your selection(s)
     validations:
-      required: false
+      required: true
 
   - type: markdown
     attributes:
       value: |
         <br />
-        
-        ### :page_with_curl: Modifications
-        
 
-  - type: dropdown
-    id: modifications
+        ## :building_construction: Structural separation
+
+        Will the upstream code be kept distinct from the CNCF project code?
+
+  - type: checkboxes
+    id: structural_separation
     attributes:
-      label: "Will any of the components be modified?"
+      label: "Structural separation"
+      description: "Please select all that apply"
       options:
-        - "Yes"
-        - "No"
+        - label: "**Separated Component**: The dependency's code will either be (a) kept in a distinct directory or module clearly separated from CNCF project code, or (b) retrieved at build/installation time from a third-party repository and never stored in the CNCF project repository."
+        - label: '**Intermingled Code**: The dependency''s code will be "mixed in" with CNCF source files, copied into existing project files, or will otherwise lose its distinct directory/module boundary.'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ***If "Intermingled Code" is selected, you can skip the remaining questions but still need to submit an exception request using this form.***
+
+  - type: textarea
+    id: structural_separation_explanation
+    attributes:
+      label: Please explain
+      placeholder: Provide details about your selection(s)
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        <br />
+
+        ## :telephone_receiver: Communication mechanism
+
+  - type: checkboxes
+    id: communication_mechanism
+    attributes:
+      label: "Communication mechanism"
+      description: "Please select all that apply"
+      options:
+        - label: "**Static Linking**: The dependency and the CNCF project code will be combined into a single binary or similar type of artifact during the build process."
+        - label: "**Dynamic Linking**: The CNCF project code will interact with the dependency by loading it into the shared address space (memory) at run-time. This includes traditional shared objects compiled into a separate binary, as well as runtime module loading in interpreted or JIT-compiled languages."
+        - label: "**Separate Process**: The dependency and the CNCF project code will run as distinct executables and communicate via Inter-Process Communication (e.g., pipes, sockets, or shared files)"
+        - label: "**Network Interaction**: The dependency and the CNCF project code will be logically and physically separated by a network boundary, with the CNCF project's code acting as a client or consumer of the remote service and interacting with the dependency exclusively via standardized network protocols."
     validations:
       required: true
 
   - type: textarea
-    id: modifications_details
+    id: communication_mechanism_explanation
     attributes:
-      label: "If yes, please specify which components will be modified, and briefly describe the purpose and nature of the modifications."
+      label: Please explain
+      placeholder: Provide details about your selection(s) or N/A if "intermingled code" was selected for the structural separation question
     validations:
-      required: false
+      required: true
 
-  - type: dropdown
-    id: upstream_contribution
+  - type: markdown
     attributes:
-      label: "Will the project be seeking to contribute the modifications back to the upstream project?"
+      value: |
+        <br />
+
+        ## :arrows_counterclockwise: Data exchange
+
+        Will the interaction involve the exchange of complex, internal data structures?
+
+  - type: checkboxes
+    id: data_exchange
+    attributes:
+      label: "Data exchange"
+      description: "Please select all that apply"
       options:
-        - "Yes"
-        - "No"
+        - label: "**Tightly Coupled**: The upstream dependency and CNCF project code will exchange  complex internal data structures such as shared pointers, class instances, or private memory offsets that require extensive knowledge of the other component's internal memory layout."
+        - label: '**Arms-Length Only**: The communication between the dependency and the CNCF project code will be limited to standard serialized data (e.g., JSON, XML, or Protobuf) where data is "flattened" for transport and neither component accesses the other''s internal memory structures.'
     validations:
-      required: false
+      required: true
+
+  - type: textarea
+    id: data_exchange_explanation
+    attributes:
+      label: Please explain
+      placeholder: Provide details about your selection(s) or N/A if "intermingled code" was selected for the structural separation question
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        <br />
+
+        ## :information_source: Additional information
+
+        Is there any additional information you would like to provide regarding this request?
+
+  - type: textarea
+    id: additional_information_explanation
+    attributes:
+      label: Please explain
+      placeholder: Provide details about your selection(s)
