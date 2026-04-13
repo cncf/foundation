@@ -1035,13 +1035,13 @@ Sandbox,Trickster ,James Ranson,Virga,jranson,https://github.com/trickstercache/
 ,,Chris Randles,WB Discovery,crandles,
 ,,Adam Ross,Amazon,LimitlessEarth,
 ,,Jake Nichols,Argano,jnichols-git,
-Incubating,Emissary-ingress,Aidan Hahn,,aidanhahn,https://github.com/emissary-ingress/emissary/blob/master/MAINTAINERS.md
-,,Alex Gervais,Ambassador Labs,alexgervais,
-,,Alice Wasko,Ambassador Labs,aliceproxy,
+Incubating,Emissary-ingress,Alice Wasko,ngrok,aliceproxy,https://github.com/emissary-ingress/emissary/blob/main/Community/MAINTAINERS.md
+,,David Dymko,CoreWeave,ddymko,
 ,,Flynn,Buoyant,kflynn,
-,,Lance Austin,Ambassador Labs,lanceea,
-,,Luke Shumaker,Ambassador Labs,lukeshu,
-,,Rafael Schloming,Ambassador Labs,rhs,
+,,Hamzah Qudsi,Antimetal,haq204,
+,,Mark Schlachter,,the-wondersmith,
+,,Phil Peble,ActiveCampaign,ppeble,
+,,Rafael Schloming,,rhs,
 Graduated,Cilium,Aditi Ghag,Isovalent,aditighag,https://github.com/cilium/cilium/blob/master/MAINTAINERS.md
 ,,Alexandre Perrin,Isovalent,kaworu,
 ,,André Martins,Isovalent,aanm,
