@@ -2037,9 +2037,13 @@ Sandbox,kgateway,Art Berger,Solo.io,artberger,https://github.com/kgateway-dev/co
 ,,Will Rigby-Hall,Solo.io,williamgrh,
 ,,Yossi Mesika,Solo.io,ymesika,
 ,,Yuval Kohavi,Solo.io,yuval-k,
-Sandbox,KubeFleet,Ryan Zhang,Microsoft,ryanzhang-oss,https://github.com/Azure/fleet/blob/main/MAINTAINERS.md
+Sandbox,KubeFleet,Ryan Zhang,Microsoft,ryanzhang-oss,https://github.com/kubefleet-dev/kubefleet/blob/main/MAINTAINERS.md
 ,,Zhiying Lin,Microsoft,zhiying-lin,
 ,,Chen Yu,Microsoft,michaelawyu,
+,,Simon Waight,Microsoft,sjwaight,
+,,Yetkin Timocin,Microsoft,ytimocin,
+,,Wei Weng,Microsoft,weng271190436,
+,,Stéphane Erbrech,Microsoft,serbrech,
 Sandbox,container2wasm,Kohei Tokunaga,NTT,ktock,https://github.com/container2wasm/container2wasm/blob/main/MAINTAINERS
 Sandbox,youki,Toru Komatsu,Preferred Networks,utam0k,https://github.com/youki-dev/youki/blob/main/docs/src/community/maintainer.md
 ,,Thomas Schubart,Gitpod,Furisto,
