@@ -617,6 +617,55 @@ Graduated,KEDA,Jeff Hollan,Snowflake,jeffhollan,https://github.com/kedacore/gove
 ,,Rick Brouwer,Dienst Uitvoering Onderwijs,rickbrouwer,
 ,,Vincent Link,Red Hat,linkvt,
 ,,Mikhail Fedosin,Red Hat,Fedosin,
+Incubating,Tekton (Governance Committee),Andrea Frittoli,IBM,afrittoli,https://github.com/tektoncd/community/blob/main/governance.md
+,,Andrew Bayer,Datadog,abayer,
+,,Dibyo Mukherjee,Adobe,dibyom,
+,,Emil Natan,Red Hat,enarha,
+,,Vincent Demeester,Red Hat,vdemeester,
+,Tekton Pipeline,Andrea Frittoli,IBM,afrittoli,https://github.com/tektoncd/pipeline/blob/main/OWNERS
+,,Andrew Bayer,Datadog,abayer,
+,,Andrew Thorp,Red Hat,aThorp96,
+,,Dibyo Mukherjee,Adobe,dibyom,
+,,Khurram Baig,Red Hat,khrm,
+,,Priti Desai,IBM,pritidesai,
+,,Stanislav Láznička,Red Hat,twoGiants,
+,,Vibhav Bobade,Red Hat,waveywaves,
+,,Vincent Demeester,Red Hat,vdemeester,
+,,Billy Lynch,Chainguard,wlynch,
+,Tekton Pipelines-as-Code,Chmouel Boudjnah,Red Hat,chmouel,https://github.com/tektoncd/pipelines-as-code/blob/main/OWNERS
+,,Akshay Pant,Red Hat,theakshaypant,
+,,Savita Ashture,Red Hat,savitaashture,
+,,Vincent Demeester,Red Hat,vdemeester,
+,,Zaki Shaikh,Red Hat,zakisk,
+,Tekton Triggers,Khurram Baig,Red Hat,khrm,https://github.com/tektoncd/triggers/blob/main/OWNERS
+,,Savita Ashture,Red Hat,savitaashture,
+,,Vincent Demeester,Red Hat,vdemeester,
+,Tekton Results,Divyansh Agarwal,Red Hat,divyansh42,https://github.com/tektoncd/results/blob/main/OWNERS
+,,Emil Natan,Red Hat,enarha,
+,,Khurram Baig,Red Hat,khrm,
+,,Vincent Demeester,Red Hat,vdemeester,
+,Tekton CLI,Chmouel Boudjnah,Red Hat,chmouel,https://github.com/tektoncd/cli/blob/main/OWNERS
+,,Divyansh Agarwal,Red Hat,divyansh42,
+,,Pratap Sharma,Red Hat,pratap0007,
+,,Vinamra Jain,Red Hat,vinamra28,
+,,Vincent Demeester,Red Hat,vdemeester,
+,Tekton Dashboard,Alan Greene,IBM,AlanGreene,https://github.com/tektoncd/dashboard/blob/main/OWNERS
+,,Brian Gleeson,IBM,briangleeson,
+,,Lyndsey Bu,IBM,LyndseyBu,
+,Tekton Chains,Anitha Priyanatarajan,Red Hat,anithapriyanatarajan,https://github.com/tektoncd/chains/blob/main/OWNERS
+,,Billy Lynch,Chainguard,wlynch,
+,,Jeremie Kalfon,Red Hat,jkhelil,
+,,Luca Carettoni,Red Hat,lcarva,
+,,Puneet Punamiya,Red Hat,PuneetPunamiya,
+,,Vincent Demeester,Red Hat,vdemeester,
+,Tekton Operator,Anitha Priyanatarajan,Red Hat,anithapriyanatarajan,https://github.com/tektoncd/operator/blob/main/OWNERS
+,,Jeremie Kalfon,Red Hat,jkhelil,
+,,Pavan MB,Red Hat,mbpavan,
+,,Pramod Bindal,Red Hat,pramodbindal,
+,,Pratap Sharma,Red Hat,pratap0007,
+,,Puneet Punamiya,Red Hat,PuneetPunamiya,
+,,Savita Ashture,Red Hat,savitaashture,
+,,Vincent Demeester,Red Hat,vdemeester,
 Incubating,Volcano,Klaus Ma,NVIDIA,k82cn,https://github.com/volcano-sh/volcano/blob/master/MAINTAINERS.md
 ,,Kevin Wang,Huawei,kevin-wangzefeng,
 ,,Zhonghu Xu,Huawei,hzxuzhonghu,
