@@ -1,0 +1,75 @@
+name: Netlify Deploy Preview
+
+on:
+  pull_request:
+    paths:
+      - "license-exceptions/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  deploy-preview:
+    name: Deploy Preview to Netlify
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: license-exceptions
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: license-exceptions/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: |
+          node scripts/generate-all.js
+          mkdir -p _site
+          cp -r site/* _site/
+          cp exceptions.json CNCF-licensing-exceptions.csv cncf-exceptions-current.spdx _site/
+
+      - name: Deploy preview to Netlify
+        id: deploy
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          DEPLOY_MESSAGE="PR #${PR_NUMBER}: ${PR_TITLE}"
+          DEPLOY_OUTPUT=$(npx netlify-cli deploy \
+            --dir=_site \
+            --site="${NETLIFY_SITE_ID}" \
+            --auth="${NETLIFY_AUTH_TOKEN}" \
+            --message="${DEPLOY_MESSAGE}" \
+            --json)
+          DEPLOY_URL=$(echo "$DEPLOY_OUTPUT" | jq -r '.deploy_url')
+          if [ -z "$DEPLOY_URL" ] || [ "$DEPLOY_URL" = "null" ]; then
+            echo "::error::Failed to get deploy URL from Netlify output"
+            exit 1
+          fi
+          echo "deploy_url=$DEPLOY_URL" >> $GITHUB_OUTPUT
+
+      - name: Comment deploy preview URL on PR
+        uses: actions/github-script@v7
+        env:
+          DEPLOY_URL: ${{ steps.deploy.outputs.deploy_url }}
+        with:
+          script: |
+            const deployUrl = process.env.DEPLOY_URL;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `## 🚀 Netlify Deploy Preview\n\nPreview URL: ${deployUrl}`
+            });
