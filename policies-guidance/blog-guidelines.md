@@ -63,7 +63,7 @@ The primary audience for CNCF blogs is developers, IT operators, and cloud nativ
 * Originality & Licensing: Ensure content is original or provide explicit permission for republication. All posts must follow the Creative Commons Attribution license.
 (Note: Links to CNCF websites or CNCF forms are not permitted.)
 
-CNCF will review and approve all content, including any concluding statements. Suggested edits may be provided as needed
+CNCF will review and approve all content, including any concluding statements. The CNCF Marketing team reserve the right to edit and publish articles with revisions, without requiring the original author's final approval. 
 
 ## Promotion ##
 You are encouraged to promote published blogs through social media. 
