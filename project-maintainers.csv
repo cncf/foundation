@@ -536,10 +536,12 @@ Graduated,OpenTelemetry (Governance Committee),Alolita Sharma,Apple,alolita,http
 
 ,OpenTelemetry (Technical Committee excluding GC members),Armin Ruech,Dynatrace,arminru,https://github.com/open-telemetry/community/blob/master/community-members.md#technical-committee
 ,,Bogdan Drutu,Snowflake,bogdandrutu,
-,,Carlos Alberto,Lightstep,carlosalberto,
-,,Jack Berg,New Relic,jack-berg,
+,,Carlos Alberto,Independent,carlosalberto,
+,,David Ashpole,Google,dashpole,
+,,Jack Berg,Grafana Labs,jack-berg,
 ,,Josh Suereth,Google,jsuereth,
-,,Liudmila Molkova,Grafana Labs,lmolkova,
+,,Joshua MacDonald,Microsoft,jmacd,
+,,Liudmila Molkova,Google,lmolkova,
 ,,Reiley Yang,Microsoft,reyang,
 ,,Tigran Najaryan,Splunk,tigrannajaryan,
 Incubating,Thanos,Bartłomiej Płotka,Google,bwplotka,https://github.com/thanos-io/thanos/blob/master/MAINTAINERS.md
