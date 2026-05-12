@@ -85,6 +85,8 @@ You’ve got great case studies. We want our ecosystem (and beyond) to hear abou
 * At least one quote must be included 
   * From someone who worked on or with the project - engineers, SREs, or product leads help humanize the story 
 
+The CNCF Marketing team reserve the right to edit and publish case studies with revisions, without requiring the original author's final approval. 
+
 
 ### How to Submit ###
 

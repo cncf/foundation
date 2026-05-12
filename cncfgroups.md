@@ -40,13 +40,13 @@ Once finalized, make a pull request in this repo with a link to the charter.
 
 ### Meetings and Organization
 
-New groups will be hosted on [Cloud Native Community Groups (CNCG)](https://community.cncf.io/). Once your charter has been organized, contact [meetups@cncf.io](mailto:meetups@cncf.io) to set up your chapter. You should also reference the official [Bevy documentation on how to create a chapter](https://help.bevy.com/hc/en-us/articles/1500001546381-Create-a-chapter) for more technical details. CNCG allows organizers to easily manage their communities, including setting up and running meetings, emailing members, and following up with surveys. More information and resources on how run a group can be found [here](https://help.bevylabs.com/).
+New groups will be hosted on [Cloud Native Community Groups (CNCG)](https://community.cncf.io/). Once your charter has been organized, contact [community-groups@cncf.io](mailto:community-groups@cncf.io) to set up your chapter. Once enabled, you can reference the official [Open Community Groups documentation on how to update your chapter](https://ocgroups.dev/docs#/) for more technical details. Open Community Groups allows organizers to easily manage their communities, including setting up and running meetings, emailing members, and following up with surveys. More information and resources on how run a group can be found [here](https://ocgroups.dev/docs#/).
 
 If needed a Slack channel, mailing list, and/or Github repo can also be set up to organize discussions. Please work with your CNCF Sponsor to get this set up as needed.
 
 ### Platform Support
 
-If you have any technical difficulties with the platform itself, please reach out to the [Bevy platform support](https://help.bevylabs.com/) directly.
+If you have any technical difficulties with the platform itself, please reach out via the #open-community-groups Slack channel in the CNCF Workspace, or create a GitHub issue [here](https://github.com/cncf/open-community-groups/issues).
 
 ### Marketing support
 
