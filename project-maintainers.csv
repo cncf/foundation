@@ -1152,11 +1152,13 @@ Sandbox,ChaosBlade,Changjun_Xiao,Alibaba,xcaspar,https://github.com/chaosblade-i
 ,,Camix,Alibaba,MandssS,
 ,,Fei_Ye,Individual,tiny-x,
 ,,Xudong_Guo,JiHu(GitLab),sunny0826,
-Incubating,Fluid,Rong Gu,Nanjing University,RongGu,https://github.com/fluid-cloudnative/fluid/blob/master/MAINTAINERS.md
+Incubating,Fluid,Rong Gu,Nanjing University,RongGu,https://github.com/fluid-cloudnative/fluid/blob/master/MAINTAINERS_COMMITTERS.md
 ,,Yang Che,Alibaba,cheyang,
 ,,Bin Fan,Alluxio,apc999,
 ,,Zhihao Xu,Nanjing University,TrafalgarZZZ,
 ,,Kai Zhang,Alibaba,wsxiaozhang,
+,,Weiwei Zhu,JuiceData,zwwhdls,
+,,Lingwei Qiu,China Telecom,yangyuliufeng,
 Sandbox,Submariner,Aswin Suryanarayanan,Red Hat,aswinsuryan,https://github.com/submariner-io/submariner/blob/devel/CODEOWNERS.in
 ,,Chris Kim,Rancher Labs,Oats87,
 ,,Daniel Farrell,Red Hat,dfarrell07,
