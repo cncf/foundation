@@ -1,15 +1,92 @@
 SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: cncf-exceptions-2026-06-01
-DocumentNamespace: https://github.com/cncf/foundation/license-exceptions-2026-06-01
+DocumentName: cncf-exceptions-2026-06-04
+DocumentNamespace: https://github.com/cncf/foundation/license-exceptions-2026-06-04
 Creator: Organization: CNCF
-Created: 2026-06-01T12:00:00Z
+Created: 2026-06-04T12:00:00Z
+
+##### Package: RemixIcon
+
+PackageName: RemixIcon
+SPDXID: SPDXRef-Package1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Remix Icon License v1.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: Backstage. Scope: Not Applicable (Denied). Status: denied. Denied: Remix Icon License v1.0 is not an open source license and is not eligible for exception approval.
+
+##### Package: axe-core
+
+PackageName: axe-core
+SPDXID: SPDXRef-Package2
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Approved only for unmodified upstream axe-core used as a separated component; intermingled use is not approved.. Status: approved. Blanket exception approved by GB email vote dated 2026-04-09.
+
+##### Package: picolibc
+
+PackageName: picolibc
+SPDXID: SPDXRef-Package3
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause, BSD-2-Clause, MIT, BSL-1.0, NCSA, Public Domain / CC0-1.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: Hyperlight. Scope: Approved only for picolibc files under BSD-3-Clause, BSD-2-Clause, MIT, BSL-1.0, NCSA, or Public Domain/CC0-1.0; GPL/AGPL files are excluded and must not be ingested or automatically retrieved.. Status: approved. Approved with explicit exclusion of GPL/AGPL files present in the upstream repository.
+
+##### Package: apparentlymart/go-textseg
+
+PackageName: apparentlymart/go-textseg
+SPDXID: SPDXRef-Package4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Unicode-DFS-2016
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status: approved. Blanket exception to allow any CNCF project to use go-textseg under Unicode-DFS-2016.
+
+##### Package: certifi
+
+PackageName: certifi
+SPDXID: SPDXRef-Package5
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third-party repository or package repository.. Status: approved. Blanket exception for certifi under MPL-2.0.
+
+##### Package: sharp-lipvips
+
+PackageName: sharp-lipvips
+SPDXID: SPDXRef-Package6
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: LGPL-2.1-or-later OR LGPL-3.0-only
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Approved only when used as part of Next.js, in unmodified form, and only as build-time dependency, install-time dependency, or build-and-test tooling; static linking is not approved.. Status: approved. Blanket exception for sharp-lipvips usage via Next.js under specified conditions.
+
+##### Package: @auth0/quantum-product
+
+PackageName: @auth0/quantum-product
+SPDXID: SPDXRef-Package7
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: OpenFGA. Scope: Not Applicable (Denied). Status: denied. Denied: source code was not publicly available, making Apache-2.0 distribution compliance impossible.
 
 ##### Package: eclipse-ee4j/expressly
 
 PackageName: eclipse-ee4j/expressly
-SPDXID: SPDXRef-Package1
+SPDXID: SPDXRef-Package8
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0
@@ -20,7 +97,7 @@ PackageComment: Project: Keycloak. Scope: Approved for dynamic linking only (sta
 ##### Package: libpathrs
 
 PackageName: libpathrs
-SPDXID: SPDXRef-Package2
+SPDXID: SPDXRef-Package9
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0 OR LGPL-3.0-or-later
@@ -31,7 +108,7 @@ PackageComment: Project: All CNCF Projects. Scope: Any CNCF project using libpat
 ##### Package: go-pathrs
 
 PackageName: go-pathrs
-SPDXID: SPDXRef-Package3
+SPDXID: SPDXRef-Package10
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -42,7 +119,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: cyphar/filepath-securejoin
 
 PackageName: cyphar/filepath-securejoin
-SPDXID: SPDXRef-Package4
+SPDXID: SPDXRef-Package11
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0 AND BSD-3-Clause
@@ -53,7 +130,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: Liquibase
 
 PackageName: Liquibase
-SPDXID: SPDXRef-Package5
+SPDXID: SPDXRef-Package12
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: FSL Functional Source License
@@ -64,7 +141,7 @@ PackageComment: Project: Keycloak. Scope: Not Applicable (Denied). Status: denie
 ##### Package: paramiko
 
 PackageName: paramiko
-SPDXID: SPDXRef-Package6
+SPDXID: SPDXRef-Package13
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LGPL-2.1
@@ -75,7 +152,7 @@ PackageComment: Project: oscal-compass. Scope: Approved only for dynamic linking
 ##### Package: certifi
 
 PackageName: certifi
-SPDXID: SPDXRef-Package7
+SPDXID: SPDXRef-Package14
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -86,7 +163,7 @@ PackageComment: Project: oscal-compass. Scope: Allowed only if the dependency is
 ##### Package: pathspec
 
 PackageName: pathspec
-SPDXID: SPDXRef-Package8
+SPDXID: SPDXRef-Package15
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -97,7 +174,7 @@ PackageComment: Project: oscal-compass. Scope: Allowed only if the dependency is
 ##### Package: cyphar/filepath-securejoin
 
 PackageName: cyphar/filepath-securejoin
-SPDXID: SPDXRef-Package9
+SPDXID: SPDXRef-Package16
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MPL-2.0
@@ -108,7 +185,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: hashicorp/terraform-provider-aws
 
 PackageName: hashicorp/terraform-provider-aws
-SPDXID: SPDXRef-Package10
+SPDXID: SPDXRef-Package17
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -119,7 +196,7 @@ PackageComment: Project: Crossplane. Scope: Allowed only if the modified fork is
 ##### Package: hashicorp/terraform-provider-azurerm
 
 PackageName: hashicorp/terraform-provider-azurerm
-SPDXID: SPDXRef-Package11
+SPDXID: SPDXRef-Package18
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -130,7 +207,7 @@ PackageComment: Project: Crossplane. Scope: Allowed only if the modified fork is
 ##### Package: hashicorp/terraform-provider-azuread
 
 PackageName: hashicorp/terraform-provider-azuread
-SPDXID: SPDXRef-Package12
+SPDXID: SPDXRef-Package19
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -141,7 +218,7 @@ PackageComment: Project: Crossplane. Scope: Allowed only if the modified fork is
 ##### Package: apple/swift-nio-ssl
 
 PackageName: apple/swift-nio-ssl
-SPDXID: SPDXRef-Package13
+SPDXID: SPDXRef-Package20
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: OpenSSL
@@ -152,7 +229,7 @@ PackageComment: Project: Connect. Scope: Allowed only if the dependency is eithe
 ##### Package: Crossplane Upjet MPL dependencies
 
 PackageName: Crossplane Upjet MPL dependencies
-SPDXID: SPDXRef-Package14
+SPDXID: SPDXRef-Package21
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -163,7 +240,7 @@ PackageComment: Project: Crossplane. Scope: Allowed only if the dependency is ei
 ##### Package: Linux kernel uapi headers (btrfs)
 
 PackageName: Linux kernel uapi headers (btrfs)
-SPDXID: SPDXRef-Package15
+SPDXID: SPDXRef-Package22
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: GPL-2.0-only WITH Linux-syscall-note
@@ -174,7 +251,7 @@ PackageComment: Project: containerd. Scope: Approved only for ue by containerd a
 ##### Package: hashicorp/go-set/v2
 
 PackageName: hashicorp/go-set/v2
-SPDXID: SPDXRef-Package16
+SPDXID: SPDXRef-Package23
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -185,7 +262,7 @@ PackageComment: Project: OpenFGA. Scope: Allowed only if the dependency is eithe
 ##### Package: Keycloak Java dependencies
 
 PackageName: Keycloak Java dependencies
-SPDXID: SPDXRef-Package17
+SPDXID: SPDXRef-Package24
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: 0BSD, CDDL-1.1, EPL-1.0, EPL-2.0, GPL-2.0-only, GPL-2.0-with-classpath-exception, LGPL-2.1, LGPL-2.1-only, MIT-0, MPL-2.0, UPL-1.0
@@ -196,7 +273,7 @@ PackageComment: Project: Keycloak. Scope: Approved for use by Keycloak only in u
 ##### Package: hashicorp/memberlist
 
 PackageName: hashicorp/memberlist
-SPDXID: SPDXRef-Package18
+SPDXID: SPDXRef-Package25
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -207,7 +284,7 @@ PackageComment: Project: kubernetes/kops. Scope: Allowed only if the dependency 
 ##### Package: Falco kernel module
 
 PackageName: Falco kernel module
-SPDXID: SPDXRef-Package19
+SPDXID: SPDXRef-Package26
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: GPL-2.0-only OR MIT
@@ -218,7 +295,7 @@ PackageComment: Project: Falco. Scope: Approved for use by Falco only. Status: a
 ##### Package: In-kernel eBPF programs
 
 PackageName: In-kernel eBPF programs
-SPDXID: SPDXRef-Package20
+SPDXID: SPDXRef-Package27
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: GPL-2.0-only, GPL-2.0-or-later
@@ -229,7 +306,7 @@ PackageComment: Project: All CNCF Projects. Scope: Exception applies only to cod
 ##### Package: docker/go-metrics documentation
 
 PackageName: docker/go-metrics documentation
-SPDXID: SPDXRef-Package21
+SPDXID: SPDXRef-Package28
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-SA 4.0
@@ -240,7 +317,7 @@ PackageComment: Project: Cilium. Scope: Approval applies only to use of document
 ##### Package: hashicorp/go-memdb
 
 PackageName: hashicorp/go-memdb
-SPDXID: SPDXRef-Package22
+SPDXID: SPDXRef-Package29
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -251,7 +328,7 @@ PackageComment: Project: Cilium. Status: approved. not auto-allowlist because: N
 ##### Package: shoenig/go-m1cpu
 
 PackageName: shoenig/go-m1cpu
-SPDXID: SPDXRef-Package23
+SPDXID: SPDXRef-Package30
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -262,7 +339,7 @@ PackageComment: Project: Kubernetes. Scope: Allowed only if the dependency is ei
 ##### Package: hashicorp/packer-plugin-sdk
 
 PackageName: hashicorp/packer-plugin-sdk
-SPDXID: SPDXRef-Package24
+SPDXID: SPDXRef-Package31
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -273,7 +350,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/consul/api
 
 PackageName: hashicorp/consul/api
-SPDXID: SPDXRef-Package25
+SPDXID: SPDXRef-Package32
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -284,7 +361,7 @@ PackageComment: Project: Cilium. Scope: Allowed only if the dependency is either
 ##### Package: hashicorp/go-hclog
 
 PackageName: hashicorp/go-hclog
-SPDXID: SPDXRef-Package26
+SPDXID: SPDXRef-Package33
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -295,7 +372,7 @@ PackageComment: Project: Cilium. Scope: Allowed only if the dependency is either
 ##### Package: hashicorp/go-immutable-radix
 
 PackageName: hashicorp/go-immutable-radix
-SPDXID: SPDXRef-Package27
+SPDXID: SPDXRef-Package34
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -306,7 +383,7 @@ PackageComment: Project: Cilium. Scope: Allowed only if the dependency is either
 ##### Package: hashicorp/go-plugin
 
 PackageName: hashicorp/go-plugin
-SPDXID: SPDXRef-Package28
+SPDXID: SPDXRef-Package35
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -317,7 +394,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-rootcerts
 
 PackageName: hashicorp/go-rootcerts
-SPDXID: SPDXRef-Package29
+SPDXID: SPDXRef-Package36
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -328,7 +405,7 @@ PackageComment: Project: Cilium. Scope: Allowed only if the dependency is either
 ##### Package: hashicorp/go-secure-stdlib
 
 PackageName: hashicorp/go-secure-stdlib
-SPDXID: SPDXRef-Package30
+SPDXID: SPDXRef-Package37
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -339,7 +416,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-sockaddr
 
 PackageName: hashicorp/go-sockaddr
-SPDXID: SPDXRef-Package31
+SPDXID: SPDXRef-Package38
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -350,7 +427,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-uuid
 
 PackageName: hashicorp/go-uuid
-SPDXID: SPDXRef-Package32
+SPDXID: SPDXRef-Package39
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -361,7 +438,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/serf
 
 PackageName: hashicorp/serf
-SPDXID: SPDXRef-Package33
+SPDXID: SPDXRef-Package40
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -372,7 +449,7 @@ PackageComment: Project: Cilium. Scope: Allowed only if the dependency is either
 ##### Package: hashicorp/vault
 
 PackageName: hashicorp/vault
-SPDXID: SPDXRef-Package34
+SPDXID: SPDXRef-Package41
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -383,7 +460,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: veraison/go-cose
 
 PackageName: veraison/go-cose
-SPDXID: SPDXRef-Package35
+SPDXID: SPDXRef-Package42
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -394,7 +471,7 @@ PackageComment: Project: Notary. Scope: Allowed only if the dependency is either
 ##### Package: hashicorp/consul/api
 
 PackageName: hashicorp/consul/api
-SPDXID: SPDXRef-Package36
+SPDXID: SPDXRef-Package43
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -405,7 +482,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-hclog
 
 PackageName: hashicorp/go-hclog
-SPDXID: SPDXRef-Package37
+SPDXID: SPDXRef-Package44
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -416,7 +493,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-immutable-radix
 
 PackageName: hashicorp/go-immutable-radix
-SPDXID: SPDXRef-Package38
+SPDXID: SPDXRef-Package45
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -427,7 +504,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-plugin
 
 PackageName: hashicorp/go-plugin
-SPDXID: SPDXRef-Package39
+SPDXID: SPDXRef-Package46
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -438,7 +515,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-rootcerts
 
 PackageName: hashicorp/go-rootcerts
-SPDXID: SPDXRef-Package40
+SPDXID: SPDXRef-Package47
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -449,7 +526,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-secure-stdlib
 
 PackageName: hashicorp/go-secure-stdlib
-SPDXID: SPDXRef-Package41
+SPDXID: SPDXRef-Package48
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -460,7 +537,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-sockaddr
 
 PackageName: hashicorp/go-sockaddr
-SPDXID: SPDXRef-Package42
+SPDXID: SPDXRef-Package49
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -471,90 +548,13 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-uuid
 
 PackageName: hashicorp/go-uuid
-SPDXID: SPDXRef-Package43
-PackageDownloadLocation: NOASSERTION
-FilesAnalyzed: false
-PackageLicenseConcluded: MPL-2.0
-PackageLicenseDeclared: NOASSERTION
-PackageCopyrightText: NOASSERTION
-PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
-
-##### Package: hashicorp/go-version
-
-PackageName: hashicorp/go-version
-SPDXID: SPDXRef-Package44
-PackageDownloadLocation: NOASSERTION
-FilesAnalyzed: false
-PackageLicenseConcluded: MPL-2.0
-PackageLicenseDeclared: NOASSERTION
-PackageCopyrightText: NOASSERTION
-PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
-
-##### Package: hashicorp/raft
-
-PackageName: hashicorp/raft
-SPDXID: SPDXRef-Package45
-PackageDownloadLocation: NOASSERTION
-FilesAnalyzed: false
-PackageLicenseConcluded: MPL-2.0
-PackageLicenseDeclared: NOASSERTION
-PackageCopyrightText: NOASSERTION
-PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
-
-##### Package: hashicorp/serf
-
-PackageName: hashicorp/serf
-SPDXID: SPDXRef-Package46
-PackageDownloadLocation: NOASSERTION
-FilesAnalyzed: false
-PackageLicenseConcluded: MPL-2.0
-PackageLicenseDeclared: NOASSERTION
-PackageCopyrightText: NOASSERTION
-PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
-
-##### Package: hashicorp/vault
-
-PackageName: hashicorp/vault
-SPDXID: SPDXRef-Package47
-PackageDownloadLocation: NOASSERTION
-FilesAnalyzed: false
-PackageLicenseConcluded: MPL-2.0
-PackageLicenseDeclared: NOASSERTION
-PackageCopyrightText: NOASSERTION
-PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
-
-##### Package: hashicorp/yamux
-
-PackageName: hashicorp/yamux
-SPDXID: SPDXRef-Package48
-PackageDownloadLocation: NOASSERTION
-FilesAnalyzed: false
-PackageLicenseConcluded: MPL-2.0
-PackageLicenseDeclared: NOASSERTION
-PackageCopyrightText: NOASSERTION
-PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
-
-##### Package: veraison/go-cose
-
-PackageName: veraison/go-cose
-SPDXID: SPDXRef-Package49
-PackageDownloadLocation: NOASSERTION
-FilesAnalyzed: false
-PackageLicenseConcluded: MPL-2.0
-PackageLicenseDeclared: NOASSERTION
-PackageCopyrightText: NOASSERTION
-PackageComment: Project: Notary. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
-
-##### Package: eclipse/paho.mqtt.golang
-
-PackageName: eclipse/paho.mqtt.golang
 SPDXID: SPDXRef-Package50
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
-PackageLicenseConcluded: EPL-2.0
+PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
 
 ##### Package: hashicorp/go-version
 
@@ -565,7 +565,7 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
 
 ##### Package: hashicorp/raft
 
@@ -576,12 +576,89 @@ FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/serf
+
+PackageName: hashicorp/serf
+SPDXID: SPDXRef-Package53
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/vault
+
+PackageName: hashicorp/vault
+SPDXID: SPDXRef-Package54
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: hashicorp/yamux
+
+PackageName: hashicorp/yamux
+SPDXID: SPDXRef-Package55
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: veraison/go-cose
+
+PackageName: veraison/go-cose
+SPDXID: SPDXRef-Package56
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: Notary. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27
+
+##### Package: eclipse/paho.mqtt.golang
+
+PackageName: eclipse/paho.mqtt.golang
+SPDXID: SPDXRef-Package57
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: EPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+
+##### Package: hashicorp/go-version
+
+PackageName: hashicorp/go-version
+SPDXID: SPDXRef-Package58
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
+
+##### Package: hashicorp/raft
+
+PackageName: hashicorp/raft
+SPDXID: SPDXRef-Package59
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 PackageComment: Project: Dapr. Scope: Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository. Status: approved. not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12
 
 ##### Package: hashicorp/raft-boltdb
 
 PackageName: hashicorp/raft-boltdb
-SPDXID: SPDXRef-Package53
+SPDXID: SPDXRef-Package60
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -592,7 +669,7 @@ PackageComment: Project: Dapr. Scope: Allowed only if the dependency is either (
 ##### Package: Microsoft/tslib
 
 PackageName: Microsoft/tslib
-SPDXID: SPDXRef-Package54
+SPDXID: SPDXRef-Package61
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: 0BSD
@@ -603,7 +680,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: go-version
 
 PackageName: go-version
-SPDXID: SPDXRef-Package55
+SPDXID: SPDXRef-Package62
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -614,7 +691,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: paho.mqtt.golang
 
 PackageName: paho.mqtt.golang
-SPDXID: SPDXRef-Package56
+SPDXID: SPDXRef-Package63
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: EPL-2.0
@@ -625,7 +702,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: raft
 
 PackageName: raft
-SPDXID: SPDXRef-Package57
+SPDXID: SPDXRef-Package64
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -636,7 +713,7 @@ PackageComment: Project: Dapr. Scope: Allowed only if the dependency is either (
 ##### Package: raft-boltdb
 
 PackageName: raft-boltdb
-SPDXID: SPDXRef-Package58
+SPDXID: SPDXRef-Package65
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -647,7 +724,7 @@ PackageComment: Project: Dapr. Scope: Allowed only if the dependency is either (
 ##### Package: tslib
 
 PackageName: tslib
-SPDXID: SPDXRef-Package59
+SPDXID: SPDXRef-Package66
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: 0BSD
@@ -658,7 +735,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: webpki-roots
 
 PackageName: webpki-roots
-SPDXID: SPDXRef-Package60
+SPDXID: SPDXRef-Package67
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -669,7 +746,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-retryablehttp
 
 PackageName: hashicorp/go-retryablehttp
-SPDXID: SPDXRef-Package61
+SPDXID: SPDXRef-Package68
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -680,7 +757,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: go-retryablehttp
 
 PackageName: go-retryablehttp
-SPDXID: SPDXRef-Package62
+SPDXID: SPDXRef-Package69
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -691,7 +768,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: Chart.js
 
 PackageName: Chart.js
-SPDXID: SPDXRef-Package63
+SPDXID: SPDXRef-Package70
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -702,7 +779,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: cloud.google.com/go
 
 PackageName: cloud.google.com/go
-SPDXID: SPDXRef-Package64
+SPDXID: SPDXRef-Package71
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -713,7 +790,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: code.cloudfoundry.org/clock
 
 PackageName: code.cloudfoundry.org/clock
-SPDXID: SPDXRef-Package65
+SPDXID: SPDXRef-Package72
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -724,7 +801,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: colors
 
 PackageName: colors
-SPDXID: SPDXRef-Package66
+SPDXID: SPDXRef-Package73
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -735,7 +812,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: defusedxml
 
 PackageName: defusedxml
-SPDXID: SPDXRef-Package67
+SPDXID: SPDXRef-Package74
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Python-2.0
@@ -746,7 +823,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: ejs
 
 PackageName: ejs
-SPDXID: SPDXRef-Package68
+SPDXID: SPDXRef-Package75
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -757,7 +834,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: abbot/go-http-auth
 
 PackageName: abbot/go-http-auth
-SPDXID: SPDXRef-Package69
+SPDXID: SPDXRef-Package76
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -768,7 +845,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: aclements/go-moremath
 
 PackageName: aclements/go-moremath
-SPDXID: SPDXRef-Package70
+SPDXID: SPDXRef-Package77
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -779,7 +856,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: andygrunwald/go-gerrit
 
 PackageName: andygrunwald/go-gerrit
-SPDXID: SPDXRef-Package71
+SPDXID: SPDXRef-Package78
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -790,7 +867,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: aokoli/goutils
 
 PackageName: aokoli/goutils
-SPDXID: SPDXRef-Package72
+SPDXID: SPDXRef-Package79
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -801,7 +878,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: appc/spec
 
 PackageName: appc/spec
-SPDXID: SPDXRef-Package73
+SPDXID: SPDXRef-Package80
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -812,7 +889,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: armon/circbuf
 
 PackageName: armon/circbuf
-SPDXID: SPDXRef-Package74
+SPDXID: SPDXRef-Package81
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -823,7 +900,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: armon/go-proxyproto
 
 PackageName: armon/go-proxyproto
-SPDXID: SPDXRef-Package75
+SPDXID: SPDXRef-Package82
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -834,7 +911,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: armon/go-radix
 
 PackageName: armon/go-radix
-SPDXID: SPDXRef-Package76
+SPDXID: SPDXRef-Package83
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -845,7 +922,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: asaskevich/govalidator
 
 PackageName: asaskevich/govalidator
-SPDXID: SPDXRef-Package77
+SPDXID: SPDXRef-Package84
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -856,7 +933,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: aws/aws-k8s-tester
 
 PackageName: aws/aws-k8s-tester
-SPDXID: SPDXRef-Package78
+SPDXID: SPDXRef-Package85
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -867,7 +944,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: aws/aws-sdk-go
 
 PackageName: aws/aws-sdk-go
-SPDXID: SPDXRef-Package79
+SPDXID: SPDXRef-Package86
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: (MIT OR GPL-3.0) AND BSD-3-Clause AND Apache-2.0 AND MIT
@@ -878,7 +955,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed as long as the CNCF p
 ##### Package: Azure/azure-sdk-for-go
 
 PackageName: Azure/azure-sdk-for-go
-SPDXID: SPDXRef-Package80
+SPDXID: SPDXRef-Package87
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -889,7 +966,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: Azure/azure-storage-blob-go
 
 PackageName: Azure/azure-storage-blob-go
-SPDXID: SPDXRef-Package81
+SPDXID: SPDXRef-Package88
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -900,7 +977,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Azure/go-ansiterm
 
 PackageName: Azure/go-ansiterm
-SPDXID: SPDXRef-Package82
+SPDXID: SPDXRef-Package89
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -911,7 +988,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Azure/go-autorest
 
 PackageName: Azure/go-autorest
-SPDXID: SPDXRef-Package83
+SPDXID: SPDXRef-Package90
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -922,7 +999,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: bazelbuild/bazel-gazelle
 
 PackageName: bazelbuild/bazel-gazelle
-SPDXID: SPDXRef-Package84
+SPDXID: SPDXRef-Package91
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -933,7 +1010,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: bazelbuild/buildtools
 
 PackageName: bazelbuild/buildtools
-SPDXID: SPDXRef-Package85
+SPDXID: SPDXRef-Package92
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -944,7 +1021,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: beorn7/perks
 
 PackageName: beorn7/perks
-SPDXID: SPDXRef-Package86
+SPDXID: SPDXRef-Package93
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -955,7 +1032,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: blang/semver
 
 PackageName: blang/semver
-SPDXID: SPDXRef-Package87
+SPDXID: SPDXRef-Package94
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -966,7 +1043,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: bluebreezecf/opentsdb-goclient
 
 PackageName: bluebreezecf/opentsdb-goclient
-SPDXID: SPDXRef-Package88
+SPDXID: SPDXRef-Package95
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -977,7 +1054,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: boltdb/bolt
 
 PackageName: boltdb/bolt
-SPDXID: SPDXRef-Package89
+SPDXID: SPDXRef-Package96
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -988,7 +1065,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: bwmarrin/snowflake
 
 PackageName: bwmarrin/snowflake
-SPDXID: SPDXRef-Package90
+SPDXID: SPDXRef-Package97
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -999,7 +1076,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: chai2010/gettext-go
 
 PackageName: chai2010/gettext-go
-SPDXID: SPDXRef-Package91
+SPDXID: SPDXRef-Package98
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -1010,7 +1087,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: cloudflare/cfssl
 
 PackageName: cloudflare/cfssl
-SPDXID: SPDXRef-Package92
+SPDXID: SPDXRef-Package99
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND ISC
@@ -1021,7 +1098,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: cloudfoundry-incubator/candiedyaml
 
 PackageName: cloudfoundry-incubator/candiedyaml
-SPDXID: SPDXRef-Package93
+SPDXID: SPDXRef-Package100
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -1032,7 +1109,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: clusterhq/flocker-go
 
 PackageName: clusterhq/flocker-go
-SPDXID: SPDXRef-Package94
+SPDXID: SPDXRef-Package101
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1043,7 +1120,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: cockroachdb/cmux
 
 PackageName: cockroachdb/cmux
-SPDXID: SPDXRef-Package95
+SPDXID: SPDXRef-Package102
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1054,7 +1131,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: codedellemc/goscaleio
 
 PackageName: codedellemc/goscaleio
-SPDXID: SPDXRef-Package96
+SPDXID: SPDXRef-Package103
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1065,7 +1142,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: container-storage-interface/spec
 
 PackageName: container-storage-interface/spec
-SPDXID: SPDXRef-Package97
+SPDXID: SPDXRef-Package104
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1076,7 +1153,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: containerd/console
 
 PackageName: containerd/console
-SPDXID: SPDXRef-Package98
+SPDXID: SPDXRef-Package105
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1087,7 +1164,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: containerd/containerd
 
 PackageName: containerd/containerd
-SPDXID: SPDXRef-Package99
+SPDXID: SPDXRef-Package106
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-4.0 AND Apache-2.0
@@ -1098,7 +1175,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: containernetworking/cni
 
 PackageName: containernetworking/cni
-SPDXID: SPDXRef-Package100
+SPDXID: SPDXRef-Package107
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1109,7 +1186,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: containernetworking/plugins
 
 PackageName: containernetworking/plugins
-SPDXID: SPDXRef-Package101
+SPDXID: SPDXRef-Package108
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1120,7 +1197,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: coredns/coredns
 
 PackageName: coredns/coredns
-SPDXID: SPDXRef-Package102
+SPDXID: SPDXRef-Package109
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1131,7 +1208,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: coreos/bbolt
 
 PackageName: coreos/bbolt
-SPDXID: SPDXRef-Package103
+SPDXID: SPDXRef-Package110
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1142,7 +1219,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: coreos/etcd
 
 PackageName: coreos/etcd
-SPDXID: SPDXRef-Package104
+SPDXID: SPDXRef-Package111
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -1153,7 +1230,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: coreos/go-etcd
 
 PackageName: coreos/go-etcd
-SPDXID: SPDXRef-Package105
+SPDXID: SPDXRef-Package112
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1164,7 +1241,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: coreos/go-oidc
 
 PackageName: coreos/go-oidc
-SPDXID: SPDXRef-Package106
+SPDXID: SPDXRef-Package113
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1175,7 +1252,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: coreos/go-semver
 
 PackageName: coreos/go-semver
-SPDXID: SPDXRef-Package107
+SPDXID: SPDXRef-Package114
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1186,7 +1263,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: coreos/go-systemd
 
 PackageName: coreos/go-systemd
-SPDXID: SPDXRef-Package108
+SPDXID: SPDXRef-Package115
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1197,7 +1274,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: coreos/pkg
 
 PackageName: coreos/pkg
-SPDXID: SPDXRef-Package109
+SPDXID: SPDXRef-Package116
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1208,7 +1285,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: coreos/rkt
 
 PackageName: coreos/rkt
-SPDXID: SPDXRef-Package110
+SPDXID: SPDXRef-Package117
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1219,7 +1296,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: cpuguy83/go-md2man
 
 PackageName: cpuguy83/go-md2man
-SPDXID: SPDXRef-Package111
+SPDXID: SPDXRef-Package118
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1230,7 +1307,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: cyphar/filepath-securejoin
 
 PackageName: cyphar/filepath-securejoin
-SPDXID: SPDXRef-Package112
+SPDXID: SPDXRef-Package119
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -1241,7 +1318,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: daaku/go.zipexe
 
 PackageName: daaku/go.zipexe
-SPDXID: SPDXRef-Package113
+SPDXID: SPDXRef-Package120
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1252,7 +1329,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: davecgh/go-spew
 
 PackageName: davecgh/go-spew
-SPDXID: SPDXRef-Package114
+SPDXID: SPDXRef-Package121
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: ISC
@@ -1263,7 +1340,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: daviddengcn/go-colortext
 
 PackageName: daviddengcn/go-colortext
-SPDXID: SPDXRef-Package115
+SPDXID: SPDXRef-Package122
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -1274,7 +1351,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: dchest/safefile
 
 PackageName: dchest/safefile
-SPDXID: SPDXRef-Package116
+SPDXID: SPDXRef-Package123
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -1285,7 +1362,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: deckarep/golang-set
 
 PackageName: deckarep/golang-set
-SPDXID: SPDXRef-Package117
+SPDXID: SPDXRef-Package124
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1296,7 +1373,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: denverdino/aliyungo
 
 PackageName: denverdino/aliyungo
-SPDXID: SPDXRef-Package118
+SPDXID: SPDXRef-Package125
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1307,7 +1384,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: dgrijalva/jwt-go
 
 PackageName: dgrijalva/jwt-go
-SPDXID: SPDXRef-Package119
+SPDXID: SPDXRef-Package126
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1318,7 +1395,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: digitalocean/godo
 
 PackageName: digitalocean/godo
-SPDXID: SPDXRef-Package120
+SPDXID: SPDXRef-Package127
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -1329,7 +1406,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: djherbis/atime
 
 PackageName: djherbis/atime
-SPDXID: SPDXRef-Package121
+SPDXID: SPDXRef-Package128
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -1340,7 +1417,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: docker/cli
 
 PackageName: docker/cli
-SPDXID: SPDXRef-Package122
+SPDXID: SPDXRef-Package129
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -1351,7 +1428,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: docker/distribution
 
 PackageName: docker/distribution
-SPDXID: SPDXRef-Package123
+SPDXID: SPDXRef-Package130
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1362,7 +1439,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: docker/docker
 
 PackageName: docker/docker
-SPDXID: SPDXRef-Package124
+SPDXID: SPDXRef-Package131
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -1373,7 +1450,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: docker/engine-api
 
 PackageName: docker/engine-api
-SPDXID: SPDXRef-Package125
+SPDXID: SPDXRef-Package132
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -1384,7 +1461,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: docker/go-connections
 
 PackageName: docker/go-connections
-SPDXID: SPDXRef-Package126
+SPDXID: SPDXRef-Package133
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1395,7 +1472,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: docker/libcompose
 
 PackageName: docker/libcompose
-SPDXID: SPDXRef-Package127
+SPDXID: SPDXRef-Package134
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1406,7 +1483,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: docker/libnetwork
 
 PackageName: docker/libnetwork
-SPDXID: SPDXRef-Package128
+SPDXID: SPDXRef-Package135
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1417,7 +1494,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: docker/libtrust
 
 PackageName: docker/libtrust
-SPDXID: SPDXRef-Package129
+SPDXID: SPDXRef-Package136
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1428,7 +1505,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: docker/machine
 
 PackageName: docker/machine
-SPDXID: SPDXRef-Package130
+SPDXID: SPDXRef-Package137
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1439,7 +1516,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: dustin/go-humanize
 
 PackageName: dustin/go-humanize
-SPDXID: SPDXRef-Package131
+SPDXID: SPDXRef-Package138
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1450,7 +1527,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: eapache/channels
 
 PackageName: eapache/channels
-SPDXID: SPDXRef-Package132
+SPDXID: SPDXRef-Package139
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1461,7 +1538,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: eapache/go-resiliency
 
 PackageName: eapache/go-resiliency
-SPDXID: SPDXRef-Package133
+SPDXID: SPDXRef-Package140
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1472,7 +1549,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: eapache/go-xerial-snappy
 
 PackageName: eapache/go-xerial-snappy
-SPDXID: SPDXRef-Package134
+SPDXID: SPDXRef-Package141
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1483,7 +1560,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: eapache/queue
 
 PackageName: eapache/queue
-SPDXID: SPDXRef-Package135
+SPDXID: SPDXRef-Package142
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1494,7 +1571,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: elazarl/go-bindata-assetfs
 
 PackageName: elazarl/go-bindata-assetfs
-SPDXID: SPDXRef-Package136
+SPDXID: SPDXRef-Package143
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -1505,7 +1582,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: elazarl/goproxy
 
 PackageName: elazarl/goproxy
-SPDXID: SPDXRef-Package137
+SPDXID: SPDXRef-Package144
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -1516,7 +1593,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: emicklei/go-restful
 
 PackageName: emicklei/go-restful
-SPDXID: SPDXRef-Package138
+SPDXID: SPDXRef-Package145
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1527,7 +1604,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: emicklei/go-restful-swagger12
 
 PackageName: emicklei/go-restful-swagger12
-SPDXID: SPDXRef-Package139
+SPDXID: SPDXRef-Package146
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1538,7 +1615,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: emirpasic/gods
 
 PackageName: emirpasic/gods
-SPDXID: SPDXRef-Package140
+SPDXID: SPDXRef-Package147
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND ISC
@@ -1549,7 +1626,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: euank/go-kmsg-parser
 
 PackageName: euank/go-kmsg-parser
-SPDXID: SPDXRef-Package141
+SPDXID: SPDXRef-Package148
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1560,7 +1637,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: evanphx/json-patch
 
 PackageName: evanphx/json-patch
-SPDXID: SPDXRef-Package142
+SPDXID: SPDXRef-Package149
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -1571,7 +1648,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: exponent-io/jsonpath
 
 PackageName: exponent-io/jsonpath
-SPDXID: SPDXRef-Package143
+SPDXID: SPDXRef-Package150
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1582,7 +1659,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: fatih/camelcase
 
 PackageName: fatih/camelcase
-SPDXID: SPDXRef-Package144
+SPDXID: SPDXRef-Package151
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1593,7 +1670,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: fatih/structs
 
 PackageName: fatih/structs
-SPDXID: SPDXRef-Package145
+SPDXID: SPDXRef-Package152
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1604,7 +1681,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: flynn/go-shlex
 
 PackageName: flynn/go-shlex
-SPDXID: SPDXRef-Package146
+SPDXID: SPDXRef-Package153
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1615,7 +1692,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: fsnotify/fsnotify
 
 PackageName: fsnotify/fsnotify
-SPDXID: SPDXRef-Package147
+SPDXID: SPDXRef-Package154
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -1626,7 +1703,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: fsouza/fake-gcs-server
 
 PackageName: fsouza/fake-gcs-server
-SPDXID: SPDXRef-Package148
+SPDXID: SPDXRef-Package155
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -1637,7 +1714,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: fsouza/go-dockerclient
 
 PackageName: fsouza/go-dockerclient
-SPDXID: SPDXRef-Package149
+SPDXID: SPDXRef-Package156
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND Apache-2.0
@@ -1648,7 +1725,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: fullsailor/pkcs7
 
 PackageName: fullsailor/pkcs7
-SPDXID: SPDXRef-Package150
+SPDXID: SPDXRef-Package157
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -1659,7 +1736,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: GeertJohan/go.rice
 
 PackageName: GeertJohan/go.rice
-SPDXID: SPDXRef-Package151
+SPDXID: SPDXRef-Package158
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -1670,7 +1747,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: ghodss/yaml
 
 PackageName: ghodss/yaml
-SPDXID: SPDXRef-Package152
+SPDXID: SPDXRef-Package159
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -1681,7 +1758,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: globalsign/mgo
 
 PackageName: globalsign/mgo
-SPDXID: SPDXRef-Package153
+SPDXID: SPDXRef-Package160
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
@@ -1692,7 +1769,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: go-ini/ini
 
 PackageName: go-ini/ini
-SPDXID: SPDXRef-Package154
+SPDXID: SPDXRef-Package161
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1703,7 +1780,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-openapi/analysis
 
 PackageName: go-openapi/analysis
-SPDXID: SPDXRef-Package155
+SPDXID: SPDXRef-Package162
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1714,7 +1791,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-openapi/errors
 
 PackageName: go-openapi/errors
-SPDXID: SPDXRef-Package156
+SPDXID: SPDXRef-Package163
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1725,7 +1802,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-openapi/jsonpointer
 
 PackageName: go-openapi/jsonpointer
-SPDXID: SPDXRef-Package157
+SPDXID: SPDXRef-Package164
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1736,7 +1813,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-openapi/jsonreference
 
 PackageName: go-openapi/jsonreference
-SPDXID: SPDXRef-Package158
+SPDXID: SPDXRef-Package165
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1747,7 +1824,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-openapi/loads
 
 PackageName: go-openapi/loads
-SPDXID: SPDXRef-Package159
+SPDXID: SPDXRef-Package166
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1758,7 +1835,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-openapi/runtime
 
 PackageName: go-openapi/runtime
-SPDXID: SPDXRef-Package160
+SPDXID: SPDXRef-Package167
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1769,7 +1846,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-openapi/spec
 
 PackageName: go-openapi/spec
-SPDXID: SPDXRef-Package161
+SPDXID: SPDXRef-Package168
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-4.0 AND Apache-2.0 AND MIT
@@ -1780,7 +1857,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: go-openapi/strfmt
 
 PackageName: go-openapi/strfmt
-SPDXID: SPDXRef-Package162
+SPDXID: SPDXRef-Package169
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1791,7 +1868,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-openapi/swag
 
 PackageName: go-openapi/swag
-SPDXID: SPDXRef-Package163
+SPDXID: SPDXRef-Package170
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -1802,7 +1879,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: go-openapi/validate
 
 PackageName: go-openapi/validate
-SPDXID: SPDXRef-Package164
+SPDXID: SPDXRef-Package171
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1813,7 +1890,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go-ozzo/ozzo-validation
 
 PackageName: go-ozzo/ozzo-validation
-SPDXID: SPDXRef-Package165
+SPDXID: SPDXRef-Package172
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1824,7 +1901,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: go-yaml/yaml
 
 PackageName: go-yaml/yaml
-SPDXID: SPDXRef-Package166
+SPDXID: SPDXRef-Package173
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -1835,7 +1912,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gobuffalo/envy
 
 PackageName: gobuffalo/envy
-SPDXID: SPDXRef-Package167
+SPDXID: SPDXRef-Package174
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -1846,7 +1923,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: godbus/dbus
 
 PackageName: godbus/dbus
-SPDXID: SPDXRef-Package168
+SPDXID: SPDXRef-Package175
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -1857,7 +1934,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gogo/protobuf
 
 PackageName: gogo/protobuf
-SPDXID: SPDXRef-Package169
+SPDXID: SPDXRef-Package176
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
@@ -1868,7 +1945,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: golang/dep
 
 PackageName: golang/dep
-SPDXID: SPDXRef-Package170
+SPDXID: SPDXRef-Package177
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -1879,7 +1956,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: golang/glog
 
 PackageName: golang/glog
-SPDXID: SPDXRef-Package171
+SPDXID: SPDXRef-Package178
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1890,7 +1967,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: golang/groupcache
 
 PackageName: golang/groupcache
-SPDXID: SPDXRef-Package172
+SPDXID: SPDXRef-Package179
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1901,7 +1978,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: golang/lint
 
 PackageName: golang/lint
-SPDXID: SPDXRef-Package173
+SPDXID: SPDXRef-Package180
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -1912,7 +1989,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: golang/mock
 
 PackageName: golang/mock
-SPDXID: SPDXRef-Package174
+SPDXID: SPDXRef-Package181
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1923,7 +2000,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: golang/protobuf
 
 PackageName: golang/protobuf
-SPDXID: SPDXRef-Package175
+SPDXID: SPDXRef-Package182
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -1934,7 +2011,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: golang/snappy
 
 PackageName: golang/snappy
-SPDXID: SPDXRef-Package176
+SPDXID: SPDXRef-Package183
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -1945,7 +2022,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: google/btree
 
 PackageName: google/btree
-SPDXID: SPDXRef-Package177
+SPDXID: SPDXRef-Package184
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1956,7 +2033,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: google/cadvisor
 
 PackageName: google/cadvisor
-SPDXID: SPDXRef-Package178
+SPDXID: SPDXRef-Package185
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1967,7 +2044,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: google/certificate-transparency-go
 
 PackageName: google/certificate-transparency-go
-SPDXID: SPDXRef-Package179
+SPDXID: SPDXRef-Package186
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -1978,7 +2055,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: google/go-containerregistry
 
 PackageName: google/go-containerregistry
-SPDXID: SPDXRef-Package180
+SPDXID: SPDXRef-Package187
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -1989,7 +2066,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: google/go-querystring
 
 PackageName: google/go-querystring
-SPDXID: SPDXRef-Package181
+SPDXID: SPDXRef-Package188
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2000,7 +2077,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: google/go-tpm
 
 PackageName: google/go-tpm
-SPDXID: SPDXRef-Package182
+SPDXID: SPDXRef-Package189
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2011,7 +2088,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: google/gofuzz
 
 PackageName: google/gofuzz
-SPDXID: SPDXRef-Package183
+SPDXID: SPDXRef-Package190
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2022,7 +2099,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: google/uuid
 
 PackageName: google/uuid
-SPDXID: SPDXRef-Package184
+SPDXID: SPDXRef-Package191
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2033,7 +2110,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: googleapis/gax-go
 
 PackageName: googleapis/gax-go
-SPDXID: SPDXRef-Package185
+SPDXID: SPDXRef-Package192
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2044,7 +2121,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: googleapis/gnostic
 
 PackageName: googleapis/gnostic
-SPDXID: SPDXRef-Package186
+SPDXID: SPDXRef-Package193
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0 AND MIT
@@ -2055,7 +2132,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: GoogleCloudPlatform/gke-managed-certs
 
 PackageName: GoogleCloudPlatform/gke-managed-certs
-SPDXID: SPDXRef-Package187
+SPDXID: SPDXRef-Package194
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2066,7 +2143,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: gophercloud/gophercloud
 
 PackageName: gophercloud/gophercloud
-SPDXID: SPDXRef-Package188
+SPDXID: SPDXRef-Package195
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2077,7 +2154,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: gorilla/context
 
 PackageName: gorilla/context
-SPDXID: SPDXRef-Package189
+SPDXID: SPDXRef-Package196
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2088,7 +2165,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gorilla/mux
 
 PackageName: gorilla/mux
-SPDXID: SPDXRef-Package190
+SPDXID: SPDXRef-Package197
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2099,7 +2176,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gorilla/securecookie
 
 PackageName: gorilla/securecookie
-SPDXID: SPDXRef-Package191
+SPDXID: SPDXRef-Package198
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2110,7 +2187,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gorilla/sessions
 
 PackageName: gorilla/sessions
-SPDXID: SPDXRef-Package192
+SPDXID: SPDXRef-Package199
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2121,7 +2198,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gorilla/websocket
 
 PackageName: gorilla/websocket
-SPDXID: SPDXRef-Package193
+SPDXID: SPDXRef-Package200
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND MIT
@@ -2132,7 +2209,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gregjones/httpcache
 
 PackageName: gregjones/httpcache
-SPDXID: SPDXRef-Package194
+SPDXID: SPDXRef-Package201
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2143,7 +2220,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: grpc-ecosystem/go-grpc-middleware
 
 PackageName: grpc-ecosystem/go-grpc-middleware
-SPDXID: SPDXRef-Package195
+SPDXID: SPDXRef-Package202
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2154,7 +2231,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: grpc-ecosystem/go-grpc-prometheus
 
 PackageName: grpc-ecosystem/go-grpc-prometheus
-SPDXID: SPDXRef-Package196
+SPDXID: SPDXRef-Package203
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2165,7 +2242,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: grpc-ecosystem/grpc-gateway
 
 PackageName: grpc-ecosystem/grpc-gateway
-SPDXID: SPDXRef-Package197
+SPDXID: SPDXRef-Package204
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -2176,7 +2253,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: hawkular/hawkular-client-go
 
 PackageName: hawkular/hawkular-client-go
-SPDXID: SPDXRef-Package198
+SPDXID: SPDXRef-Package205
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2187,7 +2264,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: heketi/heketi REST API
 
 PackageName: heketi/heketi REST API
-SPDXID: SPDXRef-Package199
+SPDXID: SPDXRef-Package206
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 OR LGPL-3.0-or-later
@@ -2198,7 +2275,7 @@ PackageComment: Project: All CNCF Projects. Scope: Approval is limited to the RE
 ##### Package: hpcloud/tail
 
 PackageName: hpcloud/tail
-SPDXID: SPDXRef-Package200
+SPDXID: SPDXRef-Package207
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2209,7 +2286,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: huandu/xstrings
 
 PackageName: huandu/xstrings
-SPDXID: SPDXRef-Package201
+SPDXID: SPDXRef-Package208
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2220,7 +2297,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: imdario/mergo
 
 PackageName: imdario/mergo
-SPDXID: SPDXRef-Package202
+SPDXID: SPDXRef-Package209
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2231,7 +2308,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: inconshreveable/mousetrap
 
 PackageName: inconshreveable/mousetrap
-SPDXID: SPDXRef-Package203
+SPDXID: SPDXRef-Package210
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2242,7 +2319,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: influxdata/influxdb
 
 PackageName: influxdata/influxdb
-SPDXID: SPDXRef-Package204
+SPDXID: SPDXRef-Package211
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2253,7 +2330,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: jimmidyson/go-download
 
 PackageName: jimmidyson/go-download
-SPDXID: SPDXRef-Package205
+SPDXID: SPDXRef-Package212
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2264,7 +2341,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: jinzhu/gorm
 
 PackageName: jinzhu/gorm
-SPDXID: SPDXRef-Package206
+SPDXID: SPDXRef-Package213
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2275,7 +2352,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: jinzhu/inflection
 
 PackageName: jinzhu/inflection
-SPDXID: SPDXRef-Package207
+SPDXID: SPDXRef-Package214
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2286,7 +2363,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: jmespath/go-jmespath
 
 PackageName: jmespath/go-jmespath
-SPDXID: SPDXRef-Package208
+SPDXID: SPDXRef-Package215
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2297,7 +2374,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: jmhodges/clock
 
 PackageName: jmhodges/clock
-SPDXID: SPDXRef-Package209
+SPDXID: SPDXRef-Package216
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2308,7 +2385,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: jmoiron/sqlx
 
 PackageName: jmoiron/sqlx
-SPDXID: SPDXRef-Package210
+SPDXID: SPDXRef-Package217
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2319,7 +2396,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: joho/godotenv
 
 PackageName: joho/godotenv
-SPDXID: SPDXRef-Package211
+SPDXID: SPDXRef-Package218
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2330,7 +2407,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: jonboulle/clockwork
 
 PackageName: jonboulle/clockwork
-SPDXID: SPDXRef-Package212
+SPDXID: SPDXRef-Package219
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2341,7 +2418,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: jpillora/backoff
 
 PackageName: jpillora/backoff
-SPDXID: SPDXRef-Package213
+SPDXID: SPDXRef-Package220
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2352,7 +2429,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: json-iterator/go
 
 PackageName: json-iterator/go
-SPDXID: SPDXRef-Package214
+SPDXID: SPDXRef-Package221
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2363,7 +2440,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: kardianos/osext
 
 PackageName: kardianos/osext
-SPDXID: SPDXRef-Package215
+SPDXID: SPDXRef-Package222
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2374,7 +2451,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: karrick/godirwalk
 
 PackageName: karrick/godirwalk
-SPDXID: SPDXRef-Package216
+SPDXID: SPDXRef-Package223
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -2385,7 +2462,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: kevinburke/ssh_config
 
 PackageName: kevinburke/ssh_config
-SPDXID: SPDXRef-Package217
+SPDXID: SPDXRef-Package224
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2396,7 +2473,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: kisielk/sqlstruct
 
 PackageName: kisielk/sqlstruct
-SPDXID: SPDXRef-Package218
+SPDXID: SPDXRef-Package225
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2407,7 +2484,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: knative/build
 
 PackageName: knative/build
-SPDXID: SPDXRef-Package219
+SPDXID: SPDXRef-Package226
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2418,7 +2495,7 @@ PackageComment: Project: Knative. Status: apache-2.0. Apache-2.0, no approval ne
 ##### Package: kr/fs
 
 PackageName: kr/fs
-SPDXID: SPDXRef-Package220
+SPDXID: SPDXRef-Package227
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2429,7 +2506,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: kr/pretty
 
 PackageName: kr/pretty
-SPDXID: SPDXRef-Package221
+SPDXID: SPDXRef-Package228
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2440,7 +2517,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: kr/pty
 
 PackageName: kr/pty
-SPDXID: SPDXRef-Package222
+SPDXID: SPDXRef-Package229
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2451,7 +2528,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: kr/text
 
 PackageName: kr/text
-SPDXID: SPDXRef-Package223
+SPDXID: SPDXRef-Package230
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2462,7 +2539,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: kubernetes-incubator/apiserver-builder
 
 PackageName: kubernetes-incubator/apiserver-builder
-SPDXID: SPDXRef-Package224
+SPDXID: SPDXRef-Package231
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2473,7 +2550,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: kubernetes-incubator/reference-docs
 
 PackageName: kubernetes-incubator/reference-docs
-SPDXID: SPDXRef-Package225
+SPDXID: SPDXRef-Package232
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2484,7 +2561,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: kubernetes-sigs/application
 
 PackageName: kubernetes-sigs/application
-SPDXID: SPDXRef-Package226
+SPDXID: SPDXRef-Package233
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2495,7 +2572,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: kubernetes/repo-infra
 
 PackageName: kubernetes/repo-infra
-SPDXID: SPDXRef-Package227
+SPDXID: SPDXRef-Package234
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2506,7 +2583,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: kylelemons/godebug
 
 PackageName: kylelemons/godebug
-SPDXID: SPDXRef-Package228
+SPDXID: SPDXRef-Package235
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2517,7 +2594,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: lib/pq
 
 PackageName: lib/pq
-SPDXID: SPDXRef-Package229
+SPDXID: SPDXRef-Package236
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2528,7 +2605,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: libopenstorage/openstorage
 
 PackageName: libopenstorage/openstorage
-SPDXID: SPDXRef-Package230
+SPDXID: SPDXRef-Package237
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2539,7 +2616,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: libvirt/libvirt-go
 
 PackageName: libvirt/libvirt-go
-SPDXID: SPDXRef-Package231
+SPDXID: SPDXRef-Package238
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2550,7 +2627,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: libvirt/libvirt-go-xml
 
 PackageName: libvirt/libvirt-go-xml
-SPDXID: SPDXRef-Package232
+SPDXID: SPDXRef-Package239
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2561,7 +2638,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: lpabon/godbc
 
 PackageName: lpabon/godbc
-SPDXID: SPDXRef-Package233
+SPDXID: SPDXRef-Package240
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2572,7 +2649,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: lxn/win
 
 PackageName: lxn/win
-SPDXID: SPDXRef-Package234
+SPDXID: SPDXRef-Package241
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2583,7 +2660,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: magiconair/properties
 
 PackageName: magiconair/properties
-SPDXID: SPDXRef-Package235
+SPDXID: SPDXRef-Package242
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
@@ -2594,7 +2671,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mailru/easyjson
 
 PackageName: mailru/easyjson
-SPDXID: SPDXRef-Package236
+SPDXID: SPDXRef-Package243
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2605,7 +2682,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: MakeNowJust/heredoc
 
 PackageName: MakeNowJust/heredoc
-SPDXID: SPDXRef-Package237
+SPDXID: SPDXRef-Package244
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2616,7 +2693,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: markbates/inflect
 
 PackageName: markbates/inflect
-SPDXID: SPDXRef-Package238
+SPDXID: SPDXRef-Package245
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2627,7 +2704,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: marpaia/graphite-golang
 
 PackageName: marpaia/graphite-golang
-SPDXID: SPDXRef-Package239
+SPDXID: SPDXRef-Package246
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2638,7 +2715,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Masterminds/semver
 
 PackageName: Masterminds/semver
-SPDXID: SPDXRef-Package240
+SPDXID: SPDXRef-Package247
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2649,7 +2726,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Masterminds/sprig
 
 PackageName: Masterminds/sprig
-SPDXID: SPDXRef-Package241
+SPDXID: SPDXRef-Package248
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2660,7 +2737,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Masterminds/vcs
 
 PackageName: Masterminds/vcs
-SPDXID: SPDXRef-Package242
+SPDXID: SPDXRef-Package249
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2671,7 +2748,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mattn/go-runewidth
 
 PackageName: mattn/go-runewidth
-SPDXID: SPDXRef-Package243
+SPDXID: SPDXRef-Package250
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2682,7 +2759,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mattn/go-shellwords
 
 PackageName: mattn/go-shellwords
-SPDXID: SPDXRef-Package244
+SPDXID: SPDXRef-Package251
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2693,7 +2770,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mattn/go-zglob
 
 PackageName: mattn/go-zglob
-SPDXID: SPDXRef-Package245
+SPDXID: SPDXRef-Package252
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -2704,7 +2781,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: matttproud/golang_protobuf_extensions
 
 PackageName: matttproud/golang_protobuf_extensions
-SPDXID: SPDXRef-Package246
+SPDXID: SPDXRef-Package253
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -2715,7 +2792,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mesos/mesos-go
 
 PackageName: mesos/mesos-go
-SPDXID: SPDXRef-Package247
+SPDXID: SPDXRef-Package254
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2726,7 +2803,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: mholt/caddy
 
 PackageName: mholt/caddy
-SPDXID: SPDXRef-Package248
+SPDXID: SPDXRef-Package255
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2737,7 +2814,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: Microsoft/go-winio
 
 PackageName: Microsoft/go-winio
-SPDXID: SPDXRef-Package249
+SPDXID: SPDXRef-Package256
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -2748,7 +2825,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Microsoft/hcsshim
 
 PackageName: Microsoft/hcsshim
-SPDXID: SPDXRef-Package250
+SPDXID: SPDXRef-Package257
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -2759,7 +2836,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: miekg/coredns
 
 PackageName: miekg/coredns
-SPDXID: SPDXRef-Package251
+SPDXID: SPDXRef-Package258
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2770,7 +2847,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: miekg/dns
 
 PackageName: miekg/dns
-SPDXID: SPDXRef-Package252
+SPDXID: SPDXRef-Package259
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2781,7 +2858,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mindprince/gonvml
 
 PackageName: mindprince/gonvml
-SPDXID: SPDXRef-Package253
+SPDXID: SPDXRef-Package260
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2792,7 +2869,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: mistifyio/go-zfs
 
 PackageName: mistifyio/go-zfs
-SPDXID: SPDXRef-Package254
+SPDXID: SPDXRef-Package261
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2803,7 +2880,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: mitchellh/go-homedir
 
 PackageName: mitchellh/go-homedir
-SPDXID: SPDXRef-Package255
+SPDXID: SPDXRef-Package262
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2814,7 +2891,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mitchellh/go-ps
 
 PackageName: mitchellh/go-ps
-SPDXID: SPDXRef-Package256
+SPDXID: SPDXRef-Package263
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2825,7 +2902,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mitchellh/go-wordwrap
 
 PackageName: mitchellh/go-wordwrap
-SPDXID: SPDXRef-Package257
+SPDXID: SPDXRef-Package264
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2836,7 +2913,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mitchellh/hashstructure
 
 PackageName: mitchellh/hashstructure
-SPDXID: SPDXRef-Package258
+SPDXID: SPDXRef-Package265
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2847,7 +2924,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mitchellh/mapstructure
 
 PackageName: mitchellh/mapstructure
-SPDXID: SPDXRef-Package259
+SPDXID: SPDXRef-Package266
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2858,7 +2935,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: moby/hyperkit
 
 PackageName: moby/hyperkit
-SPDXID: SPDXRef-Package260
+SPDXID: SPDXRef-Package267
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2869,7 +2946,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: modern-go/concurrent
 
 PackageName: modern-go/concurrent
-SPDXID: SPDXRef-Package261
+SPDXID: SPDXRef-Package268
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2880,7 +2957,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: modern-go/reflect2
 
 PackageName: modern-go/reflect2
-SPDXID: SPDXRef-Package262
+SPDXID: SPDXRef-Package269
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2891,7 +2968,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: mohae/deepcopy
 
 PackageName: mohae/deepcopy
-SPDXID: SPDXRef-Package263
+SPDXID: SPDXRef-Package270
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2902,7 +2979,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: moul/http2curl
 
 PackageName: moul/http2curl
-SPDXID: SPDXRef-Package264
+SPDXID: SPDXRef-Package271
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2913,7 +2990,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mrunalp/fileutils
 
 PackageName: mrunalp/fileutils
-SPDXID: SPDXRef-Package265
+SPDXID: SPDXRef-Package272
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2924,7 +3001,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: mvdan/xurls
 
 PackageName: mvdan/xurls
-SPDXID: SPDXRef-Package266
+SPDXID: SPDXRef-Package273
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2935,7 +3012,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mxk/go-flowrate
 
 PackageName: mxk/go-flowrate
-SPDXID: SPDXRef-Package267
+SPDXID: SPDXRef-Package274
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -2946,7 +3023,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: ncabatoff/process-exporter
 
 PackageName: ncabatoff/process-exporter
-SPDXID: SPDXRef-Package268
+SPDXID: SPDXRef-Package275
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -2957,7 +3034,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: nightlyone/lockfile
 
 PackageName: nightlyone/lockfile
-SPDXID: SPDXRef-Package269
+SPDXID: SPDXRef-Package276
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -2968,7 +3045,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: novln/docker-parser
 
 PackageName: novln/docker-parser
-SPDXID: SPDXRef-Package270
+SPDXID: SPDXRef-Package277
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2979,7 +3056,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: NYTimes/gziphandler
 
 PackageName: NYTimes/gziphandler
-SPDXID: SPDXRef-Package271
+SPDXID: SPDXRef-Package278
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -2990,7 +3067,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: olekukonko/tablewriter
 
 PackageName: olekukonko/tablewriter
-SPDXID: SPDXRef-Package272
+SPDXID: SPDXRef-Package279
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3001,7 +3078,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: onsi/ginkgo
 
 PackageName: onsi/ginkgo
-SPDXID: SPDXRef-Package273
+SPDXID: SPDXRef-Package280
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3012,7 +3089,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: onsi/gomega
 
 PackageName: onsi/gomega
-SPDXID: SPDXRef-Package274
+SPDXID: SPDXRef-Package281
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3023,7 +3100,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: opencontainers/image-spec
 
 PackageName: opencontainers/image-spec
-SPDXID: SPDXRef-Package275
+SPDXID: SPDXRef-Package282
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3034,7 +3111,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: opencontainers/runtime-spec
 
 PackageName: opencontainers/runtime-spec
-SPDXID: SPDXRef-Package276
+SPDXID: SPDXRef-Package283
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3045,7 +3122,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: opencontainers/selinux
 
 PackageName: opencontainers/selinux
-SPDXID: SPDXRef-Package277
+SPDXID: SPDXRef-Package284
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3056,7 +3133,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: openshift/origin
 
 PackageName: openshift/origin
-SPDXID: SPDXRef-Package278
+SPDXID: SPDXRef-Package285
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3067,7 +3144,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: opentracing/opentracing-go
 
 PackageName: opentracing/opentracing-go
-SPDXID: SPDXRef-Package279
+SPDXID: SPDXRef-Package286
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3078,7 +3155,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: parnurzeal/gorequest
 
 PackageName: parnurzeal/gorequest
-SPDXID: SPDXRef-Package280
+SPDXID: SPDXRef-Package287
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3089,7 +3166,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: patrickmn/go-cache
 
 PackageName: patrickmn/go-cache
-SPDXID: SPDXRef-Package281
+SPDXID: SPDXRef-Package288
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3100,7 +3177,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: paultag/sniff
 
 PackageName: paultag/sniff
-SPDXID: SPDXRef-Package282
+SPDXID: SPDXRef-Package289
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3111,7 +3188,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: pborman/uuid
 
 PackageName: pborman/uuid
-SPDXID: SPDXRef-Package283
+SPDXID: SPDXRef-Package290
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3122,7 +3199,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pelletier/go-buffruneio
 
 PackageName: pelletier/go-buffruneio
-SPDXID: SPDXRef-Package284
+SPDXID: SPDXRef-Package291
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3133,7 +3210,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pelletier/go-toml
 
 PackageName: pelletier/go-toml
-SPDXID: SPDXRef-Package285
+SPDXID: SPDXRef-Package292
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3144,7 +3221,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: petar/GoLLRB
 
 PackageName: petar/GoLLRB
-SPDXID: SPDXRef-Package286
+SPDXID: SPDXRef-Package293
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3155,7 +3232,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: peterbourgon/diskv
 
 PackageName: peterbourgon/diskv
-SPDXID: SPDXRef-Package287
+SPDXID: SPDXRef-Package294
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3166,7 +3243,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pierrec/lz4
 
 PackageName: pierrec/lz4
-SPDXID: SPDXRef-Package288
+SPDXID: SPDXRef-Package295
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3177,7 +3254,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pierrec/xxHash
 
 PackageName: pierrec/xxHash
-SPDXID: SPDXRef-Package289
+SPDXID: SPDXRef-Package296
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3188,7 +3265,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pkg/browser
 
 PackageName: pkg/browser
-SPDXID: SPDXRef-Package290
+SPDXID: SPDXRef-Package297
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -3199,7 +3276,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pkg/errors
 
 PackageName: pkg/errors
-SPDXID: SPDXRef-Package291
+SPDXID: SPDXRef-Package298
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -3210,7 +3287,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pkg/profile
 
 PackageName: pkg/profile
-SPDXID: SPDXRef-Package292
+SPDXID: SPDXRef-Package299
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -3221,7 +3298,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pkg/sftp
 
 PackageName: pkg/sftp
-SPDXID: SPDXRef-Package293
+SPDXID: SPDXRef-Package300
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -3232,7 +3309,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pmezard/go-difflib
 
 PackageName: pmezard/go-difflib
-SPDXID: SPDXRef-Package294
+SPDXID: SPDXRef-Package301
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3243,7 +3320,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pquerna/cachecontrol
 
 PackageName: pquerna/cachecontrol
-SPDXID: SPDXRef-Package295
+SPDXID: SPDXRef-Package302
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -3254,7 +3331,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: pquerna/ffjson
 
 PackageName: pquerna/ffjson
-SPDXID: SPDXRef-Package296
+SPDXID: SPDXRef-Package303
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0 AND ISC
@@ -3265,7 +3342,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: prometheus/client_golang
 
 PackageName: prometheus/client_golang
-SPDXID: SPDXRef-Package297
+SPDXID: SPDXRef-Package304
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0 AND MIT
@@ -3276,7 +3353,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: prometheus/client_model
 
 PackageName: prometheus/client_model
-SPDXID: SPDXRef-Package298
+SPDXID: SPDXRef-Package305
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3287,7 +3364,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: prometheus/common
 
 PackageName: prometheus/common
-SPDXID: SPDXRef-Package299
+SPDXID: SPDXRef-Package306
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -3298,7 +3375,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: prometheus/procfs
 
 PackageName: prometheus/procfs
-SPDXID: SPDXRef-Package300
+SPDXID: SPDXRef-Package307
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3309,7 +3386,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: PuerkitoBio/purell
 
 PackageName: PuerkitoBio/purell
-SPDXID: SPDXRef-Package301
+SPDXID: SPDXRef-Package308
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3320,7 +3397,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: PuerkitoBio/urlesc
 
 PackageName: PuerkitoBio/urlesc
-SPDXID: SPDXRef-Package302
+SPDXID: SPDXRef-Package309
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3331,7 +3408,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: r2d4/external-storage
 
 PackageName: r2d4/external-storage
-SPDXID: SPDXRef-Package303
+SPDXID: SPDXRef-Package310
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3342,7 +3419,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: rackspace/gophercloud
 
 PackageName: rackspace/gophercloud
-SPDXID: SPDXRef-Package304
+SPDXID: SPDXRef-Package311
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3353,7 +3430,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: rancher/go-rancher
 
 PackageName: rancher/go-rancher
-SPDXID: SPDXRef-Package305
+SPDXID: SPDXRef-Package312
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3364,7 +3441,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: rcrowley/go-metrics
 
 PackageName: rcrowley/go-metrics
-SPDXID: SPDXRef-Package306
+SPDXID: SPDXRef-Package313
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause-FreeBSD
@@ -3375,7 +3452,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: renstrom/dedent
 
 PackageName: renstrom/dedent
-SPDXID: SPDXRef-Package307
+SPDXID: SPDXRef-Package314
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3386,7 +3463,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Rican7/retry
 
 PackageName: Rican7/retry
-SPDXID: SPDXRef-Package308
+SPDXID: SPDXRef-Package315
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3397,7 +3474,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: riemann/riemann-go-client
 
 PackageName: riemann/riemann-go-client
-SPDXID: SPDXRef-Package309
+SPDXID: SPDXRef-Package316
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3408,7 +3485,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: robfig/cron
 
 PackageName: robfig/cron
-SPDXID: SPDXRef-Package310
+SPDXID: SPDXRef-Package317
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3419,7 +3496,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: russross/blackfriday
 
 PackageName: russross/blackfriday
-SPDXID: SPDXRef-Package311
+SPDXID: SPDXRef-Package318
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -3430,7 +3507,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: samalba/dockerclient
 
 PackageName: samalba/dockerclient
-SPDXID: SPDXRef-Package312
+SPDXID: SPDXRef-Package319
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3441,7 +3518,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: satori/go.uuid
 
 PackageName: satori/go.uuid
-SPDXID: SPDXRef-Package313
+SPDXID: SPDXRef-Package320
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3452,7 +3529,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: scalingdata/gcfg
 
 PackageName: scalingdata/gcfg
-SPDXID: SPDXRef-Package314
+SPDXID: SPDXRef-Package321
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
@@ -3463,7 +3540,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: sdboyer/constext
 
 PackageName: sdboyer/constext
-SPDXID: SPDXRef-Package315
+SPDXID: SPDXRef-Package322
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3474,7 +3551,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: seccomp/libseccomp-golang
 
 PackageName: seccomp/libseccomp-golang
-SPDXID: SPDXRef-Package316
+SPDXID: SPDXRef-Package323
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -3485,7 +3562,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: sergi/go-diff
 
 PackageName: sergi/go-diff
-SPDXID: SPDXRef-Package317
+SPDXID: SPDXRef-Package324
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3496,7 +3573,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Shopify/sarama
 
 PackageName: Shopify/sarama
-SPDXID: SPDXRef-Package318
+SPDXID: SPDXRef-Package325
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3507,7 +3584,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: shurcooL/githubv4
 
 PackageName: shurcooL/githubv4
-SPDXID: SPDXRef-Package319
+SPDXID: SPDXRef-Package326
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3518,7 +3595,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: shurcooL/go
 
 PackageName: shurcooL/go
-SPDXID: SPDXRef-Package320
+SPDXID: SPDXRef-Package327
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3529,7 +3606,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: shurcooL/graphql
 
 PackageName: shurcooL/graphql
-SPDXID: SPDXRef-Package321
+SPDXID: SPDXRef-Package328
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3540,7 +3617,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: shurcooL/sanitized_anchor_name
 
 PackageName: shurcooL/sanitized_anchor_name
-SPDXID: SPDXRef-Package322
+SPDXID: SPDXRef-Package329
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3551,7 +3628,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: sirupsen/logrus
 
 PackageName: sirupsen/logrus
-SPDXID: SPDXRef-Package323
+SPDXID: SPDXRef-Package330
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause AND MIT
@@ -3562,7 +3639,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: skynetservices/skydns
 
 PackageName: skynetservices/skydns
-SPDXID: SPDXRef-Package324
+SPDXID: SPDXRef-Package331
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -3573,7 +3650,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: smartystreets/go-aws-auth
 
 PackageName: smartystreets/go-aws-auth
-SPDXID: SPDXRef-Package325
+SPDXID: SPDXRef-Package332
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3584,7 +3661,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: soheilhy/cmux
 
 PackageName: soheilhy/cmux
-SPDXID: SPDXRef-Package326
+SPDXID: SPDXRef-Package333
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3595,7 +3672,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: spf13/afero
 
 PackageName: spf13/afero
-SPDXID: SPDXRef-Package327
+SPDXID: SPDXRef-Package334
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3606,7 +3683,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: spf13/cast
 
 PackageName: spf13/cast
-SPDXID: SPDXRef-Package328
+SPDXID: SPDXRef-Package335
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3617,7 +3694,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: spf13/cobra
 
 PackageName: spf13/cobra
-SPDXID: SPDXRef-Package329
+SPDXID: SPDXRef-Package336
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -3628,7 +3705,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: spf13/jwalterweatherman
 
 PackageName: spf13/jwalterweatherman
-SPDXID: SPDXRef-Package330
+SPDXID: SPDXRef-Package337
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3639,7 +3716,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: spf13/pflag
 
 PackageName: spf13/pflag
-SPDXID: SPDXRef-Package331
+SPDXID: SPDXRef-Package338
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3650,7 +3727,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: spf13/viper
 
 PackageName: spf13/viper
-SPDXID: SPDXRef-Package332
+SPDXID: SPDXRef-Package339
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3661,7 +3738,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: storageos/go-api
 
 PackageName: storageos/go-api
-SPDXID: SPDXRef-Package333
+SPDXID: SPDXRef-Package340
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND MIT
@@ -3672,7 +3749,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: streadway/quantile
 
 PackageName: streadway/quantile
-SPDXID: SPDXRef-Package334
+SPDXID: SPDXRef-Package341
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -3683,7 +3760,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: stretchr/objx
 
 PackageName: stretchr/objx
-SPDXID: SPDXRef-Package335
+SPDXID: SPDXRef-Package342
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3694,7 +3771,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: stretchr/testify
 
 PackageName: stretchr/testify
-SPDXID: SPDXRef-Package336
+SPDXID: SPDXRef-Package343
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3705,7 +3782,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: syndtr/gocapability
 
 PackageName: syndtr/gocapability
-SPDXID: SPDXRef-Package337
+SPDXID: SPDXRef-Package344
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -3716,7 +3793,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: tchap/go-patricia
 
 PackageName: tchap/go-patricia
-SPDXID: SPDXRef-Package338
+SPDXID: SPDXRef-Package345
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3727,7 +3804,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: thockin/glogr
 
 PackageName: thockin/glogr
-SPDXID: SPDXRef-Package339
+SPDXID: SPDXRef-Package346
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3738,7 +3815,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: thockin/logr
 
 PackageName: thockin/logr
-SPDXID: SPDXRef-Package340
+SPDXID: SPDXRef-Package347
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3749,7 +3826,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: tmc/grpc-websocket-proxy
 
 PackageName: tmc/grpc-websocket-proxy
-SPDXID: SPDXRef-Package341
+SPDXID: SPDXRef-Package348
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3760,7 +3837,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: tsenart/vegeta
 
 PackageName: tsenart/vegeta
-SPDXID: SPDXRef-Package342
+SPDXID: SPDXRef-Package349
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3771,7 +3848,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: ugorji/go
 
 PackageName: ugorji/go
-SPDXID: SPDXRef-Package343
+SPDXID: SPDXRef-Package350
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3782,7 +3859,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: Unknwon/goconfig
 
 PackageName: Unknwon/goconfig
-SPDXID: SPDXRef-Package344
+SPDXID: SPDXRef-Package351
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3793,7 +3870,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: urfave/cli
 
 PackageName: urfave/cli
-SPDXID: SPDXRef-Package345
+SPDXID: SPDXRef-Package352
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3804,7 +3881,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: vishvananda/netlink
 
 PackageName: vishvananda/netlink
-SPDXID: SPDXRef-Package346
+SPDXID: SPDXRef-Package353
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3815,7 +3892,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: vishvananda/netns
 
 PackageName: vishvananda/netns
-SPDXID: SPDXRef-Package347
+SPDXID: SPDXRef-Package354
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3826,7 +3903,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: vmware/govmomi
 
 PackageName: vmware/govmomi
-SPDXID: SPDXRef-Package348
+SPDXID: SPDXRef-Package355
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -3837,7 +3914,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: vmware/photon-controller-go-sdk
 
 PackageName: vmware/photon-controller-go-sdk
-SPDXID: SPDXRef-Package349
+SPDXID: SPDXRef-Package356
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -3848,7 +3925,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: weaveworks/mesh
 
 PackageName: weaveworks/mesh
-SPDXID: SPDXRef-Package350
+SPDXID: SPDXRef-Package357
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3859,7 +3936,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: xanzy/go-cloudstack
 
 PackageName: xanzy/go-cloudstack
-SPDXID: SPDXRef-Package351
+SPDXID: SPDXRef-Package358
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3870,7 +3947,7 @@ PackageComment: Project: Kubernetes. Status: apache-2.0. Apache-2.0, no approval
 ##### Package: xeipuuv/gojsonpointer
 
 PackageName: xeipuuv/gojsonpointer
-SPDXID: SPDXRef-Package352
+SPDXID: SPDXRef-Package359
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3881,7 +3958,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: xeipuuv/gojsonreference
 
 PackageName: xeipuuv/gojsonreference
-SPDXID: SPDXRef-Package353
+SPDXID: SPDXRef-Package360
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3892,7 +3969,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: xeipuuv/gojsonschema
 
 PackageName: xeipuuv/gojsonschema
-SPDXID: SPDXRef-Package354
+SPDXID: SPDXRef-Package361
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -3903,7 +3980,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: xiang90/probing
 
 PackageName: xiang90/probing
-SPDXID: SPDXRef-Package355
+SPDXID: SPDXRef-Package362
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3914,7 +3991,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: zakjan/cert-chain-resolver
 
 PackageName: zakjan/cert-chain-resolver
-SPDXID: SPDXRef-Package356
+SPDXID: SPDXRef-Package363
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3925,7 +4002,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: ziutek/syslog
 
 PackageName: ziutek/syslog
-SPDXID: SPDXRef-Package357
+SPDXID: SPDXRef-Package364
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -3936,7 +4013,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: go.opencensus.io
 
 PackageName: go.opencensus.io
-SPDXID: SPDXRef-Package358
+SPDXID: SPDXRef-Package365
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3947,7 +4024,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: go.uber.org/atomic
 
 PackageName: go.uber.org/atomic
-SPDXID: SPDXRef-Package359
+SPDXID: SPDXRef-Package366
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3958,7 +4035,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: go.uber.org/multierr
 
 PackageName: go.uber.org/multierr
-SPDXID: SPDXRef-Package360
+SPDXID: SPDXRef-Package367
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3969,7 +4046,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: go.uber.org/zap
 
 PackageName: go.uber.org/zap
-SPDXID: SPDXRef-Package361
+SPDXID: SPDXRef-Package368
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -3980,7 +4057,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: go4.org/errorutil
 
 PackageName: go4.org/errorutil
-SPDXID: SPDXRef-Package362
+SPDXID: SPDXRef-Package369
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -3991,7 +4068,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: x/build
 
 PackageName: x/build
-SPDXID: SPDXRef-Package363
+SPDXID: SPDXRef-Package370
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -4002,7 +4079,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: x/exp
 
 PackageName: x/exp
-SPDXID: SPDXRef-Package364
+SPDXID: SPDXRef-Package371
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -4013,7 +4090,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: x/lint
 
 PackageName: x/lint
-SPDXID: SPDXRef-Package365
+SPDXID: SPDXRef-Package372
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4024,7 +4101,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: x/oauth2
 
 PackageName: x/oauth2
-SPDXID: SPDXRef-Package366
+SPDXID: SPDXRef-Package373
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4035,7 +4112,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: x/sync
 
 PackageName: x/sync
-SPDXID: SPDXRef-Package367
+SPDXID: SPDXRef-Package374
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -4046,7 +4123,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: x/sys
 
 PackageName: x/sys
-SPDXID: SPDXRef-Package368
+SPDXID: SPDXRef-Package375
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause
@@ -4057,7 +4134,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: x/text
 
 PackageName: x/text
-SPDXID: SPDXRef-Package369
+SPDXID: SPDXRef-Package376
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -4068,7 +4145,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: x/time
 
 PackageName: x/time
-SPDXID: SPDXRef-Package370
+SPDXID: SPDXRef-Package377
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -4079,7 +4156,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: x/tools
 
 PackageName: x/tools
-SPDXID: SPDXRef-Package371
+SPDXID: SPDXRef-Package378
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND Apache-2.0 AND MIT
@@ -4090,7 +4167,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: golang/archive/tar
 
 PackageName: golang/archive/tar
-SPDXID: SPDXRef-Package372
+SPDXID: SPDXRef-Package379
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4101,7 +4178,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gonum.org/v1/gonum
 
 PackageName: gonum.org/v1/gonum
-SPDXID: SPDXRef-Package373
+SPDXID: SPDXRef-Package380
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause OR CC0-1.0 AND BSD-3-Clause
@@ -4112,7 +4189,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: google.golang.org/cloud
 
 PackageName: google.golang.org/cloud
-SPDXID: SPDXRef-Package374
+SPDXID: SPDXRef-Package381
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -4123,7 +4200,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: google.golang.org/genproto
 
 PackageName: google.golang.org/genproto
-SPDXID: SPDXRef-Package375
+SPDXID: SPDXRef-Package382
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -4134,7 +4211,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: gopkg.in/check.v1
 
 PackageName: gopkg.in/check.v1
-SPDXID: SPDXRef-Package376
+SPDXID: SPDXRef-Package383
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
@@ -4145,7 +4222,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/cheggaaa/pb.v1
 
 PackageName: gopkg.in/cheggaaa/pb.v1
-SPDXID: SPDXRef-Package377
+SPDXID: SPDXRef-Package384
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4156,7 +4233,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/fsnotify
 
 PackageName: gopkg.in/fsnotify
-SPDXID: SPDXRef-Package378
+SPDXID: SPDXRef-Package385
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4167,7 +4244,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/gcfg.v1
 
 PackageName: gopkg.in/gcfg.v1
-SPDXID: SPDXRef-Package379
+SPDXID: SPDXRef-Package386
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4178,7 +4255,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/go-playground/pool.v3
 
 PackageName: gopkg.in/go-playground/pool.v3
-SPDXID: SPDXRef-Package380
+SPDXID: SPDXRef-Package387
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4189,7 +4266,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/igm/sockjs-go.v2
 
 PackageName: gopkg.in/igm/sockjs-go.v2
-SPDXID: SPDXRef-Package381
+SPDXID: SPDXRef-Package388
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4200,7 +4277,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/inf.v0
 
 PackageName: gopkg.in/inf.v0
-SPDXID: SPDXRef-Package382
+SPDXID: SPDXRef-Package389
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4211,7 +4288,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/natefinch/lumberjack.v2
 
 PackageName: gopkg.in/natefinch/lumberjack.v2
-SPDXID: SPDXRef-Package383
+SPDXID: SPDXRef-Package390
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4222,7 +4299,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/olivere/elastic.v3
 
 PackageName: gopkg.in/olivere/elastic.v3
-SPDXID: SPDXRef-Package384
+SPDXID: SPDXRef-Package391
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -4233,7 +4310,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/olivere/elastic.v5
 
 PackageName: gopkg.in/olivere/elastic.v5
-SPDXID: SPDXRef-Package385
+SPDXID: SPDXRef-Package392
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -4244,7 +4321,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/robfig/cron.v2
 
 PackageName: gopkg.in/robfig/cron.v2
-SPDXID: SPDXRef-Package386
+SPDXID: SPDXRef-Package393
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4255,7 +4332,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/square/go-jose.v2
 
 PackageName: gopkg.in/square/go-jose.v2
-SPDXID: SPDXRef-Package387
+SPDXID: SPDXRef-Package394
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -4266,7 +4343,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: gopkg.in/src-d
 
 PackageName: gopkg.in/src-d
-SPDXID: SPDXRef-Package388
+SPDXID: SPDXRef-Package395
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0
@@ -4277,7 +4354,7 @@ PackageComment: Project: All CNCF Projects. Status: apache-2.0. Apache-2.0, no a
 ##### Package: gopkg.in/tomb.v1
 
 PackageName: gopkg.in/tomb.v1
-SPDXID: SPDXRef-Package389
+SPDXID: SPDXRef-Package396
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4288,7 +4365,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: jquery.scrollto
 
 PackageName: jquery.scrollto
-SPDXID: SPDXRef-Package390
+SPDXID: SPDXRef-Package397
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4299,7 +4376,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: marked
 
 PackageName: marked
-SPDXID: SPDXRef-Package391
+SPDXID: SPDXRef-Package398
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -4310,7 +4387,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: mime
 
 PackageName: mime
-SPDXID: SPDXRef-Package392
+SPDXID: SPDXRef-Package399
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4321,7 +4398,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: minimist
 
 PackageName: minimist
-SPDXID: SPDXRef-Package393
+SPDXID: SPDXRef-Package400
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4332,7 +4409,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: node-static
 
 PackageName: node-static
-SPDXID: SPDXRef-Package394
+SPDXID: SPDXRef-Package401
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4343,7 +4420,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: optimist
 
 PackageName: optimist
-SPDXID: SPDXRef-Package395
+SPDXID: SPDXRef-Package402
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4354,7 +4431,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: ui-router for Angular
 
 PackageName: ui-router for Angular
-SPDXID: SPDXRef-Package396
+SPDXID: SPDXRef-Package403
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4365,7 +4442,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: vbom.ml/util
 
 PackageName: vbom.ml/util
-SPDXID: SPDXRef-Package397
+SPDXID: SPDXRef-Package404
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4376,7 +4453,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: wordwrap
 
 PackageName: wordwrap
-SPDXID: SPDXRef-Package398
+SPDXID: SPDXRef-Package405
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4387,7 +4464,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: VirtualBox Linux Guest Drivers Makefile
 
 PackageName: VirtualBox Linux Guest Drivers Makefile
-SPDXID: SPDXRef-Package399
+SPDXID: SPDXRef-Package406
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: GPL-2.0-only
@@ -4398,7 +4475,7 @@ PackageComment: Project: Kubernetes. Scope: Approved ONLY as an OPTIONl subdepen
 ##### Package: Angular
 
 PackageName: Angular
-SPDXID: SPDXRef-Package400
+SPDXID: SPDXRef-Package407
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4409,7 +4486,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Asciidoctor
 
 PackageName: Asciidoctor
-SPDXID: SPDXRef-Package401
+SPDXID: SPDXRef-Package408
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4420,7 +4497,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Azure acr-docker-credential-helper
 
 PackageName: Azure acr-docker-credential-helper
-SPDXID: SPDXRef-Package402
+SPDXID: SPDXRef-Package409
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4431,7 +4508,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: Backbone
 
 PackageName: Backbone
-SPDXID: SPDXRef-Package403
+SPDXID: SPDXRef-Package410
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4442,7 +4519,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: bitbucket.org/bertimus9/systemstat
 
 PackageName: bitbucket.org/bertimus9/systemstat
-SPDXID: SPDXRef-Package404
+SPDXID: SPDXRef-Package411
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4453,7 +4530,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: bitbucket.org/ww/goautoneg
 
 PackageName: bitbucket.org/ww/goautoneg
-SPDXID: SPDXRef-Package405
+SPDXID: SPDXRef-Package412
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4464,7 +4541,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: bootstrap
 
 PackageName: bootstrap
-SPDXID: SPDXRef-Package406
+SPDXID: SPDXRef-Package413
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-3.0 AND MIT
@@ -4475,7 +4552,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: dialog-polyfill.css
 
 PackageName: dialog-polyfill.css
-SPDXID: SPDXRef-Package407
+SPDXID: SPDXRef-Package414
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4486,7 +4563,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: font-awesome
 
 PackageName: font-awesome
-SPDXID: SPDXRef-Package408
+SPDXID: SPDXRef-Package415
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-3.0 AND MIT AND OFL-1.1
@@ -4497,7 +4574,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Gingko
 
 PackageName: Gingko
-SPDXID: SPDXRef-Package409
+SPDXID: SPDXRef-Package416
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4508,7 +4585,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Azure/azure-pipeline-go
 
 PackageName: Azure/azure-pipeline-go
-SPDXID: SPDXRef-Package410
+SPDXID: SPDXRef-Package417
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4519,7 +4596,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: bungle/lua-resty-template
 
 PackageName: bungle/lua-resty-template
-SPDXID: SPDXRef-Package411
+SPDXID: SPDXRef-Package418
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4530,7 +4607,7 @@ PackageComment: Project: Ingress-Nginx. Scope: No scope restrictions. Status: ap
 ##### Package: c4milo/gotoolkit
 
 PackageName: c4milo/gotoolkit
-SPDXID: SPDXRef-Package412
+SPDXID: SPDXRef-Package419
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4541,7 +4618,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: client9/misspell
 
 PackageName: client9/misspell
-SPDXID: SPDXRef-Package413
+SPDXID: SPDXRef-Package420
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Unlicense AND BSD-3-Clause AND MIT
@@ -4552,7 +4629,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: d2g/dhcp4
 
 PackageName: d2g/dhcp4
-SPDXID: SPDXRef-Package414
+SPDXID: SPDXRef-Package421
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4563,7 +4640,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: d2g/dhcp4client
 
 PackageName: d2g/dhcp4client
-SPDXID: SPDXRef-Package415
+SPDXID: SPDXRef-Package422
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4574,7 +4651,7 @@ PackageComment: Project: Kubernetes. Scope: Allowed only if the dependency is ei
 ##### Package: dgryski/go-onlinestats
 
 PackageName: dgryski/go-onlinestats
-SPDXID: SPDXRef-Package416
+SPDXID: SPDXRef-Package423
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT AND LicenseRef-Public-domain-statement
@@ -4585,7 +4662,7 @@ PackageComment: Project: OpenTelemetry. Scope: No scope restrictions. Status: ap
 ##### Package: docker/go-units
 
 PackageName: docker/go-units
-SPDXID: SPDXRef-Package417
+SPDXID: SPDXRef-Package424
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-SA-4.0 AND CC-BY-4.0 AND Apache-2.0
@@ -4596,7 +4673,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: docker/spdystream
 
 PackageName: docker/spdystream
-SPDXID: SPDXRef-Package418
+SPDXID: SPDXRef-Package425
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-SA-4.0 AND CC-BY-4.0 AND BSD-3-Clause AND Apache-2.0
@@ -4607,7 +4684,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: go-sql-driver/mysql
 
 PackageName: go-sql-driver/mysql
-SPDXID: SPDXRef-Package419
+SPDXID: SPDXRef-Package426
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4618,7 +4695,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: gonum/graph
 
 PackageName: gonum/graph
-SPDXID: SPDXRef-Package420
+SPDXID: SPDXRef-Package427
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4629,7 +4706,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: google/go-github
 
 PackageName: google/go-github
-SPDXID: SPDXRef-Package421
+SPDXID: SPDXRef-Package428
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND CC-BY-3.0
@@ -4640,7 +4717,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: grpc-ecosystem/grpc-opentracing
 
 PackageName: grpc-ecosystem/grpc-opentracing
-SPDXID: SPDXRef-Package422
+SPDXID: SPDXRef-Package429
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC
@@ -4651,7 +4728,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: hashicorp/errwrap
 
 PackageName: hashicorp/errwrap
-SPDXID: SPDXRef-Package423
+SPDXID: SPDXRef-Package430
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4662,7 +4739,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-cleanhttp
 
 PackageName: hashicorp/go-cleanhttp
-SPDXID: SPDXRef-Package424
+SPDXID: SPDXRef-Package431
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4673,7 +4750,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/go-multierror
 
 PackageName: hashicorp/go-multierror
-SPDXID: SPDXRef-Package425
+SPDXID: SPDXRef-Package432
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4684,7 +4761,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/golang-lru
 
 PackageName: hashicorp/golang-lru
-SPDXID: SPDXRef-Package426
+SPDXID: SPDXRef-Package433
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4695,7 +4772,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hashicorp/hcl
 
 PackageName: hashicorp/hcl
-SPDXID: SPDXRef-Package427
+SPDXID: SPDXRef-Package434
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4706,7 +4783,7 @@ PackageComment: Project: All CNCF Projects. Scope: Allowed only if the dependenc
 ##### Package: hooklift/iso9660
 
 PackageName: hooklift/iso9660
-SPDXID: SPDXRef-Package428
+SPDXID: SPDXRef-Package435
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MPL-2.0
@@ -4717,7 +4794,7 @@ PackageComment: Project: Kubernetes. Scope: Allowed only if the dependency is ei
 ##### Package: howeyc/gopass
 
 PackageName: howeyc/gopass
-SPDXID: SPDXRef-Package429
+SPDXID: SPDXRef-Package436
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: ISC AND CDDL-1.0
@@ -4728,7 +4805,7 @@ PackageComment: Project: Kubernetes. Scope: Allowed only if the dependency files
 ##### Package: jbenet/go-context
 
 PackageName: jbenet/go-context
-SPDXID: SPDXRef-Package430
+SPDXID: SPDXRef-Package437
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4739,7 +4816,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: JeffAshton/win_pdh
 
 PackageName: JeffAshton/win_pdh
-SPDXID: SPDXRef-Package431
+SPDXID: SPDXRef-Package438
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4750,7 +4827,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: jmank88/nuts
 
 PackageName: jmank88/nuts
-SPDXID: SPDXRef-Package432
+SPDXID: SPDXRef-Package439
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4761,7 +4838,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: johanneswuerbach/nfsexports
 
 PackageName: johanneswuerbach/nfsexports
-SPDXID: SPDXRef-Package433
+SPDXID: SPDXRef-Package440
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4772,7 +4849,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: joshdk/go-junit
 
 PackageName: joshdk/go-junit
-SPDXID: SPDXRef-Package434
+SPDXID: SPDXRef-Package441
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4783,7 +4860,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: jteeuwen/go-bindata
 
 PackageName: jteeuwen/go-bindata
-SPDXID: SPDXRef-Package435
+SPDXID: SPDXRef-Package442
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC0-1.0
@@ -4794,7 +4871,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: konsorten/go-windows-terminal-sequences
 
 PackageName: konsorten/go-windows-terminal-sequences
-SPDXID: SPDXRef-Package436
+SPDXID: SPDXRef-Package443
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4805,7 +4882,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: marstr/guid
 
 PackageName: marstr/guid
-SPDXID: SPDXRef-Package437
+SPDXID: SPDXRef-Package444
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4816,7 +4893,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: mattn/go-sqlite3
 
 PackageName: mattn/go-sqlite3
-SPDXID: SPDXRef-Package438
+SPDXID: SPDXRef-Package445
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT AND LicenseRef-Public-domain-statement
@@ -4827,7 +4904,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: multiarch/qemu-user-static
 
 PackageName: multiarch/qemu-user-static
-SPDXID: SPDXRef-Package439
+SPDXID: SPDXRef-Package446
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4838,7 +4915,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Nvveen/Gotty
 
 PackageName: Nvveen/Gotty
-SPDXID: SPDXRef-Package440
+SPDXID: SPDXRef-Package447
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause-FreeBSD
@@ -4849,7 +4926,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: opencontainers/go-digest
 
 PackageName: opencontainers/go-digest
-SPDXID: SPDXRef-Package441
+SPDXID: SPDXRef-Package448
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-SA-4.0 AND CC-BY-4.0 AND Apache-2.0
@@ -4860,7 +4937,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: opencontainers/runc
 
 PackageName: opencontainers/runc
-SPDXID: SPDXRef-Package442
+SPDXID: SPDXRef-Package449
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: CC-BY-4.0 AND Apache-2.0
@@ -4871,7 +4948,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: quobyte/api
 
 PackageName: quobyte/api
-SPDXID: SPDXRef-Package443
+SPDXID: SPDXRef-Package450
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4882,7 +4959,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: rubiojr/go-vhd
 
 PackageName: rubiojr/go-vhd
-SPDXID: SPDXRef-Package444
+SPDXID: SPDXRef-Package451
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -4893,7 +4970,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: sigma/go-inotify
 
 PackageName: sigma/go-inotify
-SPDXID: SPDXRef-Package445
+SPDXID: SPDXRef-Package452
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -4904,7 +4981,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: spotinst/spotinst-sdk-go
 
 PackageName: spotinst/spotinst-sdk-go
-SPDXID: SPDXRef-Package446
+SPDXID: SPDXRef-Package453
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0 AND MIT
@@ -4915,7 +4992,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: src-d/gcfg
 
 PackageName: src-d/gcfg
-SPDXID: SPDXRef-Package447
+SPDXID: SPDXRef-Package454
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4926,7 +5003,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: tent/http-link-go
 
 PackageName: tent/http-link-go
-SPDXID: SPDXRef-Package448
+SPDXID: SPDXRef-Package455
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4937,7 +5014,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: xanzy/ssh-agent
 
 PackageName: xanzy/ssh-agent
-SPDXID: SPDXRef-Package449
+SPDXID: SPDXRef-Package456
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: Apache-2.0 AND MIT
@@ -4948,7 +5025,7 @@ PackageComment: Project: OpenTelemetry. Scope: No scope restrictions. Status: ap
 ##### Package: zchee/go-vmnet
 
 PackageName: zchee/go-vmnet
-SPDXID: SPDXRef-Package450
+SPDXID: SPDXRef-Package457
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
@@ -4959,7 +5036,7 @@ PackageComment: Project: Kubernetes & Minikube. Scope: No scope restrictions. St
 ##### Package: go-srcimporter
 
 PackageName: go-srcimporter
-SPDXID: SPDXRef-Package451
+SPDXID: SPDXRef-Package458
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4970,7 +5047,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: go9p
 
 PackageName: go9p
-SPDXID: SPDXRef-Package452
+SPDXID: SPDXRef-Package459
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4981,7 +5058,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: godep
 
 PackageName: godep
-SPDXID: SPDXRef-Package453
+SPDXID: SPDXRef-Package460
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -4992,7 +5069,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: x/crypto
 
 PackageName: x/crypto
-SPDXID: SPDXRef-Package454
+SPDXID: SPDXRef-Package461
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND MIT AND LicenseRef-Public-domain-statement
@@ -5003,7 +5080,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: x/net
 
 PackageName: x/net
-SPDXID: SPDXRef-Package455
+SPDXID: SPDXRef-Package462
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause AND CC-BY-3.0 AND BSD-3-Clause OR LicenseRef-W3C-Test-Suite-License-1
@@ -5014,7 +5091,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: golang/expansion
 
 PackageName: golang/expansion
-SPDXID: SPDXRef-Package456
+SPDXID: SPDXRef-Package463
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -5025,7 +5102,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: golang/go/types
 
 PackageName: golang/go/types
-SPDXID: SPDXRef-Package457
+SPDXID: SPDXRef-Package464
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -5036,7 +5113,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: golang/internal/srcimporter
 
 PackageName: golang/internal/srcimporter
-SPDXID: SPDXRef-Package458
+SPDXID: SPDXRef-Package465
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -5047,7 +5124,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: golang/json
 
 PackageName: golang/json
-SPDXID: SPDXRef-Package459
+SPDXID: SPDXRef-Package466
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -5058,7 +5135,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: golang/netutil
 
 PackageName: golang/netutil
-SPDXID: SPDXRef-Package460
+SPDXID: SPDXRef-Package467
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -5069,7 +5146,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: golang/reflect
 
 PackageName: golang/reflect
-SPDXID: SPDXRef-Package461
+SPDXID: SPDXRef-Package468
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -5080,7 +5157,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: golang/template
 
 PackageName: golang/template
-SPDXID: SPDXRef-Package462
+SPDXID: SPDXRef-Package469
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause
@@ -5091,7 +5168,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Google Protocol Buffers
 
 PackageName: Google Protocol Buffers
-SPDXID: SPDXRef-Package463
+SPDXID: SPDXRef-Package470
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -5102,7 +5179,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: google.golang.org/api
 
 PackageName: google.golang.org/api
-SPDXID: SPDXRef-Package464
+SPDXID: SPDXRef-Package471
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0 AND MIT
@@ -5113,7 +5190,7 @@ PackageComment: Project: All CNCF Projects. Scope: See Allowlist Policy requirem
 ##### Package: google.golang.org/appengine
 
 PackageName: google.golang.org/appengine
-SPDXID: SPDXRef-Package465
+SPDXID: SPDXRef-Package472
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0
@@ -5124,7 +5201,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: google.golang.org/grpc
 
 PackageName: google.golang.org/grpc
-SPDXID: SPDXRef-Package466
+SPDXID: SPDXRef-Package473
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND Apache-2.0 AND LicenseRef-Google-Patents-Notice-GRPC
@@ -5135,7 +5212,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: gopkg.in/warnings.v0
 
 PackageName: gopkg.in/warnings.v0
-SPDXID: SPDXRef-Package467
+SPDXID: SPDXRef-Package474
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause
@@ -5146,7 +5223,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Handlebars
 
 PackageName: Handlebars
-SPDXID: SPDXRef-Package468
+SPDXID: SPDXRef-Package475
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5157,7 +5234,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Highlight
 
 PackageName: Highlight
-SPDXID: SPDXRef-Package469
+SPDXID: SPDXRef-Package476
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -5168,7 +5245,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: highlight.js
 
 PackageName: highlight.js
-SPDXID: SPDXRef-Package470
+SPDXID: SPDXRef-Package477
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT AND CC0-1.0 AND LicenseRef-Public-domain-statement
@@ -5179,7 +5256,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: htpasswd
 
 PackageName: htpasswd
-SPDXID: SPDXRef-Package471
+SPDXID: SPDXRef-Package478
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -5190,7 +5267,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: jQuery
 
 PackageName: jQuery
-SPDXID: SPDXRef-Package472
+SPDXID: SPDXRef-Package479
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5201,7 +5278,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: jQuery BBQ
 
 PackageName: jQuery BBQ
-SPDXID: SPDXRef-Package473
+SPDXID: SPDXRef-Package480
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT OR GPL-2.0+
@@ -5212,7 +5289,7 @@ PackageComment: Project: All CNCF Projects. Scope: Any CNCF project using this d
 ##### Package: jQuery hashchange event
 
 PackageName: jQuery hashchange event
-SPDXID: SPDXRef-Package474
+SPDXID: SPDXRef-Package481
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: GPL-2.0+ OR MIT
@@ -5223,7 +5300,7 @@ PackageComment: Project: All CNCF Projects. Scope: Any CNCF project using this d
 ##### Package: jQuery Slideto
 
 PackageName: jQuery Slideto
-SPDXID: SPDXRef-Package475
+SPDXID: SPDXRef-Package482
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5234,7 +5311,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: jQuery Wiggle
 
 PackageName: jQuery Wiggle
-SPDXID: SPDXRef-Package476
+SPDXID: SPDXRef-Package483
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5245,7 +5322,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: moment.js
 
 PackageName: moment.js
-SPDXID: SPDXRef-Package477
+SPDXID: SPDXRef-Package484
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5256,7 +5333,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: normalize.css
 
 PackageName: normalize.css
-SPDXID: SPDXRef-Package478
+SPDXID: SPDXRef-Package485
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5267,7 +5344,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Octicons
 
 PackageName: Octicons
-SPDXID: SPDXRef-Package479
+SPDXID: SPDXRef-Package486
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5278,7 +5355,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: parseUri
 
 PackageName: parseUri
-SPDXID: SPDXRef-Package480
+SPDXID: SPDXRef-Package487
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5289,7 +5366,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Pause
 
 PackageName: Pause
-SPDXID: SPDXRef-Package481
+SPDXID: SPDXRef-Package488
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
@@ -5300,7 +5377,7 @@ PackageComment: Project: Kubernetes. Scope: No scope restrictions. Status: appro
 ##### Package: Pure CSS
 
 PackageName: Pure CSS
-SPDXID: SPDXRef-Package482
+SPDXID: SPDXRef-Package489
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -5311,7 +5388,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: shred
 
 PackageName: shred
-SPDXID: SPDXRef-Package483
+SPDXID: SPDXRef-Package490
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: ISC
@@ -5322,7 +5399,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: sigs.k8s.io/yaml
 
 PackageName: sigs.k8s.io/yaml
-SPDXID: SPDXRef-Package484
+SPDXID: SPDXRef-Package491
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause AND MIT
@@ -5333,7 +5410,7 @@ PackageComment: Project: Kubernetes. Scope: Approved for Kubernetes only. Status
 ##### Package: speter.net/go/exp
 
 PackageName: speter.net/go/exp
-SPDXID: SPDXRef-Package485
+SPDXID: SPDXRef-Package492
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-2-Clause AND BSD-3-Clause
@@ -5344,7 +5421,7 @@ PackageComment: Project: Oopentelemetry. Scope: No scope restrictions. Status: a
 ##### Package: sprintf() for JavaScript
 
 PackageName: sprintf() for JavaScript
-SPDXID: SPDXRef-Package486
+SPDXID: SPDXRef-Package493
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: BSD-3-Clause
@@ -5355,7 +5432,7 @@ PackageComment: Project: All CNCF Projects. Scope: No scope restrictions. Status
 ##### Package: Underscore.js
 
 PackageName: Underscore.js
-SPDXID: SPDXRef-Package487
+SPDXID: SPDXRef-Package494
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
 PackageLicenseConcluded: MIT
