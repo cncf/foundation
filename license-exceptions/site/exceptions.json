@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-02-04",
+  "lastUpdated": "2026-06-01",
   "blanketExceptions": [],
   "exceptions": [
     {
@@ -8,9 +8,9 @@
       "package": "eclipse-ee4j/expressly",
       "license": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
       "project": "Keycloak",
-      "approvedDate": "2026-02-05",
+      "approvedDate": "2025-01-12",
       "status": "approved",
-      "scope": "required upstream dependency, dynamically linked, unmodified",
+      "scope": "Approved for dynamic linking only (static linking not permitted); furthermore, the dependency must be used in unmodified form",
       "results": "https://github.com/cncf/foundation/issues/1177",
       "comment": "Default implementation of Jakarta Expression Language 6.0, transitive dependency for Hibernate Validator"
     },
@@ -19,9 +19,9 @@
       "package": "libpathrs",
       "license": "MPL-2.0 OR LGPL-3.0-or-later",
       "project": "All CNCF Projects",
-      "approvedDate": "2026-02-05",
+      "approvedDate": "2025-01-12",
       "status": "approved",
-      "scope": "vendored component, build-time dependency, or install-time dependency; statically or dynamically linked",
+      "scope": "Any CNCF project using libpathrs as a statically linked dependency MUST elect to do so under MPL-2.0 (rather than LGPL-3.0) and declare such election in its documentation. Furthermore, to minimize compliance burdens for CNCF projects and downstream users, it is strongly recommended that projects using libpathrs as a dynamically linked dependency also elect to do so under MPL-2.0 (rather than LGPL-3.0). Furthermore, libpathrs must be maintained either (a) in a distinct directory or module clearly separated from CNCF project code, or (b) retrieved at build/installation time from a third-party repository.",
       "results": "https://github.com/cncf/foundation/issues/1154",
       "comment": "Blanket exception: Projects using libpathrs statically linked MUST elect MPL-2.0 and document this. Provides secure path resolution APIs."
     },
@@ -30,9 +30,9 @@
       "package": "go-pathrs",
       "license": "MPL-2.0",
       "project": "All CNCF Projects",
-      "approvedDate": "2026-02-05",
+      "approvedDate": "2025-01-12",
       "status": "approved",
-      "scope": "vendored component, build-time dependency, or install-time dependency; statically or dynamically linked",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "results": "https://github.com/cncf/foundation/issues/1154",
       "comment": "Blanket exception: Go bindings for libpathrs. Provides secure path resolution APIs."
     },
@@ -43,18 +43,18 @@
       "project": "All CNCF Projects",
       "approvedDate": "2025-11-21",
       "status": "approved",
-      "scope": "vendored component, build-time dependency, or install-time dependency; statically or dynamically linked",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "results": "https://github.com/cncf/foundation/issues/1154",
       "comment": "Blanket exception: Provides secure path resolution APIs on Linux. Used by Kubernetes, containerd, Podman, buildah, cri-o, nerdctl."
     },
     {
       "id": "exc-2025-11-21-002",
       "package": "Liquibase",
-      "license": "FSL (Functional Source License)",
+      "license": "FSL Functional Source License",
       "project": "Keycloak",
       "approvedDate": "2025-11-21",
       "status": "denied",
-      "scope": "incorporated code, dynamically linked",
+      "scope": "Not Applicable (Denied)",
       "results": "https://github.com/cncf/foundation/issues/1147",
       "comment": "Denied: FSL is not an open source license. GB does not approve exceptions for non-OSS licenses."
     },
@@ -65,7 +65,7 @@
       "project": "oscal-compass",
       "approvedDate": "2025-10-17",
       "status": "approved",
-      "scope": "build-time dependency, dynamically linked",
+      "scope": "Approved only for dynamic linking (static linking is not approved)",
       "results": "https://github.com/cncf/foundation/issues/1108",
       "comment": "Pure-Python SSHv2 protocol implementation, used for fetching files"
     },
@@ -76,7 +76,7 @@
       "project": "oscal-compass",
       "approvedDate": "2025-10-17",
       "status": "approved",
-      "scope": "install-time dependency, dynamically linked",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "results": "https://github.com/cncf/foundation/issues/1091",
       "comment": "Dependency for requests library"
     },
@@ -87,7 +87,7 @@
       "project": "oscal-compass",
       "approvedDate": "2025-10-17",
       "status": "approved",
-      "scope": "build-time dependency, separate process",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "results": "https://github.com/cncf/foundation/issues/1090",
       "comment": "Dependency for black, mkdocs, mypy"
     },
@@ -98,7 +98,7 @@
       "project": "Kubernetes",
       "approvedDate": "2025-10-17",
       "status": "approved",
-      "scope": "vendored component, build-time dependency, statically linked",
+      "scope": "No scope restrictions",
       "results": "https://github.com/cncf/foundation/issues/1074",
       "comment": "Provides secure path construction functions. Superseded by blanket exception in issue #1154."
     },
@@ -109,7 +109,7 @@
       "project": "Crossplane",
       "approvedDate": "2024-10-23",
       "status": "approved",
-      "scope": "build-time dependency, modified fork",
+      "scope": "Allowed only if the modified fork is stored in a seperate designated folder separate from the project's own code",
       "results": "https://github.com/cncf/foundation/issues/818",
       "comment": "Fork maintained for Crossplane providers, changes contributed upstream"
     },
@@ -120,7 +120,7 @@
       "project": "Crossplane",
       "approvedDate": "2024-10-23",
       "status": "approved",
-      "scope": "build-time dependency, modified fork",
+      "scope": "Allowed only if the modified fork is stored in a seperate designated folder separate from the project's own code",
       "results": "https://github.com/cncf/foundation/issues/818",
       "comment": "Fork maintained for Crossplane providers, changes contributed upstream"
     },
@@ -131,7 +131,7 @@
       "project": "Crossplane",
       "approvedDate": "2024-10-23",
       "status": "approved",
-      "scope": "build-time dependency, modified fork",
+      "scope": "Allowed only if the modified fork is stored in a seperate designated folder separate from the project's own code",
       "results": "https://github.com/cncf/foundation/issues/818",
       "comment": "Fork maintained for Crossplane providers, changes contributed upstream"
     },
@@ -142,7 +142,7 @@
       "project": "Connect",
       "approvedDate": "2024-10-23",
       "status": "approved",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "results": "https://github.com/cncf/foundation/issues/823",
       "comment": "Required for HTTP/2 + TLS with HTTP trailers on iOS. Also used by gRPC Swift."
     },
@@ -153,7 +153,7 @@
       "project": "Crossplane",
       "approvedDate": "2024-10-23",
       "status": "approved",
-      "scope": "build-time dependency, unmodified, linked at build time",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "results": "https://github.com/cncf/foundation/issues/787",
       "comment": "Various hashicorp terraform dependencies for Upjet: hcl, terraform-json, terraform-plugin-framework, terraform-plugin-go, terraform-plugin-sdk, go-plugin, go-uuid, go-version, logutils, terraform-plugin-log, terraform-registry-address, terraform-svchost, yamux"
     },
@@ -164,7 +164,7 @@
       "project": "containerd",
       "approvedDate": "2024-10-23",
       "status": "approved",
-      "scope": "kernel headers included via #include, no inline functions compiled in",
+      "scope": "Approved only for ue by containerd as described in the exception request",
       "results": "https://github.com/cncf/foundation/issues/174",
       "comment": "Used by containerd/btrfs for btrfs-related ioctl syscalls. Headers from linux/btrfs.h and linux/btrfs_tree.h."
     },
@@ -173,9 +173,9 @@
       "package": "github.com/hashicorp/go-set/v2",
       "license": "MPL-2.0",
       "project": "OpenFGA",
-      "approvedDate": "2024-10-22",
+      "approvedDate": "2024-10-23",
       "status": "approved",
-      "scope": "build-time dependency, linked at build time",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "results": "https://github.com/cncf/foundation/issues/830",
       "comment": "Unmodified code"
     },
@@ -184,9 +184,9 @@
       "package": "Keycloak Java dependencies",
       "license": "0BSD, CDDL-1.1, EPL-1.0, EPL-2.0, GPL-2.0-only, GPL-2.0-with-classpath-exception, LGPL-2.1, LGPL-2.1-only, MIT-0, MPL-2.0, UPL-1.0",
       "project": "Keycloak",
-      "approvedDate": "2024-10-22",
+      "approvedDate": "2024-10-23",
       "status": "approved",
-      "scope": "transitive dependencies from Quarkus framework, unmodified",
+      "scope": "Approved for use by Keycloak only in unmodified form",
       "results": "https://github.com/cncf/foundation/issues/817",
       "comment": "Multiple Java dependencies including: tslib, h2, mysql-connector-j, jakarta.* APIs, parsson, graalvm SDK, hibernate-*, mariadb-java-client, nashorn-core, reactive-streams"
     },
@@ -197,7 +197,7 @@
       "project": "kubernetes/kops",
       "approvedDate": "2024-07-16",
       "status": "approved",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "results": "https://github.com/cncf/foundation/issues/741",
       "comment": "Main component of Gossip DNS feature for peer-to-peer network K8s API address propagation"
     },
@@ -208,7 +208,7 @@
       "project": "Falco",
       "approvedDate": "2024-02-27",
       "status": "approved",
-      "scope": "kernel module, dual-licensed",
+      "scope": "Approved for use by Falco only",
       "results": "https://github.com/cncf/foundation/issues/645",
       "comment": "Falco's kernel module is dual-licensed GPL-2.0-only OR MIT"
     },
@@ -219,18 +219,19 @@
       "project": "All CNCF Projects",
       "approvedDate": "2023-08-31",
       "status": "approved",
-      "scope": "in-kernel eBPF programs only",
+      "scope": "Exception applies only to code that runs inside the kernel (not to any code running in the user-space)",
       "results": "https://github.com/cncf/foundation/blob/main/license-exceptions/README.md#gpl-exceptions-for-in-kernel-ebpf-programs",
       "comment": "Blanket exception: GPL-2.0 licensed code is permitted for in-kernel eBPF programs only, as this is required by the Linux kernel BPF subsystem."
     },
     {
       "id": "exc-2023-08-31-001",
-      "package": "github.com/docker/go-metrics",
+      "package": "github.com/docker/go-metrics documentation",
       "license": "CC-BY-SA 4.0",
       "approvedDate": "2023-08-31",
       "status": "approved",
-      "scope": "runtime dependency, statically linked",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+      "scope": "Approval applies only to use of documentation in unmodified form",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31",
+      "project": "Cilium"
     },
     {
       "id": "exc-2023-08-31-002",
@@ -238,7 +239,6 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-08-31",
       "status": "approved",
-      "scope": "runtime dependency, dynamically linked",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31",
       "results": "https://github.com/cncf/foundation/issues/400",
       "project": "Cilium"
@@ -249,8 +249,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-08-31",
       "status": "approved",
-      "scope": "build dependency",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31",
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2023-08-31-004",
@@ -258,7 +259,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-08-31",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-08-31",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-001",
@@ -268,7 +271,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/400",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Cilium"
     },
     {
@@ -279,7 +282,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/400",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Cilium"
     },
     {
@@ -290,7 +293,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/400",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Cilium"
     },
     {
@@ -301,7 +304,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/300",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2023-06-27-005",
@@ -311,7 +315,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/400",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Cilium"
     },
     {
@@ -320,7 +324,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-007",
@@ -328,7 +334,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-008",
@@ -336,7 +344,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-009",
@@ -346,7 +356,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/400",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Cilium"
     },
     {
@@ -357,7 +367,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/485",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2023-06-27-011",
@@ -367,7 +378,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/526",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Notary"
     },
     {
@@ -376,7 +387,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-013",
@@ -384,7 +397,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-014",
@@ -392,7 +407,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-015",
@@ -402,7 +419,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/300",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2023-06-27-016",
@@ -410,7 +428,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-017",
@@ -418,7 +438,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-018",
@@ -426,7 +448,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-019",
@@ -434,7 +458,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-020",
@@ -444,7 +470,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/297",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2023-06-27-021",
@@ -452,7 +479,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-022",
@@ -460,7 +489,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2023-06-27",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2023-06-27-023",
@@ -470,7 +501,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/485",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2023-06-27-024",
@@ -480,7 +512,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/400",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2023-06-27-025",
@@ -490,7 +523,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2023-06-27",
       "results": "https://github.com/cncf/foundation/issues/526",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Notary"
     },
     {
@@ -500,7 +533,8 @@
       "approvedDate": "2022-04-12",
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2022-04-12-002",
@@ -510,7 +544,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
       "results": "https://github.com/cncf/foundation/issues/297",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2022-04-12-003",
@@ -520,7 +555,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
       "results": "https://github.com/cncf/foundation/issues/297",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Dapr"
     },
     {
@@ -531,7 +566,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
       "results": "https://github.com/cncf/foundation/issues/297",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Dapr"
     },
     {
@@ -541,7 +576,8 @@
       "approvedDate": "2022-04-12",
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
-      "scope": "build-time dependency, unmodified"
+      "scope": "No scope restrictions",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2022-04-12-006",
@@ -551,7 +587,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
       "results": "https://github.com/cncf/foundation/issues/297",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2022-04-12-007",
@@ -560,7 +597,8 @@
       "approvedDate": "2022-04-12",
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2022-04-12-008",
@@ -570,7 +608,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
       "results": "https://github.com/cncf/foundation/issues/297",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Dapr"
     },
     {
@@ -581,7 +619,7 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
       "results": "https://github.com/cncf/foundation/issues/297",
-      "scope": "build-time dependency, unmodified",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
       "project": "Dapr"
     },
     {
@@ -591,7 +629,8 @@
       "approvedDate": "2022-04-12",
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
-      "scope": "build-time dependency, unmodified"
+      "scope": "No scope restrictions",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2022-04-12-011",
@@ -601,7 +640,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2022-04-12",
       "results": "https://github.com/cncf/foundation/issues/172",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2021-07-19-001",
@@ -611,7 +651,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19",
       "results": "https://github.com/cncf/foundation/issues/138",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2021-07-19-002",
@@ -621,7 +662,8 @@
       "status": "approved",
       "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2021-07-19",
       "results": "https://github.com/cncf/foundation/issues/138",
-      "scope": "build-time dependency, unmodified"
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-001",
@@ -630,7 +672,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-002",
@@ -639,7 +682,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-003",
@@ -648,7 +691,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-004",
@@ -657,7 +700,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-005",
@@ -666,16 +710,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-006",
       "package": "ejs",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-007",
@@ -684,7 +730,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-008",
@@ -693,7 +739,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-009",
@@ -702,7 +749,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-010",
@@ -711,7 +759,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-011",
@@ -720,7 +768,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-012",
@@ -729,7 +777,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-013",
@@ -738,7 +787,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-014",
@@ -747,7 +797,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-015",
@@ -756,7 +807,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-016",
@@ -765,16 +817,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-017",
       "package": "github.com/aws/aws-sdk-go",
-      "license": "((MIT OR GPL-3.0) AND BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "license": "(MIT OR GPL-3.0) AND BSD-3-Clause AND Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
-      "status": "allowlisted",
+      "status": "approved",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "Allowed as long as the CNCF project imports this SDK through standard dependency management rather than modifying the core SDK code",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-018",
@@ -783,7 +836,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-019",
@@ -792,7 +845,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-020",
@@ -801,7 +855,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-021",
@@ -810,7 +865,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-022",
@@ -819,7 +874,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-023",
@@ -828,7 +883,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-024",
@@ -837,7 +892,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-025",
@@ -846,7 +902,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-026",
@@ -855,7 +912,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-027",
@@ -864,7 +921,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-028",
@@ -873,7 +931,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-029",
@@ -882,25 +941,28 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-030",
       "package": "github.com/cloudflare/cfssl",
-      "license": "(BSD-2-Clause AND BSD-3-Clause AND ISC)",
+      "license": "BSD-2-Clause AND BSD-3-Clause AND ISC",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-031",
       "package": "github.com/cloudfoundry-incubator/candiedyaml",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-032",
@@ -909,7 +971,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-033",
@@ -918,7 +980,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-034",
@@ -927,7 +989,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-035",
@@ -936,7 +998,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-036",
@@ -945,16 +1007,16 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-037",
       "package": "github.com/containerd/containerd",
-      "license": "(CC-BY-4.0 AND Apache-2.0)",
+      "license": "CC-BY-4.0 AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-038",
@@ -963,7 +1025,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-039",
@@ -972,7 +1034,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-040",
@@ -981,7 +1043,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-041",
@@ -990,16 +1052,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-042",
       "package": "github.com/coreos/etcd",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-043",
@@ -1008,7 +1072,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-044",
@@ -1017,7 +1081,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-045",
@@ -1026,7 +1090,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-046",
@@ -1035,7 +1099,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-047",
@@ -1044,7 +1108,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-048",
@@ -1053,7 +1117,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-049",
@@ -1062,7 +1126,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-050",
@@ -1071,7 +1136,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-051",
@@ -1080,7 +1146,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-052",
@@ -1089,16 +1156,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-053",
       "package": "github.com/daviddengcn/go-colortext",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-054",
@@ -1107,7 +1176,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-055",
@@ -1116,7 +1186,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-056",
@@ -1125,7 +1196,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-057",
@@ -1134,34 +1205,38 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-058",
       "package": "github.com/digitalocean/godo",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-059",
       "package": "github.com/djherbis/atime",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-060",
       "package": "github.com/docker/cli",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-061",
@@ -1170,25 +1245,27 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-062",
       "package": "github.com/docker/docker",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-063",
       "package": "github.com/docker/engine-api",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-064",
@@ -1197,7 +1274,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-065",
@@ -1206,7 +1283,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-066",
@@ -1215,7 +1292,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-067",
@@ -1224,7 +1301,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-068",
@@ -1233,7 +1310,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-069",
@@ -1242,7 +1319,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-070",
@@ -1251,7 +1329,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-071",
@@ -1260,7 +1339,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-072",
@@ -1269,7 +1349,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-073",
@@ -1278,7 +1359,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-074",
@@ -1287,7 +1369,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-075",
@@ -1296,7 +1379,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-076",
@@ -1305,7 +1389,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-077",
@@ -1314,16 +1399,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-078",
       "package": "github.com/emirpasic/gods",
-      "license": "(BSD-2-Clause AND ISC)",
+      "license": "BSD-2-Clause AND ISC",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-079",
@@ -1332,7 +1419,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-080",
@@ -1341,7 +1428,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-081",
@@ -1350,7 +1438,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-082",
@@ -1359,7 +1448,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-083",
@@ -1368,7 +1458,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-084",
@@ -1377,7 +1468,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-085",
@@ -1386,7 +1477,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-086",
@@ -1395,25 +1487,28 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-087",
       "package": "github.com/fsouza/go-dockerclient",
-      "license": "(BSD-2-Clause AND Apache-2.0)",
+      "license": "BSD-2-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-088",
       "package": "github.com/fullsailor/pkcs7",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-089",
@@ -1422,25 +1517,28 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-090",
       "package": "github.com/ghodss/yaml",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-091",
       "package": "github.com/globalsign/mgo",
-      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-092",
@@ -1449,7 +1547,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-093",
@@ -1458,7 +1556,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-094",
@@ -1467,7 +1565,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-095",
@@ -1476,7 +1574,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-096",
@@ -1485,7 +1583,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-097",
@@ -1494,7 +1592,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-098",
@@ -1503,16 +1601,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-099",
       "package": "github.com/go-openapi/spec",
-      "license": "(CC-BY-4.0 AND Apache-2.0 AND MIT)",
+      "license": "CC-BY-4.0 AND Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-100",
@@ -1521,16 +1620,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-101",
       "package": "github.com/go-openapi/swag",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-102",
@@ -1539,7 +1639,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-103",
@@ -1548,16 +1648,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-104",
       "package": "github.com/go-yaml/yaml",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-105",
@@ -1566,7 +1668,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-106",
@@ -1575,25 +1678,28 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-107",
       "package": "github.com/gogo/protobuf",
-      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-108",
       "package": "github.com/golang/dep",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-109",
@@ -1602,7 +1708,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-110",
@@ -1611,7 +1717,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-111",
@@ -1620,7 +1726,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-112",
@@ -1629,7 +1736,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-113",
@@ -1638,7 +1745,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-114",
@@ -1647,7 +1755,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-115",
@@ -1656,7 +1765,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-116",
@@ -1665,16 +1774,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-117",
       "package": "github.com/google/certificate-transparency-go",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-118",
@@ -1683,7 +1793,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-119",
@@ -1692,7 +1802,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-120",
@@ -1701,7 +1812,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-121",
@@ -1710,7 +1821,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-122",
@@ -1719,7 +1830,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-123",
@@ -1728,16 +1840,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-124",
       "package": "github.com/googleapis/gnostic",
-      "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "license": "BSD-3-Clause AND Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-125",
@@ -1746,7 +1860,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-126",
@@ -1755,7 +1869,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-127",
@@ -1764,7 +1878,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-128",
@@ -1773,7 +1888,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-129",
@@ -1782,7 +1898,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-130",
@@ -1791,16 +1908,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-131",
       "package": "github.com/gorilla/websocket",
-      "license": "(BSD-2-Clause AND MIT)",
+      "license": "BSD-2-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-132",
@@ -1809,7 +1928,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-133",
@@ -1818,7 +1938,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-134",
@@ -1827,16 +1947,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-135",
       "package": "github.com/grpc-ecosystem/grpc-gateway",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-136",
@@ -1845,16 +1966,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-137",
       "package": "github.com/heketi/heketi REST API",
-      "license": "(Apache-2.0 OR LGPL-3.0-or-later)",
+      "license": "Apache-2.0 OR LGPL-3.0-or-later",
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "scope": "Approval is limited to the REST API client libraries and does not extend to the Heketi server or other components.",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-138",
@@ -1863,7 +1985,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-139",
@@ -1872,7 +1995,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-140",
@@ -1881,7 +2005,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-141",
@@ -1890,7 +2015,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-142",
@@ -1899,7 +2024,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-143",
@@ -1908,7 +2034,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-144",
@@ -1917,7 +2043,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-145",
@@ -1926,7 +2053,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-146",
@@ -1935,7 +2063,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-147",
@@ -1944,7 +2072,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-148",
@@ -1953,7 +2082,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-149",
@@ -1962,7 +2092,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-150",
@@ -1971,7 +2102,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-151",
@@ -1980,7 +2111,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-152",
@@ -1989,7 +2121,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-153",
@@ -1998,7 +2131,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-154",
@@ -2007,7 +2141,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-155",
@@ -2016,7 +2151,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-156",
@@ -2025,7 +2161,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-157",
@@ -2034,7 +2171,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Knative"
     },
     {
       "id": "exc-2019-11-01-158",
@@ -2043,7 +2180,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-159",
@@ -2052,7 +2190,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-160",
@@ -2061,7 +2200,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-161",
@@ -2070,7 +2210,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-162",
@@ -2079,7 +2220,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-163",
@@ -2088,7 +2229,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-164",
@@ -2097,7 +2238,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-165",
@@ -2106,7 +2247,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-166",
@@ -2115,7 +2256,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-167",
@@ -2124,7 +2265,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-168",
@@ -2133,7 +2275,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-169",
@@ -2142,7 +2284,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-170",
@@ -2151,7 +2294,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-171",
@@ -2160,7 +2304,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-172",
@@ -2169,16 +2313,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-173",
       "package": "github.com/magiconair/properties",
-      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-174",
@@ -2187,7 +2333,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-175",
@@ -2196,7 +2343,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-176",
@@ -2205,7 +2353,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-177",
@@ -2214,7 +2363,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-178",
@@ -2223,7 +2373,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-179",
@@ -2232,7 +2383,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-180",
@@ -2241,7 +2393,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-181",
@@ -2250,7 +2403,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-182",
@@ -2259,25 +2413,28 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-183",
       "package": "github.com/mattn/go-zglob",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-184",
       "package": "github.com/matttproud/golang_protobuf_extensions",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-185",
@@ -2286,7 +2443,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-186",
@@ -2295,25 +2452,27 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-187",
       "package": "github.com/Microsoft/go-winio",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-188",
       "package": "github.com/Microsoft/hcsshim",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-189",
@@ -2322,7 +2481,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-190",
@@ -2331,7 +2490,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-191",
@@ -2340,7 +2500,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-192",
@@ -2349,7 +2509,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-193",
@@ -2358,7 +2518,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-194",
@@ -2367,7 +2528,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-195",
@@ -2376,7 +2538,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-196",
@@ -2385,7 +2548,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-197",
@@ -2394,7 +2558,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-198",
@@ -2403,7 +2568,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-199",
@@ -2412,7 +2577,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-200",
@@ -2421,7 +2586,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-201",
@@ -2430,7 +2595,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-202",
@@ -2439,7 +2605,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-203",
@@ -2448,7 +2615,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-204",
@@ -2457,7 +2624,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-205",
@@ -2466,16 +2634,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-206",
       "package": "github.com/ncabatoff/process-exporter",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-207",
@@ -2484,7 +2654,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-208",
@@ -2493,7 +2664,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-209",
@@ -2502,7 +2673,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-210",
@@ -2511,7 +2682,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-211",
@@ -2520,7 +2692,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-212",
@@ -2529,7 +2702,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-213",
@@ -2538,7 +2712,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-214",
@@ -2547,7 +2721,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-215",
@@ -2556,7 +2730,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-216",
@@ -2565,7 +2739,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-217",
@@ -2574,7 +2748,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-218",
@@ -2583,7 +2758,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-219",
@@ -2592,7 +2768,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-220",
@@ -2601,7 +2778,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-221",
@@ -2610,7 +2787,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-222",
@@ -2619,7 +2797,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-223",
@@ -2628,7 +2807,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-224",
@@ -2637,7 +2817,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-225",
@@ -2646,7 +2827,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-226",
@@ -2655,7 +2837,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-227",
@@ -2664,7 +2847,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-228",
@@ -2673,7 +2857,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-229",
@@ -2682,7 +2867,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-230",
@@ -2691,7 +2877,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-231",
@@ -2700,7 +2887,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-232",
@@ -2709,34 +2897,38 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-233",
       "package": "github.com/pquerna/cachecontrol",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-234",
       "package": "github.com/pquerna/ffjson",
-      "license": "(BSD-3-Clause AND Apache-2.0 AND ISC)",
+      "license": "BSD-3-Clause AND Apache-2.0 AND ISC",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-235",
       "package": "github.com/prometheus/client_golang",
-      "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "license": "BSD-3-Clause AND Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-236",
@@ -2745,16 +2937,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-237",
       "package": "github.com/prometheus/common",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-238",
@@ -2763,7 +2956,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-239",
@@ -2772,7 +2965,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-240",
@@ -2781,7 +2975,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-241",
@@ -2790,7 +2985,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-242",
@@ -2799,7 +2994,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-243",
@@ -2808,7 +3003,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-244",
@@ -2817,7 +3012,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-245",
@@ -2826,7 +3022,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-246",
@@ -2835,7 +3032,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-247",
@@ -2844,7 +3042,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-248",
@@ -2853,7 +3052,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-249",
@@ -2862,7 +3062,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-250",
@@ -2871,7 +3072,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-251",
@@ -2880,16 +3081,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-252",
       "package": "github.com/scalingdata/gcfg",
-      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-253",
@@ -2898,7 +3101,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-254",
@@ -2907,7 +3111,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-255",
@@ -2916,7 +3121,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-256",
@@ -2925,7 +3131,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-257",
@@ -2934,7 +3141,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-258",
@@ -2943,7 +3151,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-259",
@@ -2952,7 +3161,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-260",
@@ -2961,25 +3171,28 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-261",
       "package": "github.com/sirupsen/logrus",
-      "license": "(BSD-2-Clause AND BSD-3-Clause AND MIT)",
+      "license": "BSD-2-Clause AND BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-262",
       "package": "github.com/skynetservices/skydns",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-263",
@@ -2988,7 +3201,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-264",
@@ -2997,7 +3211,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-265",
@@ -3006,7 +3220,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-266",
@@ -3015,16 +3229,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-267",
       "package": "github.com/spf13/cobra",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-268",
@@ -3033,7 +3249,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-269",
@@ -3042,7 +3259,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-270",
@@ -3051,16 +3269,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-271",
       "package": "github.com/storageos/go-api",
-      "license": "(BSD-2-Clause AND MIT)",
+      "license": "BSD-2-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-272",
@@ -3069,7 +3289,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-273",
@@ -3078,7 +3299,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-274",
@@ -3087,7 +3309,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-275",
@@ -3096,7 +3319,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-276",
@@ -3105,7 +3329,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-277",
@@ -3114,7 +3339,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-278",
@@ -3123,7 +3348,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-279",
@@ -3132,7 +3357,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-280",
@@ -3141,7 +3367,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-281",
@@ -3150,7 +3377,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-282",
@@ -3159,7 +3387,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-283",
@@ -3168,7 +3396,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-284",
@@ -3177,7 +3406,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-285",
@@ -3186,25 +3415,27 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-286",
       "package": "github.com/vmware/govmomi",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-287",
       "package": "github.com/vmware/photon-controller-go-sdk",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-288",
@@ -3213,7 +3444,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-289",
@@ -3222,7 +3453,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "Kubernetes"
     },
     {
       "id": "exc-2019-11-01-290",
@@ -3231,7 +3462,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-291",
@@ -3240,16 +3471,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-292",
       "package": "github.com/xeipuuv/gojsonschema",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-293",
@@ -3258,7 +3490,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-294",
@@ -3267,7 +3500,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-295",
@@ -3276,7 +3510,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-296",
@@ -3285,7 +3520,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-297",
@@ -3294,7 +3529,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-298",
@@ -3303,7 +3539,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-299",
@@ -3312,7 +3549,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-300",
@@ -3321,25 +3559,27 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-301",
       "package": "golang.org/x/build",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-302",
       "package": "golang.org/x/exp",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-303",
@@ -3348,7 +3588,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-304",
@@ -3357,52 +3598,58 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-305",
       "package": "golang.org/x/sync",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-306",
       "package": "golang.org/x/sys",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-307",
       "package": "golang.org/x/text",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-308",
       "package": "golang.org/x/time",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-309",
       "package": "golang.org/x/tools",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND Apache-2.0 AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-310",
@@ -3411,16 +3658,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-311",
       "package": "gonum.org/v1/gonum",
-      "license": "((BSD-3-Clause OR CC0-1.0) AND BSD-3-Clause)",
+      "license": "BSD-3-Clause OR CC0-1.0 AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-312",
@@ -3429,7 +3678,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-313",
@@ -3438,16 +3687,17 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-314",
       "package": "gopkg.in/check.v1",
-      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-315",
@@ -3456,7 +3706,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-316",
@@ -3465,7 +3716,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-317",
@@ -3474,7 +3726,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-318",
@@ -3483,7 +3736,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-319",
@@ -3492,7 +3746,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-320",
@@ -3501,7 +3756,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-321",
@@ -3510,25 +3766,28 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-322",
       "package": "gopkg.in/olivere/elastic.v3",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-323",
       "package": "gopkg.in/olivere/elastic.v5",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-324",
@@ -3537,16 +3796,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-325",
       "package": "gopkg.in/square/go-jose.v2",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-326",
@@ -3555,7 +3816,7 @@
       "approvedDate": "2019-11-01",
       "status": "apache-2.0",
       "comment": "Apache-2.0, no approval needed",
-      "scope": "build-time dependency"
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-327",
@@ -3564,7 +3825,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-328",
@@ -3573,16 +3835,18 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-329",
       "package": "marked",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-330",
@@ -3591,7 +3855,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-331",
@@ -3600,7 +3865,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-332",
@@ -3609,7 +3875,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-333",
@@ -3618,7 +3885,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-334",
@@ -3627,7 +3895,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-335",
@@ -3636,7 +3905,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-11-01-336",
@@ -3645,7 +3915,8 @@
       "approvedDate": "2019-11-01",
       "status": "allowlisted",
       "comment": "allowlisted",
-      "scope": "build-time dependency"
+      "scope": "See Allowlist Policy requirements",
+      "project": "All CNCF Projects"
     },
     {
       "id": "exc-2019-05-20-001",
@@ -3653,7 +3924,9 @@
       "license": "GPL-2.0-only",
       "approvedDate": "2019-05-20",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-05-20"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-05-20",
+      "project": "Kubernetes",
+      "scope": "Approved ONLY as an OPTIONl subdependency of Minikube (not approved for use on a standalone basis or as a required dependency)"
     },
     {
       "id": "exc-2019-03-11-001",
@@ -3661,7 +3934,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-002",
@@ -3669,7 +3944,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-003",
@@ -3677,7 +3954,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-004",
@@ -3685,7 +3964,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-005",
@@ -3693,7 +3974,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-006",
@@ -3701,15 +3984,19 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-007",
       "package": "bootstrap",
-      "license": "(CC-BY-3.0 AND MIT)",
+      "license": "CC-BY-3.0 AND MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-008",
@@ -3717,15 +4004,19 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-009",
       "package": "font-awesome",
-      "license": "(CC-BY-3.0 AND MIT AND OFL-1.1)",
+      "license": "CC-BY-3.0 AND MIT AND OFL-1.1",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-010",
@@ -3733,7 +4024,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-011",
@@ -3741,7 +4034,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-012",
@@ -3749,7 +4044,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "Ingress-Nginx",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-013",
@@ -3757,15 +4054,19 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-014",
       "package": "github.com/client9/misspell",
-      "license": "(Unlicense AND BSD-3-Clause AND MIT)",
+      "license": "Unlicense AND BSD-3-Clause AND MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-015",
@@ -3773,7 +4074,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-016",
@@ -3781,31 +4084,39 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-017",
       "package": "github.com/dgryski/go-onlinestats",
-      "license": "(MIT AND LicenseRef-Public-domain-statement)",
+      "license": "MIT AND LicenseRef-Public-domain-statement",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "OpenTelemetry",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-018",
       "package": "github.com/docker/go-units",
-      "license": "(CC-BY-SA-4.0 AND CC-BY-4.0 AND Apache-2.0)",
+      "license": "CC-BY-SA-4.0 AND CC-BY-4.0 AND Apache-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-019",
       "package": "github.com/docker/spdystream",
-      "license": "(CC-BY-SA-4.0 AND CC-BY-4.0 AND BSD-3-Clause AND Apache-2.0)",
+      "license": "CC-BY-SA-4.0 AND CC-BY-4.0 AND BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-020",
@@ -3813,7 +4124,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-021",
@@ -3821,23 +4134,29 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-022",
       "package": "github.com/google/go-github",
-      "license": "(BSD-3-Clause AND CC-BY-3.0)",
+      "license": "BSD-3-Clause AND CC-BY-3.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-023",
       "package": "github.com/grpc-ecosystem/grpc-opentracing",
-      "license": "(BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC)",
+      "license": "BSD-3-Clause AND LicenseRef-Google-Patents-Notice-GRPC",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-024",
@@ -3845,7 +4164,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-025",
@@ -3853,7 +4174,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-026",
@@ -3861,7 +4184,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-027",
@@ -3869,7 +4194,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-028",
@@ -3877,7 +4204,9 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-029",
@@ -3885,15 +4214,19 @@
       "license": "MPL-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-030",
       "package": "github.com/howeyc/gopass",
-      "license": "(ISC AND CDDL-1.0)",
+      "license": "ISC AND CDDL-1.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "Allowed only if the dependency files are either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third party repository or package repository"
     },
     {
       "id": "exc-2019-03-11-031",
@@ -3901,7 +4234,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-032",
@@ -3909,7 +4244,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-033",
@@ -3917,7 +4254,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-034",
@@ -3925,7 +4264,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-035",
@@ -3933,7 +4274,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-036",
@@ -3941,7 +4284,9 @@
       "license": "CC0-1.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-037",
@@ -3949,7 +4294,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-038",
@@ -3957,15 +4304,19 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-039",
       "package": "github.com/mattn/go-sqlite3",
-      "license": "(MIT AND LicenseRef-Public-domain-statement)",
+      "license": "MIT AND LicenseRef-Public-domain-statement",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-040",
@@ -3973,7 +4324,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-041",
@@ -3981,23 +4334,29 @@
       "license": "BSD-2-Clause-FreeBSD",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-042",
       "package": "github.com/opencontainers/go-digest",
-      "license": "(CC-BY-SA-4.0 AND CC-BY-4.0 AND Apache-2.0)",
+      "license": "CC-BY-SA-4.0 AND CC-BY-4.0 AND Apache-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-043",
       "package": "github.com/opencontainers/runc",
-      "license": "(LicenseRef-CC-unspecified AND Apache-2.0)",
+      "license": "CC-BY-4.0 AND Apache-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-044",
@@ -4005,7 +4364,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-045",
@@ -4013,23 +4374,29 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-046",
       "package": "github.com/sigma/go-inotify",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-047",
       "package": "github.com/spotinst/spotinst-sdk-go",
-      "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "license": "BSD-3-Clause AND Apache-2.0 AND MIT",
       "approvedDate": "2019-03-11",
-      "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "status": "allowlisted",
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "See Allowlist Policy requirements"
     },
     {
       "id": "exc-2019-03-11-048",
@@ -4037,7 +4404,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-049",
@@ -4045,23 +4414,29 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-050",
       "package": "github.com/xanzy/ssh-agent",
-      "license": "(Apache-2.0 AND MIT)",
+      "license": "Apache-2.0 AND MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "OpenTelemetry",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-051",
       "package": "github.com/zchee/go-vmnet",
-      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes & Minikube",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-052",
@@ -4069,7 +4444,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-053",
@@ -4077,7 +4454,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-054",
@@ -4085,39 +4464,49 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-055",
       "package": "golang.org/x/crypto",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND MIT AND LicenseRef-Public-domain-statement)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause AND MIT AND LicenseRef-Public-domain-statement",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-056",
       "package": "golang.org/x/net",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause AND CC-BY-3.0 AND (BSD-3-Clause OR LicenseRef-W3C-Test-Suite-License-1))",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-2-Clause AND BSD-3-Clause AND CC-BY-3.0 AND BSD-3-Clause OR LicenseRef-W3C-Test-Suite-License-1",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-057",
       "package": "golang/expansion",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-058",
       "package": "golang/go/types",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-059",
@@ -4125,7 +4514,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-060",
@@ -4133,7 +4524,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-061",
@@ -4141,23 +4534,29 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-062",
       "package": "golang/reflect",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-063",
       "package": "golang/template",
-      "license": "(LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause)",
+      "license": "LicenseRef-Google-Patents-Notice-Golang AND BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "modified from upstream; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-064",
@@ -4165,31 +4564,39 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-065",
       "package": "google.golang.org/api",
-      "license": "(BSD-3-Clause AND Apache-2.0 AND MIT)",
+      "license": "BSD-3-Clause AND Apache-2.0 AND MIT",
       "approvedDate": "2019-03-11",
-      "status": "approved",
-      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+      "status": "allowlisted",
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "See Allowlist Policy requirements"
     },
     {
       "id": "exc-2019-03-11-066",
       "package": "google.golang.org/appengine",
-      "license": "(BSD-3-Clause AND Apache-2.0)",
+      "license": "BSD-3-Clause AND Apache-2.0",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-067",
       "package": "google.golang.org/grpc",
-      "license": "(BSD-3-Clause AND Apache-2.0 AND LicenseRef-Google-Patents-Notice-GRPC)",
+      "license": "BSD-3-Clause AND Apache-2.0 AND LicenseRef-Google-Patents-Notice-GRPC",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-068",
@@ -4197,7 +4604,9 @@
       "license": "BSD-2-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Insufficient stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-069",
@@ -4205,7 +4614,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-070",
@@ -4213,15 +4624,19 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-071",
       "package": "highlight.js",
-      "license": "(BSD-3-Clause AND MIT AND CC0-1.0 AND LicenseRef-Public-domain-statement)",
+      "license": "BSD-3-Clause AND MIT AND CC0-1.0 AND LicenseRef-Public-domain-statement",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: Non-allowlist license(s); approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-072",
@@ -4229,7 +4644,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-073",
@@ -4237,23 +4654,29 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-074",
       "package": "jQuery BBQ",
-      "license": "(MIT OR GPL-2.0+)",
+      "license": "MIT OR GPL-2.0+",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Any CNCF project using this dependency must elect to do so under the MIT License (rather than GPL-2.0) and declare such election in its documentation"
     },
     {
       "id": "exc-2019-03-11-075",
       "package": "jQuery hashchange event",
-      "license": "(GPL-2.0+ OR MIT)",
+      "license": "GPL-2.0+ OR MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "Any CNCF project using this dependency must elect to do so under the MIT License (rather than GPL-2.0) and declare such election in its documentation"
     },
     {
       "id": "exc-2019-03-11-076",
@@ -4261,7 +4684,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-077",
@@ -4269,7 +4694,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-078",
@@ -4277,7 +4704,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-079",
@@ -4285,7 +4714,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-080",
@@ -4293,7 +4724,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-081",
@@ -4301,7 +4734,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-082",
@@ -4309,7 +4744,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-083",
@@ -4317,7 +4754,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-084",
@@ -4325,23 +4764,29 @@
       "license": "ISC",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-085",
       "package": "sigs.k8s.io/yaml",
-      "license": "(BSD-3-Clause AND MIT)",
+      "license": "BSD-3-Clause AND MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "fork of github.com/ghodss/yaml; not auto-allowlist because: Modified; approved by GB exception 2019-03-11"
+      "comment": "fork of github.com/ghodss/yaml; not auto-allowlist because: Modified; approved by GB exception 2019-03-11",
+      "project": "Kubernetes",
+      "scope": "Approved for Kubernetes only"
     },
     {
       "id": "exc-2019-03-11-086",
       "package": "speter.net/go/exp",
-      "license": "(BSD-2-Clause AND BSD-3-Clause)",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11"
+      "comment": "not auto-allowlist because: No measure of stars / forks; approved by GB exception 2019-03-11",
+      "project": "Oopentelemetry",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-087",
@@ -4349,7 +4794,9 @@
       "license": "BSD-3-Clause",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     },
     {
       "id": "exc-2019-03-11-088",
@@ -4357,7 +4804,9 @@
       "license": "MIT",
       "approvedDate": "2019-03-11",
       "status": "approved",
-      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11"
+      "comment": "contained directly in repo; not auto-allowlist because: Not isolated; approved by GB exception 2019-03-11",
+      "project": "All CNCF Projects",
+      "scope": "No scope restrictions"
     }
   ]
 }
