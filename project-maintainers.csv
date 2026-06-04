@@ -43,7 +43,6 @@ Graduated,Kubernetes steering,Antonio Ojea,Google,aojea,https://git.k8s.io/steer
 ,,Ian Coldwater,Independent,IanColdwater,
 ,,Ivan Valdes,Inmar Intelligence,ivanvc,
 ,,Jack Francis,Microsoft,jackfrancis,
-,,James Blair,Red Hat,jmhbnz,
 ,,Jan Šafránek,Red Hat,jsafrane,
 ,,Janet Kuo,Google,janetkuo,
 ,,Jeremy Olmsted-Thompson,Google,jeremyot,
@@ -53,6 +52,7 @@ Graduated,Kubernetes steering,Antonio Ojea,Google,aojea,https://git.k8s.io/steer
 ,,Joel Speed,Red Hat,joelspeed,
 ,,John Belamaric,Google,johnbelamaric,
 ,,Jordan Liggitt,Google,liggitt,
+,,Josh Berkus,Red Hat,jberkus,
 ,,Justin Santa Barbara,Google,justinsb,
 ,,Kaslin Fields,Google,kaslin,
 ,,Kensei Nakada,Independent,sanposhiho,
@@ -389,13 +389,6 @@ Graduated,Harbor,Daniel Jiang,VMware,reasonerjt,https://github.com/goharbor/comm
 ,,Vadim Bauer,8gears,Vad1mo,
 ,Harbor: SIG Community,Orlin Vasilev,SAP,OrlinVasilev,
 ,,Henry Zhang,GRG Banking,hainingzhang,
-Graduated,etcd,Benjamin Wang,Broadcom,ahrtr,https://github.com/etcd-io/etcd/blob/main/OWNERS
-,,Marek Siarkowicz,Google,serathius,
-,,Sahdev Zala,IBM,spzala,
-,,Wei Fu,Microsoft,fuweid,
-,SIG etcd,Ivan Valdes,Inmar Intelligence,ivanvc,https://github.com/kubernetes/community/tree/master/sig-etcd#leadership
-,,James Blair,Red Hat,jmhbnz,
-,,Siyuan Zhang,Google,siyuanfoundation,
 Graduated,Open Policy Agent,Tim Hinrichs,Apple,timothyhinrichs,https://github.com/open-policy-agent/opa/blob/master/MAINTAINERS.md
 ,,Anders Eknert,Apple,anderseknert,
 ,,Ash Narkar,Apple,ashutosh-narkar,
