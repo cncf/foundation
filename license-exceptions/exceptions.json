@@ -1,8 +1,85 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-04",
   "blanketExceptions": [],
   "exceptions": [
+    {
+      "id": "exc-2026-05-08-001",
+      "package": "RemixIcon",
+      "license": "Remix Icon License v1.0",
+      "project": "Backstage",
+      "approvedDate": "2026-05-08",
+      "status": "denied",
+      "scope": "Not Applicable (Denied)",
+      "results": "https://github.com/cncf/foundation/issues/1380",
+      "comment": "Denied: Remix Icon License v1.0 is not an open source license and is not eligible for exception approval."
+    },
+    {
+      "id": "exc-2026-05-06-001",
+      "package": "axe-core",
+      "license": "MPL-2.0",
+      "project": "All CNCF Projects",
+      "approvedDate": "2026-04-09",
+      "status": "approved",
+      "scope": "Approved only for unmodified upstream axe-core used as a separated component; intermingled use is not approved.",
+      "results": "https://github.com/cncf/foundation/issues/1323",
+      "comment": "Blanket exception approved by GB email vote dated 2026-04-09."
+    },
+    {
+      "id": "exc-2026-04-23-001",
+      "package": "picolibc",
+      "license": "BSD-3-Clause, BSD-2-Clause, MIT, BSL-1.0, NCSA, Public Domain / CC0-1.0",
+      "project": "Hyperlight",
+      "approvedDate": "2026-04-22",
+      "status": "approved",
+      "scope": "Approved only for picolibc files under BSD-3-Clause, BSD-2-Clause, MIT, BSL-1.0, NCSA, or Public Domain/CC0-1.0; GPL/AGPL files are excluded and must not be ingested or automatically retrieved.",
+      "results": "https://github.com/cncf/foundation/issues/1117",
+      "comment": "Approved with explicit exclusion of GPL/AGPL files present in the upstream repository."
+    },
+    {
+      "id": "exc-2026-02-18-001",
+      "package": "github.com/apparentlymart/go-textseg",
+      "license": "Unicode-DFS-2016",
+      "project": "All CNCF Projects",
+      "approvedDate": "2026-02-18",
+      "status": "approved",
+      "scope": "No scope restrictions",
+      "results": "https://github.com/cncf/foundation/issues/1242",
+      "comment": "Blanket exception to allow any CNCF project to use go-textseg under Unicode-DFS-2016."
+    },
+    {
+      "id": "exc-2026-02-18-002",
+      "package": "certifi",
+      "license": "MPL-2.0",
+      "project": "All CNCF Projects",
+      "approvedDate": "2026-02-18",
+      "status": "approved",
+      "scope": "Allowed only if the dependency is either (a) stored unmodified in a designated third-party folder, or (b) not stored in the CNCF project repository and instead retrieved at installation or build time from the upstream third-party repository or package repository.",
+      "results": "https://github.com/cncf/foundation/issues/1208",
+      "comment": "Blanket exception for certifi under MPL-2.0."
+    },
+    {
+      "id": "exc-2026-02-18-003",
+      "package": "sharp-lipvips",
+      "license": "LGPL-2.1-or-later OR LGPL-3.0-only",
+      "project": "All CNCF Projects",
+      "approvedDate": "2026-02-18",
+      "status": "approved",
+      "scope": "Approved only when used as part of Next.js, in unmodified form, and only as build-time dependency, install-time dependency, or build-and-test tooling; static linking is not approved.",
+      "results": "https://github.com/cncf/foundation/issues/1212",
+      "comment": "Blanket exception for sharp-lipvips usage via Next.js under specified conditions."
+    },
+    {
+      "id": "exc-2025-12-04-001",
+      "package": "@auth0/quantum-product",
+      "license": "Apache-2.0",
+      "project": "OpenFGA",
+      "approvedDate": "2025-12-04",
+      "status": "denied",
+      "scope": "Not Applicable (Denied)",
+      "results": "https://github.com/cncf/foundation/issues/1188",
+      "comment": "Denied: source code was not publicly available, making Apache-2.0 distribution compliance impossible."
+    },
     {
       "id": "exc-2026-02-05-001",
       "package": "eclipse-ee4j/expressly",
