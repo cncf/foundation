@@ -8,6 +8,8 @@ on:
   pull_request:
     paths:
       - 'license-exceptions/**'
+  schedule:
+    - cron: '0 0 1 * *'
   workflow_dispatch:
 
 permissions:
