@@ -986,10 +986,15 @@ Sandbox,Porter,Sarah Christoff,Microsoft,hypernovasunnix,https://github.com/getp
 ,,Troy Connor,Microsoft,troy0820,
 ,,Kim Christensen,SimCorp,kichristensen,
 ,,David Gannon,,dgannon991,
-Incubating,OpenYurt,Chao Zheng,Alibaba,charleszheng44,https://github.com/alibaba/openyurt/blob/master/OWNERS
-,,Fei Guo,Alibaba,Fei-Guo,
-,,frank-huangyuqi,Alibaba,huangyuqi,
+Incubating,OpenYurt,Fei Guo,Microsoft,Fei-Guo,https://github.com/openyurtio/openyurt/blob/master/MAINTAINERS.md
 ,,rambohe,Alibaba,rambohe-ch,
+,,Wuming Liu,VMware,lwmqwer,
+,,Shaoqiang Chen,Intel,gnunu,
+,,Zhengguang Zhang,Independent,zzguang,
+,,Chenglong Wang,Inspur,luckymrwang,
+,,Zhen Zhao,Sangfor,JameKeal,
+,,HanQi Li,Tongji University,LavenderQAQ,
+,,BingChang Tang,Alibaba,zyjhtangtang,
 Sandbox,Keylime,Luke Hinds,Red Hat,lukehinds,https://github.com/keylime/keylime/blob/master/MAINTAINERS
 ,,Charlie Munson,MIT,jetwhiz,
 ,,Nabil Schear,Netflix,nabilschear,
