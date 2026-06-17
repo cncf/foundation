@@ -480,7 +480,6 @@ Incubating,Buildpacks,Aidan Delaney,Bloomberg,aidandelaney,https://github.com/bu
 Graduated,Dragonfly,Gaius Qi,Ant Group,gaius-qi,https://github.com/dragonflyoss/community/blob/master/roles/Maintainers.md
 ,,Yuan Yang,Alibaba Group,yyzai384,
 ,,Peng Tao,Ant Group,bergwolf,
-,,Jim Ma,Ant Group,jim3ma,
 ,,Chlins Zhang,Ant Group,chlins,
 ,,Yiyang Huang,ByteDance,hyy0322,
 ,,Han Jiang,Kuaishou,CormickKneey,
@@ -488,10 +487,9 @@ Graduated,Dragonfly,Gaius Qi,Ant Group,gaius-qi,https://github.com/dragonflyoss/
 ,,fcgxz2003,Dalian University of Technology,fcgxz2003,
 ,,mingcheng 吕峰军（明城）,Apache Foundation,mingcheng,
 ,,Song Yan,Ant Group,imeoer,
-,,Jiang Liu,Alibaba Group,jiangliu,
 ,,Kaiyong Yang,Ant Group,BraveY,
-,,PengCheng Liu,Ant Group,NehemiahMi,
 ,,Baptiste Girard-Carrabin,DataDog,Fricounet,
+,,Zuliang Wang,Aliyun,CooooolFrog,
 Sandbox,Virtual Kubelet,Ria Bhatia ,Niantic,rbitia,https://github.com/virtual-kubelet/community/blob/master/OWNERS.md
 ,,Brian Goff,Microsoft,cpuguy83,
 ,,Paulo Pires,,pires,
@@ -1404,7 +1402,7 @@ Incubating,OpenCost,Ajay Tripathy,IBM,AjayTripathy,https://github.com/kubecost/o
 ,,Sean Holcomb,IBM,Sean-Holcomb,
 ,,Warwick Peatey,IBM,peatey,
 ,,Artur Khantimirov, Microsoft,r2k1,
-,,Rajith Attapattu (Community Maintainer),Randoli,rajith77, 
+,,Rajith Attapattu (Community Maintainer),Randoli,rajith77,
 ,,Manas Sivakumar (Integration Tests Maintainer),,Manas23601,
 ,,Christian Petersen,,cpetersen5,
 Sandbox,External Secrets Operator,Moritz Johner,Form3,moolen,https://github.com/external-secrets/external-secrets/blob/main/.github/PAUL.yaml
