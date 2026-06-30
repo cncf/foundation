@@ -1227,12 +1227,13 @@ Sandbox,ORAS (OCI Registry as Storage),Andrew Block,Red Hat,sabre1041,https://gi
 ,,Sajay Antony,Microsoft,sajayantony,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,
 ,,Terry Howe,AWS,TerryHowe,
-Incubating,wasmCloud,Brooks Townsend,Cosmonic,brooksmtownsend,https://github.com/wasmCloud/wasmCloud/blob/main/.github/CODEOWNERS
-,,Liam Randall,Cosmonic,liamrandall,
-,,Taylor Thomas,Cosmonic,thomastaylor312,
-,,Bailey Hayes,Cosmonic,ricochet,
-,,Jordan Rash,Synadia,jordan-rash,
+Incubating,wasmCloud,Bailey Hayes,Cosmonic,ricochet,https://github.com/wasmCloud/wasmCloud/blob/main/.github/CODEOWNERS
+,,Brooks Townsend,Capital One,brooksmtownsend,
 ,,Colin Murphy,Adobe,cdmurph32,
+,,Jordan Rash,Synadia,jordan-rash,
+,,Liam Randall,Cosmonic,LiamRandall,
+,,Aditya Salunkhe,Betty Blocks,Aditya1404Sal,
+,,Victor Adossi,Cosmonic,vados-cosmonic,
 Sandbox,Akri,Gaurav Gahlot,ionos-cloud,gauravgahlot,https://github.com/project-akri/akri/blob/main/CODEOWNERS
 ,,Lior Lustgarten,Microsoft,lilustga,
 ,,Marcel Bindseil,Microsoft,bindsi,
