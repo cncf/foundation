@@ -1282,7 +1282,7 @@ Sandbox,Open Cluster Management,Qiu Jian,Red Hat,qiujian16,https://github.com/op
 ,,Tamal Saha,AppsCode,tamalsaha,
 ,,Ben Perry,Saturn Cloud,bhperry,
 ,,Tyler Gillson,Spectro Cloud,TylerGillson,
-Graduated,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/community/blob/master/MAINTAINERS.md
+Graduated,Dapr,Yaron Schneider,Diagrid,yaron2,https://github.com/dapr/community/blob/master/MAINTAINERS.md
 ,,Mark Fussell,Diagrid,msfussell,
 ,,Long Dai,Intel,daixiang0,
 ,,Rob Landers,Automattic,withinboredom,
@@ -1291,7 +1291,7 @@ Graduated,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/community
 ,,Nick Greenfield,Microsoft,greenie-msft,
 ,,Hal Spang,Microsoft,halspang,
 ,,Paul Yuknewicz,Microsoft,paulyuk,
-,,Hanna Hunter,Microsoft,@hhunter-ms,
+,,Hannah Hunter,Microsoft,hhunter-ms,
 ,,Marc Duiker,Diagrid,marcduiker,
 ,,Cecil Phillip,Stripe,cecilphillip,
 ,,Phillip Hoff,Microsoft,philliphoff,
@@ -1302,6 +1302,10 @@ Graduated,Dapr,Yaron Schneider,Diagrid,yaron2 ,https://github.com/dapr/community
 ,,Whit Waldo,Innovian,WhitWaldo,
 ,,Dana Arsovska,Ahold Delhaize,Dzvezdana,
 ,,Artur Ciocanu,Adobe Inc,artur-ciocanu,
+,,Albert Callarisa,Diagrid,acroca,
+,,Alice Gibbons,Diagrid,alicejgibbons,
+,,Samantha Coyle,Diagrid,sicoyle,
+,,Siri Varma,Microsoft,siri-varma,
 ,,Albert Callarisa,Diagrid,acroca,
 ,,Alice Gibbons,Diagrid,alicejgibbons,
 ,,Samantha Coyle,Diagrid,sicoyle,
