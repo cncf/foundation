@@ -1076,7 +1076,7 @@ Sandbox,Distribution,Chris Patterson,GitHub,chrispat,https://github.com/distribu
 ,,Wayne Warren,Digital Ocean,waynr,
 ,,Wang Yan,VMware,wy65701436,
 Sandbox,Kuberhealthy,Eric Greer,,integrii,https://github.com/kuberhealthy/kuberhealthy/blob/master/OWNERS
-Sandbox,k8gb,Donovan Muller,Absa,donovanmuller,https://github.com/k8gb-io/k8gb/blob/master/CODEOWNERS
+Incubating,k8gb,Donovan Muller,Absa,donovanmuller,https://github.com/k8gb-io/k8gb/blob/master/CODEOWNERS
 ,,Dinar Valeev,Absa,k0da,
 ,,Jiří Kremser,Kedify,jkremser,
 ,,MichalK,Absa,kuritka,
