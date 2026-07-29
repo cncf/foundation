@@ -206,15 +206,13 @@ Graduated,CoreDNS,Chris O'Haver,Infoblox,chrisohaver,https://github.com/coredns/
 ,,Sandeep Rajan,Infoblox,rajansandeep,
 ,,Michael Grosser,,stp-ip,
 ,,Ben Kochie,GitLab,superq,
-Graduated,containerd,Michael Crosby,Apple,crosbymichael,https://github.com/containerd/project/blob/master/MAINTAINERS
-,,Derek McGowan,Docker,dmcgowan,
+Graduated,containerd,Derek McGowan,Docker,dmcgowan,https://github.com/containerd/.project/blob/master/MAINTAINERS
 ,,Phil Estes,Amazon,estesp,
 ,,Akihiro Suda,NTT,AkihiroSuda,
 ,,Mike Brown,IBM,mikebrow,
 ,,Maksym Pavlenko,NVIDIA,mxpv,
 ,,Wei Fu,Microsoft,fuweid,
 ,,Davanum Srinivas,Nvidia,dims,
-,,Kevin Parsons,Microsoft,kevpar,
 ,,Kazuyoshi Kato,Fly.io,kzys,
 ,,Samuel Karp,Google,samuelkarp,
 ,,Kirtana Ashok,Microsoft,kiashok,
