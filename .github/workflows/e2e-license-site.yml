@@ -9,6 +9,9 @@ on:
       - 'license-exceptions/playwright.config.js'
       - 'license-exceptions/package.json'
 
+permissions:
+  contents: read
+
 jobs:
   e2e-tests:
     name: Run E2E Tests

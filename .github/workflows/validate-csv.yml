@@ -5,6 +5,9 @@ on:
     paths:
       - "project-maintainers.csv"
 
+permissions:
+  contents: read
+
 jobs:
   validate-csv:
     runs-on: ubuntu-latest
