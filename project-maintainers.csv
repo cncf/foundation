@@ -927,11 +927,8 @@ Incubating,Operator Framework: Lifecycle Manager v1,Joe Lanford,Red Hat,joelanfo
 ,,Predrag Knezevic,Red Hat,pedjak,
 ,,Rashmi Gottipati,Red Hat,rashmigottipati,
 ,,Tayler Geiger,Red Hat,trgeiger,
-Sandbox,Serverless Workflow Specification,Ricardo Zanini,,ricardozanini,https://github.com/serverlessworkflow/specification/blob/master/OWNERS
-,,Tihomir Surdilovic,Temporal Technologies,tsurdilo,
-,,Manuel Stein,Nokia Bell Labs,manuelstein,
+Sandbox,Open Workflow Specification,Ricardo Zanini,Red Hat,ricardozanini,https://github.com/open-workflow-specification/specification/blob/main/MAINTAINERS.md
 ,,Charles d'Avernas,Neuroglia SPRL,cdavernas,
-,,Antonio Mendoza Pérez,,antmendoza,
 Incubating,ChaosMesh,Cwen Yin,PingCAP,cwen0,https://github.com/chaos-mesh/chaos-mesh/blob/master/MAINTAINERS.md
 ,,Keao Yang,PingCAP,YangKeao,
 ,,Calvin Weng,PingCAP,dcalvin,
