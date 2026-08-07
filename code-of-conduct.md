@@ -20,6 +20,7 @@ Other languages available:
 - [Portuguese/Português](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/pt.md)
 - [Russian/Русский](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/ru.md)
 - [Spanish/Español](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/es.md)
+- [Thai/ภาษาไทย](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/th.md)
 - [Traditional Chinese/繁體中文](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/zh-tw.md)
 - [Turkish/Türkçe](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/tr.md)
 - [Ukrainian/Українська](https://github.com/cncf/foundation/blob/main/code-of-conduct-languages/uk.md)
