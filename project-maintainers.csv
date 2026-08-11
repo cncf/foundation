@@ -235,18 +235,12 @@ Graduated,Jaeger,Yuri Shkuro,Meta,yurishkuro,https://github.com/jaegertracing/ja
 ,,Jonah Kowall,Paessler,jkowall,
 ,,Pavol Loffay,Red Hat,pavolloffay,
 ,,Mahad Zaryab,Bloomberg,mahadzaryab1,
-Graduated,Vitess,Andres Taylor,PlanetScale,systay,https://github.com/vitessio/vitess/blob/master/MAINTAINERS.md
+Graduated,Vitess,Matt Lord,PlanetScale,mattlord,https://github.com/vitessio/vitess/blob/master/MAINTAINERS.md
 ,,Arthur Schreiber,PlanetScale,arthurschreiber,
 ,,Derek Perkins,Nozzle,derekperkins,
-,,Dirkjan Bussink,PlanetScale,dbussink,
 ,,Florent Poinsard,PlanetScale,frouioui,
-,,Harshit Gangal,PlanetScale,harshit-gangal,
 ,,Matt Lord,PlanetScale,mattlord,
 ,,Mohamed Hamza,PlanetScale,mhamza15,
-,,Nick Van Wiggeren,PlanetScale,nickvanw,
-,,Noble Mittal,PlanetScale,beingnoble03,
-,,Rohit Nayak,PlanetScale,rohit-nayak-ps,
-,,Shlomi Noach,PlanetScale,shlomi-noach,
 ,,Tim Vaillancourt,PlanetScale,timvaillancourt,
 Incubating,gRPC,Abhishek Kumar,Google,a11r,https://github.com/grpc/grpc/blob/master/MAINTAINERS.md
 ,,Alexander Polcyn,Google,apolcyn,
