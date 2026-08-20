@@ -6,7 +6,7 @@ on:
 
 jobs:
   create-pr:
-    if: github.event.label.name == 'approved' || github.event.label.name == 'denied'
+    if: github.event.label.name == 'license-exception/approved' || github.event.label.name == 'license-exception/denied' || github.event.label.name == 'license-exception/not-eligible'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,7 +31,7 @@ jobs:
             const issueNumber = context.issue.number;
             const today = new Date().toISOString().split('T')[0];
             const labelName = context.payload.label.name;
-            const status = labelName === 'approved' ? 'approved' : 'denied';
+            const status = labelName.replace('license-exception/', '');
             
             // Extract project name
             const projectMatch = body.match(/For which CNCF project[^]*?\n\n([^\n]+)/);
@@ -135,9 +135,12 @@ jobs:
             const status = '${{ steps.parse.outputs.status }}';
             
             if (prNumber) {
-              const emoji = status === 'approved' ? '✅' : '❌';
-              const title = status === 'approved' ? 'Exception Approved' : 'Exception Denied';
-              const action = status === 'approved' ? 'add these approved exceptions' : 'record these denied exceptions';
+              const meta = {
+                'approved': { emoji: '✅', title: 'Exception Approved', action: 'add these approved exceptions' },
+                'denied': { emoji: '❌', title: 'Exception Denied', action: 'record these denied exceptions' },
+                'not-eligible': { emoji: '🚫', title: 'Exception Not Eligible', action: 'record these not-eligible requests' }
+              }[status] || { emoji: 'ℹ️', title: 'Exception Decision', action: 'record these exceptions' };
+              const { emoji, title, action } = meta;
               
               await github.rest.issues.createComment({
                 owner: context.repo.owner,

@@ -547,6 +547,11 @@ body {
     color: #721c24;
 }
 
+.status-not-eligible {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
 /* No Results */
 .no-results {
     padding: 3rem;

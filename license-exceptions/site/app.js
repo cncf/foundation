@@ -333,6 +333,8 @@
                 return 'status-approved';
             case 'denied':
                 return 'status-denied';
+            case 'not-eligible':
+                return 'status-not-eligible';
             case 'allowlisted':
                 return 'status-allowlisted';
             case 'apache-2.0':
