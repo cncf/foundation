@@ -101,6 +101,7 @@ All exception entries follow this structure:
 |--------|-------------|
 | `approved` | Approved by Governing Board vote |
 | `denied` | Denied by Governing Board (e.g., non-OSS license) |
+| `not-eligible` | Not eligible for the exception process (e.g., proposed use is inconsistent with the CNCF IP Policy) |
 | `allowlisted` | Meets allowlist criteria automatically |
 | `apache-2.0` | Apache-2.0 licensed (no exception needed) |
 

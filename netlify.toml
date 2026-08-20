@@ -6,9 +6,6 @@
 [build.environment]
   NODE_VERSION = "20"
 
-[context.deploy-preview]
-  ignore = "exit 0"
-
 [[headers]]
   for = "/*"
   [headers.values]

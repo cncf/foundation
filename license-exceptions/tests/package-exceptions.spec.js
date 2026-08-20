@@ -37,7 +37,7 @@ test.describe('Package Exceptions Page', () => {
   test('page has subtitle text', async ({ page }) => {
     // The page should have subtitle text about license exceptions
     await expect(page.locator('.subtitle')).toBeVisible();
-    await expect(page.locator('.subtitle')).toContainText('Approved license exceptions');
+    await expect(page.locator('.subtitle')).toContainText('Requested license exceptions');
   });
 
   test('blanket exceptions are shown in main table', async ({ page }) => {
