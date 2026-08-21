@@ -960,7 +960,7 @@ Sandbox,Tremor,Darach Ennis,Axiom,darach,
 ,,Matthias Wahl,GSMK GmbH,mfelsche,
 ,,Natali Vlatko,Cisco,natalisucks,
 ,,Sharon Koech,Canonical,skoech,
-Incubating,metal3-io,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffarDev,https://github.com/metal3-io/community/blob/main/maintainers/ALL-OWNERS
+Incubating,metal3,Muhammad Adil Ghaffar,Ericsson Software Technology,adilGhaffarDev,https://github.com/metal3-io/community/blob/main/maintainers/ALL-OWNERS
 ,,Bob Fournier,Red Hat,bfournie,
 ,,Derek Higgins,Red Hat,derekhiggins,
 ,,Dmitry Tantsur,Red Hat,dtantsur,
@@ -2373,7 +2373,7 @@ Sandbox,llm-d,Abdullah Gharaibeh,Google,ahg-g,https://github.com/llm-d/llm-d/blo
 ,,Carlos Costa,IBM,chcost,
 ,,Clayton Coleman (inactive while on leave),Google,smarterclayton,
 ,,Robert Shaw,Red Hat,robertgshaw2-redhat,
-Sandbox,Apicurio,Eric Wittmann,Red Hat,ericwittmann,
+Sandbox,Apicurio Registry,Eric Wittmann,Red Hat,ericwittmann,
 ,,Jakub Senko,Individual - No Account,jsenko,
 ,,Carles Arnal,Individual - No Account,carlesarnal,
 Sandbox,kbind,Stefan Schimanski,NVIDIA,sttts,https://github.com/kbind-dev/kbind/blob/main/OWNERS
