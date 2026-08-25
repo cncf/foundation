@@ -35,7 +35,7 @@
           "requestingProject": { "type": "string" },
           "approvedDate": { "type": "string", "format": "date" },
           "issueUrl": { "type": "string", "format": "uri" },
-          "status": { "type": "string", "enum": ["approved", "denied", "allowlisted", "apache-2.0"] },
+          "status": { "type": "string", "enum": ["approved", "denied", "not-eligible", "allowlisted", "apache-2.0"] },
           "project": { 
             "oneOf": [
               { "type": "string" },
