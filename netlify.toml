@@ -6,6 +6,11 @@
 [build.environment]
   NODE_VERSION = "20"
 
+[[redirects]]
+  from = "/blanket-exceptions.html"
+  to = "/"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]

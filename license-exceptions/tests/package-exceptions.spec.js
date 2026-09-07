@@ -37,7 +37,7 @@ test.describe('Package Exceptions Page', () => {
   test('page has subtitle text', async ({ page }) => {
     // The page should have subtitle text about license exceptions
     await expect(page.locator('.subtitle')).toBeVisible();
-    await expect(page.locator('.subtitle')).toContainText('Requested license exceptions');
+    await expect(page.locator('.subtitle')).toContainText('License exception decisions');
   });
 
   test('blanket exceptions are shown in main table', async ({ page }) => {
@@ -107,13 +107,13 @@ test.describe('Filter Dropdowns', () => {
   test('status filter works', async ({ page }) => {
     await page.selectOption('#status-filter', 'approved');
     
-    // All visible rows should have "approved" status
+    // All visible rows should have "Approved" status
     const statusBadges = page.locator('#exceptions-tbody .status-badge');
     const count = await statusBadges.count();
     
     if (count > 0) {
       for (let i = 0; i < Math.min(count, 5); i++) {
-        await expect(statusBadges.nth(i)).toHaveText('approved');
+        await expect(statusBadges.nth(i)).toHaveText('Approved');
       }
     }
   });
@@ -200,7 +200,7 @@ test.describe('Download Functionality', () => {
 
   test('CSV download button exists', async ({ page }) => {
     await expect(page.locator('#download-csv')).toBeVisible();
-    await expect(page.locator('#download-csv')).toHaveText('Download CSV');
+    await expect(page.locator('#download-csv')).toHaveText('Download CSV (current view)');
   });
 
   test('JSON download link exists', async ({ page }) => {

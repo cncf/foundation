@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CNCF License Exceptions</title>
+    <meta name="description" content="Searchable database of license exception decisions for CNCF projects.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23446ca9'/%3E%3Cpath d='M9 8h9l5 5v11H9z' fill='none' stroke='%23fff' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='M18 8v5h5' fill='none' stroke='%23fff' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='M12 17l2.5 2.5L20 14' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <h1>CNCF License Exceptions</h1>
-            <p class="subtitle">Requested license exceptions for CNCF projects</p>
+            <p class="subtitle">License exception decisions for CNCF projects</p>
         </div>
     </header>
 
-    <main class="container">
-        <!-- Filters Section -->
-        <section class="filters">
+    <main class="container" id="main">
+        <section class="intro" aria-labelledby="intro-heading">
+            <h2 id="intro-heading" class="visually-hidden">About this database</h2>
+            <p>
+                This database records every license exception decision made for CNCF projects, including approvals,
+                denials, and components that need no exception because their license is already allowed.
+                Before requesting an exception, projects should check the
+                <a href="https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md" target="_blank" rel="noopener noreferrer">allowed third-party license policy<span class="visually-hidden"> (opens in new tab)</span></a>
+                and, if the license is not on the allowlist, open a
+                <a href="https://github.com/cncf/foundation/issues/new?template=license-exception-request.yaml" target="_blank" rel="noopener noreferrer">license exception request<span class="visually-hidden"> (opens in new tab)</span></a>.
+            </p>
+        </section>
+
+        <section class="filters" aria-labelledby="filters-heading">
+            <h2 id="filters-heading" class="visually-hidden">Filters</h2>
             <div class="filters-row">
-                <div class="filter-group">
+                <div class="filter-group filter-group-search">
                     <label for="search">Search</label>
-                    <input type="text" id="search" placeholder="Search all fields...">
+                    <input type="search" id="search" placeholder="Search package, license, project, scope, comment…" autocomplete="off">
                 </div>
                 <div class="filter-group">
                     <label for="license-filter">License</label>
@@ -32,11 +46,6 @@
                     <label for="status-filter">Status</label>
                     <select id="status-filter">
                         <option value="">All Statuses</option>
-                        <option value="approved">Approved</option>
-                        <option value="denied">Denied</option>
-                        <option value="not-eligible">Not Eligible</option>
-                        <option value="allowlisted">Allowlisted</option>
-                        <option value="apache-2.0">Apache-2.0</option>
                     </select>
                 </div>
                 <div class="filter-group">
@@ -46,57 +55,85 @@
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="year-filter">Year</label>
+                    <label for="year-filter">Decision Year</label>
                     <select id="year-filter">
                         <option value="">All Years</option>
                     </select>
                 </div>
             </div>
-            <div class="filters-actions">
-                <button id="clear-filters" class="btn btn-secondary">Clear Filters</button>
+            <div class="filters-footer">
+                <ul class="status-legend" id="status-legend" aria-label="Status legend"></ul>
+                <button type="button" id="clear-filters" class="btn btn-secondary">Clear Filters</button>
             </div>
         </section>
 
-        <!-- Sort Controls -->
-        <section class="sort-controls">
-            <span class="results-count" id="results-count">Loading...</span>
+        <section class="sort-controls" aria-label="Results summary and sorting">
+            <div class="results-summary">
+                <span class="results-count" id="results-count" role="status" aria-live="polite">Loading…</span>
+                <span class="results-note" id="project-note" hidden>Includes exceptions that apply to all CNCF projects</span>
+            </div>
             <div class="sort-group">
-                <label for="sort-by">Sort by:</label>
+                <label for="sort-by">Sort by</label>
                 <select id="sort-by">
                     <option value="date-desc">Date (Newest First)</option>
                     <option value="date-asc">Date (Oldest First)</option>
                     <option value="package-asc">Package (A-Z)</option>
                     <option value="package-desc">Package (Z-A)</option>
-                    <option value="license-asc">License (A-Z)</option>
-                    <option value="license-desc">License (Z-A)</option>
                     <option value="status-asc">Status (A-Z)</option>
                     <option value="status-desc">Status (Z-A)</option>
+                    <option value="license-asc">License (A-Z)</option>
+                    <option value="license-desc">License (Z-A)</option>
+                    <option value="project-asc">Project (A-Z)</option>
+                    <option value="project-desc">Project (Z-A)</option>
                 </select>
             </div>
         </section>
 
-        <!-- Results Table -->
-        <section class="results">
+        <section class="results" aria-label="License exception decisions">
             <div class="table-wrapper">
                 <table id="exceptions-table">
+                    <caption class="visually-hidden">License exception decisions for CNCF projects. Sortable columns have buttons in their headers.</caption>
+                    <colgroup>
+                        <col class="col-package">
+                        <col class="col-status">
+                        <col class="col-license">
+                        <col class="col-project">
+                        <col class="col-scope">
+                        <col class="col-date">
+                        <col class="col-issue">
+                    </colgroup>
                     <thead>
                         <tr>
-                            <th class="sortable" data-sort="package">Package or Category <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-sort="license">License <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-sort="project">Project <span class="sort-indicator"></span></th>
-                            <th>Scope</th>
-                            <th class="sortable" data-sort="status">Status <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-sort="date">Approved Date <span class="sort-indicator"></span></th>
-                            <th>Results</th>
+                            <th scope="col" class="sortable" data-sort="package" aria-sort="none">
+                                <button type="button" class="sort-btn">Package or Category <span class="sort-indicator" aria-hidden="true"></span></button>
+                            </th>
+                            <th scope="col" class="sortable" data-sort="status" aria-sort="none">
+                                <button type="button" class="sort-btn">Status <span class="sort-indicator" aria-hidden="true"></span></button>
+                            </th>
+                            <th scope="col" class="sortable" data-sort="license" aria-sort="none">
+                                <button type="button" class="sort-btn">License <span class="sort-indicator" aria-hidden="true"></span></button>
+                            </th>
+                            <th scope="col" class="sortable" data-sort="project" aria-sort="none">
+                                <button type="button" class="sort-btn">Project <span class="sort-indicator" aria-hidden="true"></span></button>
+                            </th>
+                            <th scope="col">Scope</th>
+                            <th scope="col" class="sortable" data-sort="date" aria-sort="none">
+                                <button type="button" class="sort-btn">Decision Date <span class="sort-indicator" aria-hidden="true"></span></button>
+                            </th>
+                            <th scope="col">Issue</th>
                         </tr>
                     </thead>
-                    <tbody id="exceptions-tbody">
-                        <!-- Populated by JavaScript -->
-                    </tbody>
+                    <tbody id="exceptions-tbody"></tbody>
                 </table>
             </div>
-            <div class="no-results" id="no-results" style="display: none;">
-                <p>No exceptions match your filters.</p>
+            <div class="no-results" id="no-results" role="status" hidden>
+                <p class="no-results-title">No decision recorded for this search.</p>
+                <p>
+                    If the component's license is on the
+                    <a href="https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md" target="_blank" rel="noopener noreferrer">CNCF allowlist<span class="visually-hidden"> (opens in new tab)</span></a>,
+                    no exception is needed. Otherwise,
+                    <a href="https://github.com/cncf/foundation/issues/new?template=license-exception-request.yaml" target="_blank" rel="noopener noreferrer">request an exception<span class="visually-hidden"> (opens in new tab)</span></a>.
+                </p>
             </div>
         </section>
     </main>
@@ -105,15 +142,14 @@
         <div class="container">
             <div class="footer-links">
                 <a href="https://github.com/cncf/foundation/tree/main/license-exceptions" target="_blank" rel="noopener noreferrer">
-                    View on GitHub
+                    View on GitHub<span class="visually-hidden"> (opens in new tab)</span>
                 </a>
-                <a href="exceptions.json" download="cncf-license-exceptions.json">
-                    Download JSON
-                </a>
-                <button id="download-csv" class="link-btn">Download CSV</button>
+                <a href="exceptions.json" download="cncf-license-exceptions.json">Download JSON (all)</a>
+                <button type="button" id="download-csv" class="link-btn">Download CSV (current view)</button>
+                <a href="cncf-exceptions-current.spdx" download="cncf-exceptions-current.spdx">Download SPDX (all)</a>
             </div>
             <p class="footer-meta">
-                Data version: <span id="data-version">-</span> | 
+                Data version: <span id="data-version">-</span> &middot;
                 Last updated: <span id="last-updated">-</span>
             </p>
         </div>
