@@ -1,8 +1,19 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-06-04",
+  "lastUpdated": "2026-09-07",
   "blanketExceptions": [],
   "exceptions": [
+    {
+      "id": "exc-2026-09-07-001",
+      "package": "Grafana k6 (`go.k6.io/k6/v2` Go module and `grafana/k6:*-with-browser` container image; `v2.1.0` is the version pinned as of this writing)",
+      "packageUrl": "[grafana/k6](https://github.com/grafana/k6)",
+      "license": "AGPL-3.0-only",
+      "project": "OpenTelemetry (OpenTelemetry Demo, https://github.com/open-telemetry/opentelemetry-demo)",
+      "approvedDate": "2026-09-07",
+      "issueUrl": "https://github.com/cncf/foundation/issues/1482",
+      "status": "not-eligible",
+      "scope": "k6 provides the OpenTelemetry Demo's synthetic HTTP and browser traffic generator and exports load-test metrics through OTLP. The project compiles k6 with its Apache-2.0 `xk6-otel` extension so synthetic spans, logs, metrics, and propagated trace context can be correlated with telemetry from the services being exercised."
+    },
     {
       "id": "exc-2026-05-08-001",
       "package": "RemixIcon",
