@@ -76,8 +76,8 @@ This outlines the process for applying for an exception to the Intellectual Prop
 
 Exceptions should be filed by the project using the component - the exception applies to how the component is being used.
 
-- A staff member will review and add to the [Licensing Exception Board](https://github.com/orgs/cncf/projects/44)
+- A staff member will triage the request (applying labels such as `needs-review`) and add it to the [Licensing Exception Board](https://github.com/orgs/cncf/projects/44)
 - Staff will work with Legal to create an agenda for the Legal Committee to review and present a recommendation to the Governing Board.
 - A vote is called according to the [CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md).
-- If the vote is approved and the resolution passes, Staff will post in the issue, linking to the PR where this has been approved.
-- If the vote is not approved, the issue will be closed.
+- Staff records the decision by applying a label (`license-exception/approved`, `license-exception/denied`, or `license-exception/not-eligible`) to the request issue, which opens a PR recording the outcome in the exceptions database.
+- Once that PR is merged, the decision (approved, denied, or not eligible) appears at <https://exceptions.cncf.io/> and the issue is closed.

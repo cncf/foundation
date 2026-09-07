@@ -51,11 +51,15 @@ function main() {
   for (const exc of exceptions) {
     const strippedName = stripPackagePrefix(exc.package);
     const project = Array.isArray(exc.project) ? exc.project.join(', ') : (exc.project || '');
-    const projectInfo = project ? `Project: ${project}. ` : '';
-    const scopeInfo = exc.scope ? `Scope: ${exc.scope}. ` : '';
-    const statusInfo = exc.status ? `Status: ${exc.status}. ` : '';
-    const baseComment = exc.comment || `${exc.status || 'approved'} ${exc.approvedDate}`;
-    const comment = `${projectInfo}${scopeInfo}${statusInfo}${baseComment}`;
+    const status = exc.status || '';
+    const commentParts = [];
+    if (project) commentParts.push(`Project: ${project}.`);
+    if (exc.scope) commentParts.push(`Scope: ${exc.scope}.`);
+    commentParts.push(`Decision: ${status} (${exc.approvedDate || 'no date recorded'}).`);
+    if (exc.comment) commentParts.push(exc.comment);
+    const issueLink = exc.results || exc.issueUrl;
+    if (issueLink) commentParts.push(`Issue: ${issueLink}`);
+    const comment = commentParts.join(' ');
 
     lines.push(`##### Package: ${strippedName}`);
     lines.push('');

@@ -87,10 +87,17 @@ body:
 
         Please fill in the table below, with one row for each unique component for which a license exception is requested. In the "Project Usage URL" column, please include the URL(s) where the component and its license are located. In the "Purpose" column, please briefly describe (in 1-2 sentences) the functionality of the component and the reason why the Project is using it.
 
+        Example row:
+
+        | Component | Upstream URL | Project Usage URL | License(s) | Purpose |
+        |-----------|-----------|-----------|-----------|-----------|
+        | github.com/example/lib | https://github.com/example/lib | https://github.com/cncf-project/repo/blob/main/go.mod | MPL-2.0 | Build-time dependency, unmodified |
+
   - type: textarea
     id: component_details
     attributes:
       label: "List of components requiring an exception"
+      description: "Component and License(s) are required. Use SPDX identifiers for licenses. Keep one component per row and do not use the | character inside a cell."
       value: "| Component | Upstream URL | Project Usage URL | License(s) | Purpose |\n|-----------|-----------|-----------|-----------|-----------|\n|            |            |            |            |            |\n|            |            |            |            |            |\n|            |            |            |            |            |"
     validations:
       required: true
@@ -126,7 +133,7 @@ body:
   - type: textarea
     id: distribution_and_integration_model_explanation
     attributes:
-      label: Please explain
+      label: "Distribution and integration model — explanation"
       placeholder: Provide details about your selection(s)
     validations:
       required: true
@@ -163,7 +170,7 @@ body:
   - type: textarea
     id: modification_status_explanation
     attributes:
-      label: Please explain
+      label: "Modification status — explanation"
       placeholder: Provide details about your selection(s)
     validations:
       required: true
@@ -196,7 +203,7 @@ body:
   - type: textarea
     id: structural_separation_explanation
     attributes:
-      label: Please explain
+      label: "Structural separation — explanation"
       placeholder: Provide details about your selection(s)
     validations:
       required: true
@@ -224,7 +231,7 @@ body:
   - type: textarea
     id: communication_mechanism_explanation
     attributes:
-      label: Please explain
+      label: "Communication mechanism — explanation"
       placeholder: Provide details about your selection(s) or N/A if "intermingled code" was selected for the structural separation question
     validations:
       required: true
@@ -252,7 +259,7 @@ body:
   - type: textarea
     id: data_exchange_explanation
     attributes:
-      label: Please explain
+      label: "Data exchange — explanation"
       placeholder: Provide details about your selection(s) or N/A if "intermingled code" was selected for the structural separation question
     validations:
       required: true
@@ -269,5 +276,5 @@ body:
   - type: textarea
     id: additional_information_explanation
     attributes:
-      label: Please explain
+      label: "Additional information — explanation"
       placeholder: Provide details about your selection(s)

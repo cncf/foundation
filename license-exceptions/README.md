@@ -70,6 +70,29 @@ See also:
 
 ## For Maintainers
 
+### Recording a decision (staff)
+
+Once the Governing Board has voted on a request, staff record the outcome directly on the request issue. No hand-editing of `exceptions.json` is needed for the normal flow.
+
+1. Apply exactly one decision label to the request issue:
+   - `license-exception/approved`
+   - `license-exception/denied`
+   - `license-exception/not-eligible`
+2. The `license-exception-decision.yml` workflow runs on the label event. It parses the issue's component table (5 columns: Component | Upstream URL | Project Usage URL | License(s) | Purpose) and writes one entry per row to `exceptions.json`:
+   - `status` = the label suffix (`approved`, `denied`, or `not-eligible`)
+   - `approvedDate` = the issue's close date if the issue is already closed, otherwise the date the label was applied. This is the date of the decision, regardless of outcome.
+   - `issueUrl` = the URL of the request issue; `results` = the same URL
+   - `scope` = the Purpose column, with ` (used at: <Project Usage URL>)` appended when a usage URL is given
+   - `id` = `exc-<date>-NNN`, continuing from any existing ids for that date
+3. The workflow regenerates the CSV and SPDX files and opens a signed-off PR assigned to @joannalee333, titled "Record license exception decision (<status>) for <project> (#<issue>)", with `Closes #<issue>` in the body. It also comments on the issue with a link to the PR.
+4. The PR is **not** auto-merged. A maintainer reviews and merges it. Once merged, Netlify redeploys [exceptions.cncf.io](https://exceptions.cncf.io/) from `main` and the decision appears on the site.
+
+If the run fails (red workflow run plus a comment on the issue), no valid table rows were found. Fix the component table in the issue body (valid markdown, one component per row, Component and License(s) filled in), then remove and re-apply the decision label to trigger a fresh run.
+
+When an issue with the `licensing` label is opened or edited, the triage workflow adds `needs-review`, adds `possible-duplicate` if a component already exists in the database, and posts or updates a single "Automated Triage Summary" comment.
+
+For backfills and historical corrections, the manual-edit path below remains available.
+
 ### Updating Exception Data
 
 1. Edit `exceptions.json` directly
@@ -89,6 +112,7 @@ All exception entries follow this structure:
   "project": "ProjectName",
   "scope": "build-time dependency, unmodified",
   "approvedDate": "2023-08-31",
+  "issueUrl": "https://github.com/cncf/foundation/issues/123",
   "results": "https://github.com/cncf/foundation/issues/123",
   "status": "approved",
   "comment": "Optional notes"
@@ -101,10 +125,11 @@ All exception entries follow this structure:
 | `package` | Yes | Package name or category |
 | `license` | Yes | SPDX license identifier(s) |
 | `status` | Yes | Approval status (see below) |
-| `approvedDate` | Yes | Date of decision (YYYY-MM-DD) |
+| `approvedDate` | Yes (by convention) | Date of the decision (YYYY-MM-DD), regardless of outcome. Not required by the schema, but every recorded entry is expected to have one. For `denied` and `not-eligible` rows it is the date the decision was made, not an approval. |
 | `project` | No | Requesting CNCF project, or "All CNCF Projects" for blanket exceptions |
 | `scope` | No | How the dependency is used (e.g., "build-time dependency, unmodified") |
-| `results` | No | URL to GitHub issue or documentation |
+| `issueUrl` | No | URL of the request issue where the exception was applied for |
+| `results` | No | URL to the decision documentation. Historically a Google Doc or the request issue; newer entries point at the request issue |
 | `comment` | No | Additional context or notes |
 
 ### Status Values

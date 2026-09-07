@@ -60,8 +60,9 @@ function main() {
     'Project',
     'Scope',
     'Status',
+    'Issue',
     'Comments',
-    'Date Published',
+    'Decision Date',
     `Last updated: ${lastUpdated}`
   ];
   lines.push(header.map(escapeCSVField).join(','));
@@ -74,6 +75,7 @@ function main() {
       formatProject(exc.project),
       exc.scope || '',
       exc.status || '',
+      exc.results || exc.issueUrl || '',
       exc.comment || '',
       formatDate(exc.approvedDate),
       '' // Last updated column is empty for data rows

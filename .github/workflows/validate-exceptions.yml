@@ -53,6 +53,45 @@ jobs:
             console.log('✓ No duplicate IDs found (' + ids.length + ' exceptions)');
           "
 
+      - name: Check ID format
+        run: |
+          node -e "
+            const data = JSON.parse(require('fs').readFileSync('license-exceptions/exceptions.json', 'utf-8'));
+            const pattern = /^exc-\d{4}-\d{2}-\d{2}-\d{3}$/;
+            const excIds = data.exceptions.map(e => e.id).filter(id => id.startsWith('exc-'));
+            const legacyIds = data.exceptions.map(e => e.id).filter(id => !id.startsWith('exc-'));
+            const invalid = excIds.filter(id => !pattern.test(id));
+            if (invalid.length > 0) {
+              console.error('IDs not matching exc-YYYY-MM-DD-NNN:', invalid);
+              process.exit(1);
+            }
+            console.log('✓ All ' + excIds.length + ' exc- IDs match exc-YYYY-MM-DD-NNN');
+            if (legacyIds.length > 0) {
+              console.log('Note: ' + legacyIds.length + ' legacy non-exc- IDs skipped: ' + legacyIds.join(', '));
+            }
+          "
+
+      - name: Check result and issue URLs
+        run: |
+          node -e "
+            const data = JSON.parse(require('fs').readFileSync('license-exceptions/exceptions.json', 'utf-8'));
+            const invalid = [];
+            for (const exc of data.exceptions) {
+              for (const field of ['results', 'issueUrl']) {
+                const value = exc[field];
+                if (value !== undefined && value !== null && value !== '' && !/^https?:\/\//.test(value)) {
+                  invalid.push(exc.id + ': ' + field + ' = ' + value);
+                }
+              }
+            }
+            if (invalid.length > 0) {
+              console.error('Invalid URLs found (must be http/https):');
+              invalid.forEach(v => console.error('  ' + v));
+              process.exit(1);
+            }
+            console.log('✓ All results/issueUrl values are valid http(s) URLs');
+          "
+
       - name: Verify generated files are in sync
         run: |
           # Generate fresh files
