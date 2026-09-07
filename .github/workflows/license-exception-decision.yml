@@ -27,9 +27,13 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const fs = require('fs');
             const body = context.payload.issue.body || '';
             const issueNumber = context.issue.number;
+            const issueUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/issues/${issueNumber}`;
             const today = new Date().toISOString().split('T')[0];
+            const closedAt = context.payload.issue.closed_at;
+            const approvedDate = closedAt ? new Date(closedAt).toISOString().split('T')[0] : today;
             const labelName = context.payload.label.name;
             const status = labelName.replace('license-exception/', '');
             
@@ -37,13 +41,20 @@ jobs:
             const projectMatch = body.match(/For which CNCF project[^]*?\n\n([^\n]+)/);
             const project = projectMatch ? projectMatch[1].trim() : 'Unknown';
             
-            // Extract scope/usage context if present
-            const scopeMatch = body.match(/(?:How|Where|What).*(?:used|usage|scope|context)[^]*?\n\n([^\n]+)/i);
-            const defaultScope = scopeMatch ? scopeMatch[1].trim() : undefined;
+            // Continue numbering after existing ids of the form exc-<approvedDate>-NNN.
+            const existing = JSON.parse(fs.readFileSync('license-exceptions/exceptions.json', 'utf-8'));
+            const idPattern = new RegExp(`^exc-${approvedDate}-(\\d+)$`);
+            let idx = 1;
+            for (const e of existing.exceptions) {
+              const m = idPattern.exec(e.id || '');
+              if (m) idx = Math.max(idx, parseInt(m[1], 10) + 1);
+            }
             
-            // Extract component table - parse all columns including scope
+            // Extract component table rows; the template columns are
+            // Component | Upstream URL | Project Usage URL | License(s) | Purpose
             const tableMatch = body.match(/\|[^\n]*Component[^\n]*\|[\s\S]*?\n\|[-|\s]+\|\n([\s\S]*?)(?=\n\n|\n###|$)/);
             const newExceptions = [];
+            const skippedRows = [];
             
             // Unwrap a markdown link "[text](url)" or "<url>" to the bare URL.
             const toUrl = (cell) => {
@@ -56,42 +67,79 @@ jobs:
             
             if (tableMatch) {
               const rows = tableMatch[1].trim().split('\n');
-              let idx = 1;
               for (const row of rows) {
                 // Keep empty cells so column positions stay stable; strip only the
                 // leading/trailing pipe delimiters.
                 const cells = row.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
-                if (cells.length >= 4 && cells[0]) {
-                  // Try to extract scope from table (column 5 if present) or use default
-                  const scope = (cells.length >= 5 && cells[4]) ? cells[4] : defaultScope;
-                  
-                  newExceptions.push({
-                    id: `exc-${today}-${String(idx).padStart(3, '0')}`,
-                    package: cells[0],
-                    packageUrl: toUrl(cells[1]),
-                    license: cells[3],
-                    project: project,
-                    approvedDate: today,
-                    issueUrl: `https://github.com/${context.repo.owner}/${context.repo.repo}/issues/${issueNumber}`,
-                    status: status,
-                    scope: scope,
-                    comment: (cells.length >= 6 && cells[5]) ? cells[5] : undefined
-                  });
-                  idx++;
+                if (!cells[0] || !cells[3]) {
+                  if (cells.some(Boolean)) skippedRows.push(row.trim());
+                  continue;
                 }
+                
+                const usageUrl = toUrl(cells[2]);
+                let scope = cells[4] || '';
+                if (usageUrl && /^https?:\/\//i.test(usageUrl)) {
+                  scope = scope ? `${scope} (used at: ${usageUrl})` : `(used at: ${usageUrl})`;
+                }
+                
+                newExceptions.push({
+                  id: `exc-${approvedDate}-${String(idx).padStart(3, '0')}`,
+                  package: cells[0],
+                  packageUrl: toUrl(cells[1]),
+                  license: cells[3],
+                  project: project,
+                  approvedDate: approvedDate,
+                  issueUrl: issueUrl,
+                  results: issueUrl,
+                  status: status,
+                  scope: scope || undefined
+                });
+                idx++;
               }
             }
             
+            if (skippedRows.length > 0) {
+              core.warning(`Skipped ${skippedRows.length} row(s) missing Component or License(s):\n${skippedRows.join('\n')}`);
+            }
+            
             // Write to temp file for next step
-            const fs = require('fs');
             fs.writeFileSync('/tmp/new-exceptions.json', JSON.stringify(newExceptions, null, 2));
             
             core.setOutput('project', project);
             core.setOutput('count', newExceptions.length);
-            core.setOutput('date', today);
+            core.setOutput('skipped', skippedRows.length);
+            core.setOutput('skipped_line', skippedRows.length > 0 ? `**Skipped rows:** ${skippedRows.length} (missing Component or License)` : '');
+            core.setOutput('date', approvedDate);
             core.setOutput('status', status);
 
+      - name: Fail when no component rows were found
+        if: steps.parse.outputs.count == '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const skipped = Number('${{ steps.parse.outputs.skipped }}') || 0;
+            const lines = [
+              '## ⚠️ No component rows found',
+              '',
+              `The \`${context.payload.label.name}\` label was applied, but no valid component rows could be parsed from this issue, so no decision was recorded.`,
+              '',
+              'The component table must keep the 5 columns from the issue template (`Component | Upstream URL | Project Usage URL | License(s) | Purpose`), and every row needs at least a **Component** and a **License(s)** value.'
+            ];
+            if (skipped > 0) {
+              lines.push('', `**Skipped rows:** ${skipped} (missing Component or License)`);
+            }
+            lines.push('', 'Please fix the table in the issue description, then remove and re-apply the decision label to retry.');
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: lines.join('\n')
+            });
+            core.setFailed(`No valid component rows found in #${context.issue.number}; nothing to record.`);
+
       - name: Update exceptions.json
+        if: steps.parse.outputs.count != '0'
         run: |
           node -e "
             const fs = require('fs');
@@ -109,12 +157,14 @@ jobs:
           "
 
       - name: Generate derived formats
+        if: steps.parse.outputs.count != '0'
         run: |
           cd license-exceptions
           node scripts/generate-all.js
 
       - name: Create Pull Request
         id: create-pr
+        if: steps.parse.outputs.count != '0'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -131,6 +181,7 @@ jobs:
             **Decision:** ${{ steps.parse.outputs.status }}
             **Decision Date:** ${{ steps.parse.outputs.date }}
             **Exceptions Recorded:** ${{ steps.parse.outputs.count }}
+            ${{ steps.parse.outputs.skipped_line }}
             
             Closes #${{ github.event.issue.number }}
           commit-message: "feat(license): record ${{ steps.parse.outputs.status }} exceptions for ${{ steps.parse.outputs.project }} (#${{ github.event.issue.number }})"
@@ -140,12 +191,14 @@ jobs:
             license-exceptions/cncf-exceptions-current.spdx
 
       - name: Comment on issue
+        if: steps.parse.outputs.count != '0'
         uses: actions/github-script@v7
         with:
           script: |
             const prNumber = '${{ steps.create-pr.outputs.pull-request-number }}';
             const prUrl = '${{ steps.create-pr.outputs.pull-request-url }}';
             const status = '${{ steps.parse.outputs.status }}';
+            const skippedLine = '${{ steps.parse.outputs.skipped_line }}';
             
             if (prNumber) {
               const meta = {
@@ -154,11 +207,12 @@ jobs:
                 'not-eligible': { emoji: '🚫', title: 'Exception Not Eligible', action: 'record these not-eligible requests' }
               }[status] || { emoji: 'ℹ️', title: 'Exception Decision', action: 'record these exceptions' };
               const { emoji, title, action } = meta;
+              const skippedNote = skippedLine ? `\n\n${skippedLine}` : '';
               
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: `## ${emoji} ${title}\n\nA pull request has been created to ${action} to the database:\n\n${prUrl}\n\nOnce merged, the exceptions will appear in the [exceptions database](https://exceptions.cncf.io/).`
+                body: `## ${emoji} ${title}\n\nA pull request has been created to ${action} to the database:\n\n${prUrl}${skippedNote}\n\nOnce merged, the exceptions will appear in the [exceptions database](https://exceptions.cncf.io/).`
               });
             }

@@ -40,8 +40,10 @@ jobs:
             if (tableMatch) {
               const rows = tableMatch[1].trim().split('\n');
               for (const row of rows) {
-                const cells = row.split('|').map(c => c.trim()).filter(c => c);
-                if (cells.length >= 1 && cells[0]) {
+                // Keep empty cells so column positions stay stable; strip only the
+                // leading/trailing pipe delimiters.
+                const cells = row.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+                if (cells[0]) {
                   components.push(cells[0]);
                 }
               }
@@ -92,6 +94,7 @@ jobs:
             let comment = `## Automated Triage Summary\n\n`;
             comment += `**Project:** ${project}\n`;
             comment += `**Components Requested:** ${componentCount}\n\n`;
+            comment += `\`needs-review\` means this is awaiting staff triage; \`possible-duplicate\` means one or more components already appear in the database — please check before proceeding.\n\n`;
             
             if (duplicates.length > 0) {
               comment += `### ⚠️ Possible Duplicates Detected\n\n`;
@@ -103,12 +106,32 @@ jobs:
             }
             
             comment += `---\n`;
-            comment += `*This issue will be reviewed by the CNCF staff and Legal Committee. `;
-            comment += `See [process documentation](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#process-for-applying-for-an-exception).*`;
+            comment += `*This request will be reviewed by CNCF staff and the Legal Committee, which makes a recommendation to the Governing Board. `;
+            comment += `Decisions are recorded in the [exceptions database](https://exceptions.cncf.io/) and noted on this issue. `;
+            comment += `See the [process documentation](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#process-for-applying-for-an-exception).*`;
             
-            await github.rest.issues.createComment({
+            const comments = await github.paginate(github.rest.issues.listComments, {
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: comment
+              per_page: 100
             });
+            const existing = comments.find(c =>
+              c.user && c.user.login === 'github-actions[bot]' && (c.body || '').startsWith('## Automated Triage Summary')
+            );
+            
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body: comment
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: comment
+              });
+            }
