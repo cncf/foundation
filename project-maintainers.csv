@@ -2379,10 +2379,12 @@ Sandbox,llm-d,Abdullah Gharaibeh,Google,ahg-g,https://github.com/llm-d/llm-d/blo
 ,,Carlos Costa,IBM,chcost,
 ,,Clayton Coleman (inactive while on leave),Google,smarterclayton,
 ,,Robert Shaw,Red Hat,robertgshaw2-redhat,
-Sandbox,Apicurio Registry,Eric Wittmann,Red Hat,ericwittmann,
-,,Jakub Senko,Individual - No Account,jsenko,
-,,Carles Arnal,Individual - No Account,carlesarnal,
-,,Paolo Antinori,Red Hat,paoloantinori,
+Sandbox,Apicurio Registry,Eric Wittmann,IBM,EricWittmann,https://github.com/Apicurio/apicurio-registry/blob/main/MAINTAINERS.md
+,,Jakub Senko,IBM,jsenko,
+,,Carles Arnal,IBM,carlesarnal,
+,,Paolo Antinori,IBM,paoloantinori,
+,,Nikisha Patil,IBM,NikishaPatil,
+,,Vandana Yadav,IBM,vandanayadav7,
 Sandbox,kbind,Stefan Schimanski,NVIDIA,sttts,https://github.com/kbind-dev/kbind/blob/main/OWNERS
 ,,Moath Qasim,Kubermatic,moadqassem,
 ,,Karol Szwaj,Kubermatic,cnvergence,
