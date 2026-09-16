@@ -46,6 +46,7 @@ jobs:
           add-paths: |
             project-maintainers-.project.csv
           delete-branch: true
+          signoff: true
 
       - name: Enable auto-merge
         if: steps.cpr.outputs.pull-request-number != ''
