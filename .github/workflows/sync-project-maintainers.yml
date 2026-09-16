@@ -15,14 +15,18 @@ jobs:
     steps:
       - name: Checkout foundation
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Download latest CSV from maintainer-manager
+        env:
+          GH_TOKEN: ${{ secrets.FOUNDATION_TO_MAINTAINER_MANAGER_REPO }}
         run: |
           set -euo pipefail
-          curl -fsSL \
+          gh api \
             -H "Accept: application/vnd.github.raw" \
-            "https://raw.githubusercontent.com/cncf/maintainer-manager/main/maintainers/project-maintainers-.project.csv" \
-            -o project-maintainers-.project.csv
+            "/repos/cncf/maintainer-manager/contents/maintainers/project-maintainers-.project.csv?ref=main" \
+            > project-maintainers-.project.csv
 
       - name: Create or update PR
         id: cpr
