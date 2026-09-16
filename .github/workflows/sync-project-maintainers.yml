@@ -1,0 +1,52 @@
+name: Sync project-maintainers-.project.csv
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout foundation
+        uses: actions/checkout@v4
+
+      - name: Download latest CSV from maintainer-manager
+        run: |
+          set -euo pipefail
+          curl -fsSL \
+            -H "Accept: application/vnd.github.raw" \
+            "https://raw.githubusercontent.com/cncf/maintainer-manager/main/maintainers/project-maintainers-.project.csv" \
+            -o project-maintainers-.project.csv
+
+      - name: Create or update PR
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/sync-project-maintainers
+          base: main
+          commit-message: "chore: sync project-maintainers-.project.csv from maintainer-manager"
+          title: "chore: sync project-maintainers-.project.csv from maintainer-manager"
+          body: |
+            Automated daily sync of `project-maintainers-.project.csv` from
+            [`cncf/maintainer-manager`](https://github.com/cncf/maintainer-manager/blob/main/maintainers/project-maintainers-.project.csv).
+
+            This file is the aggregated view of every project's `.project/maintainers.yaml`.
+            Do not edit it by hand in this repo — see `guard-project-maintainers.yml`.
+          add-paths: |
+            project-maintainers-.project.csv
+          delete-branch: true
+
+      - name: Enable auto-merge
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge --auto --squash "${{ steps.cpr.outputs.pull-request-number }}" \
+            || echo "::warning::auto-merge not enabled; ensure repo settings allow auto-merge and Actions can create/approve PRs"

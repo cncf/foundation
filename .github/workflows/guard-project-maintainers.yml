@@ -1,0 +1,41 @@
+name: Guard project-maintainers-.project.csv
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+    paths:
+      - "project-maintainers-.project.csv"
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  close-and-redirect:
+    if: github.event.pull_request.user.login != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment and close PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh pr comment "$PR_NUMBER" --repo "$REPO" --body "$(cat <<'EOF'
+          👋 Thanks for the PR! `project-maintainers-.project.csv` in this repo is **auto-generated** every day from each project's `.project/maintainers.yaml` file. Any direct edits here would be overwritten on the next sync, so this PR is being closed automatically.
+
+          **To update maintainer information for your project:**
+
+          1. Edit `.project/maintainers.yaml` in **your project's own repository** and open a PR there.
+          2. Once merged, the change flows into this file on the next daily sync from [`cncf/maintainer-manager`](https://github.com/cncf/maintainer-manager).
+
+          **Access to CNCF services:**
+
+          Each maintainer must link their GitHub handle to their LFID at <https://openprofile.dev>. The **primary email address on your LFID** is what CNCF uses to grant access to CNCF services, so make sure it's an address you actually check.
+
+          Questions? Contact CNCF staff.
+          EOF
+          )"
+
+          gh pr close "$PR_NUMBER" --repo "$REPO"
