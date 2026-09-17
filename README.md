@@ -23,7 +23,7 @@ This repo contains several documents related to the operation of the [Cloud Nati
 
 ## Other content
 
-A lot of project, SIG, and TOC-related content is in the TOC [repo](https://github.com/cncf/toc#cncf-technical-oversight-committee-toc). [cncf.io](https://cncf.io) has information on all programs offered publicly by CNCF.
+A lot of project, TAG, and TOC-related content is in the TOC [repo](https://github.com/cncf/toc#cncf-technical-oversight-committee-toc). [cncf.io](https://cncf.io) has information on all programs offered publicly by CNCF.
 
 ### Project maintainers
 
