@@ -339,7 +339,7 @@ Graduated,falcosecurity,Aldo Lacuku,Kong Inc.,alacuku,https://github.com/falcose
 ,,Michele Zuccala,"Sysdig, Inc.",zuc,,
 ,,Roberto Scolaro,Sysdig,therealbobo,,
 ,,Samuel Gaist,Idiap Research Institute,sgaist,,
-,,Thomas Labarussias,Sysdig,issif,,
+,,Thomas Labarussias,Yubo,issif,,
 Graduated,fluent,Daijiro Fukuda,Individual - No Account,daipom,https://github.com/fluent/.project/blob/main/maintainers.yaml,cncf-fluentd-maintainers@lists.cncf.io
 ,,Eduardo Silva,"Chronosphere, Inc.",edsiper,,
 ,,,,fujimotos,,
@@ -583,7 +583,7 @@ Incubating,containernetworking,Ben Leggett,"Solo.io, Inc.",bleggett,https://gith
 ,,Marcelo Guerrero Viveros,Individual - No Account,mlguerrero12,,
 ,,,,matthewdupre,,
 ,,Michael Cambria,Red Hat LLC,mccv1r0,,
-,,,,MikeZappa87,,
+,,Michael Zappa,Palantir Technologies Inc.,MikeZappa87,,
 ,,Piotr Skamruk,Individual - No Account,jellonek,,
 ,,Tomofumi Hayashi,Individual - No Account,s1061123,,
 Incubating,cortexproject,alan protasio,"Amazon Web Services, Inc.",alanprot,https://github.com/cortexproject/.project/blob/main/maintainers.yaml,cncf-cortex-maintainers@lists.cncf.io
@@ -640,7 +640,7 @@ Incubating,k8gb-io,Andre Baptista Aguas,Individual - No Account,abaguas,https://
 ,,Michal Kuřítka,Individual - No Account,kuritka,,
 ,,Yury Tsarev,"Upbound, Inc.",ytsarev,,
 Incubating,keycloak,Alexander Schwartz,IBM,ahus1,https://github.com/keycloak/.project/blob/main/maintainers.yaml,cncf-keycloak-maintainers@lists.cncf.io
-,,,,mposolda,,
+,,Marek Posolda,Individual - No Account,mposolda,,
 ,,Pedro Igor,Keycloak,pedroigor,,
 ,,Ricardo Martin,IBM,rmartinc,,
 ,,Sebastian Schuster,Bosch,sschu,,
@@ -1169,7 +1169,7 @@ Sandbox,distribution,Bryan Clark,Timescale,clarkbw,https://github.com/distributi
 ,,,,deleteriousEffect,,
 ,,,,heww,,
 ,,João Pereira,Individual - No Account,joaodrp,,
-,,Justin Cormack,"Docker, Inc.",justincormack,,
+,,Justin Cormack,Individual - No Account,justincormack,,
 ,,Kyle Squizzato,"Mirantis, Inc.",squizzi,,
 ,,Milos Gajdos,GoCardless Ltd,milosgajdos,,
 ,,Sargun Dhillon,"Netflix, Inc.",sargun,,
@@ -1395,7 +1395,7 @@ Sandbox,kgateway-dev,Andy Fong,Individual - No Account,andy-fong,https://github.
 ,,Nathan Fudenberg,Individual - No Account,nfuden,,
 ,,Nina Polshakova,Individual - No Account,npolshakova,,
 ,,omar.hammami@ibm.com omar.hammami@ibm.com,Individual - No Account,puertomontt,,
-,,Petr McAllister,VMware LLC,PetrMc,,
+,,Petr McAllister,"Solo.io, Inc.",PetrMc,,
 ,,Rachael Graham,International Business Machines Corporation,Rachael-Graham,,
 ,,,,sam-heilbron,,
 ,,Scott Weiss,"Solo.io, Inc.",ilackarms,,
@@ -1787,8 +1787,8 @@ Sandbox,oscal-compass,Anca Sailer,IBM Research,ancatri,https://github.com/oscal-
 ,,Yuji Watanabe,International Business Machines Corporation,yuji-watanabe-jp,,
 Sandbox,ovn-kubernetes,Girish US,NVIDIA Corporation,girishmg,https://github.com/ovn-kubernetes/.project/blob/main/maintainers.yaml,cncf-ovn-kubernetes-maintainers@lists.cncf.io
 ,,Jaime Caamaño Ruiz,Red Hat LLC,jcaamano,,
-,,,,kyrtapz,,
 ,,Nadia Pinaeva,Individual - No Account,npinaeva,,
+,,Patryk Diak,Red Hat,kyrtapz,,
 ,,Surya Seetharaman,Red Hat LLC,tssurya,,
 ,,Tim Rozet,NVIDIA,trozet,,
 Sandbox,oxia-db,,,codelipenghui,https://github.com/oxia-db/.project/blob/main/maintainers.yaml,oxia-maintainers@lists.cncf.io
@@ -1802,7 +1802,7 @@ Sandbox,parallaxsecond,,,adamparco,https://github.com/parallaxsecond/.project/bl
 ,,,,gowthamsk-arm,,
 ,,Hugues de Valon,Arm Limited,hug-dev,,
 ,,Ionut Mihalcea,Arm Limited,ionut-arm,,
-,,Justin Cormack,"Docker, Inc.",justincormack,,
+,,Justin Cormack,Individual - No Account,justincormack,,
 ,,,,mohamedasaker-arm,,
 ,,Paul Howard,Arm Limited,paulhowardarm,,
 ,,Sabree Blackmon,Rebellion Defense,heavypackets,,
