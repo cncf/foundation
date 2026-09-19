@@ -421,7 +421,7 @@ Graduated,kubeedge,benjamin huo,Individual - No Account,benjaminhuo,https://gith
 ,,,,GsssC,,
 ,,Hongbing Zhang,"DaoCloud Network Technology Co., Ltd.",HongbingZhang,,
 ,,Huan Wei,"Hangzhou Harmony Cloud Technology Co., Ltd.",huanwei,,
-,,jiawei liu,,JiaweiGithub,,
+,,jiawei liu,"DaoCloud Network Technology Co., Ltd.",JiaweiGithub,,
 ,,jie zhang,"Hangzhou NetEase Shuzhifan Technology Co., Ltd",kadisi,,
 ,,Kevin Wang,"Huawei Technologies Co., Ltd",kevin-wangzefeng,,
 ,,Sanil Kumar,Caze Labs Private Limited,skdwriting,,
@@ -663,7 +663,7 @@ Incubating,kserve,,,andyi2it,https://github.com/kserve/.project/blob/main/mainta
 ,,Johnu George,"Nutanix, Inc.",johnugeorge,,
 ,,Jooho lee,RedHat,Jooho,,
 ,,LIZE CAI,SAP SE,lizzzcai,,
-,,Pierangelo Di Pilato,Red Hat LLC,pierDipi,,
+,,Pierangelo Di Pilato,Red Hat,pierDipi,,
 ,,Sivanantham Chinnaiyan,Individual - No Account,sivanantha321,,
 ,,Vivek Karunai Kiri Ragavan,Red Hat LLC,vivekk16,,
 ,,Yuan (Terry) Tang,Red Hat LLC,terrytangyuan,,
@@ -861,7 +861,7 @@ Incubating,operator-framework,Adam Cornett,Red Hat LLC,acornett21,https://github
 ,,Varsha Prasad Narsing,Red Hat LLC,varshaprasad96,,
 Incubating,Project-HAMi,,,DSFans2014,https://github.com/Project-HAMi/.project/blob/main/maintainers.yaml,cncf-hami-maintainers@lists.cncf.io
 ,,Mengxuan Li,Dynamia AI,archlitchi,,
-,,Reza Jelveh,Individual - No Account,fishman,,
+,,Reza Jelveh,Dynamia AI,fishman,,
 ,,Shouren Yang,Individual - No Account,shouren,,
 ,,xiao zhang,Individual - No Account,wawa0210,,
 ,,Yin Yu,Individual - No Account,nimbus318,,
@@ -1014,16 +1014,18 @@ Sandbox,bpfman,Andre Fredette,Red Hat LLC,anfredette,https://github.com/bpfman/.
 ,,Billy McFall,Red Hat LLC,billy99,,
 ,,Dave Tucker,Red Hat LLC,dave-tucker,,
 ,,,,frobware,,
-Sandbox,cadence-workflow,Abhishek Jha,Individual - No Account,abhishekj720,https://github.com/cadence-workflow/.project/blob/main/maintainers.yaml,cncf-cadence-maintainers@lists.cncf.io
+Sandbox,cadence-workflow,[[unknown]] [[unknown]],Individual - No Account,andreasholt,https://github.com/cadence-workflow/.project/blob/main/maintainers.yaml,cncf-cadence-maintainers@lists.cncf.io
+,,Abhishek Jha,Individual - No Account,abhishekj720,,
 ,,Adhitya Mamallan,Individual - No Account,adhityamamallan,,
 ,,Assem Hafez,Individual - No Account,Assem-Hafez,,
 ,,bowen xiao,Individual - No Account,bowenxia,,
 ,,Chris Warren,Individual - No Account,c-warren,,
 ,,Diana Zawadzki,Cadence Workflow,zawadzkidiana,,
-,,Eleonora Di Gregorio,Individual - No Account,eleonoradgr,,
 ,,Ender Demirkaya,Uber Technologies Inc.,demirkayaender,,
 ,,Felipe Imanishi,Individual - No Account,fimanishi,,
+,,Fernando Barbeiro,Individual - No Account,fernandoabcampos,,
 ,,Gaziza Yestemirova,Individual - No Account,gazi-yestemirova,,
+,,,,instamitch,,
 ,,Jakob Haahr,Individual - No Account,jakobht,,
 ,,Jan Kisel,Moscow Design Bureau - Compas,dkrotx,,
 ,,Kevin Burns,Individual - No Account,Bueller87,,
@@ -1031,8 +1033,10 @@ Sandbox,cadence-workflow,Abhishek Jha,Individual - No Account,abhishekj720,https
 ,,Neil Xie,Individual - No Account,neil-xie,,
 ,,Shijie Sheng,Individual - No Account,shijiesheng,,
 ,,Stanislav Bychkov,Individual - No Account,ribaraka,,
-,,Tim Li,Uber,timl3136,,
+,,Taylan Isikdemir,Individual - No Account,taylanisikdemir,,
 ,,Timothy Chan,Individual - No Account,macrotim,,
+,,,,Tizzzzi,,
+,,,,vladimir-gavrilenko,,
 ,,Vsevolod Kaloshin,Uber,arzonus,,
 ,,Yawei Zhang,Individual - No Account,YaweiZhang-930,,
 ,,Zijian Chen,Individual - No Account,Shaddoll,,
@@ -1086,7 +1090,7 @@ Sandbox,cedar-policy,,,adpaco-aws,https://github.com/cedar-policy/.project/blob/
 Sandbox,chaosblade-io,Changjun Xiao,Individual - No Account,xcaspar,https://github.com/chaosblade-io/.project/blob/main/maintainers.yaml,cncf-chaosblade-maintainers@lists.cncf.io
 ,,,,chaoyuanning,,
 ,,,,MandssS,,
-,,Spencer Cai,,spencercjh,,
+,,Spencer Cai,Dynamia AI,spencercjh,,
 ,,,,tiny-x,,
 ,,Xudong Guo,OpenAtom Foundation,sunny0826,,
 Sandbox,cloudnative-pg,Armando Ruocco,EDB,armru,https://github.com/cloudnative-pg/.project/blob/main/maintainers.yaml,cncf-cloudnativepg-maintainers@lists.cncf.io
@@ -1417,7 +1421,7 @@ Sandbox,kitops-ml,,,amisevsk,https://github.com/kitops-ml/.project/blob/main/mai
 ,,Jesse Williams,Codenvy,Jwilliamsr,,
 ,,Nida Hasan,"Akara Technologies, Inc",nida-hasan,,
 Sandbox,kmesh-net,[[unknown]] [[unknown]],Individual - No Account,bitcoffeeiux,https://github.com/kmesh-net/.project/blob/main/maintainers.yaml,cncf-kmesh-maintainers@lists.cncf.io
-,,[[Unknown]] [not provided],,nlgwcy,,
+,,[[Unknown]] [not provided],"Huawei Technologies Co., Ltd",nlgwcy,,
 ,,Kevin Wang,"Huawei Technologies Co., Ltd",kevin-wangzefeng,,
 ,,Songyang Xie,Individual - No Account,supercharge-xsy,,
 ,,Zengzeng Yao,"Huawei Technologies Co., Ltd",YaoZengzeng,,
@@ -1502,7 +1506,7 @@ Sandbox,kube-rs,Danil Grigorev,Red Hat LLC,Danil-Grigorev,https://github.com/kub
 Sandbox,kube-vip,Daniel Finneran,Isovalent Inc.,thebsdbox,https://github.com/kube-vip/.project/blob/main/maintainers.yaml,cncf-kubevip-maintainers@lists.cncf.io
 ,,yassine TIJANI,Individual - No Account,yastij,,
 Sandbox,kubean-io,,,0ekk,https://github.com/kubean-io/.project/blob/main/maintainers.yaml,cncf-kubean-maintainers@lists.cncf.io
-,,bao guangli,,tukwila,,
+,,bao guangli,"DaoCloud Network Technology Co., Ltd.",tukwila,,
 ,,BO JIANG,"DaoCloud Network Technology Co., Ltd.",ErikJiang,,
 ,,,,FloatXD,,
 ,,,,hangscer8,,
@@ -1663,7 +1667,7 @@ Sandbox,networkservicemesh,Andrey Sobolev,Xored,haiodo,https://github.com/networ
 ,,Nikolay Nikolaev,Isovalent Inc.,nickolaev,,
 Sandbox,nmstate,enrique llorente,Red Hat LLC,qinqon,https://github.com/nmstate/.project/blob/main/maintainers.yaml,cncf-nmstate-maintainers@lists.cncf.io
 ,,,,ffmancera,,
-,,Gris Ge,Individual - No Account,cathay4t,,
+,,Gris Ge,China Unicom,cathay4t,,
 ,,,,ihuguet,,
 ,,Ján Václav,Red Hat,jvaclav-rh,,
 ,,Mateusz Kowalski,Red Hat LLC,mkowalski,,
@@ -1777,7 +1781,6 @@ Sandbox,opentofu,Andrei Ciobanu,Individual - No Account,yottta,https://github.co
 Sandbox,oras-project,Andrew Block,Red Hat,sabre1041,https://github.com/oras-project/.project/blob/main/maintainers.yaml,cncf-oras-maintainers@lists.cncf.io
 ,,Sajay Antony,Microsoft Corporation,sajayantony,,
 ,,Shiwei Zhang,Microsoft,shizhMSFT,,
-,,Steve Lasker,InMage Systems,stevelasker,,
 ,,Terry Howe,Individual - No Account,TerryHowe,,
 Sandbox,oscal-compass,Anca Sailer,IBM Research,ancatri,https://github.com/oscal-compass/.project/blob/main/maintainers.yaml,cncf-trestlegrc-maintainers@lists.cncf.io
 ,,Chris Butler,Red Hat LLC,butler54,,
@@ -1939,6 +1942,13 @@ Sandbox,score-spec,Ben Meier,Individual - No Account,astromechza,https://github.
 ,,,,chris-stephenson,,
 ,,Mathieu Benoit,Docker,mathieu-benoit,,
 ,,,,sujaya-sys,,
+Sandbox,sdcio,Alexander North,Swisscom,alexandernorth,https://github.com/sdcio/.project/blob/main/maintainers.yaml,cncf-sdc-maintainers@lists.cncf.io
+,,Fabian Schulz,Swisscom (Switzerland) Ltd,faebr,,
+,,,,hansthienpondt,,
+,,Karim Radhouani,Individual - No Account,karimra,,
+,,Markus Vahlenkamp,Individual - No Account,steiler,,
+,,Severin Dellsperger,Individual - No Account,severindellsperger,,
+,,Wim Henderickx,Nokia Corporation,henderiw,,
 Sandbox,sermant-io,,,daizhenyu,https://github.com/sermant-io/.project/blob/main/maintainers.yaml,cncf-sermant-maintainers@lists.cncf.io
 ,,,,hanbingleixue,,
 ,,Li Lai,Individual - No Account,lilai23,,
