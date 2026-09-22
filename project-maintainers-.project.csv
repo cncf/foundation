@@ -562,6 +562,7 @@ Incubating,cloud-custodian,AJ Kerrigan,Stacklet,ajkerrigan,https://github.com/cl
 ,,Sonny Shi,Stacklet,thisisshi,,
 ,,,,tjstansell,,
 Incubating,confidential-containers,Ariel Adam,Red Hat LLC,ariel-adam,https://github.com/confidential-containers/.project/blob/main/maintainers.yaml,cncf-ccontainers-maintainers@lists.cncf.io
+,,Beraldo Leal,Individual - No Account,beraldoleal,,
 ,,,,bsulich2,,
 ,,Dan Mihai,Microsoft Corporation,danmihai1,,
 ,,Harshitha Gowda,Individual - No Account,hgowda-amd,,
@@ -570,7 +571,6 @@ Incubating,confidential-containers,Ariel Adam,Red Hat LLC,ariel-adam,https://git
 ,,Magnus Kulke,Microsoft,mkulke,,
 ,,Mikko Ylinen,Intel Corporation,mythi,,
 ,,Nina Goradia,International Business Machines Corporation,ngoradia,,
-,,Pradipta Kumar Banerjee,Individual - No Account,bpradipt,,
 ,,Samuel Ortiz,Individual - No Account,sameo,,
 ,,Tobin Feldman-Fitzthum,International Business Machines Corporation,fitzthum,,
 ,,Zvonko Kaiser,NVIDIA Corporation,zvonkok,,
@@ -1910,6 +1910,7 @@ Sandbox,project-zot,andrei aaron,Individual - No Account,andaaron,https://github
 Sandbox,projectcapsule,,,bsctl,https://github.com/projectcapsule/.project/blob/main/maintainers.yaml,cncf-capsule-maintainers@lists.cncf.io
 ,,Dario Tranchitella,CLASTIX,prometherion,,
 ,,Hristo Hristov,Tide Platform Ltd,Svarrogh1337,,
+,,Marc Brugger,Individual - No Account,bakito,,
 ,,Massimiliano Giovagnoli,Clastix SRL,maxgio92,,
 ,,,,MaxFedotov,,
 ,,Oliver Bähler,Individual - No Account,oliverbaehler,,
@@ -1946,7 +1947,7 @@ Sandbox,sdcio,Alexander North,Swisscom,alexandernorth,https://github.com/sdcio/.
 ,,Fabian Schulz,Swisscom (Switzerland) Ltd,faebr,,
 ,,,,hansthienpondt,,
 ,,Karim Radhouani,Individual - No Account,karimra,,
-,,Markus Vahlenkamp,Individual - No Account,steiler,,
+,,Markus Vahlenkamp,Nokia Corporation,steiler,,
 ,,Severin Dellsperger,Individual - No Account,severindellsperger,,
 ,,Wim Henderickx,Nokia Corporation,henderiw,,
 Sandbox,sermant-io,,,daizhenyu,https://github.com/sermant-io/.project/blob/main/maintainers.yaml,cncf-sermant-maintainers@lists.cncf.io
