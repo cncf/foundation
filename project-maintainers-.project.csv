@@ -498,6 +498,7 @@ Graduated,Kubeflow,Abhijeet Dhumal,Red Hat,abhijeet-dhumal,https://github.com/ku
 ,,,,chasecadet,,
 ,,Chen Sun,Google,chensun,,
 ,,,,ChenYi015,,
+,,Debarati Basu-Nag,Red Hat LLC,dbasunag,,
 ,,Dominik Kawka,Individual - No Account,dominikkawka,,
 ,,Eder Ignatowicz,Red Hat,ederign,,
 ,,Francisco Arceo,Red Hat LLC,franciscojavierarceo,,
@@ -549,6 +550,7 @@ Graduated,Open Policy Agent,Anders Eknert,Styra Inc,anderseknert,https://github.
 ,,Ash Narkar,Styra Inc,ashutosh-narkar,,
 ,,Charles Smythe,Google LLC,maxsmythe,,
 ,,Charlie Egan,Apple,charlieegan3,,
+,,James Alseth,Individual - No Account,jalseth,,
 ,,Jaydip Gabani,Individual - No Account,JaydipGabani,,
 ,,Sertaç Özercan,Microsoft Corporation,sozercan,,
 ,,Stephan Renatus,Apple Inc.,srenatus,,
@@ -713,7 +715,7 @@ Graduated,OpenTelemetry,,,aalexand,https://github.com/open-telemetry/.project/bl
 ,,Yang Yi,Individual - No Account,y1yang0,,
 ,,Yordis Prieto,Individual - No Account,yordis,,
 ,,Yoshi Yamaguchi,"Raintank, Inc. – Grafana Labs",ymotongpoo,,
-,,,,zacharycmontoya,,
+,,Zachary Montoya,"Datadog, Inc",zacharycmontoya,,
 ,,Zhongyang Wu,Walmart Inc.,TommyCpp,,
 Graduated,Rook,Blaine Gardner,International Business Machines Corporation,BlaineEXE,https://github.com/rook/.project/blob/main/maintainers.yaml,cncf-rook-maintainers@lists.cncf.io
 ,,Jared Watts,"Upbound, Inc.",jbw976,,
@@ -1501,11 +1503,12 @@ Sandbox,k3s,[[unknown]] [[unknown]],Individual - No Account,caroline-suse-ranche
 Sandbox,K8sGPT,Alex Jones,"Amazon Web Services, Inc.",AlexsJones,https://github.com/k8sgpt-ai/.project/blob/main/maintainers.yaml,cncf-K8sGPT-maintainers@lists.cncf.io
 ,,Aris Boutselis,Individual - No Account,arbreezy,,
 ,,,,matthisholleville,,
-Sandbox,K8up,Nicolas Bigler,VSHN AG,TheBigLee,https://github.com/k8up-io/.project/blob/main/maintainers.yaml,cncf-K8up-maintainers@lists.cncf.io
+Sandbox,K8up,Aarno Aukia,VSHN AG,arska,https://github.com/k8up-io/.project/blob/main/maintainers.yaml,cncf-K8up-maintainers@lists.cncf.io
+,,,,lieneluksika,,
+,,Nicolas Bigler,VSHN AG,TheBigLee,,
+,,Sebastian Widmer,Individual - No Account,bastjan,,
 ,,Simon Beck,Individual - No Account,Kidswiss,,
 ,,Tobias Brunner,VSHN AG,tobru,,
-,,,,zugao,,
-,,Łukasz Widera,Individual - No Account,wejdross,,
 Sandbox,kagent,Arthur Berger,"Solo.io, Inc.",artberger,https://github.com/kagent-dev/.project/blob/main/maintainers.yaml,cncf-kagent-maintainers@lists.cncf.io
 ,,Dmitriy Rashko,Amdocs Limited,dimetron,,
 ,,Eitan Yarmush,"Solo.io, Inc.",EItanya,,
@@ -1562,17 +1565,18 @@ Sandbox,kcp,Andy Anderson,Kubestellar,clubanderson,https://github.com/kcp-dev/.p
 ,,Sebastian Scheele,Kubermatic GmbH,scheeles,,
 ,,Simon Bein,Kubermatic,SimonTheLeg,,
 ,,sttts Stefan Schimanski,NVIDIA,sttts,,
-Sandbox,Kepler,[[unknown]] [[unknown]],Individual - No Account,yellowhat,https://github.com/sustainable-computing-io/.project/blob/main/maintainers.yaml,cncf-kepler-maintainers@lists.cncf.io
-,,Brad McCoy,basiq,bradmccoydev,,
-,,,,KaiyiLiu1234,,
+Sandbox,Kepler,Angel Patricio Olivares Espinosa,Civir,angelOlivares,https://github.com/sustainable-computing-io/.project/blob/main/maintainers.yaml,cncf-kepler-maintainers@lists.cncf.io
+,,Erwan Billard,Individual - No Account,iacker,,
+,,Himanshu Verma,Individual - No Account,bitflicker64,,
+,,Julian Legler,Individual - No Account,JulianLegler,,
 ,,Laura Llinares,CERN,laurall974,,
+,,Leonor Oliveira,Individual - No Account,leonorfmartins,,
+,,,,marybaldwin,,
 ,,Niki Manoledaki,"Raintank, Inc. – Grafana Labs",nikimanoledaki,,
-,,Peng Hui Jiang,International Business Machines Corporation,jiangphcn,,
 ,,Sunil Thaha,Red Hat LLC,sthaha,,
 ,,Sunyanan Choochotkaew,IBM,sunya-ch,,
 ,,Vibhu Prashar,RedHat,vprashar2929,,
-,,Vimal Kumar,Individual - No Account,vimalk78,,
-,,Yi Yuan,Individual - No Account,SamYuan1990,,
+,,Virginia-Diana Todea,VictoriaMetrics,didiViking,,
 Sandbox,Keylime,Alberto Domínguez,Individual - No Account,aplanas,https://github.com/keylime/.project/blob/main/maintainers.yaml,cncf-keylime-maintainers@lists.cncf.io
 ,,,,ansasaki,,
 ,,,,maugustosilva,,
@@ -1747,7 +1751,7 @@ Sandbox,KubeFleet,Britania Rodriguez Reyes,Microsoft,britaniar,https://github.co
 ,,Wei Weng,Individual - No Account,weng271190436,,
 ,,Yetkin Timocin,Individual - No Account,ytimocin,,
 ,,Zhiying Lin,Individual - No Account,zhiying-lin,,
-Sandbox,Kuberhealthy,Eric Greer,"Epic Games, Inc",integrii,https://github.com/kuberhealthy/.project/blob/main/maintainers.yaml,cncf-kuberhealthy-maintainers@lists.cncf.io
+Sandbox,Kuberhealthy,Eric Greer,Individual - No Account 20,integrii,https://github.com/kuberhealthy/.project/blob/main/maintainers.yaml,cncf-kuberhealthy-maintainers@lists.cncf.io
 Sandbox,Kubernetes AI Toolchain Operator (KAITO),Andy Zhang,Microsoft Corporation,andyzhangx,https://github.com/kaito-project/.project/blob/main/maintainers.yaml,cncf-kaito-maintainers@lists.cncf.io
 ,,Fei Guo,Individual - No Account,Fei-Guo,,
 ,,zhuang qinghui,Individual - No Account,zhuangqh,,
