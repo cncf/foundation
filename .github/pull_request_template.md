@@ -3,6 +3,8 @@
 > [!IMPORTANT]
 > **Not all projects are in `project-maintainers.csv`.** If your project isn't listed here, its maintainers are managed automatically and listed in [`project-maintainers-.project.csv`](project-maintainers-.project.csv). To change them, update `maintainers.yaml` in your project's own `.project` repo — the change will be handled by automation. Do not edit `project-maintainers-.project.csv` directly.
 >
+> **Do not add a new project to `project-maintainers.csv`.** It is a legacy list, kept only for projects not yet onboarded to the `.project` process. New projects onboard by adding a `.project/maintainers.yaml` file in their own repository. PRs that add a project not already listed in `project-maintainers.csv` are closed automatically.
+>
 > Access to the CNCF Service Desk and project maintainer mailing lists is controlled by the link between a maintainer's GitHub handle and their LFID, which can be updated at [openprofile.dev](https://openprofile.dev). Your name and affiliation shown in [`project-maintainers-.project.csv`](project-maintainers-.project.csv) are also taken from your LFID.
 
 > [!NOTE]  

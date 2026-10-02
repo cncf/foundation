@@ -1,0 +1,109 @@
+name: Guard new projects in project-maintainers.csv
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+    paths:
+      - "project-maintainers.csv"
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Number of an open pull request to check"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  check-new-projects:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.user.login != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+      CSV_FILE: project-maintainers.csv
+    steps:
+      # Both versions are fetched through the API so no untrusted code from the head ref is executed.
+      - name: Fetch base and head versions of the CSV
+        id: fetch
+        run: |
+          set -euo pipefail
+
+          pr_json=$(gh pr view "$PR_NUMBER" --repo "$REPO" \
+            --json state,baseRefOid,headRefOid,headRepository,headRepositoryOwner)
+
+          state=$(jq -r '.state' <<<"$pr_json")
+          if [ "$state" != "OPEN" ]; then
+            echo "::notice::PR #$PR_NUMBER is $state; nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          base_sha=$(jq -r '.baseRefOid' <<<"$pr_json")
+          head_sha=$(jq -r '.headRefOid' <<<"$pr_json")
+          head_repo=$(jq -r '.headRepositoryOwner.login + "/" + .headRepository.name' <<<"$pr_json")
+
+          gh api -H "Accept: application/vnd.github.raw" \
+            "/repos/$REPO/contents/$CSV_FILE?ref=$base_sha" > base.csv
+          gh api -H "Accept: application/vnd.github.raw" \
+            "/repos/$head_repo/contents/$CSV_FILE?ref=$head_sha" > head.csv
+
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Detect newly added projects
+        id: detect
+        if: steps.fetch.outputs.skip == 'false'
+        run: |
+          set -euo pipefail
+          python3 <<'PY' >> "$GITHUB_OUTPUT"
+          import csv
+          import os
+
+          def projects(path):
+              names = set()
+              with open(path, newline="", encoding="utf-8") as fh:
+                  reader = csv.reader(fh)
+                  next(reader, None)  # header
+                  for row in reader:
+                      if len(row) > 1 and row[1].strip():
+                          names.add(row[1].strip())
+              return names
+
+          added = sorted(projects("head.csv") - projects("base.csv"))
+
+          print(f"has_new={'true' if added else 'false'}")
+          print("new_projects<<EOF_LIST")
+          for name in added:
+              print(f"- `{name}`")
+          print("EOF_LIST")
+          PY
+
+      - name: Comment and close PR
+        if: steps.detect.outputs.has_new == 'true'
+        env:
+          NEW_PROJECTS: ${{ steps.detect.outputs.new_projects }}
+        run: |
+          set -euo pipefail
+          {
+            echo "👋 Thanks for the PR! This PR adds project(s) that are not currently listed in \`$CSV_FILE\`:"
+            echo
+            echo "$NEW_PROJECTS"
+            echo
+            echo "\`$CSV_FILE\` is a **legacy** list, kept only for projects that have not yet been onboarded to the \`.project\` process. New projects are not added here, so this PR is being closed automatically."
+            echo
+            echo "**To list maintainers for a project that isn't here yet:**"
+            echo
+            echo "1. Add a \`.project/maintainers.yaml\` file in your project's own repository."
+            echo "2. Once merged, the maintainers flow into [\`project-maintainers-.project.csv\`](project-maintainers-.project.csv), which is auto-generated daily."
+            echo
+            echo "If you are an existing maintainer updating a project **already listed** in \`$CSV_FILE\`, please reopen with only that change."
+            echo
+            echo "Questions? Contact CNCF staff."
+          } > comment.md
+
+          gh pr comment "$PR_NUMBER" --repo "$REPO" --body-file comment.md
+          gh pr close "$PR_NUMBER" --repo "$REPO"

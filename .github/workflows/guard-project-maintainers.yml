@@ -28,7 +28,7 @@ jobs:
           **To update maintainer information for your project:**
 
           1. Edit `.project/maintainers.yaml` in **your project's own repository** and open a PR there.
-          2. Once merged, the change flows into this file on the next daily sync from [`cncf/maintainer-manager`](https://github.com/cncf/maintainer-manager).
+          2. Once merged, the change flows into this file on the next daily sync.
 
           **Access to CNCF services:**
 

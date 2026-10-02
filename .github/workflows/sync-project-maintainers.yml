@@ -38,11 +38,9 @@ jobs:
           commit-message: "chore: sync project-maintainers-.project.csv from maintainer-manager"
           title: "chore: sync project-maintainers-.project.csv from maintainer-manager"
           body: |
-            Automated daily sync of `project-maintainers-.project.csv` from
-            [`cncf/maintainer-manager`](https://github.com/cncf/maintainer-manager/blob/main/maintainers/project-maintainers-.project.csv).
+            Automated daily sync of `project-maintainers-.project.csv`.
 
-            This file is the aggregated view of every project's `.project/maintainers.yaml`.
-            Do not edit it by hand in this repo — see `guard-project-maintainers.yml`.
+            This file is auto-generated from each project's `.project/maintainers.yaml`. Do not edit it by hand.
           add-paths: |
             project-maintainers-.project.csv
           delete-branch: true
