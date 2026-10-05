@@ -811,7 +811,7 @@ Incubating,Flatcar,Adrian Vladu,Cloudbase Solutions S.R.L,ader1990,https://githu
 ,,Krzesimir Nowak,Kinvolk GmbH,krnowak,,
 ,,Mathieu Tortuyaux,Microsoft Corporation,tormath1,,
 ,,Robin Schneider,Individual - No Account,robinschneider,,
-,,Sayan Chowdhury,Microsoft,sayanchowdhury,,
+,,Sayan Chowdhury,Microsoft Corporation,sayanchowdhury,,
 ,,Thilo Fromm,Microsoft Corporation,t-lo,,
 Incubating,Fluid Project,,,apc999,https://github.com/fluid-cloudnative/.project/blob/main/maintainers.yaml,cncf-fluid-maintainers@lists.cncf.io
 ,,,,cheyang,,
@@ -1374,7 +1374,7 @@ Sandbox,Dalec,Brian Goff,"Docker, Inc.",cpuguy83,https://github.com/project-dale
 ,,Peter Engelbert,Microsoft,pmengelbert,,
 Sandbox,Devfile,,,amisevsk,https://github.com/devfile/.project/blob/main/maintainers.yaml,cncf-devfile-maintainers@lists.cncf.io
 ,,Elson Yuen,CA Technologies,elsony,,
-,,Mario Loriedo,Individual - No Account,l0rd,,
+,,Mario Loriedo,Red Hat LLC,l0rd,,
 ,,,,miaida,,
 ,,,,resios,,
 ,,Stevan Meur,Red Hat LLC,slemeur,,
@@ -1432,6 +1432,11 @@ Sandbox,Higress,Kent Dong,Individual - No Account,CH3CHO,https://github.com/higr
 ,,Yuanxiao Zhao,Alibaba Cloud (Singapore) Private LTD,EndlessSeeker,,
 ,,程治玮 程治玮,Individual - No Account,cr7258,,
 ,,韩贤涛 韩贤涛,Individual - No Account,hanxiantao,,
+Sandbox,Hive Commons,Andy Anderson,Kubestellar,clubanderson,https://github.com/hivecommons/.project/blob/main/maintainers.yaml,cncf-hive-commons-maintainers@lists.cncf.io
+,,Doug Baggett,Individual - No Account,Danathar,,
+,,James Reilly,Individual - No Account,hanthor,,
+,,Kelly Abuelsaad,Individual - No Account,kellyaa,,
+,,Nicholas Jackson,HashiCorp Inc,nicholasjackson,,
 Sandbox,HolmesGPT,,,alonelish,https://github.com/HolmesGPT/.project/blob/main/maintainers.yaml,holmesgpt-maintainers@lists.cncf.io
 ,,arik arik,Individual - No Account,arikalon1,,
 ,,Avi Kotlicky,Robusta.dev,Avi-Robusta,,
@@ -1487,6 +1492,7 @@ Sandbox,k0s,Alexey Makhov,Individual - No Account,makhov,https://github.com/k0sp
 ,,Kimmo Tapani Lehto,"Kontena, Inc.",kke,,
 ,,Natanael Copa,"Mirantis, Inc.",ncopa,,
 ,,Tom Wieczorek,Mirantis,twz123,,
+Sandbox,K2s,,,,https://github.com/Siemens-Healthineers/.project/blob/main/maintainers.yaml,cncf-k2s-maintainers@lists.cncf.io
 Sandbox,k3s,[[unknown]] [[unknown]],Individual - No Account,caroline-suse-rancher,https://github.com/k3s-io/.project/blob/main/maintainers.yaml,cncf-k3s-maintainers@lists.cncf.io
 ,,Brad Davidson,Individual - No Account,brandond,,
 ,,Brian Downs Downs,,briandowns,,
@@ -2064,7 +2070,7 @@ Sandbox,Podman Container Tools,Ashley Cui,Red Hat LLC,ashley-cui,https://github.
 ,,Giuseppe Scrivano,Red Hat LLC,giuseppe,,
 ,,Jan Rodák,Red Hat LLC,Honny1,,
 ,,Lokesh Mandvekar,Red Hat LLC,lsm5,,
-,,Mario Loriedo,Individual - No Account,l0rd,,
+,,Mario Loriedo,Red Hat LLC,l0rd,,
 ,,Matthew Heon,Red Hat LLC,mheon,,
 ,,Miloslav Trmac,Red Hat LLC,mtrmac,,
 ,,Mohan Boddu,Red Hat LLC,mohanboddu,,
