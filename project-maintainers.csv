@@ -211,21 +211,6 @@ Graduated,TiKV,Siddon Tang,PingCAP,siddontang,https://github.com/tikv/tikv/blob/
 ,,Xiaoguang Sun,PingCAP,sunxiaoguang,
 ,,Daobing Li,JD,lidaobing,
 ,,Fu Chen,Yidianzixun,fredchenbj,
-Graduated,SPIFFE,Arndt Schwenkschuster,Defakto,arndt-s,https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
-,,Sorin Dumitru,Bloomberg,sorindumitru,
-,,Noah Stride,Teleport,strideynet,
-,,Andrew Harding,Anthropic,azdagron,
-,SPIFFE Steering Committee,Arndt Schwenkschuster,Defakto,arndt-s,https://github.com/spiffe/spiffe/blob/main/ssc/README.md
-,,Noah Stride,Teleport,strideynet,
-,,Volkan Ozcelik,Broadcom,v0lkan,
-,,Mariusz Sabath,IBM Research,mrsabath,
-,,Sorin Dumitru,Bloomberg,sorindumitru,
-Graduated,SPIRE,Sorin Dumitru,Bloomberg,sorindumitru,https://github.com/spiffe/spire/blob/main/CODEOWNERS
-,,Evan Gilman,SPIRL,evan2645,
-,,Marcos Yacob,HPE,MarcosDY,
-,,Agustin Martinez Fayo,HPE,amartinezfayo,
-,,Ryan Turner,Cielara AI,rturner3,
-,,Kevin Fox,PNNL,kfox1111,
 Graduated,Knative,Ali Ok,Red Hat,aliok,https://github.com/knative/community/blob/main/MAINTAINERS.md
 ,,Calum Murray,Red Hat,Cali0707,
 ,,Chris Suszynski,Red Hat,cardil,
