@@ -725,6 +725,16 @@ Graduated,Rook,Blaine Gardner,International Business Machines Corporation,Blaine
 ,,,,sp98,,
 ,,subham rai,Individual - No Account,subhamkrai,,
 ,,Travis Nielsen,IBM,travisn,,
+Graduated,SPIFFE,Andrew Harding,VMware LLC,azdagron,https://github.com/spiffe/.project/blob/main/spiffe/maintainers.yaml,cncf-spiffe-maintainers@lists.cncf.io
+,,Arndt Schwenkschuster,Individual - No Account,arndt-s,,
+,,Kevin Fox,Pacific Northwest National Laboratory,kfox1111,,
+,,Noah Stride,Teleport,strideynet,,
+,,Sorin Dumitru,Individual - No Account,sorindumitru,,
+Graduated,SPIRE,Agustín Martínez Fayó,Individual - No Account,amartinezfayo,https://github.com/spiffe/.project/blob/main/spire/maintainers.yaml,cncf-spire-maintainers@lists.cncf.io
+,,Evan Gilman,Scytale,evan2645,,
+,,Marcos Yacob,Individual - No Account,MarcosDY,,
+,,Ryan Turner,xFabric Security Inc.,rturner3,,
+,,Sorin Dumitru,Individual - No Account,sorindumitru,,
 Graduated,Vitess,Arthur Schreiber,"PlanetScale, Inc.",arthurschreiber,https://github.com/vitessio/.project/blob/main/maintainers.yaml,cncf-vitess-maintainers@lists.cncf.io
 ,,Derek Perkins,Nozzle,derekperkins,,
 ,,Florent Poinsard,"PlanetScale, Inc.",frouioui,,
@@ -1306,7 +1316,7 @@ Sandbox,ChaosBlade,Changjun Xiao,Individual - No Account,xcaspar,https://github.
 Sandbox,CloudNativePG,Armando Ruocco,EDB,armru,https://github.com/cloudnative-pg/.project/blob/main/maintainers.yaml,cncf-cloudnativepg-maintainers@lists.cncf.io
 ,,Francesco Canovai,EDB,fcanovai,,
 ,,Gabriele Bartolini,EDB,gbartolini,,
-,,Leonardo Cecchi,Enterprise DB Corporation,leonardoce,,
+,,Leonardo Cecchi,EDB,leonardoce,,
 ,,Marco Nenciarini,EDB,mnencia,,
 Sandbox,Clusternet,,,garrybest,https://github.com/clusternet/.project/blob/main/maintainers.yaml,cncf-clusternet-maintainers@lists.cncf.io
 ,,Huifeng Le,Intel Corporation,hle2,,
@@ -1576,8 +1586,8 @@ Sandbox,Kepler,Angel Patricio Olivares Espinosa,Civir,angelOlivares,https://gith
 ,,Himanshu Verma,Individual - No Account,bitflicker64,,
 ,,Julian Legler,Individual - No Account,JulianLegler,,
 ,,Laura Llinares,CERN,laurall974,,
-,,Leonor Oliveira,Individual - No Account,leonorfmartins,,
-,,,,marybaldwin,,
+,,Leonor Oliveira,"Raintank, Inc. – Grafana Labs",leonorfmartins,,
+,,Mary Hughes,Individual - No Account,marybaldwin,,
 ,,Niki Manoledaki,"Raintank, Inc. – Grafana Labs",nikimanoledaki,,
 ,,Sunil Thaha,Red Hat LLC,sthaha,,
 ,,Sunyanan Choochotkaew,IBM,sunya-ch,,
@@ -2244,6 +2254,7 @@ Sandbox,VS Code Kubernetes Tools,David Gamero,Individual - No Account,davidgamer
 ,,Thomas Gamble,Microsoft Corporation,gambtho,,
 Sandbox,WasmEdge Runtime,Han-Wen Tsao,Individual - No Account,grorge123,https://github.com/WasmEdge/.project/blob/main/maintainers.yaml,cncf-wasmedge-runtime-maintainers@lists.cncf.io
 ,,Hung-Ying Tai,WasmEdge,hydai,,
+,,,,LFsWang,,
 ,,Michael Yuan,Second State,juntao,,
 ,,Shen-Ta Hsieh,Individual - No Account,ibmibmibm,,
 ,,Yi-Ying He,Second State,q82419,,
