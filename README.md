@@ -32,7 +32,9 @@ CNCF project maintainers are recorded in two files:
 - [`project-maintainers-.project.csv`](project-maintainers-.project.csv) — the primary list. It is generated automatically for projects that manage their maintainers in their own `.project` repo. To change these maintainers, update `maintainers.yaml` in the project's `.project` repo; the change is picked up by automation. **Do not edit `project-maintainers-.project.csv` directly** — any manual edits are overwritten.
 - [`project-maintainers.csv`](project-maintainers.csv) — a legacy list for the projects not yet onboarded to the `.project` process. An existing maintainer of one of these projects can update it by Pull Request, and should also email cncf-maintainer-changes@cncf.io (or raise a service desk ticket) so the project's CNCF-run maintainer mailing list is updated to match.
 
-Access to the CNCF Service Desk and project maintainer mailing lists is controlled by the link between a maintainer's GitHub handle and their LFID, which can be updated at [openprofile.dev](https://openprofile.dev). The name and affiliation shown for a maintainer are also taken from their LFID.
+Access to the CNCF Service Desk and project maintainer mailing lists is controlled by the link between a maintainer's GitHub handle and their LFID, which can be updated at [openprofile.dev](https://openprofile.dev). The name and affiliation shown in this generated list are also taken from the LFID profile.
+
+Keep these records in sync: update maintainer membership in the project's `.project/maintainers.yaml`, keep each maintainer's name, primary email, and current affiliation accurate in their LFID profile, and ensure current affiliations are shown in the project's public maintainer or governance documentation. The `.project/maintainers.yaml` file records GitHub handles and teams; changing it does not update LFID or project documentation, and updating a profile does not update the project repository.
 
 Questions about maintainer records can be sent to cncf-maintainer-changes@cncf.io.
 
