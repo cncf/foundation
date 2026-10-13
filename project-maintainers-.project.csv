@@ -481,7 +481,7 @@ Graduated,Istio,Andrea Ma,IBM Watson Health,andream12345,https://github.com/isti
 ,,Xunzhuo Liu,Tencent Holdings Limited,Xunzhuo,,
 ,,,,yannuil,,
 ,,Zack Butcher,Tetrate.io,ZackButcher,,
-,,Zhonghu Xu,"Huawei Technologies Co., Ltd",hzxuzhonghu,,
+,,Zhonghu Xu,Individual - No Account,hzxuzhonghu,,
 Graduated,Jaeger,Albert Teoh,Individual - No Account,albertteoh,https://github.com/jaegertracing/.project/blob/main/maintainers.yaml,cncf-jaeger-maintainers@lists.cncf.io
 ,,Jonah Kowall,"Spacelift, Inc.",jkowall,,
 ,,Joseph Elliott,"Raintank, Inc. – Grafana Labs",joe-elliott,,
@@ -504,7 +504,7 @@ Graduated,karmada,Joe Nathan Abellard,Bloomberg,jabellard,https://github.com/kar
 Graduated,KEDA,Jan Wozniak,Kedify,wozniakjan,https://github.com/kedacore/.project/blob/main/maintainers.yaml,cncf-keda-maintainers@lists.cncf.io
 ,,Jeff Hollan,Microsoft Corporation,jeffhollan,,
 ,,Jorge Turrado Ferrero,SCRM - Lidl International Hub,jorturfer,,
-,,Mikhail Fedosin,Individual - No Account,Fedosin,,
+,,Mikhail Fedosin,Red Hat,Fedosin,,
 ,,Rick Brouwer,Dienst Uitvoering Onderwijs,rickbrouwer,,
 ,,Vincent Link,Red Hat,linkvt,,
 ,,Zbynek Roubalik,Kedify,zroubalik,,
@@ -954,7 +954,7 @@ Incubating,Lima,Akihiro Suda,"NTT, Inc.",AkihiroSuda,https://github.com/lima-vm/
 ,,Anders F Björklund,Individual - No Account,afbjorklund,,
 ,,Ansuman Sahoo,BITS Pilani,unsuman,,
 ,,Balaji Vijayakumar,Individual - No Account,balajiv113,,
-,,Jan Dubois,"ActiveState Software, Inc.",jandubois,,
+,,Jan Dubois,SUSE LLC,jandubois,,
 ,,Norio NOMURA,Individual - No Account,norio-nomura,,
 Incubating,LitmusChaos,Ajesh Baby,"MayaData Inc. (f/k/a CloudByte, Inc)",ajeshbaby,https://github.com/litmuschaos/.project/blob/main/maintainers.yaml,cncf-litmuschaos-maintainers@lists.cncf.io
 ,,Amit Kumar Das,Harness Inc.,amityt,,
@@ -1189,7 +1189,7 @@ Incubating,Volcano,Kevin Wang,"Huawei Technologies Co., Ltd",kevin-wangzefeng,ht
 ,,Liang Tang,"Beijing Baidu Netcom Science Technology Co., Ltd.",shinytang6,,
 ,,william wang,Nvidia,william-wang,,
 ,,Xuzheng Chang,"Huawei Technologies Co., Ltd",Monokaix,,
-,,Zhonghu Xu,"Huawei Technologies Co., Ltd",hzxuzhonghu,,
+,,Zhonghu Xu,Individual - No Account,hzxuzhonghu,,
 ,,Zicong Chen,Huawei Technologies Co. Ltd,JesseStutler,,
 Incubating,wasmCloud,Aditya Salunkhe,Individual - No Account,Aditya1404Sal,https://github.com/wasmCloud/.project/blob/main/maintainers.yaml,cncf-wasmCloud-maintainers@lists.cncf.io
 ,,Bailey Hayes,Cosmonic,ricochet,,
@@ -1694,7 +1694,7 @@ Sandbox,Kmesh,[[unknown]] [[unknown]],Individual - No Account,bitcoffeeiux,https
 ,,Songyang Xie,Individual - No Account,supercharge-xsy,,
 ,,Zengzeng Yao,"Huawei Technologies Co., Ltd",YaoZengzeng,,
 ,,zhencheng li,"Huawei Technologies Co., Ltd",LiZhencheng9527,,
-,,Zhonghu Xu,"Huawei Technologies Co., Ltd",hzxuzhonghu,,
+,,Zhonghu Xu,Individual - No Account,hzxuzhonghu,,
 Sandbox,ko,Jason Hall,Cursor,imjasonh,https://github.com/ko-build/.project/blob/main/maintainers.yaml,cncf-ko-maintainers@lists.cncf.io
 ,,Jon Johnson,Google LLC,jonjohnsonjr,,
 ,,Matt Moore,"Chainguard, Inc.",mattmoor,,
@@ -1771,6 +1771,7 @@ Sandbox,kube-rs,Danil Grigorev,Red Hat LLC,Danil-Grigorev,https://github.com/kub
 ,,Matei David,"Buoyant, Inc.",mateiidavid,,
 ,,,,nightkr,,
 Sandbox,kube-vip,Daniel Finneran,Isovalent Inc.,thebsdbox,https://github.com/kube-vip/.project/blob/main/maintainers.yaml,cncf-kubevip-maintainers@lists.cncf.io
+,,Marcel Fest,Deutsche Telekom AG,cellebyte,,
 ,,yassine TIJANI,Individual - No Account,yastij,,
 Sandbox,Kubean,,,0ekk,https://github.com/kubean-io/.project/blob/main/maintainers.yaml,cncf-kubean-maintainers@lists.cncf.io
 ,,bao guangli,"DaoCloud Network Technology Co., Ltd.",tukwila,,
@@ -2163,6 +2164,7 @@ Sandbox,Porter,Brian DeGeeter,Defense Unicorns,bdegeeter,https://github.com/getp
 ,,Sarah Christoff,Individual - No Account,schristoff,,
 ,,Steven Gettys,Individual - No Account,sgettys,,
 ,,Troy Connor,Microsoft,troy0820,,
+Sandbox,Praxis,,,,https://github.com/praxis-proxy/.project/blob/main/maintainers.yaml,cncf-praxis-maintainers@lists.cncf.io
 Sandbox,Radius,,,kachawla,https://github.com/radius-project/.project/blob/main/maintainers.yaml,cncf-radius-maintainers@lists.cncf.io
 ,,,,nicolejms,,
 ,,Will Smith,Individual - No Account,willdavsmith,,
