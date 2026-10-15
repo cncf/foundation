@@ -481,7 +481,7 @@ Graduated,Istio,Andrea Ma,IBM Watson Health,andream12345,https://github.com/isti
 ,,Xunzhuo Liu,Tencent Holdings Limited,Xunzhuo,,
 ,,,,yannuil,,
 ,,Zack Butcher,Tetrate.io,ZackButcher,,
-,,Zhonghu Xu,Individual - No Account,hzxuzhonghu,,
+,,Zhonghu Xu,"Alibaba (China) Co., Ltd. / 阿里巴巴（中国）有限公司",hzxuzhonghu,,
 Graduated,Jaeger,Albert Teoh,Individual - No Account,albertteoh,https://github.com/jaegertracing/.project/blob/main/maintainers.yaml,cncf-jaeger-maintainers@lists.cncf.io
 ,,Jonah Kowall,"Spacelift, Inc.",jkowall,,
 ,,Joseph Elliott,"Raintank, Inc. – Grafana Labs",joe-elliott,,
@@ -503,7 +503,7 @@ Graduated,karmada,Joe Nathan Abellard,Bloomberg,jabellard,https://github.com/kar
 ,,Zongqing Li,Trip.com,zach593,,
 Graduated,KEDA,Jan Wozniak,Kedify,wozniakjan,https://github.com/kedacore/.project/blob/main/maintainers.yaml,cncf-keda-maintainers@lists.cncf.io
 ,,Jeff Hollan,Microsoft Corporation,jeffhollan,,
-,,Jorge Turrado Ferrero,SCRM - Lidl International Hub,jorturfer,,
+,,Jorge Turrado Ferrero,Schwarz Digits Cloud GmbH & Co. KG,jorturfer,,
 ,,Mikhail Fedosin,Red Hat,Fedosin,,
 ,,Rick Brouwer,Dienst Uitvoering Onderwijs,rickbrouwer,,
 ,,Vincent Link,Red Hat,linkvt,,
@@ -662,7 +662,7 @@ Graduated,OpenTelemetry,,,aalexand,https://github.com/open-telemetry/.project/bl
 ,,Giovanni Panice,IBM,kmos,,
 ,,,,grcevski,,
 ,,,,gshriver,,
-,,haibin Zhang,Individual - No Account,NameHaibinZhang,,
+,,Haibin Zhang,Alibaba Cloud (Singapore) Private LTD,NameHaibinZhang,,
 ,,Huxing Zhang,Alibaba Cloud (Singapore) Private LTD,ralf0131,,
 ,,Imma Valls,"Raintank, Inc. – Grafana Labs",immavalls,,
 ,,,,intuibase,,
@@ -1078,6 +1078,7 @@ Incubating,OpenFGA,[[unknown]] [[unknown]],Individual - No Account,vic-dev,https
 ,,Raghd Hamzeh,OpenFGA,rhamzeh,,
 ,,Saad Hussain,Individual - No Account,saad-h1,,
 ,,Sergiu Ghitea,Individual - No Account,sergiught,,
+,,Shashwat Agrawal,Individual - No Account,cluelessno1,,
 ,,Siddhant Khare,Okta Inc.,Siddhant-K-code,,
 ,,Steve Hobbs,Individual - No Account,stevehobbsdev,,
 ,,Talent Zeng,Okta Inc.,ttrzeng,,
@@ -1189,7 +1190,7 @@ Incubating,Volcano,Kevin Wang,"Huawei Technologies Co., Ltd",kevin-wangzefeng,ht
 ,,Liang Tang,"Beijing Baidu Netcom Science Technology Co., Ltd.",shinytang6,,
 ,,william wang,Nvidia,william-wang,,
 ,,Xuzheng Chang,"Huawei Technologies Co., Ltd",Monokaix,,
-,,Zhonghu Xu,Individual - No Account,hzxuzhonghu,,
+,,Zhonghu Xu,"Alibaba (China) Co., Ltd. / 阿里巴巴（中国）有限公司",hzxuzhonghu,,
 ,,Zicong Chen,Huawei Technologies Co. Ltd,JesseStutler,,
 Incubating,wasmCloud,Aditya Salunkhe,Individual - No Account,Aditya1404Sal,https://github.com/wasmCloud/.project/blob/main/maintainers.yaml,cncf-wasmCloud-maintainers@lists.cncf.io
 ,,Bailey Hayes,Cosmonic,ricochet,,
@@ -1549,7 +1550,7 @@ Sandbox,k0s,Alexey Makhov,Individual - No Account,makhov,https://github.com/k0sp
 ,,Kimmo Tapani Lehto,"Kontena, Inc.",kke,,
 ,,Natanael Copa,"Mirantis, Inc.",ncopa,,
 ,,Tom Wieczorek,Mirantis,twz123,,
-Sandbox,K2s,,,,https://github.com/Siemens-Healthineers/.project/blob/main/maintainers.yaml,cncf-k2s-maintainers@lists.cncf.io
+Sandbox,K2s,,,,https://github.com/k2s-project/.project/blob/main/maintainers.yaml,cncf-k2s-maintainers@lists.cncf.io
 Sandbox,k3s,[[unknown]] [[unknown]],Individual - No Account,caroline-suse-rancher,https://github.com/k3s-io/.project/blob/main/maintainers.yaml,cncf-k3s-maintainers@lists.cncf.io
 ,,Brad Davidson,Individual - No Account,brandond,,
 ,,Brian Downs Downs,,briandowns,,
@@ -1694,7 +1695,7 @@ Sandbox,Kmesh,[[unknown]] [[unknown]],Individual - No Account,bitcoffeeiux,https
 ,,Songyang Xie,Individual - No Account,supercharge-xsy,,
 ,,Zengzeng Yao,"Huawei Technologies Co., Ltd",YaoZengzeng,,
 ,,zhencheng li,"Huawei Technologies Co., Ltd",LiZhencheng9527,,
-,,Zhonghu Xu,Individual - No Account,hzxuzhonghu,,
+,,Zhonghu Xu,"Alibaba (China) Co., Ltd. / 阿里巴巴（中国）有限公司",hzxuzhonghu,,
 Sandbox,ko,Jason Hall,Cursor,imjasonh,https://github.com/ko-build/.project/blob/main/maintainers.yaml,cncf-ko-maintainers@lists.cncf.io
 ,,Jon Johnson,Google LLC,jonjohnsonjr,,
 ,,Matt Moore,"Chainguard, Inc.",mattmoor,,
@@ -2044,7 +2045,19 @@ Sandbox,OpenGitOps,Christian Hernandez,"Cisco Systems, Inc.",christianh814,https
 ,,Niklas Metje,Individual - No Account,niklasmtj,,
 ,,Roberth Strand,Sopra Steria Group,roberthstrand,,
 ,,Scott Rigby,Individual - No Account,scottrigby,,
-Sandbox,OpenShell,,,,https://github.com/NVIDIA/.project/blob/main/maintainers.yaml,cncf-openshell-maintainers@lists.cncf.io
+Sandbox,OpenShell,,,alangou,https://github.com/ai-openshell/.project/blob/main/maintainers.yaml,cncf-openshell-maintainers@lists.cncf.io
+,,Derek Carr,Red Hat LLC,derekwaynecarr,,
+,,Drew Newberry,Individual - No Account,drew,,
+,,Evan Lezar,Individual - No Account,elezar,,
+,,John T.,Individual - No Account,johntmyers,,
+,,Kris Hicks,HashiCorp Inc,krishicks,,
+,,Matthew Grossman,NVIDIA,matthewgrossman,,
+,,Mrunal Patel,Red Hat LLC,mrunalp,,
+,,,,pimlock,,
+,,,,purp,,
+,,Seth Jennings,Red Hat LLC,sjenning,,
+,,Simon Scatton,Individual - No Account,SDAChess,,
+,,,,TaylorMutch,,
 Sandbox,OpenTofu,Andrei Ciobanu,Individual - No Account,yottta,https://github.com/opentofu/.project/blob/main/maintainers.yaml,cncf-opentofu-maintainers@lists.cncf.io
 ,,Christian Mesh,Individual - No Account,cam72cam,,
 ,,Diógenes Fernandes,"Gruntwork, Inc.",diofeher,,
