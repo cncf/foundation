@@ -30,6 +30,11 @@ jobs:
           1. Edit `.project/maintainers.yaml` in **your project's own repository** and open a PR there.
           2. Once merged, the change flows into this file on the next daily sync.
 
+          **Keep affiliation information accurate in both places:**
+
+          - Update each maintainer's current affiliation in their LFID profile at <https://openprofile.dev>. The name and affiliation in this generated CNCF list come from that profile.
+          - Ensure current affiliations are also shown in your project's public maintainer or governance documentation. `.project/maintainers.yaml` records GitHub handles and teams only; it does not update profile or project documentation.
+
           **Access to CNCF services:**
 
           Each maintainer must link their GitHub handle to their LFID at <https://openprofile.dev>. The **primary email address on your LFID** is what CNCF uses to grant access to CNCF services, so make sure it's an address you actually check.
