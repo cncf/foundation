@@ -431,10 +431,10 @@ Graduated,in-toto,Aditya Sirish A Yelgundhalli,Individual - No Account 20,aditya
 ,,John Kjell,Control-Plane.io,jkjell,,
 ,,Justin Cappos,New York University,JustinCappos,,
 ,,Santiago Torres-Arias,Purdue University,SantiagoTorres,,
-Graduated,Istio,Andrea Ma,IBM Watson Health,andream12345,https://github.com/istio/.project/blob/main/maintainers.yaml,cncf-istio-maintainers@lists.cncf.io
+Graduated,Istio,[[unknown]] [[unknown]],Individual - No Account,calikonur,https://github.com/istio/.project/blob/main/maintainers.yaml,cncf-istio-maintainers@lists.cncf.io
+,,Andrea Ma,IBM Watson Health,andream12345,,
 ,,Andrii Holovin,Individual - No Account,Andygol,,
 ,,,,blancobrenden,,
-,,,,calikonur,,
 ,,Costin Manolache,Google LLC,costinm,,
 ,,Craig Box,Individual - No Account,craigbox,,
 ,,Daniel Grimm,Red Hat LLC,dgn,,
@@ -2170,7 +2170,7 @@ Sandbox,Porter,Brian DeGeeter,Defense Unicorns,bdegeeter,https://github.com/getp
 ,,Steven Gettys,Individual - No Account,sgettys,,
 ,,Troy Connor,Microsoft,troy0820,,
 Sandbox,Praxis,Alex Snaps,Individual - No Account,alexsnaps,https://github.com/praxis-proxy/.project/blob/main/maintainers.yaml,cncf-praxis-maintainers@lists.cncf.io
-,,Brent Salisbury,"Docker, Inc.",nerdalert,,
+,,Brent Salisbury,Red Hat LLC,nerdalert,,
 ,,David Simmons,Red Hat,davidgs,,
 ,,Frederico Araujo,IBM Research,araujof,,
 ,,Sam Batschelet,Red Hat LLC,hexfusion,,
