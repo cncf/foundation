@@ -29,8 +29,8 @@ A lot of project, TAG, and TOC-related content is in the TOC [repo](https://gith
 
 CNCF project maintainers are recorded in two files:
 
-- [`project-maintainers-.project.csv`](project-maintainers-.project.csv) — the primary list. It is generated automatically for projects that manage their maintainers in their own `.project` repo. To change these maintainers, update `maintainers.yaml` in the project's `.project` repo; the change is picked up by automation. **Do not edit `project-maintainers-.project.csv` directly** — any manual edits are overwritten.
-- [`project-maintainers.csv`](project-maintainers.csv) — a legacy list for the projects not yet onboarded to the `.project` process. An existing maintainer of one of these projects can update it by Pull Request, and should also email cncf-maintainer-changes@cncf.io (or raise a service desk ticket) so the project's CNCF-run maintainer mailing list is updated to match.
+- [`project-maintainers-.project.csv`](project-maintainers-.project.csv) — the generated active roster for projects using `.project`. To change the roster, update `maintainers.yaml` in the project's own `.project` repository and follow its documented review process. Single-project repositories keep the file at the root; multi-project repositories use `org.yaml` and a project directory. **Do not edit this generated CSV directly.**
+- [`project-maintainers.csv`](project-maintainers.csv) — the legacy list for projects not yet using `.project`. Existing maintainers of those projects can update the list by pull request and should email cncf-maintainer-changes@cncf.io (or raise a Service Desk ticket) so CNCF mailing-list access can be updated.
 
 Access to the CNCF Service Desk and project maintainer mailing lists is controlled by the link between a maintainer's GitHub handle and their LFID, which can be updated at [openprofile.dev](https://openprofile.dev). The name and affiliation shown in this generated list are also taken from the LFID profile.
 
