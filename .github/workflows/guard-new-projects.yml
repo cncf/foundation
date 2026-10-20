@@ -97,9 +97,10 @@ jobs:
             echo
             echo "**To list maintainers for a project that isn't here yet:**"
             echo
-            echo "1. Contact CNCF staff at cncf-maintainer-changes@cncf.io to have the project's maintainer records set up. Adding a \`.project/maintainers.yaml\` file alone does not add the project to the CNCF list."
-            echo "2. Once the project is set up, maintainers update \`maintainers.yaml\` in the project's own \`.project\` repository and follow the project's review process. In a multi-project repository, update the file in the relevant project directory."
-            echo "3. After the change is merged, the generated [\`project-maintainers-.project.csv\`](project-maintainers-.project.csv) is refreshed automatically."
+            echo "All new CNCF projects must use the \`.project\` process."
+            echo
+            echo "1. Update \`maintainers.yaml\` in your project's \`.project\` repository and open a pull request there. In a multi-project repository, update the file in the relevant project directory."
+            echo "2. After the change is merged, the generated [\`project-maintainers-.project.csv\`](https://github.com/cncf/foundation/blob/main/project-maintainers-.project.csv) is refreshed automatically."
             echo
             echo "If you are an existing maintainer updating a project **already listed** in \`$CSV_FILE\`, please reopen with only that change."
             echo
