@@ -55,7 +55,7 @@ Graduated,Argo,Aditya Raj,Individual - No Account,adityaraj178,https://github.co
 ,,Vlad Losev,Individual - No Account,vladlosev,,
 ,,William Hevelingen,"Acquia, Inc.",blkperl,,
 ,,William Tam,Red Hat LLC,wtam2018,,
-,,Yuan (Terry) Tang,Red Hat LLC,terrytangyuan,,
+,,Yuan (Terry) Tang,"TensorScale AI, Inc.",terrytangyuan,,
 ,,Yuki Kitakata,Individual - No Account,yu-croco,,
 ,,Zach Aller,Intuit,zachaller,,
 Graduated,Buildpacks,Aidan Delaney,Bloomberg L.P.,aidandelaney,https://github.com/buildpacks/.project/blob/main/maintainers.yaml,cncf-buildpacks-maintainers@lists.cncf.io
@@ -120,7 +120,7 @@ Graduated,Cilium,Aditi Ghag,Individual - No Account,aditighag,https://github.com
 ,,,,rastislavs,,
 ,,Robin Hahling,Individual - No Account,rolinh,,
 ,,Sebastian Wicki,Isovalent,gandro,,
-,,,,smagnani96,,
+,,Simone Magnani,Individual - No Account,smagnani96,,
 ,,Tam Mach,Individual - No Account,sayboras,,
 ,,Timo Beckers,Cilium,ti-mo,,
 ,,Tobias Klauser,Isovalent Inc.,tklauser,,
@@ -130,8 +130,7 @@ Graduated,Cilium,Aditi Ghag,Individual - No Account,aditighag,https://github.com
 Graduated,CloudEvents,Doug Davis,Individual - No Account,duglin,https://github.com/cloudevents/.project/blob/main/maintainers.yaml,cncf-cloudevents-maintainers@lists.cncf.io
 ,,Klaus Deissner,SAP SE,deissnerk,,
 ,,Mark Peek,"Cisco Systems, Inc.",markpeek,,
-Graduated,Containerd,[[unknown]] [[unknown]],Individual - No Account,kiashok,https://github.com/containerd/.project/blob/main/maintainers.yaml,cncf-containerd-maintainers@lists.cncf.io
-,,Akihiro Suda,"NTT, Inc.",AkihiroSuda,,
+Graduated,Containerd,Akihiro Suda,"NTT, Inc.",AkihiroSuda,https://github.com/containerd/.project/blob/main/maintainers.yaml,cncf-containerd-maintainers@lists.cncf.io
 ,,Davanum Srinivas,NVIDIA Corporation,dims,,
 ,,Derek McGowan,Docker,dmcgowan,,
 ,,Kazuyoshi Kato,Individual - No Account,kzys,,
@@ -287,7 +286,7 @@ Graduated,Dapr,Albert Callarisa,Diagrid,acroca,https://github.com/dapr/.project/
 ,,Alice Gibbons,Diagrid,alicejgibbons,,
 ,,Artur Ciocanu,Adobe Inc.,artur-ciocanu,,
 ,,Cassie Coyle,Individual - No Account,cicoyle,,
-,,Cecil Phillip,Individual - No Account,cecilphillip,,
+,,Cecil Phillip,Temporal Technologies Inc,cecilphillip,,
 ,,Dai Long,Individual - No Account,daixiang0,,
 ,,Dana Arsovska,Individual - No Account,Dzvezdana,,
 ,,Deepanshu Agarwal,Individual - No Account,DeepanshuA,,
@@ -329,7 +328,7 @@ Graduated,Envoy,aaron choo,Individual - No Account,aabchoo,https://github.com/en
 ,,Erica Sundberg,Individual - No Account,missBerg,,
 ,,Gavrish Prabhu,Individual - No Account,gavrissh,,
 ,,Greg Greenway,Apple Inc.,ggreenway,,
-,,Guy Daich,Individual - No Account,guydc,,
+,,Guy Daich,SAP SE,guydc,,
 ,,Harvey Tuch,Google LLC,htuch,,
 ,,HE JIANPENG,Tetrate.io,zirain,,
 ,,Huabing Zhao,Tetrate.io,zhaohuabing,,
@@ -573,7 +572,7 @@ Graduated,Kubeflow,Abhijeet Dhumal,Red Hat,abhijeet-dhumal,https://github.com/ku
 ,,Vara Bonthu,Individual - No Account,vara-bonthu,,
 ,,William Antônio,Individual - No Account,jesuino,,
 ,,Yash Pal,Individual - No Account,yashpal2104,,
-,,Yuan (Terry) Tang,Red Hat LLC,terrytangyuan,,
+,,Yuan (Terry) Tang,"TensorScale AI, Inc.",terrytangyuan,,
 ,,Yuki Iwai,"Preferred Networks, Inc.",tenzen-y,,
 Graduated,Kyverno,Ammar Yasser,Individual - No Account,aerosouund,https://github.com/kyverno/.project/blob/main/maintainers.yaml,cncf-kyverno-maintainers@lists.cncf.io
 ,,Anushka Mittal,Individual - No Account,anushkamittal20,,
@@ -753,7 +752,7 @@ Graduated,OpenTelemetry,,,aalexand,https://github.com/open-telemetry/.project/bl
 ,,Tyler Yahn,Splunk,MrAlias,,
 ,,Utkarsh Umesan,Individual - No Account,utpilla,,
 ,,Virginia-Diana Todea,VictoriaMetrics,didiViking,,
-,,Vitor Vasconcellos,Individual - No Account,vitorvasc,,
+,,Vitor Vasconcellos,"DoorDash, Inc.",vitorvasc,,
 ,,Warre Pessers,Individual - No Account,wpessers,,
 ,,Wolfgang Therrien,Hound Technology Inc. dba Honeycomb,wolfgangcodes,,
 ,,Xabier Martinez Beneitez,Cabify,txabman42,,
@@ -933,7 +932,7 @@ Incubating,Kserve,Andrews Arokiam,Individual - No Account,andyi2it,https://githu
 ,,Pierangelo Di Pilato,Red Hat,pierDipi,,
 ,,Sivanantham Chinnaiyan,Individual - No Account,sivanantha321,,
 ,,Vivek Karunai Kiri Ragavan,Red Hat LLC,vivekk16,,
-,,Yuan (Terry) Tang,Red Hat LLC,terrytangyuan,,
+,,Yuan (Terry) Tang,"TensorScale AI, Inc.",terrytangyuan,,
 Incubating,Kubescape,Amir Malka,Individual - No Account,amirmalka,https://github.com/kubescape/.project/blob/main/maintainers.yaml,cncf-kubescape-maintainers@lists.cncf.io
 ,,Ben Hirschberg,ARMO (Cyber Armor),slashben,,
 ,,Bezalel Brandwine,Softwine,bezbran,,
@@ -980,7 +979,9 @@ Incubating,LitmusChaos,Ajesh Baby,"MayaData Inc. (f/k/a CloudByte, Inc)",ajeshba
 ,,Udit Gaurav,Harness Inc.,uditgaurav,,
 ,,Vedant Shrotria,Harness Inc.,Jonsy13,,
 Incubating,Longhorn,Chin-Ya Huang,SUSE LLC,c3y1huang,https://github.com/longhorn/.project/blob/main/maintainers.yaml,cncf-longhorn-maintainers@lists.cncf.io
+,,,,COLDTURNIP,,
 ,,David Ko,SUSE LLC,innobead,,
+,,,,davidcheng0922,,
 ,,Derek Su,Individual - No Account,derekbit,,
 ,,Divya Mohan,SUSE LLC,divya-mohan0209,,
 ,,Jinhong Kim,NAVER Corp.,hookak,,
@@ -1197,6 +1198,7 @@ Sandbox,Aeraki Mesh,chen tanjun,"Beijing Baidu Netcom Science Technology Co., Lt
 ,,,,smwyzi,,
 ,,,,whitefirer,,
 ,,Xunzhuo Liu,Tencent Holdings Limited,xunzhuo,,
+Sandbox,Agent Substrate,,,,https://github.com/agent-substrate/.project/blob/main/maintainers.yaml,cncf-agent-substrate-maintainers@lists.cncf.io
 Sandbox,Agones,Ivy Gooch,Google,igooch,https://github.com/agones-dev/.project/blob/main/maintainers.yaml,cncf-agones-maintainers@lists.cncf.io
 ,,Jose Vicente Ferrara Brondo,Google LLC,vicentefb,,
 ,,Mark Mandel,"Discord, Inc.",markmandel,,
@@ -2042,6 +2044,7 @@ Sandbox,OpenGitOps,Christian Hernandez,"Cisco Systems, Inc.",christianh814,https
 ,,Niklas Metje,Individual - No Account,niklasmtj,,
 ,,Roberth Strand,Sopra Steria Group,roberthstrand,,
 ,,Scott Rigby,Individual - No Account,scottrigby,,
+Sandbox,OpenRL,,,,https://github.com/gke-labs/.project/blob/main/maintainers.yaml,cncf-openrl-maintainers@lists.cncf.io
 Sandbox,OpenShell,,,alangou,https://github.com/ai-openshell/.project/blob/main/maintainers.yaml,cncf-openshell-maintainers@lists.cncf.io
 ,,Derek Carr,Red Hat LLC,derekwaynecarr,,
 ,,Drew Newberry,Individual - No Account,drew,,
