@@ -1548,7 +1548,14 @@ Sandbox,k0s,Alexey Makhov,Individual - No Account,makhov,https://github.com/k0sp
 ,,Kimmo Tapani Lehto,"Kontena, Inc.",kke,,
 ,,Natanael Copa,"Mirantis, Inc.",ncopa,,
 ,,Tom Wieczorek,Mirantis,twz123,,
-Sandbox,K2s,,,,https://github.com/k2s-project/.project/blob/main/maintainers.yaml,cncf-k2s-maintainers@lists.cncf.io
+Sandbox,K2s,,,abhitoshj,https://github.com/k2s-project/.project/blob/main/maintainers.yaml,cncf-k2s-maintainers@lists.cncf.io
+,,German Lopez,Individual - No Account,GermanGLLopez,,
+,,Jacob Grieger,Individual - No Account,jgriegershs,,
+,,,,krotz-dieter,,
+,,sashi kumar,Individual - No Account,sk1486,,
+,,Saurabh Kumar,Siemens Healthineers,Saurabh-Kumar24,,
+,,Shashank Wagle,Individual - No Account,Shashank-Wagle23,,
+,,,,vvkrishnakanth9,,
 Sandbox,k3s,[[unknown]] [[unknown]],Individual - No Account,caroline-suse-rancher,https://github.com/k3s-io/.project/blob/main/maintainers.yaml,cncf-k3s-maintainers@lists.cncf.io
 ,,Brad Davidson,Individual - No Account,brandond,,
 ,,Brian Downs Downs,,briandowns,,
