@@ -1588,7 +1588,7 @@ Sandbox,k0s,Alexey Makhov,Individual,makhov,https://github.com/k0sproject/.proje
 ,,Kimmo Tapani Lehto,"Kontena, Inc.",kke,,
 ,,Natanael Copa,"Mirantis, Inc.",ncopa,,
 ,,Tom Wieczorek,Mirantis,twz123,,
-Sandbox,K2s,,,abhitoshj,https://github.com/k2s-project/.project/blob/main/maintainers.yaml,cncf-k2s-maintainers@lists.cncf.io
+Sandbox,K2s,Abhitosh Jauhari,Siemens Healthineers,abhitoshj,https://github.com/k2s-project/.project/blob/main/maintainers.yaml,cncf-k2s-maintainers@lists.cncf.io
 ,,Dieter Krotz,Siemens Healthineers AG,krotz-dieter,,
 ,,German Lopez,Individual,GermanGLLopez,,
 ,,Jacob Grieger,Siemens Healthineers AG,jgriegershs,,
@@ -1696,7 +1696,6 @@ Sandbox,kgateway,Andy Fong,Individual,andy-fong,https://github.com/kgateway-dev/
 ,,Arthur Berger,"Solo.io, Inc.",artberger,,
 ,,Ashley Wang,"Solo.io, Inc.",ashleywang1,,
 ,,Christian Posta,"Solo.io, Inc.",christian-posta,,
-,,Craig Box,Individual,craigbox,,
 ,,Daneyon Hansen,"Solo.io, Inc.",danehans,,
 ,,David Chandler,Individual,chandler-solo,,
 ,,David Jumani,"Solo.io, Inc.",davidjumani,,
