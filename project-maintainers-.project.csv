@@ -403,7 +403,7 @@ Graduated,Flux,Aurel Canciu,Individual,relu,https://github.com/fluxcd/.project/b
 ,,Michael Bridgen,Weaveworks Inc.,squaremo,,
 ,,Paulo Gomes,SUSE LLC,pjbgf,,
 ,,Sanskar Jaiswal,Kong Inc.,aryan9600,,
-,,Scott Rigby,Individual,scottrigby,,
+,,Scott Rigby,Teleport,scottrigby,,
 ,,Soulé Ba,ControlPlane Ltd.,souleb,,
 ,,Stefan Prodan,ControlPlane Ltd.,stefanprodan,,
 ,,Tamao Nakahara,Weaveworks Inc.,mewzherder,,
@@ -424,7 +424,7 @@ Graduated,Helm,Karen Chu,Apple,karenhchu,https://github.com/helm/.project/blob/m
 ,,Matt Butcher,"Akamai Technologies, Inc.",technosophos,,
 ,,Matt Farina,SUSE LLC,mattfarina,,
 ,,Reinhard Nägele,Individual,unguiculus,,
-,,Scott Rigby,Individual,scottrigby,,
+,,Scott Rigby,Teleport,scottrigby,,
 Graduated,in-toto,Aditya Sirish A Yelgundhalli,Individual - No Account 20,adityasaky,https://github.com/in-toto/.project/blob/main/maintainers.yaml,cncf-intoto-maintainers@lists.cncf.io
 ,,Jack Kelly,Control-Plane.io,06kellyjac,,
 ,,John Kjell,Control-Plane.io,jkjell,,
@@ -1339,6 +1339,7 @@ Sandbox,Cadence,[[unknown]] [[unknown]],Individual,andreasholt,https://github.co
 ,,Vladimir Gavrilenko,Individual,vladimir-gavrilenko,,
 ,,Yawei Zhang,Individual,YaweiZhang-930,,
 ,,Zijian Chen,Individual,Shaddoll,,
+Sandbox,CAIPE,,,,https://github.com/cnoe-io/.project/blob/main/maintainers.yaml,cncf-caipe-maintainers@lists.cncf.io
 Sandbox,Capsule,Adriano Pezzuto,CLASTIX,bsctl,https://github.com/projectcapsule/.project/blob/main/maintainers.yaml,cncf-capsule-maintainers@lists.cncf.io
 ,,Dario Tranchitella,CLASTIX,prometherion,,
 ,,Hristo Hristov,Tide Platform Ltd,Svarrogh1337,,
@@ -1710,7 +1711,7 @@ Sandbox,kgateway,Andy Fong,Individual,andy-fong,https://github.com/kgateway-dev/
 ,,Nadine Spies,Individual,Nadine2016,,
 ,,Nathan Fudenberg,Individual,nfuden,,
 ,,Nina Polshakova,Individual,npolshakova,,
-,,omar.hammami@ibm.com omar.hammami@ibm.com,Individual,puertomontt,,
+,,Omar Hammami,Individual,puertomontt,,
 ,,Petr McAllister,"Solo.io, Inc.",PetrMc,,
 ,,Rachael Graham,International Business Machines Corporation,Rachael-Graham,,
 ,,Sam Heilbron,"Solo.io, Inc.",sam-heilbron,,
@@ -1931,6 +1932,7 @@ Sandbox,LoxiLB,Baekgyun Jung,Individual,backguynn,https://github.com/loxilb-io/.
 ,,Dip J,Individual,TrekkieCoder,,
 ,,Inho Gog,Individual,inhogog2,,
 ,,Seokhwan Kong,Individual,UltraInstinct14,,
+Sandbox,MatrixHub,,,,https://github.com/matrixhub-ai/.project/blob/main/maintainers.yaml,cncf-matrixhub-maintainers@lists.cncf.io
 Sandbox,Meshery,Aabid Sofi,Individual,aabidsofi19,https://github.com/meshery/.project/blob/main/maintainers.yaml,cncf-meshery-maintainers@lists.cncf.io
 ,,Aadhitya A,Citi,alphax86,,
 ,,Aaditya Narayan,Individual,asubedy,,
@@ -2063,7 +2065,7 @@ Sandbox,OpenGitOps,Christian Hernandez,"Cisco Systems, Inc.",christianh814,https
 ,,Niki Manoledaki,"Raintank, Inc. – Grafana Labs",nikimanoledaki,,
 ,,Niklas Metje,Individual,niklasmtj,,
 ,,Roberth Strand,Sopra Steria Group,roberthstrand,,
-,,Scott Rigby,Individual,scottrigby,,
+,,Scott Rigby,Teleport,scottrigby,,
 Sandbox,OpenRL,,,,https://github.com/gke-labs/.project/blob/main/maintainers.yaml,cncf-openrl-maintainers@lists.cncf.io
 Sandbox,OpenShell,[[unknown]] [[unknown]],Individual,alangou,https://github.com/ai-openshell/.project/blob/main/maintainers.yaml,cncf-openshell-maintainers@lists.cncf.io
 ,,Derek Carr,Red Hat LLC,derekwaynecarr,,
