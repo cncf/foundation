@@ -851,7 +851,7 @@ Incubating,Cloud Custodian,AJ Kerrigan,Stacklet,ajkerrigan,https://github.com/cl
 ,,Sonny Shi,Stacklet,thisisshi,,
 ,,Todd Stansell,Individual,tjstansell,,
 Incubating,CloudNativePG,Armando Ruocco,EDB,armru,https://github.com/cloudnative-pg/.project/blob/main/maintainers.yaml,cncf-cloudnativepg-maintainers@lists.cncf.io
-,,Floor Drees,EnterpriseDB Corporation,FloorD,,
+,,Floor Drees,EDB,FloorD,,
 ,,Francesco Canovai,EDB,fcanovai,,
 ,,Gabriele Bartolini,EDB,gbartolini,,
 ,,Gabriele Fedi,EDB,GabriFedi97,,
@@ -919,7 +919,7 @@ Incubating,Flatcar,Adrian Vladu,Cloudbase Solutions S.R.L,ader1990,https://githu
 ,,Kai Lüke,amutable,pothos,,
 ,,Krzesimir Nowak,Kinvolk GmbH,krnowak,,
 ,,Mathieu Tortuyaux,Microsoft Corporation,tormath1,,
-,,Robin Schneider,Individual,robinschneider,,
+,,Robin Schneider,Schwarz Digits Cloud GmbH & Co. KG,robinschneider,,
 ,,Sayan Chowdhury,Microsoft Corporation,sayanchowdhury,,
 ,,Thilo Fromm,Microsoft Corporation,t-lo,,
 Incubating,Fluid Project,Bin Fan,"Alluxio, Inc.",apc999,https://github.com/fluid-cloudnative/.project/blob/main/maintainers.yaml,cncf-fluid-maintainers@lists.cncf.io
@@ -2336,6 +2336,7 @@ Sandbox,Virtual Kubelet,Ben Corrie,VMware LLC,corrieb,https://github.com/virtual
 ,,Pires Pires,Individual,pires,,
 ,,Sargun Dhillon,"Netflix, Inc.",sargun,,
 ,,Tim Killian,Snapchat,tskillian,,
+Sandbox,vm-api,,,,https://github.com/vm-api/.project/blob/main/maintainers.yaml,cncf-vm-api-maintainers@lists.cncf.io
 Sandbox,VS Code Kubernetes Tools,David Gamero,Individual,davidgamero,https://github.com/vscode-kubernetes-tools/.project/blob/main/maintainers.yaml,cncf-vscodek8s-maintainers@lists.cncf.io
 ,,Ralph Squillace,Microsoft Corporation,squillace,,
 ,,Suneha Bose,Individual,bosesuneha,,
