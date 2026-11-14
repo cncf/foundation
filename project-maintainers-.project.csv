@@ -382,16 +382,25 @@ Graduated,Falco,Aldo Lacuku,Kong Inc.,alacuku,https://github.com/falcosecurity/.
 ,,Roberto Scolaro,Sysdig,therealbobo,,
 ,,Samuel Gaist,Idiap Research Institute,sgaist,,
 ,,Thomas Labarussias,Yubo,issif,,
-Graduated,Fluentd,Daijiro Fukuda,Individual,daipom,https://github.com/fluent/.project/blob/main/maintainers.yaml,cncf-fluentd-maintainers@lists.cncf.io
+Graduated,Fluentd,,,alecholmes,https://github.com/fluent/.project/blob/main/maintainers.yaml,cncf-fluentd-maintainers@lists.cncf.io
+,,Anurag Gupta,Calyptia,agup006,,
+,,Daijiro Fukuda,Individual,daipom,,
 ,,Eduardo Silva,"Chronosphere, Inc.",edsiper,,
+,,Eric D Schabell,SUSE LLC,eschabell,,
 ,,,,fujimotos,,
 ,,Hiroshi Hatake,Individual,cosmo0920,,
+,,Jonathan Gonzalez V.,CloudNativePG,sxd,,
+,,Jorge Niedbalski,Calyptia,niedbalski,,
+,,José Lecaros Cisterna,Individual,lecaros,,
 ,,Kentaro Hayashi,Individual,kenhys,,
 ,,"Masahiro ""Masa"" Nakagawa",Treasure Data Inc.,repeatedly,,
 ,,Naotoshi Seo,ZOZO Inc,sonots,,
 ,,okkez okkez,Individual,okkez,,
+,,Patrick Stephens,Individual,patrick-stephens,,
 ,,Satoshi Tagomori,Sakura Internet Inc.,tagomoris,,
+,,,,ShelbyZ,,
 ,,Takuro Ashie,Individual,ashie,,
+,,Tanmaya Panda,Individual,tanmaya-panda1,,
 ,,Toru Takahashi,Individual,toru-takahashi,,
 Graduated,Flux,Aurel Canciu,Individual,relu,https://github.com/fluxcd/.project/blob/main/maintainers.yaml,cncf-flux-maintainers@lists.cncf.io
 ,,Dipti Pai,Individual,dipti-pai,,
@@ -914,7 +923,7 @@ Incubating,Flatcar,Adrian Vladu,Cloudbase Solutions S.R.L,ader1990,https://githu
 ,,Dongsu [[unknown]],Posteo.de/en,dongsupark,,
 ,,Ervin Racz,CoreAzure,ervcz,,
 ,,Gabriel Adrian Samfira,Cloudbase Solutions S.R.L,gabriel-samfira,,
-,,James Le Cuirot,Individual,chewi,,
+,,James Le Cuirot,Microsoft,chewi,,
 ,,Jan Bronicki,Individual,John15321,,
 ,,Jeremi Piotrowski,Individual,jepio,,
 ,,Kai Lüke,amutable,pothos,,
@@ -1114,7 +1123,7 @@ Incubating,OpenFGA,[[unknown]] [[unknown]],Individual,vic-dev,https://github.com
 ,,Andres Aguiar,Okta Inc.,aaguiarz,,
 ,,Anurag Bandyopadhyay,OpenFGA,SoulPancake,,
 ,,Dan Cech,,DanCech,,
-,,,,davidpatrick,,
+,,David Patrick,Individual,davidpatrick,,
 ,,Ewan Harris,Axway Inc.,ewanharris,,
 ,,Hemanth Reddy Yalla,Okta Inc.,hemanthreddy7,,
 ,,Jakub Hertyk,Individual,curfew-marathon,,
@@ -1251,7 +1260,8 @@ Sandbox,Agones,Ivy Gooch,Google,igooch,https://github.com/agones-dev/.project/bl
 Sandbox,AI Runway,Robbie Cronin,Microsoft,robert-cronin,https://github.com/ai-runway/.project/blob/main/maintainers.yaml,cncf-ai-runway-maintainers@lists.cncf.io
 ,,Sertaç Özercan,Microsoft Corporation,sozercan,,
 ,,Suraj Deshmukh,Microsoft,surajssd,,
-Sandbox,Akri,Lior Lustgarten,Individual,lilustga,https://github.com/project-akri/.project/blob/main/maintainers.yaml,cncf-akri-maintainers@lists.cncf.io
+Sandbox,Akri,Gaurav Gahlot,IONOS SE,gauravgahlot,https://github.com/project-akri/.project/blob/main/maintainers.yaml,cncf-akri-maintainers@lists.cncf.io
+,,Lior Lustgarten,Individual,lilustga,,
 ,,Marcel Bindseil,Microsoft,bindsi,,
 ,,Yu Jin Kim,Microsoft Corporation,yujinkim-msft,,
 Sandbox,Antrea,Antonin Bas,"Barefoot Networks, Inc.",antoninbas,https://github.com/antrea-io/.project/blob/main/maintainers.yaml,cncf-antrea-maintainers@lists.cncf.io
@@ -1933,7 +1943,17 @@ Sandbox,LoxiLB,Baekgyun Jung,Individual,backguynn,https://github.com/loxilb-io/.
 ,,Dip J,Individual,TrekkieCoder,,
 ,,Inho Gog,Individual,inhogog2,,
 ,,Seokhwan Kong,Individual,UltraInstinct14,,
-Sandbox,MatrixHub,,,,https://github.com/matrixhub-ai/.project/blob/main/maintainers.yaml,cncf-matrixhub-maintainers@lists.cncf.io
+Sandbox,MatrixHub,[[unknown]] [[unknown]],Individual,lemontrees123,https://github.com/matrixhub-ai/.project/blob/main/maintainers.yaml,cncf-matrixhub-maintainers@lists.cncf.io
+,,jinye shi,Individual,shijinye,,
+,,Kay Yan,"DaoCloud Network Technology Co., Ltd.",yankay,,
+,,Leo Shi,DaoCloud LLC,scydas,,
+,,,,lsq645599166,,
+,,Samzong Lu,"DaoCloud Network Technology Co., Ltd.",samzong,,
+,,Shiming Zhang,"DaoCloud Network Technology Co., Ltd.",wzshiming,,
+,,sSS sSS,Individual,setsunakute,,
+,,xinyi Sun,"DaoCloud Network Technology Co., Ltd.",Phil-OSophy-42,,
+,,yiting jiang,"DaoCloud Network Technology Co., Ltd.",yitingdc,,
+,,汤 海,"DaoCloud Network Technology Co., Ltd.",CoderTH,,
 Sandbox,Meshery,Aabid Sofi,Individual,aabidsofi19,https://github.com/meshery/.project/blob/main/maintainers.yaml,cncf-meshery-maintainers@lists.cncf.io
 ,,Aadhitya A,Citi,alphax86,,
 ,,Aaditya Narayan,Individual,asubedy,,
@@ -2269,12 +2289,12 @@ Sandbox,Spiderpool,cyclinder kuo,Individual,cyclinder,https://github.com/spidern
 ,,huailou zhai,"DaoCloud Network Technology Co., Ltd.",lou-lan,,
 ,,Kay Yan,"DaoCloud Network Technology Co., Ltd.",yankay,,
 ,,leo blue,"Daocloud Network Technology Co,. Ltd",leoblue0924,,
-,,Lynch Lan,Individual,LynchLan,,
 ,,Michael Yao,"DaoCloud Network Technology Co., Ltd.",windsonsea,,
 ,,Rong Zhang,Individual,riverzhang,,
 ,,weizhou lan,"Daocloud Network Technology Co,. Ltd",weizhoublue,,
 ,,,,yanhb-nil,,
 ,,Yuanhang Pan,"DaoCloud Network Technology Co., Ltd.",panpan0000,,
+,,zikai lan,Individual,zikailan86,,
 Sandbox,Spin,,,alexcrichton,https://github.com/spinframework/.project/blob/main/maintainers.yaml,cncf-spin-maintainers@lists.cncf.io
 ,,Brian Hardock,Akamai Technologies,fibonacci1729,,
 ,,Caleb Schoepp,Individual,calebschoepp,,
