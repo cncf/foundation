@@ -1350,7 +1350,16 @@ Sandbox,Cadence,[[unknown]] [[unknown]],Individual,andreasholt,https://github.co
 ,,Vladimir Gavrilenko,Individual,vladimir-gavrilenko,,
 ,,Yawei Zhang,Individual,YaweiZhang-930,,
 ,,Zijian Chen,Individual,Shaddoll,,
-Sandbox,CAIPE,,,,https://github.com/cnoe-io/.project/blob/main/maintainers.yaml,cncf-caipe-maintainers@lists.cncf.io
+Sandbox,CAIPE,,,adickinson72,https://github.com/caipe-io/.project/blob/main/maintainers.yaml,cncf-caipe-maintainers@lists.cncf.io
+,,,,artdroz,,
+,,Carlos Alberto Santana,"Amazon Web Services, Inc.",csantanapr,,
+,,,,cisco-erilutz,,
+,,Hasith Kalpage,"Cisco Systems, Inc.",haskalpa,,
+,,,,kevkantes,,
+,,,,niallthomson,,
+,,Sri Aradhyula,"Cisco Systems, Inc.",sriaradhyula,,
+,,,,subbaksh,,
+,,,,suwhang-cisco,,
 Sandbox,Capsule,Adriano Pezzuto,CLASTIX,bsctl,https://github.com/projectcapsule/.project/blob/main/maintainers.yaml,cncf-capsule-maintainers@lists.cncf.io
 ,,Dario Tranchitella,CLASTIX,prometherion,,
 ,,Hristo Hristov,Tide Platform Ltd,Svarrogh1337,,
@@ -1871,7 +1880,10 @@ Sandbox,KubeFleet,Britania Rodriguez Reyes,Microsoft,britaniar,https://github.co
 ,,Wei Weng,Individual,weng271190436,,
 ,,Yetkin Timocin,Individual,ytimocin,,
 ,,Zhiying Lin,Individual,zhiying-lin,,
-Sandbox,KubeRay,,,,https://github.com/ray-project/.project/blob/main/maintainers.yaml,cncf-kuberay-maintainers@lists.cncf.io
+Sandbox,KubeRay,Andrew Kim,Individual,andrewsykim,https://github.com/kuberay-project/.project/blob/main/maintainers.yaml,cncf-kuberay-maintainers@lists.cncf.io
+,,Jui-An Huang,Anyscale Inc,rueian,,
+,,Kai-Hsun Chen,Individual,kevin85421,,
+,,,,MortalHappiness,,
 Sandbox,Kuberhealthy,Eric Greer,Individual - No Account 20,integrii,https://github.com/kuberhealthy/.project/blob/main/maintainers.yaml,cncf-kuberhealthy-maintainers@lists.cncf.io
 Sandbox,Kubernetes AI Toolchain Operator (KAITO),Andy Zhang,Microsoft Corporation,andyzhangx,https://github.com/kaito-project/.project/blob/main/maintainers.yaml,cncf-kaito-maintainers@lists.cncf.io
 ,,Fei Guo,Individual,Fei-Guo,,
@@ -2087,7 +2099,10 @@ Sandbox,OpenGitOps,Christian Hernandez,"Cisco Systems, Inc.",christianh814,https
 ,,Niklas Metje,Individual,niklasmtj,,
 ,,Roberth Strand,Sopra Steria Group,roberthstrand,,
 ,,Scott Rigby,Teleport,scottrigby,,
-Sandbox,OpenRL,,,,https://github.com/gke-labs/.project/blob/main/maintainers.yaml,cncf-openrl-maintainers@lists.cncf.io
+Sandbox,OpenRL,Hoda Mohammadi,Individual,hodaaaaaaaaaa,https://github.com/openrl-dev/.project/blob/main/maintainers.yaml,cncf-openrl-maintainers@lists.cncf.io
+,,Shuby Mishra,Individual,ShubyM,,
+,,Steven Linde,Individual,linde,,
+,,Sunil Arora,Google LLC,droot,,
 Sandbox,OpenShell,[[unknown]] [[unknown]],Individual,alangou,https://github.com/ai-openshell/.project/blob/main/maintainers.yaml,cncf-openshell-maintainers@lists.cncf.io
 ,,Derek Carr,Red Hat LLC,derekwaynecarr,,
 ,,Drew Newberry,Individual,drew,,
