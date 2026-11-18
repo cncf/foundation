@@ -688,7 +688,7 @@ Graduated,OpenTelemetry,,,aalexand,https://github.com/open-telemetry/.project/bl
 ,,David Ashpole,Google LLC,dashpole,,
 ,,David Luna Bistuer,Individual,david-luna,,
 ,,Denys Sedchenko,Individual,x1unix,,
-,,Dmitrii Anoshin,Splunk Inc.,dmitryax,,
+,,Dmitrii Anoshin,Individual – No  Account,dmitryax,,
 ,,Douglas Barker,Individual,dbarker,,
 ,,Douglas Camata,Coralogix,douglascamata,,
 ,,Drew Relmas,Individual,drewrelmas,,
@@ -963,7 +963,7 @@ Incubating,HAMi,chen wen,Individual,calvin0327,https://github.com/Project-HAMi/.
 ,,Yin Yu,Individual,nimbus318,,
 ,,王纪飞 王纪飞,Individual,fouof,,
 Incubating,k8gb,Andre Baptista Aguas,Individual,abaguas,https://github.com/k8gb-io/.project/blob/main/maintainers.yaml,cncf-k8gb-maintainers@lists.cncf.io
-,,Bradley Andersen,k8gb,elohmrow,,
+,,Bradley David Andersen,k8gb,elohmrow,,
 ,,Dinar Valeev,Absa Bank Limited,k0da,,
 ,,Donovan Muller,Absa Bank Limited,donovanmuller,,
 ,,Jiří Kremser,Individual,jkremser,,
@@ -1276,14 +1276,14 @@ Sandbox,Apicurio Registry,Carles Arnal,Individual,carlesarnal,https://github.com
 ,,Vandana Yadav,Individual,vandanayadav7,,
 Sandbox,Armada,,,d80tb7,https://github.com/armadaproject/.project/blob/main/maintainers.yaml,cncf-armada-maintainers@lists.cncf.io
 ,,Dave Gantenbein,G-Research,dave-gantenbein,,
-,,,,dejanzele,,
+,,Dejan Pejčev,Individual,dejanzele,,
 ,,,,eleanorpratt,,
 ,,,,gabrielgalera,,
 ,,Geoffrey Wilson,gr-oss.io,suprjinx,,
 ,,,,JamesMurkin,,
 ,,Martynas Asipauskas,Individual,masipauskas,,
 ,,Maurice Yap,Individual,mauriceyap,,
-,,,,MustafaI,,
+,,Mustafa Ilyas,Individual,MustafaI,,
 ,,Nikola Jokic,Individual,nikola-jokic,,
 ,,,,richscott,,
 ,,,,robertdavidsmith,,
@@ -1900,14 +1900,12 @@ Sandbox,KubeStellar,Andy Anderson,Kubestellar,clubanderson,https://github.com/ku
 ,,Mike Spreitzer,International Business Machines Corporation,MikeSpreitzer,,
 ,,Paolo Dettori,International Business Machines Corporation,pdettori,,
 Sandbox,Kubewarden,Alessio Biancalana,SUSE LLC,dottorblaster,https://github.com/kubewarden/.project/blob/main/maintainers.yaml,cncf-kubewarden-maintainers@lists.cncf.io
-,,Alessio Greggi,Individual,alegrey91,,
 ,,Fabrizio Sestito,Individual,fabriziosestito,,
 ,,Flavio Castelli,SUSE LLC,flavio,,
 ,,José Guilherme Vanz,SUSE LLC,jvanz,,
+,,,,kravciak,,
 ,,Kyle Dong,Individual,kyledong-suse,,
 ,,Olivier Vernin,SUSE Software Solutions Germany GmbH,olblak,,
-,,Rafael Fernández López,VMware LLC,ereslibre,,
-,,Raul Cabello Martin,Individual,raulcabello,,
 ,,Shang-Wen Wang,SUSE LLC,holyspectral,,
 ,,Víctor Cuadrado,SUSE Software Solutions Germany GmbH,viccuad,,
 Sandbox,KUDO,Alena Varkočková,Individual,alenkacz,https://github.com/kudobuilder/.project/blob/main/maintainers.yaml,cncf-kudo-maintainers@lists.cncf.io
@@ -1955,16 +1953,16 @@ Sandbox,LoxiLB,Baekgyun Jung,Individual,backguynn,https://github.com/loxilb-io/.
 ,,Dip J,Individual,TrekkieCoder,,
 ,,Inho Gog,Individual,inhogog2,,
 ,,Seokhwan Kong,Individual,UltraInstinct14,,
-Sandbox,MatrixHub,[[unknown]] [[unknown]],Individual,lemontrees123,https://github.com/matrixhub-ai/.project/blob/main/maintainers.yaml,cncf-matrixhub-maintainers@lists.cncf.io
-,,jinye shi,Individual,shijinye,,
+Sandbox,MatrixHub,jinye shi,Individual,shijinye,https://github.com/matrixhub-ai/.project/blob/main/maintainers.yaml,cncf-matrixhub-maintainers@lists.cncf.io
 ,,Kay Yan,"DaoCloud Network Technology Co., Ltd.",yankay,,
 ,,Leo Shi,DaoCloud LLC,scydas,,
-,,,,lsq645599166,,
+,,Liu Shuang,Individual,lemontrees123,,
 ,,Samzong Lu,"DaoCloud Network Technology Co., Ltd.",samzong,,
 ,,Shiming Zhang,"DaoCloud Network Technology Co., Ltd.",wzshiming,,
 ,,sSS sSS,Individual,setsunakute,,
 ,,xinyi Sun,"DaoCloud Network Technology Co., Ltd.",Phil-OSophy-42,,
 ,,yiting jiang,"DaoCloud Network Technology Co., Ltd.",yitingdc,,
+,,世奇 刘,Individual,lsq645599166,,
 ,,汤 海,"DaoCloud Network Technology Co., Ltd.",CoderTH,,
 Sandbox,Meshery,Aabid Sofi,Individual,aabidsofi19,https://github.com/meshery/.project/blob/main/maintainers.yaml,cncf-meshery-maintainers@lists.cncf.io
 ,,Aadhitya A,Citi,alphax86,,
@@ -2139,9 +2137,9 @@ Sandbox,OVN-Kubernetes,Girish US,NVIDIA Corporation,girishmg,https://github.com/
 ,,Patryk Diak,Red Hat,kyrtapz,,
 ,,Surya Seetharaman,Red Hat LLC,tssurya,,
 ,,Tim Rozet,NVIDIA,trozet,,
-Sandbox,Oxia,,,codelipenghui,https://github.com/oxia-db/.project/blob/main/maintainers.yaml,oxia-maintainers@lists.cncf.io
-,,Cong Zhao,Individual,coderzc,,
+Sandbox,Oxia,Cong Zhao,Individual,coderzc,https://github.com/oxia-db/.project/blob/main/maintainers.yaml,oxia-maintainers@lists.cncf.io
 ,,Matteo Merli,Apache Software Foundation,merlimat,,
+,,PengHui Li,Individual,codelipenghui,,
 ,,Qiang Zhao,Individual,mattisonchao,,
 ,,,,RobertIndie,,
 ,,Sijie Guo,Apache Software Foundation,sijie,,
@@ -2181,7 +2179,7 @@ Sandbox,Perses,,,adrianSepiol,https://github.com/perses/.project/blob/main/maint
 ,,,,shahrokni,,
 ,,,,sjcobb,,
 Sandbox,PipeCD,Eeshaan Sawant,Ascensio System SIA,eeshaanSA,https://github.com/pipe-cd/.project/blob/main/maintainers.yaml,cncf-PipeCD-maintainers@lists.cncf.io
-,,Mohammed Firdous Araoye,Individual,mohammedfirdouss,,
+,,Mohammed Firdous Araoye,PipeCD,mohammedfirdouss,,
 ,,Nghia Le Van,"CyberAgent, Inc.",nghialv,,
 ,,Ngô Lê,Individual,armistcxy,,
 ,,Shinnosuke Sawada-Dazai,Individual,Warashi,,
@@ -2372,7 +2370,7 @@ Sandbox,Virtual Kubelet,Ben Corrie,VMware LLC,corrieb,https://github.com/virtual
 ,,Pires Pires,Individual,pires,,
 ,,Sargun Dhillon,"Netflix, Inc.",sargun,,
 ,,Tim Killian,Snapchat,tskillian,,
-Sandbox,vm-api,,,,https://github.com/vm-api/.project/blob/main/maintainers.yaml,cncf-vm-api-maintainers@lists.cncf.io
+Sandbox,vm-api,Arunesh Pandey,VMware LLC,aruneshpa,https://github.com/vm-api/.project/blob/main/maintainers.yaml,cncf-vm-api-maintainers@lists.cncf.io
 Sandbox,VS Code Kubernetes Tools,David Gamero,Individual,davidgamero,https://github.com/vscode-kubernetes-tools/.project/blob/main/maintainers.yaml,cncf-vscodek8s-maintainers@lists.cncf.io
 ,,Ralph Squillace,Microsoft Corporation,squillace,,
 ,,Suneha Bose,Individual,bosesuneha,,
