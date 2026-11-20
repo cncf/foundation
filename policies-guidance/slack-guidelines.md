@@ -16,7 +16,7 @@ Abuse of the voice/video calling features to call users without their permission
 
 ## Reporting a Problem
 
-The CNCF Slack has an integrated tool for reporting issues with messages. It may be accessed on the <kbd>More actions</kbd> menu, by clicking on the <kbd>⋮</kbd> icon to the right of a message, and selecting <kbd>Report to Slack</kbd>.
+The CNCF Slack has an integrated method for reporting issues with messages. It may be accessed by clicking on the <kbd>⋮</kbd> icon to the right of a message, then clicking on <kbd>Connect to apps</kbd>, then <kbd>More message shortcuts...</kbd>, scrolling down and selecting <kbd>Report to Slack</kbd>.
 
 Slack guidelines patterned after the [HubSpot Developer Slack Code of Conduct](https://designers.hubspot.com/slack/code-of-conduct) and the [Kubernetes Slack Guidelines](https://github.com/kubernetes/community/blob/master/communication/slack-guidelines.md).
 
