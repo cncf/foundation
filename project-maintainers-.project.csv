@@ -1043,7 +1043,7 @@ Incubating,Longhorn,Chin-Ya Huang,SUSE LLC,c3y1huang,https://github.com/longhorn
 ,,Jinhong Kim,NAVER Corp.,hookak,,
 ,,Phan Le,SUSE LLC,PhanLe1010,,
 ,,Sheng Yang,SUSE LLC,yasker,,
-,,Shuo Wu,Individual,shuo-wu,,
+,,Shuo Wu,SUSE LLC,shuo-wu,,
 Incubating,Metal³,Bob Fournier,Red Hat LLC,bfournie,https://github.com/metal3-io/.project/blob/main/maintainers.yaml,cncf-metal3-io-maintainers@lists.cncf.io
 ,,Dmitry Tantsur,Red Hat LLC,dtantsur,,
 ,,Feruzjon Muyassarov,Individual,fmuyassarov,,
@@ -1351,7 +1351,7 @@ Sandbox,Cadence,[[unknown]] [[unknown]],Individual,andreasholt,https://github.co
 ,,Yawei Zhang,Individual,YaweiZhang-930,,
 ,,Zijian Chen,Individual,Shaddoll,,
 Sandbox,CAIPE,,,adickinson72,https://github.com/caipe-io/.project/blob/main/maintainers.yaml,cncf-caipe-maintainers@lists.cncf.io
-,,,,artdroz,,
+,,Arthur Drozdov,Individual,artdroz,,
 ,,Carlos Alberto Santana,"Amazon Web Services, Inc.",csantanapr,,
 ,,,,cisco-erilutz,,
 ,,Hasith Kalpage,"Cisco Systems, Inc.",haskalpa,,
@@ -2023,8 +2023,7 @@ Sandbox,NMstate,enrique llorente,Red Hat LLC,qinqon,https://github.com/nmstate/.
 ,,Ján Václav,Red Hat LLC,jvaclav-rh,,
 ,,Mateusz Kowalski,Red Hat LLC,mkowalski,,
 ,,Rahul Rajesh,Red Hat LLC,rajeshrah22,,
-Sandbox,OAuth2 Proxy,Jacek Lakis,Intel Corporation,jjlakis,https://github.com/oauth2-proxy/.project/blob/main/maintainers.yaml,oauth2-proxy-maintainers@lists.cncf.io
-,,Jan Larwig,STACKIT,tuunit,,
+Sandbox,OAuth2 Proxy,Jan Larwig,STACKIT,tuunit,https://github.com/oauth2-proxy/.project/blob/main/maintainers.yaml,oauth2-proxy-maintainers@lists.cncf.io
 ,,Joel Speed,Red Hat LLC,joelspeed,,
 ,,Pierluigi Lenoci,SAP,pierluigilenoci,,
 Sandbox,Open Policy Registry (OPCR),Andrew Poland,aserto,apoland,https://github.com/opcr-io/.project/blob/main/maintainers.yaml,cncf-OPCR-maintainers@lists.cncf.io
