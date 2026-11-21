@@ -678,7 +678,7 @@ Graduated,OpenTelemetry,,,aalexand,https://github.com/open-telemetry/.project/bl
 ,,Christophe Kamphaus,Individual,kamphaus,,
 ,,Christos Kalkanis,Individual,christos68k,,
 ,,Christos Markou,"Elasticsearch, Inc.",ChrsMark,,
-,,Cijo Thomas,Microsoft Corporation,cijothomas,,
+,,Cijo Thomas,Apple Inc.,cijothomas,,
 ,,Cyrille Clerc,Individual,cyrille-leclerc,,
 ,,Damien Mathieu,Elastic,dmathieu,,
 ,,Dan Gomez Blanco,"New Relic, Inc.",danielgblanco,,
@@ -834,6 +834,7 @@ Graduated,Vitess,Arthur Schreiber,"PlanetScale, Inc.",arthurschreiber,https://gi
 ,,Derek Perkins,Nozzle,derekperkins,,
 ,,Florent Poinsard,"PlanetScale, Inc.",frouioui,,
 ,,Matt Lord,"PlanetScale, Inc.",mattlord,,
+,,Miguel Ángel Pastor Olivar,OSGi Alliance,migue,,
 ,,Mohamed Hamza,Individual,mhamza15,,
 ,,Tim Vaillancourt,Individual,timvaillancourt,,
 Incubating,Artifact Hub,Cintia Sánchez García,Cloud Native Computing Foundation,cynthia-sg,https://github.com/artifacthub/.project/blob/main/maintainers.yaml,cncf-artifacthub-maintainers@lists.cncf.io
@@ -927,7 +928,7 @@ Incubating,Flatcar,Adrian Vladu,Cloudbase Solutions S.R.L,ader1990,https://githu
 ,,Jan Bronicki,Individual,John15321,,
 ,,Jeremi Piotrowski,Individual,jepio,,
 ,,Kai Lüke,amutable,pothos,,
-,,Krzesimir Nowak,Kinvolk GmbH,krnowak,,
+,,Krzesimir Nowak,Microsoft,krnowak,,
 ,,Mathieu Tortuyaux,Microsoft Corporation,tormath1,,
 ,,Robin Schneider,Schwarz Digits Cloud GmbH & Co. KG,robinschneider,,
 ,,Sayan Chowdhury,Microsoft Corporation,sayanchowdhury,,
@@ -1465,7 +1466,7 @@ Sandbox,ContainerSSH,Alberto Pimpo,CERN,AlbertoPimpo,https://github.com/containe
 ,,Nikos Tsipinakis,CERN,tsipinakis,,
 ,,Raulian-Ionut Chiorescu,CERN,gigabyte132,,
 Sandbox,Copa,Ashna Mehrotra,Individual,ashnamehrotra,https://github.com/project-copacetic/.project/blob/main/maintainers.yaml,cncf-copa-maintainers@lists.cncf.io
-,,Jeremy Rickard,VMware LLC,jeremyrickard,,
+,,,,jeremyrickard,,
 ,,Omer Cohen,Individual,omercnet,,
 ,,Robbie Cronin,Microsoft,robert-cronin,,
 ,,Sertaç Özercan,Microsoft Corporation,sozercan,,
@@ -1484,7 +1485,7 @@ Sandbox,Curvine,,,jlon,https://github.com/CurvineIO/.project/blob/main/maintaine
 ,,xuen xuen,Individual,bigbigxu,,
 ,,yangchunxin yangchunxin,Individual,yangcx000,,
 ,,zejun lv,Individual,lzjqsdd,,
-Sandbox,Dalec,Brian Goff,"Docker, Inc.",cpuguy83,https://github.com/project-dalec/.project/blob/main/maintainers.yaml,dalec-maintainers@lists.cncf.io
+Sandbox,Dalec,Brian Goff,Microsoft Corporation,cpuguy83,https://github.com/project-dalec/.project/blob/main/maintainers.yaml,dalec-maintainers@lists.cncf.io
 ,,,,jrrickard,,
 ,,Peter Engelbert,Microsoft,pmengelbert,,
 Sandbox,Devfile,Angel Misevski,"Akara Technologies, Inc",amisevsk,https://github.com/devfile/.project/blob/main/maintainers.yaml,cncf-devfile-maintainers@lists.cncf.io
@@ -1521,7 +1522,7 @@ Sandbox,Drasi,Agent LFX,Individual,agentofreality,https://github.com/drasi-proje
 Sandbox,easegress,Chen Su,"MegaEase, Inc.",suchen-sci,https://github.com/easegress-io/.project/blob/main/maintainers.yaml,cncf-easegress-maintainers@lists.cncf.io
 ,,Yun Long,"MegaEase, Inc.",xxx7xxxx,,
 Sandbox,Eraser,Ashna Mehrotra,Individual,ashnamehrotra,https://github.com/eraser-dev/.project/blob/main/maintainers.yaml,cncf-eraser-maintainers@lists.cncf.io
-,,Brian Goff,"Docker, Inc.",cpuguy83,,
+,,Brian Goff,Microsoft Corporation,cpuguy83,,
 ,,Peter Engelbert,Microsoft,pmengelbert,,
 ,,Sertaç Özercan,Microsoft Corporation,sozercan,,
 Sandbox,External Secrets Operator,Alexander Chernov,Individual,alekc,https://github.com/external-secrets/.project/blob/main/maintainers.yaml,cncf-externalsecretsop-maintainers@lists.cncf.io
@@ -2103,6 +2104,7 @@ Sandbox,OpenRL,Hoda Mohammadi,Individual,hodaaaaaaaaaa,https://github.com/openrl
 ,,Sunil Arora,Google LLC,droot,,
 Sandbox,OpenShell,[[unknown]] [[unknown]],Individual,alangou,https://github.com/ai-openshell/.project/blob/main/maintainers.yaml,cncf-openshell-maintainers@lists.cncf.io
 ,,Derek Carr,Red Hat LLC,derekwaynecarr,,
+,,Divesh Chowdary,Individual,FrostGod,,
 ,,Drew Newberry,Individual,drew,,
 ,,Evan Lezar,Individual,elezar,,
 ,,Jim Meyer,Individual,purp,,
@@ -2229,7 +2231,7 @@ Sandbox,Podman Desktop,axel7083 axel7083,Individual,axel7083,https://github.com/
 ,,Vladyslav Zhukovskyi,Individual,vzhukovs,,
 Sandbox,Porter,Brian DeGeeter,Defense Unicorns,bdegeeter,https://github.com/getporter/.project/blob/main/maintainers.yaml,cncf-porter-maintainers@lists.cncf.io
 ,,David Gannon,Individual,dgannon991,,
-,,Jeremy Rickard,VMware LLC,jeremyrickard,,
+,,,,jeremyrickard,,
 ,,Kim Christensen,SimCorp A/S,kichristensen,,
 ,,Sarah Christoff,Individual,schristoff,,
 ,,Steven Gettys,Individual,sgettys,,
